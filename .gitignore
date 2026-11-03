@@ -1,6 +1,7 @@
 # AI multi-agent workflow tooling — local-only, not shared upstream.
 # See CONTRIBUTING.md for why this stays out of version control.
 .claude/
+.cursor/
 Artifacts/
 findings/
 CLAUDE.md
