@@ -50,10 +50,8 @@ explain *why*, not *what* — the diff already shows what changed.
 
 ## Pull requests
 
-- Branch from the default branch; name branches `<type>/<short-description>`
-  (e.g. `feat/search-pagination`).
+- Develop on the branch corresponding to your name, not directly on the
+  default branch; open a pull request from it when ready for review.
 - Keep PRs scoped to one logical change; split unrelated changes into
   separate PRs.
-- Fill in the commands from `CLAUDE.md` (`## Commands`) locally before
-  opening a PR — lint/test/build should pass.
 - Reference any related issue in the PR description.
