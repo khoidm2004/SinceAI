@@ -57,12 +57,3 @@ explain *why*, not *what* — the diff already shows what changed.
 - Fill in the commands from `CLAUDE.md` (`## Commands`) locally before
   opening a PR — lint/test/build should pass.
 - Reference any related issue in the PR description.
-
-## AI-assisted workflow
-
-This repo uses a local multi-agent coding workflow (analyze → plan → code →
-test) documented in `CLAUDE.md`. Its working files — `.claude/`,
-`Artifacts/`, `findings/`, and `CLAUDE.md` itself — are gitignored and never
-pushed upstream; they're personal/local tooling, not part of the shipped
-project. You don't need this tooling to contribute, and its presence or
-absence should never show up in a diff.
