@@ -50,9 +50,10 @@ explain *why*, not *what* — the diff already shows what changed.
 
 ## Pull requests
 
-- Develop on a branch named `<name>/<type>/<short-description>` (e.g.
-  `khoi/UI/design-wireframe`), not directly on the default branch; open a
-  pull request from it when ready for review.
+- Branch from the default branch; name branches `<type>/<short-description>`
+  (e.g. `feat/search-pagination`).
+- Everyone contributes to `main` through a pull request — no direct
+  pushes. Open the PR only once it's ready to be reviewed.
 - Keep PRs scoped to one logical change; split unrelated changes into
   separate PRs.
 - Reference any related issue in the PR description.
