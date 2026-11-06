@@ -1,0 +1,434 @@
+{
+  "tool": "pets-eval 1.0.0",
+  "dataset": "mobility",
+  "scenario": null,
+  "original": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/data/mobility",
+  "protected": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/results/b0/mobility",
+  "tables": {
+    "bike_stations": {
+      "table": "bike_stations",
+      "status": "released",
+      "rows_original": 75,
+      "rows_protected": 75,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "note": "no catalogued quasi-identifier kept"
+      },
+      "row_alignment": "row map",
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0
+      },
+      "seconds": 0.0
+    },
+    "bike_trips": {
+      "table": "bike_trips",
+      "status": "released",
+      "rows_original": 57831,
+      "rows_protected": 57831,
+      "columns_dropped": [
+        "user_account"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "start_ts",
+          "end_ts",
+          "start_lat",
+          "start_lon",
+          "end_lat",
+          "end_lon",
+          "start_station",
+          "end_station"
+        ],
+        "n": 57831,
+        "n_classes": 57831,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "start_ts",
+          "end_ts",
+          "start_lat",
+          "start_lon",
+          "end_lat",
+          "end_lon",
+          "start_station",
+          "end_station"
+        ],
+        "n": 57831,
+        "n_classes": 57831,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "trajectory_unicity": {
+        "user_account": {
+          "evaluated": true,
+          "unicity": 0.0,
+          "note": "user_account removed: traces cannot be linked",
+          "unicity_original": 0.995,
+          "attack": "Unicity of bike accounts from 3 known (500 m cell, hour) trip starts."
+        }
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "fitness_app_leak": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "geo",
+              "adversary": [
+                "start_lat",
+                "start_lon"
+              ],
+              "protected": [
+                "start_lat",
+                "start_lon"
+              ]
+            },
+            {
+              "kind": "time",
+              "adversary": [
+                "start_time"
+              ],
+              "protected": [
+                "start_ts"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 1948,
+          "n_targets_in_data": 449,
+          "reidentification_rate": 0.0089,
+          "claim_precision": 0.0161,
+          "n_unique_claims": 248,
+          "share_targets_in_candidate_set_le5": 0.0223,
+          "median_candidate_set": 1.0,
+          "attack": "Leaked run start points (near home) and times; bike trips that start near the same home.",
+          "baseline_reidentification_rate_original": 0.0089,
+          "risk_reduction": 0.0
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 1.0,
+        "trajectory unicity (user_account)": 0.0,
+        "linkage re-identification": 0.0089
+      },
+      "seconds": 16.7
+    },
+    "cards": {
+      "table": "cards",
+      "status": "released",
+      "rows_original": 22619,
+      "rows_protected": 22619,
+      "columns_dropped": [
+        "holder_name",
+        "holder_email",
+        "holder_phone"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "card_type",
+          "issued_date",
+          "holder_birth_date",
+          "holder_postcode"
+        ],
+        "n": 22619,
+        "n_classes": 19382,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.7825,
+          "k<5": 0.9587,
+          "k<10": 0.9976
+        },
+        "sample_uniqueness": 0.7825
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "card_type",
+          "issued_date",
+          "holder_birth_date",
+          "holder_postcode"
+        ],
+        "n": 22619,
+        "n_classes": 19382,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.7825,
+          "k<5": 0.9587,
+          "k<10": 0.9976
+        },
+        "sample_uniqueness": 0.7825
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "public_directory": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "postcode",
+              "adversary": [
+                "postcode"
+              ],
+              "protected": [
+                "holder_postcode"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 3000,
+          "n_targets_in_data": 732,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 7384.0,
+          "attribute_inference": {
+            "sensitive": "card_type",
+            "inferred": 0,
+            "base_rate_majority_guess": 0.6831,
+            "advantage_over_base_rate": 0.0,
+            "success_rate": 0.0
+          },
+          "attack": "Directory lookup of personalised travel-card holders.",
+          "baseline_reidentification_rate_original": 0.0
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.9587,
+        "linkage re-identification": 0.0
+      },
+      "seconds": 3.4
+    },
+    "stops": {
+      "table": "stops",
+      "status": "released",
+      "rows_original": 602,
+      "rows_protected": 602,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "note": "no catalogued quasi-identifier kept"
+      },
+      "row_alignment": "row map",
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0
+      },
+      "seconds": 0.0
+    },
+    "taps": {
+      "table": "taps",
+      "status": "released",
+      "rows_original": 942781,
+      "rows_protected": 942781,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "ts",
+          "stop_id",
+          "line",
+          "fare_product"
+        ],
+        "n": 942781,
+        "n_classes": 935738,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9853,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9853
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts",
+          "stop_id",
+          "line",
+          "fare_product"
+        ],
+        "n": 942781,
+        "n_classes": 935738,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9853,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9853
+      },
+      "trajectory_unicity": {
+        "card_id": {
+          "evaluated": true,
+          "p": 4,
+          "spatial_m": 500,
+          "temporal": "1h",
+          "n_users_tested": 1000,
+          "unicity": 0.97,
+          "unicity_original": 0.97,
+          "attack": "Unicity: share of travel cards singled out by 4 known (stop, hour) points (de Montjoye et al. 2013)."
+        }
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 1.0,
+        "trajectory unicity (card_id)": 0.97
+      },
+      "seconds": 22.1
+    }
+  },
+  "extra_protected_files": [],
+  "utility": [
+    {
+      "id": "MOB-U1",
+      "table": "taps",
+      "kind": "aggregate",
+      "description": "Weekday OD matrix area x area x hour band (trip chaining)",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - MAPE/0.5 over OD cells with >=20 journeys",
+      "detail": {
+        "mape": 0.0,
+        "cells": 1163
+      }
+    },
+    {
+      "id": "MOB-U2",
+      "table": "taps",
+      "kind": "aggregate",
+      "description": "Weekday boardings by line x hour",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - MAPE/0.5 over line x hour cells with >=50 boardings",
+      "detail": {
+        "mape": 0.0
+      }
+    },
+    {
+      "id": "MOB-U3",
+      "table": "taps",
+      "kind": "aggregate",
+      "description": "Daily boardings time series (school break dip, weekends)",
+      "required": true,
+      "score": 0.9999999999999998,
+      "metric": "(1 - MAPE/0.3) x Pearson r of daily boardings",
+      "detail": {
+        "mape": 0.0,
+        "r": 0.9999999999999998
+      }
+    },
+    {
+      "id": "MOB-U4",
+      "table": "bike_trips",
+      "kind": "distribution",
+      "description": "Bike trip duration distribution",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - 2*TVD of duration histogram (2-min bins)",
+      "detail": {
+        "tvd": 0.0
+      }
+    },
+    {
+      "id": "MOB-U5",
+      "table": "taps",
+      "kind": "relationship",
+      "description": "Home-area -> work-area commuting flows (card-days)",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - MAPE/0.5 over home-area x work-area card-day flows (>=10)",
+      "detail": {
+        "mape": 0.0
+      }
+    },
+    {
+      "id": "MOB-U6",
+      "table": "bike_trips",
+      "kind": "aggregate",
+      "description": "Bike zone demand: starts by zone x hour band",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - MAPE/0.5 over zone x hour-band starts (>=20)",
+      "detail": {
+        "mape": 0.0
+      }
+    },
+    {
+      "id": "MOB-U7",
+      "table": "bike_trips",
+      "kind": "distribution",
+      "description": "Bike ridden-distance distribution",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - 2*TVD of ridden distance histogram (500 m bins)",
+      "detail": {
+        "tvd": 0.0
+      }
+    },
+    {
+      "id": "MOB-U8",
+      "table": "cards",
+      "kind": "distribution",
+      "description": "Card-type mix (fare policy)",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - 4*TVD of card-type mix",
+      "detail": {
+        "tvd": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "privacy": 0.3359,
+    "utility": 1.0,
+    "composite": 0.4812,
+    "label": "self-assessment, not the official judging score",
+    "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+  },
+  "risk_components": {
+    "bike_stations: direct identifiers retained": 0.0,
+    "bike_trips: direct identifiers retained": 0.0,
+    "bike_trips: records with k<5": 1.0,
+    "bike_trips: trajectory unicity (user_account)": 0.0,
+    "bike_trips: linkage re-identification": 0.0089,
+    "cards: direct identifiers retained": 0.0,
+    "cards: records with k<5": 0.9587,
+    "cards: linkage re-identification": 0.0,
+    "stops: direct identifiers retained": 0.0,
+    "taps: direct identifiers retained": 0.0,
+    "taps: records with k<5": 1.0,
+    "taps: trajectory unicity (card_id)": 0.97
+  }
+}

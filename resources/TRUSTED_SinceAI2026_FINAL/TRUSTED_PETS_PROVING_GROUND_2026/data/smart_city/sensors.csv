@@ -1,0 +1,21 @@
+sensor_id,location_name,zone,lat,lon,installed
+WS01,Kauppatori north,market_square,60.4522,22.2672,2024-05-02
+WS02,Kauppatori south,market_square,60.4508,22.2665,2024-05-02
+WS03,Yliopistonkatu pedestrian street W,pedestrian_street,60.4513,22.262,2024-05-02
+WS04,Yliopistonkatu pedestrian street E,pedestrian_street,60.4527,22.27,2024-05-02
+WS05,Kauppahalli entrance,shopping,60.4503,22.2617,2024-05-02
+WS06,"Shopping block, Aurakatu entrance",shopping,60.4515,22.269,2024-05-02
+WS07,"Shopping block, Eerikinkatu entrance",shopping,60.45,22.267,2024-05-02
+WS08,"Riverside, Läntinen Rantakatu",riverside,60.4497,22.274,2024-05-02
+WS09,"Riverside, Itäinen Rantakatu",riverside,60.4503,22.2768,2024-05-02
+WS10,Aurasilta bridge,riverside,60.451,22.273,2024-05-02
+WS11,Bus station,transport_hub,60.4572,22.267,2024-05-02
+WS12,Railway station,transport_hub,60.454,22.2535,2024-05-02
+WS13,Main library,culture,60.45,22.2715,2024-05-02
+WS14,Cathedral square,culture,60.4523,22.2784,2024-05-02
+WS15,Old Great Square,culture,60.451,22.2768,2024-05-02
+WS16,Puutori square,market_square,60.4553,22.262,2024-05-02
+WS17,Humalistonkatu,pedestrian_street,60.4545,22.261,2024-05-02
+WS18,Kupittaa station,transport_hub,60.4506,22.2969,2024-05-02
+WS19,Theatre bridge,riverside,60.447,22.27,2024-05-02
+WS20,Harbour promenade,riverside,60.443,22.256,2024-05-02

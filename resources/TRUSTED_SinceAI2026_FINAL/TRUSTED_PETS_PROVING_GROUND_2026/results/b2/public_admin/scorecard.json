@@ -1,0 +1,377 @@
+{
+  "tool": "pets-eval 1.0.0",
+  "dataset": "public_admin",
+  "scenario": null,
+  "original": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/data/public_admin",
+  "protected": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/results/b2/public_admin",
+  "tables": {
+    "building_permits": {
+      "table": "building_permits",
+      "status": "released",
+      "rows_original": 2731,
+      "rows_protected": 2731,
+      "columns_dropped": [
+        "applicant_name",
+        "street_address",
+        "case_officer"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "submitted_date",
+          "postcode",
+          "lat",
+          "lon",
+          "floor_area_m2",
+          "decision_date"
+        ],
+        "n": 2731,
+        "n_classes": 2731,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "submitted_date",
+          "postcode",
+          "lat",
+          "lon",
+          "floor_area_m2",
+          "decision_date"
+        ],
+        "n": 2731,
+        "n_classes": 2731,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "cost_estimate_eur",
+        "qis": [
+          "submitted_date",
+          "postcode",
+          "lat",
+          "lon",
+          "floor_area_m2",
+          "decision_date"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 1.0,
+        "share_classes_l1": 1.0,
+        "n_classes": 2731
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 1.0
+      },
+      "seconds": 0.2
+    },
+    "service_requests": {
+      "table": "service_requests",
+      "status": "released",
+      "rows_original": 31653,
+      "rows_protected": 31653,
+      "columns_dropped": [
+        "reporter_name",
+        "reporter_phone",
+        "reporter_email",
+        "handler_name"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "ts_created",
+          "language",
+          "street_address",
+          "postcode",
+          "lat",
+          "lon",
+          "ts_closed"
+        ],
+        "n": 31653,
+        "n_classes": 31514,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9912,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9912
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts_created",
+          "language",
+          "street_address",
+          "postcode",
+          "lat",
+          "lon",
+          "ts_closed"
+        ],
+        "n": 31653,
+        "n_classes": 31517,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9914,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9914
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "public_directory": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "postcode",
+              "adversary": [
+                "postcode"
+              ],
+              "protected": [
+                "postcode"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 3000,
+          "n_targets_in_data": 400,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 2804.0,
+          "attack": "Directory lookup of reporters.",
+          "baseline_reidentification_rate_original": 0.0
+        }
+      },
+      "free_text": {
+        "description": {
+          "evaluated": true,
+          "leakage_rate": 0.784,
+          "leakage_rate_chars": 0.7851,
+          "identifying_leakage_rate": 0.7395,
+          "per_label": {
+            "ADDRESS": {
+              "n": 20691,
+              "leaked": 20691,
+              "rate": 1.0
+            },
+            "EMAIL": {
+              "n": 2134,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "HEALTH": {
+              "n": 1384,
+              "leaked": 1384,
+              "rate": 1.0
+            },
+            "LICENSE_PLATE": {
+              "n": 3506,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "LOCATION": {
+              "n": 6167,
+              "leaked": 6167,
+              "rate": 1.0
+            },
+            "NATIONAL_ID": {
+              "n": 622,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "ORG": {
+              "n": 405,
+              "leaked": 405,
+              "rate": 1.0
+            },
+            "PERSON": {
+              "n": 7844,
+              "leaked": 7844,
+              "rate": 1.0
+            },
+            "PHONE": {
+              "n": 3791,
+              "leaked": 0,
+              "rate": 0.0
+            }
+          },
+          "n_values": 46544
+        },
+        "response_text": {
+          "evaluated": true,
+          "leakage_rate": 0.7814,
+          "leakage_rate_chars": 0.6771,
+          "identifying_leakage_rate": 0.7395,
+          "per_label": {
+            "ADDRESS": {
+              "n": 23202,
+              "leaked": 23202,
+              "rate": 1.0
+            },
+            "DATE": {
+              "n": 17760,
+              "leaked": 17760,
+              "rate": 1.0
+            },
+            "EMAIL": {
+              "n": 10366,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "LICENSE_PLATE": {
+              "n": 2899,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "PERSON": {
+              "n": 45350,
+              "leaked": 45350,
+              "rate": 1.0
+            },
+            "PHONE": {
+              "n": 10881,
+              "leaked": 0,
+              "rate": 0.0
+            }
+          },
+          "n_values": 110458
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 1.0,
+        "linkage re-identification": 0.0,
+        "free-text identifier leakage": 0.7395
+      },
+      "seconds": 4.6
+    }
+  },
+  "extra_protected_files": [],
+  "utility": [
+    {
+      "id": "PUB-U1",
+      "table": "service_requests",
+      "kind": "aggregate",
+      "description": "Request counts by area (3-digit postcode) x category x month",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - MAPE over (3-digit postcode, category, month) cells with n>=5 / 0.5",
+      "detail": {
+        "cells": 1900,
+        "mape": 0.0
+      }
+    },
+    {
+      "id": "PUB-U2",
+      "table": "service_requests",
+      "kind": "aggregate",
+      "description": "Median resolution time by category",
+      "required": true,
+      "score": 0.9944297403481245,
+      "metric": "1 - mean relative error of median resolution hours per category / 0.5",
+      "detail": {
+        "per_category": {
+          "building_supervision": 0.0,
+          "environmental_health": 0.0,
+          "noise_complaint": 0.004,
+          "parking": 0.002,
+          "parks": 0.001,
+          "snow_removal": 0.006,
+          "social_services_contact": 0.006,
+          "street_maintenance": 0.003,
+          "waste": 0.003
+        }
+      }
+    },
+    {
+      "id": "PUB-U3",
+      "table": "service_requests",
+      "kind": "distribution",
+      "description": "Hotspot map: top-50 1 km grid cells",
+      "required": true,
+      "score": 0.639344262295082,
+      "metric": "Jaccard overlap of top-50 1 km grid cells by request count",
+      "detail": {
+        "overlap": 39
+      }
+    },
+    {
+      "id": "PUB-U4",
+      "table": "service_requests",
+      "kind": "text",
+      "description": "Category classifier trained on protected description text",
+      "required": true,
+      "score": 0.9454194454194454,
+      "metric": "accuracy retention: classifier trained on protected text, tested on original hold-out",
+      "detail": {
+        "acc_original": 0.9066,
+        "acc_protected": 0.8571
+      }
+    },
+    {
+      "id": "PUB-U5",
+      "table": "service_requests",
+      "kind": "relationship",
+      "description": "Share of requests from repeat reporters (>=5 requests per account)",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - |error| / 0.15 in share of account requests from accounts with >=5 requests",
+      "detail": {
+        "share_original": 0.1392,
+        "share_protected": 0.1392
+      }
+    },
+    {
+      "id": "PUB-U6",
+      "table": "building_permits",
+      "kind": "aggregate",
+      "description": "Permit counts by municipality x project type x quarter",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - MAPE over (municipality, project type, quarter) cells with n>=5 / 0.5",
+      "detail": {
+        "mape": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "privacy": 0.2717,
+    "utility": 0.9299,
+    "composite": 0.4006,
+    "label": "self-assessment, not the official judging score",
+    "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+  },
+  "risk_components": {
+    "building_permits: direct identifiers retained": 0.0,
+    "building_permits: records with k<5": 1.0,
+    "service_requests: direct identifiers retained": 0.0,
+    "service_requests: records with k<5": 1.0,
+    "service_requests: linkage re-identification": 0.0,
+    "service_requests: free-text identifier leakage": 0.7395
+  }
+}

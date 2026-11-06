@@ -1,0 +1,17 @@
+range_id,network,country,city,lat,lon,organisation,network_type
+GR01,100.64.0.0/12,FI,Turku,60.4518,22.2666,Aura Broadband (synthetic ISP),residential
+GR02,100.80.0.0/12,FI,Helsinki,60.1699,24.9384,Etelakuitu (synthetic ISP),residential
+GR03,100.96.0.0/12,FI,Turku,60.4518,22.2666,Aallokko Mobile (synthetic),mobile
+GR04,100.112.0.0/12,FI,Tampere,61.4978,23.761,Pirkka Net (synthetic ISP),residential
+GR05,192.0.2.0/27,FI,Turku,60.488,22.277,Meridian Logistics Oy,corporate
+GR06,192.0.2.32/27,FI,Raisio,60.4858,22.169,Meridian Logistics Oy (warehouses),corporate
+GR07,192.0.2.64/27,EE,Tallinn,59.437,24.7536,Harbour Hotel Wi-Fi (synthetic),hotel
+GR08,192.0.2.96/27,SE,Stockholm,59.3293,18.0686,Baltic Ferry Wi-Fi (synthetic),mobile
+GR09,192.0.2.128/25,DE,Frankfurt,50.1109,8.6821,NimbusCloud (synthetic),hosting
+GR10,198.51.100.0/25,NL,Amsterdam,52.3676,4.9041,FlexVPS (synthetic),hosting
+GR11,198.51.100.128/25,US,Ashburn,39.0438,-77.4874,BulkHost (synthetic),hosting
+GR12,203.0.113.0/26,ES,Madrid,40.4168,-3.7038,Hotel Wi-Fi (synthetic),hotel
+GR13,203.0.113.64/26,US,New York,40.7128,-74.006,Hotel Wi-Fi (synthetic),hotel
+GR14,203.0.113.128/26,SG,Singapore,1.3521,103.8198,Hotel Wi-Fi (synthetic),hotel
+GR15,203.0.113.192/26,NG,Lagos,6.5244,3.3792,Mobile operator (synthetic),mobile
+GR16,10.0.0.0/8,--,internal,,,Meridian internal,internal

@@ -1,0 +1,1257 @@
+card_id,card_type,registered,issued_date,holder_name,holder_birth_date,holder_email,holder_phone,holder_postcode,status
+9246049851136202,student,True,2022-08-04,Inka Hietasalo,1998-02-14,inka.hietasalo@postilaatikko.example,045 8793 066,20730,active
+9246273985715455,child,True,2019-10-15,Elias Hiltunen,2015-10-25,topias506@postilaatikko.example,045 5324 060,21340,active
+9246548408539644,adult,True,2021-03-12,Onni Kivilahti,2003-11-27,,0453706465,20730,active
+9246317588527435,student,True,2025-06-12,Arttu Lampisuo,2005-11-22,arttu_lampisuo@mailbox.example,,21210,active
+9246360539421894,student,True,2025-07-16,Emma Kulmala,1997-10-18,,0464994705,20360,active
+9246568072430995,student,True,2021-03-07,Wilma Lumila,1997-10-22,wlumila@mailbox.example,050 7978 305,20360,active
+9246950600523709,adult,True,2020-12-15,Iida Ilveslehto,2005-09-16,ilveslehto.iida@mailbox.example,+358442665887,20300,active
+9246241476219121,adult,True,2019-01-28,Essi Haapajärvi,1992-04-28,ehaapajarvi@aurapost.example,,20520,active
+9246177487728660,student,True,2025-06-04,Sergei Lebedev,1997-06-30,sergei_lebedev@nettiposti.example,0458072563,20880,active
+9246713573700500,student,True,2023-06-06,Enni Salonen,2012-12-16,toni.salonen81@aurapost.example,0408001886,20100,active
+9246383180796778,senior,False,2022-07-22,,,,,,active
+9246431285572543,student,True,2023-02-05,Otto Sorsaluoto,2003-06-07,otto.sorsaluoto@nordmail.example,050-2581793,21220,active
+9246839582676173,senior,True,2023-03-13,Kerttu Kalliolehto,1937-09-14,kerttu.kalliolehto@webmail.example,045 897 1800,21420,active
+9246460042244773,adult,True,2024-11-29,Matilda Grönroos,1999-12-24,mgronroos@mailbox.example,040 166 5846,20780,active
+9246491215985025,adult,True,2019-05-24,Hodan Hussein,1965-05-03,hodan906@nettiposti.example,,20500,active
+9246515156363345,adult,False,2021-12-27,,,,,,active
+9246694968486360,student,True,2022-03-14,Veeti Kurkiharju,2007-05-25,veeti_kurkiharju@mailbox.example,044 693 2839,20740,active
+9246550920828539,adult,True,2020-02-28,Niina Kaarnalehto,1985-07-28,,0504366748,21280,active
+9246090303652933,student,False,2019-12-22,,,,,,active
+9246287594535674,child,False,2023-08-20,,,,,,active
+9246075680104178,adult,False,2022-01-02,,,,,,active
+9246930516561282,child,True,2021-03-26,Rolf Kaukoaho,2014-12-18,jkaukoaho@nettiposti.example,+358447997154,20900,active
+9246405757227232,adult,True,2023-03-25,Katja Laaksojärvi,1989-03-29,katja.laaksojarvi@kotiposti.example,+358 46 639 2771,21110,active
+9246396781088981,adult,True,2020-06-28,Roope Taipale,1994-03-09,roope.taipale94@inbox.example,,20100,active
+9246171192210007,adult,True,2019-12-01,Kimmo Haapasuo,1970-07-25,kimmohaapasuo@mailbox.example,040 747 0352,21420,active
+9246489170549091,adult,True,2022-05-13,Nea Kiviniemi,2001-01-16,nea925@webmail.example,,20300,active
+9246746556694969,student,True,2025-01-05,Noora Kurkioja,1996-02-21,noora.kurkioja96@nettiposti.example,,21450,active
+9246896515592034,adult,True,2023-12-14,Tomi Koivulahti,1988-01-22,tkoivulahti@kotiposti.example,+358 41 587 3858,21110,active
+9246430257954085,student,True,2024-05-26,Eetu Lehtonen,2006-03-18,,,20610,active
+9246777754567764,adult,True,2022-11-18,Lasse Pohjola,1981-09-05,lasse_pohjola@kotiposti.example,,21330,active
+9246063571352031,adult,True,2024-02-10,Jarmo Kultaoja,1964-08-11,jarmo.kultaoja@kotiposti.example,+358 50 351 9218,20540,active
+9246205513584508,student,True,2025-07-16,Essi Aaltomäki,2002-09-12,eaaltomaki@postilaatikko.example,+358468655201,20540,active
+9246323118931832,adult,False,2021-07-03,,,,,,active
+9246568263957640,adult,True,2021-09-04,Joni Ilvesranta,1987-05-19,,+358 50 629 0112,20730,active
+9246105941654123,student,True,2022-10-05,Livia Hiltunen,2012-08-16,juho.hiltunen76@aurapost.example,,21120,active
+9246399641123717,adult,False,2021-10-11,,,,,,active
+9246203634769777,student,True,2024-10-28,Pinja Lehtopää,2005-08-29,pinja674@mailbox.example,0403989218,21420,active
+9246748718123028,adult,True,2022-04-26,Hanna Hallakoski-Nikula,1978-06-12,hanna.hallakoski-nikula78@aurapost.example,0404202439,20730,active
+9246899408840965,student,True,2024-01-12,Jere Ojaniemi,2004-03-09,jere.ojaniemi@inbox.example,,20960,active
+9246702743556249,adult,True,2024-07-09,Laura Hietalehto,2002-01-25,hietalehto.laura@nettiposti.example,044 9670 364,20780,active
+9246982927687701,adult,True,2025-01-22,Anu Lehtinen,1986-03-20,anu_lehtinen@nettiposti.example,040-3986497,20730,active
+9246025051717801,student,True,2021-04-20,Anni Kivijärvi,2000-01-04,akivijarvi@nettiposti.example,041 1968 236,20500,active
+9246612588649035,adult,True,2019-09-03,Tuomas Pajukorpi,1980-07-05,tpajukorpi@nettiposti.example,044 4502 501,20540,active
+9246748236587852,student,True,2020-07-01,Samuel Järvenpää,2002-04-23,samuel_jarvenpaa@nordmail.example,0407544319,20780,active
+9246616876172188,adult,False,2025-06-22,,,,,,active
+9246378417670440,senior,True,2025-06-10,Anneli Heinäniemi,1956-02-19,,,20730,active
+9246827986011360,senior,False,2019-01-10,,,,,,active
+9246741227118654,disability_discount,False,2018-08-25,,,,,,active
+9246104949547405,student,True,2024-04-29,Arttu Tervola,2008-02-24,,+358448938897,20780,active
+9246732082799134,adult,True,2023-09-19,Erik Backman,1969-12-28,erikbackman@webmail.example,,20610,active
+9246782452050683,senior,True,2020-08-19,Tuula Sorsavirta,1941-12-31,tuula_sorsavirta@nettiposti.example,,20700,active
+9246655892718475,adult,True,2024-01-08,Anna Mäntyranta,1980-09-25,,050 636 8455,20540,active
+9246395797557203,adult,True,2022-01-01,Sari Kultakoski,1968-08-11,sari.kultakoski@nettiposti.example,+358454524678,20210,active
+9246991671218217,adult,True,2019-09-15,Ronja Pihlaluoto,1991-06-13,pihlaluoto.ronja@postilaatikko.example,+358 41 719 0477,21290,active
+9246557161143437,senior,True,2021-09-09,Lasse Ruuskanen,1944-10-09,lasse.ruuskanen@inbox.example,045 157 2594,20800,active
+9246962576686147,adult,True,2021-12-26,Rasmus Kivisalo,2004-12-31,rasmus.kivisalo@aurapost.example,+358442461876,21110,replaced
+9246581240660906,adult,True,2025-10-25,Rasmus Kivisalo,2004-12-31,rasmus.kivisalo@aurapost.example,0442461876,21110,active
+9246601608124772,adult,True,2022-10-03,Fanni Suoniemi,1999-09-24,fanni.suoniemi@aurapost.example,+358 40 124 9051,20100,active
+9246973838830431,student,True,2025-08-11,Roope Joutsensalo,1998-04-12,joutsensalo.roope@mailbox.example,,21210,active
+9246504111177677,student,True,2023-10-18,Valtteri Aholuoto,1997-09-15,valtteri683@kotiposti.example,0464242852,20780,replaced
+9246202226230768,student,True,2025-10-30,Valtteri Aholuoto,1997-09-15,valtteri683@kotiposti.example,+358 46 424 2852,20780,active
+9246180250695009,senior,True,2025-03-11,Jhani Kalliosuo,1956-12-05,juhani.kalliosuo56@postilaatikko.example,,20360,active
+9246027110699236,senior,True,2020-04-19,Annikki Eskelinen,1944-09-03,,+358 40 317 4173,20320,active
+9246859484496298,adult,True,2021-05-11,Anu Pohjooja,1987-10-02,,,21200,active
+9246340804184039,adult,False,2023-06-12,,,,,,active
+9246871604752864,adult,True,2021-12-03,Laura Laaksokorpi,1995-03-25,lauralaaksokorpi@postilaatikko.example,044-9986140,20520,active
+9246383268929770,disability_discount,True,2023-12-22,Mika Tamminen,1968-04-15,mikatamminen@aurapost.example,040 6505 056,20250,active
+9246061843995470,adult,False,2024-06-12,,,,,,active
+9246391930031727,adult,False,2025-01-26,,,,,,active
+9246531497106715,senior,True,2023-11-01,Kaarina Pohjola,1942-05-08,,,20540,active
+9246055304071201,senior,True,2024-08-24,Martti Kaukopää,1951-10-09,mkaukopaa@nordmail.example,044-9744542,20610,active
+9246592634353834,adult,True,2024-08-24,Kati Ilves,1976-07-19,kati.ilves76@mailbox.example,0504465389,20300,active
+9246839473214688,adult,True,2024-07-02,Tuomas Ruohonen,1979-06-01,,050 9677 746,20460,active
+9246373127605786,child,False,2022-06-08,,,,,,active
+9246897545616678,adult,True,2021-02-15,Aino Rantavuori,2003-05-05,aino.rantavuori@inbox.example,,20200,active
+9246721738200506,adult,True,2020-02-23,Elias Kurkiniemi,2006-01-03,elias.kurkiniemi06@postilaatikko.example,050 803 3946,21500,active
+9246662665640548,student,True,2018-09-24,Marko Lepik,1997-08-14,markolepik@postilaatikko.example,+358507957191,20780,active
+9246902809321211,senior,True,2024-07-30,Tapani Talvilahti,1944-09-25,tapani_talvilahti@webmail.example,0444444164,20900,active
+9246653700201396,adult,True,2021-10-23,Tuija Tammilehto,1971-02-26,tuija756@webmail.example,+358 50 658 1086,21420,active
+9246907635880850,adult,False,2021-09-29,,,,,,active
+9246460865775994,student,True,2021-06-02,Emilia Ilveskallio,2004-07-23,emilia451@webmail.example,040 2106 066,20700,active
+9246343240478221,adult,False,2024-02-23,,,,,,active
+9246516530115120,adult,True,2021-11-03,Elias Oravala,1998-06-08,eoravala@postilaatikko.example,0505465837,20200,active
+9246326373300445,adult,True,2018-10-01,Santeri Oravakoski,2003-07-13,oravakoski.santeri@aurapost.example,,20730,active
+9246463649321978,adult,False,2019-12-13,,,,,,active
+9246144644439110,student,True,2023-12-27,Oona Pihlaaho,2001-07-30,oonapihlaaho@nordmail.example,044 352 9698,21210,active
+9246022504127472,student,True,2018-11-07,Jesse Lehtoaho,2008-02-20,jesselehtoaho@mailbox.example,+358 50 502 2831,21160,active
+9246868777304267,adult,False,2020-10-17,,,,,,active
+9246027649576129,adult,True,2019-08-09,Fanni Ilvesmaa,2002-07-29,filvesmaa@nettiposti.example,050 852 3466,20540,active
+9246865285682549,adult,False,2019-08-08,,,,,,active
+9246799634393088,adult,True,2024-04-27,Risto Rönkkö,1961-03-08,risto_ronkko@aurapost.example,+358502619966,20100,active
+9246259547495777,adult,False,2020-11-23,,,,,,active
+9246530352293337,student,True,2019-07-25,Triin Mägi,1996-05-06,magi.triin@kotiposti.example,050 6640 787,20380,active
+9246352454037417,adult,True,2022-03-03,Tiina Järvi,1985-06-23,tiina716@webmail.example,+358509945969,20800,active
+9246293712345418,senior,True,2021-03-29,Juhani Alajärvi,1943-08-30,,,20250,active
+9246067573277245,adult,False,2018-10-22,,,,,,active
+9246989013935795,senior,False,2024-04-16,,,,,,active
+9246093347884330,student,True,2021-01-17,Fanni Viitaluoto,2001-10-26,fanni301@nettiposti.example,045 3646 097,20360,active
+9246787586212125,student,False,2020-01-16,,,,,,active
+9246973762420720,adult,True,2020-09-08,Esa Korpi,1969-01-03,esa185@mailbox.example,0503657482,20300,active
+9246787578120336,student,True,2021-07-14,Henri Koivumaa,2009-06-29,henri.koivumaa09@inbox.example,,20740,active
+9246144181809030,senior,True,2019-09-28,Kari Ahooja,1950-07-07,ahooja.kari@nordmail.example,+358 40 950 4362,20740,active
+9246899498009505,student,True,2022-04-14,Toivo Mäkinen,2012-12-30,antti.makinen@mailbox.example,050 7220 380,20100,active
+9246288426658171,student,True,2020-07-19,Aino Sorsavuori,2001-09-22,aino953@mailbox.example,+358461352780,21350,active
+9246605901439621,student,True,2021-05-29,Iida Vuoripää,2002-07-19,iida.vuoripaa02@mailbox.example,045 837 8308,21350,active
+9246709168682491,senior,True,2023-03-15,Liisa Yläluoto,1958-08-06,lylaluoto@webmail.example,050-1735168,20900,active
+9246383775069706,child,True,2022-03-20,Leo Ollikainen,2018-07-22,vollikainen@webmail.example,,20880,active
+9246181861975780,student,True,2019-04-10,Ville Oravaharju,2005-03-09,oravaharju.ville@nettiposti.example,+358507785090,20700,active
+9246993702052474,senior,True,2021-03-24,Pentti Vuorikorpi,1945-12-24,pentti255@inbox.example,,20100,active
+9246931802097114,adult,True,2020-05-09,Marika Kauppila,1985-05-05,kauppila.marika@webmail.example,0456489424,20800,active
+9246390147341721,adult,True,2021-09-08,Arto Sarkala,1965-07-20,sarkala.arto@nordmail.example,,21110,active
+9246200053771342,adult,True,2021-02-08,Pekka Kaukola,1965-11-23,kaukola.pekka@nordmail.example,044 900 1656,21420,active
+9246948739546542,student,True,2019-01-01,Aino Sarkavirta,2005-12-02,,,20500,active
+9246409353175225,adult,True,2023-03-11,Paula Kämäräinen,1971-08-03,paula688@nettiposti.example,040-5343370,20760,active
+9246095679975198,adult,False,2021-01-11,,,,,,active
+9246809442696281,adult,True,2022-04-10,Katja Pihlajärvi,1984-06-22,katja.pihlajarvi84@nordmail.example,046 8705 288,20730,active
+9246797752477931,adult,False,2021-12-03,,,,,,active
+9246272570769737,adult,False,2023-08-06,,,,,,active
+9246349918518180,student,True,2021-01-26,Ville Hirvisuo,2004-03-08,ville.hirvisuo@inbox.example,0467742813,20100,active
+9246749148298513,adult,True,2023-10-18,Ronja Aaltonen,2001-10-13,ronja.aaltonen@nordmail.example,044 9340 460,20100,active
+9246756163176458,senior,True,2020-04-26,Stefan Eriksson,1950-02-24,stefan.eriksson50@nordmail.example,+358411618613,21260,active
+9246940336882248,senior,True,2025-08-07,Helena Mäkimaa,1957-10-27,hmakimaa@nordmail.example,+358441933246,20880,active
+9246376090183020,adult,False,2021-09-04,,,,,,active
+9246428926985514,adult,True,2019-03-14,Noora Leppäniemi,1993-08-26,noora.leppaniemi@webmail.example,,20800,active
+9246922698242153,student,True,2024-06-17,Elias Lehto,2000-06-16,,040 847 5646,20740,active
+9246307511369872,senior,True,2025-06-01,Eero Aaltoniemi,1950-10-19,eero383@nordmail.example,044-8796798,20740,active
+9246996103838615,student,True,2019-03-08,Oskari Tuominen,2004-10-12,oskari284@nordmail.example,0441651387,21110,active
+9246503039503329,senior,True,2018-08-31,Eila Autio,1953-08-01,eila.autio53@nettiposti.example,046 5523 364,20700,active
+9246265478316528,adult,True,2023-06-09,Kim Sjöblom,1983-04-28,kim.sjoblom83@aurapost.example,+358 40 358 7468,20700,active
+9246150296804741,adult,True,2024-11-19,Jari Virtanen,1973-12-24,virtanen.jari@mailbox.example,,20750,active
+9246119191410474,adult,True,2022-06-15,Susanna Holappa,1984-03-24,holappa.susanna@inbox.example,,21200,active
+9246472639938170,adult,True,2018-09-20,Roosa Kangasvirta,1993-03-08,roosa_kangasvirta@aurapost.example,045-5264379,20960,active
+9246035498456186,adult,True,2022-08-21,Eetu Pohjokallio,1999-10-21,eetu.pohjokallio99@nordmail.example,+358 45 865 9822,20750,active
+9246721879603799,student,True,2021-08-10,Iida Rantapää,2009-02-22,,0412987741,20400,active
+9246881263154401,student,False,2022-03-21,,,,,,active
+9246940454721012,student,False,2019-06-11,,,,,,active
+9246364362847142,adult,True,2024-12-22,Satu Kuusimäki,1982-12-31,,0504667858,20780,active
+9246247005143765,child,True,2020-07-08,Eevi Mustonen,2011-05-01,harri.mustonen69@kotiposti.example,+358 40 847 9543,20700,active
+9246947171369082,adult,True,2021-04-26,Hanna Tuomioja,1986-08-04,,0441937826,20780,active
+9246427285075396,adult,False,2024-09-19,,,,,,active
+9246521006671838,student,False,2022-08-22,,,,,,active
+9246622849436932,student,True,2020-11-16,Henri Lehtoharju,2008-05-09,henri.lehtoharju08@webmail.example,040 4479 621,21200,active
+9246499679352699,adult,False,2024-11-03,,,,,,active
+9246885966423443,senior,True,2024-12-02,Jaakko Kaskilehto,1946-11-08,jkaskilehto@aurapost.example,0466102854,20700,active
+9246387343926271,adult,True,2024-11-10,Johanna Leppänen,1982-07-24,johannaleppanen@mailbox.example,044 6127 459,20100,active
+9246991805597593,adult,True,2020-07-06,Tiina Wilson,1981-08-19,tiina.wilson@inbox.example,041 9315 282,20300,active
+9246760978659302,adult,False,2025-05-17,,,,,,active
+9246576934980578,student,True,2024-05-22,Otto Koivisto,2007-07-30,otto.koivisto07@aurapost.example,+358501771729,20720,active
+9246247587574668,adult,False,2025-02-13,,,,,,active
+9246224624469038,adult,False,2022-02-11,,,,,,replaced
+9246063479630462,adult,False,2025-10-13,,,,,,active
+9246726909335031,adult,True,2023-05-01,Joel Pihlanen,1993-12-11,joelpihlanen@postilaatikko.example,0459753355,20700,active
+9246152588200695,student,True,2021-03-26,Selma Saarela,2012-09-20,oskari.saarela91@inbox.example,,20780,active
+9246580087965980,adult,False,2021-11-11,,,,,,active
+9246198190885142,adult,True,2018-09-24,Riku Karhula,1983-09-13,riku_karhula@inbox.example,046 155 8729,20200,active
+9246835310195064,adult,True,2021-10-03,Jouko Anttila,1967-11-30,joukoanttila@aurapost.example,0458935676,21260,active
+9246164517981022,adult,True,2024-07-17,Markku Marttila,1965-12-28,markku243@aurapost.example,+358 44 992 7904,20720,active
+9246206587426931,student,True,2024-11-07,Jere Pajuranta,2005-08-22,jere.pajuranta05@nordmail.example,0404633746,20720,active
+9246444326608150,adult,True,2020-01-08,Katja Kesäsalo,1981-09-16,katjakesasalo@nordmail.example,,20360,active
+9246751867456447,student,True,2022-03-10,Joonas Pajukorpi,2006-09-20,,050 753 7421,21110,active
+9246652375212308,adult,True,2019-02-18,Jussi Peltooja,1977-02-24,peltooja.jussi@aurapost.example,,21210,active
+9246148728513849,adult,True,2023-06-19,Vesa Simonen,1969-09-29,vesa.simonen@inbox.example,+358456565881,21620,active
+9246962944100078,student,True,2020-07-08,Pinja Kurki,2008-08-27,pinjakurki@aurapost.example,040 168 0863,20780,active
+9246051605718376,student,True,2023-02-01,Veeti Kurki,2007-04-15,vkurki@kotiposti.example,,20780,active
+9246366299538975,student,True,2023-12-24,Veera Grönroos,1996-10-08,,041 6931 547,21110,active
+9246797971065491,senior,True,2023-03-04,Tapani Paavilainen,1955-02-18,tapani.paavilainen55@inbox.example,+358 50 459 7374,20100,active
+9246314810213660,adult,False,2018-10-24,,,,,,active
+9246792618853318,adult,True,2025-06-05,Laura Pulkkinen,2003-05-24,laura.pulkkinen03@aurapost.example,+358448994297,21420,active
+9246198586276336,adult,False,2018-12-14,,,,,,active
+9246346757224763,senior,True,2020-01-14,Ritva Pietilä,1957-05-05,ritva699@mailbox.example,050 3285 951,21620,active
+9246716831226911,adult,True,2022-12-31,Lauri Mäntypää,1993-10-01,lauri.mantypaa@kotiposti.example,,20800,active
+9246616550576571,disability_discount,True,2022-05-03,Keijo Lepistö,1957-08-16,klepisto@mailbox.example,050 8275 377,21120,active
+9246110352267712,adult,True,2023-01-05,Tuomas Sarkakallio,1978-10-15,tuomas80@inbox.example,+358 41 815 5192,20900,active
+9246774093868763,child,True,2024-10-05,Kasper Timonen,2015-07-19,timonen.toni@aurapost.example,040 7314 384,20360,active
+9246917564050011,adult,True,2021-05-26,Tomi Kaukomaa,1982-05-04,tomi_kaukomaa@nettiposti.example,+358 50 418 3884,20360,active
+9246467443096561,senior,True,2019-02-24,Jaana Alajärvi,1960-10-09,jalajarvi@nordmail.example,041 711 2746,20300,active
+9246825088733840,adult,False,2023-11-13,,,,,,replaced
+9246101960678663,adult,False,2025-10-30,,,,,,active
+9246143634001021,student,True,2023-03-10,Julia Jaatinen,2006-04-13,julia.jaatinen@inbox.example,+358457166233,20200,active
+9246509810737309,student,True,2018-12-25,Nea Suominen,2004-11-02,nea.suominen@kotiposti.example,050-7617649,20880,active
+9246424731875677,adult,True,2018-08-25,Kati Haapanen,1980-09-03,,+358 50 546 7826,20700,active
+9246697882061060,adult,False,2020-01-13,,,,,,active
+9246174264519180,student,True,2020-07-21,Topias Oikarinen,2004-10-19,toikarinen@postilaatikko.example,,20700,active
+9246859592213288,adult,True,2024-11-05,Susanna Eriksson,1988-09-29,susanna.eriksson88@postilaatikko.example,044 713 3239,21420,active
+9246697792365569,adult,True,2020-01-06,Joni Oravasuo,1985-08-24,oravasuo.joni@inbox.example,+358409386531,20780,active
+9246939195746320,adult,False,2019-03-29,,,,,,active
+9246273253006363,adult,True,2019-11-13,Merja Nurmi,1972-06-21,merja.nurmi@nettiposti.example,0455741276,20730,active
+9246796973036047,adult,False,2025-06-14,,,,,,active
+9246296815362230,adult,True,2020-02-18,Arja Tamminiemi,1968-06-23,tamminiemi.arja@nettiposti.example,,20740,active
+9246486359628456,student,True,2019-07-14,Liam Evans,2002-06-24,,0469937336,20500,active
+9246543284122656,senior,True,2019-12-29,Eeva Mäkijärvi,1956-09-08,eeva_makijarvi@inbox.example,0506496473,20960,active
+9246524988441238,adult,True,2019-10-20,Sari Virtanen,1964-03-26,virtanen.sari@kotiposti.example,+358 40 563 6395,21100,active
+9246591397130207,senior,True,2020-09-25,Matti Alavirta,1949-01-06,matti_alavirta@postilaatikko.example,044 8353 012,21500,active
+9246954503893151,adult,True,2024-08-27,Elina Kalliokorpi,1982-02-28,elinakalliokorpi@postilaatikko.example,040-2005817,21500,active
+9246673797965547,adult,True,2019-08-15,Venla Kaarnasuo,1993-07-10,venla_kaarnasuo@aurapost.example,050 4441 279,20720,active
+9246944468840990,student,True,2023-07-10,Miro Mäkijärvi,2006-09-26,mmakijarvi@kotiposti.example,044 903 5628,21620,active
+9246871366358900,student,True,2018-11-19,Sara Nurmi,2009-10-13,snurmi@webmail.example,+358 46 705 3299,21280,active
+9246366102527587,adult,False,2024-07-16,,,,,,active
+9246272538069956,adult,False,2025-03-19,,,,,,active
+9246184645579415,senior,True,2022-11-27,Heikki Hietaranta,1946-01-18,heikki892@aurapost.example,,20250,active
+9246531988781497,adult,True,2020-07-28,Sara Hussein,2006-03-19,sara_hussein@postilaatikko.example,040 153 0635,20100,active
+9246495749835606,adult,True,2023-09-30,Joni Sorsapää,1985-10-06,joni52@mailbox.example,0449607292,21110,active
+9246375480463513,adult,True,2021-09-14,Kirsi Järvinen,1966-07-08,kirsi_jarvinen@inbox.example,050 3021 349,20250,active
+9246109682561869,senior,False,2019-01-29,,,,,,active
+9246905074418489,student,True,2020-03-23,Veeti Suominen,2004-12-20,veeti.suominen04@kotiposti.example,+358 45 554 9804,20520,active
+9246166945211260,adult,False,2022-12-23,,,,,,active
+9246456330675983,student,True,2024-12-27,Elias Kaarnakangas,2008-01-12,,,20730,active
+9246779052309097,adult,True,2022-12-24,Arttu Kaarnakangas,2004-09-03,akaarnakangas@webmail.example,040 7262 227,20730,active
+9246841308630922,child,True,2019-03-25,Rasmus Lindholm,2009-08-09,rlindholm@postilaatikko.example,046 6347 306,21210,active
+9246346578482665,student,True,2024-09-23,Fanni Pihlakangas,2009-09-04,fannipihlakangas@nettiposti.example,+358408284736,20500,active
+9246198241552386,adult,False,2023-05-01,,,,,,active
+9246337156200108,student,True,2021-09-06,Otto Jousiharju,2001-11-26,otto692@nettiposti.example,044 9332 925,21420,active
+9246817186575728,adult,False,2023-05-31,,,,,,active
+9246587122323273,senior,True,2021-06-16,Lasse Kovanen,1959-10-26,lasse.kovanen59@aurapost.example,045-8836289,20900,active
+9246319939129176,adult,False,2023-06-28,,,,,,active
+9246605893542655,adult,False,2022-09-29,,,,,,active
+9246516113255947,adult,True,2023-07-01,Paula Kurkila,1974-11-15,kurkila.paula@aurapost.example,044 868 6706,21210,active
+9246757405295171,adult,False,2025-04-02,,,,,,active
+9246104002815145,adult,True,2022-07-27,Teemu Mäkikorpi,1985-11-11,teemu.makikorpi85@inbox.example,+358409699371,20540,active
+9246692909213786,adult,True,2022-02-08,Rebin Karimi,1990-08-11,rebin.karimi90@postilaatikko.example,045-7034240,20540,active
+9246534454309934,adult,True,2023-11-27,Venla Kangaskorpi,2004-11-19,venla.kangaskorpi@aurapost.example,040 3075 316,20250,active
+9246710064297780,senior,True,2024-06-01,Jorma Virtanen,1949-11-28,,+358447298558,20100,active
+9246237421247241,adult,True,2019-07-10,Vikram Nair,2004-12-01,vikramnair@nordmail.example,050 3501 840,20300,active
+9246957473386437,adult,False,2020-02-04,,,,,,active
+9246847375453650,adult,False,2018-12-10,,,,,,active
+9246093773553854,student,True,2019-10-04,Otto Uotila,1999-09-21,otto.uotila@mailbox.example,+358502351330,20460,active
+9246748668000093,senior,True,2021-02-26,Eila Kauppila,1956-05-05,kauppila.eila@webmail.example,+358509699077,21110,active
+9246923889613996,adult,True,2022-09-23,Samuel Sorsasalo,2004-10-02,samuelsorsasalo@mailbox.example,046 210 7605,20500,active
+9246601071206189,student,True,2023-08-23,Pinja Pihlavuori,2006-12-17,,,21500,active
+9246756150443424,adult,False,2024-08-27,,,,,,active
+9246049602964167,adult,True,2020-11-11,Kristina Eronen,1968-05-17,kristina_eronen@aurapost.example,050 928 7570,20320,active
+9246798391481623,adult,False,2020-11-11,,,,,,active
+9246289200725152,adult,True,2024-11-08,Juho Haapavirta,1981-05-26,juhohaapavirta@inbox.example,+358507155204,20540,active
+9246742408981167,senior,True,2023-11-23,Lempi Kultala,1936-12-27,lkultala@inbox.example,+358 46 120 3840,20300,active
+9246122258985743,student,True,2021-07-03,Venla Leppälä,2002-06-25,venlaleppala@mailbox.example,0453172573,21100,active
+9246491891856961,adult,True,2019-08-28,Anna Suominen,1984-09-09,anna.suominen@postilaatikko.example,040-6658211,21420,active
+9246540163419906,adult,False,2025-08-11,,,,,,active
+9246703001031339,adult,True,2022-02-28,Laura Kurkikoski,1981-05-09,lkurkikoski@kotiposti.example,,21350,active
+9246018167918793,adult,False,2024-03-27,,,,,,active
+9246770583162923,senior,True,2020-08-24,Priya Sharma,1945-03-20,sharma.priya@postilaatikko.example,+358441860701,20720,active
+9246296350375118,student,True,2024-09-27,Eeli Tuomijärvi,2010-01-10,eeli2@nettiposti.example,044 7784 734,20700,active
+9246720879660981,student,True,2020-08-20,Iida Nevalainen,2002-03-12,inevalainen@inbox.example,050-8147388,20750,active
+9246846345375837,adult,True,2019-04-01,Riitta Haukkavuori,1961-11-24,rhaukkavuori@kotiposti.example,044-1170321,20800,active
+9246823178968269,adult,False,2024-01-31,,,,,,active
+9246640218914537,senior,True,2018-12-19,Annikki Joutsenranta,1953-04-09,annikkijoutsenranta@nettiposti.example,,21420,active
+9246771176089218,adult,True,2022-04-24,Matti Haapala,1979-12-21,matti.haapala@postilaatikko.example,,21110,active
+9246774428482173,adult,True,2019-09-12,Veera Hirvilehto,1991-04-10,,+358503461194,20960,active
+9246612369786568,student,False,2023-03-04,,,,,,active
+9246129127371898,senior,False,2023-01-09,,,,,,active
+9246214628716179,student,True,2019-04-25,Otto Aaltokoski,1999-06-20,oaaltokoski@inbox.example,,20780,active
+9246845454594121,child,True,2022-07-20,Ellen Suominen,2014-08-05,,050-9312716,20100,active
+9246132848486367,adult,True,2023-11-18,Laura Kalliomaa,1987-04-19,kalliomaa.laura@mailbox.example,0403892029,20700,active
+9246858577982214,adult,True,2020-10-04,Tomi Ahoniemi,1984-05-30,,0415088644,20500,active
+9246151835927324,adult,False,2024-05-05,,,,,,active
+9246603491875577,adult,False,2019-04-22,,,,,,active
+9246819836306207,student,True,2019-03-15,Nelli Tamminiemi,1999-05-07,,050 4639 577,21210,active
+9246311289716751,senior,True,2025-08-07,Leena Kuusiranta,1945-01-15,,044-1235585,20880,active
+9246359876526281,student,False,2019-07-16,,,,,,active
+9246917203103114,adult,False,2020-01-18,,,,,,active
+9246492609915537,child,True,2020-11-19,Aino Rinne,2009-07-06,aino.rinne@inbox.example,,20780,active
+9246956416250577,adult,False,2020-08-21,,,,,,active
+9246977214529889,senior,True,2024-01-31,Sirkka Vuorilahti,1955-08-23,sirkka.vuorilahti@postilaatikko.example,040-2143520,21310,active
+9246573437854137,adult,True,2019-05-02,Mari Kotkala,1982-12-21,mkotkala@inbox.example,0445627146,20500,active
+9246926771732238,student,True,2023-12-28,Jenna Kotkala,2005-05-08,jenna.kotkala05@mailbox.example,+358411303850,20500,active
+9246168940605025,adult,False,2021-02-10,,,,,,active
+9246719075631648,adult,True,2019-04-01,Jarmo Suosalo,1961-01-02,jarmo.suosalo61@postilaatikko.example,+358466916580,20800,active
+9246236667717180,adult,True,2024-11-09,Matti Mäkilä,1986-06-15,mattimakila@mailbox.example,0446744412,20730,active
+9246917988634523,adult,False,2024-10-05,,,,,,active
+9246366545722506,student,True,2023-12-21,Ronja Rantanen,2000-11-07,ronja.rantanen@webmail.example,+358 45 213 9201,20360,active
+9246223324967283,adult,True,2023-03-11,Anna Leppämaa,1981-10-18,annaleppamaa@inbox.example,+358 44 719 1567,21150,replaced
+9246841021176534,adult,True,2025-10-26,Anna Leppämaa,1981-10-18,annaleppamaa@inbox.example,044 7191 567,21150,active
+9246185599590290,adult,False,2024-10-04,,,,,,active
+9246146297899326,adult,False,2018-11-17,,,,,,active
+9246308387105382,adult,True,2021-06-02,Matias Kotkamaa,2005-04-16,kotkamaa.matias@webmail.example,+358 44 899 5787,20900,active
+9246892687717335,senior,True,2020-05-05,Olavi Niemivirta,1951-01-11,niemivirta.olavi@webmail.example,040 749 2064,21290,active
+9246869970834845,adult,False,2024-09-09,,,,,,active
+9246054244061208,adult,False,2025-05-27,,,,,,active
+9246169785415074,student,True,2018-10-19,Sara Lehtosuo,2003-05-18,sara755@inbox.example,050 2222 616,20300,active
+9246155932181768,senior,True,2024-10-01,Helena Saarinen,1957-10-07,helena.saarinen@postilaatikko.example,+358445024677,21130,active
+9246189328126384,adult,False,2020-05-16,,,,,,active
+9246624203203478,adult,False,2023-08-27,,,,,,active
+9246171790045805,adult,True,2024-01-27,Heidi Mäntyharju,1984-07-18,hmantyharju@webmail.example,,20660,active
+9246372818848390,adult,False,2025-02-19,,,,,,active
+9246178277354618,adult,True,2019-12-13,Jarkko Saarinen,1985-08-15,jarkkosaarinen@nettiposti.example,0452356018,21150,active
+9246598482848346,student,True,2022-09-21,Essi Kallio,2005-01-26,essi350@nordmail.example,+358501717309,21420,active
+9246760736007091,child,False,2021-10-05,,,,,,active
+9246730841427930,senior,True,2021-10-25,Eeva Niemelä,1956-01-04,eniemela@webmail.example,040 3590 999,20960,active
+9246777955497696,senior,True,2023-08-24,Kirsti Hallanen,1940-10-19,,0402001744,20200,active
+9246056195756108,student,True,2020-06-11,Fanni Nieminen,2005-01-23,fanni.nieminen05@webmail.example,+358 44 220 5958,20740,active
+9246442303163280,child,True,2023-03-04,Noora Kaikkonen,2009-07-01,noora.kaikkonen@mailbox.example,0443545813,21260,active
+9246303364347164,adult,False,2024-04-30,,,,,,active
+9246403118624015,senior,False,2023-10-27,,,,,,replaced
+9246114553458773,senior,False,2025-10-23,,,,,,active
+9246613100066575,student,True,2023-01-27,Santeri Kurkikangas,2003-01-07,santerikurkikangas@nordmail.example,044-9733387,20100,active
+9246340283128044,disability_discount,False,2024-08-09,,,,,,active
+9246359541525171,adult,True,2020-08-14,Rana Al-Hassan,1994-03-12,rana596@webmail.example,050 2278 115,20520,active
+9246266019415449,child,True,2019-12-30,Helmi Kultakallio,2012-07-08,mika.kultakallio78@inbox.example,+358 41 816 7716,20360,active
+9246833760549799,senior,True,2018-12-06,Esko Niemikoski,1948-05-31,esko787@kotiposti.example,,21220,active
+9246409818410332,student,True,2019-05-06,Karin Engblom,2004-10-09,karin.engblom@mailbox.example,,20700,active
+9246991664112450,adult,True,2021-09-29,Heidi Ahornta,1989-09-10,heidi.ahoranta@aurapost.example,0458524051,21420,active
+9246263218675089,student,True,2025-01-05,Ahmed Al-Obaidi,2001-06-08,ahmed_al-obaidi@postilaatikko.example,+358414379587,20720,active
+9246764053085318,senior,True,2021-08-25,Elias Kangaslahti,1951-09-08,eliaskangaslahti@postilaatikko.example,040-4240191,21620,active
+9246675288392354,student,False,2024-02-01,,,,,,active
+9246364874749554,child,False,2018-09-20,,,,,,active
+9246043251363714,adult,False,2024-01-26,,,,,,active
+9246674332768370,senior,True,2022-03-01,Olavi Tuomioja,1949-03-04,,044-9654642,20380,active
+9246773049164962,adult,True,2022-04-28,Isak Sjöblom,1986-09-22,isak_sjoblom@aurapost.example,041 2585 588,20780,active
+9246369326535923,adult,False,2021-10-11,,,,,,active
+9246044415184558,adult,True,2019-09-24,Teemu Pohjsuo,1985-01-18,teemupohjosuo@kotiposti.example,0504172160,20800,active
+9246967247926111,adult,True,2020-05-10,Maria Ahoniemi,1983-11-29,mariaahoniemi@mailbox.example,0404656750,20540,active
+9246929603990867,disability_discount,True,2022-08-03,Aila Lindholm,1958-03-08,lindholm.aila@aurapost.example,,20300,active
+9246027867503755,student,True,2018-09-28,Veeti Kukkonen,1999-12-30,vkukkonen@aurapost.example,+358 50 160 2223,20520,active
+9246790964910021,adult,True,2020-07-23,Marina Volkova,1974-02-06,marinavolkova@postilaatikko.example,041 4064 027,20780,active
+9246525071299078,student,True,2025-05-01,Axel Westerlund,2000-04-15,westerlund.axel@inbox.example,040-7517916,21500,active
+9246159669850306,senior,False,2022-04-22,,,,,,active
+9246352964593818,child,True,2022-03-24,Jena Rautakorpi,2009-08-31,rautakorpi.jenna@mailbox.example,,20730,active
+9246295679621079,student,True,2022-06-07,Henrik Karlsson,2011-07-05,sara.karlsson@kotiposti.example,+358 40 974 2008,20900,active
+9246890971840490,adult,False,2018-09-17,,,,,,active
+9246666864459162,adult,True,2019-11-07,Seija Ahokorpi,1961-12-23,ahokorpi.seija@mailbox.example,,20540,active
+9246538405105523,senior,True,2025-02-25,Lempi Venäläinen,1935-01-25,,,21420,active
+9246864617115211,child,True,2020-08-21,Mikael Åberg,2016-08-01,kim_aberg@webmail.example,,20540,active
+9246208511992350,adult,True,2024-03-28,Onni Pohjola,2001-04-12,pohjola.onni@aurapost.example,,20250,active
+9246928515978432,adult,True,2019-12-27,Ville Kalliokorpi,1984-05-03,ville928@postilaatikko.example,,20540,active
+9246058175716771,senior,True,2022-05-27,Jorma Kangasmaa,1947-05-14,jorma746@nettiposti.example,041 9582 543,20100,active
+9246287805566583,adult,True,2024-03-07,Petteri Niemijärvi,1985-11-03,petteri_niemijarvi@postilaatikko.example,+358407629259,20800,active
+9246183789960753,adult,True,2020-10-01,Paula Kultalehto,1969-09-21,paulakultalehto@nettiposti.example,044-8832568,21150,active
+9246465176122406,adult,False,2019-07-03,,,,,,active
+9246526513664507,adult,False,2020-03-08,,,,,,active
+9246841673015139,adult,True,2024-08-18,Jenni Rautakorpi,1986-08-09,jrautakorpi@nordmail.example,044 9811 509,20780,active
+9246368351582867,student,True,2025-01-17,Niilo Haapavirta,2011-03-23,shaapavirta@nordmail.example,+358 45 751 6133,20760,active
+9246027226293817,adult,True,2020-11-05,Wilma Talvilehto,2005-09-26,wilma507@kotiposti.example,,20730,active
+9246564414811786,adult,False,2023-07-15,,,,,,active
+9246209539897266,student,True,2025-01-04,Veeti Kuusisto,2001-11-27,veetikuusisto@nordmail.example,040 5216 851,20500,active
+9246608750715307,adult,False,2022-11-09,,,,,,active
+9246932268390753,student,False,2019-12-08,,,,,,replaced
+9246579367114194,student,False,2025-10-10,,,,,,active
+9246354213745942,adult,True,2020-12-03,Esa Kesämäki,1973-11-07,esa.kesamaki73@mailbox.example,0452413104,20320,active
+9246913793998781,student,True,2021-03-21,Matias Tuomimäki,2001-09-29,matias_tuomimaki@nettiposti.example,050 3651 472,21260,active
+9246708418009695,adult,False,2021-08-20,,,,,,active
+9246191086479948,adult,True,2019-04-20,Aki Oravaluoto,1988-03-21,,044 716 0971,20780,active
+9246700732859558,adult,True,2019-09-14,Vesa Pekkarinen,1962-04-08,,050 691 5041,20700,active
+9246014442653198,student,True,2020-05-19,Essi Haukkaoja,2000-04-28,essi.haukkaoja@postilaatikko.example,044 1477 118,20610,active
+9246788895250343,adult,True,2021-11-03,Aleksei Novikov,1987-07-31,novikov.aleksei@aurapost.example,0414733208,20100,active
+9246912169879245,adult,False,2025-01-30,,,,,,active
+9246369981764685,adult,False,2023-07-14,,,,,,active
+9246098870390035,senior,True,2021-11-17,Lasse Karhuoja,1947-02-08,lassekarhuoja@aurapost.example,+358469097223,20610,active
+9246862347597310,adult,True,2023-12-27,Sari Tervolehto,1964-06-06,sari_tervolehto@aurapost.example,,20700,active
+9246892544015584,adult,True,2021-05-19,Jenna Haapaniemi,1997-01-06,jhaapaniemi@nettiposti.example,,20780,active
+9246028391754070,student,True,2020-07-20,Venla Ilveskorpi,2003-10-04,venla.ilveskorpi03@postilaatikko.example,,20880,active
+9246433667647570,child,False,2020-02-22,,,,,,active
+9246633859101746,adult,True,2024-11-24,Iida Laiho,2004-08-30,iida_laiho@aurapost.example,044 440 4632,20500,active
+9246505534648251,adult,False,2022-07-25,,,,,,active
+9246052417502677,child,False,2020-12-17,,,,,,active
+9246048603997580,senior,True,2021-01-17,Eeva Sirén,1942-05-23,eeva.siren42@kotiposti.example,,20100,active
+9246934248416211,student,True,2021-08-12,Aleksi Anttila,1997-09-27,aanttila@inbox.example,041-4434465,20780,active
+9246466450725062,senior,True,2021-08-16,Eila Lehtoranta,1949-06-11,eila.lehtoranta49@nettiposti.example,044 7416 987,20700,active
+9246089481564845,student,True,2020-11-23,Leevi Kesäpää,2012-06-05,,044 231 8090,20780,active
+9246761207624851,adult,True,2025-08-31,Piia Rinne,1978-05-08,piiarinne@nordmail.example,046 2910 681,21140,active
+9246198396200518,adult,False,2022-05-04,,,,,,active
+9246909087886252,adult,True,2025-05-20,Aleksi Haapamäki,1995-04-18,aleksi981@kotiposti.example,+358 50 813 2733,20780,active
+9246268270917428,senior,True,2025-06-10,Eeva Rantanen,1941-08-10,eevarantanen@aurapost.example,044-1352431,20500,active
+9246230910579786,student,True,2024-11-10,Camilla Österlund,2002-05-27,camilla.osterlund02@webmail.example,0407438686,20100,active
+9246125571936525,adult,False,2022-05-27,,,,,,active
+9246726955679035,adult,True,2020-02-06,Oskari Kallioniemi,2006-04-16,okallioniemi@postilaatikko.example,040 771 5934,21110,active
+9246834457237912,adult,False,2022-04-22,,,,,,active
+9246471955094527,adult,False,2023-10-16,,,,,,active
+9246762179080627,senior,True,2025-06-03,Eero Virtanen,1951-05-22,eerovirtanen@webmail.example,040 747 8333,20730,active
+9246448183295209,adult,True,2019-11-10,Toni Pohjosuo,1977-05-24,toni.pohjosuo@postilaatikko.example,+358 41 757 9554,20700,active
+9246025543919379,adult,True,2020-08-24,Linnea Sjöblom,1997-10-31,sjoblom.linnea@nordmail.example,+358402329929,20400,active
+9246315022507039,adult,True,2023-01-25,Janne Kotkalehto,1980-09-22,janne.kotkalehto80@nettiposti.example,,20100,active
+9246525676248835,adult,True,2024-05-11,Niko Pajukorpi,1997-02-02,niko360@nettiposti.example,+358405155187,21310,active
+9246406597666423,adult,False,2025-08-12,,,,,,active
+9246192310996145,adult,False,2020-03-18,,,,,,active
+9246661219579053,adult,True,2021-08-04,Henrik Rantavuori,1975-03-26,hrantavuori@aurapost.example,0503484315,21620,active
+9246166245333293,child,False,2023-05-01,,,,,,active
+9246848214378025,adult,False,2023-08-09,,,,,,active
+9246662700362173,adult,True,2020-03-30,Teemu Hietamaa,1978-05-13,hietamaa.teemu@inbox.example,+358 40 199 7104,21290,active
+9246489665267761,adult,False,2024-01-05,,,,,,active
+9246520327954154,adult,True,2025-02-20,Satu Lehtinen-Saariranta,1984-04-16,satu.lehtinen-saariranta84@nordmail.example,044-9129014,20780,active
+9246187941370033,adult,True,2022-07-30,Piia Oravakangas,1988-09-21,piia.oravakangas@webmail.example,050 466 2226,20800,active
+9246877529958577,student,True,2023-08-29,Veera Suolahti,2004-06-22,veera.suolahti04@nettiposti.example,+358 41 245 5802,20250,active
+9246544557489285,adult,True,2022-10-09,Pekka Ojala,1974-06-15,pekka.ojala74@webmail.example,,20360,active
+9246842954519104,adult,True,2020-01-12,Satu Ilveskallio,1973-10-21,satu_ilveskallio@kotiposti.example,040 890 6802,20900,active
+9246933228412547,adult,False,2023-02-09,,,,,,active
+9246580592112821,student,True,2020-09-23,Julia Haapasalo,2002-02-07,julia.haapasalo02@inbox.example,044 287 6256,21110,active
+9246781375297702,adult,False,2020-10-26,,,,,,active
+9246688431055240,student,True,2021-09-29,Rasmus Lipponen,2007-10-05,rasmus.lipponen@postilaatikko.example,050 471 2888,20900,active
+9246399936682146,student,True,2020-03-13,Henri Aro,1996-08-24,henri.aro@inbox.example,040-1320837,20460,active
+9246995624197923,student,True,2020-01-14,Iida Mäkijärvi,1997-11-19,iida.makijarvi97@nettiposti.example,+358442890631,20320,active
+9246371628396814,senior,True,2023-07-14,Anneli Leppälä,1951-04-17,anneli729@webmail.example,041 981 8977,20720,active
+9246937647273273,adult,False,2021-06-04,,,,,,active
+9246864251924076,adult,True,2020-03-01,Oona Yläluoto,1997-07-16,oona913@mailbox.example,+358404780339,21500,active
+9246800183330107,adult,False,2025-04-21,,,,,,active
+9246022473782075,adult,False,2025-08-16,,,,,,active
+9246387730703218,senior,True,2024-01-07,Seppo Aaltoaho,1946-02-10,saaltoaho@nordmail.example,040-7792026,21420,active
+9246587693356066,adult,False,2021-03-09,,,,,,active
+9246564674389440,adult,False,2018-12-26,,,,,,active
+9246235902653812,adult,False,2022-01-27,,,,,,active
+9246160390691563,adult,False,2025-07-17,,,,,,replaced
+9246242188721818,adult,False,2025-10-29,,,,,,active
+9246981044940472,adult,False,2025-03-21,,,,,,active
+9246209052622943,adult,False,2018-09-05,,,,,,active
+9246573881112479,student,True,2025-02-24,Ronja Alanko,2006-05-02,,046 5542 588,21160,active
+9246134040692040,student,True,2021-10-16,Akseli Tuomivuori,2011-05-21,janituomivuori@mailbox.example,+358 46 969 2644,20610,active
+9246437781902381,adult,False,2019-05-22,,,,,,active
+9246974482022713,adult,True,2024-04-28,Eemeli Lahtinen,2004-12-06,eemeli.lahtinen04@inbox.example,045-7823352,21420,active
+9246053395861267,adult,True,2020-11-19,Julia Sokolova,1977-05-26,,046-2014513,20210,active
+9246203795408512,senior,True,2023-09-27,Jing Huang,1942-09-10,,+358 45 241 7329,21160,active
+9246384578984588,adult,True,2025-08-05,Piia Salonen,1987-05-18,psalonen@nordmail.example,040-1922651,20700,active
+9246237926594212,adult,False,2020-06-22,,,,,,active
+9246276273585712,adult,True,2023-03-20,Mika Ilvesvuori,1970-09-27,milvesvuori@nettiposti.example,040-7719006,20100,active
+9246031851344705,disability_discount,True,2023-10-30,Tuija Heinälahti,1962-03-14,tuija.heinalahti@inbox.example,,20740,active
+9246888423055964,adult,False,2022-08-24,,,,,,active
+9246314677200222,adult,False,2020-05-08,,,,,,active
+9246683477928061,adult,False,2024-06-13,,,,,,active
+9246722417161902,adult,False,2023-02-02,,,,,,active
+9246190263840856,adult,False,2023-11-09,,,,,,active
+9246204199643985,senior,True,2024-10-05,Eeva Niemiaho,1952-01-24,,+358 46 571 0808,20300,active
+9246090814505851,student,False,2021-07-15,,,,,,active
+9246751023743464,student,True,2023-11-23,Roosa Lahtinen,2006-05-15,roosa682@webmail.example,,20700,active
+9246302313237005,adult,False,2025-01-20,,,,,,active
+9246524300906702,senior,True,2022-02-26,Marjatta Kivikoski,1959-09-17,marjatta_kivikoski@nettiposti.example,046 447 7616,21420,active
+9246805804217591,child,False,2022-12-10,,,,,,active
+9246027535626012,student,True,2019-09-01,Miro Simonen,1996-01-03,msimonen@postilaatikko.example,+358 50 429 3469,20780,active
+9246880383958899,senior,True,2019-11-12,Terttu Kotkajärvi,1948-04-24,kotkajarvi.terttu@nettiposti.example,041-3912058,20100,active
+9246314393618178,adult,True,2022-03-07,Valtteri Alaniemi,1993-10-25,valtteri.alaniemi93@inbox.example,+358452082024,21500,active
+9246649502881393,senior,True,2022-10-01,Eila Kesäoja,1940-06-19,,+358 50 854 2095,20100,active
+9246798640073452,adult,True,2019-11-10,Anni Kurkimaa,1996-12-18,anni.kurkimaa@nettiposti.example,+358412380683,21210,active
+9246579263159442,adult,True,2023-05-10,Piia Ojavirta,1978-11-04,pojavirta@nettiposti.example,045 971 7826,20800,active
+9246415727097862,senior,True,2022-01-13,Annikki Niemiaho,1951-05-12,annikkiniemiaho@kotiposti.example,,20900,active
+9246022386254071,adult,True,2019-08-03,Kaisa Halonen,1983-06-21,kaisahalonen@kotiposti.example,041 8585 623,21260,active
+9246059104524799,adult,True,2022-07-21,Rojin Qadir,1983-04-19,qadir.rojin@kotiposti.example,,20740,active
+9246167122617063,adult,True,2020-03-29,Linus Andersson,1992-06-25,linus.andersson92@inbox.example,+358409863030,20780,active
+9246317943691413,adult,False,2021-08-23,,,,,,replaced
+9246758750425355,adult,False,2025-10-26,,,,,,active
+9246907807016903,adult,False,2020-03-04,,,,,,active
+9246104233592612,adult,False,2023-12-05,,,,,,active
+9246423432119344,adult,False,2021-09-14,,,,,,active
+9246264824510587,student,True,2024-08-20,Eetu Karhulahti,2001-03-18,karhulahti.eetu@postilaatikko.example,+358 44 671 5632,20540,active
+9246436060707081,student,True,2022-11-30,Wilma Ruohoniemi,2001-12-21,wilma_ruohoniemi@aurapost.example,0408526388,21500,active
+9246603563277066,student,True,2022-12-24,Laura Suola,1999-02-07,laurasuola@postilaatikko.example,046 1774 911,20360,active
+9246745454059119,student,True,2023-12-16,Topias Tuomisalo,2000-10-22,topias.tuomisalo00@mailbox.example,,21500,active
+9246894435951182,adult,False,2022-10-19,,,,,,active
+9246176867679139,adult,False,2024-05-05,,,,,,active
+9246667676719272,adult,True,2020-09-14,Kaija Ruohomäki-Yläoja,1974-02-01,kaija840@webmail.example,,20730,active
+9246445665891927,adult,True,2025-09-04,Natalia Sokolova,1976-12-12,,040 720 2429,21420,active
+9246246439714811,adult,True,2019-08-05,Essi Kaskilahti,1999-03-13,essi984@aurapost.example,041 104 0541,20780,active
+9246644203270632,senior,True,2019-04-16,Juhani Ojavuori,1959-04-22,jojavuori@nordmail.example,+358445527061,20100,active
+9246943653487419,senior,True,2021-08-17,Vladimir Morozov,1944-12-03,vladimir.morozov@postilaatikko.example,+358443154910,20100,active
+9246898509142198,student,True,2021-05-08,Jere Kuusimäki,2006-05-16,jkuusimaki@kotiposti.example,,20500,active
+9246243337770441,adult,False,2023-05-10,,,,,,active
+9246824339730994,adult,True,2023-08-10,Aki Oravanen,1989-04-30,aki504@inbox.example,,21420,active
+9246477000324926,adult,False,2019-09-27,,,,,,active
+9246624464567587,adult,False,2024-10-01,,,,,,active
+9246867248201771,adult,False,2020-05-14,,,,,,active
+9246195836052608,adult,True,2020-10-03,Julia Ryynäen,2006-07-04,,,21100,active
+9246664033992817,adult,False,2020-06-02,,,,,,active
+9246040936619361,senior,True,2025-03-25,Jorma Ahola,1949-02-09,jorma.ahola49@postilaatikko.example,050 9468 392,20250,active
+9246477255519485,adult,False,2019-03-05,,,,,,active
+9246083422934514,student,True,2022-09-16,Jesse Kaukokorpi,2005-06-04,jessekaukokorpi@postilaatikko.example,050 7154 884,20500,active
+9246729188828791,adult,False,2020-03-07,,,,,,active
+9246917276619400,senior,True,2022-07-29,Bengt Karlsson,1959-12-20,bkarlsson@nettiposti.example,041 2623 167,21620,active
+9246516525723714,adult,True,2023-12-18,Eetu Rautaharju,1997-11-24,erautaharju@aurapost.example,041 3760 200,20100,active
+9246048198380499,adult,True,2024-06-26,Jenni Kaukosuo,1989-07-22,,0404245402,21420,active
+9246771696006726,student,True,2021-11-23,Ville Laitinen,1998-09-24,ville.laitinen@aurapost.example,050 8434 671,20760,active
+9246383506757140,adult,True,2021-04-25,Heidi Pajunen,1977-11-13,heidi.pajunen@aurapost.example,041 3496 891,21260,active
+9246302923166271,adult,False,2024-03-09,,,,,,active
+9246030006499513,adult,False,2022-10-20,,,,,,active
+9246060338130064,child,True,2021-12-21,Helmi Pajulehto,2015-10-14,lassepajulehto@nordmail.example,040 908 5460,20520,active
+9246066187085739,adult,False,2022-12-26,,,,,,active
+9246644707405890,adult,True,2024-05-15,Tommi Raatikainen,1989-10-17,tommi925@webmail.example,040 756 5726,20360,active
+9246232558302109,senior,True,2019-10-25,Raimo Pajumaa,1946-05-05,raimo.pajumaa@nordmail.example,040-9740048,21420,active
+9246617844763157,adult,False,2024-12-15,,,,,,active
+9246144044277870,adult,False,2021-01-06,,,,,,active
+9246163569797526,senior,True,2021-08-01,Veikko Kaskiluoto,1953-03-01,kaskiluoto.veikko@mailbox.example,040 8880 800,20100,active
+9246347833951817,student,True,2025-07-23,Stella Granqvist,2001-11-08,,+358468352637,20500,active
+9246805382652714,adult,True,2020-11-02,Santeri Nylund,2005-02-22,nylund.santeri@postilaatikko.example,0508709564,20610,active
+9246104658596023,adult,False,2023-10-10,,,,,,active
+9246289933296968,adult,True,2022-06-09,Janne Laaksovirta,1984-11-25,janne_laaksovirta@kotiposti.example,050 6875 394,21260,active
+9246013129044879,adult,False,2023-10-28,,,,,,active
+9246934721771975,adult,True,2018-11-25,Piia Mäntyniemi,1978-11-04,piia219@postilaatikko.example,0447937147,21110,active
+9246210569525686,adult,True,2021-12-08,Harri Lindgren,1967-07-11,harrilindgren@inbox.example,+358505284024,20320,active
+9246266362963482,adult,False,2024-11-03,,,,,,active
+9246857443734627,senior,True,2021-05-03,Olavi Jousikoski,1957-03-24,olavi.jousikoski@webmail.example,,20740,active
+9246007981953250,student,True,2020-10-26,Matthew Campbell,2003-03-15,mcampbell@webmail.example,,20320,replaced
+9246315747869045,student,True,2025-10-19,Matthew Campbell,2003-03-15,mcampbell@webmail.example,0407047670,20320,active
+9246501165894306,adult,False,2024-11-04,,,,,,active
+9246830550142843,adult,True,2019-03-21,Pekka Laitinen,1971-07-23,pekka363@aurapost.example,,20700,active
+9246477349379755,senior,True,2025-07-20,Marja Ojakangas,1948-01-21,,040 318 9488,20780,active
+9246830086247512,student,True,2020-01-08,Camilla Åberg,2001-08-08,camilla.aberg@nordmail.example,+358 44 149 4651,20100,active
+9246970269382429,adult,True,2019-08-25,Noora Saarinen,2002-08-06,noora.saarinen@aurapost.example,+358 46 818 3108,21420,active
+9246925703706930,senior,True,2018-12-21,Heikki Tammiluoto,1941-10-01,,+358 40 132 5263,21420,active
+9246150546697028,adult,True,2021-08-16,Tuija Pajuranta,1964-04-28,tuija.pajuranta64@webmail.example,040 1713 551,20780,active
+9246138880057545,adult,False,2019-04-09,,,,,,active
+9246453831070004,adult,True,2022-08-23,Seija Hakala,1973-04-01,shakala@mailbox.example,+358 50 375 2224,21110,active
+9246982896693169,student,True,2022-11-08,Iida Rantakorpi,2006-09-10,,040 996 3851,20200,active
+9246217766186410,student,True,2023-02-27,Mehdi Rezaei,2008-08-05,mehdi.rezaei08@webmail.example,044 7163 019,20100,active
+9246959998828307,child,True,2019-04-15,Livia Pihlaharju,2010-03-25,,0448966919,21220,active
+9246508629060200,adult,True,2018-08-30,Viktor Väänänen,1982-09-12,viktor222@nettiposti.example,0505216938,20360,active
+9246906843645477,senior,True,2023-12-30,Maija Talvioja,1944-06-27,,0451966775,20360,active
+9246153149284574,senior,True,2021-06-23,Maria Lindqvist,1959-10-27,maria_lindqvist@postilaatikko.example,045-8348956,20740,active
+9246952501277351,child,True,2020-01-24,Leo Lindström,2016-10-25,samilindstrom@kotiposti.example,,21100,active
+9246129273461220,adult,False,2024-08-04,,,,,,active
+9246336506572604,adult,True,2022-12-06,Christer Nodström,1992-03-30,,040-9528970,20700,active
+9246212690782186,adult,True,2019-08-16,Pekka Autio,1972-07-20,pekka.autio72@kotiposti.example,041 3376 035,20740,active
+9246143570955370,adult,False,2019-11-16,,,,,,active
+9246216216075603,adult,False,2020-01-15,,,,,,active
+9246805382155700,disability_discount,True,2020-05-13,Joonas Hietalahti,1997-08-29,joonashietalahti@inbox.example,+358 50 149 2837,21420,active
+9246555433463427,student,True,2018-11-20,Rasmus Sarkakoski,1999-11-10,rasmussarkakoski@mailbox.example,+358 50 711 3255,20360,active
+9246622035814421,adult,False,2019-12-03,,,,,,active
+9246399143903905,senior,True,2025-07-13,Juhani Laaksosalo,1944-06-10,jlaaksosalo@kotiposti.example,+358406184228,21210,active
+9246781227097383,adult,False,2025-06-16,,,,,,replaced
+9246097544646962,adult,False,2025-10-24,,,,,,active
+9246945086236453,senior,True,2019-09-14,Marjatta Oravakangas,1958-02-24,oravakangas.marjatta@postilaatikko.example,+358502097583,20880,active
+9246347439505538,senior,False,2020-04-24,,,,,,active
+9246780107111330,adult,True,2018-12-15,Kirsi Kiuru,1968-08-27,kirsi473@nettiposti.example,+358441907704,20900,active
+9246015097560935,senior,True,2020-04-01,Antero Vainio,1953-07-08,vainio.antero@webmail.example,,20520,active
+9246965177018941,adult,False,2025-07-09,,,,,,active
+9246452462772763,student,True,2019-01-18,Aino Mäntyranta,1998-06-22,ainomantyranta@nettiposti.example,+358464187445,21100,active
+9246105930023439,adult,True,2022-03-05,Harri Laine,1973-04-10,harri21@postilaatikko.example,050 6513 856,20750,active
+9246749683347568,adult,False,2020-04-24,,,,,,active
+9246724011702842,adult,True,2019-09-03,Jarmo Hautala,1971-06-28,jarmo.hautala@nordmail.example,+358451171388,20740,active
+9246196981350375,adult,True,2019-04-15,Pekka Ruohovuori,1965-03-25,pruohovuori@kotiposti.example,0415031630,20750,active
+9246008995014980,adult,True,2022-01-09,Anu Jousipää,1988-04-13,jousipaa.anu@nordmail.example,0445712291,20700,active
+9246052872659806,child,False,2024-07-12,,,,,,active
+9246105328576766,adult,True,2024-08-16,Outi Hakala,1962-07-25,outi.hakala@mailbox.example,+358461997712,20100,active
+9246979594848780,adult,True,2022-07-02,Pirjo Ruohovirta,1963-01-26,pirjo811@mailbox.example,+358 40 910 9988,20800,active
+9246656074901764,adult,True,2020-07-27,Nea Pajusuo,1995-01-02,nea.pajusuo95@webmail.example,,20100,active
+9246441098224588,adult,True,2019-08-25,Santeri Ilvessalo,1997-01-27,silvessalo@postilaatikko.example,041 1228 550,20780,active
+9246756030276796,adult,False,2019-11-28,,,,,,replaced
+9246141496638146,adult,False,2025-10-15,,,,,,active
+9246763880360738,adult,True,2022-10-17,Mari Sarkavirta-Joutsenoja,1983-03-12,mari.sarkavirta-joutsenoja@kotiposti.example,,20800,active
+9246414480427739,adult,False,2021-04-17,,,,,,active
+9246676555730144,adult,True,2020-02-19,Tomi Karjalainen,1975-03-13,tkarjalainen@mailbox.example,+358402764886,20720,active
+9246513327142706,adult,True,2025-06-07,Johanna Joutsenlahti,1979-08-11,johanna.joutsenlahti@kotiposti.example,050 867 3232,20720,active
+9246735828782595,adult,False,2020-01-02,,,,,,active
+9246222304454106,adult,False,2022-01-26,,,,,,active
+9246204384860576,senior,False,2020-06-14,,,,,,active
+9246045315098848,adult,False,2022-04-03,,,,,,active
+9246327594305445,adult,True,2023-07-06,Heidi Ylälä,1979-03-22,,040 4843 530,20900,active
+9246271189048509,adult,False,2025-05-09,,,,,,active
+9246751903249129,adult,True,2021-07-26,Juho Hallakorpi,2005-12-01,hallakorpi.juho@nordmail.example,+358 45 782 4309,20780,active
+9246216720210639,child,False,2018-10-17,,,,,,active
+9246202247210740,senior,True,2019-09-04,Ali Abdullah,1942-10-10,ali.abdullah@inbox.example,,20720,active
+9246476607113542,adult,True,2023-12-14,Mika Järvi,1976-02-26,mikajarvi@kotiposti.example,,20360,active
+9246757155257769,adult,True,2020-04-04,Eetu Oinonen,2000-04-26,eetu.oinonen00@nordmail.example,050 105 1535,20200,active
+9246801496397700,adult,False,2024-08-12,,,,,,active
+9246468778399083,adult,True,2021-12-07,Venla Keskitalo-Alasuo,1992-08-01,vkeskitalo-alasuo@webmail.example,+358 41 154 5427,21120,active
+9246564105703359,student,True,2024-06-30,Milla Kuronen,1996-12-22,millakuronen@aurapost.example,045 907 6390,21110,active
+9246218678018261,adult,False,2021-10-03,,,,,,active
+9246836916143235,senior,False,2023-03-23,,,,,,active
+9246750031573749,adult,True,2021-07-18,Michael Brown,1977-09-13,mbrown@mailbox.example,050 651 3473,20780,active
+9246862419074669,student,True,2024-07-12,Pinja Suominen,1996-09-03,psuominen@mailbox.example,+358501021077,21260,active
+9246856640780433,senior,True,2021-11-24,Jaakko Tuomilahti,1954-05-26,jaakkotuomilahti@inbox.example,,20740,active
+9246845468898088,student,True,2024-12-06,Onni Talvilahti,2003-07-30,onni.talvilahti03@mailbox.example,0442386140,20100,active
+9246251408149437,adult,True,2025-08-20,Marko Tervoharju,1980-09-04,mtervoharju@aurapost.example,045 349 3769,20460,active
+9246934086807539,senior,True,2023-11-08,Lasse Yläkoski,1948-01-21,lasseylakoski@nordmail.example,041-5598643,21100,active
+9246207797413073,student,True,2020-07-19,Henri Rautakallio,1998-04-01,rautakallio.henri@mailbox.example,0462624568,20100,active
+9246038221590552,student,True,2023-09-26,Joonas Anttila,2006-02-12,janttila@aurapost.example,0401885497,21620,active
+9246898753254186,adult,True,2019-09-07,Outi Mäntylehto,1969-06-28,outi_mantylehto@kotiposti.example,+358505979229,20730,active
+9246781323356360,senior,True,2025-03-10,Triin Ilves,1949-10-28,triin.ilves49@nettiposti.example,+358 50 535 5486,20250,active
+9246732066093116,adult,False,2019-09-25,,,,,,active
+9246130546805474,student,True,2019-02-01,Oliver Alanen,2010-02-15,oliver.alanen10@webmail.example,0448027940,20540,active
+9246249714590153,student,True,2021-04-30,Siiri Lehtokorpi,1998-12-17,siiri.lehtokorpi98@nettiposti.example,0441197472,21500,active
+9246966143484134,student,True,2021-01-07,Mikael Engblom,2002-05-08,mikael.engblom@mailbox.example,+358 44 321 8674,20610,active
+9246627507356041,adult,True,2022-09-13,Roope Heino,1997-06-11,rheino@inbox.example,046 139 5627,21260,active
+9246797293989402,adult,True,2024-11-28,Sami Saarisuo,1961-07-17,ssaarisuo@postilaatikko.example,041 274 8221,20540,replaced
+9246585946777351,adult,True,2025-10-14,Sami Saarisuo,1961-07-17,ssaarisuo@postilaatikko.example,,20540,active
+9246284965114940,senior,True,2024-09-24,Tuula Mäkioja,1945-09-30,,046 678 6078,20740,active
+9246436648034321,adult,True,2022-10-29,Ilkka Saarinen,1970-08-23,ilkka.saarinen@mailbox.example,+358451835396,20540,active
+9246169170200396,adult,True,2024-05-25,Taras Savchenko,2001-11-27,tarassavchenko@aurapost.example,041-7187888,20300,active
+9246099979082986,adult,False,2023-05-15,,,,,,active
+9246602002431250,adult,True,2019-06-07,Ville Lehtomäki,2001-11-09,ville.lehtomaki@postilaatikko.example,+358 50 626 1156,20700,replaced
+9246639979782281,adult,True,2025-10-25,Ville Lehtomäki,2001-11-09,ville.lehtomaki@postilaatikko.example,,20700,active
+9246852183099331,adult,True,2020-05-05,Vesa Parkkinen,1974-01-03,vesa.parkkinen74@mailbox.example,041 570 5923,21100,active
+9246024760973912,adult,True,2024-07-15,Emma Mäkinen,1994-05-24,,+358447689765,20100,active
+9246817307167082,student,True,2025-01-27,Valtteri Kokko,2006-04-06,valtteri610@nordmail.example,050 108 1326,21420,active
+9246208539989792,adult,False,2020-01-09,,,,,,active
+9246780228310829,adult,False,2018-12-19,,,,,,active
+9246707716036947,adult,False,2024-01-14,,,,,,active
+9246870925889603,adult,True,2021-09-04,Fanni Mäkimaa,2006-02-15,makimaa.fanni@aurapost.example,+358 40 367 6027,20360,active
+9246513835297000,adult,True,2019-12-14,Zhilwan Ahmadi,1973-08-14,zhilwan_ahmadi@kotiposti.example,040-8868416,20250,active
+9246081168546179,adult,False,2019-12-23,,,,,,active
+9246862924692369,adult,False,2020-09-10,,,,,,active
+9246951559130322,student,True,2020-11-13,Jenna Saarioja,2003-12-22,jenna.saarioja@nettiposti.example,,20520,active
+9246431105876330,adult,False,2023-06-26,,,,,,active
+9246038924405850,senior,False,2018-11-11,,,,,,active
+9246046428873655,adult,True,2019-09-16,Essi Lehtonen,2004-11-15,essi185@webmail.example,+358447062792,20610,active
+9246445280746571,student,False,2019-10-02,,,,,,active
+9246767766542483,adult,False,2023-10-03,,,,,,active
+9246062917548310,senior,True,2021-01-08,Yan Chen,1957-11-30,yan.chen57@webmail.example,+358452377784,20730,active
+9246138439302640,adult,False,2022-03-24,,,,,,active
+9246589362424001,student,True,2019-08-01,Ronja Hirviranta,2006-10-30,ronja.hirviranta@aurapost.example,044 711 9246,20780,active
+9246280658431310,student,True,2019-09-24,Ville Koivukangas,1998-07-13,villekoivukangas@kotiposti.example,040-1920697,21110,active
+9246908902610772,adult,False,2022-02-12,,,,,,active
+9246944602918603,adult,True,2019-06-27,Antti Pajuvirta,1975-05-18,anttipajuvirta@mailbox.example,040-1407747,20780,active
+9246778602061299,student,False,2019-09-08,,,,,,active
+9246355193442608,adult,True,2022-12-24,Samuel Kultala,1994-06-21,kultala.samuel@nettiposti.example,+358 44 219 4986,20200,active
+9246257011798833,adult,False,2019-12-01,,,,,,active
+9246031440505303,adult,True,2019-11-27,Leena Kaarnanen,1965-10-05,leena.kaarnanen@nordmail.example,0457461810,20720,active
+9246511006325519,student,True,2024-08-01,Matias Kaarnaaho,2001-08-17,matias_kaarnaaho@aurapost.example,045 623 9895,20360,active
+9246218318690305,child,True,2021-12-13,Teo Salooja,2012-07-26,toni.salooja81@mailbox.example,,21420,active
+9246854381068761,student,True,2024-09-18,Lilja Leppäluoto,2010-08-07,leppaluoto.lilja@webmail.example,+358451713802,20730,active
+9246662616599504,adult,True,2024-11-17,Mervi Leino,1973-03-04,mervi598@nettiposti.example,,20520,active
+9246798580754905,adult,True,2018-11-15,Heidi Lehtosuo,1983-05-30,lehtosuo.heidi@nettiposti.example,+358419033042,21120,active
+9246019267765316,adult,True,2024-03-01,Tuomas Aalto,1979-09-06,tuomas.aalto79@nordmail.example,044-1231641,20540,active
+9246169524678222,adult,False,2020-05-27,,,,,,active
+9246302840495324,student,True,2024-09-17,Ella Kesälehto,2008-07-21,ekesalehto@inbox.example,,21620,active
+9246261590282193,student,True,2021-03-16,Oona Lumiaho,2007-04-22,oonalumiaho@postilaatikko.example,,20100,replaced
+9246122921364896,student,True,2025-10-20,Oona Lumiaho,2007-04-22,oonalumiaho@postilaatikko.example,,20100,active
+9246636148977719,disability_discount,True,2020-11-08,Aki Saariniemi,1975-10-17,aki86@kotiposti.example,+358503701351,20750,active
+9246425774879237,adult,True,2021-07-02,Eetu Mäntyranta,2005-03-12,eetumantyranta@nordmail.example,,20500,replaced
+9246943881757278,adult,True,2025-10-14,Eetu Mäntyranta,2005-03-12,eetumantyranta@nordmail.example,044-5505419,20500,active
+9246831810840986,adult,True,2025-06-22,Valtteri Aaltoluoto,1995-03-14,valtteri607@webmail.example,+358 44 154 0515,20500,active
+9246509935285895,senior,True,2023-08-03,Sinikka Hietavirta,1946-01-03,shietavirta@inbox.example,040 475 8269,20500,active
+9246500402773927,senior,True,2020-06-15,Aila Hirvikoski,1956-03-06,ahirvikoski@nordmail.example,,20100,active
+9246189450138306,adult,False,2019-07-19,,,,,,active
+9246097159659995,adult,False,2025-03-05,,,,,,active
+9246620705856813,adult,False,2021-12-19,,,,,,active
+9246977709477099,adult,True,2020-04-28,Anu Laaksoharju,1984-02-16,anu.laaksoharju84@postilaatikko.example,041 476 2714,20730,active
+9246061265904158,adult,True,2025-03-17,Sami Yläoja,1984-05-28,sami_ylaoja@kotiposti.example,+358502558683,20360,active
+9246403932534184,adult,True,2023-11-15,Eetu Kaukokoski,2001-10-31,,,20360,active
+9246999451663809,adult,True,2022-07-10,Eemeli Lahtinen,1990-11-20,elahtinen@inbox.example,+358 45 798 5357,20500,active
+9246020040144738,student,False,2022-04-12,,,,,,active
+9246106461591844,adult,True,2023-01-20,Petteri Ojala,1980-05-12,petteri_ojala@mailbox.example,050 1538 865,20500,active
+9246338101628773,student,False,2019-07-01,,,,,,active
+9246632671625072,senior,True,2025-07-07,Pentti Kuusikorpi,1959-10-23,,+358 40 724 7836,20960,active
+9246065956608812,adult,False,2019-04-05,,,,,,replaced
+9246315264429967,adult,False,2025-10-17,,,,,,active
+9246429776713576,adult,True,2021-04-06,Markku Laine,1961-03-10,markku.laine61@inbox.example,040 3116 796,20520,active
+9246470384711438,child,False,2024-03-20,,,,,,active
+9246848119281167,adult,True,2020-12-10,Jaana Vahtera,1961-09-11,,045-5227989,20780,active
+9246532238177395,adult,False,2025-07-14,,,,,,active
+9246429039143819,adult,True,2019-10-17,Jaana Lepistö,1966-01-28,lepisto.jaana@inbox.example,,21100,replaced
+9246623186378703,adult,True,2025-10-25,Jaana Lepistö,1966-01-28,lepisto.jaana@inbox.example,0469221993,21100,active
+9246417536153696,adult,True,2022-07-05,Liam Smith,2003-06-27,liam60@kotiposti.example,0507874059,20300,active
+9246488708690658,adult,False,2025-06-10,,,,,,active
+9246523265635710,student,False,2021-09-05,,,,,,active
+9246779015780731,adult,False,2020-03-09,,,,,,active
+9246661212094035,child,False,2024-10-21,,,,,,active
+9246498793673626,disability_discount,False,2018-11-11,,,,,,active
+9246176365188542,adult,True,2024-10-27,Elias Hakala,1986-06-27,elias.hakala@kotiposti.example,,20780,active
+9246882969800198,adult,True,2023-02-02,Aisha Abdullah,1987-07-08,aisha.abdullah@inbox.example,,20900,active
+9246863038000473,adult,False,2020-09-19,,,,,,active
+9246704535598637,adult,True,2023-03-12,Joni Aaltokoski,1981-09-24,jaaltokoski@aurapost.example,045 922 6975,20540,active
+9246028770853774,adult,False,2024-02-14,,,,,,active
+9246110507078717,adult,True,2021-03-23,Tomi Pohjolehto,1987-09-11,tomi46@inbox.example,+358 40 947 4691,20520,active
+9246255183790661,adult,False,2023-09-23,,,,,,active
+9246319796880846,adult,True,2025-03-17,Veeti Sarkamaa,2004-11-11,sarkamaa.veeti@nordmail.example,0457225877,20740,active
+9246869679745391,adult,True,2025-08-27,Jere Jousivirta,1992-12-23,jjousivirta@postilaatikko.example,+358 44 290 8298,21200,active
+9246410881051748,adult,True,2023-12-09,Risto Pohjoniemi,1968-04-30,risto.pohjoniemi68@mailbox.example,,20300,active
+9246455604992942,senior,True,2024-05-11,Tuija Sunen,1960-11-27,,+358413566110,20780,active
+9246209774129482,adult,True,2018-08-31,Noora Koistinen,2004-12-09,noora.koistinen@nordmail.example,,20100,active
+9246760702064191,student,True,2022-07-04,Lauri Kotkalahti,2006-03-08,,+358504129633,20740,active
+9246604225951387,senior,True,2018-09-14,Eila Ahokoski,1947-12-09,eila580@nettiposti.example,+358441433319,20730,active
+9246167770071779,adult,True,2022-03-05,Alma Eriksson,1983-06-07,,,20780,active
+9246927950251230,adult,True,2019-05-31,Juho Niemivuori,1978-08-09,juho.niemivuori@inbox.example,046 6510 416,20100,active
+9246112977564044,adult,False,2022-07-07,,,,,,active
+9246347896818606,student,True,2019-07-19,Oskari Leino,2009-11-02,leino.oskari@postilaatikko.example,0507468328,20750,active
+9246817430778359,student,False,2024-01-06,,,,,,active
+9246526697531118,adult,False,2024-09-14,,,,,,active
+9246329870905864,adult,True,2024-07-27,Eetu Heiskanen,1990-05-12,eetu586@nordmail.example,044 9145 080,21620,active
+9246228676320213,student,True,2018-09-29,Venla Virtanen,2008-03-02,,+358 40 735 6098,20700,active
+9246451656809910,disability_discount,True,2018-11-02,Pinja Hietaharju,1999-10-06,,+358411271776,20780,active
+9246532483316698,child,False,2024-08-26,,,,,,active
+9246451337273205,adult,True,2025-05-14,Jenni Jousimäki,1985-12-06,jenni.jousimaki85@aurapost.example,044-4784995,20780,active
+9246387819305133,student,False,2020-02-21,,,,,,active
+9246881579533298,child,True,2025-04-18,Emil Holappa,2012-01-11,ville.holappa@inbox.example,,20780,active
+9246158221529812,adult,True,2023-03-14,Arttu Kurkiharju,2005-08-04,akurkiharju@aurapost.example,+358 50 292 3770,20500,active
+9246101495740145,adult,False,2023-03-18,,,,,,active
+9246058402721289,senior,True,2024-02-05,Heikki Rantamäki,1942-07-04,,040 6941 399,21120,active
+9246557666543990,adult,True,2020-06-01,Inka Kaskikallio,1998-01-28,,,20730,active
+9246477382701592,adult,True,2022-02-26,Anne Tammioja,1965-07-14,,050 893 3871,20250,active
+9246597351174784,student,True,2025-06-30,Isak Karlsson,2001-06-19,isak431@nettiposti.example,041 5724 538,21620,active
+9246637116745468,adult,True,2022-04-07,Marko Oikarinen,1978-10-26,marko.oikarinen@kotiposti.example,050 821 1452,20900,active
+9246106158931519,child,True,2021-12-24,Aatos Salokoski,2017-08-21,eetu_salokoski@inbox.example,+358452447744,20300,active
+9246693416741327,child,False,2019-10-16,,,,,,active
+9246459068370363,child,True,2022-11-24,Lenni Rantaluoto,2011-01-03,rantaluoto.matti@kotiposti.example,+358 40 653 2971,20740,active
+9246669618962549,student,True,2024-01-21,María Vázquez,2012-02-19,,+358446014422,20700,active
+9246933894913687,student,True,2022-01-22,Venla Heikkilä,1998-08-06,venla503@nettiposti.example,+358 40 390 9969,20730,active
+9246234377538491,adult,True,2018-12-19,Venla Sorsamäki,1999-02-17,venla_sorsamaki@postilaatikko.example,0459194718,20780,active
+9246851712511097,adult,True,2022-05-25,Valtteri Pihlapää,1992-06-02,valtteri.pihlapaa92@webmail.example,050 8002 300,21420,active
+9246881297229351,adult,False,2020-06-16,,,,,,active
+9246671409019836,adult,True,2022-04-19,Nelli Pulkkinen,1991-03-11,nelli746@webmail.example,044 3693 762,20100,active
+9246742228112233,adult,True,2020-07-28,Juha Ylälä,1965-08-20,,+358401637792,20780,active
+9246887471847603,student,False,2020-11-01,,,,,,active
+9246339213338962,student,True,2019-04-15,Laura Pohjola,2006-05-06,,050 1564 641,21500,active
+9246974358997923,adult,True,2022-08-23,Anni Ojanen,2000-11-05,anni_ojanen@nordmail.example,0402289631,20500,active
+9246168508616695,adult,True,2021-05-31,Jarmo Kultamäki,1970-11-29,,+358 41 552 9070,20300,active
+9246590263367901,child,True,2019-07-04,Emma Haataja,2012-03-06,,040 1083 419,20800,active
+9246725773319808,adult,True,2020-06-03,Alma Mattsson,1994-10-25,mattsson.alma@postilaatikko.example,+358 44 140 7308,20960,active
+9246626738976130,adult,True,2020-11-21,Jesse Heinälahti,2002-07-04,heinalahti.jesse@inbox.example,0453283152,21200,active
+9246640621816733,adult,False,2024-06-30,,,,,,active
+9246876110499546,adult,False,2021-05-30,,,,,,active
+9246312942878624,disability_discount,True,2022-10-27,Kaija Alavirta,1963-08-26,kaija.alavirta@nettiposti.example,0416737355,20400,active
+9246738738658780,adult,False,2019-01-24,,,,,,active
+9246036050497584,student,True,2025-02-01,Selma Tervomäki,2011-04-17,toni131@kotiposti.example,,20300,active
+9246018699647365,student,True,2024-03-13,Oskari Kesämäki,2008-06-09,kesamaki.oskari@nordmail.example,+358 44 999 4972,20780,active
+9246167616953776,disability_discount,False,2021-12-30,,,,,,active
+9246313764859320,adult,True,2021-03-10,Tiina Pihlaluoto,1979-11-18,tiina_pihlaluoto@kotiposti.example,0404691468,21420,active
+9246513735341668,adult,True,2020-08-26,Minna Kesäranta,1989-03-22,mkesaranta@nordmail.example,+358 50 214 5514,20700,active
+9246651473435878,adult,True,2019-05-13,Eveliina Oravakangas,2006-07-13,oravakangas.eveliina@kotiposti.example,+358 50 799 5987,20360,active
+9246153693632368,adult,False,2020-09-26,,,,,,active
+9246819990633669,adult,True,2024-08-08,Jarkko Eskelinen,1975-12-01,jeskelinen@postilaatikko.example,050-7803196,20500,active
+9246770495834056,adult,True,2024-06-19,Margareta Lindberg,1981-01-14,margaretalindberg@nettiposti.example,+358 50 831 2681,20500,active
+9246980595196328,disability_discount,True,2022-07-19,Ritva Viitasuo,1945-02-10,ritva.viitasuo45@kotiposti.example,,21360,active
+9246122420315126,adult,True,2024-03-18,Hao Li,1966-09-02,hao_li@nordmail.example,,20700,active
+9246377841746461,child,False,2021-05-03,,,,,,active
+9246605056353841,adult,True,2023-12-26,Venla Kaarnala,2001-01-05,venlakaarnala@webmail.example,041-8287935,20960,active
+9246179849958514,adult,False,2021-12-01,,,,,,active
+9246722337766541,senior,True,2023-07-13,Tapani Hrvijärvi,1940-02-29,,,20960,active
+9246991341653892,senior,True,2023-09-15,Anders Granqvist,1960-12-30,granqvist.anders@nordmail.example,040-5415141,20780,active
+9246336562788235,adult,True,2024-12-18,Riku Leppämaa,1987-10-03,riku_leppamaa@webmail.example,046 280 7425,21500,active
+9246484910058693,adult,False,2019-01-17,,,,,,active
+9246852952957008,adult,True,2020-10-06,Eemeli Lehtomäki,1995-10-10,eemeli.lehtomaki@postilaatikko.example,0418332980,21210,active
+9246863836983920,senior,False,2023-10-06,,,,,,active
+9246027993303591,student,True,2020-09-13,Juho Saariluoto,2002-03-09,juho_saariluoto@aurapost.example,,20750,active
+9246460664490456,adult,True,2020-12-26,William Lehtonen,1999-07-10,william.lehtonen99@nordmail.example,044-8561115,20800,active
+9246745567026328,adult,True,2018-09-26,Emilia Salovirta,2005-10-16,emilia.salovirta05@nordmail.example,044 4273 104,20800,active
+9246793651613270,adult,False,2025-01-30,,,,,,active
+9246171756049312,adult,True,2023-02-27,Pinja Pihlaharju,1995-07-17,pinja437@postilaatikko.example,,21110,active
+9246986360705516,adult,False,2025-01-22,,,,,,active
+9246916002346353,adult,False,2019-07-04,,,,,,active
+9246008425307756,senior,True,2024-11-21,Esko Laaksoharju,1957-02-11,esko837@mailbox.example,046-6890523,20460,active
+9246002300959955,adult,True,2022-10-13,Johanna Talvinen,1978-08-06,,+358445708566,21110,active
+9246709149571052,student,True,2023-10-09,Julia Mäkiharju,2001-08-12,julia_makiharju@inbox.example,+358 50 806 2968,20320,active
+9246070402883829,child,False,2019-06-09,,,,,,active
+9246312509228569,student,True,2025-08-04,Veera Mikkola,2008-06-14,vmikkola@aurapost.example,,21420,active
+9246150383748785,adult,True,2024-01-24,Katja Lehtonen,1984-09-14,klehtonen@inbox.example,,20900,active
+9246823542473558,child,False,2019-03-04,,,,,,active
+9246796823212871,adult,True,2021-08-27,Joonas Saloniemi,2004-12-29,joonas_saloniemi@mailbox.example,,20730,active
+9246058751663124,senior,False,2018-10-07,,,,,,active
+9246801393052861,senior,True,2025-04-15,Elin Hellsten,1957-07-12,elin27@inbox.example,+358 46 288 5001,20500,active
+9246601958710964,adult,True,2022-03-05,Wilma Tammiranta,2003-09-22,,0447110911,21200,replaced
+9246135239077356,adult,True,2025-10-18,Wilma Tammiranta,2003-09-22,,044-7110911,21200,active
+9246536602618629,adult,False,2025-05-08,,,,,,active
+9246451008533580,adult,True,2023-05-18,Marjo Kangasvirta,1962-01-13,marjo.kangasvirta@postilaatikko.example,+358 46 769 0564,20210,active
+9246452753518404,adult,True,2019-10-02,Joni Kokkonen,1986-05-14,jkokkonen@mailbox.example,,21100,active
+9246320463996261,senior,True,2022-09-16,Sirkka Pohjola,1952-09-25,sirkkapohjola@nettiposti.example,0442730100,20400,active
+9246412460955067,senior,True,2021-11-22,Liis Kukk,1959-12-27,,,20720,active
+9246680737067920,adult,False,2023-04-10,,,,,,active
+9246426688724899,student,False,2025-04-02,,,,,,active
+9246377982338490,adult,True,2022-02-05,Susanna Sihvonen,1980-12-28,,+358 41 908 8781,20700,active
+9246138577846176,adult,True,2025-01-25,Minna Niemi,1975-02-19,mniemi@inbox.example,040 599 2710,20360,active
+9246228098709993,adult,True,2023-01-20,Fanni Pihlasuo,2005-03-06,fanni477@inbox.example,,21260,active
+9246379584213915,student,True,2024-03-17,Valtteri Laasokangas,1998-05-01,laaksokangas.valtteri@mailbox.example,,20460,active
+9246636588026399,student,True,2019-01-24,Essi Koivunen,1998-08-20,essi.koivunen98@nordmail.example,+358407286635,20780,active
+9246771135744739,student,True,2023-07-14,Jing Huang,1996-05-25,jing585@inbox.example,+358 40 387 9563,20610,active
+9246819983719160,adult,False,2018-12-24,,,,,,active
+9246931697363902,student,True,2024-03-01,Valtteri Saarinen,2000-04-24,saarinen.valtteri@nettiposti.example,041 800 5095,20800,active
+9246424157219566,student,True,2019-09-24,Ani Salonen,1999-08-24,asalonen@aurapost.example,,20100,active
+9246355940622635,adult,False,2021-02-12,,,,,,active
+9246144377041703,student,True,2025-04-23,Emilia Salomaa,2009-02-12,emilia212@nettiposti.example,,20250,active
+9246419233629259,senior,True,2023-11-29,Irma Sarkanen,1950-11-05,irmasarkanen@postilaatikko.example,+358507062817,20760,replaced
+9246402847875328,senior,True,2025-10-25,Irma Sarkanen,1950-11-05,irmasarkanen@postilaatikko.example,0507062817,20760,active
+9246577509256576,student,True,2019-10-14,Valtteri Heinämäki,1998-05-15,heinamaki.valtteri@aurapost.example,045 473 0360,20900,active
+9246631106543447,student,True,2021-08-04,Iida Hiltunen,2003-04-14,iida.hiltunen@kotiposti.example,,21110,active
+9246844964694422,adult,False,2022-03-09,,,,,,active
+9246092848085314,adult,True,2020-03-29,Mikko Ruohosalo,1976-07-17,mikko136@aurapost.example,0446940238,21100,active
+9246583221568231,student,True,2023-07-05,Lila Pajumäki,2011-06-30,katja893@inbox.example,,20730,active
+9246342037163871,adult,True,2022-08-19,Bengt Karlsson,1972-12-10,bengt.karlsson@postilaatikko.example,040 5331 082,20300,active
+9246699839054735,student,True,2020-10-07,Ronja Simonen,2001-10-10,,050-6240580,20300,active
+9246192601457716,student,True,2019-10-22,Juho Saarikallio,2000-05-09,juho.saarikallio@inbox.example,,20500,active
+9246150566559116,adult,False,2022-08-24,,,,,,active
+9246552323477948,adult,True,2024-03-08,Kimmo Hietavuori,1973-09-10,kimmo.hietavuori@kotiposti.example,,21110,active
+9246770358845629,adult,True,2019-06-25,Timo Joutsenjärvi,1963-01-19,tjoutsenjarvi@inbox.example,041 3627 149,21120,active
+9246925091784374,senior,False,2025-03-02,,,,,,active
+9246540546659251,adult,False,2022-04-29,,,,,,active
+9246793503298791,adult,True,2020-08-23,Pirjo Lehtinen,1974-09-10,pirjo.lehtinen74@nettiposti.example,050 6559 204,20210,active
+9246304540268936,adult,False,2025-03-03,,,,,,active
+9246738853165835,adult,True,2022-03-04,Anu Yläniemi,1985-08-06,anu.ylaniemi@kotiposti.example,050-3480075,21420,active
+9246727714926436,student,False,2022-07-31,,,,,,active
+9246747201323178,adult,True,2024-10-30,Lauri Hämäläinen,2001-02-02,lauri.hamalainen@aurapost.example,+358 40 113 0267,20300,active
+9246004075599800,student,True,2019-01-05,Rasmus Yläkoski,2000-02-26,ylakoski.rasmus@webmail.example,040 6915 493,20200,active
+9246673763645511,child,True,2019-06-20,Jenna Ojavirta,2009-02-09,jennaojavirta@kotiposti.example,+358406913614,20610,active
+9246819015164682,disability_discount,True,2018-12-17,Laura Kalliokorpi,1985-09-29,,0461929912,20210,active
+9246268251989222,adult,True,2023-10-12,Petri Vuorisalo,1966-09-13,petri.vuorisalo66@inbox.example,,20460,active
+9246395041830141,adult,False,2025-01-25,,,,,,active
+9246848743011303,student,True,2021-08-31,Laura Anttila,2006-09-11,,044 326 9317,20900,active
+9246017643519068,student,True,2023-07-17,Matias Rintalahti,2000-06-11,matiasrintalahti@nettiposti.example,+358411096256,20100,active
+9246528348453817,adult,True,2024-09-15,Iida Tammisalo,2006-11-29,,+358467646653,20100,active
+9246412526870045,adult,True,2022-04-07,Katja Peltolehto,1985-08-29,katja_peltolehto@postilaatikko.example,+358404987845,20500,active
+9246321113561901,adult,True,2025-08-28,Henri Ilvesvirta,1990-04-09,hilvesvirta@webmail.example,050 2291 291,20520,active
+9246481458739304,adult,True,2025-02-08,Satu Haapaluoto,1965-11-29,haapaluoto.satu@postilaatikko.example,0453672356,20880,active
+9246921802663825,adult,True,2023-01-29,Esa Jousiluoto,1968-05-26,esa955@nettiposti.example,045 180 6645,21420,active
+9246260039240366,adult,True,2023-04-08,Viktor Nordström,2004-05-26,nordstrom.viktor@mailbox.example,044 397 4999,20540,active
+9246091095456939,adult,False,2022-06-24,,,,,,active
+9246613673691809,adult,True,2025-04-26,Outi Sorsalehto,1966-10-01,outi188@aurapost.example,044-1043747,21280,active
+9246976663695704,adult,False,2022-11-12,,,,,,active
+9246619028599142,adult,True,2020-12-19,Sara Tammiranta,1995-03-29,sara.tammiranta95@aurapost.example,,20100,active
+9246640367116116,senior,True,2024-01-28,Helena Vahtera,1949-11-30,helena.vahtera49@webmail.example,041 936 7497,20520,active
+9246652720654907,adult,True,2018-08-28,Seija Jokinen,1966-03-13,jokinen.seija@webmail.example,040-6098271,20730,active
+9246227238221695,disability_discount,True,2024-11-22,Keijo Kivelä,1940-07-16,keijo.kivela40@nettiposti.example,+358 50 513 0806,20700,active
+9246659728973197,adult,True,2025-05-19,Olena Bondarenko,2006-04-04,olena886@mailbox.example,046-9994843,20360,active
+9246955181611179,adult,True,2021-09-09,Jukka Tervoaho,1974-12-31,tervoaho.jukka@inbox.example,0445714365,20900,active
+9246311839069735,adult,True,2019-01-25,Henri Tervo,1999-07-08,,,20360,active
+9246260368831033,student,True,2025-04-21,Lumi Niemiharju,2010-07-24,lumi.niemiharju10@webmail.example,041 2923 411,20730,active
+9246863996511263,adult,False,2021-03-31,,,,,,active
+9246199202431578,senior,True,2023-08-08,Seppo Mäkinen,1952-12-27,seppo.makinen52@mailbox.example,040 708 1165,21420,active
+9246291204493332,student,True,2019-07-24,Wilma Pajuharju,2003-10-09,wpajuharju@nettiposti.example,,20780,active
+9246939474395864,senior,True,2024-03-03,Kirsti Penttilä,1947-05-14,,,21120,active
+9246038844856398,adult,False,2025-02-11,,,,,,active
+9246088205796923,adult,False,2024-01-06,,,,,,active
+9246634994625656,adult,True,2022-01-22,Mika Kivimaa,1977-11-13,mika.kivimaa@nettiposti.example,+358 40 651 3613,20250,active
+9246255483040197,adult,False,2023-04-14,,,,,,active
+9246281642498944,student,True,2023-01-30,Jesse Tamminiemi,2004-09-01,,044 574 1684,20700,active
+9246287204587966,adult,False,2024-01-24,,,,,,active
+9246998878844646,adult,True,2024-11-10,Zhilwan Karimi,2001-10-31,zhilwan.karimi01@postilaatikko.example,,20360,active
+9246993203182440,adult,True,2024-05-26,Sanjay Gupta,1976-11-26,sanjay_gupta@postilaatikko.example,,20720,active
+9246518684295427,senior,True,2021-02-17,Raimo Ylälä,1959-05-25,ylala.raimo@postilaatikko.example,,20250,active
+9246657979088541,senior,True,2023-09-21,Sinikka Alavirta,1948-12-27,sinikka.alavirta@nettiposti.example,040 590 9273,20960,active
+9246349780064727,child,True,2019-10-04,Ksenia Sokolova,2011-09-18,isokolova@webmail.example,,21200,active
+9246103906502361,senior,False,2024-01-19,,,,,,active
+9246302875962750,adult,True,2022-02-14,Milla Kaarnajärvi,1992-09-27,milla.kaarnajarvi@nettiposti.example,+358 40 802 9966,20100,active
+9246670999428571,adult,True,2018-12-01,Julia Mäkilä,1996-08-09,julia_makila@aurapost.example,046 4806 783,21210,active
+9246822867474902,student,True,2021-01-21,Veeti Lumijärvi,2009-09-13,veeti.lumijarvi09@webmail.example,+358404024467,20780,active
+9246136202115538,adult,False,2023-10-14,,,,,,active
+9246609080776183,adult,False,2021-08-02,,,,,,active
+9246141187798589,adult,False,2024-02-21,,,,,,active
+9246147779149032,adult,True,2022-04-19,Sami Kaukoniemi,1976-01-02,sami968@postilaatikko.example,050-7719554,21620,replaced
+9246400106241885,adult,True,2025-10-09,Sami Kaukoniemi,1976-01-02,,+358507719554,21620,active
+9246593376522610,adult,True,2023-02-12,Katja Saarinen,1975-03-06,ksaarinen@postilaatikko.example,+358 50 295 6195,20540,active
+9246069677056095,student,True,2023-10-10,Eemeli Hallakallio,2004-04-02,hallakallio.eemeli@kotiposti.example,,20880,active
+9246565748009948,adult,True,2023-06-19,Satu urkioja,1984-04-24,satu_kurkioja@webmail.example,,21150,active
+9246294062522929,adult,False,2022-09-07,,,,,,active
+9246862961553839,adult,True,2025-04-30,Antti Soininen,1977-02-08,antti.soininen@kotiposti.example,046-2143121,21210,active
+9246178670600757,adult,True,2022-09-14,Roope Saariranta,2000-10-26,roope_saariranta@webmail.example,+358 50 594 4216,20780,active
+9246990667938432,adult,False,2021-03-19,,,,,,active
+9246687694867200,adult,True,2022-07-22,Onni Niemikoski,2006-09-19,oniemikoski@aurapost.example,+358 40 205 9036,20500,active
+9246921439133721,child,False,2019-05-09,,,,,,active
+9246074587069170,student,False,2022-09-03,,,,,,active
+9246570281476645,adult,False,2022-03-14,,,,,,active
+9246128491794545,child,True,2025-06-18,Aino Heinäranta,2012-05-06,heinaranta.susanna@aurapost.example,0414190860,20300,active
+9246577583228327,adult,True,2023-05-08,Mikko honen,1971-12-15,mikkoahonen@mailbox.example,044 2230 140,20740,active
+9246441167357814,adult,False,2021-12-15,,,,,,active
+9246918445693201,child,False,2024-08-17,,,,,,replaced
+9246251276495300,child,False,2025-10-27,,,,,,active
+9246828534747836,adult,True,2023-04-25,Yuliia Rudenko,2000-03-07,yuliia.rudenko00@kotiposti.example,,20100,active
+9246056078093348,student,True,2024-05-25,Valtteri Mäkinen,2006-05-16,valtteri350@aurapost.example,+358 46 507 5817,20300,active
+9246076795028674,adult,False,2023-05-23,,,,,,active
+9246948494435493,adult,True,2022-09-27,Rasmus Hiltunen,2004-08-24,rasmushiltunen@nordmail.example,040 4674 008,21420,active
+9246791216951904,adult,True,2023-12-08,Essi Kesäranta,1991-07-19,essi.kesaranta91@postilaatikko.example,046 981 4228,20520,active
+9246972664290470,adult,False,2024-07-04,,,,,,active
+9246262744496697,student,True,2022-05-17,Matias Alavirta,2001-02-04,,+358 40 297 6198,20720,active
+9246694381422828,adult,False,2020-11-08,,,,,,active
+9246314910064765,student,True,2025-07-18,Eetu Kangasmäki,2002-09-28,eetu662@kotiposti.example,+358417602386,21620,active
+9246345641332139,senior,True,2019-07-18,Pekka Ruohopää,1960-09-22,pekka.ruohopaa@nettiposti.example,,20880,active
+9246435612814239,adult,False,2020-10-02,,,,,,active
+9246156889393141,student,True,2021-10-26,Veeti Virtanen,2000-12-04,veeti_virtanen@kotiposti.example,041 4699 247,20100,active
+9246449032724373,child,False,2021-12-18,,,,,,active
+9246415357333116,student,True,2020-10-24,Arttu Tammisuo,2009-01-13,arttu_tammisuo@postilaatikko.example,044 1151 242,21260,active
+9246237971631422,senior,True,2019-06-15,Huda Mahmoud,1960-05-17,,040-5685961,20700,active
+9246336124183917,senior,True,2025-03-29,Viljo Tikka,1938-12-18,tikka.viljo@webmail.example,,21260,active
+9246414202079636,student,True,2019-08-23,Joel Oravajärvi,2000-02-23,,+358469621700,20780,active
+9246504150957898,student,True,2024-11-20,Emma Leppäpää,2010-11-19,emma203@nordmail.example,,20900,active
+9246961728126531,adult,False,2022-07-25,,,,,,active
+9246702007760529,adult,False,2022-10-17,,,,,,active
+9246638453849475,adult,True,2023-01-04,Ilkka Kallioharju,1968-01-01,ilkka_kallioharju@webmail.example,0408025364,20900,active
+9246365247991328,student,True,2023-09-27,Oona Hirvioja,2001-01-01,oona546@nettiposti.example,+358444579406,20730,active
+9246740218821664,adult,True,2020-06-11,Milla Pulkkinen,1999-01-20,millapulkkinen@postilaatikko.example,,21420,active
+9246803369562568,child,False,2019-12-01,,,,,,active
+9246755317934788,adult,True,2023-02-02,Timo Suosalo,1967-02-28,timo612@mailbox.example,+358 40 536 3366,20760,active
+9246173313657215,adult,True,2025-04-09,Matias Kaarnapää,2003-06-19,kaarnapaa.matias@aurapost.example,,21110,active
+9246963917336459,senior,True,2024-04-11,Maija Rantamaa,1958-10-28,maija_rantamaa@inbox.example,046 111 8190,21220,active
+9246013291441937,adult,False,2024-09-03,,,,,,active
+9246799411022009,senior,True,2022-01-02,Heikki Keskitalo,1959-06-18,heikki.keskitalo@kotiposti.example,,20520,replaced
+9246524247769197,senior,True,2025-10-23,Heikki Keskitalo,1959-06-18,heikki.keskitalo@kotiposti.example,,20520,active
+9246189130623412,adult,True,2022-03-26,David Walker,2001-10-12,davidwalker@kotiposti.example,050 7880 066,20730,active
+9246852338173007,senior,True,2024-10-18,Kimmo Ahokas,1960-04-19,,,20720,active
+9246362047803498,adult,False,2022-12-11,,,,,,active
+9246176566144336,adult,False,2022-02-11,,,,,,active
+9246377906943458,adult,False,2020-08-01,,,,,,active
+9246833357125664,adult,True,2023-09-14,Arjun Patel,1990-08-14,apatel@nordmail.example,,20720,active
+9246382548548293,adult,True,2025-05-27,Duc Pham,1964-05-23,dpham@webmail.example,,20250,active
+9246938652585221,adult,True,2024-12-08,Teemu Talvilahti,1978-05-22,,045 7462 584,21260,active
+9246886672056121,senior,True,2023-03-28,Pentti Joutsenranta,1952-10-30,penttijoutsenranta@webmail.example,+358 44 688 1200,20250,active
+9246738443821640,adult,False,2022-03-13,,,,,,active
+9246907845178319,adult,True,2020-11-15,Laura Virtanen,2001-01-30,virtanen.laura@nordmail.example,+358 44 577 6306,20780,active
+9246226214230951,adult,False,2020-12-27,,,,,,active
+9246111360559090,adult,False,2023-03-31,,,,,,active
+9246859507235608,adult,True,2019-02-20,Elias Määttä,1975-02-14,eliasmaatta@nordmail.example,0403979196,20900,active
+9246796789283361,student,True,2024-05-10,Wilma Haukkakangas,2003-01-06,haukkakangas.wilma@inbox.example,+358404403079,20900,active
+9246993429222913,adult,False,2024-03-23,,,,,,active
+9246474544680970,student,True,2018-10-17,Nelli Mäntylehto,2003-11-21,mantylehto.nelli@postilaatikko.example,040 5979 954,20610,active
+9246549607340685,student,True,2020-04-09,Samuel Hietamäki,2001-07-05,samuel.hietamaki@postilaatikko.example,+358 46 296 7862,20500,active
+9246863763031362,student,True,2020-05-26,Jesse Rautakallio,2002-08-16,jesserautakallio@nordmail.example,,21110,active
+9246568145549292,senior,True,2022-03-07,Matti Ylämäki,1951-02-06,matti.ylamaki@inbox.example,+358 40 312 0124,20520,replaced
+9246020328136687,senior,True,2025-10-12,Matti Ylämäki,1951-02-06,matti.ylamaki@inbox.example,+358403120124,20520,active
+9246146137206302,adult,True,2019-01-14,Satu Kaarnakallio,1987-08-22,satu916@aurapost.example,,20200,active
+9246470101082634,adult,True,2023-05-07,Sanna Kangaskoski,1980-10-26,sanna.kangaskoski80@postilaatikko.example,,21160,active
+9246138932497251,senior,True,2019-03-16,Heikki Tuomijärvi,1951-06-03,heikki780@nettiposti.example,044-9635049,21620,active
+9246706675387119,student,True,2020-05-12,Roosa Moisio,2005-09-29,,+358 45 790 8626,20250,active
+9246168928249705,adult,False,2018-11-07,,,,,,active
+9246302797786360,adult,True,2020-12-03,Jaana Kangasmaa,1973-09-02,jkangasmaa@postilaatikko.example,0414228769,21620,active
+9246225309946018,adult,True,2022-05-19,Tommi Hämäläinen,1985-08-06,hamalainen.tommi@nettiposti.example,,21620,active
+9246882563847314,senior,True,2021-02-04,Heikki Heino,1951-10-15,heikki631@postilaatikko.example,,20800,active
+9246434122693274,child,False,2025-02-12,,,,,,active
+9246127385757170,senior,False,2022-04-07,,,,,,active
+9246288022947291,adult,False,2019-10-23,,,,,,active
+9246780296988126,adult,False,2021-09-22,,,,,,active
+9246967975643821,adult,False,2020-05-27,,,,,,active
+9246240178294432,student,True,2022-05-01,Roosa Ojala,2004-07-17,rojala@aurapost.example,,20250,active
+9246681994150839,adult,False,2021-02-13,,,,,,active
+9246728930451498,adult,False,2020-12-18,,,,,,active
+9246075161908691,child,True,2021-01-10,Väinö Karhula,2013-01-17,jkarhula@nordmail.example,,21620,active
+9246605339620354,adult,True,2025-07-24,Tarja Leppäaho,1970-03-18,leppaaho.tarja@nordmail.example,040 3712 840,20610,active
+9246803194417145,adult,True,2021-09-02,Valtteri Laaksonen,2003-09-07,valtteri_laaksonen@kotiposti.example,040-6179938,21120,active
+9246558880878683,child,True,2022-11-15,Nea Niemisalo,2009-01-28,nea906@postilaatikko.example,+358447373266,20100,active
+9246980295228165,adult,True,2021-02-14,Toni Ahokallio,1980-06-03,toniahokallio@inbox.example,044-5598847,21420,active
+9246102180315482,adult,False,2022-01-30,,,,,,active
+9246234917144339,adult,True,2018-08-31,Venla Lindholm,1991-07-21,lindholm.venla@webmail.example,,20540,active
+9246335871323734,student,True,2019-02-10,Johan Sundström,1996-08-18,,+358469785844,20720,active
+9246574177652251,senior,True,2024-03-25,Aino Rintanen,1939-04-06,aino.rintanen39@mailbox.example,044-9047972,20500,active
+9246606271668450,student,True,2021-02-18,Oskari Tarvainen,2005-04-04,oskari.tarvainen05@inbox.example,0503370440,20360,active
+9246949702900351,adult,False,2024-05-28,,,,,,active
+9246722377243864,adult,False,2022-04-28,,,,,,active
+9246930466452458,adult,True,2019-07-27,Riitta Joutsenpää,1963-05-02,riitta_joutsenpaa@webmail.example,050 444 5115,20730,active
+9246406205795986,adult,True,2025-02-17,Johanna Kauppila,1986-10-17,johanna337@aurapost.example,+358 50 299 2929,20660,active
+9246664163211616,senior,True,2025-02-15,Jaakko Kesälahti,1942-10-24,jaakko456@nettiposti.example,040-3981295,21500,active
+9246171850433222,adult,True,2019-01-05,Ville Kultalahti,1992-02-19,,040 931 4445,20610,active
+9246303073566799,child,False,2019-12-25,,,,,,active
+9246641275230304,senior,True,2023-05-08,Eero Mäkijärvi,1945-03-29,eeromakijarvi@nettiposti.example,040-1276066,20610,active
+9246653907927991,student,True,2021-06-07,Elias Salo,2004-05-12,,+358 44 629 0701,20760,active
+9246702705296966,adult,True,2019-08-26,Pekka Turpeinen,1963-07-10,pturpeinen@postilaatikko.example,040 1278 567,21500,active
+9246869494400800,senior,True,2020-05-20,Kari Haapamaa,1941-12-16,,040 378 3153,21210,active
+9246207182761243,adult,True,2025-08-28,Jaana Haapala,1968-09-11,jaanahaapala@aurapost.example,045 173 6903,20100,active
+9246412330822778,adult,True,2020-09-02,Oona Komulainen,2006-03-18,oona_komulainen@mailbox.example,,21110,active
+9246455460802946,adult,False,2022-03-04,,,,,,active
+9246652009945406,adult,False,2021-12-02,,,,,,active
+9246474385286069,senior,True,2024-01-21,Irma Pajukorpi,1948-07-13,irma.pajukorpi48@kotiposti.example,,21420,active
+9246841124500002,student,True,2019-07-22,Eetu Aaltoharju,1998-09-26,eetu.aaltoharju98@aurapost.example,,20100,active
+9246337688673137,adult,True,2023-05-21,Dmitri Sokolov,2006-05-28,dmitri537@inbox.example,044 823 4590,20100,active
+9246741844009831,senior,True,2019-06-14,Sinikka Koivukoski,1942-09-16,sinikka.koivukoski42@inbox.example,0503096596,20960,active
+9246815339002640,student,True,2021-06-29,Venla Laaksokangas,1999-01-18,venla.laaksokangas99@webmail.example,,20800,active
+9246676323266298,senior,False,2021-03-15,,,,,,active
+9246163174162843,adult,True,2019-04-07,Oona Jokinen,2005-01-08,oona967@nettiposti.example,050 6204 968,21420,active
+9246727536582318,student,True,2020-07-16,Lauri Rantala,2003-09-08,,0505766142,20100,active
+9246545819930958,adult,True,2024-12-17,Anu Ahonen,1981-06-10,anu375@postilaatikko.example,044 9298 256,20740,active
+9246044385226603,adult,True,2022-10-26,Ilkka Niiranen,1968-06-03,niiranen.ilkka@mailbox.example,041-9522629,21110,active
+9246384844976160,adult,True,2024-08-07,Tiina Laaksosuo,1967-08-18,tiina.laaksosuo67@aurapost.example,045 213 3417,20380,active
+9246093530607720,adult,True,2019-05-27,Jenni Matikainen,1984-05-24,jmatikainen@aurapost.example,+358 40 635 1064,20460,active
+9246286354992067,adult,False,2020-01-12,,,,,,active
+9246929687034228,student,True,2023-06-06,Ella Suolahti,2000-03-31,ella_suolahti@nettiposti.example,050 829 6910,20900,active
+9246564533268843,adult,True,2024-10-03,Stella Eriksson,1984-01-14,eriksson.stella@kotiposti.example,,20100,active
+9246062463626049,adult,False,2025-07-23,,,,,,active
+9246340964095405,student,True,2019-06-14,Diego García,2006-05-13,,050 2091 096,20360,active
+9246523623095847,adult,True,2022-12-18,Sarah Evans,1970-06-30,,0467884594,20500,active
+9246759108311123,student,True,2020-11-13,Onni Vuorela,2002-12-08,onnivuorela@aurapost.example,+358 40 783 6649,21260,active
+9246719045276557,adult,False,2025-07-18,,,,,,active
+9246513428938101,adult,False,2018-11-22,,,,,,active
+9246648727476328,adult,False,2023-10-18,,,,,,active
+9246435725503216,adult,False,2024-12-23,,,,,,active
+9246551877180833,adult,True,2021-03-11,Esa Ruohosalo,1974-05-27,esa.ruohosalo@inbox.example,044 5051 665,20320,active
+9246030826811830,senior,True,2019-12-21,Kalevi Ahoranta,1951-12-23,kalevi_ahoranta@webmail.example,045 1331 907,21210,active
+9246461190037472,adult,True,2025-07-10,Mattias Mattsson,1978-10-09,mattias.mattsson78@webmail.example,0446421465,20780,active
+9246266435619673,adult,True,2025-05-18,Daniel Brown,1989-05-24,daniel_brown@nordmail.example,040-6526551,20100,active
+9246866627965915,child,True,2024-06-08,Serhii Kovalenko,2011-05-13,andrii987@kotiposti.example,+358 46 849 7508,20730,active
+9246080139887647,adult,True,2022-04-14,Tuomas Koivumäki,1982-11-03,tuomas_koivumaki@kotiposti.example,0408086022,20900,replaced
+9246331235084831,adult,True,2025-10-21,Tuomas Koivumäki,1982-11-03,tuomas_koivumaki@kotiposti.example,,20900,active
+9246430180191086,adult,True,2024-10-02,Matti Haapasuo,1976-04-23,,+358 50 487 5190,20300,active
+9246584931288318,adult,True,2022-01-22,Hanna Luukkonen,1976-01-16,,044-9997861,21200,active
+9246695246411062,adult,False,2023-12-10,,,,,,active
+9246665521101092,adult,True,2025-04-30,Bohdan Melnyk,1976-01-12,bmelnyk@inbox.example,,20200,active
+9246024451813930,adult,True,2022-07-17,Axel Hellsten,2000-02-29,axelhellsten@kotiposti.example,041 727 4393,20210,active
+9246019301497884,student,True,2025-07-27,Triin Kukk,1999-10-22,triin873@nordmail.example,041-1183429,20720,active
+9246920402831766,adult,False,2024-10-02,,,,,,active
+9246897172803342,student,True,2022-10-24,Iida Toivonen,2008-10-04,iidatoivonen@kotiposti.example,044 483 4929,21180,active
+9246407147840211,student,True,2019-10-14,Aarni Latvala,2010-10-19,aarnilatvala@mailbox.example,050-9360291,20300,active
+9246637364403562,adult,True,2022-10-08,Ville Hirvonen,2001-11-06,ville.hirvonen@nordmail.example,+358 41 826 0681,21290,active
+9246986551612752,adult,True,2022-08-17,Charlotte Wilson,1978-08-15,,050 7468 531,20880,active
+9246782688527959,child,False,2022-05-04,,,,,,active
+9246589192289707,student,True,2020-05-03,Eemeli Laaksoaho,2001-07-01,eemeli_laaksoaho@mailbox.example,,20200,active
+9246767679420348,student,True,2021-03-08,Ronja Laaksoaho,2001-12-16,,045 5377 926,20200,active
+9246343504042721,adult,True,2021-09-09,Niko Koivula,1993-04-19,niko_koivula@kotiposti.example,044 4802 794,20880,active
+9246542758322859,disability_discount,True,2023-08-08,Jenni Heino,1980-08-29,jenni_heino@nettiposti.example,,21200,active
+9246828111002852,adult,False,2020-02-16,,,,,,active
+9246789294901486,adult,True,2023-07-20,Anu Juvonen,1984-08-24,ajuvonen@mailbox.example,040 8744 671,20780,active
+9246098870592960,adult,True,2020-07-27,Laur Suominen,1998-10-26,laura.suominen@nordmail.example,+358 45 811 0138,20360,active
+9246853353718569,adult,False,2024-04-30,,,,,,active
+9246025394790242,adult,True,2024-11-27,Elina Ruuskanen,1989-06-18,ruuskanen.elina@postilaatikko.example,,20800,active
+9246782693362061,adult,True,2020-12-11,Hussein Hussen,1994-10-02,hussein.hussein@inbox.example,+358 45 638 8889,20500,active
+9246857902378866,adult,True,2024-04-03,Ronja Rinne,2003-11-25,,0506964088,21210,active
+9246909297328590,senior,True,2021-01-22,Sinikka Marttinen,1950-06-03,smarttinen@mailbox.example,,21620,replaced
+9246659453587931,senior,True,2025-10-19,Sinikka Marttinen,1950-06-03,smarttinen@mailbox.example,046-1953370,21620,active
+9246063996223643,adult,True,2021-10-23,Vesa Tammivirta,1973-12-06,tammivirta.vesa@nordmail.example,040-5984173,21110,active
+9246604692173804,child,False,2018-09-22,,,,,,active
+9246475775997116,adult,True,2022-07-06,Inka Suominen,1995-12-06,inka199@nordmail.example,050 586 8532,20500,active
+9246260717521376,senior,True,2022-11-09,Ritva Karjalainen,1956-02-29,rkarjalainen@nettiposti.example,050-5941685,20200,active
+9246809635202103,adult,True,2018-11-12,Jarmo Ilvesoja,1965-10-16,jarmo673@aurapost.example,044-6149949,20360,active
+9246973637466080,adult,False,2020-04-12,,,,,,active
+9246707374858244,adult,False,2020-06-03,,,,,,active
+9246896516166051,adult,True,2024-06-21,Noora Vuorisalo,2002-05-27,vuorisalo.noora@aurapost.example,+358 40 137 2172,20960,active
+9246493220639399,student,True,2021-02-10,Andrei Morozov,2011-02-10,ivan.morozov71@nordmail.example,+358504254814,20880,replaced
+9246311763737810,student,True,2025-10-10,Andrei Morozov,2011-02-10,ivan.morozov71@nordmail.example,050 425 4814,20880,active
+9246373857252304,adult,False,2022-12-24,,,,,,active
+9246127779903224,student,True,2019-06-03,Miro Mäkiluoto,1998-12-05,,+358407900930,20880,active
+9246647991062939,adult,False,2025-03-20,,,,,,active
+9246098951508901,student,False,2025-04-11,,,,,,active
+9246416625989549,senior,True,2023-12-05,Esko Mäntynen,1945-02-08,esko533@kotiposti.example,,20610,active
+9246569897854070,child,False,2023-10-24,,,,,,active
+9246178623866893,adult,True,2020-04-23,Minna Jousikallio,1984-06-30,minnajousikallio@kotiposti.example,+358 50 593 6746,20300,active
+9246495124151983,student,True,2023-12-09,Essi Kuronen,2008-05-22,essi.kuronen@mailbox.example,046-3789308,20500,active
+9246687410400948,adult,True,2024-08-22,Jesse Pajukorpi,2005-09-30,jesse.pajukorpi@nordmail.example,+358503934965,20250,active
+9246154914998109,senior,True,2025-04-13,Oksana Boiko,1953-02-17,oksana.boiko53@mailbox.example,0417140971,20900,active
+9246640253922411,student,False,2020-01-02,,,,,,active
+9246662254274865,adult,False,2024-01-18,,,,,,active
+9246086101677635,senior,True,2020-03-27,Reijo Ojakorpi,1947-12-24,,040 8089 443,20780,active
+9246133391793910,senior,True,2019-01-03,Kerttu Ruohokorpi,1936-11-11,,050 593 9322,20760,active
+9246020155196713,adult,True,2022-01-02,Johanna Ojasalo,1975-10-10,johanna.ojasalo75@webmail.example,+358405492282,20200,active
+9246148962591907,student,True,2025-06-28,Veera Karhuranta,2004-11-03,veera.karhuranta04@postilaatikko.example,044 987 3318,20800,active
+9246902400554822,adult,False,2025-02-01,,,,,,active
+9246050030852578,adult,True,2024-12-03,Ella Haapavirta,2006-02-13,ella.haapavirta@postilaatikko.example,+358 41 220 2084,20780,active
+9246606673004817,student,True,2022-07-25,Valtteri Kivimaa,2008-11-29,valtteri694@mailbox.example,044 2899 135,20700,active
+9246360277622596,student,True,2022-12-23,Siiri Peltomäki,2006-06-24,peltomaki.siiri@kotiposti.example,040 9555 202,21120,active
+9246335437132447,senior,True,2022-06-26,Kirsti Sirviö,1958-06-02,kirsti.sirvio@nordmail.example,+358 44 961 8722,21350,active
+9246917378306054,student,True,2023-02-09,Henri Sarkakopi,2001-10-31,hsarkakorpi@kotiposti.example,044-8500770,20610,active
+9246555739111894,adult,False,2021-04-13,,,,,,active
+9246147198750543,child,False,2024-12-20,,,,,,replaced
+9246314541899175,child,False,2025-10-18,,,,,,active
+9246348400177158,adult,False,2024-02-05,,,,,,active
+9246500597423940,student,True,2020-10-06,Elias Kaskivirta,2005-03-28,elias.kaskivirta@nordmail.example,+358 45 633 7943,20100,active
+9246902473803841,student,True,2021-05-25,Essi Välimäki,2005-06-06,,,20100,active
+9246524492692045,senior,True,2020-08-13,Ellen Lindberg,1943-03-11,,+358 44 190 9566,20210,active
+9246101152898194,adult,True,2024-07-07,Janne Laaksonen,1977-02-17,laaksonen.janne@postilaatikko.example,+358454892279,20610,active
+9246846124133555,disability_discount,True,2019-06-23,Petri Tarvainen,1970-09-02,petri971@aurapost.example,,21620,active
+9246440910358525,adult,True,2022-04-27,Reza Rezaei,2002-09-08,,+358 45 519 4222,20500,active
+9246501969814294,student,True,2019-05-19,Eetu Lehtokangas,2004-09-28,elehtokangas@postilaatikko.example,0508652535,20760,active
+9246677331506634,adult,True,2020-05-22,Niko Aaltoniemi,2001-03-11,niko245@inbox.example,0467738986,20800,active
+9246622105028480,student,True,2025-01-04,Shreya Patel,2010-10-20,shreya.patel10@inbox.example,,20610,active
+9246630407990448,child,False,2019-08-14,,,,,,active
+9246081870258592,adult,True,2022-02-26,Ville Tammimaa,1988-01-18,vtammimaa@kotiposti.example,+358466319048,20700,active
+9246329253469249,adult,False,2020-08-20,,,,,,active
+9246861801649526,student,True,2021-09-05,Nils Johansson,2007-11-14,nils709@nordmail.example,0415283410,20360,active
+9246451196208854,adult,False,2024-04-29,,,,,,active
+9246615685858482,adult,True,2022-11-27,Kristjan Kukk,1999-07-22,,,20100,active
+9246505340408411,child,True,2023-11-29,Viljami Kivinen,2014-06-16,onni996@nordmail.example,+358406579486,20960,active
+9246588143827722,adult,True,2022-03-17,Joni Ylämaa,1982-02-09,joni.ylamaa82@mailbox.example,+358 40 320 0269,20610,active
+9246172137305944,adult,True,2021-11-22,Juho Heino,2002-03-26,juho956@nordmail.example,,21130,active
+9246259989673733,senior,True,2021-12-12,Erkki Savolainen,1946-01-07,erkki547@mailbox.example,044 3723 110,20460,active
+9246966180207182,adult,True,2024-09-22,Aleksi Alaluoto,2005-06-20,aleksi_alaluoto@nordmail.example,+358408087061,20380,active
+9246876646175495,student,True,2019-09-01,Inka Hietaniemi,2003-01-12,inka.hietaniemi03@inbox.example,050 7527 357,20610,active
+9246757881914709,adult,False,2023-05-14,,,,,,active
+9246616256897586,adult,True,2024-04-28,Suvi Pihlavuori,1980-09-11,suvipihlavuori@inbox.example,,20720,active
+9246677438216590,child,True,2024-09-13,Vilma Tervopää,2010-09-18,vilmatervopaa@postilaatikko.example,0501470750,20100,active
+9246773916803247,student,True,2022-06-23,Milla Lehtomäki,1998-06-11,millalehtomaki@inbox.example,,20520,active
+9246249024138164,student,True,2021-02-04,Omar Ibrahim,1998-02-21,omar.ibrahim@postilaatikko.example,+358501774552,20100,active
+9246183581261293,adult,False,2022-07-23,,,,,,active
+9246376268151551,student,True,2021-04-14,Livia Saarimaa,2011-07-29,tiina.saarimaa@aurapost.example,045 2801 627,21500,active
+9246917216599696,adult,True,2023-03-10,Anna Holopainen,1979-11-29,aholopainen@mailbox.example,,20500,active
+9246627117342530,adult,True,2024-05-23,Veera Sirviö,1991-11-25,vsirvio@webmail.example,+358 44 512 3532,20730,active
+9246263274357119,adult,True,2019-08-12,Shilan Rasul,1966-10-20,shilan.rasul66@inbox.example,050-1163977,20800,active
+9246257226264829,senior,True,2024-08-09,Svetlana Kuznetsova,1949-11-19,svetlana1@mailbox.example,+358449308902,20460,active
+9246252073571145,senior,True,2022-11-22,Seppo Aaltoranta,1951-04-01,,,20100,active
+9246640254260381,senior,True,2021-04-25,Aila Heinäkallio,1951-09-23,,+358 46 673 0542,21310,active
+9246558891345037,senior,True,2025-06-06,Lasse Hirviranta,1950-05-04,lassehirviranta@postilaatikko.example,+358467747120,20780,active
+9246971659619511,senior,True,2019-06-29,Olavi Salminen,1952-06-15,salminen.olavi@postilaatikko.example,050-4919306,20300,active
+9246117826820232,student,True,2023-05-02,Aino Laaksoniemi,2003-02-18,aino_laaksoniemi@nettiposti.example,050 209 0108,20720,replaced
+9246793710817201,student,True,2025-10-16,Aino Laaksoniemi,2003-02-18,aino_laaksoniemi@nettiposti.example,,20720,active
+9246825517045535,adult,True,2024-03-04,Ronja Määttä,1990-10-28,ronja916@webmail.example,040 1156 337,20610,active
+9246182178133923,student,True,2025-07-26,Jesse Rautakorpi,2001-11-16,,,20520,active
+9246212586562866,adult,False,2020-07-05,,,,,,active
+9246890763379459,adult,True,2023-03-04,Fanni Mäntykorpi,1995-09-22,fanni169@mailbox.example,040 6690 481,20500,active
+9246914618374786,child,True,2019-02-14,Piret Lepik,2012-12-14,liis.lepik89@nordmail.example,,20200,active
+9246724735086415,adult,False,2020-12-20,,,,,,active
+9246377304546622,senior,True,2024-04-20,Martti Leino,1938-11-24,leino.martti@mailbox.example,+358455423898,20520,active
+9246194878199815,adult,True,2021-01-09,Emma Kaukosalo,2001-02-19,,0504836939,20900,active
+9246570925761220,adult,True,2020-10-08,Bengt Jäntti,1982-05-28,,040-4249651,20300,active
+9246783721458723,adult,False,2025-04-12,,,,,,active
+9246533820622814,student,True,2022-03-08,Ville Aaltojärvi,2000-09-10,vaaltojarvi@inbox.example,+358505018926,21120,active
+9246558804314872,adult,True,2020-09-26,Hanna Ojasuo,1987-11-11,ojasuo.hanna@nordmail.example,040 101 4487,20800,active
+9246710307155191,student,True,2025-05-07,Miro Jokela,2008-09-25,miro_jokela@inbox.example,050-9439289,20730,active
+9246191143122176,senior,False,2021-10-17,,,,,,active
+9246188448906063,senior,True,2025-06-02,Leena Mäkilä,1958-12-31,leena.makila58@inbox.example,040 8944 078,20240,active
+9246495047016024,senior,True,2020-04-05,Maija Ahomäki,1958-10-26,maija.ahomaki58@inbox.example,+358 44 596 3115,20740,active
+9246720534293855,senior,True,2023-10-19,Aulis Heikkinen,1941-11-03,aulis132@kotiposti.example,,20780,active
+9246920218953366,adult,True,2025-03-28,Niina Latvala,1985-06-19,latvala.niina@webmail.example,,20500,active
+9246718550144200,adult,False,2024-01-22,,,,,,active
+9246995782406199,disability_discount,True,2025-04-08,Jesse Pöllänen,2001-03-06,,050-1253528,20100,active
+9246693644702224,adult,True,2021-08-26,Ville Harju,1978-01-13,ville548@mailbox.example,044-1927640,21620,active
+9246530329954672,adult,True,2024-01-23,Maria Eriksson,1972-12-16,maria_eriksson@kotiposti.example,0452136032,21500,active
+9246165871546491,student,True,2025-08-08,Santeri Viitaaho,2004-09-23,santeri_viitaaho@webmail.example,041 4286 887,20730,active
+9246141648094313,student,True,2024-11-18,Otto Saarela,2002-11-28,otto_saarela@aurapost.example,0501552828,20900,active
+9246663578922544,student,True,2021-11-18,Lauri Korhonen,2003-05-21,korhonen.lauri@postilaatikko.example,045 9330 601,21420,active
+9246173239661861,adult,True,2021-04-07,Henri Lehtonen,2003-02-20,henri66@nordmail.example,,21160,active
+9246093274045046,student,True,2020-09-13,Iida Oravajärvi,2003-04-24,iida828@mailbox.example,,20250,active
+9246353361138538,student,True,2024-03-22,Topias Kankaanpää,2000-10-27,topias484@nettiposti.example,0449607776,20700,active
+9246072476993765,adult,False,2024-04-28,,,,,,active
+9246451546757626,adult,True,2024-06-24,Tuomas Pohjola,1984-03-27,tuomas.pohjola@nordmail.example,046 7772 022,21100,active
+9246064416893312,senior,True,2024-07-14,Erkki Ilveskoski,1939-11-20,erkki.ilveskoski@nettiposti.example,045 1471 025,20300,active
+9246019732438838,adult,True,2025-06-11,Zainab Haddad,1994-09-21,zainabhaddad@aurapost.example,+358457888582,20300,active
+9246326829446172,senior,True,2020-02-10,Ellen Hellsten,1947-04-08,,050 913 9284,20730,active
+9246502610553125,student,False,2018-10-23,,,,,,active
+9246465682720073,child,False,2023-01-04,,,,,,active
+9246122771635585,adult,False,2023-11-08,,,,,,active
+9246575557161318,student,True,2020-04-21,Rasmus Kaarnakoski,2003-06-20,rasmus_kaarnakoski@kotiposti.example,,20300,active
+9246096554844400,adult,False,2020-06-08,,,,,,active
+9246824434984355,adult,True,2023-12-18,Kalle Kivistö,1987-10-09,kallekivisto@postilaatikko.example,,21420,active
+9246694363138400,adult,True,2019-11-16,Anne Koivunen-Hallavirta,1965-02-14,annekoivunen-hallavirta@mailbox.example,040-7420471,20700,active
+9246638386435442,adult,True,2025-03-27,Samuel Sallinen,1996-10-20,ssallinen@postilaatikko.example,,20740,active
+9246126696998184,adult,True,2021-01-09,Kati Heinämäki,1978-02-13,kati.heinamaki@webmail.example,,20100,active
+9246658119904456,student,True,2018-09-14,Onni Alaranta,2008-09-18,onnialaranta@nordmail.example,,21260,active
+9246640657412464,senior,True,2020-11-14,Berivan Qadir,1951-10-06,berivan_qadir@nordmail.example,+358 44 404 5184,20500,active
+9246890398933746,adult,False,2024-07-10,,,,,,active
+9246942307329100,adult,True,2025-02-25,Veera Vuorinen,2005-01-26,veera563@nettiposti.example,040-9859226,20100,active
+9246823526645601,student,True,2024-12-08,Shwan Aziz,2007-06-27,shwan119@postilaatikko.example,0452392230,21210,active
+9246504652866910,adult,True,2020-05-14,Nelli Mäkinen,2001-07-23,makinen.nelli@nordmail.example,+358 44 554 5055,20100,active
+9246968564797473,adult,False,2023-12-01,,,,,,active
+9246362906828487,adult,False,2023-12-15,,,,,,active
+9246267900979022,child,False,2024-08-27,,,,,,active
+9246297251639883,student,True,2024-04-11,Pinja Hirvilahti,2000-03-10,pinjahirvilahti@postilaatikko.example,050 3533 226,21210,active
+9246950862749695,senior,True,2022-03-19,Kaarina Heikkinen,1956-01-12,kheikkinen@postilaatikko.example,+358 50 503 6673,21210,active
+9246077892724546,adult,False,2022-04-01,,,,,,active
+9246931189091151,adult,False,2021-07-19,,,,,,active
+9246058986879263,adult,True,2024-12-06,Joonas Lehtonen,1993-07-11,joonas.lehtonen@aurapost.example,+358451341882,20700,active
+9246315015929042,adult,False,2019-03-19,,,,,,active
+9246964110077585,adult,False,2019-04-18,,,,,,active
+9246594011528210,student,True,2023-08-22,Nataliia Kravchenko,2004-12-29,kravchenko.nataliia@inbox.example,+358 45 873 9568,20100,active
+9246799248168546,adult,True,2020-04-16,Ronja Lindqvist,1999-07-26,lindqvist.ronja@webmail.example,044-9185553,21260,active
+9246725995387286,adult,True,2025-08-27,Axel Åberg,1982-10-22,,,21420,active
+9246131683834632,adult,False,2021-06-06,,,,,,active
+9246510519822574,student,True,2022-04-14,Santeri Heikkilä,2005-07-24,sheikkila@nettiposti.example,040 528 5680,20610,active
+9246097639633875,student,True,2019-06-02,Chlo Murphy,2000-12-27,cmurphy@kotiposti.example,040-4494789,21110,active
+9246869897652965,senior,True,2020-03-25,Juhani Lipponen,1951-04-01,juhani.lipponen@kotiposti.example,+358401207868,21110,active
+9246866983299495,adult,True,2022-05-05,Joel Tuominen,2004-11-08,joel508@aurapost.example,046-7942457,20700,active
+9246545238767775,senior,False,2021-09-15,,,,,,active
+9246529615187914,senior,True,2024-10-15,Olavi Hallaoja,1949-09-21,,050-6750931,20540,active
+9246923291086534,adult,False,2024-05-25,,,,,,active
+9246052881354290,student,True,2020-07-05,Oliver Laaksokangas,2011-12-03,tuomaslaaksokangas@nordmail.example,+358 40 162 8012,20730,active
+9246195582011857,student,True,2021-01-14,Inka Kurkikallio,2006-09-27,inka.kurkikallio@nordmail.example,044 7847 813,20880,active
+9246145372034676,adult,False,2023-08-16,,,,,,active
+9246139231146094,adult,True,2023-06-24,Maria Laine,1987-03-21,maria_laine@aurapost.example,+358 44 587 2225,21210,active
+9246359545618444,senior,True,2018-10-23,Raili Alavirta,1954-09-21,raili_alavirta@nettiposti.example,+358445541178,20360,active
+9246012775802358,senior,True,2021-02-06,Aulis Lappalainen,1945-02-08,aulis244@kotiposti.example,,20700,active
+9246809255092594,student,False,2024-09-27,,,,,,active
+9246238091355835,senior,True,2023-01-03,Riitta Ojalahti,1944-09-12,,,20500,active
+9246849188295112,adult,True,2023-11-20,Karim Mansour,1980-08-03,karim_mansour@kotiposti.example,+358 40 384 3189,20300,active
+9246014531567762,adult,True,2022-04-15,Jani Kalliopää,1980-06-13,,,20100,active
+9246662590343762,student,True,2020-07-13,Ella Mäntysuo,2004-02-15,ella.mantysuo@mailbox.example,050 964 8185,20500,active
+9246154112148325,student,True,2019-01-13,Fanni Hakala,1999-07-07,fanni_hakala@nettiposti.example,041-4753026,21420,active
+9246369054689454,adult,True,2022-06-24,Tuomas Grönroos,1975-08-31,tuomas.gronroos75@inbox.example,,20960,active
+9246484414155433,senior,True,2019-01-24,Sirkka Salonen,1949-08-01,ssalonen@aurapost.example,046 9605 457,20610,active
+9246967795421119,student,True,2021-08-07,Veeti Haapakallio,2006-01-30,vhaapakallio@kotiposti.example,040 543 9916,20800,active
+9246384783783007,student,True,2023-10-16,Topias Kaarnaranta,1997-03-25,tkaarnaranta@inbox.example,050-8012208,20100,active
+9246089307922987,senior,True,2023-09-19,Pentti Tikka,1958-01-14,pentti.tikka58@aurapost.example,+358445695743,20730,active
+9246102033695478,student,True,2022-03-12,Noora Nykänen,2000-11-08,noora.nykanen@kotiposti.example,044 901 3726,21420,active
+9246832147879556,adult,True,2023-10-17,Anne Lehtinen,1974-03-15,lehtinen.anne@inbox.example,0413872941,21260,active
+9246813050202432,adult,True,2022-02-03,Nea Niemikoski,1998-01-11,,050 445 2851,21200,active
+9246721782379727,adult,True,2019-07-28,Hassan Abdullah,1980-09-03,hassan996@aurapost.example,+358 45 364 1164,20300,active
+9246278193493639,adult,False,2022-08-04,,,,,,active
+9246760282674062,student,False,2023-02-15,,,,,,replaced
+9246932465919677,student,False,2025-10-23,,,,,,active
+9246570305161165,adult,True,2024-03-27,Fanni Hiltunen,1992-08-09,fanni_hiltunen@aurapost.example,045 608 8735,20960,active
+9246505168536277,student,True,2022-04-12,Joel Räty,1998-09-20,raty.joel@aurapost.example,050 449 8193,20360,active
+9246318669816705,adult,True,2024-07-25,Päivi Kuusiniemi,1963-06-12,paivikuusiniemi@aurapost.example,,20500,active
+9246416792093703,adult,True,2024-04-27,Kaija Hakkarainen,1973-03-12,,041 8218 756,21420,active
+9246328618624043,adult,False,2022-08-12,,,,,,active
+9246375879056795,student,True,2022-02-08,Samuel Kotkaoja,1998-01-12,samuel.kotkaoja98@nettiposti.example,046-7692907,20730,active
+9246381298492363,adult,False,2024-12-01,,,,,,active
+9246934551904845,student,True,2019-01-10,Jenna Lähteenmäki,2002-03-09,jenna.lahteenmaki02@nordmail.example,+358408646925,20520,active
+9246110638893786,senior,False,2023-12-22,,,,,,active
+9246115787689679,disability_discount,False,2025-07-26,,,,,,active
+9246198132918324,adult,True,2021-08-01,Heli Kiviniemi,1961-02-04,heli_kiviniemi@kotiposti.example,+358 44 461 2348,20880,active
+9246685778139777,adult,False,2025-06-04,,,,,,active
+9246735655181804,student,True,2019-12-04,Ayaan Jama,1997-10-17,ayaan.jama97@nettiposti.example,0449733818,20300,active
+9246845928823650,adult,True,2023-08-28,Essi Haapasuo,2001-01-27,essihaapasuo@inbox.example,+358 50 364 0469,20700,active
+9246056479602796,student,True,2021-03-31,Oskari Ilvespää,2007-02-20,oskari_ilvespaa@mailbox.example,,20360,active
+9246817394777967,student,True,2024-09-22,Eevi Kainulainen,2011-01-16,,050 9705 804,21500,replaced
+9246747866560676,student,True,2025-10-26,Eevi Kainulainen,2011-01-16,jkainulainen@webmail.example,,21500,active
+9246012477428940,adult,True,2019-03-01,Christer Lehtolahti,1995-01-23,lehtolahti.christer@inbox.example,040 8183 412,21210,active
+9246104215663944,student,True,2024-01-03,Essi Nyberg,2002-04-15,essinyberg@mailbox.example,,20900,active
+9246836953850239,adult,True,2024-04-26,Niko Tuomilehto,2001-04-12,,044-5965737,20960,active
+9246882995490071,adult,True,2019-08-05,Julia Ojakorpi,1996-05-02,,045-7637457,20360,active
+9246608616702242,adult,False,2019-05-31,,,,,,active
+9246899040315772,senior,True,2019-03-09,Seppo Hallajärvi,1946-07-03,hallajarvi.seppo@kotiposti.example,044-4795412,20800,active
+9246392945285050,student,True,2022-08-19,Elias Kalliokorpi,2011-09-10,ari_kalliokorpi@postilaatikko.example,,21420,active
+9246077275526401,adult,False,2020-08-19,,,,,,active
+9246169920982624,adult,False,2020-01-02,,,,,,active
+9246461927799907,adult,False,2025-01-10,,,,,,active
+9246639551886708,adult,True,2025-01-07,Ivan Kuznetsov,1982-04-11,kuznetsov.ivan@nordmail.example,+358414224041,20720,active
+9246775322663479,adult,False,2023-07-10,,,,,,active
+9246155797190888,student,True,2021-12-29,Eveliina Oravaaho,2007-11-19,eveliina227@aurapost.example,041 2455 120,20780,active
+9246816028258055,senior,False,2020-01-26,,,,,,active
+9246548816485745,student,True,2023-09-15,Elena Smirnova,2006-08-27,elena_smirnova@postilaatikko.example,046-4882568,20730,active
+9246158942479115,child,True,2025-01-10,Venla Kärkkäinen,2010-07-28,venlakarkkainen@mailbox.example,040-6171609,20200,active
+9246311217249958,adult,False,2019-09-20,,,,,,active
+9246313930985066,adult,False,2025-06-08,,,,,,active
+9246016143357813,adult,True,2020-07-20,Anni Välimäki,1991-12-29,anni.valimaki@mailbox.example,050 2574 193,20540,active
+9246457192862800,student,True,2020-08-04,Onni Pajukorpi,2005-01-13,onni.pajukorpi@kotiposti.example,045 8735 613,21500,replaced
+9246907558096583,student,True,2025-10-22,Onni Pajukorpi,2005-01-13,onni.pajukorpi@kotiposti.example,045 873 5613,21500,active
+9246574988662069,adult,False,2024-10-07,,,,,,active
+9246470988686630,student,True,2024-12-21,Sara Hirvikangas,2000-08-11,shirvikangas@nettiposti.example,,20200,active
+9246209435522950,student,True,2020-09-13,Venla Kolehmainen,2009-08-27,kolehmainen.venla@aurapost.example,050-8350752,21120,active
+9246361068251231,adult,True,2022-05-09,Topias Määttä,2003-10-07,topias_maatta@postilaatikko.example,046 629 8941,20100,active
+9246723660272479,student,True,2019-11-26,Saga Lindholm,2005-09-28,,050 4385 704,20520,active
+9246067897419630,student,True,2019-05-02,Samuel Hirvilahti,2000-03-12,shirvilahti@inbox.example,045 1819 703,20610,active
+9246178040562976,adult,True,2020-08-14,Niko Halme,2003-02-14,nikohalme@postilaatikko.example,,20360,active
+9246887390557077,adult,True,2021-09-11,Kristiina Rebane,1961-09-15,krebane@mailbox.example,,20100,active
+9246539115191472,student,True,2025-01-23,Onni Karppinen,1998-03-07,onni.karppinen98@kotiposti.example,0504012917,20960,active
+9246112679482198,child,True,2022-05-23,Axel Lindberg,2013-07-20,oscar.lindberg74@postilaatikko.example,044-9052738,21110,active
+9246558523929273,child,False,2018-10-09,,,,,,active
+9246908583011704,senior,True,2022-01-07,Maija Kotkamäki,1948-12-05,maija.kotkamaki48@aurapost.example,+358507209082,20780,active
+9246627976568704,senior,True,2020-08-20,Ritva Kemppainen,1955-09-18,ritva602@mailbox.example,+358 40 140 2970,20720,active
+9246807888162065,adult,False,2021-09-24,,,,,,active
+9246501857039848,adult,False,2022-04-29,,,,,,active
+9246453748656481,adult,False,2023-04-07,,,,,,active
+9246622177639065,student,True,2024-02-16,Iida Sihvonen,2012-08-23,santeri_sihvonen@nettiposti.example,+358 41 728 5693,21220,active
+9246419397649739,senior,True,2021-05-14,Veikko Alanen,1951-09-27,alanen.veikko@nettiposti.example,+358 41 391 1624,20540,active
+9246992230849120,adult,False,2022-05-08,,,,,,active
+9246426142419904,student,True,2018-11-02,Emilia Ahokoski,2009-11-01,,,21500,active
+9246704359307875,student,True,2024-07-15,Lenni Kesäsalo,2011-04-01,johanna.kesasalo@nordmail.example,040 213 7949,20520,active
+9246967707888264,adult,True,2024-09-12,Mei Wang,1985-04-21,mwang@kotiposti.example,040-3023061,20740,active
+9246826648829508,adult,True,2022-02-21,Laura Koivuniemi,1981-07-25,,,20360,active
+9246868103801218,senior,True,2024-12-31,Päivi Pohjomäki,1960-01-12,paivi_pohjomaki@inbox.example,,20900,active
+9246849775279552,adult,True,2020-10-13,Marika Kaskikorpi,1989-01-15,,0447962906,20780,active
+9246238258357152,adult,True,2020-04-09,Oona Karhuluoto,2006-06-16,okarhuluoto@webmail.example,,20300,active
+9246231705965057,adult,False,2021-01-25,,,,,,active
+9246946743880873,child,False,2022-01-27,,,,,,active
+9246437813484549,student,True,2021-10-03,Oskari Laine,2001-01-04,laine.oskari@nettiposti.example,041 2813 745,20540,active
+9246596328065356,adult,False,2020-07-26,,,,,,active
+9246482267018765,adult,True,2023-08-01,Jussi Hakala,1981-01-14,jhakala@nordmail.example,,20700,active
+9246535826266157,adult,True,2022-08-27,Mikael Lindberg,1999-04-05,mikael.lindberg99@mailbox.example,+358419068938,20720,active
+9246869577932307,adult,False,2020-09-07,,,,,,active
+9246802810385686,adult,True,2024-06-27,Hanna Vuorikallio,1978-10-03,hanna.vuorikallio@webmail.example,045 6940 059,20540,active
+9246576091972335,student,True,2019-04-23,Inka Kivuvuori,2001-06-09,inkakoivuvuori@nettiposti.example,0503983925,20100,active
+9246005411374824,senior,True,2025-04-25,Eeva Tervokallio,1942-07-08,,+358508549568,21290,active
+9246841347163547,adult,True,2024-12-03,Ella Laaksopää,2006-11-06,ella.laaksopaa06@webmail.example,044 546 7142,21150,active
+9246373310318080,adult,True,2023-06-09,Seija Mattila,1966-04-22,seijamattila@nettiposti.example,+358468483412,20780,active
+9246498635047047,adult,False,2021-02-09,,,,,,active
+9246683249713072,adult,False,2023-11-16,,,,,,active
+9246032991793082,adult,False,2024-09-08,,,,,,active
+9246219556623610,senior,True,2021-08-14,Anneli Kuusiniemi,1953-10-13,kuusiniemi.anneli@inbox.example,046 818 5555,20300,active
+9246342802460965,adult,False,2021-08-30,,,,,,active
+9246957605745211,senior,True,2024-09-27,Tellervo Latvala,1942-11-19,tlatvala@mailbox.example,0442661998,20700,active
+9246454710091145,adult,False,2018-12-26,,,,,,active
+9246079488727966,student,True,2023-11-01,Wilma Ruohokoski,2002-10-01,wilma.ruohokoski02@webmail.example,+358458362649,20900,active
+9246335186743329,adult,True,2021-05-31,Heidi Laaksovuori,1980-02-19,heidi_laaksovuori@webmail.example,040 1414 859,21120,active
+9246374225572092,student,True,2019-01-08,Aram Rasul,2006-08-15,,0403679208,20320,active
+9246864388366605,adult,True,2023-02-20,Anu Kaarnajärvi,1982-06-14,akaarnajarvi@kotiposti.example,,20800,active
+9246079004089206,disability_discount,True,2020-04-19,Piia Tervosuo,1989-09-22,piia_tervosuo@nordmail.example,+358447638884,20900,active
+9246912386091442,adult,True,2021-04-16,Ronja Lundén,2002-10-22,ronja360@postilaatikko.example,+358 50 206 9507,20740,active
+9246846219810117,adult,True,2025-04-04,Ari Keskitalo,1964-10-17,,+358508545599,20250,active
+9246451099633059,adult,True,2022-10-29,Toni Hallakallio,1977-01-11,tonihallakallio@kotiposti.example,+358507570568,20100,active
+9246922140528282,adult,False,2021-02-10,,,,,,active
+9246208410348803,student,True,2019-06-07,Oona Rantasalo,1999-06-30,orantasalo@postilaatikko.example,050 2774 032,20900,active
+9246195270813333,senior,True,2019-05-05,Kaarina Oravaoja,1947-07-03,,050-5918080,20960,active
+9246794333093501,adult,True,2021-07-22,Jouko Kivelä,1965-08-20,kivela.jouko@nordmail.example,,20900,active
+9246449692962644,senior,True,2024-01-26,Riitta Perälä,1954-05-19,perala.riitta@postilaatikko.example,+358 44 728 2296,21420,active
+9246082800612429,adult,True,2023-05-14,Kati Lampisuo,1978-09-21,kati.lampisuo78@webmail.example,+358 40 343 7046,20500,active
+9246311174988606,senior,False,2020-08-21,,,,,,active
+9246324657655246,senior,False,2020-07-25,,,,,,active
+9246375961311967,adult,True,2023-04-05,Susanna Pajuoja,1989-09-15,susanna_pajuoja@inbox.example,,20380,active
+9246543870243536,adult,True,2023-06-25,Rebin Karimi,1984-11-29,rkarimi@mailbox.example,044-8644838,20900,active
+9246567651462452,adult,True,2020-08-16,Inka Nieminen,1997-11-06,inka_nieminen@nettiposti.example,,20540,active
+9246652774850864,adult,True,2023-06-08,Katja Joutsenlahti,1978-06-25,katja.joutsenlahti@aurapost.example,+358505133989,20360,active
+9246736917610234,adult,True,2018-11-14,Harri Lehtovirta,1968-07-25,,+358 44 550 0455,21100,active
+9246734346149163,adult,False,2021-11-08,,,,,,active

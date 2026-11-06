@@ -1,0 +1,810 @@
+adv_row_id,club,team,player_name,birth_year,jersey_number,home_town
+CLUB00001,Aura Hockey Juniors,B-juniors 2008–2009,Jere Pajumaa,,28,
+CLUB00002,Aura Hockey Juniors,B-juniors 2004–2005,Henri Kuusimäki,,32,Raisio
+CLUB00003,Naantali Sailing Youth,B-juniors 2006–2007,Miro Vartiainen,2007,28,
+CLUB00004,Salo Athletics,A-juniors 2004–2005,Topias Leppälehto,,22,
+CLUB00005,Salo Athletics,B-juniors 2006–2007,Ville Mäkinen,,96,
+CLUB00006,Kaarina Floorball ry,B-juniors 2004–2005,Santeri Tiihonen,2004,89,Salo
+CLUB00007,Salo Athletics,A-juniors 2006–2007,Eveliina Kurkioja,2006,26,Turku
+CLUB00008,Naantali Sailing Youth,B-juniors 2008–2009,Topias Lahtinen,2008,52,
+CLUB00009,Kaarina Floorball ry,B-juniors 2004–2005,Rohan Gupta,2005,62,
+CLUB00010,Aura Hockey Juniors,A-juniors 2004–2005,Inka Lumioja,2005,30,Kaarina
+CLUB00011,Salo Athletics,B-juniors 2006–2007,Veera Jousijärvi,,90,Turku
+CLUB00012,Kaarina Floorball ry,B-juniors 2006–2007,Iida Järvinen,2006,10,
+CLUB00013,Kaarina Floorball ry,A-juniors 2004–2005,Iida Kiviranta,2005,98,
+CLUB00014,Turku Riverside FC,B-juniors 2008–2009,Artjom Lebedev,,4,Turku
+CLUB00015,Saaristo IF,B-juniors 2004–2005,Valtteri Tuomila,2005,58,
+CLUB00016,Saaristo IF,A-juniors 2004–2005,Oona Tammilahti,2005,93,
+CLUB00017,Salo Athletics,A-juniors 2008–2009,Jenna Voutilainen,,28,
+CLUB00018,Salo Athletics,A-juniors 2006–2007,Joel Kuusimäki,2006,67,
+CLUB00019,Naantali Sailing Youth,B-juniors 2004–2005,Noora Pohjola,,55,
+CLUB00020,Saaristo IF,B-juniors 2006–2007,Alma Lindroos,,74,
+CLUB00021,Turku Riverside FC,A-juniors 2006–2007,Julia Ahosuo,2006,24,
+CLUB00022,Raisio Ballclub,B-juniors 2004–2005,Rasmus Ylämäki,2004,75,Uusikaupunki
+CLUB00023,Turku Riverside FC,A-juniors 2006–2007,Eveliina Oravakangas,2006,41,Turku
+CLUB00024,Turku Riverside FC,B-juniors 2006–2007,Onni Niemikoski,,6,Turku
+CLUB00025,Saaristo IF,A-juniors 2006–2007,Siiri Ylämaa,2006,74,Turku
+CLUB00026,Salo Athletics,A-juniors 2004–2005,Rasmus Karhulahti,2005,8,
+CLUB00027,Kaarina Floorball ry,B-juniors 2006–2007,Ronja Sorsalehto,2007,82,
+CLUB00028,Saaristo IF,A-juniors 2006–2007,Miro Kuusisalo,,36,
+CLUB00029,Kaarina Floorball ry,A-juniors 2004–2005,Pinja Kultakorpi,,16,Salo
+CLUB00030,Aura Hockey Juniors,A-juniors 2006–2007,Lauri Kangasmaa,,6,Turku
+CLUB00031,Aura Hockey Juniors,B-juniors 2006–2007,Samuel Pajuniemi,2006,23,
+CLUB00032,Salo Athletics,B-juniors 2004–2005,Veeti Suominen,2004,88,
+CLUB00033,Raisio Ballclub,B-juniors 2004–2005,Siiri Talviluoto,2005,13,
+CLUB00034,Salo Athletics,A-juniors 2004–2005,Emilia Tervoniemi,2005,40,Salo
+CLUB00035,Saaristo IF,A-juniors 2008–2009,Joonas Haapalehto,2008,2,Kaarina
+CLUB00036,Naantali Sailing Youth,A-juniors 2006–2007,Sara Haapaaho,2006,42,
+CLUB00037,Naantali Sailing Youth,A-juniors 2006–2007,Huy Vu,2006,20,Turku
+CLUB00038,Raisio Ballclub,A-juniors 2006–2007,Pinja Laaksosalo-Mägi,,59,Salo
+CLUB00039,Naantali Sailing Youth,B-juniors 2006–2007,Lauri Lampimaa,2006,23,Rusko
+CLUB00040,Kaarina Floorball ry,B-juniors 2008–2009,Arttu Ruohokoski,,14,Salo
+CLUB00041,Turku Riverside FC,A-juniors 2006–2007,Arttu Niemilehto,2006,31,Kaarina
+CLUB00042,Salo Athletics,A-juniors 2004–2005,Emma Hirvonen,,21,Salo
+CLUB00043,Saaristo IF,A-juniors 2004–2005,Jenna Nurmi-Salokorpi,,79,
+CLUB00044,Salo Athletics,B-juniors 2004–2005,Elias Hämäläinen,,14,
+CLUB00045,Salo Athletics,A-juniors 2004–2005,Kristina Laaksooja,,75,Turku
+CLUB00046,Turku Riverside FC,A-juniors 2006–2007,Ella Kaukooja,2006,70,
+CLUB00047,Naantali Sailing Youth,B-juniors 2006–2007,Ville Yläaho,,38,Turku
+CLUB00048,Kaarina Floorball ry,A-juniors 2004–2005,Noora Kesälä,,24,
+CLUB00049,Saaristo IF,B-juniors 2008–2009,Fanni Virtanen,2008,71,Turku
+CLUB00050,Aura Hockey Juniors,B-juniors 2008–2009,Nea Ojanen,,8,
+CLUB00051,Saaristo IF,A-juniors 2004–2005,Emilia Ilveskallio,2004,37,
+CLUB00052,Saaristo IF,B-juniors 2004–2005,Eetu Kesävirta,,75,
+CLUB00053,Raisio Ballclub,A-juniors 2008–2009,Mattias Mattsson,2008,86,Salo
+CLUB00054,Naantali Sailing Youth,B-juniors 2004–2005,Elias Hirvilahti,2004,46,
+CLUB00055,Raisio Ballclub,A-juniors 2004–2005,Venla Virtanen,2004,65,
+CLUB00056,Saaristo IF,A-juniors 2004–2005,Joonas Salonen,2005,27,Turku
+CLUB00057,Saaristo IF,A-juniors 2008–2009,Anni Kuusimäki,2008,38,
+CLUB00058,Salo Athletics,B-juniors 2006–2007,Eveliina Ruohonen,2007,68,
+CLUB00059,Saaristo IF,B-juniors 2006–2007,Emma Saariharju,,79,Salo
+CLUB00060,Aura Hockey Juniors,A-juniors 2008–2009,Valtteri Heinäranta,,87,Turku
+CLUB00061,Kaarina Floorball ry,A-juniors 2006–2007,Samuel Jousimaa,2006,91,
+CLUB00062,Saaristo IF,B-juniors 2006–2007,Siiri Kuusisto,2006,82,
+CLUB00063,Kaarina Floorball ry,A-juniors 2006–2007,Rasmus Oikarinen,,92,
+CLUB00064,Salo Athletics,B-juniors 2004–2005,Rasmus Jousivirta,2004,30,Raisio
+CLUB00065,Aura Hockey Juniors,A-juniors 2004–2005,Essi Kivilahti,,4,
+CLUB00066,Kaarina Floorball ry,A-juniors 2004–2005,Ella Leppäkorpi,2005,63,
+CLUB00067,Naantali Sailing Youth,A-juniors 2006–2007,Eveliina Helin,,98,
+CLUB00068,Saaristo IF,B-juniors 2004–2005,Veeti Männistö,2004,91,Turku
+CLUB00069,Raisio Ballclub,A-juniors 2004–2005,William Söderberg,,49,
+CLUB00070,Turku Riverside FC,B-juniors 2004–2005,Ronja Haukkajärvi,,74,
+CLUB00071,Kaarina Floorball ry,B-juniors 2004–2005,Pinja Kivilä,,7,Turku
+CLUB00072,Kaarina Floorball ry,A-juniors 2004–2005,Emma Kivinen,2004,43,
+CLUB00073,Saaristo IF,A-juniors 2004–2005,Elena Kozlova,2004,63,
+CLUB00074,Salo Athletics,B-juniors 2004–2005,Sara Rautaoja,2005,93,
+CLUB00075,Turku Riverside FC,B-juniors 2006–2007,Miro Kallio,2006,32,Sauvo
+CLUB00076,Turku Riverside FC,B-juniors 2004–2005,Milla Kotkaluoto,,98,Kaarina
+CLUB00077,Salo Athletics,B-juniors 2004–2005,Oona Kurkikoski,2005,46,
+CLUB00078,Kaarina Floorball ry,B-juniors 2006–2007,Julia Ojanen,,88,
+CLUB00079,Kaarina Floorball ry,B-juniors 2006–2007,Santeri Rautio,2006,71,Turku
+CLUB00080,Aura Hockey Juniors,A-juniors 2004–2005,Otto Paavonen,2005,67,
+CLUB00081,Kaarina Floorball ry,B-juniors 2004–2005,Matias Kokko,,60,
+CLUB00082,Aura Hockey Juniors,A-juniors 2004–2005,Viktor Nordström,,81,
+CLUB00083,Kaarina Floorball ry,A-juniors 2004–2005,Rasmus Hiltunen,2004,61,Lieto
+CLUB00084,Saaristo IF,B-juniors 2004–2005,Julia Heinäjärvi,,88,Salo
+CLUB00085,Kaarina Floorball ry,B-juniors 2004–2005,Henri Nyberg,2005,65,Kaarina
+CLUB00086,Raisio Ballclub,B-juniors 2004–2005,Juho Savolainen,2004,55,
+CLUB00087,Raisio Ballclub,A-juniors 2006–2007,Olena Kovalenko,2006,86,
+CLUB00088,Salo Athletics,A-juniors 2006–2007,Valtteri Peltosalo,2007,25,Turku
+CLUB00089,Naantali Sailing Youth,A-juniors 2006–2007,Marta Rodríguez,2006,74,Turku
+CLUB00090,Turku Riverside FC,B-juniors 2004–2005,Ville Järvi,2004,29,
+CLUB00091,Naantali Sailing Youth,A-juniors 2004–2005,Natalia Sokolova,2005,64,
+CLUB00092,Raisio Ballclub,B-juniors 2004–2005,Siiri Ollikainen,2004,35,
+CLUB00093,Aura Hockey Juniors,A-juniors 2006–2007,Eveliina Salminen,2006,26,Nousiainen
+CLUB00094,Aura Hockey Juniors,A-juniors 2006–2007,Ville Alalahti,2006,2,Turku
+CLUB00095,Kaarina Floorball ry,B-juniors 2004–2005,Aino Kallioaho,2005,16,Somero
+CLUB00096,Naantali Sailing Youth,B-juniors 2004–2005,Niko Pajusalo,2004,20,
+CLUB00097,Kaarina Floorball ry,A-juniors 2006–2007,Anni Lampijärvi,,36,Lieto
+CLUB00098,Aura Hockey Juniors,B-juniors 2006–2007,Santeri Leino,2006,80,
+CLUB00099,Raisio Ballclub,A-juniors 2004–2005,Svetlana Novikova,2005,32,Turku
+CLUB00100,Turku Riverside FC,B-juniors 2004–2005,Juho Kujala,,67,
+CLUB00101,Saaristo IF,B-juniors 2004–2005,Aino Tuomioja,2004,90,
+CLUB00102,Raisio Ballclub,A-juniors 2006–2007,Jessica Hughes,,64,Turku
+CLUB00103,Kaarina Floorball ry,A-juniors 2004–2005,Aleksi Saarela,,52,Rusko
+CLUB00104,Kaarina Floorball ry,B-juniors 2006–2007,Henri Meriläinen,,7,Turku
+CLUB00105,Raisio Ballclub,A-juniors 2006–2007,Alvar Blomqvist,2006,65,
+CLUB00106,Aura Hockey Juniors,A-juniors 2004–2005,Nea Sarkakallio,,17,
+CLUB00107,Raisio Ballclub,A-juniors 2008–2009,Oskari Lehtovirta,2008,41,Raisio
+CLUB00108,Aura Hockey Juniors,B-juniors 2008–2009,Siiri Aaltola,,16,
+CLUB00109,Saaristo IF,A-juniors 2006–2007,Veeti Paavonen,,37,
+CLUB00110,Kaarina Floorball ry,A-juniors 2006–2007,Niko Leppäoja,2007,64,
+CLUB00111,Salo Athletics,B-juniors 2004–2005,Joel Ylinen,,1,
+CLUB00112,Kaarina Floorball ry,B-juniors 2004–2005,Nelli Kuusisuo,2004,34,
+CLUB00113,Salo Athletics,B-juniors 2006–2007,Onni Pohjola,,94,
+CLUB00114,Salo Athletics,B-juniors 2004–2005,Miro Sarkasuo,2005,94,Salo
+CLUB00115,Salo Athletics,A-juniors 2006–2007,Valtteri Vuorisuo,,53,Loimaa
+CLUB00116,Saaristo IF,B-juniors 2006–2007,Topias Lehtinen,2007,90,Turku
+CLUB00117,Turku Riverside FC,B-juniors 2004–2005,Sara Tamminiemi,,46,
+CLUB00118,Salo Athletics,A-juniors 2004–2005,Arttu Hirvonen,2004,20,
+CLUB00119,Salo Athletics,A-juniors 2006–2007,Berivan Rasul,2006,9,
+CLUB00120,Saaristo IF,B-juniors 2004–2005,Bengt Lampiranta,2004,13,Naantali
+CLUB00121,Raisio Ballclub,B-juniors 2006–2007,Julia Oravanen,,40,Turku
+CLUB00122,Raisio Ballclub,B-juniors 2004–2005,Eveliina Järvi,2004,3,
+CLUB00123,Aura Hockey Juniors,B-juniors 2006–2007,Wilma Kiviranta,,98,
+CLUB00124,Salo Athletics,A-juniors 2004–2005,Emma Lehtokoski,2004,50,
+CLUB00125,Salo Athletics,B-juniors 2006–2007,Joel Salminen,2006,12,
+CLUB00126,Saaristo IF,A-juniors 2008–2009,Venla Suojärvi,,87,Salo
+CLUB00127,Saaristo IF,B-juniors 2006–2007,Bohdan Shevchenko,2006,43,
+CLUB00128,Saaristo IF,A-juniors 2006–2007,Aino Haapamaa,2006,12,
+CLUB00129,Naantali Sailing Youth,A-juniors 2008–2009,Sara Elo,2008,92,Turku
+CLUB00130,Aura Hockey Juniors,A-juniors 2004–2005,Natalia Sokolova,2005,55,Salo
+CLUB00131,Saaristo IF,A-juniors 2006–2007,Samuel Salovuori,2006,77,
+CLUB00132,Kaarina Floorball ry,B-juniors 2006–2007,Wilma Mäkiniemi,2006,4,Turku
+CLUB00133,Salo Athletics,B-juniors 2004–2005,Elias Hallaaho,2005,35,Turku
+CLUB00134,Raisio Ballclub,A-juniors 2004–2005,Fanni Sirviö,,48,Uusikaupunki
+CLUB00135,Turku Riverside FC,A-juniors 2004–2005,Samuel Hallavirta,2004,16,
+CLUB00136,Salo Athletics,B-juniors 2004–2005,Wilma Ruoholahti,2005,18,Turku
+CLUB00137,Salo Athletics,B-juniors 2006–2007,Oskari Karjalainen,,10,Naantali
+CLUB00138,Turku Riverside FC,B-juniors 2006–2007,Juho Lampipää,2006,18,
+CLUB00139,Turku Riverside FC,B-juniors 2006–2007,Niko Pajunen,2006,93,Uusikaupunki
+CLUB00140,Salo Athletics,A-juniors 2006–2007,Oskari Lehtinen,,34,Kaarina
+CLUB00141,Aura Hockey Juniors,B-juniors 2004–2005,Valtteri Saarikangas,2004,15,Salo
+CLUB00142,Saaristo IF,B-juniors 2004–2005,Emma Ahoranta,2004,95,
+CLUB00143,Aura Hockey Juniors,A-juniors 2004–2005,Anni Nikula,,42,
+CLUB00144,Raisio Ballclub,B-juniors 2004–2005,Johanna Andersson,2005,9,
+CLUB00145,Naantali Sailing Youth,B-juniors 2004–2005,Mattias Joutsensuo,2004,17,Naantali
+CLUB00146,Saaristo IF,A-juniors 2008–2009,Otto Vuorijärvi,2008,83,
+CLUB00147,Turku Riverside FC,B-juniors 2008–2009,Reza Jafari,2008,14,
+CLUB00148,Kaarina Floorball ry,B-juniors 2004–2005,Alma Westerlund,2004,42,Parainen
+CLUB00149,Turku Riverside FC,A-juniors 2006–2007,Eveliina Kainulainen,2007,65,
+CLUB00150,Raisio Ballclub,B-juniors 2004–2005,Eemeli Kivimaa,2004,14,
+CLUB00151,Naantali Sailing Youth,B-juniors 2004–2005,Kati Kukk,,35,Turku
+CLUB00152,Aura Hockey Juniors,A-juniors 2006–2007,Oona Aaltonen,,4,Salo
+CLUB00153,Saaristo IF,A-juniors 2004–2005,Samuel Pietilä,2004,15,
+CLUB00154,Turku Riverside FC,B-juniors 2006–2007,Fanni Pajuniemi,2006,61,
+CLUB00155,Aura Hockey Juniors,A-juniors 2004–2005,Aleksi Kyllönen,2004,83,Masku
+CLUB00156,Aura Hockey Juniors,A-juniors 2006–2007,Santeri Heikkinen,2007,24,
+CLUB00157,Raisio Ballclub,A-juniors 2006–2007,Emma Leppäkorpi,2007,54,Naantali
+CLUB00158,Naantali Sailing Youth,B-juniors 2004–2005,Joonas Pohjoaho,2005,72,Turku
+CLUB00159,Raisio Ballclub,B-juniors 2006–2007,Santeri Kurkioja,2006,54,Naantali
+CLUB00160,Raisio Ballclub,B-juniors 2004–2005,Noora Pihlasalo,2004,84,
+CLUB00161,Aura Hockey Juniors,B-juniors 2006–2007,Aleksi Ilvesranta,2007,87,Turku
+CLUB00162,Kaarina Floorball ry,A-juniors 2004–2005,Valtteri Niemimaa,,30,Turku
+CLUB00163,Turku Riverside FC,A-juniors 2004–2005,Henri Jousilahti,,65,Salo
+CLUB00164,Raisio Ballclub,B-juniors 2006–2007,Ella Haukkalehto,2006,17,
+CLUB00165,Aura Hockey Juniors,A-juniors 2008–2009,Santeri Tervooja,,76,Turku
+CLUB00166,Saaristo IF,B-juniors 2004–2005,Inka Rintanen,,74,
+CLUB00167,Naantali Sailing Youth,A-juniors 2006–2007,Dalia Al-Hassan,2006,85,Turku
+CLUB00168,Kaarina Floorball ry,B-juniors 2004–2005,Mikael Nordström,,13,
+CLUB00169,Naantali Sailing Youth,B-juniors 2004–2005,Ville Kallioniemi,,46,Salo
+CLUB00170,Saaristo IF,B-juniors 2004–2005,Siiri Lehtomäki,2005,59,
+CLUB00171,Naantali Sailing Youth,B-juniors 2004–2005,Sara Matilainen,,63,Masku
+CLUB00172,Raisio Ballclub,A-juniors 2006–2007,Eveliina Salomäki,,48,Turku
+CLUB00173,Raisio Ballclub,B-juniors 2008–2009,Samuel Ojaranta,,65,Turku
+CLUB00174,Naantali Sailing Youth,A-juniors 2004–2005,Miro Ruohoharju,2005,65,
+CLUB00175,Saaristo IF,A-juniors 2006–2007,Lauri Kotkalahti,,1,
+CLUB00176,Raisio Ballclub,B-juniors 2004–2005,Henri Mäkijärvi,2004,97,
+CLUB00177,Saaristo IF,B-juniors 2006–2007,Veera Yläaho,2007,5,Turku
+CLUB00178,Naantali Sailing Youth,B-juniors 2004–2005,Dmitri Volkov,2005,46,
+CLUB00179,Naantali Sailing Youth,A-juniors 2004–2005,Sara Lampiluoto,,64,
+CLUB00180,Salo Athletics,B-juniors 2004–2005,Santeri Lehtomäki,,87,Pöytyä
+CLUB00181,Kaarina Floorball ry,A-juniors 2006–2007,Julia Saarikangas,2007,92,Turku
+CLUB00182,Turku Riverside FC,A-juniors 2006–2007,Roosa Talvikoski,2007,45,
+CLUB00183,Aura Hockey Juniors,A-juniors 2004–2005,Eveliina Puranen,2004,53,
+CLUB00184,Raisio Ballclub,B-juniors 2004–2005,Sara Hosseini,,24,Turku
+CLUB00185,Turku Riverside FC,B-juniors 2006–2007,Anna Wikström,,35,
+CLUB00186,Salo Athletics,A-juniors 2004–2005,Nea Alatalo,2005,43,Taivassalo
+CLUB00187,Saaristo IF,A-juniors 2004–2005,Siiri Ruohopää,2005,79,Turku
+CLUB00188,Salo Athletics,B-juniors 2008–2009,Julia Kangasaho,2008,56,
+CLUB00189,Raisio Ballclub,B-juniors 2006–2007,Samuel Laaksojärvi,,2,Naantali
+CLUB00190,Saaristo IF,B-juniors 2004–2005,Johanna Karlsson,2005,61,Turku
+CLUB00191,Saaristo IF,A-juniors 2004–2005,Rasmus Peltola,,17,
+CLUB00192,Turku Riverside FC,A-juniors 2004–2005,Miro Kaarnalahti,2005,68,Uusikaupunki
+CLUB00193,Aura Hockey Juniors,A-juniors 2004–2005,Laura Kotkamaa,2005,73,
+CLUB00194,Raisio Ballclub,B-juniors 2004–2005,Matias Soininen,2005,43,
+CLUB00195,Raisio Ballclub,B-juniors 2004–2005,Wilma Jousipää,2005,72,
+CLUB00196,Salo Athletics,B-juniors 2004–2005,Venla Lumimaa,2005,56,Raisio
+CLUB00197,Turku Riverside FC,A-juniors 2004–2005,Julia Popova,,90,Turku
+CLUB00198,Kaarina Floorball ry,B-juniors 2004–2005,Venla Suokoski,,87,Turku
+CLUB00199,Kaarina Floorball ry,B-juniors 2004–2005,Mei Li,2004,80,
+CLUB00200,Turku Riverside FC,B-juniors 2006–2007,Aino Peltonen,2006,62,
+CLUB00201,Turku Riverside FC,B-juniors 2006–2007,Valtteri Järvi,,8,Salo
+CLUB00202,Salo Athletics,A-juniors 2006–2007,Emma Aaltonen,2007,71,Lieto
+CLUB00203,Turku Riverside FC,B-juniors 2006–2007,Iida Kesämäki,,47,Turku
+CLUB00204,Turku Riverside FC,A-juniors 2008–2009,Wilma Jaakkonen,2008,6,Kaarina
+CLUB00205,Raisio Ballclub,B-juniors 2006–2007,Otto Jousisalo,,63,Kaarina
+CLUB00206,Raisio Ballclub,B-juniors 2004–2005,Hodan Abdullahi,2005,39,Turku
+CLUB00207,Turku Riverside FC,A-juniors 2006–2007,Ella Lehtonen,2006,3,Salo
+CLUB00208,Naantali Sailing Youth,A-juniors 2004–2005,Matias Kesäkoski,2004,82,Naantali
+CLUB00209,Kaarina Floorball ry,A-juniors 2006–2007,Mustafa Mahmoud,,76,
+CLUB00210,Salo Athletics,A-juniors 2006–2007,Sara Laakso,,27,Salo
+CLUB00211,Raisio Ballclub,B-juniors 2004–2005,Santeri Viitaoja,2005,86,Salo
+CLUB00212,Naantali Sailing Youth,A-juniors 2008–2009,Venla Ketola,,42,
+CLUB00213,Turku Riverside FC,A-juniors 2004–2005,Eveliina Ilvesluoto,2004,69,
+CLUB00214,Kaarina Floorball ry,B-juniors 2006–2007,Anni Mäkinen,2006,2,
+CLUB00215,Saaristo IF,A-juniors 2004–2005,Pinja Heikkilä,2005,33,
+CLUB00216,Salo Athletics,B-juniors 2006–2007,Roope Huhtala,2006,76,
+CLUB00217,Turku Riverside FC,A-juniors 2004–2005,Julia Hallakallio,,37,Salo
+CLUB00218,Kaarina Floorball ry,A-juniors 2004–2005,Jessica O'Connor,2005,30,
+CLUB00219,Salo Athletics,B-juniors 2004–2005,Wilma Kurkiharju,2004,9,
+CLUB00220,Raisio Ballclub,B-juniors 2004–2005,Emma Kangasla,2004,42,
+CLUB00221,Raisio Ballclub,A-juniors 2004–2005,Juho Saariniemi,2005,72,
+CLUB00222,Saaristo IF,B-juniors 2004–2005,Ville Talvikorpi,2005,60,
+CLUB00223,Salo Athletics,A-juniors 2004–2005,Roope Aaltola,,12,
+CLUB00224,Salo Athletics,A-juniors 2006–2007,Miro Virtanen,2007,52,Aura
+CLUB00225,Kaarina Floorball ry,A-juniors 2006–2007,Jere Laitinen,,13,Turku
+CLUB00226,Saaristo IF,A-juniors 2006–2007,Veera Mäntyniemi,,88,Salo
+CLUB00227,Aura Hockey Juniors,A-juniors 2004–2005,Siiri Kesämäki,,50,
+CLUB00228,Turku Riverside FC,B-juniors 2006–2007,Ronja Kaukolahti,2007,79,
+CLUB00229,Aura Hockey Juniors,A-juniors 2004–2005,Emma Tammikangas,2004,76,
+CLUB00230,Kaarina Floorball ry,B-juniors 2004–2005,Anni Suoniemi,2004,82,Turku
+CLUB00231,Raisio Ballclub,A-juniors 2004–2005,Eetu Laitinen,2004,29,
+CLUB00232,Salo Athletics,B-juniors 2004–2005,Arttu Hietasuo,,65,
+CLUB00233,Saaristo IF,B-juniors 2004–2005,Ella Tammipää,,84,Turku
+CLUB00234,Raisio Ballclub,A-juniors 2004–2005,Noora Hirvilahti,2004,72,Somero
+CLUB00235,Aura Hockey Juniors,A-juniors 2008–2009,Lauri Pohjokorpi,,41,Salo
+CLUB00236,Turku Riverside FC,A-juniors 2008–2009,Oona Kultamäki,,95,
+CLUB00237,Turku Riverside FC,B-juniors 2004–2005,Eveliina Virtanen,2005,34,Raisio
+CLUB00238,Kaarina Floorball ry,B-juniors 2006–2007,Nelli Kaukomaa,2006,13,Turku
+CLUB00239,Turku Riverside FC,A-juniors 2004–2005,Onni Hirvinen,,42,
+CLUB00240,Salo Athletics,A-juniors 2004–2005,Linnea Haukkakoski,,15,Turku
+CLUB00241,Saaristo IF,A-juniors 2006–2007,Elias Nevalainen,,81,Nousiainen
+CLUB00242,Raisio Ballclub,B-juniors 2008–2009,Valtteri Turunen,,92,
+CLUB00243,Saaristo IF,A-juniors 2006–2007,Essi Haukkavuori,2006,84,
+CLUB00244,Salo Athletics,A-juniors 2006–2007,Veeti Leinonen,2006,93,Pöytyä
+CLUB00245,Raisio Ballclub,B-juniors 2004–2005,Aino Viitaharju,2005,72,Turku
+CLUB00246,Turku Riverside FC,A-juniors 2006–2007,Laura Laaksomaa,,73,
+CLUB00247,Kaarina Floorball ry,B-juniors 2004–2005,Veeti Laurila,2005,96,
+CLUB00248,Raisio Ballclub,B-juniors 2004–2005,Veeti Ruohosalo,2005,30,Turku
+CLUB00249,Naantali Sailing Youth,A-juniors 2006–2007,Joel Lumiluoto,,65,
+CLUB00250,Saaristo IF,A-juniors 2006–2007,Veeti Jousila,,32,Kaarina
+CLUB00251,Kaarina Floorball ry,B-juniors 2004–2005,Julia Sirviö,2005,44,Salo
+CLUB00252,Naantali Sailing Youth,B-juniors 2008–2009,Iida Lindroos,2008,33,Salo
+CLUB00253,Raisio Ballclub,B-juniors 2006–2007,Eveliina Ahola,2006,79,Turku
+CLUB00254,Aura Hockey Juniors,B-juniors 2004–2005,Emma Ojasalo,,41,
+CLUB00255,Raisio Ballclub,A-juniors 2008–2009,Matias Vuorikorpi,2008,51,Kaarina
+CLUB00256,Aura Hockey Juniors,A-juniors 2004–2005,Eemeli Mäkiranta,2005,2,
+CLUB00257,Naantali Sailing Youth,A-juniors 2006–2007,Ville Matilainen,2006,12,Raisio
+CLUB00258,Aura Hockey Juniors,B-juniors 2006–2007,Aleksi Kesämäki,2006,35,
+CLUB00259,Naantali Sailing Youth,B-juniors 2004–2005,Matias Haukkakorpi,2005,40,
+CLUB00260,Saaristo IF,A-juniors 2006–2007,Sara Grönroos,2006,87,Loimaa
+CLUB00261,Raisio Ballclub,B-juniors 2006–2007,Aleksi Tuomioja,2007,14,Laitila
+CLUB00262,Turku Riverside FC,A-juniors 2006–2007,Lauri Lampisuo,2006,2,
+CLUB00263,Saaristo IF,A-juniors 2006–2007,Aino Tammivuori,,77,
+CLUB00264,Naantali Sailing Youth,A-juniors 2004–2005,Jenna Järvenpää,,78,
+CLUB00265,Kaarina Floorball ry,B-juniors 2006–2007,Veera Lampilehto,2006,33,Uusikaupunki
+CLUB00266,Salo Athletics,B-juniors 2006–2007,Jere Ruohovuori,,71,
+CLUB00267,Kaarina Floorball ry,B-juniors 2004–2005,Elias Karhuvirta,,41,
+CLUB00268,Saaristo IF,B-juniors 2008–2009,Onni Hallakoski,,49,
+CLUB00269,Aura Hockey Juniors,A-juniors 2006–2007,Santeri Antikainen,,77,Turku
+CLUB00270,Naantali Sailing Youth,A-juniors 2008–2009,Jesse Niemilehto,,58,
+CLUB00271,Aura Hockey Juniors,A-juniors 2004–2005,Joonas Rossi,2004,68,Somero
+CLUB00272,Turku Riverside FC,B-juniors 2004–2005,Roosa Sarkasalo,2005,4,Kaarina
+CLUB00273,Naantali Sailing Youth,A-juniors 2006–2007,Ella Puustinen,,44,
+CLUB00274,Saaristo IF,A-juniors 2006–2007,Oona Leppänen,2007,29,
+CLUB00275,Aura Hockey Juniors,A-juniors 2006–2007,Iida Kinnunen,,67,Raisio
+CLUB00276,Raisio Ballclub,B-juniors 2008–2009,Venla Rautaharju,2008,52,
+CLUB00277,Saaristo IF,A-juniors 2006–2007,Nea Viitakangas,2006,76,Uusikaupunki
+CLUB00278,Salo Athletics,A-juniors 2004–2005,Ronja Luoma,2005,6,
+CLUB00279,Aura Hockey Juniors,B-juniors 2006–2007,Santeri Mäntysuo,2006,77,Turku
+CLUB00280,Turku Riverside FC,A-juniors 2004–2005,Milla Muhonen,,40,Lieto
+CLUB00281,Naantali Sailing Youth,B-juniors 2004–2005,Sara Jäntti,2005,47,Lieto
+CLUB00282,Naantali Sailing Youth,A-juniors 2004–2005,Ellen Tuomivuori,,66,
+CLUB00283,Turku Riverside FC,B-juniors 2006–2007,Lauri Ruohosalo,2006,72,Turku
+CLUB00284,Raisio Ballclub,A-juniors 2006–2007,Miro Pajuranta,,77,Uusikaupunki
+CLUB00285,Aura Hockey Juniors,A-juniors 2004–2005,Santeri Tervosuo,2005,68,
+CLUB00286,Kaarina Floorball ry,A-juniors 2004–2005,Erik Nyström,,27,Naantali
+CLUB00287,Kaarina Floorball ry,A-juniors 2006–2007,Emma Ketola,2006,90,Uusikaupunki
+CLUB00288,Naantali Sailing Youth,A-juniors 2006–2007,Noora Kaskijärvi,2006,19,Turku
+CLUB00289,Aura Hockey Juniors,B-juniors 2004–2005,Tatiana Kuznetsova,2005,95,
+CLUB00290,Aura Hockey Juniors,A-juniors 2008–2009,Samuel Vuoriaho,,87,
+CLUB00291,Salo Athletics,A-juniors 2006–2007,Laura Hirviharju,2006,44,Turku
+CLUB00292,Naantali Sailing Youth,B-juniors 2008–2009,Jere Talviluoto,2008,24,
+CLUB00293,Kaarina Floorball ry,A-juniors 2006–2007,Milla Kivistö,,66,Salo
+CLUB00294,Naantali Sailing Youth,A-juniors 2006–2007,Siiri Talvikoski,,74,Uusikaupunki
+CLUB00295,Aura Hockey Juniors,A-juniors 2006–2007,Lauri Heinämäki,,97,Salo
+CLUB00296,Turku Riverside FC,A-juniors 2006–2007,Nam Vu,2006,69,
+CLUB00297,Salo Athletics,A-juniors 2006–2007,Otto Karhusalo,2006,43,Somero
+CLUB00298,Aura Hockey Juniors,A-juniors 2004–2005,Sara Kaskivuori,,13,
+CLUB00299,Turku Riverside FC,B-juniors 2004–2005,Elias Yläluoto,2005,21,Naantali
+CLUB00300,Turku Riverside FC,B-juniors 2006–2007,Jesse Kalliopää,2006,2,
+CLUB00301,Raisio Ballclub,B-juniors 2004–2005,Niko Yläkorpi,2005,1,
+CLUB00302,Salo Athletics,B-juniors 2006–2007,Roosa Kuusisto,,92,
+CLUB00303,Aura Hockey Juniors,A-juniors 2006–2007,Pinja Leppäjärvi,2006,79,
+CLUB00304,Aura Hockey Juniors,A-juniors 2006–2007,Nea Haapajärvi,2007,61,Uusikaupunki
+CLUB00305,Naantali Sailing Youth,A-juniors 2004–2005,Jesse Kangasmaa,,41,Turku
+CLUB00306,Raisio Ballclub,A-juniors 2004–2005,Aino Kangaskoski,2004,4,Somero
+CLUB00307,Raisio Ballclub,B-juniors 2006–2007,Joonas Jousimäki,2007,59,Kaarina
+CLUB00308,Salo Athletics,A-juniors 2008–2009,Roosa Salokangas,2008,59,
+CLUB00309,Naantali Sailing Youth,A-juniors 2006–2007,Miro Ruohopää,2006,37,Salo
+CLUB00310,Raisio Ballclub,B-juniors 2004–2005,Jere Lehtinen,2004,49,
+CLUB00311,Naantali Sailing Youth,A-juniors 2006–2007,Otto Koivisto,,98,Turku
+CLUB00312,Kaarina Floorball ry,B-juniors 2006–2007,Jere Suolahti,2007,27,Raisio
+CLUB00313,Aura Hockey Juniors,B-juniors 2004–2005,Juho Kaarnamäki,2004,92,Kaarina
+CLUB00314,Turku Riverside FC,A-juniors 2004–2005,Jenna Yläniemi,2004,48,
+CLUB00315,Turku Riverside FC,A-juniors 2004–2005,Eveliina Pajuvirta,,22,Raisio
+CLUB00316,Naantali Sailing Youth,B-juniors 2006–2007,Jesse Koivumaa,,72,
+CLUB00317,Raisio Ballclub,B-juniors 2004–2005,Milla Mäkelä,,94,Koski Tl
+CLUB00318,Kaarina Floorball ry,A-juniors 2004–2005,Elias Oravaranta,2005,27,
+CLUB00319,Saaristo IF,A-juniors 2006–2007,Wilma Laaksovuori,2006,83,
+CLUB00320,Turku Riverside FC,A-juniors 2006–2007,Venla Karhuoja,2006,23,Turku
+CLUB00321,Turku Riverside FC,A-juniors 2006–2007,Eveliina Salomäki,2006,37,
+CLUB00322,Raisio Ballclub,B-juniors 2004–2005,Valtteri Tuominiemi,2005,47,Turku
+CLUB00323,Salo Athletics,A-juniors 2008–2009,Matilda Nyström,,91,
+CLUB00324,Saaristo IF,A-juniors 2006–2007,Veera Repo,2006,28,Mynämäki
+CLUB00325,Naantali Sailing Youth,B-juniors 2006–2007,Ronja Kaukoranta,2006,43,
+CLUB00326,Salo Athletics,B-juniors 2004–2005,Venla Haukkakorpi,2004,60,
+CLUB00327,Turku Riverside FC,B-juniors 2006–2007,Henri Heinäpää,,72,
+CLUB00328,Salo Athletics,A-juniors 2006–2007,Mari Rebane,,72,Turku
+CLUB00329,Naantali Sailing Youth,A-juniors 2006–2007,Elena Sokolova,2006,25,Salo
+CLUB00330,Kaarina Floorball ry,B-juniors 2004–2005,Hassan Farah,,93,
+CLUB00331,Kaarina Floorball ry,B-juniors 2008–2009,Ville Hiltunen,2008,26,Somero
+CLUB00332,Saaristo IF,B-juniors 2004–2005,Arttu Hirvikoski,2005,98,
+CLUB00333,Kaarina Floorball ry,B-juniors 2006–2007,Essi Hirvijärvi,2006,12,
+CLUB00334,Naantali Sailing Youth,A-juniors 2004–2005,Inka Laaksovirta,2005,73,Aura
+CLUB00335,Aura Hockey Juniors,A-juniors 2004–2005,Ville Lehtonen,2004,33,Kaarina
+CLUB00336,Salo Athletics,B-juniors 2008–2009,Valtteri Helenius,,81,
+CLUB00337,Naantali Sailing Youth,A-juniors 2006–2007,Valtteri Lumikallio,2007,44,
+CLUB00338,Naantali Sailing Youth,B-juniors 2004–2005,Otto Kiuru,2004,14,
+CLUB00339,Kaarina Floorball ry,A-juniors 2004–2005,Juho Saarivuori,2005,91,Raisio
+CLUB00340,Kaarina Floorball ry,B-juniors 2006–2007,Jenna Leppälä,,15,
+CLUB00341,Raisio Ballclub,B-juniors 2006–2007,Sara Mattila,2007,64,Laitila
+CLUB00342,Aura Hockey Juniors,B-juniors 2006–2007,Inka Nylund,2007,58,Naantali
+CLUB00343,Salo Athletics,B-juniors 2004–2005,Arttu Pohjokangas,,87,
+CLUB00344,Kaarina Floorball ry,A-juniors 2006–2007,Veera Kivioja,2007,34,
+CLUB00345,Raisio Ballclub,A-juniors 2006–2007,Topias Aaltoharju,2006,38,Turku
+CLUB00346,Saaristo IF,B-juniors 2004–2005,Inka Eriksson,,31,
+CLUB00347,Kaarina Floorball ry,B-juniors 2004–2005,Johan Mattsson,,81,
+CLUB00348,Aura Hockey Juniors,A-juniors 2006–2007,Fanni Saarila,,1,
+CLUB00349,Kaarina Floorball ry,A-juniors 2006–2007,Nea Koivuvirta,,17,
+CLUB00350,Salo Athletics,A-juniors 2004–2005,Omar Al-Hassan,,95,Turku
+CLUB00351,Kaarina Floorball ry,A-juniors 2006–2007,Venla Salomäki,2006,36,
+CLUB00352,Raisio Ballclub,A-juniors 2006–2007,Inka Pohjolehto,2006,33,
+CLUB00353,Naantali Sailing Youth,B-juniors 2004–2005,Joonas Rintavuori,,69,Turku
+CLUB00354,Saaristo IF,B-juniors 2004–2005,Laura Lumikallio,,55,Lieto
+CLUB00355,Naantali Sailing Youth,A-juniors 2004–2005,Pinja Berg,2005,35,
+CLUB00356,Salo Athletics,B-juniors 2006–2007,Jesse Pennanen,2007,63,
+CLUB00357,Kaarina Floorball ry,B-juniors 2006–2007,Neha Kumar,2006,23,
+CLUB00358,Raisio Ballclub,B-juniors 2008–2009,Onni Salokorpi,2008,19,
+CLUB00359,Salo Athletics,B-juniors 2006–2007,Bengt Sorsanen,,61,
+CLUB00360,Kaarina Floorball ry,B-juniors 2006–2007,Eemeli Ahosuo,,30,
+CLUB00361,Turku Riverside FC,A-juniors 2006–2007,Rasmus Linna,2006,95,
+CLUB00362,Salo Athletics,A-juniors 2006–2007,Onni Karhukangas,2006,26,Pyhäranta
+CLUB00363,Naantali Sailing Youth,B-juniors 2006–2007,Elias Aalto,2006,21,
+CLUB00364,Naantali Sailing Youth,A-juniors 2004–2005,Topias Konttinen,2005,17,
+CLUB00365,Kaarina Floorball ry,A-juniors 2004–2005,Rasmus Kallio,,77,Loimaa
+CLUB00366,Naantali Sailing Youth,B-juniors 2006–2007,Rojin Qadir,,26,
+CLUB00367,Turku Riverside FC,A-juniors 2004–2005,Noora Vartiainen,2005,73,
+CLUB00368,Raisio Ballclub,B-juniors 2008–2009,Eveliina Rautapää,,15,
+CLUB00369,Salo Athletics,B-juniors 2006–2007,Iida Kivistö,2006,32,
+CLUB00370,Raisio Ballclub,A-juniors 2004–2005,Oskari Talvivirta,2004,65,
+CLUB00371,Kaarina Floorball ry,B-juniors 2004–2005,Ella Rintakorpi,2004,80,
+CLUB00372,Aura Hockey Juniors,A-juniors 2004–2005,Ulla Lindqvist,2005,96,Parainen
+CLUB00373,Aura Hockey Juniors,B-juniors 2006–2007,Elias Vuorijärvi,2007,66,
+CLUB00374,Raisio Ballclub,B-juniors 2004–2005,Hugo Karlsson,2005,71,
+CLUB00375,Turku Riverside FC,A-juniors 2004–2005,Jere Pihlaaho,,25,Koski Tl
+CLUB00376,Turku Riverside FC,B-juniors 2006–2007,Inka Söderberg,2006,39,Parainen
+CLUB00377,Naantali Sailing Youth,A-juniors 2004–2005,Noora Tuomi,2005,63,
+CLUB00378,Salo Athletics,B-juniors 2006–2007,Wilma Laitinen,2007,23,
+CLUB00379,Turku Riverside FC,B-juniors 2006–2007,Onni Rantalahti,2007,71,
+CLUB00380,Aura Hockey Juniors,B-juniors 2004–2005,Inka Alajärvi,2005,50,Turku
+CLUB00381,Kaarina Floorball ry,B-juniors 2004–2005,Jenna Mustonen,2004,35,Kaarina
+CLUB00382,Turku Riverside FC,B-juniors 2004–2005,Eetu Hallaranta,2005,52,Turku
+CLUB00383,Naantali Sailing Youth,A-juniors 2004–2005,Nea Pajuranta,,70,
+CLUB00384,Kaarina Floorball ry,A-juniors 2004–2005,Laura Tuomisalo,2005,43,Raisio
+CLUB00385,Raisio Ballclub,B-juniors 2004–2005,Otto Kaarnavuori,,94,Raisio
+CLUB00386,Raisio Ballclub,B-juniors 2006–2007,Wilma Pihlasuo,2006,27,
+CLUB00387,Raisio Ballclub,B-juniors 2006–2007,Noora Tervokangas,2006,45,
+CLUB00388,Saaristo IF,A-juniors 2004–2005,Christer Sundström,2005,53,
+CLUB00389,Turku Riverside FC,A-juniors 2006–2007,Sergei Kozlov,,27,Turku
+CLUB00390,Saaristo IF,A-juniors 2006–2007,Iida Kumpulainen,2006,97,
+CLUB00391,Turku Riverside FC,A-juniors 2006–2007,Eveliina Haukkaharju,2007,18,Turku
+CLUB00392,Aura Hockey Juniors,A-juniors 2006–2007,Ella Mattila,,35,Kaarina
+CLUB00393,Salo Athletics,A-juniors 2004–2005,Samuel Halonen,,60,Pöytyä
+CLUB00394,Raisio Ballclub,B-juniors 2006–2007,Emma Viitala,2006,93,Kaarina
+CLUB00395,Turku Riverside FC,B-juniors 2006–2007,Roosa Pohjonen,2006,40,Turku
+CLUB00396,Naantali Sailing Youth,A-juniors 2004–2005,Veera Pohjola,2004,9,Turku
+CLUB00397,Kaarina Floorball ry,B-juniors 2004–2005,Ananya Kumar,2005,94,
+CLUB00398,Salo Athletics,A-juniors 2006–2007,Inka Jokela,,85,
+CLUB00399,Salo Athletics,A-juniors 2008–2009,Kim Åberg,,67,
+CLUB00400,Aura Hockey Juniors,B-juniors 2004–2005,Henri Kangasjärvi,,57,
+CLUB00401,Naantali Sailing Youth,B-juniors 2004–2005,Pinja Vartiainen,,15,
+CLUB00402,Aura Hockey Juniors,B-juniors 2004–2005,Valtteri Talvilehto,2004,67,
+CLUB00403,Salo Athletics,B-juniors 2004–2005,Siiri Mäki,2005,95,Lieto
+CLUB00404,Saaristo IF,B-juniors 2006–2007,Jesse Kalliovuori,,7,
+CLUB00405,Kaarina Floorball ry,B-juniors 2004–2005,Niko Alakallio,2004,82,
+CLUB00406,Raisio Ballclub,A-juniors 2006–2007,Olena Bondarenko,2006,38,Turku
+CLUB00407,Saaristo IF,B-juniors 2006–2007,Eveliina Jousijärvi,2007,24,
+CLUB00408,Aura Hockey Juniors,A-juniors 2004–2005,Iida Laiho,2004,23,Turku
+CLUB00409,Raisio Ballclub,A-juniors 2004–2005,Sara Lampikorpi,2004,78,
+CLUB00410,Salo Athletics,B-juniors 2006–2007,Ville Pihlakoski,,40,
+CLUB00411,Aura Hockey Juniors,B-juniors 2004–2005,Ville Pohjoranta,2005,88,Salo
+CLUB00412,Raisio Ballclub,B-juniors 2006–2007,Eveliina Kultavirta,2006,46,
+CLUB00413,Raisio Ballclub,B-juniors 2006–2007,Milla Heino,2006,95,
+CLUB00414,Salo Athletics,B-juniors 2006–2007,Roope Tammijärvi,,8,Turku
+CLUB00415,Kaarina Floorball ry,A-juniors 2006–2007,Nea Kaarnaharju,2007,34,Mynämäki
+CLUB00416,Salo Athletics,A-juniors 2006–2007,Topias Viitaranta,2006,52,Turku
+CLUB00417,Saaristo IF,B-juniors 2006–2007,Milla Kilpeläinen,,5,
+CLUB00418,Raisio Ballclub,B-juniors 2004–2005,Laura Joutsenmäki,2005,66,
+CLUB00419,Kaarina Floorball ry,B-juniors 2006–2007,Elias Sorsala,2006,69,
+CLUB00420,Raisio Ballclub,A-juniors 2008–2009,Noora Ahokorpi,,80,Turku
+CLUB00421,Saaristo IF,A-juniors 2006–2007,Nea Kaukoaho,2007,66,Raisio
+CLUB00422,Saaristo IF,A-juniors 2004–2005,Merle Rebane,2004,68,Salo
+CLUB00423,Salo Athletics,A-juniors 2006–2007,Venla Ylämäki,2006,36,Turku
+CLUB00424,Salo Athletics,A-juniors 2004–2005,Jesse Kokkonen,2005,77,Masku
+CLUB00425,Salo Athletics,B-juniors 2004–2005,Milla Lehtonen,,30,
+CLUB00426,Naantali Sailing Youth,A-juniors 2004–2005,Göran Lindholm,2004,17,
+CLUB00427,Salo Athletics,B-juniors 2004–2005,Lauri Kultanen,2004,26,Loimaa
+CLUB00428,Turku Riverside FC,A-juniors 2004–2005,Jenna Koivujärvi,2005,88,
+CLUB00429,Aura Hockey Juniors,B-juniors 2008–2009,Iida Pehkonen,,65,
+CLUB00430,Kaarina Floorball ry,A-juniors 2008–2009,Nelli Oravamäki,2008,80,
+CLUB00431,Raisio Ballclub,B-juniors 2008–2009,Aleksi Saloluoto,2008,60,Lieto
+CLUB00432,Turku Riverside FC,B-juniors 2004–2005,Pinja Halonen,2005,66,
+CLUB00433,Saaristo IF,A-juniors 2004–2005,Joonas Korhonen,2005,90,
+CLUB00434,Naantali Sailing Youth,B-juniors 2006–2007,Leila Karimi,,11,Turku
+CLUB00435,Kaarina Floorball ry,B-juniors 2004–2005,Noora Oravasalo,2005,66,
+CLUB00436,Kaarina Floorball ry,A-juniors 2004–2005,Elias Oravakallio,2004,47,Turku
+CLUB00437,Saaristo IF,B-juniors 2006–2007,Roope Lehmusvaara,2006,31,
+CLUB00438,Naantali Sailing Youth,B-juniors 2004–2005,Eetu Haapala,,22,
+CLUB00439,Salo Athletics,B-juniors 2006–2007,Nea Nieminen,2006,51,
+CLUB00440,Aura Hockey Juniors,B-juniors 2006–2007,Jenna Ruohokallio,,23,
+CLUB00441,Kaarina Floorball ry,A-juniors 2004–2005,Fanni Pihlasuo,,8,
+CLUB00442,Turku Riverside FC,A-juniors 2004–2005,Joel Haapanen,,56,
+CLUB00443,Raisio Ballclub,B-juniors 2006–2007,Aleksi Yläranta,,95,
+CLUB00444,Kaarina Floorball ry,B-juniors 2006–2007,Fanni Turunen,,67,
+CLUB00445,Salo Athletics,A-juniors 2006–2007,Ella Oravakangas,2006,28,Loimaa
+CLUB00446,Turku Riverside FC,B-juniors 2004–2005,Roope Lumilehto,,49,Lieto
+CLUB00447,Aura Hockey Juniors,A-juniors 2006–2007,Santeri Rintamäki,,13,Uusikaupunki
+CLUB00448,Turku Riverside FC,B-juniors 2004–2005,Veeti Pohjovuori,2004,61,Turku
+CLUB00449,Salo Athletics,B-juniors 2004–2005,Juho Talvikorpi,,76,Turku
+CLUB00450,Aura Hockey Juniors,B-juniors 2008–2009,Eetu Pohjola,2008,37,
+CLUB00451,Saaristo IF,A-juniors 2004–2005,Jesse Tammikoski,2004,67,Kaarina
+CLUB00452,Turku Riverside FC,B-juniors 2006–2007,Essi Haukkaaho,2006,74,
+CLUB00453,Saaristo IF,A-juniors 2004–2005,Dilshad Qadir,,61,
+CLUB00454,Aura Hockey Juniors,A-juniors 2004–2005,Kristina Österlund,,50,Kemiönsaari
+CLUB00455,Saaristo IF,B-juniors 2006–2007,Laura Ojapää,,13,Lieto
+CLUB00456,Naantali Sailing Youth,B-juniors 2004–2005,Siiri Oravajärvi,,20,Turku
+CLUB00457,Turku Riverside FC,B-juniors 2006–2007,Christer Lindholm,2007,86,Parainen
+CLUB00458,Saaristo IF,B-juniors 2004–2005,Juho Lumiranta,,17,
+CLUB00459,Salo Athletics,B-juniors 2006–2007,Roope Kalliosuo,2007,68,
+CLUB00460,Salo Athletics,B-juniors 2004–2005,Henri Lampioja,,85,Turku
+CLUB00461,Saaristo IF,B-juniors 2004–2005,Nea Luukkonen,,77,Mynämäki
+CLUB00462,Kaarina Floorball ry,B-juniors 2004–2005,Miro Karhuoja,2005,62,Kaarina
+CLUB00463,Salo Athletics,A-juniors 2004–2005,Elias Österlund,2005,89,
+CLUB00464,Kaarina Floorball ry,B-juniors 2004–2005,Emilia Sorsanen,2004,86,Mynämäki
+CLUB00465,Raisio Ballclub,A-juniors 2004–2005,Joel Kesälä,2004,86,Laitila
+CLUB00466,Turku Riverside FC,B-juniors 2004–2005,Santeri Sorsakallio,,12,
+CLUB00467,Raisio Ballclub,B-juniors 2004–2005,Joonas Karhuharju,2005,17,Turku
+CLUB00468,Salo Athletics,B-juniors 2006–2007,Nelli Lahtinen,2006,44,
+CLUB00469,Saaristo IF,B-juniors 2006–2007,Inka Kotkasalo,2006,41,Somero
+CLUB00470,Turku Riverside FC,B-juniors 2004–2005,Javier García,2004,25,Turku
+CLUB00471,Salo Athletics,A-juniors 2006–2007,Eveliina Pohjolahti,2007,7,
+CLUB00472,Raisio Ballclub,A-juniors 2004–2005,Topias Niemikorpi,2005,16,Turku
+CLUB00473,Naantali Sailing Youth,B-juniors 2004–2005,Stefan Österlund,,45,Turku
+CLUB00474,Naantali Sailing Youth,A-juniors 2004–2005,Eetu Ahokangas,,68,Pöytyä
+CLUB00475,Raisio Ballclub,A-juniors 2004–2005,Jenna Saarisalo,2005,88,Naantali
+CLUB00476,Aura Hockey Juniors,B-juniors 2004–2005,Noora Kesäoja,2005,60,
+CLUB00477,Turku Riverside FC,B-juniors 2004–2005,Valtteri Niemivuori,2005,11,
+CLUB00478,Kaarina Floorball ry,B-juniors 2004–2005,Inka Laaksoluoto,,42,
+CLUB00479,Turku Riverside FC,A-juniors 2004–2005,Veeti Pihlalehto,2004,54,
+CLUB00480,Raisio Ballclub,A-juniors 2004–2005,Joel Alaaho,2005,47,Somero
+CLUB00481,Raisio Ballclub,A-juniors 2006–2007,Oskari Saloluoto,,68,Kaarina
+CLUB00482,Kaarina Floorball ry,B-juniors 2004–2005,Aleksi Vuorila,,75,Turku
+CLUB00483,Turku Riverside FC,A-juniors 2008–2009,Nataliia Melnyk,,81,Uusikaupunki
+CLUB00484,Naantali Sailing Youth,B-juniors 2006–2007,Essi Härkönen,2006,92,Kaarina
+CLUB00485,Salo Athletics,B-juniors 2008–2009,Elias Tiihonen,2008,25,
+CLUB00486,Raisio Ballclub,A-juniors 2006–2007,Miro Rantamäki,,62,
+CLUB00487,Raisio Ballclub,A-juniors 2008–2009,Ella Sarkaaho,2008,31,Raisio
+CLUB00488,Turku Riverside FC,B-juniors 2004–2005,Roosa Ruohosalo,2004,92,
+CLUB00489,Aura Hockey Juniors,B-juniors 2006–2007,Zaid Al-Jaberi,2007,45,
+CLUB00490,Salo Athletics,A-juniors 2006–2007,Eveliina Turunen,2006,56,Somero
+CLUB00491,Aura Hockey Juniors,A-juniors 2008–2009,Milla Tuomi,,91,Salo
+CLUB00492,Naantali Sailing Youth,B-juniors 2006–2007,Jesse Räisänen,2007,6,
+CLUB00493,Raisio Ballclub,B-juniors 2004–2005,Rasmus Vuorikorpi,2004,41,
+CLUB00494,Raisio Ballclub,A-juniors 2006–2007,Andrei Lebedev,2007,93,
+CLUB00495,Kaarina Floorball ry,A-juniors 2008–2009,Nils Grönroos,,51,
+CLUB00496,Raisio Ballclub,A-juniors 2004–2005,Eemeli Tammivuori,,83,
+CLUB00497,Naantali Sailing Youth,A-juniors 2004–2005,Nea Mäkipää,,69,Salo
+CLUB00498,Saaristo IF,A-juniors 2004–2005,Miro Aaltooja,2004,37,
+CLUB00499,Salo Athletics,A-juniors 2004–2005,Emilia Heiskanen,,64,
+CLUB00500,Aura Hockey Juniors,A-juniors 2004–2005,Iida Suovuori,,80,Kaarina
+CLUB00501,Salo Athletics,B-juniors 2004–2005,Nelli Saarilehto,2005,21,Turku
+CLUB00502,Salo Athletics,A-juniors 2006–2007,Roosa Sillanpää,2006,18,Turku
+CLUB00503,Turku Riverside FC,A-juniors 2008–2009,Eetu Haapamäki,2008,92,
+CLUB00504,Kaarina Floorball ry,A-juniors 2006–2007,Miro Leppäkoski,2006,17,
+CLUB00505,Saaristo IF,B-juniors 2004–2005,Rasmus Laaksokoski,2004,18,
+CLUB00506,Naantali Sailing Youth,A-juniors 2004–2005,Annika Eriksson,2004,32,
+CLUB00507,Turku Riverside FC,B-juniors 2004–2005,Jaan Sepp,,56,
+CLUB00508,Aura Hockey Juniors,B-juniors 2006–2007,Rasmus Oravaluoto,,46,Turku
+CLUB00509,Turku Riverside FC,B-juniors 2006–2007,Eetu Viitaoja,,92,
+CLUB00510,Turku Riverside FC,A-juniors 2006–2007,Ronja Ilveskorpi,2006,84,Naantali
+CLUB00511,Aura Hockey Juniors,B-juniors 2006–2007,Milla Oinonen,,60,
+CLUB00512,Turku Riverside FC,A-juniors 2004–2005,Veera Ilveskorpi,,26,Masku
+CLUB00513,Salo Athletics,B-juniors 2004–2005,Mustafa Mansour,,56,Turku
+CLUB00514,Naantali Sailing Youth,A-juniors 2004–2005,Aleksi Jansson,2005,76,
+CLUB00515,Aura Hockey Juniors,B-juniors 2008–2009,Oona Valkama,,58,
+CLUB00516,Raisio Ballclub,B-juniors 2006–2007,Juho Kurkioja,,16,Turku
+CLUB00517,Aura Hockey Juniors,B-juniors 2004–2005,Fanni Haukkajärvi,2005,66,
+CLUB00518,Kaarina Floorball ry,B-juniors 2006–2007,Matias Juvonen,2007,21,Turku
+CLUB00519,Kaarina Floorball ry,A-juniors 2006–2007,Ville Talvisuo,2006,58,Lieto
+CLUB00520,Aura Hockey Juniors,B-juniors 2004–2005,Valtteri Lehtinen,2004,67,Kaarina
+CLUB00521,Raisio Ballclub,A-juniors 2006–2007,Anh Dang,,60,Uusikaupunki
+CLUB00522,Naantali Sailing Youth,A-juniors 2004–2005,Alma Backman,2004,42,Parainen
+CLUB00523,Saaristo IF,A-juniors 2004–2005,Jesse Rinne,2004,63,
+CLUB00524,Salo Athletics,B-juniors 2008–2009,Matias Rintajärvi,,18,
+CLUB00525,Naantali Sailing Youth,A-juniors 2008–2009,Julia Kalliolehto,2008,62,Lieto
+CLUB00526,Salo Athletics,A-juniors 2004–2005,Viktor Eriksson,,58,
+CLUB00527,Aura Hockey Juniors,B-juniors 2004–2005,Inka Kiuru,,18,
+CLUB00528,Saaristo IF,B-juniors 2004–2005,Roosa Rautaniemi,2005,25,Turku
+CLUB00529,Turku Riverside FC,B-juniors 2004–2005,Anni Rantalehto,2005,92,Laitila
+CLUB00530,Raisio Ballclub,A-juniors 2006–2007,Joonas Myllymäki,,97,Uusikaupunki
+CLUB00531,Kaarina Floorball ry,A-juniors 2006–2007,Ville Laine,,10,Masku
+CLUB00532,Salo Athletics,B-juniors 2006–2007,Veeti Haapakallio,2006,9,
+CLUB00533,Aura Hockey Juniors,A-juniors 2004–2005,Iida Lehtonen,,45,Uusikaupunki
+CLUB00534,Aura Hockey Juniors,B-juniors 2006–2007,Jenna Pajuranta,,3,Raisio
+CLUB00535,Kaarina Floorball ry,B-juniors 2006–2007,Anni Lampivirta,2006,60,
+CLUB00536,Salo Athletics,B-juniors 2008–2009,Yusuf Abdullahi,,7,Turku
+CLUB00537,Raisio Ballclub,A-juniors 2008–2009,Iida Mäntyjärvi,2008,61,
+CLUB00538,Turku Riverside FC,B-juniors 2004–2005,Santeri Kotkakallio,,73,
+CLUB00539,Raisio Ballclub,B-juniors 2004–2005,Veeti Pohjovuori,2004,20,Turku
+CLUB00540,Saaristo IF,A-juniors 2008–2009,Fanni Joutsenla,2008,81,
+CLUB00541,Turku Riverside FC,B-juniors 2008–2009,Oskari Lehtokangas,2008,40,Masku
+CLUB00542,Saaristo IF,A-juniors 2008–2009,Onni Sarkamäki,2008,78,
+CLUB00543,Aura Hockey Juniors,A-juniors 2004–2005,Julia Hietakorpi,2005,57,Kaarina
+CLUB00544,Aura Hockey Juniors,B-juniors 2004–2005,Ronja Kaarnakangas,2005,41,
+CLUB00545,Aura Hockey Juniors,A-juniors 2006–2007,Venla Kaarnakoski,2006,28,Turku
+CLUB00546,Aura Hockey Juniors,A-juniors 2004–2005,Essi Hirvilehto,2005,7,Lieto
+CLUB00547,Raisio Ballclub,B-juniors 2004–2005,Rasmus Kuusisalo,2004,19,
+CLUB00548,Aura Hockey Juniors,A-juniors 2004–2005,Onni Sainio,,14,
+CLUB00549,Naantali Sailing Youth,B-juniors 2004–2005,Onni Niemivuori,2005,57,
+CLUB00550,Raisio Ballclub,A-juniors 2004–2005,Siiri Joutsenoja,,82,
+CLUB00551,Raisio Ballclub,B-juniors 2006–2007,Aino Lehtonen,2006,71,
+CLUB00552,Naantali Sailing Youth,A-juniors 2004–2005,Ronja Ruohosalo,2004,43,
+CLUB00553,Naantali Sailing Youth,B-juniors 2006–2007,Samuel Leppäkorpi,2006,76,
+CLUB00554,Saaristo IF,B-juniors 2006–2007,Eemeli Mattsson,2006,33,
+CLUB00555,Naantali Sailing Youth,A-juniors 2006–2007,Julia Salonen,,47,Turku
+CLUB00556,Raisio Ballclub,A-juniors 2004–2005,Zainab Hussein,2005,21,
+CLUB00557,Naantali Sailing Youth,B-juniors 2004–2005,Henri Hirvijärvi,,58,
+CLUB00558,Kaarina Floorball ry,B-juniors 2004–2005,Nelli Laaksokangas,,20,Turku
+CLUB00559,Salo Athletics,A-juniors 2006–2007,Nea Hirvinen,2006,89,
+CLUB00560,Salo Athletics,B-juniors 2004–2005,Ella Kurkioja,2004,49,Lieto
+CLUB00561,Kaarina Floorball ry,B-juniors 2006–2007,Topias Tiihonen,,16,
+CLUB00562,Naantali Sailing Youth,A-juniors 2004–2005,Jesse Kaukokorpi,2005,40,Turku
+CLUB00563,Naantali Sailing Youth,A-juniors 2006–2007,Otto Lehtosalo,2007,73,
+CLUB00564,Naantali Sailing Youth,B-juniors 2004–2005,Topias Kesänen,,61,
+CLUB00565,Aura Hockey Juniors,A-juniors 2004–2005,Andrei Ivanov,2004,4,
+CLUB00566,Naantali Sailing Youth,A-juniors 2006–2007,Rasmus Kanerva,2007,45,
+CLUB00567,Raisio Ballclub,B-juniors 2004–2005,Iida Leppäsuo,,62,
+CLUB00568,Aura Hockey Juniors,B-juniors 2004–2005,Aino Tammikoski,,64,Turku
+CLUB00569,Turku Riverside FC,A-juniors 2006–2007,Oona Viitakangas,2006,21,
+CLUB00570,Kaarina Floorball ry,A-juniors 2008–2009,Ville Sorsapää,2008,81,Naantali
+CLUB00571,Naantali Sailing Youth,B-juniors 2006–2007,Juho Rautaaho,,11,Koski Tl
+CLUB00572,Saaristo IF,A-juniors 2004–2005,Ella Rintamäki,2004,50,
+CLUB00573,Turku Riverside FC,A-juniors 2004–2005,Elin Eriksson,,39,Turku
+CLUB00574,Turku Riverside FC,A-juniors 2004–2005,Ville Lampioja,,53,Salo
+CLUB00575,Turku Riverside FC,B-juniors 2006–2007,Ronja Heinonen,,21,Salo
+CLUB00576,Salo Athletics,A-juniors 2004–2005,Nelli Heinäniemi,2005,23,Somero
+CLUB00577,Raisio Ballclub,A-juniors 2004–2005,Veera Vuorila,2004,13,
+CLUB00578,Salo Athletics,B-juniors 2008–2009,Venla Kalliokorpi,2008,68,
+CLUB00579,Aura Hockey Juniors,A-juniors 2006–2007,Niko Tuomilehto,2007,29,Turku
+CLUB00580,Raisio Ballclub,B-juniors 2004–2005,William Åberg,2005,93,Kemiönsaari
+CLUB00581,Saaristo IF,A-juniors 2006–2007,Emma Tuomikangas,,66,
+CLUB00582,Naantali Sailing Youth,B-juniors 2006–2007,Christer Laine,2007,91,Naantali
+CLUB00583,Salo Athletics,A-juniors 2004–2005,Álvaro Sánchez,,17,
+CLUB00584,Aura Hockey Juniors,B-juniors 2006–2007,Essi Karhunen,2006,37,Kaarina
+CLUB00585,Naantali Sailing Youth,B-juniors 2004–2005,Iida Kangasla,2004,60,
+CLUB00586,Salo Athletics,A-juniors 2004–2005,Nea Suominen,2004,55,Turku
+CLUB00587,Turku Riverside FC,B-juniors 2004–2005,Roope Vuoriluoto,2005,89,Pöytyä
+CLUB00588,Naantali Sailing Youth,A-juniors 2006–2007,Anders Nordström,2006,43,
+CLUB00589,Raisio Ballclub,A-juniors 2008–2009,Pinja Kiviaho,,51,Turku
+CLUB00590,Salo Athletics,A-juniors 2004–2005,Samuel Salonen,,62,Salo
+CLUB00591,Saaristo IF,A-juniors 2004–2005,Emilia Rantasuo,2005,75,
+CLUB00592,Naantali Sailing Youth,A-juniors 2004–2005,Pinja Aaltovuori,2005,71,
+CLUB00593,Naantali Sailing Youth,A-juniors 2006–2007,Oona Vuorisuo,,79,Pyhäranta
+CLUB00594,Raisio Ballclub,B-juniors 2004–2005,Nea Virtanen,2005,66,Turku
+CLUB00595,Turku Riverside FC,B-juniors 2008–2009,Veera Johansson,,55,Uusikaupunki
+CLUB00596,Aura Hockey Juniors,B-juniors 2004–2005,Johan Söderberg,,13,Kemiönsaari
+CLUB00597,Kaarina Floorball ry,B-juniors 2004–2005,Venla Ahoranta,2004,15,
+CLUB00598,Aura Hockey Juniors,B-juniors 2008–2009,Veera Sorsasuo,,86,
+CLUB00599,Aura Hockey Juniors,B-juniors 2004–2005,Berivan Qadir,2004,89,Turku
+CLUB00600,Naantali Sailing Youth,A-juniors 2008–2009,Álvaro Castro,2008,12,Turku
+CLUB00601,Turku Riverside FC,B-juniors 2006–2007,Ella Kesänen,2006,28,Somero
+CLUB00602,Raisio Ballclub,A-juniors 2004–2005,Emma Rauhala,,12,Turku
+CLUB00603,Saaristo IF,A-juniors 2006–2007,Pinja Yläluoto,2006,61,Turku
+CLUB00604,Raisio Ballclub,A-juniors 2004–2005,Sara Tuomisuo,,34,
+CLUB00605,Turku Riverside FC,B-juniors 2006–2007,Eetu Laitinen,2006,34,Turku
+CLUB00606,Raisio Ballclub,A-juniors 2006–2007,Iida Halonen,2006,79,
+CLUB00607,Salo Athletics,A-juniors 2006–2007,Rasmus Oravamäki,,68,Turku
+CLUB00608,Raisio Ballclub,A-juniors 2008–2009,Anni Karjalainen,,30,Turku
+CLUB00609,Turku Riverside FC,A-juniors 2006–2007,Valtteri Luminen,2006,36,
+CLUB00610,Raisio Ballclub,A-juniors 2006–2007,Milla Pohjokorpi,2006,62,Turku
+CLUB00611,Salo Athletics,B-juniors 2008–2009,Samuel Keskitalo,2008,19,
+CLUB00612,Turku Riverside FC,B-juniors 2004–2005,Anni Backman,2005,17,Kaarina
+CLUB00613,Saaristo IF,A-juniors 2004–2005,Emma Rautasalo,2005,35,Turku
+CLUB00614,Salo Athletics,B-juniors 2006–2007,Santeri Anttila,2006,76,
+CLUB00615,Aura Hockey Juniors,B-juniors 2008–2009,Milla Juvonen,2008,73,
+CLUB00616,Kaarina Floorball ry,B-juniors 2004–2005,Roope Kaarnanen,,22,Sauvo
+CLUB00617,Turku Riverside FC,B-juniors 2006–2007,Ella Kangassalo,2006,87,Pöytyä
+CLUB00618,Kaarina Floorball ry,B-juniors 2006–2007,Laura Tuominiemi,,31,
+CLUB00619,Turku Riverside FC,A-juniors 2008–2009,Pinja Joutsenlahti,2008,88,Kemiönsaari
+CLUB00620,Saaristo IF,A-juniors 2006–2007,Laura Auvinen,2006,73,Turku
+CLUB00621,Kaarina Floorball ry,B-juniors 2006–2007,Nea Kaukoharju,2006,62,Salo
+CLUB00622,Raisio Ballclub,A-juniors 2008–2009,Nelli Rintapää,,44,Laitila
+CLUB00623,Saaristo IF,A-juniors 2006–2007,Fanni Alavirta,2006,8,Laitila
+CLUB00624,Aura Hockey Juniors,A-juniors 2004–2005,Siiri Kuusiniemi,,79,Lieto
+CLUB00625,Raisio Ballclub,B-juniors 2004–2005,Juho Korhonen,,98,Turku
+CLUB00626,Salo Athletics,B-juniors 2004–2005,Roope Laaksonen,,76,Turku
+CLUB00627,Salo Athletics,A-juniors 2004–2005,Laura Pajuharju,2005,27,
+CLUB00628,Turku Riverside FC,B-juniors 2006–2007,Pinja Lumilehto,,52,
+CLUB00629,Saaristo IF,B-juniors 2006–2007,Siiri Saarilahti,,10,Loimaa
+CLUB00630,Raisio Ballclub,B-juniors 2004–2005,Tatiana Ivanova,2005,59,Lieto
+CLUB00631,Aura Hockey Juniors,B-juniors 2006–2007,Aino Viitakorpi,,93,Turku
+CLUB00632,Turku Riverside FC,B-juniors 2006–2007,Stefan Nordström,,3,Turku
+CLUB00633,Kaarina Floorball ry,B-juniors 2006–2007,Valtteri Kaarnavirta,,57,Paimio
+CLUB00634,Naantali Sailing Youth,A-juniors 2006–2007,Aditya Kumar,,66,Turku
+CLUB00635,Salo Athletics,A-juniors 2004–2005,Essi Saariranta,,86,
+CLUB00636,Turku Riverside FC,B-juniors 2004–2005,Eemeli Matilainen,2005,73,Laitila
+CLUB00637,Turku Riverside FC,A-juniors 2004–2005,Noora Kultaniemi,2005,62,
+CLUB00638,Salo Athletics,B-juniors 2004–2005,Arttu Lehtomäki,2005,5,Turku
+CLUB00639,Aura Hockey Juniors,A-juniors 2008–2009,Emma Ojala,2008,11,Turku
+CLUB00640,Salo Athletics,B-juniors 2006–2007,Santeri Kivikorpi,2007,21,Turku
+CLUB00641,Salo Athletics,B-juniors 2004–2005,Emilia Pekkarinen,2004,51,
+CLUB00642,Aura Hockey Juniors,B-juniors 2008–2009,Henri Kultanen,,76,
+CLUB00643,Raisio Ballclub,B-juniors 2006–2007,Eemeli Suominen,,78,
+CLUB00644,Naantali Sailing Youth,B-juniors 2004–2005,Joonas Koskinen,,93,Turku
+CLUB00645,Salo Athletics,A-juniors 2006–2007,Inka Kurkivirta,2007,98,
+CLUB00646,Salo Athletics,B-juniors 2006–2007,Topias Kaukooja,2006,12,Turku
+CLUB00647,Raisio Ballclub,A-juniors 2004–2005,Joonas Jokela,,60,Uusikaupunki
+CLUB00648,Raisio Ballclub,B-juniors 2006–2007,Roope Lehtinen,,18,
+CLUB00649,Kaarina Floorball ry,B-juniors 2006–2007,Olga Novikova,,9,
+CLUB00650,Kaarina Floorball ry,B-juniors 2004–2005,Laura Valkonen,,76,Salo
+CLUB00651,Salo Athletics,B-juniors 2006–2007,Inka Rajala,2006,92,
+CLUB00652,Saaristo IF,B-juniors 2006–2007,Siiri Haukkakoski,2006,18,
+CLUB00653,Saaristo IF,A-juniors 2006–2007,Essi Popova,2006,66,Turku
+CLUB00654,Raisio Ballclub,B-juniors 2006–2007,Jesse Toivanen,,31,
+CLUB00655,Kaarina Floorball ry,A-juniors 2006–2007,Samuel Rautalahti,2006,76,
+CLUB00656,Kaarina Floorball ry,A-juniors 2006–2007,Sara Nykänen-Hallasuo,,29,
+CLUB00657,Kaarina Floorball ry,A-juniors 2004–2005,Nelli Rautavirta,2004,55,Salo
+CLUB00658,Kaarina Floorball ry,B-juniors 2004–2005,Wilma Mäntykallio,,22,Taivassalo
+CLUB00659,Naantali Sailing Youth,A-juniors 2008–2009,Veera Lehtonen,2008,96,
+CLUB00660,Turku Riverside FC,A-juniors 2008–2009,Lauri Peltovuori,,72,
+CLUB00661,Raisio Ballclub,A-juniors 2006–2007,Lauri Sarkavirta,,52,
+CLUB00662,Aura Hockey Juniors,A-juniors 2006–2007,Emilia Laurinen,2006,51,
+CLUB00663,Naantali Sailing Youth,A-juniors 2004–2005,Lauri Sirviö,2005,31,
+CLUB00664,Aura Hockey Juniors,A-juniors 2006–2007,Roosa Keskinen-Ilves,2006,89,
+CLUB00665,Raisio Ballclub,A-juniors 2004–2005,Roope Sarkanen,2005,43,
+CLUB00666,Raisio Ballclub,A-juniors 2004–2005,Hugo Wikström,2005,62,
+CLUB00667,Saaristo IF,B-juniors 2004–2005,Maksim Kuznetsov,,6,
+CLUB00668,Aura Hockey Juniors,B-juniors 2004–2005,Veera Niemikangas,,46,
+CLUB00669,Turku Riverside FC,B-juniors 2006–2007,Siim Tamm,,70,Kaarina
+CLUB00670,Turku Riverside FC,A-juniors 2004–2005,Oona Kaskila,2004,17,Naantali
+CLUB00671,Raisio Ballclub,A-juniors 2008–2009,Henri Haapamaa,,68,Turku
+CLUB00672,Naantali Sailing Youth,A-juniors 2006–2007,Elias Karhuoja,,31,Loimaa
+CLUB00673,Aura Hockey Juniors,B-juniors 2004–2005,Pinja Tuominen,,88,Turku
+CLUB00674,Salo Athletics,B-juniors 2004–2005,Veeti Hirvinen,,13,
+CLUB00675,Saaristo IF,B-juniors 2006–2007,Oskari Ylämäki,2006,22,Somero
+CLUB00676,Raisio Ballclub,A-juniors 2004–2005,Ellen Kangasoja,2004,78,Turku
+CLUB00677,Raisio Ballclub,A-juniors 2004–2005,Laura Leppävirta,,91,Mynämäki
+CLUB00678,Raisio Ballclub,B-juniors 2004–2005,Oskari Ruoholehto,,50,Kustavi
+CLUB00679,Aura Hockey Juniors,B-juniors 2006–2007,Agnes Åberg,,56,
+CLUB00680,Saaristo IF,B-juniors 2008–2009,Jesse Tuomilahti,2008,82,
+CLUB00681,Naantali Sailing Youth,A-juniors 2006–2007,Aleksi Kaukovirta,2006,30,Turku
+CLUB00682,Saaristo IF,A-juniors 2004–2005,Noora Hirviluoto,2005,74,
+CLUB00683,Salo Athletics,B-juniors 2004–2005,Eveliina Honkanen,,8,Salo
+CLUB00684,Naantali Sailing Youth,B-juniors 2006–2007,Joonas Laaksoranta,,13,Kaarina
+CLUB00685,Salo Athletics,B-juniors 2006–2007,Siiri Tervoharju,,71,
+CLUB00686,Turku Riverside FC,B-juniors 2004–2005,Rasmus Hirviharju,2004,43,
+CLUB00687,Turku Riverside FC,B-juniors 2004–2005,Jesse Savolainen,2004,32,
+CLUB00688,Kaarina Floorball ry,B-juniors 2004–2005,Roosa Kangasluoto,2004,31,
+CLUB00689,Turku Riverside FC,A-juniors 2004–2005,Linus Wikström,,83,
+CLUB00690,Raisio Ballclub,B-juniors 2006–2007,Nea Rintavuori,,84,Mynämäki
+CLUB00691,Kaarina Floorball ry,A-juniors 2004–2005,Jere Lindholm,2004,11,Uusikaupunki
+CLUB00692,Raisio Ballclub,A-juniors 2006–2007,Veera Talviranta,2006,96,
+CLUB00693,Naantali Sailing Youth,B-juniors 2006–2007,Veeti Laakso,2006,75,
+CLUB00694,Naantali Sailing Youth,A-juniors 2006–2007,Jesse Kivistö,2006,82,Turku
+CLUB00695,Kaarina Floorball ry,B-juniors 2004–2005,Jesse Talviranta,,22,Kemiönsaari
+CLUB00696,Naantali Sailing Youth,B-juniors 2006–2007,Aino Alasalo,,84,
+CLUB00697,Saaristo IF,B-juniors 2004–2005,Onni Haapanen,,43,
+CLUB00698,Salo Athletics,B-juniors 2004–2005,Anni Rantaoja,2004,31,Naantali
+CLUB00699,Salo Athletics,A-juniors 2006–2007,Joel Luukkonen,,32,Turku
+CLUB00700,Kaarina Floorball ry,B-juniors 2006–2007,Topias Kalliooja,,6,Turku
+CLUB00701,Turku Riverside FC,A-juniors 2006–2007,Wilma Aho,2006,70,Turku
+CLUB00702,Aura Hockey Juniors,A-juniors 2008–2009,Milla Parviainen,,71,Turku
+CLUB00703,Naantali Sailing Youth,A-juniors 2006–2007,Veeti Suooja,,51,
+CLUB00704,Kaarina Floorball ry,A-juniors 2006–2007,Roope Toivonen,,97,Salo
+CLUB00705,Salo Athletics,A-juniors 2004–2005,Jesse Ruohovuori,,86,Turku
+CLUB00706,Saaristo IF,B-juniors 2004–2005,Julia Ahokas,2004,59,
+CLUB00707,Saaristo IF,B-juniors 2006–2007,Oskari Rantakangas,2006,50,
+CLUB00708,Kaarina Floorball ry,B-juniors 2006–2007,Eemeli Oravaaho,,29,
+CLUB00709,Saaristo IF,A-juniors 2004–2005,Jesse Pajukorpi,2005,13,
+CLUB00710,Salo Athletics,B-juniors 2006–2007,Rasmus Pehkonen,,90,Kaarina
+CLUB00711,Naantali Sailing Youth,B-juniors 2004–2005,Ronja Suolahti,2004,75,Kaarina
+CLUB00712,Turku Riverside FC,A-juniors 2004–2005,Laura Koivumaa,2004,41,
+CLUB00713,Salo Athletics,A-juniors 2008–2009,Milla Leppävirta,2008,64,
+CLUB00714,Salo Athletics,B-juniors 2006–2007,Veera Kurkioja,,66,
+CLUB00715,Salo Athletics,B-juniors 2004–2005,Aleksi Salomäki,,19,Kaarina
+CLUB00716,Naantali Sailing Youth,B-juniors 2006–2007,Milla Salomäki,,4,
+CLUB00717,Naantali Sailing Youth,A-juniors 2008–2009,Fatima Saleh,2008,38,
+CLUB00718,Raisio Ballclub,B-juniors 2004–2005,Mohammed Haddad,2004,81,Turku
+CLUB00719,Saaristo IF,B-juniors 2004–2005,Eveliina Talvilehto,2005,68,Turku
+CLUB00720,Naantali Sailing Youth,A-juniors 2004–2005,Anna Blomqvist,2004,59,Kaarina
+CLUB00721,Aura Hockey Juniors,A-juniors 2006–2007,Milla Nikula,2007,16,Turku
+CLUB00722,Salo Athletics,B-juniors 2006–2007,Jesse Saarikallio,2006,33,
+CLUB00723,Saaristo IF,B-juniors 2004–2005,Emilia Joutsenaho,2005,39,
+CLUB00724,Kaarina Floorball ry,A-juniors 2004–2005,Veera Rintanen,,19,Loimaa
+CLUB00725,Salo Athletics,A-juniors 2004–2005,Arttu Paavola,2005,8,
+CLUB00726,Turku Riverside FC,B-juniors 2006–2007,Siiri Sarkaoja,,61,Naantali
+CLUB00727,Turku Riverside FC,B-juniors 2004–2005,Lauri Pennanen,2004,82,Naantali
+CLUB00728,Salo Athletics,A-juniors 2006–2007,Niko Leppäranta,,6,Salo
+CLUB00729,Aura Hockey Juniors,B-juniors 2006–2007,Sara Hosseini,2006,50,
+CLUB00730,Turku Riverside FC,A-juniors 2004–2005,Otto Puhakka,,38,Turku
+CLUB00731,Salo Athletics,B-juniors 2004–2005,Margus Kask,2004,21,
+CLUB00732,Turku Riverside FC,B-juniors 2004–2005,Nelli Kurkiharju,2005,63,
+CLUB00733,Naantali Sailing Youth,B-juniors 2004–2005,Rasmus Rautavirta,,14,Loimaa
+CLUB00734,Salo Athletics,A-juniors 2004–2005,Joel Vuorivirta,2005,64,Salo
+CLUB00735,Saaristo IF,B-juniors 2004–2005,Anna Westerlund,2005,45,Turku
+CLUB00736,Naantali Sailing Youth,B-juniors 2008–2009,Laura Vuorisuo,,74,
+CLUB00737,Salo Athletics,B-juniors 2004–2005,Arttu Vuorijärvi,2004,14,
+CLUB00738,Kaarina Floorball ry,B-juniors 2006–2007,Julia Saarisalo,2006,46,Parainen
+CLUB00739,Raisio Ballclub,B-juniors 2006–2007,Inka Pihlajärvi,2006,38,Lieto
+CLUB00740,Salo Athletics,B-juniors 2006–2007,Santeri Kallio,2006,68,Pöytyä
+CLUB00741,Kaarina Floorball ry,B-juniors 2004–2005,Arttu Haukkakoski,2004,48,Turku
+CLUB00742,Turku Riverside FC,B-juniors 2004–2005,Aino Kivioja,2004,40,Turku
+CLUB00743,Saaristo IF,A-juniors 2004–2005,Huong Nguyen,,25,
+CLUB00744,Turku Riverside FC,B-juniors 2006–2007,Annika Hellsten,2006,30,Parainen
+CLUB00745,Kaarina Floorball ry,A-juniors 2008–2009,Göran Lindholm,2008,4,Turku
+CLUB00746,Salo Athletics,B-juniors 2004–2005,Julia Kaskilahti,2005,89,Turku
+CLUB00747,Naantali Sailing Youth,B-juniors 2004–2005,Eemeli Suomalainen,,12,
+CLUB00748,Salo Athletics,A-juniors 2004–2005,Roope Ilveslahti,2004,24,
+CLUB00749,Turku Riverside FC,A-juniors 2008–2009,Kristjan Rebane,,79,
+CLUB00750,Salo Athletics,A-juniors 2006–2007,Topias Ruohopää,2007,90,
+CLUB00751,Naantali Sailing Youth,B-juniors 2006–2007,Anni Lampiluoto,2006,83,
+CLUB00752,Raisio Ballclub,B-juniors 2008–2009,Aino Rintavirta,2008,25,
+CLUB00753,Kaarina Floorball ry,A-juniors 2006–2007,Sofia Suhonen,,44,Turku
+CLUB00754,Turku Riverside FC,A-juniors 2004–2005,Noora Vuorikorpi,,12,
+CLUB00755,Raisio Ballclub,B-juniors 2008–2009,Samuel Kalliooja,,70,
+CLUB00756,Kaarina Floorball ry,B-juniors 2004–2005,Henri Yläkangas,,19,Turku
+CLUB00757,Salo Athletics,B-juniors 2006–2007,Eveliina Luukkonen,2007,41,Turku
+CLUB00758,Aura Hockey Juniors,B-juniors 2004–2005,Fredrik Forsström,,42,
+CLUB00759,Naantali Sailing Youth,B-juniors 2006–2007,Sara Sarkakoski,,10,Salo
+CLUB00760,Raisio Ballclub,A-juniors 2004–2005,Juho Laurila,,34,Rusko
+CLUB00761,Turku Riverside FC,A-juniors 2006–2007,Ronja Salminen,2006,80,
+CLUB00762,Raisio Ballclub,A-juniors 2004–2005,Joonas Talvilehto,,41,Naantali
+CLUB00763,Salo Athletics,B-juniors 2006–2007,Eetu Pohjoluoto,2006,23,
+CLUB00764,Salo Athletics,B-juniors 2004–2005,Venla Mäkinen,,98,
+CLUB00765,Salo Athletics,A-juniors 2004–2005,Milla Salojärvi,,87,Somero
+CLUB00766,Kaarina Floorball ry,A-juniors 2004–2005,Valtteri Hallakangas,2005,6,
+CLUB00767,Salo Athletics,B-juniors 2004–2005,Roope Ilvesmäki,2004,48,
+CLUB00768,Aura Hockey Juniors,B-juniors 2008–2009,Andrii Boiko,,66,
+CLUB00769,Saaristo IF,A-juniors 2006–2007,Venla Lumiharju,2006,6,
+CLUB00770,Aura Hockey Juniors,A-juniors 2006–2007,Juho Hyttinen,,67,
+CLUB00771,Aura Hockey Juniors,B-juniors 2006–2007,Siiri Kesämaa,,47,Turku
+CLUB00772,Salo Athletics,A-juniors 2004–2005,Jesse Joutsensalo,,79,
+CLUB00773,Aura Hockey Juniors,A-juniors 2006–2007,Jesse Oravakangas,2006,79,
+CLUB00774,Kaarina Floorball ry,A-juniors 2004–2005,Henri Haapaharju,2004,95,Raisio
+CLUB00775,Raisio Ballclub,B-juniors 2006–2007,Jere Lipponen,2006,21,
+CLUB00776,Raisio Ballclub,A-juniors 2004–2005,Eetu Suoranta,,72,
+CLUB00777,Saaristo IF,B-juniors 2004–2005,Roosa Pajulahti,,60,
+CLUB00778,Raisio Ballclub,B-juniors 2004–2005,Ella Kokko,2005,32,Turku
+CLUB00779,Saaristo IF,B-juniors 2006–2007,Milla Mäkiluoto,2006,38,
+CLUB00780,Kaarina Floorball ry,B-juniors 2006–2007,Samuel Hartikainen,,33,
+CLUB00781,Kaarina Floorball ry,B-juniors 2004–2005,Oskari Vuoriluoto,2005,46,Turku
+CLUB00782,Naantali Sailing Youth,B-juniors 2004–2005,Oona Sarkakorpi,,52,
+CLUB00783,Aura Hockey Juniors,B-juniors 2006–2007,Nelli Karvonen,,53,Turku
+CLUB00784,Kaarina Floorball ry,A-juniors 2006–2007,Wilma Niemelä,2006,80,
+CLUB00785,Aura Hockey Juniors,A-juniors 2004–2005,Joonas Ilvesranta,2004,8,
+CLUB00786,Turku Riverside FC,A-juniors 2008–2009,Milla Matikainen,,7,
+CLUB00787,Raisio Ballclub,A-juniors 2008–2009,Ellen Eriksson,2008,20,
+CLUB00788,Naantali Sailing Youth,B-juniors 2006–2007,Fanni Lumipää,,24,Turku
+CLUB00789,Turku Riverside FC,A-juniors 2006–2007,Elias Oravamäki,2006,96,
+CLUB00790,Saaristo IF,A-juniors 2004–2005,Roosa Heinälehto,,52,
+CLUB00791,Aura Hockey Juniors,B-juniors 2008–2009,Lauri Aaltonen,2008,87,
+CLUB00792,Turku Riverside FC,A-juniors 2006–2007,Siiri Ojavirta-Aaltonen,,72,
+CLUB00793,Raisio Ballclub,A-juniors 2004–2005,Isak Johansson,,13,
+CLUB00794,Salo Athletics,A-juniors 2004–2005,Sara Kesäharju,2005,98,
+CLUB00795,Salo Athletics,B-juniors 2008–2009,Arttu Lehtinen,2008,97,
+CLUB00796,Naantali Sailing Youth,A-juniors 2006–2007,Ronja Karvinen,2006,30,Turku
+CLUB00797,Naantali Sailing Youth,B-juniors 2004–2005,Marina Morozova,,10,
+CLUB00798,Kaarina Floorball ry,A-juniors 2006–2007,Ella Hirvikorpi,2006,77,Nousiainen
+CLUB00799,Turku Riverside FC,A-juniors 2004–2005,Fanni Kurkilahti,2005,59,Vehmaa
+CLUB00800,Raisio Ballclub,B-juniors 2006–2007,Joonas Nevala,2006,75,Rusko
+CLUB00801,Kaarina Floorball ry,A-juniors 2006–2007,Milla Lampisuo,2007,35,Turku
+CLUB00802,Raisio Ballclub,A-juniors 2006–2007,Aino Hietaniemi,,17,
+CLUB00803,Naantali Sailing Youth,B-juniors 2004–2005,Artjom Morozov,,84,
+CLUB00804,Kaarina Floorball ry,A-juniors 2006–2007,Tatiana Petrova,,53,Turku
+CLUB00805,Naantali Sailing Youth,B-juniors 2006–2007,Emilia Hallavirta,,66,Turku
+CLUB00806,Turku Riverside FC,A-juniors 2004–2005,Ida Ahovuori,2004,26,
+CLUB00807,Kaarina Floorball ry,B-juniors 2006–2007,Ella Laaksopää,,68,
+CLUB00808,Saaristo IF,A-juniors 2004–2005,Sara Saari,,29,Turku
+CLUB00809,Aura Hockey Juniors,A-juniors 2006–2007,Joel Joutsenkallio,2007,79,Turku

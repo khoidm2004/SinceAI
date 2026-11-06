@@ -1,0 +1,949 @@
+adv_row_id,platform,handle,display_name,profile_city,posted_ts,text,place_tag
+POST00001,MicroPost,koivu18,Anna,,2025-05-24 11:54:00,Spent 5 hours in the ER tonight. Fainted.,Aurajoki Regional Hospital
+POST00002,MicroPost,teemu_j77,Teemu Joutsenaho,,2025-03-18 19:45:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00003,Forum,user47167,Kati Kangasla,Turku,2025-10-09 23:16:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,Aurajoki Regional Hospital
+POST00004,PhotoShare,sari_k72,Sari,,2025-04-29 01:33:00,Aurajoen päivystyksessä taas. Oikean alavatsan kipu ja kuume.,
+POST00005,Forum,kesal40,Emma Kesälahti,Turku,2025-11-07 16:59:00,"Aurajoen päivystyksessä taas. Kaatui pyörällä, olkapää kipeä.",
+POST00006,MicroPost,roosa_k97,,Turku,2025-02-14 02:43:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00007,MicroPost,haukk76,Anne,,2025-02-04 05:10:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",
+POST00008,Forum,ylaka70,Emma Yläkangas,Turku,2025-11-15 12:23:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kuume 39,5",Aurajoki Regional Hospital
+POST00009,PhotoShare,salmi28,,,2025-12-18 20:44:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",
+POST00010,PhotoShare,niko_m01,,,2025-06-30 14:19:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,
+POST00011,Forum,tuomi92,,,2025-10-08 00:26:00,Spent 13 hours in the ER tonight. Abdominal pain.,
+POST00012,PhotoShare,joel_s07,Joel Sirviö,Somero,2025-07-27 15:45:00,Spent 4 hours in the ER tonight. Severe flank pain.,Aurajoki Regional Hospital
+POST00013,Forum,aalto17,,Salo,2025-10-20 23:49:00,"Ei ihan näin piti viikonlopun mennä... kaatui ja löi päänsä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00014,PhotoShare,mika_s69,Mika Salminen,,2025-11-25 05:54:00,Spent 8 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00015,MicroPost,henna_k82,Henna Kangaslehto-Lindroos,Kemiönsaari,2025-03-20 04:27:00,Aurajoen päivystyksessä taas. Kova kylkikipu vasemmalla.,Aurajoki Regional Hospital
+POST00016,PhotoShare,eliassaarila,Elias,,2025-01-02 20:34:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,
+POST00017,MicroPost,venlamakikallio,Venla,,2025-09-14 21:16:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,Aurajoki Regional Hospital
+POST00018,PhotoShare,user30827,Teemu,Kaarina,2025-05-02 22:05:00,"Aurajoen päivystyksessä taas. Kaatui pyörällä, olkapää kipeä.",Aurajoki Regional Hospital
+POST00019,PhotoShare,hanna_k77,Hanna Kultakorpi,Turku,2025-03-14 01:47:00,"Spent 4 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00020,MicroPost,anuoravalahti,,,2025-07-26 06:17:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 haava päässä kaatumisen jälkeen,Aurajoki Regional Hospital
+POST00021,Forum,samuel_v07,,Turku,2025-01-26 04:07:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00022,MicroPost,juhosaariluoto,,,2025-12-30 16:47:00,"Ei ihan näin piti viikonlopun mennä... kaatui pyörällä, olkapää kipeä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00023,MicroPost,user75735,,,2025-12-09 19:22:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00024,MicroPost,kurki90,Paula Kurkiniemi,,2025-02-15 00:45:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,Aurajoki Regional Hospital
+POST00025,Forum,user97104,Juho,,2025-12-24 08:07:00,"Spent 3 hours in the ER tonight. High fever, body aches.",
+POST00026,MicroPost,jarvi85,Tarja Järvi,Uusikaupunki,2025-09-16 20:01:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 oksentelu ja ripuli,
+POST00027,Forum,iida_l01,Iida Laaksosuo,Lieto,2025-12-29 22:32:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 rintakipu,
+POST00028,PhotoShare,laaks68,,Turku,2025-12-12 11:39:00,Aurajoen päivystyksessä taas. Kova päänsärky.,Aurajoki Regional Hospital
+POST00029,PhotoShare,susanna_i81,,,2025-12-29 20:20:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 oksentelu ja ripuli,
+POST00030,Forum,petterihaaparanta,Petteri,,2025-09-16 12:32:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 pyörtyi kaupassa,Aurajoki Regional Hospital
+POST00031,PhotoShare,petteri_p76,Petteri Peltokangas,Turku,2025-01-03 20:54:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen,Aurajoki Regional Hospital
+POST00032,PhotoShare,tommi_k81,,Naantali,2025-10-02 21:17:00,Aurajoen päivystyksessä taas. Pyörtyi kaupassa.,Aurajoki Regional Hospital
+POST00033,PhotoShare,piia_h87,,Turku,2025-01-26 15:35:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,Aurajoki Regional Hospital
+POST00034,MicroPost,eveliinaanttila,Eveliina,Turku,2025-01-25 07:22:00,"Spent 4 hours in the ER tonight. Slipped on ice, wrist pain.",
+POST00035,Forum,user92075,Timo Saarinen,,2025-01-03 19:54:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00036,MicroPost,karhu40,Sami Karhusalo,Lieto,2025-12-08 13:09:00,Spent 9 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00037,PhotoShare,roope_v02,Roope,,2025-10-02 01:54:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00038,Forum,user93208,,,2025-12-25 07:29:00,"Ei ihan näin piti viikonlopun mennä... kaatui ja löi päänsä, nyt päivystyksessä.",
+POST00039,MicroPost,mariakesaoja,Maria Kesäoja,Vehmaa,2025-02-20 21:30:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,Aurajoki Regional Hospital
+POST00040,MicroPost,karpp7,Venla,Mynämäki,2025-02-11 13:29:00,Aurajoen päivystyksessä taas. Haava päässä kaatumisen jälkeen.,Aurajoki Regional Hospital
+POST00041,MicroPost,suvitalvikorpi,Suvi,Raisio,2025-03-10 00:05:00,"Jo 6 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00042,PhotoShare,huhta89,,Turku,2025-09-13 00:41:00,Spent 2 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00043,MicroPost,emilia_m97,Emilia Mäkelä,,2025-10-06 21:01:00,Spent 2 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00044,PhotoShare,user46255,Sami,,2025-09-06 01:07:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00045,PhotoShare,user91534,,,2025-08-09 23:33:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,
+POST00046,MicroPost,arilaaksovirta,Ari Laaksovirta,Turku,2025-07-01 22:15:00,Spent 4 hours in the ER tonight. Severe flank pain.,
+POST00047,Forum,fredrik_n98,Fredrik Nyström,Turku,2025-09-09 08:54:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00048,PhotoShare,veetikokkonen,Veeti Kokkonen,,2025-07-14 13:06:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kova kylkikipu vasemmalla,Aurajoki Regional Hospital
+POST00049,MicroPost,mikko_p69,Mikko Pohjola,Turku,2025-09-07 17:58:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,
+POST00050,MicroPost,aishamahmoud,Aisha Mahmoud,Turku,2025-12-22 06:01:00,Spent 2 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00051,PhotoShare,user33197,Marjo Hietajärvi,,2025-04-30 00:56:00,Aurajoen päivystyksessä taas. Kaatui ja löi päänsä.,Aurajoki Regional Hospital
+POST00052,PhotoShare,user81629,Jarmo,,2025-01-19 03:38:00,"Spent 3 hours in the ER tonight. Slipped on ice, wrist pain.",Aurajoki Regional Hospital
+POST00053,MicroPost,anniilvesluoto,Anni,Paimio,2025-10-03 23:39:00,Spent 3 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00054,Forum,mikko_s85,Mikko Salo,Kemiönsaari,2025-05-07 18:03:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",
+POST00055,Forum,user45810,Valtteri Toivonen,Turku,2025-12-04 16:04:00,Spent 7 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00056,MicroPost,user39533,Bohdan Boiko,,2025-10-12 10:49:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",
+POST00057,PhotoShare,tuijakoivuaho,,,2025-01-22 19:52:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, nilkka virheasennossa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00058,PhotoShare,seija_h70,,Salo,2025-09-04 17:08:00,Aurajoen päivystyksessä taas. Vatsakipu.,
+POST00059,PhotoShare,lauraaaltosuo,Laura Aaltosuo,Turku,2025-12-16 05:07:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",
+POST00060,MicroPost,user14682,,,2025-03-21 02:29:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00061,MicroPost,manty16,Fanni Mäntyjärvi,,2025-03-29 20:35:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 pyörtyi kaupassa,Aurajoki Regional Hospital
+POST00062,Forum,janne_m84,Janne Mäntysuo,,2025-03-05 20:49:00,Spent 5 hours in the ER tonight. Cut finger with knife.,Aurajoki Regional Hospital
+POST00063,MicroPost,salov31,Iida Salovirta,Naantali,2025-10-07 00:58:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,
+POST00064,PhotoShare,jannesalomaki,,Loimaa,2025-02-27 21:37:00,Spent 3 hours in the ER tonight. Back pain after lifting.,Aurajoki Regional Hospital
+POST00065,MicroPost,kaijatervoniemi,,,2025-08-04 05:55:00,Spent 7 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00066,PhotoShare,user34910,Sergei Kuznetsov,Turku,2025-09-10 21:11:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,Aurajoki Regional Hospital
+POST00067,PhotoShare,oksanakravchenko,,,2025-05-18 05:04:00,Jo 15 tuntia päivystyksessä odottamassa 🙄 oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen,
+POST00068,Forum,user92827,,Turku,2025-01-27 04:23:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, ranne kipeä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00069,Forum,laurasalminen,Laura Salminen,Kaarina,2025-06-30 16:50:00,Spent 2 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00070,MicroPost,juho_l03,Juho Lehtola,,2025-10-22 11:00:00,"Ei ihan näin piti viikonlopun mennä... huulten turpoaminen ja hengitysvaikeus syömisen jälkeen, nyt päivystyksessä.",
+POST00071,Forum,minnakangasmaa,Minna,Salo,2025-03-31 12:17:00,Spent 7 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00072,MicroPost,isaksjoblom,Isak,,2025-02-06 23:57:00,"Jo 5 tuntia päivystyksessä odottamassa 🙄 kuume, yskä ja hengenahdistus",Aurajoki Regional Hospital
+POST00073,MicroPost,emmakuusiniemi,Emma Kuusiniemi,Uusikaupunki,2025-03-03 21:57:00,"Spent 7 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00074,PhotoShare,teemuhallalahti,Teemu Hallalahti,,2025-03-07 02:40:00,Spent 2 hours in the ER tonight. Twisted ankle.,Aurajoki Regional Hospital
+POST00075,MicroPost,user70441,Maria,Turku,2025-01-14 20:14:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, ranne kipeä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00076,Forum,artturiikonen,Arttu Riikonen,Turku,2025-02-14 23:15:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,
+POST00077,MicroPost,piiaalaharju,Piia,Lieto,2025-08-28 14:58:00,Spent 6 hours in the ER tonight. Severe flank pain.,
+POST00078,PhotoShare,orava53,,Turku,2025-04-15 23:25:00,"Aurajoen päivystyksessä taas. Hengenahdistus, avaava lääke ei auta.",Aurajoki Regional Hospital
+POST00079,Forum,rajal84,,Turku,2025-11-17 21:29:00,"Aurajoen päivystyksessä taas. Kaatui pyörällä, olkapää kipeä.",Aurajoki Regional Hospital
+POST00080,MicroPost,riku_h82,Riku,,2025-05-30 15:10:00,"Ei ihan näin piti viikonlopun mennä... kuume, yskä ja hengenahdistus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00081,PhotoShare,inkakarjalainen,,Turku,2025-12-23 23:08:00,"Ei ihan näin piti viikonlopun mennä... kaatui ja löi päänsä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00082,PhotoShare,makir86,Merja Mäkiranta-Kangaspää,Masku,2025-11-09 16:33:00,"Ei ihan näin piti viikonlopun mennä... huonovointisuus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00083,PhotoShare,kauko20,Emilia Kaukovuori,,2025-10-06 22:46:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,
+POST00084,PhotoShare,user64626,Katja,Turku,2025-01-20 15:49:00,Spent 5 hours in the ER tonight. Vomiting and diarrhoea.,Aurajoki Regional Hospital
+POST00085,PhotoShare,iida_s91,,,2025-10-28 07:27:00,Aurajoen päivystyksessä taas. Korvakipu ja kuume.,Aurajoki Regional Hospital
+POST00086,MicroPost,vesa_s70,Vesa,Raisio,2025-03-25 03:46:00,"Spent 4 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00087,PhotoShare,hannuniemisalo,Hannu Niemisalo,,2025-08-23 22:02:00,Spent 2 hours in the ER tonight. Wheezing.,Aurajoki Regional Hospital
+POST00088,PhotoShare,viita30,,Turku,2025-04-16 19:27:00,Aurajoen päivystyksessä taas. Väsymys ja huimaus.,Aurajoki Regional Hospital
+POST00089,PhotoShare,kurki69,Mikko Kurkiharju,Loimaa,2025-04-27 00:40:00,Aurajoen päivystyksessä taas. Äkillinen oikean puolen voimattomuus.,Aurajoki Regional Hospital
+POST00090,Forum,suvikangasranta,Suvi Kangasranta,Salo,2025-07-08 05:07:00,Spent 2 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00091,Forum,arijousimaki,,Uusikaupunki,2025-03-29 22:50:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00092,PhotoShare,sagamaatta,Saga Määttä,Turku,2025-06-17 09:43:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00093,MicroPost,alvar_k86,Alvar,,2025-09-12 00:32:00,"Spent 4 hours in the ER tonight. Fever, positive home test.",Aurajoki Regional Hospital
+POST00094,PhotoShare,nea_o05,,,2025-11-23 16:56:00,"Aurajoen päivystyksessä taas. Hengenahdistus, avaava lääke ei auta.",Aurajoki Regional Hospital
+POST00095,Forum,elinakaskiharju,Elina Kaskiharju,Naantali,2025-01-27 07:54:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00096,PhotoShare,jarkko_l83,Jarkko Lampiaho,,2025-09-17 08:24:00,"Jo 8 tuntia päivystyksessä odottamassa 🙄 kuume ja yskä, kotitesti positiivinen",Aurajoki Regional Hospital
+POST00097,Forum,weste8,,Turku,2025-11-28 18:27:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00098,PhotoShare,engbl52,Karin,Kemiönsaari,2025-01-23 03:51:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 oksentelu ja ripuli,Aurajoki Regional Hospital
+POST00099,Forum,user99011,Vesa,,2025-10-21 01:56:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, ranne kipeä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00100,PhotoShare,jari_k72,,Vehmaa,2025-06-25 06:12:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",
+POST00101,MicroPost,user92556,Sari Kaukooja,Lieto,2025-03-03 17:06:00,"Spent 5 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00102,MicroPost,jenna_m92,Jenna Mäntyharju,Loimaa,2025-10-26 22:21:00,Aurajoen päivystyksessä taas. Rintakipu.,
+POST00103,PhotoShare,user96060,Ville,Turku,2025-02-19 20:04:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00104,MicroPost,lehto45,Satu Lehtonen,Raisio,2025-09-07 20:09:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 rintakipu,
+POST00105,PhotoShare,user20187,Lauri,Salo,2025-12-19 22:42:00,Aurajoen päivystyksessä taas. Rintakipu.,
+POST00106,PhotoShare,user44159,Tero Kurkisuo,Rusko,2025-11-25 11:03:00,Spent 6 hours in the ER tonight. Abdominal pain.,
+POST00107,Forum,kesam37,Maarit,Turku,2025-05-07 23:32:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,Aurajoki Regional Hospital
+POST00108,MicroPost,mohammedal-hassan,Mohammed,Mynämäki,2025-12-07 10:25:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00109,MicroPost,user63194,Kati Tuomikallio,Turku,2025-11-16 20:42:00,Spent 4 hours in the ER tonight. Fever and cough.,Aurajoki Regional Hospital
+POST00110,MicroPost,fedor48,Ivan Fedorov,Turku,2025-05-08 15:39:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,
+POST00111,PhotoShare,iida_h09,Iida Hietakallio,,2025-08-28 12:05:00,Aurajoen päivystyksessä taas. Kaatui ja löi päänsä.,Aurajoki Regional Hospital
+POST00112,Forum,user32168,Marika Rintapää,,2025-12-25 02:39:00,Spent 17 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00113,PhotoShare,aleksikulmala,,,2025-06-25 02:56:00,"Jo 7 tuntia päivystyksessä odottamassa 🙄 korkeat verensokerit, oksentelu",Aurajoki Regional Hospital
+POST00114,Forum,user94968,Kalle,Turku,2025-05-06 21:40:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,Aurajoki Regional Hospital
+POST00115,PhotoShare,veerapohjomaki,Veera Pohjomäki,,2025-12-04 17:53:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00116,MicroPost,mari_j75,,Kustavi,2025-05-27 00:07:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00117,Forum,kuusi67,Nils Kuusimäki,,2025-10-22 04:50:00,Spent 9 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00118,PhotoShare,roopeberg,Roope Berg,,2025-04-11 17:26:00,"Ei ihan näin piti viikonlopun mennä... huonovointisuus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00119,MicroPost,jenna_k02,,Rusko,2025-02-10 21:40:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,Aurajoki Regional Hospital
+POST00120,MicroPost,user57169,Niko Eronen,Pöytyä,2025-09-15 03:37:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 oksentelu ja ripuli,Aurajoki Regional Hospital
+POST00121,Forum,arto_k63,Arto Kotkaoja,Turku,2025-01-22 00:54:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, ranne kipeä, nyt päivystyksessä.",
+POST00122,PhotoShare,ojane61,Samuel Ojanen,Salo,2025-07-27 16:14:00,Spent 9 hours in the ER tonight. Ankle deformity after fall.,
+POST00123,MicroPost,aino_v97,,Kaarina,2025-10-17 07:11:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,Aurajoki Regional Hospital
+POST00124,Forum,user72310,Aditya Patel,Turku,2025-02-18 10:00:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",
+POST00125,Forum,laura_l92,Laura Lampiluoto,,2025-08-11 18:22:00,Aurajoen päivystyksessä taas. Huonovointisuus.,
+POST00126,Forum,anna_a84,Anna,,2025-11-11 22:19:00,Spent 6 hours in the ER tonight. Chest pain.,
+POST00127,Forum,user97283,Noora,,2025-02-21 15:09:00,Aurajoen päivystyksessä taas. Äkillinen hengenahdistus ja rintakipu.,Aurajoki Regional Hospital
+POST00128,Forum,paulakauppila,,,2025-11-17 20:53:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",
+POST00129,PhotoShare,valtteri_h06,,,2025-08-18 04:56:00,Spent 6 hours in the ER tonight. Wheezing.,
+POST00130,PhotoShare,anna_j05,,Parainen,2025-06-24 04:08:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 viilsi sormeen veitsellä,
+POST00131,MicroPost,elina_h79,,Turku,2025-06-04 18:54:00,Spent 6 hours in the ER tonight. Vomiting and diarrhoea.,Aurajoki Regional Hospital
+POST00132,MicroPost,user39968,Onni,Turku,2025-06-21 07:47:00,Aurajoen päivystyksessä taas. Palovamma kädessä.,Aurajoki Regional Hospital
+POST00133,MicroPost,user75924,Jenna,Turku,2025-07-18 22:39:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00134,PhotoShare,yuliia_b74,Yuliia Bondarenko,,2025-04-28 20:35:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, nilkka virheasennossa.",Aurajoki Regional Hospital
+POST00135,Forum,emiliakokkonen,,,2025-02-25 07:29:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00136,PhotoShare,vuori21,,Loimaa,2025-02-16 00:24:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 vatsakipu,
+POST00137,MicroPost,user16737,,Turku,2025-03-13 18:46:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,Aurajoki Regional Hospital
+POST00138,PhotoShare,pasi_h69,Pasi Hietaaho,Somero,2025-11-26 21:40:00,"Aurajoen päivystyksessä taas. Kaatui pyörällä, olkapää kipeä.",Aurajoki Regional Hospital
+POST00139,MicroPost,maarit_j68,,Turku,2025-11-30 16:48:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00140,Forum,kaski74,Lauri Kaskiharju,Turku,2025-02-06 19:20:00,"Aurajoen päivystyksessä taas. Hengenahdistus, avaava lääke ei auta.",Aurajoki Regional Hospital
+POST00141,Forum,oonalehmusvaara,Oona,,2025-08-30 06:53:00,Spent 4 hours in the ER tonight. Right upper quadrant pain.,Aurajoki Regional Hospital
+POST00142,PhotoShare,user33524,Milla Kesämaa,,2026-01-01 00:41:00,Spent 3 hours in the ER tonight. Head injury after fall.,Aurajoki Regional Hospital
+POST00143,Forum,user35893,,Mynämäki,2025-01-15 10:02:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00144,PhotoShare,user63023,,Marttila,2025-10-19 04:12:00,"Spent 5 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00145,MicroPost,user43308,Aleksi Aaltomaa,,2025-11-30 18:00:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00146,MicroPost,user48917,Veeti Aholehto,Kaarina,2025-10-11 12:34:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00147,PhotoShare,user10714,,Loimaa,2025-09-23 06:49:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00148,Forum,user97932,Emilia Koski,,2025-12-11 16:00:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",
+POST00149,MicroPost,user85059,Megan,Raisio,2025-10-08 02:36:00,Aurajoen päivystyksessä taas. Kova päänsärky.,Aurajoki Regional Hospital
+POST00150,Forum,jarmopihlakallio,Jarmo Pihlakallio,,2025-08-06 11:50:00,"Ei ihan näin piti viikonlopun mennä... ampiainen pisti, iho kutisee koko kehossa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00151,PhotoShare,rinta26,Jussi Rintapää,Laitila,2025-07-08 22:27:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00152,Forum,jessepennanen,Jesse,Turku,2025-08-21 04:05:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00153,PhotoShare,ottokangasoja,,,2025-07-31 11:27:00,Aurajoen päivystyksessä taas. Oikean alavatsan kipu ja kuume.,
+POST00154,PhotoShare,jenna_s01,,Turku,2025-07-13 07:18:00,Aurajoen päivystyksessä taas. Kova kylkikipu vasemmalla.,Aurajoki Regional Hospital
+POST00155,PhotoShare,user52939,Joel,Salo,2025-07-29 06:16:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00156,MicroPost,laaks72,Kaisa Laaksonen,,2025-05-15 00:24:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,Aurajoki Regional Hospital
+POST00157,MicroPost,fredriknordstrom,Fredrik Nordström,Turku,2025-06-14 00:57:00,Spent 3 hours in the ER tonight. Painful urination.,Aurajoki Regional Hospital
+POST00158,Forum,mervipaavola,,Lieto,2025-08-27 22:06:00,Aurajoen päivystyksessä taas. Pyörtyi kaupassa.,Aurajoki Regional Hospital
+POST00159,MicroPost,user84826,Ulla Eriksson,Parainen,2025-04-10 15:53:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00160,PhotoShare,kirsi_k71,,Turku,2025-02-06 18:17:00,Spent 2 hours in the ER tonight. Right upper quadrant pain.,Aurajoki Regional Hospital
+POST00161,Forum,joonas_i02,Joonas,Turku,2025-06-25 06:16:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, ranne kipeä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00162,Forum,ristolehtoharju,,,2025-02-09 22:55:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,Aurajoki Regional Hospital
+POST00163,PhotoShare,manty63,Tero Mäntylä,Naantali,2025-06-06 07:42:00,"Ei ihan näin piti viikonlopun mennä... kova kylkikipu vasemmalla, nyt päivystyksessä.",
+POST00164,Forum,leppa53,Anna,Turku,2025-06-09 22:16:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,Aurajoki Regional Hospital
+POST00165,Forum,emmasjoblom,,,2025-07-27 02:45:00,Spent 4 hours in the ER tonight. Cut on the head.,Aurajoki Regional Hospital
+POST00166,PhotoShare,hannakarhupaa,Hanna,Uusikaupunki,2025-03-03 13:34:00,"Ei ihan näin piti viikonlopun mennä... oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00167,Forum,tarjakorhonen,Tarja,,2025-02-19 16:21:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",
+POST00168,Forum,user15052,Linnea Granqvist,,2025-07-04 00:48:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,Aurajoki Regional Hospital
+POST00169,Forum,jennihirvisuo,Jenni,Loimaa,2025-09-16 08:04:00,"Jo 12 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, nilkka virheasennossa",
+POST00170,PhotoShare,harti62,Aino,Turku,2025-06-07 22:47:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, ranne kipeä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00171,MicroPost,heidi_k82,Heidi Kivelä,Salo,2025-11-27 06:38:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00172,MicroPost,harri_r70,Harri,Kaarina,2025-12-31 03:22:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00173,MicroPost,user47307,,Turku,2025-02-27 22:54:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00174,MicroPost,irynatkachenko,,Turku,2025-03-30 22:08:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 viilsi sormeen veitsellä,Aurajoki Regional Hospital
+POST00175,Forum,arisaarikoski,,,2025-05-18 00:44:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00176,PhotoShare,al-ha46,,,2025-02-21 08:08:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00177,MicroPost,serhii_k76,Serhii,Turku,2025-07-08 03:09:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 rintakipu,Aurajoki Regional Hospital
+POST00178,MicroPost,heidilaaksoharju,Heidi Laaksoharju,,2025-06-18 22:25:00,"Ei ihan näin piti viikonlopun mennä... palovamma kädessä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00179,PhotoShare,jussirantanen,Jussi Rantanen,Turku,2025-02-08 02:40:00,Spent 3 hours in the ER tonight. Feeling unwell.,Aurajoki Regional Hospital
+POST00180,Forum,lehto18,Joel Lehtomaa,,2025-09-18 00:34:00,"Aurajoen päivystyksessä taas. Hengenahdistus, avaava lääke ei auta.",Aurajoki Regional Hospital
+POST00181,Forum,user19615,Santeri Rintasuo,,2025-12-20 05:06:00,"Jo 4 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00182,Forum,ottosalojarvi,Otto Salojärvi,,2025-01-02 14:03:00,Jo 9 tuntia päivystyksessä odottamassa 🙄 raketti osui silmään,Aurajoki Regional Hospital
+POST00183,PhotoShare,joel_h00,Joel,Turku,2025-05-26 03:16:00,Spent 2 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00184,PhotoShare,immon58,Jenni Immonen,Rusko,2025-12-24 06:11:00,"Aurajoen päivystyksessä taas. Kuume 39,5.",Aurajoki Regional Hospital
+POST00185,Forum,jussirautaniemi,,Masku,2025-09-04 05:36:00,"Ei ihan näin piti viikonlopun mennä... kova kylkikipu vasemmalla, nyt päivystyksessä.",
+POST00186,Forum,user41466,Santeri,,2025-05-02 23:24:00,"Aurajoen päivystyksessä taas. Kaatui pyörällä, olkapää kipeä.",
+POST00187,Forum,user91218,Katja,Raisio,2025-05-19 17:37:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00188,PhotoShare,joelalanen,Joel,,2025-06-24 19:01:00,Jo 8 tuntia päivystyksessä odottamassa 🙄 vatsakipu,
+POST00189,PhotoShare,rauta60,Eveliina Rautaranta,Salo,2025-03-28 16:55:00,Spent 3 hours in the ER tonight. Feeling unwell.,Aurajoki Regional Hospital
+POST00190,MicroPost,user30476,Valtteri Sorsaharju,Turku,2025-04-20 06:45:00,Jo 10 tuntia päivystyksessä odottamassa 🙄 haava päässä kaatumisen jälkeen,
+POST00191,Forum,user61538,,Loimaa,2025-10-07 16:23:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00192,MicroPost,user24505,Marika Vuorisuo,Uusikaupunki,2025-02-03 00:59:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,Aurajoki Regional Hospital
+POST00193,MicroPost,hieta59,,Kaarina,2025-12-15 13:09:00,Spent 6 hours in the ER tonight. Severe headache.,
+POST00194,PhotoShare,ali_s05,Ali,Salo,2025-03-12 18:25:00,Spent 8 hours in the ER tonight. Cut finger with knife.,Aurajoki Regional Hospital
+POST00195,Forum,pasi_s65,Pasi Suooja,Salo,2025-04-11 02:13:00,Aurajoen päivystyksessä taas. Kova kylkikipu vasemmalla.,Aurajoki Regional Hospital
+POST00196,PhotoShare,user14232,Katja Ilvesranta,Mynämäki,2025-05-29 23:52:00,Spent 2 hours in the ER tonight. Vomiting and diarrhoea.,Aurajoki Regional Hospital
+POST00197,PhotoShare,matiasjousivuori,Matias Jousivuori,,2025-12-05 18:55:00,"Jo 5 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00198,PhotoShare,esa_k66,Esa,Loimaa,2025-03-07 22:38:00,"Aurajoen päivystyksessä taas. Kaatui kotona, ei pysty varaamaan jalalle.",Aurajoki Regional Hospital
+POST00199,Forum,ivan_k02,Ivan Kozlov,Turku,2025-09-28 09:26:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,Aurajoki Regional Hospital
+POST00200,Forum,user42603,Jussi Soini,Turku,2025-09-24 22:29:00,"Ei ihan näin piti viikonlopun mennä... kova kylkikipu vasemmalla, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00201,PhotoShare,heidi_n79,Heidi,,2025-01-15 23:40:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 oksentelu ja ripuli,
+POST00202,Forum,riku_v80,Riku Viitamäki,,2025-02-01 09:42:00,"Jo 7 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00203,PhotoShare,tuomassorsajarvi,Tuomas Sorsajärvi,Turku,2025-08-01 06:10:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 huulten turpoaminen ja hengitysvaikeus syömisen jälkeen,Aurajoki Regional Hospital
+POST00204,Forum,user13367,Marika Suomalainen,Turku,2025-06-21 20:15:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",
+POST00205,PhotoShare,tarjalaaksomaa,Tarja,Naantali,2025-07-10 18:20:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kuume, yskä ja hengenahdistus",
+POST00206,PhotoShare,seijaheikkinen,Seija,Turku,2025-04-23 19:40:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 rintakipu,Aurajoki Regional Hospital
+POST00207,MicroPost,user46425,Eemeli,Naantali,2025-02-25 22:47:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00208,PhotoShare,mariakaskiharju,Maria,,2025-02-19 17:36:00,"Spent 2 hours in the ER tonight. High fever, body aches.",
+POST00209,MicroPost,matias_k95,Matias Kivivirta,,2025-06-11 16:44:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00210,PhotoShare,samipulkkinen,,Masku,2025-11-16 16:45:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00211,Forum,user68266,Jesse Suoluoto,Sauvo,2025-05-09 21:13:00,Aurajoen päivystyksessä taas. Huulten turpoaminen ja hengitysvaikeus syömisen jälkeen.,Aurajoki Regional Hospital
+POST00212,MicroPost,neahaukkakorpi,Nea,Naantali,2025-04-02 23:35:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,Aurajoki Regional Hospital
+POST00213,PhotoShare,ylama8,Tuomas Ylämäki,,2025-10-14 19:48:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",
+POST00214,MicroPost,saari11,Joel Saariluoto,Salo,2025-03-01 17:45:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00215,MicroPost,nelli_k06,,Salo,2025-02-25 12:20:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00216,PhotoShare,user26825,Santeri Pajuaho,,2025-08-01 03:48:00,Spent 2 hours in the ER tonight. Cut on the head.,Aurajoki Regional Hospital
+POST00217,MicroPost,jouts16,,Turku,2025-10-16 12:02:00,"Ei ihan näin piti viikonlopun mennä... oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen, nyt päivystyksessä.",
+POST00218,Forum,kim_a01,Kim Ahojärvi,,2025-08-13 08:23:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,
+POST00219,Forum,user38354,,Turku,2025-02-06 01:08:00,Aurajoen päivystyksessä taas. Kaatui ja löi päänsä.,Aurajoki Regional Hospital
+POST00220,PhotoShare,user49640,Tarja Kuusiniemi-Rantakangas,Turku,2025-06-16 02:58:00,Aurajoen päivystyksessä taas. Kova päänsärky.,Aurajoki Regional Hospital
+POST00221,PhotoShare,aleksi_t98,Aleksi,Turku,2025-09-19 21:02:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00222,PhotoShare,minnalaaksosalo,Minna Laaksosalo,Turku,2025-01-05 13:05:00,"Spent 2 hours in the ER tonight. Slipped on ice, wrist pain.",Aurajoki Regional Hospital
+POST00223,PhotoShare,user82641,,Pyhäranta,2025-06-20 05:39:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 vatsakipu,
+POST00224,PhotoShare,user18651,Heidi Sirviö,Raisio,2025-02-13 00:59:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",
+POST00225,PhotoShare,niemi24,Roosa Niemikangas,Turku,2025-07-10 10:23:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00226,MicroPost,markku_j69,Markku Jousikorpi,Uusikaupunki,2025-10-13 16:23:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00227,Forum,user44402,,,2025-12-19 03:28:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00228,MicroPost,ruoho94,,Lieto,2025-10-13 04:12:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00229,PhotoShare,user61643,Kaisa Lehtokangas,Raisio,2025-05-06 16:03:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",
+POST00230,PhotoShare,user25068,Ilkka Kallio,Turku,2025-12-04 21:49:00,Aurajoen päivystyksessä taas. Pyörtyi kaupassa.,Aurajoki Regional Hospital
+POST00231,PhotoShare,teemujoutsenaho,Teemu,,2025-11-13 14:15:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,
+POST00232,Forum,user62683,Pekka Ojavirta,Uusikaupunki,2025-04-21 00:36:00,"Ei ihan näin piti viikonlopun mennä... äkillinen hengenahdistus ja rintakipu, nyt päivystyksessä.",
+POST00233,PhotoShare,sarakiviluoto,Sara Kiviluoto,,2025-11-02 19:11:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 pyörtyi kaupassa,Aurajoki Regional Hospital
+POST00234,MicroPost,kaarn97,Antti Kaarnalahti,Salo,2025-11-06 11:48:00,Jo 8 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00235,MicroPost,kulta3,Ari,Turku,2025-10-11 16:23:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,Aurajoki Regional Hospital
+POST00236,PhotoShare,suvilampilahti,,Turku,2025-11-25 00:02:00,Spent 5 hours in the ER tonight. Painful urination.,Aurajoki Regional Hospital
+POST00237,MicroPost,hannaalaranta,Hanna Alaranta,,2025-12-09 18:57:00,Spent 3 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00238,MicroPost,hao_w03,Hao Wang,,2025-07-23 05:03:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00239,Forum,abdul81,,Turku,2025-09-24 05:16:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00240,MicroPost,toniaaltoharju,Toni Aaltoharju,,2025-09-26 11:14:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00241,PhotoShare,eveliinarantaharju,Eveliina Rantaharju,,2025-05-02 16:27:00,Aurajoen päivystyksessä taas. Kova päänsärky.,Aurajoki Regional Hospital
+POST00242,PhotoShare,leppa64,Toni Leppäsalo,,2025-08-08 06:09:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00243,PhotoShare,rasmuspaavilainen,Rasmus,,2025-07-03 21:02:00,"Jo 9 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00244,PhotoShare,piiakurkiluoto,Piia,,2025-04-01 09:09:00,Spent 2 hours in the ER tonight. High temperature.,
+POST00245,MicroPost,andreskoppel,Andres Koppel,Turku,2025-04-12 21:56:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00246,MicroPost,roosapihlakoski,Roosa Pihlakoski,Kaarina,2025-01-21 22:54:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, nilkka virheasennossa",Aurajoki Regional Hospital
+POST00247,MicroPost,user39004,Aisha Al-Jaberi,,2025-08-24 21:57:00,Jo 14 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,Aurajoki Regional Hospital
+POST00248,Forum,user21225,Arttu Pohjosuo,Somero,2025-01-25 13:24:00,"Jo 4 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00249,PhotoShare,keski24,,Kaarina,2025-09-10 17:07:00,Spent 4 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00250,Forum,jere_k96,Jere Kultamaa,Lieto,2025-04-02 16:07:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",
+POST00251,Forum,rikuviitamaki,Riku Viitamäki,Turku,2025-06-21 01:45:00,"Aurajoen päivystyksessä taas. Kuume 39,5.",Aurajoki Regional Hospital
+POST00252,MicroPost,ella_j06,,Turku,2025-09-01 18:24:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,Aurajoki Regional Hospital
+POST00253,Forum,tomi_m79,Tomi Mäntykallio,,2025-02-13 22:41:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,Aurajoki Regional Hospital
+POST00254,MicroPost,katja_j83,Katja,Turku,2025-06-14 14:38:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,Aurajoki Regional Hospital
+POST00255,MicroPost,lehto85,,Loimaa,2025-01-15 16:35:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,
+POST00256,Forum,joelkoivukorpi,Joel Koivukorpi,Kaarina,2025-01-23 19:49:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00257,Forum,user69760,,Kaarina,2025-06-12 09:07:00,"Ei ihan näin piti viikonlopun mennä... oikean alavatsan kipu ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00258,PhotoShare,user91370,Joonas,Turku,2025-03-17 23:52:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00259,Forum,user40048,Suvi Paavola,,2025-04-22 18:52:00,Spent 4 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00260,PhotoShare,user26792,Niko,,2025-11-24 17:01:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00261,Forum,santeri_m09,,,2025-08-23 10:39:00,Spent 3 hours in the ER tonight. Painful urination.,Aurajoki Regional Hospital
+POST00262,PhotoShare,riitta_h72,,,2025-08-13 10:37:00,Aurajoen päivystyksessä taas. Kova päänsärky.,Aurajoki Regional Hospital
+POST00263,PhotoShare,merjajoutsenla,,,2025-09-13 18:14:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 rintakipu,
+POST00264,MicroPost,otto_h01,Otto Heinävuori,,2025-07-26 22:52:00,"Ei ihan näin piti viikonlopun mennä... oikean alavatsan kipu ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00265,Forum,user13114,Vesa Nurmi,,2025-12-17 09:52:00,"Ei ihan näin piti viikonlopun mennä... hengenahdistus, avaava lääke ei auta, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00266,MicroPost,vuori68,Eemeli Vuorikorpi,,2025-07-04 16:26:00,"Ei ihan näin piti viikonlopun mennä... haava päässä kaatumisen jälkeen, nyt päivystyksessä.",
+POST00267,PhotoShare,laaks40,,,2025-05-10 19:51:00,"Ei ihan näin piti viikonlopun mennä... hengenahdistus, avaava lääke ei auta, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00268,MicroPost,anttikuusimaki,,,2025-01-05 07:08:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00269,Forum,haukk52,Miro Haukkasalo,,2025-01-08 21:18:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,Aurajoki Regional Hospital
+POST00270,Forum,user49430,,Salo,2025-10-29 09:30:00,Spent 3 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00271,MicroPost,user41081,,,2025-11-11 05:29:00,Jo 9 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,
+POST00272,MicroPost,user71069,,Paimio,2025-09-14 01:24:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 kova kylkikipu vasemmalla,Aurajoki Regional Hospital
+POST00273,Forum,user62989,Kati,Lieto,2025-02-01 20:08:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00274,Forum,riikkaaaltojarvi,Riikka,Nousiainen,2025-10-11 13:49:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",
+POST00275,Forum,sariaaltosalo,Sari Aaltosalo,Turku,2025-04-28 17:38:00,"Ei ihan näin piti viikonlopun mennä... hengenahdistus, avaava lääke ei auta, nyt päivystyksessä.",
+POST00276,PhotoShare,user36394,Emma,Uusikaupunki,2025-11-18 01:08:00,"Aurajoen päivystyksessä taas. Hengenahdistus, avaava lääke ei auta.",Aurajoki Regional Hospital
+POST00277,MicroPost,lauritalvimaki,,Turku,2025-01-08 12:43:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kova kylkikipu vasemmalla,Aurajoki Regional Hospital
+POST00278,MicroPost,user60590,Joel Kesänen,Turku,2025-11-16 18:06:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,Aurajoki Regional Hospital
+POST00279,MicroPost,user15107,Jukka Väänänen,Turku,2025-05-02 12:40:00,"Jo 5 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, nilkka virheasennossa",
+POST00280,PhotoShare,pinjatuomiranta,Pinja,Salo,2025-06-25 21:55:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, nilkka virheasennossa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00281,PhotoShare,pinja_k99,,,2025-01-08 03:17:00,"Aurajoen päivystyksessä taas. Kuume ja yskä, kotitesti positiivinen.",
+POST00282,Forum,anurantasuo,Anu,,2025-08-03 17:42:00,Spent 11 hours in the ER tonight. Fainted.,Aurajoki Regional Hospital
+POST00283,Forum,milla_a06,Milla,Masku,2025-01-27 20:34:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,Aurajoki Regional Hospital
+POST00284,PhotoShare,hassan_h03,Hassan Hussein,Salo,2025-08-04 01:53:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00285,MicroPost,henna_a75,Henna,Paimio,2025-02-10 07:46:00,"Spent 6 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00286,PhotoShare,user96809,Jenni,Loimaa,2025-02-27 10:01:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,Aurajoki Regional Hospital
+POST00287,MicroPost,heidi_k85,,Sauvo,2025-07-07 15:01:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen,Aurajoki Regional Hospital
+POST00288,PhotoShare,juhosalminen,,Turku,2025-04-21 08:30:00,"Ei ihan näin piti viikonlopun mennä... haava päässä kaatumisen jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00289,PhotoShare,maaritheinavirta,Maarit Heinävirta,Raisio,2025-02-24 23:43:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 korkea kuume ja lihaskivut,Aurajoki Regional Hospital
+POST00290,Forum,jussi_k83,Jussi,Kaarina,2025-09-06 16:41:00,Jo 8 tuntia päivystyksessä odottamassa 🙄 rintakipu,Aurajoki Regional Hospital
+POST00291,Forum,user82452,Jenni,,2025-02-22 03:53:00,"Spent 12 hours in the ER tonight. High fever, body aches.",
+POST00292,Forum,marika_j88,Marika Jaakkonen,Kaarina,2025-02-03 01:49:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 selkä jumissa, ei pääse liikkumaan",Aurajoki Regional Hospital
+POST00293,MicroPost,janikuusipaa,,Raisio,2025-05-29 06:15:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 kaatui pyörällä, olkapää kipeä",
+POST00294,MicroPost,holmb78,Markku,Raisio,2025-05-14 03:49:00,Spent 5 hours in the ER tonight. Fainted.,Aurajoki Regional Hospital
+POST00295,PhotoShare,user99574,Ville,Kaarina,2025-12-19 17:45:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00296,PhotoShare,jerelumilahti,Jere,Paimio,2025-09-28 00:14:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00297,MicroPost,user47143,,,2025-05-30 22:44:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,Aurajoki Regional Hospital
+POST00298,MicroPost,user75081,Eemeli Alakoski,Turku,2025-10-28 09:08:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,Aurajoki Regional Hospital
+POST00299,Forum,oona_v02,Oona,,2025-01-22 13:02:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",
+POST00300,MicroPost,jaana_h68,Jaana,,2025-10-30 15:28:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00301,MicroPost,suvi_k81,Suvi Komulainen,Naantali,2025-08-12 00:31:00,Spent 7 hours in the ER tonight. Head injury after fall.,Aurajoki Regional Hospital
+POST00302,MicroPost,talvi12,Nea,,2025-10-23 23:37:00,Spent 3 hours in the ER tonight. Feeling unwell.,
+POST00303,PhotoShare,janikesaranta,,Kaarina,2025-08-05 13:00:00,"Ei ihan näin piti viikonlopun mennä... haava päässä kaatumisen jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00304,Forum,heina97,Marko,Salo,2025-03-09 08:58:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 rintakipu,Aurajoki Regional Hospital
+POST00305,MicroPost,katilaaksoharju,,Turku,2025-09-11 16:56:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",
+POST00306,MicroPost,ellahaapamaa,,,2025-11-28 00:12:00,"Spent 3 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00307,MicroPost,juharautamaki,Juha,Turku,2025-05-18 16:44:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00308,MicroPost,user68881,Petri Hietamäki,Kaarina,2025-11-19 20:31:00,"Ei ihan näin piti viikonlopun mennä... sydämentykytys, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00309,MicroPost,user42966,,,2025-01-26 00:20:00,Spent 3 hours in the ER tonight. Twisted ankle.,Aurajoki Regional Hospital
+POST00310,Forum,hirvi96,,,2025-07-16 02:59:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, ranne kipeä, nyt päivystyksessä.",
+POST00311,MicroPost,laaks10,Anna Laaksovirta,Kaarina,2025-03-17 14:48:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00312,MicroPost,samiheinaluoto,Sami,,2025-07-23 18:08:00,Aurajoen päivystyksessä taas. Huonovointisuus.,Aurajoki Regional Hospital
+POST00313,MicroPost,topias_i07,,,2025-04-11 23:13:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 haava päässä kaatumisen jälkeen,Aurajoki Regional Hospital
+POST00314,PhotoShare,user92624,,,2025-04-07 17:59:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 hengenahdistus, avaava lääke ei auta",Aurajoki Regional Hospital
+POST00315,PhotoShare,user92344,Johanna,Turku,2025-01-31 17:53:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00316,MicroPost,lehmu66,Otto Lehmusvaara,Turku,2025-01-23 05:16:00,"Ei ihan näin piti viikonlopun mennä... haava päässä kaatumisen jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00317,PhotoShare,rolfmatilainen,Rolf,Kaarina,2025-10-08 18:25:00,"Spent 8 hours in the ER tonight. Fever, positive home test.",Aurajoki Regional Hospital
+POST00318,PhotoShare,halon49,Ella,Kaarina,2025-05-06 13:24:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 vatsakipu,
+POST00319,PhotoShare,niemi55,,,2025-08-19 04:13:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,
+POST00320,PhotoShare,johannagranqvist,Johanna Granqvist,Kaarina,2025-04-20 21:06:00,Spent 4 hours in the ER tonight. Painful urination.,Aurajoki Regional Hospital
+POST00321,Forum,user72700,Susanna,Kemiönsaari,2025-02-26 14:55:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00322,MicroPost,manty49,,Turku,2025-12-25 20:44:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",
+POST00323,Forum,pinjakuusivirta,Pinja,,2025-01-01 03:58:00,"Ei ihan näin piti viikonlopun mennä... raketti osui silmään, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00324,MicroPost,samuelpihlakoski,,,2025-01-18 19:07:00,Spent 5 hours in the ER tonight. Head injury after fall.,Aurajoki Regional Hospital
+POST00325,Forum,user85626,,,2025-05-22 13:32:00,"Aurajoen päivystyksessä taas. Hengenahdistus, avaava lääke ei auta.",Aurajoki Regional Hospital
+POST00326,PhotoShare,user20831,Jesse Haukkapää,,2025-04-14 22:36:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00327,PhotoShare,user64038,,Kaarina,2025-04-04 05:11:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 kova kylkikipu vasemmalla,Aurajoki Regional Hospital
+POST00328,PhotoShare,jussi_k77,Jussi,,2025-10-23 18:28:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,
+POST00329,MicroPost,aki_n85,,Uusikaupunki,2025-05-23 14:21:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",
+POST00330,Forum,maksimsokolov,,Kaarina,2025-02-04 19:37:00,Spent 3 hours in the ER tonight. Cut finger with knife.,Aurajoki Regional Hospital
+POST00331,PhotoShare,markkuholmberg,,Raisio,2025-05-07 00:07:00,Aurajoen päivystyksessä taas. Pyörtyi kaupassa.,Aurajoki Regional Hospital
+POST00332,Forum,jussileino,Jussi Leino,Uusikaupunki,2025-12-10 01:54:00,Spent 2 hours in the ER tonight. Cut finger with knife.,Aurajoki Regional Hospital
+POST00333,Forum,virta16,Anna Virtanen,Salo,2025-12-28 00:51:00,"Ei ihan näin piti viikonlopun mennä... kouristelukohtaus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00334,PhotoShare,salok23,,,2025-11-14 01:16:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,Aurajoki Regional Hospital
+POST00335,Forum,user61025,Ville,Somero,2025-03-15 21:38:00,Aurajoen päivystyksessä taas. Kova päänsärky.,Aurajoki Regional Hospital
+POST00336,Forum,user67649,Roosa,Turku,2025-01-22 09:29:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,Aurajoki Regional Hospital
+POST00337,Forum,liu81,Wei Liu,,2025-03-01 01:43:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",
+POST00338,PhotoShare,katjakaukokoski,,Turku,2025-12-22 16:11:00,Spent 9 hours in the ER tonight. Chest pain.,
+POST00339,PhotoShare,salon4,Tero Salonen,,2025-11-29 04:04:00,Spent 4 hours in the ER tonight. Right upper quadrant pain.,
+POST00340,Forum,susanna_j83,Susanna,Somero,2025-06-14 16:34:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00341,PhotoShare,user99997,Laura Haapaaho,,2025-04-26 20:56:00,Spent 15 hours in the ER tonight. Sudden breathlessness.,
+POST00342,PhotoShare,user65894,Anni Miettinen,,2025-10-27 14:23:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 pyörtyi kaupassa,Aurajoki Regional Hospital
+POST00343,MicroPost,villemattila,Ville Mattila,Uusikaupunki,2025-01-30 09:18:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00344,Forum,joni_o84,Joni,Turku,2025-02-10 22:03:00,"Ei ihan näin piti viikonlopun mennä... kouristelukohtaus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00345,Forum,karja39,Hanna,,2025-11-28 04:15:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 vatsakipu,
+POST00346,PhotoShare,user93938,Niko Korpi,Paimio,2025-05-03 21:26:00,Spent 2 hours in the ER tonight. Seizure.,
+POST00347,Forum,user26595,Kateryna Bondarenko,,2025-04-06 11:10:00,Spent 9 hours in the ER tonight. Cut on the head.,Aurajoki Regional Hospital
+POST00348,PhotoShare,rinta49,Kaisa Rintavuori,Turku,2025-09-03 20:24:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 oikean alavatsan kipu ja kuume,Aurajoki Regional Hospital
+POST00349,PhotoShare,salor35,Tomi Saloranta,Somero,2025-12-19 11:05:00,Aurajoen päivystyksessä taas. Vatsakipu.,
+POST00350,Forum,eetukurkiharju,,,2025-10-18 17:55:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 selkä jumissa, ei pääse liikkumaan",Aurajoki Regional Hospital
+POST00351,PhotoShare,sara_l03,,Salo,2025-02-24 05:52:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,Aurajoki Regional Hospital
+POST00352,MicroPost,user46366,,Turku,2025-03-13 06:33:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00353,PhotoShare,joelsaariluoto,Joel,,2025-05-09 16:07:00,Spent 4 hours in the ER tonight. Sudden breathlessness.,
+POST00354,Forum,kivis15,,Nousiainen,2025-10-03 16:14:00,Jo 9 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00355,MicroPost,tammi25,Henri Tamminiemi,Parainen,2025-11-11 14:26:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,Aurajoki Regional Hospital
+POST00356,PhotoShare,laurahietaranta,,Turku,2025-02-05 10:44:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,Aurajoki Regional Hospital
+POST00357,MicroPost,user72036,,,2025-09-01 06:04:00,Spent 9 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00358,Forum,kotka51,,,2025-04-08 22:13:00,Spent 4 hours in the ER tonight. Seizure.,Aurajoki Regional Hospital
+POST00359,MicroPost,kaijavaltonen,,Salo,2025-07-02 18:50:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 rintakipu,Aurajoki Regional Hospital
+POST00360,MicroPost,kaski54,Riitta,Loimaa,2025-08-25 00:35:00,Spent 3 hours in the ER tonight. Abdominal pain.,
+POST00361,PhotoShare,hannu_k69,Hannu Koivumaa,,2025-07-11 06:37:00,"Jo 5 tuntia päivystyksessä odottamassa 🙄 selkä jumissa, ei pääse liikkumaan",Aurajoki Regional Hospital
+POST00362,PhotoShare,user71722,Kirsi,,2025-12-18 14:05:00,"Jo 4 tuntia päivystyksessä odottamassa 🙄 kuume, yskä ja hengenahdistus",Aurajoki Regional Hospital
+POST00363,PhotoShare,elina_r79,Elina Rintasuo,,2025-04-29 08:45:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 viilsi sormeen veitsellä,
+POST00364,Forum,marikuusikangas,,Pyhäranta,2025-01-31 23:47:00,Spent 2 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00365,PhotoShare,user70075,Risto Kiuru,Turku,2025-11-23 17:41:00,"Jo 4 tuntia päivystyksessä odottamassa 🙄 kuume ja yskä, kotitesti positiivinen",
+POST00366,MicroPost,martt4,Susanna Marttinen,,2025-09-10 03:49:00,Spent 6 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00367,PhotoShare,user66126,Li Liu,,2025-11-01 07:16:00,Jo 11 tuntia päivystyksessä odottamassa 🙄 oksentelu ja ripuli,Aurajoki Regional Hospital
+POST00368,MicroPost,neajarvi,,Turku,2025-11-01 23:23:00,Spent 5 hours in the ER tonight. Fever and runny nose.,Aurajoki Regional Hospital
+POST00369,Forum,anu_k82,Anu Kaarnamaa,Turku,2025-05-05 12:02:00,Spent 2 hours in the ER tonight. Cut on the head.,Aurajoki Regional Hospital
+POST00370,PhotoShare,miro_h01,Miro Haapavuori,Turku,2025-12-23 03:34:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,
+POST00371,MicroPost,paula_g64,,Kaarina,2025-12-21 22:57:00,Spent 5 hours in the ER tonight. Chest pain.,
+POST00372,Forum,user49549,Mikko,,2025-04-27 01:02:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,Aurajoki Regional Hospital
+POST00373,MicroPost,user85891,Niina Heinonen,,2025-05-10 10:49:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00374,Forum,milla_k99,Milla Kultalahti,,2025-07-24 21:53:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,Aurajoki Regional Hospital
+POST00375,PhotoShare,user60912,Kati Virtanen,Raisio,2025-07-22 15:42:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",
+POST00376,Forum,user62047,,,2025-05-28 23:41:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 oikean alavatsan kipu ja kuume,Aurajoki Regional Hospital
+POST00377,Forum,user85665,,Turku,2025-03-30 19:05:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",Aurajoki Regional Hospital
+POST00378,MicroPost,ollil61,Jenna Ollila,Naantali,2025-07-28 21:51:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, nilkka virheasennossa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00379,MicroPost,kotka45,Jarkko Kotkasalo,,2025-04-06 12:55:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00380,MicroPost,user16239,,Paimio,2025-01-07 03:10:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00381,MicroPost,user21628,Mika Mäkijärvi,Turku,2025-01-15 02:43:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00382,MicroPost,user32438,Susanna Kiviniemi,Somero,2025-12-18 23:37:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",
+POST00383,Forum,user30385,Erik Lehtoaho,,2025-02-28 17:23:00,Spent 5 hours in the ER tonight. Severe flank pain.,
+POST00384,Forum,mikatuomisalo,Mika Tuomisalo,Parainen,2025-05-17 04:41:00,Spent 2 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00385,PhotoShare,marko_t74,Marko Tuomisalo,Turku,2025-06-07 03:29:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,
+POST00386,Forum,user15529,,Salo,2025-02-20 18:07:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00387,MicroPost,user69748,Pekka,,2025-11-25 21:29:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00388,Forum,nea_p93,,Loimaa,2025-08-14 16:44:00,Spent 10 hours in the ER tonight. Fainted.,Aurajoki Regional Hospital
+POST00389,MicroPost,tiina_s84,Tiina Saarimaa,Kaarina,2025-07-04 23:27:00,Spent 15 hours in the ER tonight. Fever and cough.,Aurajoki Regional Hospital
+POST00390,Forum,aalto67,Oskari Aaltomäki,Laitila,2025-02-16 04:24:00,"Spent 5 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00391,PhotoShare,user79489,,Turku,2025-09-22 23:11:00,"Aurajoen päivystyksessä taas. Kuume ja yskä, kotitesti positiivinen.",Aurajoki Regional Hospital
+POST00392,PhotoShare,kurki64,Arttu Kurkiniemi,Naantali,2025-12-06 20:50:00,Spent 3 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00393,PhotoShare,oonaaaltomaki-tamminen,,Salo,2025-11-09 07:30:00,Spent 2 hours in the ER tonight. Painful urination.,
+POST00394,MicroPost,maria_k81,Maria Kiviniemi,Paimio,2025-08-07 23:37:00,Spent 4 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00395,PhotoShare,mariakankaanpaa,Maria Kankaanpää,Kaarina,2025-02-11 22:03:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",Aurajoki Regional Hospital
+POST00396,PhotoShare,user34881,,Turku,2025-09-07 06:18:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 haava päässä kaatumisen jälkeen,Aurajoki Regional Hospital
+POST00397,MicroPost,lindr48,Aleksi,Loimaa,2025-04-02 09:52:00,"Ei ihan näin piti viikonlopun mennä... kuumetta ja nuhaa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00398,PhotoShare,ari_p85,Ari Pihlanen,Kaarina,2025-05-26 16:41:00,Spent 2 hours in the ER tonight. Painful urination.,Aurajoki Regional Hospital
+POST00399,MicroPost,user64579,Esa,Turku,2025-05-20 18:00:00,"Ei ihan näin piti viikonlopun mennä... hengenahdistus, avaava lääke ei auta, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00400,Forum,laura_k77,,Salo,2025-02-13 04:41:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 oksentelu ja ripuli,Aurajoki Regional Hospital
+POST00401,PhotoShare,ronjasaarioja,Ronja,Turku,2025-05-23 00:54:00,"Ei ihan näin piti viikonlopun mennä... hengenahdistus, avaava lääke ei auta, nyt päivystyksessä.",
+POST00402,PhotoShare,yurii_b92,Yurii Bondarenko,Raisio,2025-12-07 22:37:00,Spent 2 hours in the ER tonight. Twisted ankle.,Aurajoki Regional Hospital
+POST00403,PhotoShare,anu_h79,Anu,Turku,2025-07-21 19:40:00,"Ei ihan näin piti viikonlopun mennä... kaatui ja löi päänsä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00404,MicroPost,user91119,Juho,Kaarina,2025-10-31 10:47:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00405,PhotoShare,kaisa_a86,Kaisa,,2025-01-16 20:49:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00406,Forum,user40486,Heidi,,2025-03-01 19:10:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,Aurajoki Regional Hospital
+POST00407,Forum,user49782,Heli,Turku,2025-09-07 01:18:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00408,PhotoShare,nurmi33,,Turku,2025-02-12 17:42:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",Aurajoki Regional Hospital
+POST00409,Forum,eriks59,Rolf Eriksson,Uusikaupunki,2025-04-07 06:24:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00410,Forum,user58690,Aki Koivujärvi,,2025-10-07 03:09:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00411,Forum,lauramustonen,Laura,,2025-04-23 17:45:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,Aurajoki Regional Hospital
+POST00412,PhotoShare,eemeli_k98,Eemeli Kauppila,Turku,2025-11-02 14:26:00,Aurajoen päivystyksessä taas. Kova päänsärky.,
+POST00413,Forum,ruoho83,Onni,,2025-03-02 17:23:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 kuume ja yskä, kotitesti positiivinen",Aurajoki Regional Hospital
+POST00414,Forum,maria_j84,Maria Jalonen,Turku,2025-10-05 12:20:00,Spent 6 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00415,Forum,elias_s03,Elias,Turku,2025-09-21 03:30:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00416,MicroPost,noora_p07,Noora Pohjolahti,,2025-01-17 06:44:00,Spent 9 hours in the ER tonight. Severe flank pain.,
+POST00417,MicroPost,valtteri_a00,,Turku,2025-04-17 19:11:00,Spent 7 hours in the ER tonight. Painful urination.,Aurajoki Regional Hospital
+POST00418,Forum,annilaaksovirta,,,2025-08-11 02:20:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,
+POST00419,MicroPost,lehto77,Juho Lehtomäki,Salo,2025-07-27 17:22:00,"Ei ihan näin piti viikonlopun mennä... kova kylkikipu vasemmalla, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00420,MicroPost,villesarkaoja,,Parainen,2025-02-18 21:27:00,"Jo 12 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, nilkka virheasennossa",Aurajoki Regional Hospital
+POST00421,PhotoShare,kimmosorsavuori,Kimmo Sorsavuori,Aura,2025-01-21 10:41:00,Spent 5 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00422,Forum,ruoho35,Mika Ruohoaho,Raisio,2025-10-30 02:22:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00423,MicroPost,heidi_l75,Heidi,Raisio,2025-03-11 03:39:00,"Spent 5 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00424,MicroPost,wikst87,Stefan,,2025-12-26 18:20:00,Spent 5 hours in the ER tonight. Abdominal pain.,
+POST00425,PhotoShare,nelli_a94,,,2025-12-02 00:47:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,
+POST00426,Forum,tuija_k67,Tuija,,2025-09-03 05:42:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 rintakipu,Aurajoki Regional Hospital
+POST00427,PhotoShare,pajum9,Riitta Pajumaa,Salo,2025-11-09 01:08:00,Spent 3 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00428,Forum,pihla9,,,2025-07-21 01:06:00,Aurajoen päivystyksessä taas. Oikean alavatsan kipu ja kuume.,
+POST00429,Forum,inka_l91,Inka,Turku,2025-08-28 18:14:00,Spent 4 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00430,Forum,user43748,Henri,Taivassalo,2025-03-17 16:32:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00431,PhotoShare,user92718,,,2025-06-21 20:21:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00432,MicroPost,pekka_m66,Pekka Mäntylä,,2025-02-14 22:03:00,"Jo 4 tuntia päivystyksessä odottamassa 🙄 kuume ja yskä, kotitesti positiivinen",Aurajoki Regional Hospital
+POST00433,MicroPost,mikasaarela,Mika Saarela,,2025-02-23 04:11:00,Aurajoen päivystyksessä taas. Haava päässä kaatumisen jälkeen.,Aurajoki Regional Hospital
+POST00434,PhotoShare,eriks83,Maria,,2025-03-22 17:51:00,"Spent 4 hours in the ER tonight. Slipped on ice, wrist pain.",Aurajoki Regional Hospital
+POST00435,Forum,ruoho58,Ville Ruohoaho,,2025-09-17 22:53:00,"Aurajoen päivystyksessä taas. Kuume ja yskä, kotitesti positiivinen.",
+POST00436,PhotoShare,user46285,Nelli Laine,Parainen,2025-08-27 01:26:00,Spent 2 hours in the ER tonight. Right upper quadrant pain.,Aurajoki Regional Hospital
+POST00437,MicroPost,huypham,,,2025-12-15 09:41:00,"Jo 4 tuntia päivystyksessä odottamassa 🙄 kuume ja yskä, kotitesti positiivinen",Aurajoki Regional Hospital
+POST00438,PhotoShare,hirvo72,Anna Hirvonen,Turku,2025-01-04 16:46:00,Spent 2 hours in the ER tonight. Fainted.,Aurajoki Regional Hospital
+POST00439,PhotoShare,forss9,,Parainen,2025-12-17 02:50:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 äkillinen hengenahdistus ja rintakipu,Aurajoki Regional Hospital
+POST00440,PhotoShare,user82486,Jarkko,,2025-11-17 06:08:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00441,Forum,riku_t83,Riku Talvikoski,Kaarina,2025-05-14 05:45:00,Jo 11 tuntia päivystyksessä odottamassa 🙄 korkea kuume ja lihaskivut,Aurajoki Regional Hospital
+POST00442,PhotoShare,user73991,Ella,Lieto,2025-07-20 03:37:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 viilsi sormeen veitsellä,
+POST00443,MicroPost,niemi75,Niko,Naantali,2025-02-11 00:46:00,Jo 9 tuntia päivystyksessä odottamassa 🙄 korkea kuume ja lihaskivut,
+POST00444,PhotoShare,jere_a09,Jere,Paimio,2025-07-12 13:25:00,"Ei ihan näin piti viikonlopun mennä... haava päässä kaatumisen jälkeen, nyt päivystyksessä.",
+POST00445,MicroPost,roosapihlakoski,Roosa Pihlakoski,Kaarina,2025-09-18 12:48:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 vatsakipu,
+POST00446,Forum,kurki81,Tarja,Kaarina,2025-11-21 11:02:00,Spent 4 hours in the ER tonight. Palpitations.,Aurajoki Regional Hospital
+POST00447,MicroPost,minnajousipaa,Minna Jousipää,,2025-03-05 05:10:00,Jo 10 tuntia päivystyksessä odottamassa 🙄 oikean alavatsan kipu ja kuume,Aurajoki Regional Hospital
+POST00448,Forum,user80961,Rasmus Kankaanpää,Uusikaupunki,2025-07-04 17:24:00,Spent 3 hours in the ER tonight. Twisted ankle.,Aurajoki Regional Hospital
+POST00449,PhotoShare,ruoho66,Juho Ruohosalo,Raisio,2025-07-01 02:43:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00450,PhotoShare,user83605,Yusuf Hussein,Turku,2025-05-25 07:55:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",
+POST00451,Forum,joel_m09,Joel Mäkiniemi,Lieto,2025-12-11 02:26:00,"Ei ihan näin piti viikonlopun mennä... kova kylkikipu vasemmalla, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00452,PhotoShare,anusarkaluoto,,,2025-11-11 16:50:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,Aurajoki Regional Hospital
+POST00453,MicroPost,user34651,Niina,Masku,2025-01-06 17:07:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kouristelukohtaus,Aurajoki Regional Hospital
+POST00454,MicroPost,marko_n69,Marko,,2025-12-27 00:38:00,Aurajoen päivystyksessä taas. Kova kylkikipu vasemmalla.,Aurajoki Regional Hospital
+POST00455,MicroPost,pelto6,,,2025-08-20 00:18:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00456,MicroPost,user13511,Rasmus,Turku,2025-02-12 00:43:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,Aurajoki Regional Hospital
+POST00457,MicroPost,mika_k71,,,2025-02-12 06:23:00,"Ei ihan näin piti viikonlopun mennä... oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00458,MicroPost,venla_h02,Venla,Salo,2025-08-26 19:23:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00459,Forum,timosalmi,,Turku,2025-09-25 02:23:00,Spent 8 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00460,MicroPost,user15795,Risto Mäkipää,Salo,2025-02-05 04:02:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 oksentelu ja ripuli,Aurajoki Regional Hospital
+POST00461,MicroPost,liam_t99,Liam Taylor,Turku,2025-01-06 00:08:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 oksentelu ja ripuli,Aurajoki Regional Hospital
+POST00462,MicroPost,seija_k74,,Turku,2025-09-25 16:22:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00463,PhotoShare,jarihaukkaaho,Jari,,2025-09-29 16:45:00,Aurajoen päivystyksessä taas. Säären punoitus ja kuume.,Aurajoki Regional Hospital
+POST00464,PhotoShare,heidi_p89,Heidi Pohjolahti,,2025-09-12 03:04:00,Spent 10 hours in the ER tonight. Sudden breathlessness.,
+POST00465,Forum,user49686,Risto Tervokallio,Masku,2025-03-25 19:17:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00466,PhotoShare,lumia88,,Turku,2025-07-31 01:11:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 palovamma kädessä,
+POST00467,MicroPost,rolfsundstrom,,Kemiönsaari,2025-07-02 16:56:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00468,PhotoShare,eetuaaltoharju,Eetu,Turku,2025-02-18 21:50:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, ranne kipeä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00469,PhotoShare,virta62,,Salo,2025-05-06 18:05:00,Spent 11 hours in the ER tonight. Severe headache.,
+POST00470,Forum,katja_n87,Katja,Lieto,2025-01-13 20:28:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00471,Forum,niinapajukangas,,Pyhäranta,2025-09-25 22:45:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00472,MicroPost,iida_k00,Iida,Salo,2025-03-21 04:13:00,Spent 2 hours in the ER tonight. Fever and runny nose.,Aurajoki Regional Hospital
+POST00473,Forum,roopehautamaki,,,2025-12-03 17:25:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 rintakipu,
+POST00474,PhotoShare,user32207,Janne Nieminen,Turku,2025-04-10 18:08:00,Spent 4 hours in the ER tonight. Vomiting and diarrhoea.,
+POST00475,MicroPost,user45398,,,2025-10-14 10:43:00,Spent 3 hours in the ER tonight. Painful urination.,
+POST00476,MicroPost,aalto93,Fanni,,2025-06-20 12:03:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,Aurajoki Regional Hospital
+POST00477,Forum,popov82,Sergei,,2025-02-05 20:14:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00478,PhotoShare,riittapihlaranta,,,2025-10-23 15:29:00,Aurajoen päivystyksessä taas. Pyörtyi kaupassa.,
+POST00479,PhotoShare,user27014,,Turku,2025-06-27 22:49:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00480,MicroPost,jussi_p76,Jussi Pohjosuo,Paimio,2025-08-25 16:35:00,Spent 3 hours in the ER tonight. Vomiting and diarrhoea.,Aurajoki Regional Hospital
+POST00481,PhotoShare,jesse_p97,,Mynämäki,2025-08-01 21:20:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,Aurajoki Regional Hospital
+POST00482,Forum,kaisa_l81,Kaisa,Turku,2025-08-01 22:30:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,
+POST00483,MicroPost,mari_n83,,Rusko,2025-12-30 13:28:00,Spent 5 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00484,Forum,user59781,,,2025-12-25 14:38:00,Spent 2 hours in the ER tonight. Back pain after lifting.,Aurajoki Regional Hospital
+POST00485,MicroPost,heina63,Tiina Heinäkoski,Turku,2025-03-20 03:22:00,"Spent 11 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00486,PhotoShare,user26099,,Kaarina,2025-07-17 10:41:00,Spent 6 hours in the ER tonight. Back pain after lifting.,Aurajoki Regional Hospital
+POST00487,PhotoShare,lippo71,Rasmus Lipponen,Turku,2025-05-07 02:37:00,"Aurajoen päivystyksessä taas. Hengenahdistus, avaava lääke ei auta.",
+POST00488,Forum,user28716,Mikko Hiltunen,Kaarina,2025-10-13 23:32:00,Spent 5 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00489,MicroPost,essipohjolehto,Essi,,2025-01-12 10:51:00,"Aurajoen päivystyksessä taas. Ampiainen pisti, iho kutisee koko kehossa.",Aurajoki Regional Hospital
+POST00490,Forum,user48378,Piia Karhuoja,Naantali,2025-12-27 23:23:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",
+POST00491,MicroPost,lappa95,Tuomas Lappalainen,Turku,2025-09-25 18:02:00,"Spent 6 hours in the ER tonight. Fever, positive home test.",
+POST00492,PhotoShare,pasisarkaniemi,Pasi Sarkaniemi,Loimaa,2025-06-17 07:34:00,"Ei ihan näin piti viikonlopun mennä... kuume, yskä ja hengenahdistus, nyt päivystyksessä.",
+POST00493,Forum,smirn93,,,2025-12-23 16:55:00,Spent 4 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00494,Forum,user37505,,Turku,2025-11-25 23:29:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00495,Forum,jesse_k02,,,2025-03-27 22:42:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 huulten turpoaminen ja hengitysvaikeus syömisen jälkeen,Aurajoki Regional Hospital
+POST00496,MicroPost,markkurantanen,Markku Rantanen,,2025-12-03 08:45:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00497,MicroPost,helikuusikallio,Heli Kuusikallio,,2025-01-04 09:26:00,"Aurajoen päivystyksessä taas. Kuume, yskä ja hengenahdistus.",Aurajoki Regional Hospital
+POST00498,PhotoShare,virta71,,Turku,2025-02-27 22:44:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",
+POST00499,MicroPost,roope_r09,Roope Rantaharju,,2025-10-28 01:17:00,Aurajoen päivystyksessä taas. Kouristelukohtaus.,Aurajoki Regional Hospital
+POST00500,Forum,anderstalvikorpi,Anders,Turku,2025-09-03 05:58:00,Spent 2 hours in the ER tonight. Twisted ankle.,Aurajoki Regional Hospital
+POST00501,Forum,veerakaarnasuo,,,2025-10-10 14:04:00,Spent 3 hours in the ER tonight. Right upper quadrant pain.,
+POST00502,PhotoShare,user58281,,Turku,2025-09-30 14:50:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00503,Forum,lebed68,,Turku,2025-09-13 07:40:00,Spent 8 hours in the ER tonight. Abdominal pain.,
+POST00504,MicroPost,niira54,,Koski Tl,2025-07-25 18:07:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00505,Forum,user74073,,,2025-02-18 14:04:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,
+POST00506,MicroPost,yang_l67,Yang,Turku,2025-05-09 19:42:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00507,MicroPost,laaks6,Juho Laaksosuo,Naantali,2025-12-09 04:22:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,
+POST00508,MicroPost,user10063,Joonas,,2025-02-20 07:53:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,Aurajoki Regional Hospital
+POST00509,PhotoShare,husseinibrahim,,Turku,2025-10-24 22:58:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00510,Forum,kanga72,Aino Kangasranta,Laitila,2025-09-16 03:19:00,Spent 14 hours in the ER tonight. Chest pain.,
+POST00511,PhotoShare,matti_p82,Matti,Kaarina,2025-09-13 11:20:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",
+POST00512,PhotoShare,user99701,Sami Haukkamaa,Paimio,2025-04-10 15:12:00,Spent 2 hours in the ER tonight. Abdominal pain.,
+POST00513,Forum,user29212,Niko Salopää,,2025-01-01 12:20:00,"Ei ihan näin piti viikonlopun mennä... raketti osui silmään, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00514,Forum,user29827,Joni,,2025-05-12 22:27:00,Spent 6 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00515,Forum,emma_l82,Emma,,2025-10-09 04:52:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 puristava rintakipu, säteilee vasempaan käteen",Aurajoki Regional Hospital
+POST00516,PhotoShare,millaviitasuo,Milla,Turku,2025-02-08 15:00:00,Spent 10 hours in the ER tonight. Head injury after fall.,Aurajoki Regional Hospital
+POST00517,Forum,marika_r76,,Kaarina,2025-07-27 22:25:00,"Aurajoen päivystyksessä taas. Korkea kuume, sekava, matala verenpaine.",Aurajoki Regional Hospital
+POST00518,PhotoShare,user54897,Mari,,2025-01-11 09:40:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00519,MicroPost,anttiojanen,Antti Ojanen,Laitila,2025-08-11 03:11:00,Spent 7 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00520,Forum,kulta46,Jarmo,,2025-10-15 04:11:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00521,MicroPost,user47221,Jenna Kämäräinen,,2025-05-09 04:08:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00522,MicroPost,user14022,Iida Koskinen,Turku,2025-11-11 19:45:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,
+POST00523,Forum,pinjaaaltooja,Pinja,Turku,2025-02-23 19:00:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,
+POST00524,Forum,user60191,Suvi Saarila,,2025-05-14 20:13:00,Aurajoen päivystyksessä taas. Kaatui ja löi päänsä.,Aurajoki Regional Hospital
+POST00525,PhotoShare,emmaheinavuori,Emma,Paimio,2025-11-15 15:21:00,Spent 12 hours in the ER tonight. Painful urination.,Aurajoki Regional Hospital
+POST00526,MicroPost,risto_s65,Risto,Turku,2025-10-27 15:33:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,
+POST00527,MicroPost,saari28,Arto Saari,Salo,2025-06-27 04:35:00,Jo 11 tuntia päivystyksessä odottamassa 🙄 ohimenevä näköhäiriö ja käden puutuminen,Aurajoki Regional Hospital
+POST00528,Forum,aleksi_k00,Aleksi Kivilehto,,2025-02-14 20:21:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 korkea kuume ja lihaskivut,Aurajoki Regional Hospital
+POST00529,Forum,user61629,Rasmus Kesäkorpi,,2025-11-08 21:50:00,Spent 4 hours in the ER tonight. Severe headache.,
+POST00530,PhotoShare,tiinakultaoja,Tiina Kultaoja,,2025-05-12 17:03:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00531,MicroPost,salmi63,,,2025-12-21 07:49:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00532,Forum,kesas52,Emilia,Naantali,2025-09-03 18:41:00,Spent 13 hours in the ER tonight. Back pain after lifting.,
+POST00533,PhotoShare,user76551,Jouko Keskitalo,Raisio,2025-10-22 20:58:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",Aurajoki Regional Hospital
+POST00534,MicroPost,user27270,Juho Repo,Nousiainen,2025-03-24 22:31:00,Aurajoen päivystyksessä taas. Vatsakipu.,
+POST00535,PhotoShare,user79862,Anu Lehtinen,Turku,2025-10-03 18:37:00,"Aurajoen päivystyksessä taas. Kuume ja yskä, kotitesti positiivinen.",
+POST00536,PhotoShare,jereahovirta,,,2025-11-26 13:59:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00537,PhotoShare,anni_h08,Anni,,2025-06-11 09:05:00,Spent 3 hours in the ER tonight. Fainted.,
+POST00538,Forum,ayaan_h77,Ayaan Hussein,,2025-02-03 16:20:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00539,PhotoShare,saari48,Jani Saarijärvi,,2025-02-13 07:29:00,Aurajoen päivystyksessä taas. Huonovointisuus.,Aurajoki Regional Hospital
+POST00540,Forum,villekyllonen,Ville,,2025-12-14 11:27:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00541,PhotoShare,sanna_l82,,Turku,2025-08-20 20:38:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",Aurajoki Regional Hospital
+POST00542,Forum,tolon3,,,2025-05-05 20:58:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,Aurajoki Regional Hospital
+POST00543,Forum,villeleppalehto,Ville,,2025-08-12 20:32:00,Aurajoen päivystyksessä taas. Sydämentykytys.,
+POST00544,Forum,juho_l07,,,2025-03-11 09:11:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, nilkka virheasennossa.",Aurajoki Regional Hospital
+POST00545,Forum,user40791,Piia,Naantali,2025-01-14 17:16:00,"Ei ihan näin piti viikonlopun mennä... oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00546,Forum,user68859,Riikka,Laitila,2025-09-17 14:58:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 rintakipu,Aurajoki Regional Hospital
+POST00547,PhotoShare,aleksi_k05,Aleksi,,2025-09-30 23:59:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00548,MicroPost,venla_k08,Venla,,2025-12-12 10:11:00,Aurajoen päivystyksessä taas. Oikean alavatsan kipu ja kuume.,Aurajoki Regional Hospital
+POST00549,Forum,susannasihvonen,Susanna Sihvonen,Turku,2025-06-07 21:20:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00550,Forum,heidi_a89,Heidi,,2025-12-04 05:02:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,
+POST00551,PhotoShare,eveliina_h98,Eveliina Hallaniemi,Turku,2025-08-09 17:27:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00552,Forum,user84049,Elias Fagerström,,2025-02-19 17:41:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00553,PhotoShare,eliaskuusiranta,,,2025-03-12 22:24:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,Aurajoki Regional Hospital
+POST00554,PhotoShare,user60743,,Turku,2025-02-03 22:10:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00555,Forum,user49980,Laura Jousilehto,Turku,2025-04-27 04:26:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",
+POST00556,Forum,user32425,Suvi,Turku,2025-11-13 18:21:00,"Aurajoen päivystyksessä taas. Hengenahdistus, avaava lääke ei auta.",Aurajoki Regional Hospital
+POST00557,Forum,sofiiabondarenko,,,2025-02-06 17:28:00,"Spent 3 hours in the ER tonight. Slipped on ice, wrist pain.",Aurajoki Regional Hospital
+POST00558,MicroPost,ottosaarela,Otto,,2025-09-23 06:07:00,Aurajoen päivystyksessä taas. Huulten turpoaminen ja hengitysvaikeus syömisen jälkeen.,Aurajoki Regional Hospital
+POST00559,PhotoShare,suvi_s85,,Kaarina,2025-07-22 18:02:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00560,PhotoShare,lahti79,,,2025-02-14 04:00:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00561,MicroPost,aleksikorpi,Aleksi,,2025-06-23 13:43:00,Aurajoen päivystyksessä taas. Kouristelukohtaus.,
+POST00562,PhotoShare,sanna_e79,,Turku,2025-01-18 17:56:00,"Aurajoen päivystyksessä taas. Kuume ja yskä, kotitesti positiivinen.",
+POST00563,MicroPost,user81392,Toni Kalliosuo,Raisio,2025-07-25 21:47:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00564,Forum,reddy20,,,2025-11-30 09:01:00,Aurajoen päivystyksessä taas. Sydämentykytys.,Aurajoki Regional Hospital
+POST00565,PhotoShare,martt90,,,2025-12-12 03:49:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00566,PhotoShare,satu_r86,,,2025-02-04 08:12:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 korkea kuume ja lihaskivut,Aurajoki Regional Hospital
+POST00567,PhotoShare,lahti27,Sanna Lahti,Aura,2025-11-28 07:02:00,"Ei ihan näin piti viikonlopun mennä... kuume, yskä ja hengenahdistus, nyt päivystyksessä.",
+POST00568,MicroPost,kuusi67,,Turku,2025-01-01 22:18:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00569,MicroPost,hannuhaavisto,Hannu Haavisto,Uusikaupunki,2025-12-30 18:58:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00570,Forum,leppa7,,Kaarina,2025-03-04 18:30:00,Aurajoen päivystyksessä taas. Korkea kuume ja lihaskivut.,Aurajoki Regional Hospital
+POST00571,PhotoShare,user93893,Pasi Jousikorpi,,2025-10-26 21:47:00,Spent 2 hours in the ER tonight. Wheezing.,
+POST00572,PhotoShare,merjahyvonen,Merja,Salo,2025-07-22 19:42:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00573,PhotoShare,aminaosman,Amina,,2025-10-03 10:18:00,"Ei ihan näin piti viikonlopun mennä... oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00574,PhotoShare,user27102,Jarmo Sipilä,,2025-03-31 20:19:00,Spent 4 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00575,MicroPost,ronjatamminen,Ronja Tamminen,,2025-07-16 15:07:00,Spent 5 hours in the ER tonight. Cut finger with knife.,Aurajoki Regional Hospital
+POST00576,Forum,villeruohokoski,Ville Ruohokoski,Salo,2025-11-11 06:04:00,Spent 10 hours in the ER tonight. Head injury after fall.,Aurajoki Regional Hospital
+POST00577,PhotoShare,hirvi46,Rasmus Hirviharju,Turku,2025-08-26 03:20:00,"Aurajoen päivystyksessä taas. Kaatui pyörällä, olkapää kipeä.",
+POST00578,Forum,user58677,Jaana Turpeinen,,2025-02-01 14:28:00,Spent 2 hours in the ER tonight. Cut finger with knife.,Aurajoki Regional Hospital
+POST00579,Forum,hirvi96,Essi Hirvijärvi,Laitila,2025-07-14 22:45:00,Spent 4 hours in the ER tonight. Twisted ankle.,Aurajoki Regional Hospital
+POST00580,MicroPost,user23532,Maria Puranen,Turku,2025-03-14 21:30:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00581,MicroPost,user86244,Valtteri,Turku,2025-06-19 14:13:00,Spent 5 hours in the ER tonight. Feeling unwell.,
+POST00582,Forum,user69552,,,2025-04-10 19:42:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00583,Forum,ronja_h03,Ronja,,2025-12-09 15:58:00,Aurajoen päivystyksessä taas. Vatsakipu.,
+POST00584,MicroPost,user37149,,Turku,2026-01-01 05:19:00,"Spent 5 hours in the ER tonight. High fever, body aches.",
+POST00585,Forum,user53894,Tuija,,2025-06-03 23:08:00,"Ei ihan näin piti viikonlopun mennä... äkillinen oikean puolen voimattomuus, nyt päivystyksessä.",
+POST00586,Forum,eemelimantyniemi,Eemeli Mäntyniemi,Turku,2025-12-22 20:04:00,"Aurajoen päivystyksessä taas. Kuume, yskä ja hengenahdistus.",
+POST00587,MicroPost,iidakuisma,Iida,Kaarina,2025-08-06 20:56:00,Spent 5 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00588,PhotoShare,lauraoravakorpi,Laura Oravakorpi,Salo,2025-08-24 07:45:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00589,PhotoShare,ronjamantyniemi,Ronja Mäntyniemi,Uusikaupunki,2025-03-12 22:44:00,"Spent 4 hours in the ER tonight. High fever, body aches.",
+POST00590,MicroPost,pirjokoivukangas,Pirjo Koivukangas,,2025-02-14 13:19:00,"Ei ihan näin piti viikonlopun mennä... ampiainen pisti, iho kutisee koko kehossa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00591,PhotoShare,joelkotkamaki,Joel Kotkamäki,Turku,2025-09-29 13:02:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,
+POST00592,Forum,tuijavirtanen,Tuija,,2025-04-12 04:26:00,Aurajoen päivystyksessä taas. Haava päässä kaatumisen jälkeen.,Aurajoki Regional Hospital
+POST00593,PhotoShare,millakiviniemi,Milla,,2025-11-12 08:34:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,Aurajoki Regional Hospital
+POST00594,Forum,gronr84,Anna Grönroos,,2025-03-14 06:11:00,Aurajoen päivystyksessä taas. Kova kylkikipu vasemmalla.,Aurajoki Regional Hospital
+POST00595,Forum,user33657,Xin,Turku,2025-02-24 10:03:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 korkea kuume ja lihaskivut,
+POST00596,PhotoShare,jere_s01,Jere,,2025-01-25 06:23:00,Spent 3 hours in the ER tonight. Cut finger with knife.,Aurajoki Regional Hospital
+POST00597,Forum,lauraautio,,Turku,2025-01-22 16:28:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00598,PhotoShare,user98013,Iryna Shevchenko,Turku,2025-12-14 12:42:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,Aurajoki Regional Hospital
+POST00599,Forum,petri_p69,Petri Pihlakoski,Salo,2025-06-25 02:24:00,Spent 3 hours in the ER tonight. Vomiting and diarrhoea.,Aurajoki Regional Hospital
+POST00600,MicroPost,aramqadir,Aram Qadir,,2025-10-13 12:03:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00601,Forum,santeri_m06,Santeri,,2025-04-07 18:12:00,Spent 3 hours in the ER tonight. Abdominal pain.,
+POST00602,MicroPost,jonialaharju,Joni Alaharju,Turku,2025-12-23 07:25:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,
+POST00603,Forum,manty73,Eveliina,,2025-02-26 20:06:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00604,Forum,user71041,,,2025-08-31 00:40:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00605,PhotoShare,nelli_m09,Nelli Mattila,Lieto,2025-02-18 11:03:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,
+POST00606,Forum,sorsa53,Toni Sorsamaa,,2025-07-02 12:36:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,Aurajoki Regional Hospital
+POST00607,MicroPost,mikkotervokangas,,Lieto,2025-04-08 02:51:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00608,MicroPost,user69669,,Turku,2025-11-17 20:51:00,"Aurajoen päivystyksessä taas. Kuume ja yskä, kotitesti positiivinen.",Aurajoki Regional Hospital
+POST00609,MicroPost,susannakangasharju,,Raisio,2025-12-04 10:16:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",
+POST00610,Forum,user35853,Juha Salminen,Raisio,2025-05-31 18:11:00,Aurajoen päivystyksessä taas. Huulten turpoaminen ja hengitysvaikeus syömisen jälkeen.,Aurajoki Regional Hospital
+POST00611,MicroPost,lampi49,Inka Lampioja,,2025-08-22 05:08:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,Aurajoki Regional Hospital
+POST00612,MicroPost,tatianaivanova,Tatiana Ivanova,,2025-07-21 10:40:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00613,PhotoShare,essi_h02,Essi,,2025-03-11 02:42:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00614,Forum,joonaslappalainen,Joonas Lappalainen,Turku,2025-08-22 09:25:00,Spent 6 hours in the ER tonight. Painful urination.,Aurajoki Regional Hospital
+POST00615,MicroPost,user15882,,,2025-03-08 23:27:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00616,Forum,fannijoutsenmaki,Fanni,,2025-02-02 22:33:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00617,MicroPost,samuel_t08,Samuel,Naantali,2025-10-29 19:02:00,"Ei ihan näin piti viikonlopun mennä... kaatui pyörällä, olkapää kipeä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00618,PhotoShare,user10227,,Turku,2025-01-06 11:15:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00619,PhotoShare,pajul58,Esa Pajulehto,Paimio,2025-04-07 18:21:00,Jo 13 tuntia päivystyksessä odottamassa 🙄 rintakipu,
+POST00620,Forum,niemi98,,Laitila,2025-03-01 02:30:00,"Aurajoen päivystyksessä taas. Kaatui pyörällä, olkapää kipeä.",Aurajoki Regional Hospital
+POST00621,Forum,viita33,,Naantali,2025-01-02 12:51:00,"Jo 6 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00622,Forum,haapa71,Anne,Raisio,2025-07-09 23:10:00,Spent 4 hours in the ER tonight. Vomiting and diarrhoea.,Aurajoki Regional Hospital
+POST00623,MicroPost,marika_t82,Marika,Salo,2025-02-05 16:42:00,Spent 6 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00624,Forum,veeraniemiluoto-kultala,Veera Niemiluoto-Kultala,Raisio,2025-12-31 06:25:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00625,PhotoShare,annikakuusikallio,Annika Kuusikallio,Turku,2025-03-24 01:14:00,Spent 5 hours in the ER tonight. Chest pain.,
+POST00626,PhotoShare,user48637,Anu Ranta,Turku,2025-03-07 20:34:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,Aurajoki Regional Hospital
+POST00627,MicroPost,leppa10,Elina Leppälä,,2025-04-18 02:40:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,Aurajoki Regional Hospital
+POST00628,PhotoShare,kulta88,Ville Kultavuori,Turku,2025-05-15 02:32:00,Spent 4 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00629,Forum,sirvi37,Heidi Sirviö,Turku,2025-12-12 20:29:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 rintakipu,
+POST00630,MicroPost,jarkko_j78,,,2025-01-07 23:59:00,Aurajoen päivystyksessä taas. Pyörtyi kaupassa.,Aurajoki Regional Hospital
+POST00631,MicroPost,ylama19,Outi Ylämäki,,2025-10-20 20:50:00,"Ei ihan näin piti viikonlopun mennä... selkä jumissa, ei pääse liikkumaan, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00632,PhotoShare,marko_h87,Marko Haukkasalo,,2025-02-21 05:08:00,Spent 2 hours in the ER tonight. Twisted ankle.,
+POST00633,MicroPost,eemelihaukkamaki,Eemeli,Loimaa,2025-01-02 19:35:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 selkä jumissa, ei pääse liikkumaan",Aurajoki Regional Hospital
+POST00634,Forum,lindr68,Sari Lindroos,,2025-11-25 10:02:00,Spent 5 hours in the ER tonight. Back pain after lifting.,Aurajoki Regional Hospital
+POST00635,PhotoShare,lippo97,Riitta Lipponen,,2025-01-23 07:28:00,"Spent 3 hours in the ER tonight. Slipped on ice, wrist pain.",
+POST00636,PhotoShare,laaks68,Niina,,2025-06-14 09:47:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00637,Forum,katja_r87,,Raisio,2025-06-17 09:13:00,"Spent 3 hours in the ER tonight. Bicycle fall, shoulder pain.",Aurajoki Regional Hospital
+POST00638,MicroPost,tuomi14,Topias Tuomilehto,Raisio,2025-12-25 14:14:00,Spent 4 hours in the ER tonight. Fever and runny nose.,Aurajoki Regional Hospital
+POST00639,Forum,jesse_k04,,,2025-04-11 21:51:00,Aurajoen päivystyksessä taas. Haava päässä kaatumisen jälkeen.,Aurajoki Regional Hospital
+POST00640,Forum,haapa61,Jesse,Kaarina,2025-10-07 01:32:00,Spent 4 hours in the ER tonight. Sudden breathlessness.,Aurajoki Regional Hospital
+POST00641,PhotoShare,karja66,,Mynämäki,2025-11-12 21:28:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,Aurajoki Regional Hospital
+POST00642,MicroPost,user36584,Juho,Turku,2025-07-29 17:23:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,Aurajoki Regional Hospital
+POST00643,Forum,user87852,Maarit Pihlakallio,Turku,2025-09-07 00:23:00,Spent 5 hours in the ER tonight. Chest pain.,
+POST00644,MicroPost,joni_r81,Joni Rautakorpi,Nousiainen,2025-04-14 14:45:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 palovamma kädessä,Aurajoki Regional Hospital
+POST00645,MicroPost,samuelpajukorpi,,Uusikaupunki,2025-01-22 05:08:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00646,MicroPost,user25342,Sami Seppälä,Paimio,2025-06-29 09:54:00,Spent 3 hours in the ER tonight. Right lower abdominal pain.,Aurajoki Regional Hospital
+POST00647,PhotoShare,hirvi15,Juho Hirvisuo,,2025-06-20 20:43:00,Aurajoen päivystyksessä taas. Kova kylkikipu vasemmalla.,Aurajoki Regional Hospital
+POST00648,PhotoShare,kurki42,Julia Kurkijärvi,,2025-02-03 22:28:00,"Spent 6 hours in the ER tonight. Bicycle fall, shoulder pain.",
+POST00649,PhotoShare,neavainio,Nea Vainio,,2025-10-31 12:02:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,Aurajoki Regional Hospital
+POST00650,PhotoShare,user89266,,Pöytyä,2025-07-24 21:31:00,"Ei ihan näin piti viikonlopun mennä... kuume 39,5, nyt päivystyksessä.",
+POST00651,PhotoShare,kaarn55,Jaana Kaarnasuo,Parainen,2025-02-21 14:58:00,"Ei ihan näin piti viikonlopun mennä... korvakipu ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00652,PhotoShare,hannakaarnaluoto,,Kaarina,2025-09-13 05:56:00,Jo 13 tuntia päivystyksessä odottamassa 🙄 oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen,Aurajoki Regional Hospital
+POST00653,Forum,roosasorsavirta,Roosa Sorsavirta,Laitila,2025-02-13 21:44:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 hengenahdistus, avaava lääke ei auta",Aurajoki Regional Hospital
+POST00654,Forum,suviaziz,Suvi,Turku,2025-02-19 07:59:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00655,MicroPost,user70035,,Paimio,2025-01-30 20:27:00,"Jo 11 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",
+POST00656,MicroPost,jesse_k95,Jesse,,2025-08-07 21:20:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 ampiainen pisti, iho kutisee koko kehossa",Aurajoki Regional Hospital
+POST00657,PhotoShare,hiltu69,Pinja,Turku,2025-10-22 22:38:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00658,PhotoShare,jaana_l73,Jaana Leino,,2025-08-11 11:57:00,"Aurajoen päivystyksessä taas. Ampiainen pisti, iho kutisee koko kehossa.",Aurajoki Regional Hospital
+POST00659,PhotoShare,alvarfagerstrom,Alvar Fagerström,Turku,2025-02-20 19:58:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00660,MicroPost,elinaahomaa,Elina,,2025-07-07 16:01:00,Spent 3 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00661,PhotoShare,elenasmirnova,Elena Smirnova,Turku,2025-05-14 15:21:00,Spent 3 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00662,PhotoShare,roopesuolehto,Roope Suolehto,Pöytyä,2025-05-25 00:04:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kova kylkikipu vasemmalla,Aurajoki Regional Hospital
+POST00663,PhotoShare,pirjo_s65,Pirjo,Lieto,2025-05-22 21:59:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",
+POST00664,Forum,user75821,,Salo,2025-09-17 13:40:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00665,Forum,user31196,Jesse,,2025-03-19 04:13:00,"Aurajoen päivystyksessä taas. Kuume, yskä ja hengenahdistus.",Aurajoki Regional Hospital
+POST00666,PhotoShare,user23073,,Kaarina,2025-02-17 11:20:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,Aurajoki Regional Hospital
+POST00667,MicroPost,onni_s05,Onni Savolainen,Masku,2025-09-13 19:04:00,Spent 2 hours in the ER tonight. Twisted ankle.,Aurajoki Regional Hospital
+POST00668,Forum,tommilampivirta,Tommi Lampivirta,Turku,2025-07-31 08:35:00,Spent 2 hours in the ER tonight. Right upper quadrant pain.,Aurajoki Regional Hospital
+POST00669,PhotoShare,user71344,,,2025-07-06 18:09:00,Spent 6 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00670,MicroPost,user52364,Anders Lindroos,,2025-08-18 00:49:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 rintakipu,Aurajoki Regional Hospital
+POST00671,MicroPost,heino73,,Salo,2025-10-04 22:57:00,Spent 5 hours in the ER tonight. Severe headache.,
+POST00672,MicroPost,nea_p91,,Salo,2025-02-25 19:34:00,"Spent 5 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00673,Forum,susanna_k80,Susanna,,2025-12-10 10:00:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00674,PhotoShare,hennaryynanen,Henna,,2025-12-29 17:52:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00675,Forum,emilia_j95,,Turku,2025-08-22 08:44:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,Aurajoki Regional Hospital
+POST00676,MicroPost,user92102,Otto,Turku,2025-05-11 23:04:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, nilkka virheasennossa",Aurajoki Regional Hospital
+POST00677,Forum,hirvo36,Suvi Hirvonen,Salo,2025-02-12 00:09:00,"Spent 18 hours in the ER tonight. High fever, body aches.",
+POST00678,MicroPost,aleksei_m83,,,2025-03-09 16:30:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00679,MicroPost,arjakotkaranta,Arja,Turku,2025-02-09 21:28:00,Spent 5 hours in the ER tonight. Twisted ankle.,
+POST00680,MicroPost,rissa90,Anu Rissanen,Turku,2025-10-10 17:22:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,
+POST00681,PhotoShare,piiailveskorpi-virtanen,Piia Ilveskorpi-Virtanen,Kaarina,2025-05-17 08:11:00,Spent 4 hours in the ER tonight. Crushing chest pain.,
+POST00682,Forum,pihla32,Ville,Salo,2025-08-23 01:27:00,Spent 3 hours in the ER tonight. Cut finger with knife.,Aurajoki Regional Hospital
+POST00683,Forum,erik_p89,,Uusikaupunki,2025-11-06 21:21:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00684,Forum,user66491,Essi Härkönen,Kaarina,2025-02-20 23:04:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",
+POST00685,MicroPost,maryammoradi,Maryam,,2025-03-05 05:02:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 korkea kuume ja lihaskivut,Aurajoki Regional Hospital
+POST00686,Forum,arttuviitaoja,Arttu,,2025-04-19 16:55:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00687,Forum,lucia_p86,Lucía Pérez,Lieto,2025-11-07 20:28:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,Aurajoki Regional Hospital
+POST00688,MicroPost,henri_l91,Henri,,2025-12-30 15:01:00,Spent 5 hours in the ER tonight. Head injury after fall.,Aurajoki Regional Hospital
+POST00689,PhotoShare,rezae8,Shirin,Parainen,2025-03-05 20:29:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",
+POST00690,PhotoShare,niina_n75,,,2025-09-17 07:25:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00691,PhotoShare,mattiheinonen,Matti,,2025-02-10 19:50:00,Spent 11 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00692,PhotoShare,user53517,Santeri Hietala,,2025-03-04 21:32:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 korkea kuume ja lihaskivut,Aurajoki Regional Hospital
+POST00693,MicroPost,user12011,,Parainen,2025-08-17 09:57:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00694,PhotoShare,oskaritalvivirta,Oskari Talvivirta,,2025-05-05 13:59:00,Spent 3 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00695,PhotoShare,marko_k68,,Lieto,2025-09-19 18:17:00,"Spent 2 hours in the ER tonight. Bicycle fall, shoulder pain.",
+POST00696,PhotoShare,user76191,Ville,Somero,2025-09-06 05:03:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00697,PhotoShare,ida_l87,Ida,,2025-05-20 16:32:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 kova kylkikipu vasemmalla,Aurajoki Regional Hospital
+POST00698,MicroPost,user22203,,,2025-01-14 10:41:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen,Aurajoki Regional Hospital
+POST00699,Forum,tomi_k77,Tomi,,2025-02-28 23:21:00,Spent 10 hours in the ER tonight. Vomiting and diarrhoea.,
+POST00700,PhotoShare,pasi_t71,Pasi,Rusko,2025-10-06 09:52:00,Spent 8 hours in the ER tonight. Feeling unwell.,
+POST00701,Forum,user94476,Paula Heinämäki,,2025-12-12 05:03:00,Aurajoen päivystyksessä taas. Ohimenevä näköhäiriö ja käden puutuminen.,Aurajoki Regional Hospital
+POST00702,Forum,orava49,Anu Oravaranta,Turku,2025-12-02 13:43:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00703,Forum,viktor_v95,Viktor Valtonen,Parainen,2025-02-02 00:05:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,
+POST00704,PhotoShare,paula_k73,,,2025-10-20 04:22:00,"Ei ihan näin piti viikonlopun mennä... oikean alavatsan kipu ja kuume, nyt päivystyksessä.",
+POST00705,Forum,user80937,,,2025-08-28 11:38:00,"Spent 2 hours in the ER tonight. Fever, positive home test.",Aurajoki Regional Hospital
+POST00706,PhotoShare,user53218,Riikka Laine,Turku,2025-01-17 17:55:00,Aurajoen päivystyksessä taas. Äkillinen oikean puolen voimattomuus.,Aurajoki Regional Hospital
+POST00707,Forum,laurakaarnakoski,Laura Kaarnakoski,,2025-11-20 22:10:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",
+POST00708,Forum,orava90,Heli Oravamäki,Turku,2025-09-26 09:08:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00709,MicroPost,sami_h65,,Turku,2025-04-03 22:27:00,Spent 2 hours in the ER tonight. Palpitations.,Aurajoki Regional Hospital
+POST00710,PhotoShare,user16819,,Parainen,2025-10-07 15:33:00,Spent 10 hours in the ER tonight. Fainted.,Aurajoki Regional Hospital
+POST00711,MicroPost,user24125,Anna Forsström,,2025-10-04 04:11:00,Aurajoen päivystyksessä taas. Kaatui ja löi päänsä.,Aurajoki Regional Hospital
+POST00712,PhotoShare,siiri_s02,,,2025-07-20 11:29:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,Aurajoki Regional Hospital
+POST00713,PhotoShare,lehto88,,Turku,2025-02-26 07:14:00,Jo 17 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00714,Forum,user98851,,Sauvo,2025-12-28 16:16:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00715,MicroPost,lehto69,,Turku,2025-01-29 19:51:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00716,PhotoShare,user35815,Siiri Oravaluoto,,2025-01-23 08:59:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00717,MicroPost,onnioravaranta,Onni,,2025-06-03 01:47:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,
+POST00718,MicroPost,riku_v76,Riku,Sauvo,2025-12-18 06:35:00,Spent 6 hours in the ER tonight. Painful urination.,Aurajoki Regional Hospital
+POST00719,MicroPost,user98627,Oskari,,2025-10-03 22:34:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00720,PhotoShare,katja_k76,Katja,Turku,2025-12-24 11:30:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00721,Forum,toni_o85,Toni,Turku,2025-09-07 00:46:00,"Spent 6 hours in the ER tonight. Slipped on ice, wrist pain.",
+POST00722,Forum,bonda88,Sofiia Bondarenko,,2025-04-16 15:20:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00723,MicroPost,pinjaaaltokangas,Pinja,Salo,2025-09-20 12:56:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kova kylkikipu vasemmalla,
+POST00724,PhotoShare,user21607,,Turku,2025-07-22 16:02:00,"Spent 10 hours in the ER tonight. High fever, body aches.",
+POST00725,Forum,nikolai_p78,,,2025-09-19 15:11:00,"Ei ihan näin piti viikonlopun mennä... ohimenevä näköhäiriö ja käden puutuminen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00726,PhotoShare,jussi_o79,,Turku,2025-02-22 03:00:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",Aurajoki Regional Hospital
+POST00727,Forum,hannarautaoja,Hanna,,2025-10-03 16:02:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00728,PhotoShare,kanga50,Mika,,2025-08-02 01:27:00,"Ei ihan näin piti viikonlopun mennä... haava päässä kaatumisen jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00729,MicroPost,vuori11,Rolf,,2025-10-26 02:45:00,"Ei ihan näin piti viikonlopun mennä... hengenahdistus, avaava lääke ei auta, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00730,MicroPost,matti_a78,Matti Aro,Raisio,2025-07-17 20:24:00,Spent 5 hours in the ER tonight. Twisted ankle.,
+POST00731,Forum,leppa83,Mervi,,2025-04-06 02:09:00,"Spent 7 hours in the ER tonight. Fever, positive home test.",
+POST00732,PhotoShare,suoni52,Kalle,Laitila,2025-05-31 23:47:00,Spent 5 hours in the ER tonight. Severe headache.,
+POST00733,Forum,marti1,Veera Martikainen,,2025-02-16 02:03:00,Aurajoen päivystyksessä taas. Kova päänsärky.,Aurajoki Regional Hospital
+POST00734,PhotoShare,sannapajuniemi,Sanna Pajuniemi,Vehmaa,2025-07-17 14:11:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,
+POST00735,PhotoShare,haapa88,Julia Haapamäki,Naantali,2025-01-14 21:37:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00736,PhotoShare,kallekeskinen,Kalle Keskinen,Turku,2025-08-13 07:48:00,Spent 9 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00737,PhotoShare,user60259,Joel Karhuoja,Salo,2025-03-03 23:00:00,Spent 11 hours in the ER tonight. Head injury after fall.,
+POST00738,PhotoShare,user83550,,Kaarina,2026-01-01 09:03:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 vatsakipu,
+POST00739,Forum,jenna_l08,Jenna,,2025-01-11 19:24:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 äkillinen hengenahdistus ja rintakipu,
+POST00740,MicroPost,ottoviitaoja,,Turku,2025-12-01 22:50:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00741,Forum,user57525,Narin,,2025-07-26 22:13:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, ranne kipeä.",Aurajoki Regional Hospital
+POST00742,MicroPost,nataliia_t86,,,2025-06-20 01:51:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00743,MicroPost,oster48,Henrik Österlund,,2025-05-09 17:15:00,Aurajoen päivystyksessä taas. Kaatui ja löi päänsä.,
+POST00744,MicroPost,user48948,William Johansson,,2025-07-13 18:01:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kouristelukohtaus,Aurajoki Regional Hospital
+POST00745,MicroPost,rasmus_k04,Rasmus,,2025-05-09 01:57:00,"Aurajoen päivystyksessä taas. Kaatui pyörällä, olkapää kipeä.",Aurajoki Regional Hospital
+POST00746,MicroPost,riikka_p83,Riikka,Naantali,2025-07-14 15:09:00,Spent 2 hours in the ER tonight. Cut finger with knife.,Aurajoki Regional Hospital
+POST00747,MicroPost,user96083,Mervi,,2025-05-12 15:34:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,Aurajoki Regional Hospital
+POST00748,MicroPost,user85607,Tuija Mäkinen,Lieto,2025-08-28 05:46:00,"Ei ihan näin piti viikonlopun mennä... kuume, yskä ja hengenahdistus, nyt päivystyksessä.",
+POST00749,MicroPost,ronja_k90,Ronja Karjalainen,Turku,2025-07-26 04:05:00,Aurajoen päivystyksessä taas. Haava päässä kaatumisen jälkeen.,
+POST00750,PhotoShare,jousi23,Maarit Jousiluoto,,2025-03-09 02:31:00,"Spent 4 hours in the ER tonight. Slipped on ice, wrist pain.",Aurajoki Regional Hospital
+POST00751,PhotoShare,mikhail_v68,,,2025-12-14 19:40:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 vatsakipu,
+POST00752,Forum,makin18,Juho,Salo,2025-02-20 06:40:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",
+POST00753,PhotoShare,user55742,Pirjo Kaarnavuori,,2025-07-25 21:52:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 rintakipu,
+POST00754,Forum,pasan10,,Kaarina,2025-12-16 22:04:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,Aurajoki Regional Hospital
+POST00755,MicroPost,satuojakorpi,Satu Ojakorpi,Turku,2025-06-05 18:04:00,"Spent 5 hours in the ER tonight. Slipped on ice, wrist pain.",Aurajoki Regional Hospital
+POST00756,MicroPost,heliahola,Heli,Naantali,2025-01-02 10:07:00,Aurajoen päivystyksessä taas. Kaatui ja löi päänsä.,
+POST00757,PhotoShare,manty4,,,2025-11-30 18:58:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",
+POST00758,MicroPost,venlakarhuaho,Venla Karhuaho,,2025-07-10 14:52:00,Spent 2 hours in the ER tonight. Back pain after lifting.,Aurajoki Regional Hospital
+POST00759,MicroPost,hytti65,Juho,Turku,2025-02-14 20:25:00,Spent 2 hours in the ER tonight. Vomiting and diarrhoea.,Aurajoki Regional Hospital
+POST00760,PhotoShare,arttu_r03,Arttu,Turku,2025-11-27 11:02:00,Spent 6 hours in the ER tonight. Chest pain.,
+POST00761,MicroPost,veeti_a04,Veeti,Naantali,2025-07-07 01:36:00,"Ei ihan näin piti viikonlopun mennä... äkillinen hengenahdistus ja rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00762,Forum,makik19,Susanna Mäkikangas,Turku,2025-06-28 10:50:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00763,MicroPost,user43259,,Masku,2025-12-14 15:06:00,Aurajoen päivystyksessä taas. Huonovointisuus.,Aurajoki Regional Hospital
+POST00764,PhotoShare,lahti91,Nea,Lieto,2025-09-17 07:02:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 haava päässä kaatumisen jälkeen,
+POST00765,MicroPost,ander59,Johan,Parainen,2025-06-30 05:37:00,"Spent 3 hours in the ER tonight. High fever, body aches.",
+POST00766,MicroPost,user68800,,,2025-12-09 12:45:00,"Jo 7 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00767,PhotoShare,user51224,Mika,Turku,2025-10-31 02:48:00,Spent 11 hours in the ER tonight. Palpitations.,
+POST00768,PhotoShare,joonashautala,Joonas Hautala,,2025-02-26 01:57:00,"Aurajoen päivystyksessä taas. Kuume ja yskä, kotitesti positiivinen.",Aurajoki Regional Hospital
+POST00769,MicroPost,rinta56,Elias,,2025-01-29 16:18:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",
+POST00770,MicroPost,nellilahtinen,,,2025-12-19 17:08:00,"Aurajoen päivystyksessä taas. Kaatui liukkaalla, nilkka virheasennossa.",Aurajoki Regional Hospital
+POST00771,PhotoShare,user86661,Jesse Vuoriranta,Rusko,2025-07-15 00:14:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,
+POST00772,Forum,user63074,Hussein,,2025-03-03 10:26:00,Spent 2 hours in the ER tonight. Cut on the head.,
+POST00773,PhotoShare,user18474,,,2025-07-24 01:56:00,Spent 3 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00774,Forum,arttu_t09,Arttu,Raisio,2025-02-06 06:55:00,"Aurajoen päivystyksessä taas. Kaatui pyörällä, olkapää kipeä.",Aurajoki Regional Hospital
+POST00775,Forum,user10269,Heidi,Salo,2025-11-04 14:43:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,
+POST00776,Forum,hannahaataja,,,2025-03-04 06:26:00,Spent 15 hours in the ER tonight. Right upper quadrant pain.,Aurajoki Regional Hospital
+POST00777,MicroPost,user92205,Minna Hirvivirta,,2025-07-12 20:21:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,
+POST00778,PhotoShare,laine19,Ville,Turku,2025-10-19 23:38:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 selkä jumissa, ei pääse liikkumaan",Aurajoki Regional Hospital
+POST00779,MicroPost,arttu_a04,Arttu Alakallio,,2025-11-03 02:07:00,Aurajoen päivystyksessä taas. Vatsakipu.,
+POST00780,Forum,piiakaikkonen,,,2025-07-31 21:13:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00781,Forum,user71889,Joni Pohjola,Somero,2025-03-24 18:42:00,"Ei ihan näin piti viikonlopun mennä... kova kylkikipu vasemmalla, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00782,MicroPost,ruden73,Yuliia Rudenko,Turku,2025-02-15 01:06:00,Spent 5 hours in the ER tonight. Twisted ankle.,Aurajoki Regional Hospital
+POST00783,PhotoShare,nearuohokangas,Nea Ruohokangas,Somero,2025-09-30 07:43:00,Aurajoen päivystyksessä taas. Huonovointisuus.,
+POST00784,MicroPost,artokarhuharju,Arto Karhuharju,Turku,2025-03-02 23:24:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00785,Forum,user35543,,Turku,2025-07-19 05:15:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,Aurajoki Regional Hospital
+POST00786,PhotoShare,ville_a90,Ville Aaltonen,Masku,2025-03-14 12:07:00,Spent 8 hours in the ER tonight. Right upper quadrant pain.,Aurajoki Regional Hospital
+POST00787,MicroPost,oona_k05,Oona,,2025-09-15 04:45:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,
+POST00788,MicroPost,susannajousikangas,Susanna Jousikangas,Turku,2025-07-26 06:32:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,
+POST00789,Forum,tiinavahtera-pohjolehto,Tiina Vahtera-Pohjolehto,Turku,2025-12-06 22:48:00,Aurajoen päivystyksessä taas. Haava päässä kaatumisen jälkeen.,
+POST00790,MicroPost,user92204,Riku Hietaaho,Raisio,2025-08-13 05:05:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00791,MicroPost,user41834,Pinja Talvivirta,,2025-10-06 04:25:00,Aurajoen päivystyksessä taas. Kova päänsärky.,Aurajoki Regional Hospital
+POST00792,PhotoShare,anttisarkaharju,Antti Sarkaharju,,2025-08-22 00:12:00,"Ei ihan näin piti viikonlopun mennä... kuume, yskä ja hengenahdistus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00793,MicroPost,user50837,Minna,Turku,2025-12-17 02:38:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00794,MicroPost,orava38,Elias Oravamäki,Turku,2025-08-09 19:17:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,Aurajoki Regional Hospital
+POST00795,MicroPost,user46996,,,2025-02-15 15:15:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",
+POST00796,Forum,jouts78,Eemeli Joutsenharju,Salo,2025-10-28 10:36:00,Aurajoen päivystyksessä taas. Nilkka nyrjähti pelatessa.,
+POST00797,MicroPost,user25946,Noora,Kaarina,2025-08-31 01:01:00,Aurajoen päivystyksessä taas. Kaatui ja löi päänsä.,Aurajoki Regional Hospital
+POST00798,MicroPost,user44326,Anna Åberg,,2025-05-26 05:19:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 rintakipu,
+POST00799,PhotoShare,janne_m78,Janne,Lieto,2025-11-27 22:31:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 raketti osui silmään,Aurajoki Regional Hospital
+POST00800,PhotoShare,mylly1,Leena Myllymäki,Loimaa,2025-11-14 17:09:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00801,MicroPost,heidi_i76,,Turku,2025-10-01 11:35:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00802,PhotoShare,user15373,Toni,Rusko,2025-10-10 08:45:00,Spent 2 hours in the ER tonight. Cut on the head.,Aurajoki Regional Hospital
+POST00803,PhotoShare,eveliina_o92,Eveliina,,2025-11-25 12:39:00,Jo 8 tuntia päivystyksessä odottamassa 🙄 kouristelukohtaus,Aurajoki Regional Hospital
+POST00804,Forum,tiinahakkinen,,,2025-12-16 08:58:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00805,PhotoShare,juha_p74,,,2025-04-14 18:31:00,Aurajoen päivystyksessä taas. Pyörtyi kaupassa.,
+POST00806,MicroPost,user63977,Oona,Naantali,2025-09-20 22:08:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,
+POST00807,PhotoShare,kivil31,Sara Kivilä,Turku,2025-12-14 09:20:00,Jo 16 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,Aurajoki Regional Hospital
+POST00808,PhotoShare,eeturasanen,Eetu Räsänen,Salo,2025-11-05 11:26:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 hengenahdistus, avaava lääke ei auta",
+POST00809,Forum,user91297,Marko,,2025-04-20 01:36:00,Spent 3 hours in the ER tonight. Back pain after lifting.,Aurajoki Regional Hospital
+POST00810,MicroPost,mykolarudenko,Mykola Rudenko,Kaarina,2025-01-05 11:05:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 haava päässä kaatumisen jälkeen,Aurajoki Regional Hospital
+POST00811,Forum,jereniemela,Jere Niemelä,,2025-09-13 07:18:00,"Ei ihan näin piti viikonlopun mennä... oikean alavatsan kipu ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00812,MicroPost,nooraaaltonen,,Turku,2025-12-24 21:58:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",Aurajoki Regional Hospital
+POST00813,PhotoShare,user45270,Ryan Wilson,Kaarina,2025-06-13 07:27:00,Spent 17 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00814,MicroPost,ville_r96,,,2025-10-22 01:21:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 kova päänsärky,
+POST00815,MicroPost,oskariheinasalo,,,2025-09-24 17:28:00,"Spent 9 hours in the ER tonight. Fever, positive home test.",
+POST00816,Forum,sarka39,Anu Sarkaharju,,2025-01-21 22:06:00,"Spent 12 hours in the ER tonight. Sudden weakness, slurred speech.",
+POST00817,PhotoShare,johanna_k77,,Turku,2025-07-27 05:05:00,Spent 6 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00818,PhotoShare,pasi_h68,Pasi,Loimaa,2025-04-25 18:51:00,Aurajoen päivystyksessä taas. Huonovointisuus.,Aurajoki Regional Hospital
+POST00819,PhotoShare,kanga91,Elina Kangaskoski,,2025-02-17 22:30:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00820,Forum,user94497,Juho Laaksojärvi,,2025-11-10 11:29:00,Spent 2 hours in the ER tonight. Abdominal pain.,
+POST00821,PhotoShare,sorsa79,Leena,Turku,2025-06-14 07:05:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 haava päässä kaatumisen jälkeen,
+POST00822,PhotoShare,david_m06,David,Salo,2025-02-12 14:21:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 kova kylkikipu vasemmalla,Aurajoki Regional Hospital
+POST00823,MicroPost,haapa47,Valtteri Haapapää,Turku,2025-07-20 07:19:00,"Ei ihan näin piti viikonlopun mennä... nilkka nyrjähti pelatessa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00824,PhotoShare,christerlindberg,,Parainen,2025-06-07 22:46:00,Aurajoen päivystyksessä taas. Haava päässä kaatumisen jälkeen.,Aurajoki Regional Hospital
+POST00825,MicroPost,manty30,,Turku,2025-05-16 17:21:00,Aurajoen päivystyksessä taas. Vatsakipu.,
+POST00826,MicroPost,user73699,Sanna,,2025-12-26 03:49:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 selkä jumissa, ei pääse liikkumaan",Aurajoki Regional Hospital
+POST00827,MicroPost,sofialindroos,Sofia,Turku,2025-07-08 15:01:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00828,Forum,kallekujala,Kalle Kujala,Naantali,2025-12-12 20:00:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, ranne kipeä",
+POST00829,PhotoShare,user65677,,,2025-11-11 00:53:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00830,MicroPost,mari_h89,Mari Halonen,Naantali,2025-07-10 00:10:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00831,MicroPost,user43065,,,2025-06-02 18:44:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00832,PhotoShare,hieta97,Mikael Hietaniemi,Turku,2025-03-23 00:02:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",
+POST00833,MicroPost,millatuomioja,,Turku,2025-04-06 18:08:00,Spent 3 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00834,MicroPost,juliarautajarvi,,,2025-08-14 15:46:00,"Ei ihan näin piti viikonlopun mennä... huonovointisuus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00835,Forum,user25785,,,2025-08-28 14:21:00,Spent 6 hours in the ER tonight. Worsening breathlessness.,Aurajoki Regional Hospital
+POST00836,MicroPost,user41271,Hanna,Mynämäki,2025-12-28 07:36:00,Jo 13 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00837,MicroPost,juha_l67,Juha,Nousiainen,2025-03-06 14:13:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00838,MicroPost,user82872,Emma,,2025-01-29 04:12:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 vatsakipu,
+POST00839,Forum,tuijahallaniemi,Tuija Hallaniemi,,2025-05-15 12:09:00,Spent 3 hours in the ER tonight. Twisted ankle.,
+POST00840,MicroPost,user35425,Pirjo Suokorpi,Naantali,2025-06-16 18:53:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00841,Forum,saari91,Ari,,2025-01-20 16:11:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 kuume ja yskä, kotitesti positiivinen",Aurajoki Regional Hospital
+POST00842,PhotoShare,user23354,,,2025-01-31 13:48:00,"Ei ihan näin piti viikonlopun mennä... kova kylkikipu vasemmalla, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00843,Forum,user98914,,Turku,2025-03-11 07:44:00,"Ei ihan näin piti viikonlopun mennä... haava päässä kaatumisen jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00844,Forum,user87967,Ilkka Aho,,2025-02-24 06:57:00,Jo 8 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00845,Forum,tiinatikkanen,Tiina,Turku,2025-12-10 16:49:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,
+POST00846,PhotoShare,heidi_a81,,Naantali,2025-09-25 17:20:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00847,Forum,user53806,,Laitila,2025-02-12 19:50:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",
+POST00848,MicroPost,user34928,,Lieto,2025-04-21 19:44:00,Spent 8 hours in the ER tonight. Fever and cough.,
+POST00849,PhotoShare,eveliina_h99,,,2025-01-18 22:58:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,
+POST00850,Forum,sanna_y82,Sanna Ylönen,Turku,2025-11-25 01:04:00,Aurajoen päivystyksessä taas. Rintakipu.,Aurajoki Regional Hospital
+POST00851,MicroPost,user65803,Päivi,Raisio,2025-04-09 00:16:00,"Aurajoen päivystyksessä taas. Kuume, yskä ja hengenahdistus.",Aurajoki Regional Hospital
+POST00852,MicroPost,kettu32,Venla Kettunen,,2025-03-07 18:11:00,Spent 3 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00853,MicroPost,marikalehtopaa,Marika,Parainen,2025-03-20 08:04:00,Spent 2 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00854,Forum,parkk52,Noora,Turku,2025-08-17 21:33:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 vatsakipu,Aurajoki Regional Hospital
+POST00855,MicroPost,kuusi49,,,2025-07-02 12:52:00,"Jo 7 tuntia päivystyksessä odottamassa 🙄 kuume ja yskä, kotitesti positiivinen",Aurajoki Regional Hospital
+POST00856,PhotoShare,user79217,Niko,Somero,2025-01-22 21:58:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",
+POST00857,PhotoShare,sara_k02,Sara Kultakoski,Kaarina,2025-12-31 06:22:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 korkea kuume ja lihaskivut,
+POST00858,MicroPost,hanna_l83,,,2025-01-23 05:41:00,Aurajoen päivystyksessä taas. Haava päässä kaatumisen jälkeen.,Aurajoki Regional Hospital
+POST00859,Forum,markokoivukoski,Marko Koivukoski,Sauvo,2025-10-29 09:12:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00860,MicroPost,markopajuniemi,,Lieto,2025-02-17 21:13:00,"Aurajoen päivystyksessä taas. Kuume, yskä ja hengenahdistus.",
+POST00861,Forum,minna_k69,Minna Kuusiluoto,,2025-09-08 04:26:00,"Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui liukkaalla, nilkka virheasennossa",Aurajoki Regional Hospital
+POST00862,MicroPost,kravc97,,,2025-08-12 08:17:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,
+POST00863,MicroPost,henri_r96,Henri,,2025-04-26 23:33:00,Aurajoen päivystyksessä taas. Huulten turpoaminen ja hengitysvaikeus syömisen jälkeen.,Aurajoki Regional Hospital
+POST00864,MicroPost,laurakuusikallio,Laura,Aura,2025-07-09 08:41:00,Spent 3 hours in the ER tonight. Cut on the head.,Aurajoki Regional Hospital
+POST00865,Forum,user27468,Pirjo Rintaranta,,2025-11-07 18:15:00,Jo 16 tuntia päivystyksessä odottamassa 🙄 äkillinen hengenahdistus ja rintakipu,Aurajoki Regional Hospital
+POST00866,PhotoShare,inkasaarinen,,,2025-10-15 21:59:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00867,Forum,user94916,,Turku,2025-04-15 22:45:00,Spent 2 hours in the ER tonight. Feeling unwell.,
+POST00868,Forum,jenni_l88,Jenni,,2025-03-01 15:10:00,Spent 2 hours in the ER tonight. Right upper quadrant pain.,
+POST00869,PhotoShare,user26880,,,2025-01-19 19:38:00,"Ei ihan näin piti viikonlopun mennä... rintakipu, nyt päivystyksessä.",
+POST00870,Forum,natalia_s05,,Kustavi,2025-08-02 02:29:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 ampiainen pisti, iho kutisee koko kehossa",
+POST00871,MicroPost,user99423,,Turku,2025-02-03 23:43:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, nilkka virheasennossa, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00872,PhotoShare,ari_k71,,Turku,2025-12-10 03:38:00,Jo 9 tuntia päivystyksessä odottamassa 🙄 äkillinen hengenahdistus ja rintakipu,Aurajoki Regional Hospital
+POST00873,PhotoShare,user11331,Venla Kivimäki,Lieto,2025-10-05 21:14:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00874,PhotoShare,teemu_r82,Teemu Ruohopää,Turku,2025-09-01 14:45:00,Aurajoen päivystyksessä taas. Kova päänsärky.,
+POST00875,MicroPost,lauralaaksoharju,Laura Laaksoharju,Raisio,2025-04-04 09:21:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,
+POST00876,Forum,inka_a96,,Naantali,2025-12-29 13:20:00,Aurajoen päivystyksessä taas. Pyörtyi kaupassa.,Aurajoki Regional Hospital
+POST00877,Forum,nelli_l02,Nelli Leppälä,,2025-04-07 15:59:00,Spent 6 hours in the ER tonight. Painful urination.,
+POST00878,PhotoShare,lehto91,,,2025-01-13 14:51:00,"Ei ihan näin piti viikonlopun mennä... kuume, yskä ja hengenahdistus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00879,Forum,ottouotila,Otto Uotila,,2025-02-04 14:04:00,Aurajoen päivystyksessä taas. Huonovointisuus.,Aurajoki Regional Hospital
+POST00880,PhotoShare,inka_p91,Inka,,2025-02-27 21:02:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 pyörtyi kaupassa,Aurajoki Regional Hospital
+POST00881,PhotoShare,user82032,Marika Lähteenmäki-Kallioharju,,2025-11-21 22:56:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00882,Forum,user73713,Riikka,Turku,2025-06-30 20:33:00,Aurajoen päivystyksessä taas. Haava päässä kaatumisen jälkeen.,Aurajoki Regional Hospital
+POST00883,MicroPost,siirisaarilahti,Siiri Saarilahti,,2025-07-25 03:47:00,Spent 3 hours in the ER tonight. Severe headache.,
+POST00884,PhotoShare,henna_k86,,Turku,2025-08-07 10:55:00,Spent 5 hours in the ER tonight. Cut on the head.,Aurajoki Regional Hospital
+POST00885,MicroPost,user53661,Rebecca Wilson,,2025-07-09 05:14:00,Spent 6 hours in the ER tonight. Chest pain.,Aurajoki Regional Hospital
+POST00886,Forum,jessicawalker,Jessica Walker,Turku,2025-12-03 22:23:00,Spent 6 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00887,PhotoShare,turpe63,Teemu Turpeinen,,2025-06-12 21:55:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00888,PhotoShare,karinengblom,,Turku,2025-09-25 04:57:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00889,MicroPost,user64572,,Turku,2025-01-25 22:29:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 ampiainen pisti, iho kutisee koko kehossa",
+POST00890,MicroPost,ruoho88,Timo,,2025-06-21 00:22:00,Jo 7 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,
+POST00891,Forum,jesse_m09,Jesse,,2025-11-10 10:14:00,"Ei ihan näin piti viikonlopun mennä... huonovointisuus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00892,PhotoShare,user23804,,Kemiönsaari,2025-05-23 15:19:00,"Jo 3 tuntia päivystyksessä odottamassa 🙄 kuume ja yskä, kotitesti positiivinen",Aurajoki Regional Hospital
+POST00893,PhotoShare,kopon78,Milla,,2025-03-24 20:06:00,Aurajoen päivystyksessä taas. Kouristelukohtaus.,Aurajoki Regional Hospital
+POST00894,Forum,user60389,,Turku,2025-03-05 03:28:00,"Ei ihan näin piti viikonlopun mennä... korkea kuume ja lihaskivut, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00895,Forum,user15474,Ari Sorsalahti,Uusikaupunki,2025-03-19 15:05:00,"Jo 13 tuntia päivystyksessä odottamassa 🙄 kuume, yskä ja hengenahdistus",Aurajoki Regional Hospital
+POST00896,PhotoShare,noora_m98,Noora,Masku,2025-10-26 17:15:00,Spent 2 hours in the ER tonight. Severe headache.,Aurajoki Regional Hospital
+POST00897,PhotoShare,ikone47,Joonas Ikonen,Turku,2025-08-11 17:14:00,Aurajoen päivystyksessä taas. Kirvelyä virtsatessa ja kuume.,
+POST00898,PhotoShare,satu_y89,Satu Ylänen-Heinäluoto,Turku,2025-11-29 02:46:00,"Ei ihan näin piti viikonlopun mennä... oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00899,Forum,roopemustonen,Roope,Turku,2025-06-02 12:48:00,Aurajoen päivystyksessä taas. Oksentelu ja ripuli.,Aurajoki Regional Hospital
+POST00900,Forum,jenni_s86,Jenni,Kaarina,2025-05-21 04:23:00,Jo 3 tuntia päivystyksessä odottamassa 🙄 rintakipu,Aurajoki Regional Hospital
+POST00901,Forum,ilves82,Topias,Loimaa,2025-10-26 14:01:00,Aurajoen päivystyksessä taas. Vatsakipu.,
+POST00902,MicroPost,minnahietasuo,Minna,,2025-01-21 04:26:00,Spent 7 hours in the ER tonight. Severe headache.,
+POST00903,Forum,tommi_h78,,Raisio,2025-05-14 15:06:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 sydämentykytys,
+POST00904,Forum,samuel_h00,Samuel Hirvivirta,Lieto,2025-02-26 21:44:00,"Ei ihan näin piti viikonlopun mennä... kaatui pyörällä, olkapää kipeä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00905,PhotoShare,onni_s03,Onni Sorsaharju,Turku,2025-10-10 02:47:00,Spent 3 hours in the ER tonight. Severe headache.,
+POST00906,MicroPost,user96546,Ella Heinonen,Kaarina,2025-10-09 23:34:00,Aurajoen päivystyksessä taas. Oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen.,Aurajoki Regional Hospital
+POST00907,PhotoShare,samuel_m93,,,2025-01-27 18:43:00,"Ei ihan näin piti viikonlopun mennä... kova päänsärky, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00908,PhotoShare,emiliashevchenko,Emilia Shevchenko,Turku,2025-06-23 11:34:00,"Ei ihan näin piti viikonlopun mennä... viilsi sormeen veitsellä, nyt päivystyksessä.",
+POST00909,PhotoShare,eliaslumimaa,Elias Lumimaa,Turku,2025-12-13 19:46:00,Spent 3 hours in the ER tonight. Wheezing.,Aurajoki Regional Hospital
+POST00910,PhotoShare,hannu_y69,Hannu Ylämäki,Mynämäki,2025-01-06 21:52:00,Spent 2 hours in the ER tonight. Chest pain.,
+POST00911,Forum,harti53,,Pyhäranta,2025-02-24 02:30:00,"Spent 2 hours in the ER tonight. High fever, body aches.",
+POST00912,PhotoShare,keski13,Ari,,2025-03-17 17:25:00,"Ei ihan näin piti viikonlopun mennä... kuume ja yskä, kotitesti positiivinen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00913,PhotoShare,user74206,Tuomas Rautakallio,,2025-01-07 04:38:00,Spent 9 hours in the ER tonight. Abdominal pain.,Aurajoki Regional Hospital
+POST00914,Forum,user67882,Jani,Kaarina,2025-03-06 19:23:00,"Ei ihan näin piti viikonlopun mennä... oksentelu ja ripuli, nyt päivystyksessä.",
+POST00915,Forum,dang25,Anh Dang,Uusikaupunki,2025-12-16 10:13:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 kaatui ja löi päänsä,Aurajoki Regional Hospital
+POST00916,MicroPost,rasan94,Minna Räsänen,Salo,2025-06-05 12:30:00,"Ei ihan näin piti viikonlopun mennä... haava päässä kaatumisen jälkeen, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00917,MicroPost,saloj53,,Pöytyä,2025-01-07 17:13:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 nilkka nyrjähti pelatessa,Aurajoki Regional Hospital
+POST00918,PhotoShare,millalaine,Milla,Turku,2025-08-18 17:21:00,Jo 8 tuntia päivystyksessä odottamassa 🙄 huonovointisuus,Aurajoki Regional Hospital
+POST00919,Forum,alane1,,Uusikaupunki,2025-07-08 10:10:00,Spent 2 hours in the ER tonight. Feeling unwell.,
+POST00920,PhotoShare,user10716,Petri Pajuaho,Turku,2025-07-08 20:03:00,Spent 2 hours in the ER tonight. Red swollen leg.,
+POST00921,Forum,rauta58,Ilkka Rautakorpi,Turku,2025-09-22 04:44:00,"Aurajoen päivystyksessä taas. Selkä jumissa, ei pääse liikkumaan.",
+POST00922,MicroPost,venla_l06,Venla,,2025-02-04 03:17:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00923,Forum,sara_a09,Sara,Salo,2025-08-18 06:38:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00924,MicroPost,user68654,,Turku,2025-11-28 10:23:00,Spent 9 hours in the ER tonight. Vomiting and diarrhoea.,Aurajoki Regional Hospital
+POST00925,Forum,user33200,Joel Sirviö,Somero,2025-09-30 17:21:00,"Ei ihan näin piti viikonlopun mennä... kirvelyä virtsatessa ja kuume, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00926,Forum,user42120,Mari,,2025-07-20 16:00:00,"Ei ihan näin piti viikonlopun mennä... vatsakipu, nyt päivystyksessä.",
+POST00927,MicroPost,suvi_k80,Suvi Kangasoja,,2025-08-06 20:44:00,"Ei ihan näin piti viikonlopun mennä... oikean kylkikaaren alainen kipu rasvaisen aterian jälkeen, nyt päivystyksessä.",
+POST00928,MicroPost,arttugustafsson,,Masku,2025-10-05 09:05:00,Aurajoen päivystyksessä taas. Viilsi sormeen veitsellä.,Aurajoki Regional Hospital
+POST00929,PhotoShare,ronjasuovirta,Ronja Suovirta,Kaarina,2025-07-17 21:24:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00930,Forum,mikkoeskola,Mikko,,2025-01-08 19:03:00,"Ei ihan näin piti viikonlopun mennä... äkillinen oikean puolen voimattomuus, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00931,Forum,user85288,,Turku,2025-10-22 04:54:00,Spent 5 hours in the ER tonight. Painful urination.,
+POST00932,MicroPost,essileppakoski,Essi Leppäkoski,Lieto,2025-05-05 18:06:00,Aurajoen päivystyksessä taas. Kova päänsärky.,
+POST00933,MicroPost,kivil69,,Turku,2025-09-03 19:22:00,Jo 2 tuntia päivystyksessä odottamassa 🙄 viilsi sormeen veitsellä,Aurajoki Regional Hospital
+POST00934,PhotoShare,viktorhellsten,Viktor Hellsten,Parainen,2025-09-25 08:23:00,Aurajoen päivystyksessä taas. Vatsakipu.,Aurajoki Regional Hospital
+POST00935,MicroPost,user38751,Juho Rajala,Parainen,2025-12-27 06:16:00,"Ei ihan näin piti viikonlopun mennä... kaatui liukkaalla, nilkka virheasennossa, nyt päivystyksessä.",
+POST00936,Forum,santeri_r01,,Lieto,2025-04-17 23:37:00,"Ei ihan näin piti viikonlopun mennä... hengenahdistus, avaava lääke ei auta, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00937,PhotoShare,makin81,Inka Mäkinen,,2025-08-19 23:48:00,Jo 5 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00938,MicroPost,heino21,Marika Heinonen,,2025-07-02 13:19:00,Spent 7 hours in the ER tonight. Seizure.,Aurajoki Regional Hospital
+POST00939,MicroPost,user98819,Anna Jousila,,2025-04-19 23:53:00,Spent 2 hours in the ER tonight. Wheezing.,Aurajoki Regional Hospital
+POST00940,Forum,user23382,,,2025-07-12 14:34:00,"Ei ihan näin piti viikonlopun mennä... korkeat verensokerit, oksentelu, nyt päivystyksessä.",
+POST00941,MicroPost,riikka_m82,Riikka,,2025-04-03 20:22:00,"Ei ihan näin piti viikonlopun mennä... kaatui ja löi päänsä, nyt päivystyksessä.",Aurajoki Regional Hospital
+POST00942,Forum,sannapihlamaki,Sanna Pihlamäki,Turku,2025-01-20 20:59:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",
+POST00943,Forum,tuomi19,Jenni Tuomiluoto,Somero,2025-12-06 22:59:00,"Ei ihan näin piti viikonlopun mennä... pyörtyi kaupassa, nyt päivystyksessä.",
+POST00944,MicroPost,petteri_k88,,,2025-03-03 04:27:00,"Spent 6 hours in the ER tonight. High fever, body aches.",Aurajoki Regional Hospital
+POST00945,Forum,user13830,Topias,Salo,2025-01-01 02:04:00,Jo 6 tuntia päivystyksessä odottamassa 🙄 kirvelyä virtsatessa ja kuume,Aurajoki Regional Hospital
+POST00946,Forum,siiri_p93,Siiri Pihlalahti,,2025-04-08 16:14:00,Jo 4 tuntia päivystyksessä odottamassa 🙄 viilsi sormeen veitsellä,Aurajoki Regional Hospital
+POST00947,Forum,marko_k75,Marko Kotkaoja,Lieto,2025-11-19 15:46:00,"Aurajoen päivystyksessä taas. Kuume ja yskä, kotitesti positiivinen.",
+POST00948,MicroPost,user14840,,Turku,2025-07-31 04:42:00,Spent 15 hours in the ER tonight. Severe flank pain.,Aurajoki Regional Hospital

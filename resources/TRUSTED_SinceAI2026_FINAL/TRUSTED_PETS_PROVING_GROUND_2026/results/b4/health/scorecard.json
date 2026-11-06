@@ -1,0 +1,258 @@
+{
+  "tool": "pets-eval 1.0.0",
+  "dataset": "health",
+  "scenario": {
+    "id": "HEALTH-S3",
+    "dataset": "health",
+    "title": "AI vendor training a triage-support model",
+    "recipient": "External AI vendor under a data-processing agreement",
+    "purpose": "Train a model predicting admission from triage-time information",
+    "trust_level": "contractual",
+    "threat_model": "Vendor staff or a breach; membership inference on synthetic data; memorised rare patients.",
+    "legal_context": "Processor relationship; data minimisation; synthetic data must not reproduce real records (check distance to closest record and membership inference).",
+    "utility_requirements": [
+      "H-U3",
+      "H-U5",
+      "H-U2"
+    ],
+    "suggested_privacy_targets": "Fully synthetic or strongly generalised training table without free text; membership-inference AUC close to 0.5 against holdout; no record closer to a real one than real records are to each other.",
+    "notes": "Use holdout/health as non-members for membership-inference tests."
+  },
+  "original": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/data/health",
+  "protected": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/results/b4/health",
+  "tables": {
+    "clinical_notes": {
+      "table": "clinical_notes",
+      "status": "withheld",
+      "rows_original": 30103
+    },
+    "ed_visits": {
+      "table": "ed_visits",
+      "status": "released",
+      "rows_original": 46398,
+      "rows_protected": 40000,
+      "columns_dropped": [
+        "visit_id",
+        "patient_hetu",
+        "patient_name",
+        "date_of_birth",
+        "phone",
+        "home_address",
+        "postcode",
+        "ambulance_unit",
+        "chief_complaint",
+        "icd10_secondary",
+        "diastolic_bp",
+        "resp_rate",
+        "pain_nrs",
+        "attending_physician_id",
+        "attending_physician_name",
+        "discharge_ts"
+      ],
+      "columns_added": [
+        "age"
+      ],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "sex",
+          "municipality",
+          "arrival_ts",
+          "arrival_mode"
+        ],
+        "n": 40000,
+        "n_classes": 39902,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9951,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9951,
+        "note": "not scored as a risk: rows are not linked to real records (synthetic or aggregate)"
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "sex",
+          "municipality",
+          "arrival_ts",
+          "arrival_mode"
+        ],
+        "n": 46398,
+        "n_classes": 46266,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9943,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9943
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "triage",
+        "qis": [
+          "sex",
+          "municipality",
+          "arrival_ts",
+          "arrival_mode"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 0.9969,
+        "share_classes_l1": 0.9985,
+        "n_classes": 39902
+      },
+      "row_alignment": "none",
+      "linkage": {
+        "note": "no row map: linkage not evaluated (treated as synthetic / aggregate release)"
+      },
+      "free_text": {
+        "chief_complaint": {
+          "evaluated": true,
+          "status": "withheld",
+          "identifying_leakage_rate": 0.0
+        }
+      },
+      "synthetic": {
+        "dcr": {
+          "evaluated": true,
+          "columns": [
+            "sex",
+            "municipality",
+            "arrival_mode",
+            "triage",
+            "icd10_primary",
+            "disposition",
+            "los_minutes",
+            "systolic_bp",
+            "heart_rate",
+            "temp_c",
+            "spo2",
+            "readmit_30d"
+          ],
+          "n_synthetic": 20000,
+          "median_dcr_train": 1.7082,
+          "share_exact_copies": 0.0,
+          "median_nndr": 0.9621,
+          "median_dcr_holdout": 1.6952,
+          "share_closer_to_train": 0.4787,
+          "train_holdout_size_ratio": 1.0
+        },
+        "membership_inference": {
+          "evaluated": true,
+          "columns": [
+            "sex",
+            "municipality",
+            "arrival_mode",
+            "triage",
+            "icd10_primary",
+            "disposition",
+            "los_minutes",
+            "systolic_bp",
+            "heart_rate",
+            "temp_c",
+            "spo2",
+            "readmit_30d"
+          ],
+          "n_each": 2514,
+          "auc": 0.4928,
+          "advantage": 0.0
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "free-text identifier leakage": 0.0,
+        "membership inference advantage": 0.0,
+        "exact copies of original rows": 0.0
+      },
+      "seconds": 4.0
+    },
+    "lab_results": {
+      "table": "lab_results",
+      "status": "withheld",
+      "rows_original": 130341
+    },
+    "published_weekly_stats": {
+      "table": "published_weekly_stats",
+      "status": "withheld",
+      "rows_original": 30169
+    }
+  },
+  "extra_protected_files": [],
+  "utility": [
+    {
+      "id": "H-U2",
+      "table": "ed_visits",
+      "kind": "aggregate",
+      "description": "Median length of stay by triage level",
+      "required": true,
+      "score": 0.047132889552939705,
+      "metric": "mean relative error of median LOS by triage",
+      "detail": {
+        "rel_error": 0.2859,
+        "orig": {
+          "A": 302.0,
+          "B": 348.0,
+          "C": 315.0,
+          "D": 221.0,
+          "E": 157.0
+        },
+        "prot": {
+          "A": 254.0,
+          "B": 251.0,
+          "C": 252.0,
+          "D": 258.0,
+          "E": 255.0
+        }
+      }
+    },
+    {
+      "id": "H-U3",
+      "table": "ed_visits",
+      "kind": "model",
+      "description": "Admission prediction: train on protected, test on original/holdout (AUC ratio)",
+      "required": true,
+      "score": 0.2887976362619431,
+      "metric": "(AUC_protected-0.5)/(AUC_original-0.5), train on X, test on original",
+      "detail": {
+        "auc_orig": 0.7846,
+        "auc_prot": 0.5822,
+        "test_rows": 13887
+      }
+    },
+    {
+      "id": "H-U5",
+      "table": "ed_visits",
+      "kind": "distribution",
+      "description": "Distributions of systolic BP, heart rate, temperature and SpO2",
+      "required": true,
+      "score": 0.7902444078346689,
+      "metric": "1 - mean Wasserstein distance / IQR over 4 vitals",
+      "detail": {
+        "per_vital": {
+          "systolic_bp": 0.0433,
+          "heart_rate": 0.1595,
+          "temp_c": 0.2591,
+          "spo2": 0.3772
+        }
+      }
+    }
+  ],
+  "summary": {
+    "privacy": 1.0,
+    "utility": 0.3754,
+    "composite": 0.5694,
+    "label": "self-assessment, not the official judging score",
+    "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+  },
+  "risk_components": {
+    "ed_visits: direct identifiers retained": 0.0,
+    "ed_visits: free-text identifier leakage": 0.0,
+    "ed_visits: membership inference advantage": 0.0,
+    "ed_visits: exact copies of original rows": 0.0
+  }
+}

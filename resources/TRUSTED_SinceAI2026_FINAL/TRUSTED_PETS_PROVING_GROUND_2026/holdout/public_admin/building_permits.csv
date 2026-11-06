@@ -1,0 +1,139 @@
+permit_id,submitted_date,applicant_type,applicant_name,applicant_hetu,applicant_business_id,property_id,street_address,postcode,municipality,lat,lon,project_type,floor_area_m2,cost_estimate_eur,decision,decision_date,case_officer
+RL-2024-00015,2024-12-18,private person,Tommi Rautalehto,041082-9437,,853-015-0010-0010,Rantakuja 50 D 1,20460,Turku,60.543042,22.387578,change of use,,74000,rejected,2025-02-02,Nelli Ylitalo
+RL-2025-00053,2025-01-29,private person,Mai Nguyen,080394-924M,,680-044-0023-0007,Vainiotanhua 42,21260,Raisio,60.464274,22.172736,facade renovation,,54700,granted with conditions,2025-02-16,Heli Alaaho
+RL-2025-00055,2025-08-04,private person,Marjatta Peltopää,261153-934E,,680-038-0014-0012,Myllytie 29,21210,Raisio,60.495796,22.121151,garage or carport,46,20500,granted,2025-08-25,Heli Alaaho
+RL-2025-00079,2025-06-17,private person,Kim Backman,150782-9836,,853-005-0018-0023,Leppäkatu 15 F 3,20500,Turku,60.457835,22.293095,sauna or outbuilding,29,24000,granted,2025-07-16,Tuija Kurkioja
+RL-2025-00141,2025-07-15,private person,Rohan Kumar,100688-987U,,853-061-0031-0020,Kalliokatu 42,20540,Turku,60.470356,22.291133,new detached house,88,255700,granted,2025-08-03,Henna Ahoranta
+RL-2025-00162,2025-12-30,private person,Kaarina Lampimaa,071046-9182,,529-047-0030-0024,Rauharinne 34,21150,Naantali,60.364697,21.968297,demolition,,12700,pending,,Tiina Rinne
+RL-2024-00189,2024-03-22,private person,Henri Ruohovuori,041192-983W,,853-028-0035-0012,Salmikatu 49,20360,Turku,60.488989,22.278709,sauna or outbuilding,16,33500,granted,2024-04-09,Jenni Ikonen-Kurkilehto
+RL-2024-00200,2024-04-03,private person,Eetu Alaaho,150403A921C,,853-048-0038-0010,Jokimäki 74 F 2,20200,Turku,60.453128,22.220427,sauna or outbuilding,11,33900,granted,2024-04-25,Tuija Kurkioja
+RL-2024-00203,2024-08-23,private person,Leena Tiainen,240772-9401,,853-048-0023-0013,Tervaspolku 20 F 1,20540,Turku,60.460086,22.339334,demolition,,22400,granted with conditions,2024-10-09,Mari Ruohola
+RL-2024-00225,2024-04-16,private person,Toni Laaksolahti,091085-963V,,853-058-0034-0007,Niittypolku 58 B 3,20960,Turku,60.369221,22.177073,sauna or outbuilding,18,24700,rejected,2024-06-20,Katja Rantanen
+RL-2024-00276,2024-04-16,private person,Jaakko Ylälehto,170549-957H,,853-079-0018-0013,Harjutie 35 A 2,20880,Turku,60.418121,22.263118,ground-source heat pump well,,21000,granted,2024-06-17,Tiina Rinne
+RL-2024-00282,2024-05-10,private person,Johanna Aaltomäki,271281-912D,,202-051-0011-0029,Jokitie 29,20760,Kaarina,60.397301,22.322445,extension,33,50200,granted,2024-06-23,Mari Ruohola
+RL-2024-00308,2024-08-23,private person,Daniel Wilson,280478-905L,,853-041-0003-0011,Aittakuja 38 F 2,20320,Turku,60.475171,22.233446,extension,42,97500,granted,2024-09-08,Tuija Kurkioja
+RL-2024-00316,2024-11-18,private person,Kaisa Jousiaho,290481-986M,,853-050-0017-0024,Linnakuja 29,20720,Turku,60.439272,22.312004,solar panels,,12100,granted,2025-01-01,Mari Ruohola
+RL-2024-00328,2024-06-07,private person,Matti Lehtokallio,120178-993P,,853-047-0028-0010,Peltotie 79 F 5,20250,Turku,60.457641,22.224059,new detached house,176,298000,granted,2024-08-01,Tuija Kurkioja
+RL-2025-00340,2025-04-22,private person,Marko Lampilehto,301087-991U,,202-006-0021-0027,Uittokatu 62 C 2,21500,Kaarina,60.425256,22.503147,solar panels,,14100,granted,2025-06-08,Tuija Kurkioja
+RL-2024-00377,2024-03-18,private person,Nea Kangasmaa,161196-952N,,853-023-0033-0011,Tehdaskuja 3,20210,Turku,60.447738,22.187914,terrace or canopy,12,10100,granted with conditions,2024-06-09,Nelli Ylitalo
+RL-2024-00378,2024-03-05,private person,Sara Hosseini,150377-9963,,853-028-0003-0021,Kurkitie 64 B 3,20210,Turku,60.455973,22.187623,extension,38,124400,granted,2024-04-06,Heli Alaaho
+RL-2025-00381,2025-07-30,private person,Elina Järvelä,230577-9402,,853-074-0039-0022,Myllykatu 29 B 1,20200,Turku,60.449513,22.212737,new detached house,181,543900,granted,2025-09-02,Jenni Ikonen-Kurkilehto
+RL-2024-00405,2024-12-12,private person,Marja Jaakkola,070542-974T,,423-026-0007-0028,Saarikaari 71,21410,Lieto,60.456724,22.394421,sauna or outbuilding,11,32100,granted,2025-02-16,Nelli Ylitalo
+RL-2024-00408,2024-08-07,private person,Ilkka Pajukorpi,250164-9514,,853-015-0011-0003,Hirvikaari 79 A 4,20700,Turku,60.446154,22.262161,garage or carport,52,27800,withdrawn,2024-08-25,Henna Ahoranta
+RL-2024-00441,2024-03-21,private person,Tomi Tervosuo,220688-9092,,853-064-0018-0011,Kaislapolku 104 A 5,20900,Turku,60.411442,22.21004,terrace or canopy,22,10800,granted,2024-06-04,Nelli Ylitalo
+RL-2024-00449,2024-03-18,private person,Julia Ilveskorpi,200491-958H,,853-052-0023-0013,Torppaväylä 54 E 1,20800,Turku,60.445986,22.266741,new detached house,176,501000,granted,2024-04-24,Tuija Kurkioja
+RL-2024-00455,2024-01-02,private person,Kalevi Koivuharju,031058-983N,,853-027-0029-0025,Kangaskatu 7,20500,Turku,60.455533,22.30003,extension,36,44900,granted,2024-01-30,Mari Ruohola
+RL-2024-00469,2024-09-27,private person,Pasi Lindqvist,181274-9191,,202-005-0022-0017,Katajaväylä 49,21500,Kaarina,60.428084,22.495757,solar panels,,22200,granted,2024-10-22,Jenni Ikonen-Kurkilehto
+RL-2024-00475,2024-12-02,private person,Keijo Huotari,230458-9013,,853-046-0007-0015,Ahdetie 55,20880,Turku,60.427479,22.254975,facade renovation,,43400,granted,2025-02-17,Nelli Ylitalo
+RL-2024-00504,2024-04-15,private person,Onni Vainio,070695-9439,,680-050-0016-0001,Rinnekuja 65,21210,Raisio,60.489864,22.090852,sauna or outbuilding,22,28600,granted,2024-05-22,Nelli Ylitalo
+RL-2025-00509,2025-04-02,private person,Linh Nguyen,210998-9624,,202-056-0031-0019,Jokikaari 11 C 5,21500,Kaarina,60.422392,22.505661,ground-source heat pump well,,21300,granted,2025-05-17,Nelli Ylitalo
+RL-2024-00534,2024-11-14,private person,Anne Kiviharju,290764-964Y,,202-028-0026-0028,Katajaväylä 10,21500,Kaarina,60.423686,22.502786,solar panels,,10800,granted,2024-12-07,Jenni Ikonen-Kurkilehto
+RL-2025-00584,2025-08-11,private person,Marko Hallamaa,240463-9631,,853-035-0024-0002,Lepikkokaari 33 B 1,20730,Turku,60.429723,22.32759,solar panels,,14600,granted,2025-08-29,Tuija Kurkioja
+RL-2024-00591,2024-06-04,private person,Eetu Kesälehto,240196-939B,,529-010-0008-0008,Siltakatu 72,21110,Naantali,60.472827,22.045861,garage or carport,40,24700,granted,2024-07-03,Mari Ruohola
+RL-2025-00614,2025-06-20,private person,Miro Karhuharju,240891-901F,,853-072-0001-0012,Jokitie 40,20700,Turku,60.455979,22.262553,facade renovation,,33200,granted,2025-07-16,Nelli Ylitalo
+RL-2025-00629,2025-06-12,private person,Seppo Koskinen,050555-9514,,423-040-0002-0004,Koivukatu 20,21450,Lieto,60.578355,22.729584,sauna or outbuilding,16,68900,granted,2025-08-07,Henna Ahoranta
+RL-2025-00675,2025-10-27,private person,Hilkka Hietakorpi,140727-9166,,680-005-0016-0016,Hakakatu 45 B 3,21120,Raisio,60.477536,22.085143,sauna or outbuilding,22,27400,granted,2025-11-16,Tuija Kurkioja
+RL-2025-00694,2025-10-31,private person,Katja Riikonen,280380-938C,,853-076-0037-0003,Hakatie 5,20700,Turku,60.458451,22.246818,ground-source heat pump well,,24000,pending,,Tuija Kurkioja
+RL-2024-00699,2024-04-30,private person,Mika Laakso,150789-951Y,,853-034-0036-0002,Lepikkokatu 63,20540,Turku,60.460096,22.30792,new detached house,168,513100,granted,2024-05-27,Tuija Kurkioja
+RL-2024-00718,2024-06-03,private person,Aino Kangasmäki,090700A9503,,202-037-0007-0002,Kivikuja 18 F 3,20760,Kaarina,60.401664,22.326412,terrace or canopy,23,7900,rejected,2024-07-04,Nelli Ylitalo
+RL-2025-00743,2025-12-30,private person,Neha Iyer,230486-9629,,853-034-0023-0021,Kaarnatie 11,20100,Turku,60.44201,22.215178,solar panels,,9600,pending,,Tuija Kurkioja
+RL-2024-00758,2024-03-13,private person,Joonas Pajukorpi,200906A955H,,529-004-0004-0021,Kaarnakatu 48 C 3,21110,Naantali,60.489896,22.041879,change of use,,50500,granted,2024-04-05,Mari Ruohola
+RL-2025-00773,2025-06-23,private person,Marja Jaakkola,070542-974T,,423-026-0007-0028,Saarikaari 71,21410,Lieto,60.456724,22.394421,ground-source heat pump well,,31600,granted,2025-10-18,Henna Ahoranta
+RL-2025-00774,2025-04-02,private person,Katja Kesäsalo,160981-9825,,853-041-0037-0002,Kivikaari 59,20360,Turku,60.482585,22.288811,solar panels,,16500,granted,2025-04-21,Tuija Kurkioja
+RL-2024-00813,2024-10-09,private person,Hanna Hallasuo,300887-932A,,680-017-0009-0001,Peltotie 45,21210,Raisio,60.478261,22.101626,solar panels,,18000,granted with conditions,2024-11-20,Nelli Ylitalo
+RL-2024-00825,2024-05-21,private person,Reijo Seppälä,020443-989H,,853-043-0006-0011,Myllyväylä 65,20520,Turku,60.441696,22.309469,sauna or outbuilding,14,23600,granted with conditions,2024-06-27,Tiina Rinne
+RL-2024-00897,2024-10-28,private person,Julia Tammisalo,260806A950D,,853-047-0017-0007,Sarkakatu 23,20500,Turku,60.44487,22.267091,solar panels,,10600,granted,2024-12-12,Katja Rantanen
+RL-2025-00911,2025-06-02,private person,Laura Sirviö,100304A900X,,853-077-0027-0024,Haaparinne 32,20900,Turku,60.413143,22.236302,new detached house,170,637600,granted,2025-07-18,Henna Ahoranta
+RL-2024-00919,2024-08-06,private person,Hannele Kaukoharju,080473-906E,,853-076-0038-0006,Rinnekuja 25 D 1,20100,Turku,60.443533,22.222785,garage or carport,36,37500,granted,2024-09-16,Tuija Kurkioja
+RL-2025-00932,2025-06-30,private person,Ronja Salovuori,300899-900C,,202-053-0023-0013,Ahdekuja 8,21500,Kaarina,60.42018,22.517712,terrace or canopy,18,17100,granted,2025-08-23,Tiina Rinne
+RL-2024-00940,2024-05-06,private person,Sara Lehtonen,291299-946E,,853-048-0022-0008,Mäntyväylä 4,20250,Turku,60.467771,22.237449,terrace or canopy,18,6300,withdrawn,2024-06-28,Tiina Rinne
+RL-2024-00956,2024-11-06,private person,Eeva Korhonen,310553-9423,,853-026-0005-0021,Pihlajakatu 30 E 5,20500,Turku,60.453317,22.296081,solar panels,,12700,granted,2024-12-04,Henna Ahoranta
+RL-2025-00969,2025-08-14,private person,Hilkka Aaltosuo,150739-936K,,423-047-0037-0018,Kukkulapiha 21 D 4,21420,Lieto,60.502353,22.457061,ground-source heat pump well,,21500,granted,2025-10-18,Heli Alaaho
+RL-2024-00976,2024-04-18,private person,Ryan Jones,220737-9191,,853-075-0010-0029,Metsäkaari 35,20700,Turku,60.440333,22.262127,ground-source heat pump well,,22000,granted,2024-07-25,Heli Alaaho
+RL-2025-00977,2025-04-30,private person,Hassan Hussein,270698-931K,,853-047-0008-0004,Kaislatie 28 C 3,20100,Turku,60.447007,22.215261,extension,46,116500,granted,2025-06-05,Nelli Ylitalo
+RL-2025-00993,2025-04-08,private person,Ryan Wilson,190199-909X,,202-069-0001-0023,Kaarnakatu 97,20780,Kaarina,60.412623,22.390049,terrace or canopy,16,11200,withdrawn,2025-05-18,Tuija Kurkioja
+RL-2025-01101,2025-08-05,private person,Suvi Järvinen,240278-948T,,202-026-0033-0019,Luotokuja 20,21500,Kaarina,60.412787,22.511105,solar panels,,13800,granted,2025-10-27,Mari Ruohola
+RL-2024-01156,2024-12-13,private person,Reijo Seppälä,020443-989H,,853-043-0006-0011,Myllyväylä 65,20520,Turku,60.441696,22.309469,demolition,,20200,granted,2025-02-26,Tiina Rinne
+RL-2024-01178,2024-05-22,private person,Eeva Nurmi,300147-9608,,853-060-0002-0017,Lahtikatu 76 B 4,20610,Turku,60.438329,22.335012,terrace or canopy,13,22700,granted,2024-08-05,Katja Rantanen
+RL-2024-01197,2024-08-09,private person,Nelli Kovanen,160495-9900,,853-010-0014-0004,Kaislatie 68,20300,Turku,60.450079,22.291344,new detached house,93,408500,granted,2024-09-23,Henna Ahoranta
+RL-2025-01228,2025-02-04,private person,Onni Vainio,070695-9439,,680-050-0016-0001,Rinnekuja 65,21210,Raisio,60.489864,22.090852,solar panels,,15100,rejected,2025-04-18,Jenni Ikonen-Kurkilehto
+RL-2024-01262,2024-05-01,private person,Mika Kallio,040776-989R,,202-036-0036-0004,Jäkälärinne 11,20780,Kaarina,60.413501,22.380141,ground-source heat pump well,,22500,granted,2024-06-17,Heli Alaaho
+RL-2025-01264,2025-10-20,private person,Emma Kesälahti,020391-9583,,853-058-0002-0010,Laaksotie 29,20700,Turku,60.448112,22.253545,extension,37,83800,granted,2025-12-04,Mari Ruohola
+RL-2024-01280,2024-01-24,private person,Veera Suovirta,020202A936L,,853-025-0010-0024,Vaahterakatu 80,20800,Turku,60.453195,22.271551,ground-source heat pump well,,27200,granted,2024-03-15,Nelli Ylitalo
+RL-2024-01295,2024-11-26,private person,Ari Pasanen,130985-937T,,202-021-0020-0010,Aaltotie 78 F 2,21500,Kaarina,60.419244,22.507741,sauna or outbuilding,25,26100,granted,2024-12-22,Henna Ahoranta
+RL-2025-01308,2025-05-09,private person,Eeva Nurmi,300147-9608,,853-060-0002-0017,Lahtikatu 76 B 4,20610,Turku,60.438329,22.335012,ground-source heat pump well,,26200,granted,2025-05-22,Nelli Ylitalo
+RL-2025-01320,2025-11-20,private person,Kalevi Koivuharju,031058-983N,,853-027-0029-0025,Kangaskatu 7,20500,Turku,60.455533,22.30003,extension,46,103300,pending,,Nelli Ylitalo
+RL-2024-01348,2024-02-08,private person,Jani Ylävirta,080683-939P,,853-010-0029-0004,Kanervapolku 34 D 3,20380,Turku,60.492063,22.30514,terrace or canopy,19,13800,granted,2024-03-14,Mari Ruohola
+RL-2024-01353,2024-04-03,private person,Anu Alasuo,040182-954A,,853-049-0023-0009,Aittatie 75 C 2,20720,Turku,60.428636,22.287199,facade renovation,,80700,granted,2024-05-25,Henna Ahoranta
+RL-2024-01390,2024-09-25,private person,Marika Hirvikorpi,220785-9724,,529-067-0036-0027,Kirkkokatu 67,21150,Naantali,60.321554,21.982194,terrace or canopy,21,9900,granted,2024-10-18,Nelli Ylitalo
+RL-2025-01396,2025-05-06,private person,Jorma Ahonen,160548-991P,,853-069-0024-0009,Vaahterakatu 37,20380,Turku,60.476909,22.325507,extension,37,46000,rejected,2025-06-07,Mari Ruohola
+RL-2025-01400,2025-03-17,private person,Seija Kultakangas,150771-908X,,853-066-0027-0009,Asemakuja 73,20100,Turku,60.451169,22.230811,solar panels,,18800,granted,2025-04-02,Nelli Ylitalo
+RL-2024-01402,2024-09-06,private person,Viljo Laine,031131-9459,,423-073-0012-0012,Kurkikuja 17,21410,Lieto,60.459294,22.311998,garage or carport,25,24000,granted,2024-10-25,Jenni Ikonen-Kurkilehto
+RL-2025-01409,2025-03-19,private person,Rohan Singh,280406A985L,,853-069-0012-0015,Vaahterakatu 15 C 3,20800,Turku,60.452577,22.269814,terrace or canopy,14,15300,granted,2025-04-19,Tiina Rinne
+RL-2025-01419,2025-04-18,private person,Ayaan Hirsi,300648-984A,,853-067-0014-0027,Kaislakuja 44 E 5,20500,Turku,60.454856,22.27001,solar panels,,17300,granted,2025-07-03,Jenni Ikonen-Kurkilehto
+RL-2024-01453,2024-12-09,private person,Kirsi Pajukorpi,130467-918H,,853-039-0025-0008,Salmitanhua 45 D 1,20800,Turku,60.455523,22.266754,extension,48,64300,granted,2025-02-02,Mari Ruohola
+RL-2024-01469,2024-04-24,private person,Juho Hakala,180284-951K,,853-074-0023-0019,Linnapuistikko 80,20300,Turku,60.466129,22.25445,sauna or outbuilding,25,27900,granted,2024-06-21,Nelli Ylitalo
+RL-2025-01490,2025-11-11,private person,Matias Laaksosuo,200393-9255,,853-007-0039-0022,Rinnetie 41 A 5,20610,Turku,60.44499,22.331943,sauna or outbuilding,21,35600,granted,2025-12-19,Henna Ahoranta
+RL-2025-01494,2025-04-03,private person,Mikko Niemiluoto,241081-973U,,529-023-0036-0006,Kirkkokatu 65,21150,Naantali,60.317833,21.980485,solar panels,,19200,granted,2025-05-04,Katja Rantanen
+RL-2025-01556,2025-01-16,private person,Rasmus Lehtonen,201090-937D,,853-070-0036-0015,Rinnekuja 77 A 4,20960,Turku,60.366389,22.177515,solar panels,,14300,granted,2025-02-19,Jenni Ikonen-Kurkilehto
+RL-2025-01558,2025-02-04,private person,Tuomas Ylinen,140881-973S,,853-027-0039-0009,Uittopolku 40,20380,Turku,60.498547,22.339511,ground-source heat pump well,,14800,granted,2025-04-17,Tuija Kurkioja
+RL-2025-01603,2025-03-25,private person,Satu Rautaharju,070587-9067,,202-053-0004-0021,Laaksorinne 35,20760,Kaarina,60.412906,22.339557,change of use,,61700,granted,2025-05-17,Tuija Kurkioja
+RL-2024-01696,2024-03-15,private person,Heidi Tervomaa,091284-912K,,853-054-0034-0003,Kangastie 48,20100,Turku,60.437231,22.222995,ground-source heat pump well,,20900,granted,2024-06-24,Heli Alaaho
+RL-2024-01773,2024-05-28,private person,Nea Lehtomäki,190792-956F,,853-040-0033-0023,Kangasranta 64,20540,Turku,60.460755,22.329772,new detached house,107,430800,granted with conditions,2024-07-07,Tuija Kurkioja
+RL-2025-01781,2025-05-12,private person,Mari Pihlakallio,220377-968P,,529-013-0032-0024,Aaltokatu 45,21160,Naantali,60.44186,21.86215,extension,29,108700,granted,2025-06-18,Mari Ruohola
+RL-2024-01791,2024-10-29,private person,Aleksi Oravakallio,110192-9177,,853-026-0021-0021,Asematie 36 D 2,20100,Turku,60.450356,22.219845,new detached house,156,278700,granted,2024-12-14,Jenni Ikonen-Kurkilehto
+RL-2025-01839,2025-07-04,private person,Joel Kesämäki,220199-995M,,853-039-0004-0027,Majakkakatu 62 B 4,20720,Turku,60.434679,22.319997,ground-source heat pump well,,29000,granted,2025-09-01,Heli Alaaho
+RL-2024-01863,2024-01-24,private person,Pirjo Kultajärvi,260870-914S,,423-037-0035-0013,Kartanokuja 6 D 2,21420,Lieto,60.516112,22.454779,solar panels,,22800,granted,2024-03-27,Heli Alaaho
+RL-2025-01873,2025-11-10,private person,Nea Lehtomäki,190792-956F,,853-040-0033-0023,Kangasranta 64,20540,Turku,60.460755,22.329772,facade renovation,,131800,granted,2025-12-12,Nelli Ylitalo
+RL-2024-01876,2024-06-12,private person,Niina Hietavuori,070283-934N,,853-077-0034-0027,Koivukatu 8 D 1,20100,Turku,60.447721,22.237207,facade renovation,,44500,granted,2024-07-16,Katja Rantanen
+RL-2024-01877,2024-09-30,private person,Julia Ilveskorpi,200491-958H,,853-052-0023-0013,Torppaväylä 54 E 1,20800,Turku,60.445986,22.266741,facade renovation,,84000,granted,2024-10-24,Katja Rantanen
+RL-2024-01881,2024-11-29,private person,Roosa Haukkaoja,270293-942D,,202-012-0035-0003,Kauppakatu 55,21620,Kaarina,60.374455,22.400909,extension,29,97000,granted,2024-12-29,Nelli Ylitalo
+RL-2024-01945,2024-12-13,private person,Minna Ojakorpi,270972-998E,,853-049-0005-0029,Kirkkotie 6 F 2,20730,Turku,60.423272,22.326196,terrace or canopy,18,17300,granted,2025-01-16,Mari Ruohola
+RL-2024-01975,2024-09-11,private person,Marjo Ronkainen,270266-946K,,853-057-0015-0024,Vainiotie 72,20200,Turku,60.45083,22.227743,new detached house,145,537600,granted,2024-10-21,Jenni Ikonen-Kurkilehto
+RL-2025-01979,2025-03-11,private person,Riku Kuusiluoto,230677-991H,,202-019-0029-0014,Kivikuja 17,20760,Kaarina,60.402,22.327417,extension,3,85100,granted,2025-04-07,Tuija Kurkioja
+RL-2024-02028,2024-05-22,private person,Eetu Alaaho,150403A921C,,853-048-0038-0010,Jokimäki 74 F 2,20200,Turku,60.453128,22.220427,ground-source heat pump well,,15400,granted,2024-08-01,Katja Rantanen
+RL-2025-02051,2025-08-15,private person,Timo Saarinen,240474-997Y,,853-026-0021-0009,Saarikatu 28 E 3,20900,Turku,60.406994,22.223601,sauna or outbuilding,22,19500,granted,2025-09-24,Henna Ahoranta
+RL-2025-02079,2025-10-21,private person,Maija Lumilehto,230756-9729,,853-014-0032-0018,Kurkitie 18 B 1,20610,Turku,60.450192,22.367373,ground-source heat pump well,,24200,granted,2025-11-23,Jenni Ikonen-Kurkilehto
+RL-2024-02134,2024-06-19,private person,Mika Mäkivuori,280865-941M,,423-044-0028-0014,Rantatie 79,21350,Lieto,60.510958,22.396287,sauna or outbuilding,14,51100,granted,2024-08-30,Heli Alaaho
+RL-2024-02144,2024-12-06,private person,Aulis Heikkinen,031141-939N,,202-046-0017-0026,Kettumäki 18,20780,Kaarina,60.40734,22.374667,solar panels,,16400,granted,2025-02-28,Nelli Ylitalo
+RL-2024-02170,2024-04-03,private person,Eeva Nurmi,300147-9608,,853-060-0002-0017,Lahtikatu 76 B 4,20610,Turku,60.438329,22.335012,extension,33,104600,granted,2024-05-17,Nelli Ylitalo
+RL-2025-02210,2025-09-12,private person,Sofía Castro,230368-954K,,853-072-0013-0029,Pajutie 35 A 3,20700,Turku,60.455199,22.264997,garage or carport,31,30000,granted,2025-10-13,Nelli Ylitalo
+RL-2025-02221,2025-09-22,private person,Aki Hietalahti,010486-909C,,202-071-0023-0017,Saaripuistikko 58,20780,Kaarina,60.406986,22.387965,garage or carport,48,43400,withdrawn,2025-11-12,Tuija Kurkioja
+RL-2025-02227,2025-01-27,private person,Juha Heinäsuo,180474-955R,,853-066-0027-0007,Peltokaari 18,20360,Turku,60.483964,22.270214,extension,49,65800,granted,2025-03-09,Heli Alaaho
+RL-2025-02236,2025-06-09,private person,Eetu Rautio,300694-959C,,853-007-0026-0027,Kanavatie 63,20360,Turku,60.483787,22.290569,sauna or outbuilding,15,31900,granted,2025-07-24,Jenni Ikonen-Kurkilehto
+RL-2024-02241,2024-03-12,private person,Ville Kaukojärvi,050584-975C,,853-040-0018-0026,Tuulipuistikko 47 B 1,20700,Turku,60.438932,22.289309,facade renovation,,46500,granted,2024-05-24,Tiina Rinne
+RL-2025-02250,2025-09-22,private person,Jarmo Jousioja,020671-9492,,853-067-0025-0026,Pajukuja 66,20300,Turku,60.470203,22.26612,sauna or outbuilding,23,31400,granted,2025-10-21,Mari Ruohola
+RL-2024-02293,2024-09-12,private person,Sara Lindholm,220292-926D,,853-060-0024-0024,Kivirinne 68 F 1,20500,Turku,60.450864,22.280039,terrace or canopy,22,5100,granted,2024-10-07,Nelli Ylitalo
+RL-2025-02336,2025-12-11,private person,Reijo Mäkilä,250556-993M,,853-026-0020-0026,Luotopolku 44 E 4,20900,Turku,60.401792,22.22946,terrace or canopy,19,11200,pending,,Tiina Rinne
+RL-2024-02357,2024-12-17,private person,Elina Laine,020989-936P,,853-011-0002-0017,Sarkatie 15,20360,Turku,60.487276,22.274496,ground-source heat pump well,,22900,granted with conditions,2025-02-19,Katja Rantanen
+RL-2024-02380,2024-11-06,private person,Elena Pérez,190269-970Y,,853-013-0013-0015,Kuusiväylä 20,20800,Turku,60.44288,22.272797,sauna or outbuilding,21,29100,granted with conditions,2024-12-15,Mari Ruohola
+RL-2025-02404,2025-03-12,private person,Keijo Kotkajärvi,040251-9190,,423-065-0001-0025,Hirvikuja 46,21430,Lieto,60.54813,22.580253,extension,62,89500,granted,2025-04-08,Nelli Ylitalo
+RL-2024-02422,2024-06-25,private person,Lauri Ojala,200594-935B,,853-067-0031-0026,Leppätie 56 A 2,20730,Turku,60.440132,22.321962,ground-source heat pump well,,14300,granted,2024-08-04,Katja Rantanen
+RL-2024-02462,2024-09-19,private person,Wei Li,250372-9636,,853-048-0012-0012,Linnakaari 48 F 1,20800,Turku,60.446138,22.247008,ground-source heat pump well,,35700,granted,2024-12-02,Tiina Rinne
+RL-2025-02473,2025-03-06,private person,Minna Tamminen,311282-996Y,,853-044-0015-0029,Salmitie 69,20900,Turku,60.411464,22.203383,ground-source heat pump well,,18600,granted,2025-04-12,Henna Ahoranta
+RL-2025-02477,2025-12-19,private person,Ella Koivuoja,211206A992S,,680-007-0026-0024,Koivukaari 8,21260,Raisio,60.467064,22.184188,terrace or canopy,21,12600,pending,,Tuija Kurkioja
+RL-2025-02484,2025-06-26,private person,Jarmo Jousioja,020671-9492,,853-067-0025-0026,Pajukuja 66,20300,Turku,60.470203,22.26612,terrace or canopy,16,18200,granted,2025-08-31,Nelli Ylitalo
+RL-2025-02495,2025-09-02,private person,Minna Karhusuo,260985-9664,,853-025-0039-0018,Kaislakaari 28 D 2,20730,Turku,60.437847,22.321478,extension,31,120100,granted,2025-11-22,Katja Rantanen
+RL-2025-02522,2025-12-25,private person,Veeti Räsänen,290994-947S,,853-041-0030-0010,Kaislakaari 68,20730,Turku,60.439758,22.31817,solar panels,,13800,pending,,Jenni Ikonen-Kurkilehto
+RL-2025-02550,2025-02-14,private person,Riikka Kotkala,010286-958B,,853-048-0033-0008,Myllytie 50,20730,Turku,60.422633,22.326961,sauna or outbuilding,23,63600,granted,2025-03-20,Henna Ahoranta
+RL-2025-02574,2025-05-12,private person,Minna Tammiharju,120287-958P,,853-049-0033-0017,Torppatie 59,20740,Turku,60.418704,22.308761,sauna or outbuilding,19,40500,granted,2025-07-18,Henna Ahoranta
+RL-2024-02575,2024-09-05,private person,Sanna Leskinen,120783-9149,,853-050-0025-0029,Rinnekuja 56,20100,Turku,60.441992,22.213112,extension,24,76400,granted,2024-12-02,Jenni Ikonen-Kurkilehto
+RL-2024-02579,2024-09-20,private person,Jani Karhujärvi,061182-9695,,853-032-0028-0014,Rantapolku 4 C 5,20100,Turku,60.443408,22.238632,solar panels,,8600,granted,2024-11-27,Mari Ruohola
+RL-2024-02594,2024-03-25,private person,Matias Laaksosuo,200393-9255,,853-007-0039-0022,Rinnetie 41 A 5,20610,Turku,60.44499,22.331943,terrace or canopy,18,12600,granted,2024-05-08,Mari Ruohola
+RL-2025-02602,2025-05-26,private person,Laura Rintasalo,010382-9606,,680-054-0025-0013,Lehtokaari 23,21260,Raisio,60.472911,22.199236,extension,42,68900,granted,2025-07-04,Katja Rantanen
+RL-2025-02610,2025-12-29,private person,Riku Anttila,270881-9779,,423-039-0019-0028,Lepikkokuja 53,21420,Lieto,60.494406,22.462355,terrace or canopy,19,19100,pending,,Mari Ruohola
+RL-2025-02613,2025-09-12,private person,Jarkko Kurkinen,020476-999B,,853-019-0017-0019,Kangaspolku 10 E 3,20740,Turku,60.423604,22.299002,terrace or canopy,22,13700,granted,2025-10-07,Henna Ahoranta
+RL-2025-02627,2025-06-06,private person,Ella Vuorilehto,280302A922R,,853-074-0014-0003,Torppatie 82,20540,Turku,60.460172,22.298425,solar panels,,14500,rejected,2025-07-29,Heli Alaaho
+RL-2024-02647,2024-07-01,private person,Maria Saaripää,030688-9869,,202-049-0024-0019,Niittytie 49,21500,Kaarina,60.420609,22.528665,facade renovation,,30000,granted,2024-08-25,Katja Rantanen
+RL-2025-02656,2025-06-24,private person,Elena Pérez,190269-970Y,,853-013-0013-0015,Kuusiväylä 20,20800,Turku,60.44288,22.272797,terrace or canopy,17,8800,granted,2025-08-23,Mari Ruohola
+RL-2024-02671,2024-03-29,private person,Eveliina Viitaluoto,160405A9449,,202-020-0019-0017,Vaahterakatu 62,21620,Kaarina,60.394797,22.385958,sauna or outbuilding,24,23400,granted,2024-05-25,Heli Alaaho
+RL-2025-02681,2025-05-13,private person,Diego García,130506A975D,,853-075-0004-0029,Kivikaari 50,20360,Turku,60.481021,22.286924,sauna or outbuilding,18,31600,granted,2025-05-29,Katja Rantanen
+RL-2025-02764,2025-06-05,private person,Kalevi Ahokoski,200452-9451,,853-054-0003-0018,Pappilakuja 45,20800,Turku,60.439756,22.26253,sauna or outbuilding,24,36700,granted,2025-07-03,Nelli Ylitalo
+RL-2024-02805,2024-01-09,private person,Heli Sarkaoja,031270-964S,,853-022-0024-0009,Metsätie 69,20320,Turku,60.476395,22.223824,facade renovation,,42800,granted,2024-02-04,Tiina Rinne
+RL-2025-02813,2025-06-17,private person,Anneli Dang,300954-962K,,853-034-0036-0009,Nummitie 72 C 5,20100,Turku,60.445378,22.197245,extension,29,72200,granted,2025-09-16,Katja Rantanen
+RL-2025-02816,2025-10-20,private person,Linus Laine,110698-941K,,853-007-0038-0005,Pajukatu 19 F 1,20100,Turku,60.43983,22.233625,ground-source heat pump well,,16600,granted,2025-12-07,Katja Rantanen
+RL-2024-02838,2024-03-29,private person,Aki Hietalahti,010486-909C,,202-071-0023-0017,Saaripuistikko 58,20780,Kaarina,60.406986,22.387965,ground-source heat pump well,,22200,granted,2024-05-04,Tiina Rinne
+RL-2024-02915,2024-08-27,private person,Juha Lundén,030168-9276,,202-059-0024-0015,Rastaskuja 48,20780,Kaarina,60.404737,22.380682,extension,29,65900,granted,2024-11-01,Nelli Ylitalo
+RL-2024-02918,2024-01-02,private person,Lauri Karttunen,251105A981X,,853-047-0020-0001,Leppäpolku 49 A 1,20610,Turku,60.447794,22.340981,ground-source heat pump well,,26900,granted,2024-01-29,Heli Alaaho
+RL-2024-02952,2024-04-19,private person,Christer Andersson,280484-953P,,853-003-0036-0011,Lepikkokuja 10 F 4,20500,Turku,60.448944,22.311926,garage or carport,39,27600,rejected,2024-05-21,Nelli Ylitalo
+RL-2025-02983,2025-11-07,private person,Sari Pohjomäki,050760-9201,,853-040-0001-0007,Kivikaari 60,20360,Turku,60.481923,22.277613,extension,23,78500,granted,2025-12-05,Henna Ahoranta

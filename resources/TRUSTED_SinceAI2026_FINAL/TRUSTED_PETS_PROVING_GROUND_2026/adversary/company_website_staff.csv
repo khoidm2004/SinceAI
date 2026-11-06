@@ -1,0 +1,390 @@
+adv_row_id,name,title,department,location,work_phone,profile_url,source
+WEB00001,Alma Granqvist,IT Manager,IT,Turku HQ,,https://pronet.example/in/alma-granqvist-6591,professional network
+WEB00002,Merja Kurkioja,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/merja-kurkioja-6585,company website
+WEB00003,Maria Saarila,Director of Operations,Management,Turku HQ,,,company website
+WEB00004,Arja Partanen,Chief Executive Officer,Management,Turku HQ,,https://pronet.example/in/arja-partanen-2037,professional network
+WEB00005,Satu Oravasuo,Customer Service Team Lead,Customer service,Turku HQ,+358 41 995 8479,https://pronet.example/in/satu-oravasuo-8737,company website
+WEB00006,Heidi Salmi,Accounts Payable Clerk,Finance,Turku HQ,+358 41 985 5116,,company website
+WEB00007,Tommi Kangaskoski,Sales Coordinator,Sales,Turku HQ,+358 40 346 7481,,company website
+WEB00008,Sari Tammisalo,Customer Service Agent,Customer service,Turku HQ,+358 40 214 4592,https://pronet.example/in/sari-tammisalo-2260,company website
+WEB00009,Kalle Timonen,Accountant,Finance,Turku HQ,,https://pronet.example/in/kalle-timonen-9467,professional network
+WEB00010,Hanna Nguyen,Accountant,Finance,Turku HQ,+358 50 731 4401,,company website
+WEB00011,Liisa Ylämäki,Operations Manager,Operations planning,Turku HQ,,,company website
+WEB00012,Rasmus Kanerva,Logistics Coordinator,Operations planning,Turku HQ,+358 40 940 2498,https://pronet.example/in/rasmus-kanerva-8228,professional network
+WEB00013,Anna Pennanen,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/anna-pennanen-3999,company website
+WEB00014,Ville Lehtinen,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/ville-lehtinen-8352,professional network
+WEB00015,Mariam Al-Jaberi,Sales Manager,Sales,Turku HQ,+358 44 924 5767,https://pronet.example/in/mariam-al-8137,professional network
+WEB00016,Mari Ilveskallio,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/mari-ilveskallio-6179,company website
+WEB00017,Petri Mäntykangas,Accounts Payable Clerk,Finance,Turku HQ,,https://pronet.example/in/petri-mantykangas-1451,professional network
+WEB00018,Eeva Lumioja,Sales Manager,Sales,Turku HQ,+358 44 607 2365,https://pronet.example/in/eeva-lumioja-7897,professional network
+WEB00019,Roope Rintaharju,Sales Manager,Sales,Turku HQ,+358 50 368 7584,https://pronet.example/in/roope-rintaharju-2520,professional network
+WEB00020,Jesse Järvi,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/jesse-jarvi-6928,professional network
+WEB00021,Juho Tuominen,Accountant,Finance,Turku HQ,+358 44 886 8296,https://pronet.example/in/juho-tuominen-4685,professional network
+WEB00022,Kalle Haukkamaa,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/kalle-haukkamaa-4443,professional network
+WEB00023,Venla Kumpulainen,IT Manager,IT,Turku HQ,,https://pronet.example/in/venla-kumpulainen-3473,professional network
+WEB00024,Sofia Johansson,Sales Manager,Sales,Turku HQ,+358 50 611 4930,,company website
+WEB00025,Veera Laaksoaho,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/veera-laaksoaho-3646,professional network
+WEB00026,Margus Tamm,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/margus-tamm-8651,professional network
+WEB00027,Lauri Aaltoaho,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/lauri-aaltoaho-7820,professional network
+WEB00028,Nea Rintanen,Accounts Payable Clerk,Finance,Turku HQ,,,professional network
+WEB00029,Katja Mäntylä,IT Manager,IT,Turku HQ,+358 41 813 5104,https://pronet.example/in/katja-mantyla-4985,company website
+WEB00030,Jenni Haapaaho,Team Lead,Customer service,Turku HQ,,https://pronet.example/in/jenni-haapaaho-1936,professional network
+WEB00031,Mervi Karhumaa,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/mervi-karhumaa-7054,company website
+WEB00032,Anna Kaukolehto,Sales Coordinator,Sales,Turku HQ,+358 40 843 1598,,professional network
+WEB00033,Kalle Kivelä,Sales Coordinator,Operations planning,Turku HQ,+358 45 686 7041,,company website
+WEB00034,Sari Niemilahti,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/sari-niemilahti-1634,professional network
+WEB00035,Otto Kangasharju,Head of Sales,Sales,Turku HQ,,https://pronet.example/in/otto-kangasharju-4078,company website
+WEB00036,Axel Holmström,Customer Service Agent,Customer service,Turku HQ,+358 40 997 6612,https://pronet.example/in/axel-holmstrom-9347,professional network
+WEB00037,Jussi Kivinen,Chief Executive Officer,Management,Turku HQ,,https://pronet.example/in/jussi-kivinen-9267,company website
+WEB00038,Sanna Kulmala,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/sanna-kulmala-3141,company website
+WEB00039,Hannu Toivonen,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/hannu-toivonen-3249,company website
+WEB00040,Mohammed Khalil,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/mohammed-khalil-5944,professional network
+WEB00041,Emma Grönroos,Legal Counsel,Legal,Turku HQ,,https://pronet.example/in/emma-gronroos-8435,professional network
+WEB00042,Ville Ahosalo,Logistics Coordinator,Operations planning,Turku HQ,+358 50 539 0785,,professional network
+WEB00043,Joonas Salonen,Customer Service Agent,Customer service,Turku HQ,+358 44 990 1618,https://pronet.example/in/joonas-salonen-6702,company website
+WEB00044,Johanna Lindqvist,Logistics Coordinator,Customer service,Turku HQ,+358 50 384 8006,https://pronet.example/in/johanna-lindqvist-2923,professional network
+WEB00045,Tuomas Korhonen,Operations Manager,Operations planning,Turku HQ,+358 40 944 0965,https://pronet.example/in/tuomas-korhonen-3863,company website
+WEB00046,Seija Eskola,Sales Coordinator,Sales,Turku HQ,+358 50 124 6655,https://pronet.example/in/seija-eskola-4913,company website
+WEB00047,Hanna Kesäoja,HR Manager,HR,Turku HQ,,https://pronet.example/in/hanna-kesaoja-3217,company website
+WEB00048,Katja Niemimaa,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/katja-niemimaa-2408,company website
+WEB00049,Eetu Kangas,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/eetu-kangas-7201,professional network
+WEB00050,Riku Lampiluoto,Key Account Manager,Sales,Turku HQ,+358 44 982 5515,,company website
+WEB00051,Tiina Karhupää,Sales Coordinator,Sales,Turku HQ,+358 40 747 8211,https://pronet.example/in/tiina-karhupaa-3794,professional network
+WEB00052,Rohan Kumar,Director of Operations,Management,Turku HQ,+358 44 780 3539,https://pronet.example/in/rohan-kumar-9750,professional network
+WEB00053,Göran Fagerström,Finance Manager,Finance,Turku HQ,,,company website
+WEB00054,Inka Ylönen,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/inka-ylonen-3693,professional network
+WEB00055,Pinja Tammiaho,Logistics Coordinator,Management,Turku HQ,,,company website
+WEB00056,Arja Pohjola,IT Manager,IT,Turku HQ,,https://pronet.example/in/arja-pohjola-5771,professional network
+WEB00057,Kirsi Rantasuo,Sales Coordinator,Sales,Turku HQ,+358 45 908 3456,,professional network
+WEB00058,Elias Laaksovirta,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/elias-laaksovirta-8358,professional network
+WEB00059,Hussein Hussein,Sales Coordinator,Sales,Turku HQ,,,company website
+WEB00060,Tiina Laaksonen,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/tiina-laaksonen-2670,professional network
+WEB00061,Pasi Kivilä,Director of Operations,Management,Turku HQ,,https://pronet.example/in/pasi-kivila-7261,professional network
+WEB00062,Teemu Saloranta,Finance Manager,Finance,Turku HQ,+358 40 331 5981,https://pronet.example/in/teemu-saloranta-3143,professional network
+WEB00063,Esko Rinne,Director of Operations,Management,Turku HQ,+358 44 498 0519,https://pronet.example/in/esko-rinne-4206,company website
+WEB00064,Inka Lumikoski-Salminen,Finance Manager,Finance,Turku HQ,,,company website
+WEB00065,Oona Mäntykoski,Key Account Manager,Sales,Turku HQ,,,company website
+WEB00066,Sanna Nieminen,Accounts Payable Clerk,Finance,Turku HQ,,https://pronet.example/in/sanna-nieminen-1320,professional network
+WEB00067,Riikka Nyman,Accountant,Finance,Turku HQ,+358 50 429 3406,https://pronet.example/in/riikka-nyman-5580,company website
+WEB00068,Ari Mäkilehto,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/ari-makilehto-4454,professional network
+WEB00069,Tarja Kankaanpää,Team Lead,Finance,Turku HQ,,https://pronet.example/in/tarja-kankaanpaa-9067,company website
+WEB00070,Arto Talviranta,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/arto-talviranta-4051,professional network
+WEB00071,Mika Rintalahti,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/mika-rintalahti-1371,company website
+WEB00072,Seija Kurkiranta,Sales Manager,Sales,Turku HQ,+358 46 477 1776,,professional network
+WEB00073,Ronja Karhukallio,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/ronja-karhukallio-3519,professional network
+WEB00074,Toni Pihlanen,IT Manager,IT,Turku HQ,,,professional network
+WEB00075,Mikko Salminen,Customer Service Team Lead,Customer service,Turku HQ,+358 40 771 4970,https://pronet.example/in/mikko-salminen-5724,professional network
+WEB00076,Sami Heino,Sales Manager,Sales,Turku HQ,,,company website
+WEB00077,Piia Ojajärvi,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/piia-ojajarvi-9400,professional network
+WEB00078,Inka Kangasmaa,Legal Counsel,Legal,Turku HQ,,,company website
+WEB00079,Kirsi Sarkaharju,Logistics Coordinator,Sales,Turku HQ,+358 40 754 5820,https://pronet.example/in/kirsi-sarkaharju-7611,professional network
+WEB00080,Johanna Pohjopää-Huttunen,HR Manager,HR,Turku HQ,,,company website
+WEB00081,Marika Kuusela,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/marika-kuusela-5173,company website
+WEB00082,Li Chen,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/li-chen-7113,professional network
+WEB00083,Ella Seppälä,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/ella-seppala-6305,company website
+WEB00084,Marko Ahokallio,Operations Manager,Operations planning,Turku HQ,+358 50 909 9728,https://pronet.example/in/marko-ahokallio-6212,professional network
+WEB00085,Riku Helin,Legal Counsel,Legal,Turku HQ,,https://pronet.example/in/riku-helin-5505,company website
+WEB00086,Kaisa Kinnunen,Chief Executive Officer,Management,Turku HQ,+358 44 671 5140,https://pronet.example/in/kaisa-kinnunen-7252,professional network
+WEB00087,Tellervo Ahmadi,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/tellervo-ahmadi-9584,professional network
+WEB00088,Satu Rantamäki,Finance Manager,Finance,Turku HQ,,,professional network
+WEB00089,Petri Salojärvi,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/petri-salojarvi-2550,company website
+WEB00090,Topias Pajumaa,Sales Coordinator,Sales,Turku HQ,,,professional network
+WEB00091,Paula Koskinen,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/paula-koskinen-4079,company website
+WEB00092,Tero Joutsenvirta,Finance Manager,Finance,Turku HQ,+358 45 173 4138,https://pronet.example/in/tero-joutsenvirta-8969,professional network
+WEB00093,Roosa Vuorioja,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/roosa-vuorioja-1020,professional network
+WEB00094,Eveliina Aaltovirta,Accounts Payable Clerk,Finance,Turku HQ,+358 45 538 9123,,professional network
+WEB00095,Kaarina Karhulahti,IT Manager,IT,Turku HQ,+358 40 527 4798,,company website
+WEB00096,Jarmo Haapavuori,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/jarmo-haapavuori-9545,company website
+WEB00097,Christer Lehtolahti,Finance Manager,Finance,Turku HQ,,,company website
+WEB00098,Jussi Peltopää,Accounts Payable Clerk,Finance,Turku HQ,,https://pronet.example/in/jussi-peltopaa-7614,professional network
+WEB00099,Petteri Hietaluoto,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/petteri-hietaluoto-6211,company website
+WEB00100,Henri Haapala,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/henri-haapala-6687,company website
+WEB00101,Toni Vuorisuo,Accountant,Finance,Turku HQ,,https://pronet.example/in/toni-vuorisuo-5354,company website
+WEB00102,Mikko Kaukosuo,Customer Service Team Lead,Customer service,Turku HQ,+358 50 819 0164,https://pronet.example/in/mikko-kaukosuo-1876,company website
+WEB00103,Arto Ahokallio,Logistics Coordinator,IT,Turku HQ,+358 41 365 9246,https://pronet.example/in/arto-ahokallio-3568,professional network
+WEB00104,Ville Karhusalo,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/ville-karhusalo-2562,professional network
+WEB00105,Anna Ylämäki,Sales Coordinator,Sales,Turku HQ,+358 40 484 4964,https://pronet.example/in/anna-ylamaki-7845,professional network
+WEB00106,Valtteri Kultala,Logistics Coordinator,Sales,Turku HQ,,https://pronet.example/in/valtteri-kultala-6404,professional network
+WEB00107,Ella Ahonen,Team Lead,Sales,Turku HQ,+358 40 873 7690,https://pronet.example/in/ella-ahonen-5557,professional network
+WEB00108,Jorma Karhuoja,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/jorma-karhuoja-8939,professional network
+WEB00109,Joel Tuominen,Customer Service Agent,Customer service,Turku HQ,,,company website
+WEB00110,Ville Palomäki,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/ville-palomaki-6281,professional network
+WEB00111,Heli Aaltoranta,IT Manager,IT,Turku HQ,,https://pronet.example/in/heli-aaltoranta-3360,professional network
+WEB00112,Teemu Jousiranta,Customer Service Team Lead,Customer service,Turku HQ,,,professional network
+WEB00113,Merja Haapavirta,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/merja-haapavirta-8402,professional network
+WEB00114,Ville Heinäaho,IT Manager,IT,Turku HQ,+358 40 530 4448,https://pronet.example/in/ville-heinaaho-3768,professional network
+WEB00115,Katja Niemisuo,IT Manager,IT,Turku HQ,+358 44 387 9023,https://pronet.example/in/katja-niemisuo-1159,professional network
+WEB00116,Aki Salminen,Key Account Manager,Sales,Turku HQ,,,company website
+WEB00117,Eveliina Kuusipää,Sales Manager,Sales,Turku HQ,,,company website
+WEB00118,Iida Alatalo,Head of Sales,Sales,Turku HQ,+358 44 689 7434,,company website
+WEB00119,Sahra Hussein,Customer Service Team Lead,Customer service,Turku HQ,+358 50 756 6826,https://pronet.example/in/sahra-hussein-5878,professional network
+WEB00120,Matti Viitakangas,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/matti-viitakangas-1783,professional network
+WEB00121,Satu Lehtoranta,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/satu-lehtoranta-5303,company website
+WEB00122,Minna Kangaskorpi,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/minna-kangaskorpi-9453,company website
+WEB00123,Saga Lindberg,Logistics Coordinator,Customer service,Turku HQ,,,professional network
+WEB00124,Niina Salokangas,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/niina-salokangas-5801,professional network
+WEB00125,Serhii Kravchenko,Head of Sales,Management,Turku HQ,,https://pronet.example/in/serhii-kravchenko-9763,professional network
+WEB00126,Ville Mattila,Director of Operations,Management,Turku HQ,,https://pronet.example/in/ville-mattila-8875,professional network
+WEB00127,Tuomas Haukkajärvi,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/tuomas-haukkajarvi-8136,professional network
+WEB00128,Harri Pohjokorpi,Key Account Manager,Sales,Turku HQ,+358 45 262 6689,https://pronet.example/in/harri-pohjokorpi-4062,company website
+WEB00129,Johanna Tuominen,Finance Manager,Finance,Turku HQ,,,company website
+WEB00130,Sami Pajujärvi,Team Lead,Sales,Turku HQ,,https://pronet.example/in/sami-pajujarvi-2323,company website
+WEB00131,Camilla Holmström,Accounts Payable Clerk,Finance,Turku HQ,+358 44 974 7225,https://pronet.example/in/camilla-holmstrom-7475,company website
+WEB00132,Marina Kozlova,Team Lead,Customer service,Turku HQ,,,professional network
+WEB00133,Juha Kotkavirta,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/juha-kotkavirta-5102,company website
+WEB00134,Mari Kiviniemi,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/mari-kiviniemi-5603,company website
+WEB00135,Aki Valkama,Customer Service Team Lead,Customer service,Turku HQ,,,professional network
+WEB00136,Hannele Hietavuori,Customer Service Agent,Customer service,Turku HQ,+358 50 583 3800,,professional network
+WEB00137,Elina Lindström,Sales Coordinator,Management,Turku HQ,+358 40 815 7592,,professional network
+WEB00138,Katja Tuomiluoto,Head of Sales,Sales,Turku HQ,,https://pronet.example/in/katja-tuomiluoto-8477,professional network
+WEB00139,Minna Saastamoinen-Lindholm,Accounts Payable Clerk,Finance,Turku HQ,,https://pronet.example/in/minna-saastamoinen-9130,professional network
+WEB00140,Oona Sallinen,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/oona-sallinen-4353,professional network
+WEB00141,Veera Hirvinen,Sales Coordinator,Sales,Turku HQ,,,professional network
+WEB00142,Ari Leppäharju,Logistics Coordinator,Sales,Turku HQ,,https://pronet.example/in/ari-leppaharju-8810,professional network
+WEB00143,Iida Mäntyranta,Key Account Manager,Sales,Turku HQ,,,professional network
+WEB00144,Ronja Kotkamäki,Legal Counsel,Legal,Turku HQ,,https://pronet.example/in/ronja-kotkamaki-5648,professional network
+WEB00145,Antti Pietilä,Key Account Manager,Sales,Turku HQ,+358 44 446 4836,https://pronet.example/in/antti-pietila-1817,company website
+WEB00146,Satu Kaikkonen,IT Manager,IT,Turku HQ,,https://pronet.example/in/satu-kaikkonen-8102,professional network
+WEB00147,Lasse Karhuluoto,IT Manager,IT,Turku HQ,+358 44 565 8605,https://pronet.example/in/lasse-karhuluoto-5464,professional network
+WEB00148,Ilkka Pajukorpi,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/ilkka-pajukorpi-2868,professional network
+WEB00149,Maria Ylämäki-Nieminen,Sales Coordinator,Sales,Turku HQ,+358 41 687 8045,,company website
+WEB00150,Jussi Pihlajärvi,Finance Manager,Finance,Turku HQ,+358 50 718 8965,https://pronet.example/in/jussi-pihlajarvi-5194,company website
+WEB00151,Veeti Tervokallio,Sales Manager,Sales,Turku HQ,+358 40 736 0131,https://pronet.example/in/veeti-tervokallio-9335,professional network
+WEB00152,Markku Kaukokorpi,Accounts Payable Clerk,Finance,Turku HQ,+358 45 673 7596,https://pronet.example/in/markku-kaukokorpi-1101,professional network
+WEB00153,Linus Lindholm,Customer Service Agent,Customer service,Turku HQ,+358 41 606 0127,https://pronet.example/in/linus-lindholm-8815,professional network
+WEB00154,Sami Kangaslahti,Head of Sales,Sales,Turku HQ,+358 45 886 2713,https://pronet.example/in/sami-kangaslahti-1925,professional network
+WEB00155,Mikko Heinäpää,Key Account Manager,Sales,Turku HQ,,,professional network
+WEB00156,Rasmus Kuusilahti,Team Lead,IT,Turku HQ,,https://pronet.example/in/rasmus-kuusilahti-9134,company website
+WEB00157,Elias Anttonen,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/elias-anttonen-8784,professional network
+WEB00158,Niina Huuskonen,Sales Manager,Sales,Turku HQ,,,professional network
+WEB00159,Jenni Koivujärvi,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/jenni-koivujarvi-5442,professional network
+WEB00160,Riikka Virtanen,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/riikka-virtanen-9392,company website
+WEB00161,Kati Nevalainen,Logistics Coordinator,Operations planning,Turku HQ,+358 45 863 4729,https://pronet.example/in/kati-nevalainen-1332,professional network
+WEB00162,Minna Hallalahti,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/minna-hallalahti-4687,professional network
+WEB00163,Ilkka Kurkioja,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/ilkka-kurkioja-7913,professional network
+WEB00164,Abdirahman Ali,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/abdirahman-ali-6300,company website
+WEB00165,Kaisa Kaskisalo-Koskinen,Customer Service Agent,Customer service,Turku HQ,+358 50 407 4442,https://pronet.example/in/kaisa-kaskisalo-2598,professional network
+WEB00166,David Evans,Customer Service Team Lead,Customer service,Turku HQ,+358 50 804 0196,https://pronet.example/in/david-evans-5380,company website
+WEB00167,Marjo Fagerström,Team Lead,Customer service,Turku HQ,+358 50 319 6535,https://pronet.example/in/marjo-fagerstrom-8518,company website
+WEB00168,Minna Martikainen,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/minna-martikainen-1806,company website
+WEB00169,Suvi Kesälä,Sales Coordinator,Legal,Turku HQ,,https://pronet.example/in/suvi-kesala-7099,professional network
+WEB00170,Marko Kaukokorpi,IT Manager,IT,Turku HQ,,https://pronet.example/in/marko-kaukokorpi-6374,company website
+WEB00171,Otto Sarkaoja,Customer Service Agent,Customer service,Turku HQ,+358 50 730 2750,,company website
+WEB00172,Tarja Ollila,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/tarja-ollila-3242,professional network
+WEB00173,Kristina Österlund,Logistics Coordinator,Operations planning,Turku HQ,+358 44 831 7900,https://pronet.example/in/kristina-osterlund-3390,professional network
+WEB00174,Sanna Heikkilä,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/sanna-heikkila-7698,company website
+WEB00175,Harri Kuusiharju,Operations Manager,Operations planning,Turku HQ,,,professional network
+WEB00176,Matilda Eriksson,Operations Manager,Operations planning,Turku HQ,+358 45 422 2743,https://pronet.example/in/matilda-eriksson-1116,company website
+WEB00177,Oksana Shevchenko,Accountant,Finance,Turku HQ,,,professional network
+WEB00178,Mikko Haapanen,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/mikko-haapanen-9860,professional network
+WEB00179,Axel Hallalahti,Customer Service Team Lead,Customer service,Turku HQ,+358 40 324 3514,https://pronet.example/in/axel-hallalahti-3263,company website
+WEB00180,Artjom Petrov,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/artjom-petrov-6190,company website
+WEB00181,Anna Kaskimaa,Accounts Payable Clerk,Finance,Turku HQ,,,professional network
+WEB00182,Heidi Turpeinen,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/heidi-turpeinen-1627,professional network
+WEB00183,Kaisa Sunen,Customer Service Agent,Customer service,Turku HQ,+358 50 886 6310,https://pronet.example/in/kaisa-sunen-8409,company website
+WEB00184,Miro Saarikoski,Accounts Payable Clerk,Finance,Turku HQ,+358 50 886 2953,https://pronet.example/in/miro-saarikoski-4634,company website
+WEB00185,Abdirahman Ali,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/abdirahman-ali-5003,company website
+WEB00186,Jussi Pajukorpi,Legal Counsel,Legal,Turku HQ,,,professional network
+WEB00187,Kaisa Rautakorpi,Chief Financial Officer,Management,Turku HQ,,https://pronet.example/in/kaisa-rautakorpi-5158,professional network
+WEB00188,Ville Heikkilä,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/ville-heikkila-1736,professional network
+WEB00189,Irma Joutsenmaa-Leppäkorpi,Customer Service Agent,Customer service,Turku HQ,+358 50 993 3916,https://pronet.example/in/irma-joutsenmaa-9617,company website
+WEB00190,Henna Kangaspää,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/henna-kangaspaa-8330,professional network
+WEB00191,Niina Tamminen,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/niina-tamminen-9444,company website
+WEB00192,Mikhail Novikov,Key Account Manager,Sales,Turku HQ,,,professional network
+WEB00193,Sari Lehtinen,Chief Executive Officer,Management,Turku HQ,,https://pronet.example/in/sari-lehtinen-2405,professional network
+WEB00194,Satu Hallamäki,Accounts Payable Clerk,Finance,Turku HQ,+358 46 202 9017,,company website
+WEB00195,Pasi Elo,Sales Coordinator,Sales,Turku HQ,+358 44 140 2239,https://pronet.example/in/pasi-elo-9278,professional network
+WEB00196,Ville Kotkasalo,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/ville-kotkasalo-9776,company website
+WEB00197,Joni Viitaranta,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/joni-viitaranta-8677,professional network
+WEB00198,Venla Joutsenmäki,Logistics Coordinator,Operations planning,Turku HQ,+358 40 377 3391,,professional network
+WEB00199,Henna Andersson,Sales Coordinator,Sales,Turku HQ,+358 45 641 2858,https://pronet.example/in/henna-andersson-1095,company website
+WEB00200,Oona Ahoharju,Sales Coordinator,Sales,Turku HQ,,,professional network
+WEB00201,Toni Eskola,Team Lead,Sales,Turku HQ,+358 44 549 6686,https://pronet.example/in/toni-eskola-6893,professional network
+WEB00202,Ville Jousikoski,Customer Service Team Lead,Customer service,Turku HQ,+358 45 825 2662,https://pronet.example/in/ville-jousikoski-2900,professional network
+WEB00203,Mikko Kanerva,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/mikko-kanerva-1762,company website
+WEB00204,Iida Leppäsuo,Logistics Coordinator,Operations planning,Turku HQ,,,professional network
+WEB00205,Päivi Hallamäki,Team Lead,Sales,Turku HQ,,,professional network
+WEB00206,Hussein Al-Hassan,Accountant,Finance,Turku HQ,,https://pronet.example/in/hussein-al-7750,professional network
+WEB00207,Joni Tammisalo,Key Account Manager,Sales,Turku HQ,+358 40 377 0602,https://pronet.example/in/joni-tammisalo-5716,professional network
+WEB00208,Julia Manninen,Sales Manager,Sales,Turku HQ,+358 50 344 7859,https://pronet.example/in/julia-manninen-6146,professional network
+WEB00209,Siiri Lumikorpi,Accounts Payable Clerk,Finance,Turku HQ,,https://pronet.example/in/siiri-lumikorpi-7252,professional network
+WEB00210,Nils Holmström,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/nils-holmstrom-1244,company website
+WEB00211,Emma Ahopää,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/emma-ahopaa-5158,professional network
+WEB00212,Anu Valkonen,Finance Manager,Finance,Turku HQ,+358 50 686 5590,https://pronet.example/in/anu-valkonen-5487,company website
+WEB00213,Piia Hallaniemi,Customer Service Agent,Customer service,Turku HQ,+358 50 183 8261,https://pronet.example/in/piia-hallaniemi-3158,company website
+WEB00214,Teemu Kankaanpää,Accountant,Finance,Turku HQ,,https://pronet.example/in/teemu-kankaanpaa-2596,company website
+WEB00215,Aditya Nair,Customer Service Team Lead,Customer service,Turku HQ,+358 44 410 3312,,professional network
+WEB00216,Anu Niemivirta,Customer Service Agent,Customer service,Turku HQ,+358 45 159 7039,https://pronet.example/in/anu-niemivirta-9210,professional network
+WEB00217,Piia Tervoranta,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/piia-tervoranta-9504,professional network
+WEB00218,Minna Lindholm,Head of Sales,Management,Turku HQ,+358 44 143 9988,https://pronet.example/in/minna-lindholm-9309,company website
+WEB00219,Nelli Honkanen,IT Manager,IT,Turku HQ,,https://pronet.example/in/nelli-honkanen-4528,company website
+WEB00220,Ville Ojaranta,Accountant,Finance,Turku HQ,+358 45 467 9718,https://pronet.example/in/ville-ojaranta-1400,company website
+WEB00221,Mikko Hirvioja,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/mikko-hirvioja-1969,company website
+WEB00222,Mervi Lehtinen,Logistics Coordinator,Customer service,Turku HQ,,,company website
+WEB00223,Outi Laaksonen-Virtanen,IT Manager,IT,Turku HQ,,https://pronet.example/in/outi-laaksonen-1920,professional network
+WEB00224,Susanna Ahosalo,Sales Manager,Sales,Turku HQ,+358 44 474 0825,,professional network
+WEB00225,Mari Wilson,Operations Manager,Operations planning,Turku HQ,,,professional network
+WEB00226,Onni Alasuo,Head of Sales,Sales,Turku HQ,,https://pronet.example/in/onni-alasuo-4569,company website
+WEB00227,Anna Liimatainen,Accountant,Finance,Turku HQ,,https://pronet.example/in/anna-liimatainen-8015,company website
+WEB00228,Arto Pohjola,Team Lead,Sales,Turku HQ,+358 45 415 2029,https://pronet.example/in/arto-pohjola-8387,professional network
+WEB00229,Minna Niemi,Operations Manager,Operations planning,Turku HQ,+358 44 238 1392,,company website
+WEB00230,Kaisa Räty,Operations Manager,Operations planning,Turku HQ,+358 46 420 0568,https://pronet.example/in/kaisa-raty-1096,professional network
+WEB00231,Harri Haukkalehto,Chief Executive Officer,Management,Turku HQ,+358 44 407 7456,https://pronet.example/in/harri-haukkalehto-9570,company website
+WEB00232,Mari Oravasalo-Joutsenkorpi,Operations Manager,Operations planning,Turku HQ,+358 40 273 8191,https://pronet.example/in/mari-oravasalo-6323,company website
+WEB00233,Marko Yläranta,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/marko-ylaranta-3477,company website
+WEB00234,Javier Castro,Finance Manager,Finance,Turku HQ,+358 46 758 9377,https://pronet.example/in/javier-castro-1253,professional network
+WEB00235,Jaana Hirvilahti,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/jaana-hirvilahti-9844,professional network
+WEB00236,Joni Joutsenpää,Key Account Manager,Sales,Turku HQ,+358 50 310 0876,https://pronet.example/in/joni-joutsenpaa-1223,professional network
+WEB00237,Santeri Joutsensalo,Accounts Payable Clerk,Finance,Turku HQ,,,professional network
+WEB00238,Anders Nyström,HR Manager,HR,Turku HQ,+358 40 730 0466,https://pronet.example/in/anders-nystrom-8061,professional network
+WEB00239,Oona Haukkaaho,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/oona-haukkaaho-6543,professional network
+WEB00240,Paula Lehtola,Finance Manager,Finance,Turku HQ,+358 44 182 5623,https://pronet.example/in/paula-lehtola-8401,professional network
+WEB00241,Tommi Rautakallio,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/tommi-rautakallio-1392,professional network
+WEB00242,Paula Parkkinen,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/paula-parkkinen-1048,professional network
+WEB00243,Serhii Kravchenko,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/serhii-kravchenko-9511,professional network
+WEB00244,Hannele Alaaho,Operations Manager,Operations planning,Turku HQ,+358 41 945 6823,,professional network
+WEB00245,Susanna Savchenko-Lehtomaa,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/susanna-savchenko-9303,company website
+WEB00246,Piia Grönroos,Customer Service Team Lead,Customer service,Turku HQ,+358 45 830 7943,https://pronet.example/in/piia-gronroos-2502,professional network
+WEB00247,Roosa Laaksoniemi,Operations Manager,Operations planning,Turku HQ,+358 46 350 3375,https://pronet.example/in/roosa-laaksoniemi-4598,company website
+WEB00248,Julia Laaksomäki,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/julia-laaksomaki-2240,professional network
+WEB00249,Sanna Karhusuo,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/sanna-karhusuo-9680,company website
+WEB00250,Piia Uusitalo,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/piia-uusitalo-7109,company website
+WEB00251,Katja Haapamäki,Accounts Payable Clerk,Finance,Turku HQ,,,company website
+WEB00252,Nea Pajumaa,HR Manager,HR,Turku HQ,,,company website
+WEB00253,Mikko Aaltonen,IT Manager,IT,Turku HQ,+358 45 770 1847,https://pronet.example/in/mikko-aaltonen-5485,company website
+WEB00254,Rasmus Joutsenvuori,Head of Sales,Sales,Turku HQ,,https://pronet.example/in/rasmus-joutsenvuori-1750,professional network
+WEB00255,Niko Sarkasalo,IT Manager,IT,Turku HQ,,https://pronet.example/in/niko-sarkasalo-2392,professional network
+WEB00256,Santeri Ojaaho,Key Account Manager,Sales,Turku HQ,,,company website
+WEB00257,Tomi Nieminen,Chief Executive Officer,Management,Turku HQ,,https://pronet.example/in/tomi-nieminen-1604,company website
+WEB00258,Arttu Holopainen,Sales Coordinator,HR,Turku HQ,+358 46 808 9996,https://pronet.example/in/arttu-holopainen-3506,professional network
+WEB00259,Veera Sorsavuori,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/veera-sorsavuori-1561,professional network
+WEB00260,Kirsi Nieminen,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/kirsi-nieminen-3928,professional network
+WEB00261,Venla Aaltonen,IT Manager,IT,Turku HQ,,https://pronet.example/in/venla-aaltonen-1547,professional network
+WEB00262,Leena Viitaoja,Finance Manager,Finance,Turku HQ,,,professional network
+WEB00263,Laura Niemi,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/laura-niemi-9965,company website
+WEB00264,Jari Viitaniemi,Operations Manager,Operations planning,Turku HQ,+358 46 759 5535,https://pronet.example/in/jari-viitaniemi-1217,company website
+WEB00265,Arja Hallaniemi,Finance Manager,Finance,Turku HQ,+358 46 600 3698,https://pronet.example/in/arja-hallaniemi-3842,professional network
+WEB00266,Jussi Kesäpää,Customer Service Agent,Customer service,Turku HQ,+358 44 695 3255,,company website
+WEB00267,Marko Niemikallio,HR Manager,HR,Turku HQ,,https://pronet.example/in/marko-niemikallio-3491,professional network
+WEB00268,William Backman,Accounts Payable Clerk,Finance,Turku HQ,,https://pronet.example/in/william-backman-2150,professional network
+WEB00269,Kalle Kivipää,Legal Counsel,Legal,Turku HQ,,https://pronet.example/in/kalle-kivipaa-2988,professional network
+WEB00270,Tuomas Kuusiluoto,Accounts Payable Clerk,Finance,Turku HQ,+358 50 891 7858,https://pronet.example/in/tuomas-kuusiluoto-5500,company website
+WEB00271,Kimmo Oravaaho,Finance Manager,Finance,Turku HQ,+358 40 158 2335,https://pronet.example/in/kimmo-oravaaho-4981,professional network
+WEB00272,Samuel Talvila,Director of Operations,Management,Turku HQ,,https://pronet.example/in/samuel-talvila-3782,company website
+WEB00273,Sami Ylönen,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/sami-ylonen-6680,company website
+WEB00274,Riku Erkkilä,Sales Manager,Sales,Turku HQ,+358 50 363 7987,https://pronet.example/in/riku-erkkila-6637,professional network
+WEB00275,Janne Ruohokoski,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/janne-ruohokoski-5331,company website
+WEB00276,Riitta Hirvikorpi,Operations Manager,Operations planning,Turku HQ,+358 40 422 4526,https://pronet.example/in/riitta-hirvikorpi-7238,professional network
+WEB00277,Henna Saarimäki,Head of Sales,Sales,Turku HQ,,,company website
+WEB00278,Essi Mäntysuo,Head of Sales,Management,Turku HQ,,https://pronet.example/in/essi-mantysuo-8805,professional network
+WEB00279,Oona Oravalehto-Hyttinen,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/oona-oravalehto-8805,professional network
+WEB00280,Esa Ylämäki,Sales Manager,Sales,Turku HQ,+358 45 780 3353,https://pronet.example/in/esa-ylamaki-1585,professional network
+WEB00281,Marko Kaukonen,Key Account Manager,Sales,Turku HQ,+358 45 286 6300,https://pronet.example/in/marko-kaukonen-4498,professional network
+WEB00282,Piia Välimäki,Head of Sales,Sales,Turku HQ,+358 40 519 5658,,professional network
+WEB00283,Fanni Pohjola,Finance Manager,Finance,Turku HQ,+358 45 466 8403,https://pronet.example/in/fanni-pohjola-5474,company website
+WEB00284,Marko Salminen,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/marko-salminen-9455,professional network
+WEB00285,Sanna Haukkaoja,Legal Counsel,Legal,Turku HQ,,https://pronet.example/in/sanna-haukkaoja-1720,company website
+WEB00286,Jari Keränen,Finance Manager,Finance,Turku HQ,+358 46 666 2383,https://pronet.example/in/jari-keranen-3915,company website
+WEB00287,Maarit Ahola,Key Account Manager,Sales,Turku HQ,+358 50 468 6982,https://pronet.example/in/maarit-ahola-8842,company website
+WEB00288,Laura Reddy,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/laura-reddy-9497,company website
+WEB00289,Veeti Vuoripää,Accounts Payable Clerk,Finance,Turku HQ,+358 46 977 2545,https://pronet.example/in/veeti-vuoripaa-1325,company website
+WEB00290,Teemu Aaltosuo,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/teemu-aaltosuo-8320,professional network
+WEB00291,Tomi Kivistö,Key Account Manager,Sales,Turku HQ,,,company website
+WEB00292,Rolf Åberg,Accounts Payable Clerk,Finance,Turku HQ,+358 44 786 4492,https://pronet.example/in/rolf-aberg-8291,company website
+WEB00293,Tuomas Kaarnaniemi,Sales Coordinator,Sales,Turku HQ,,,company website
+WEB00294,Veeti Kangasmaa,Sales Manager,Sales,Turku HQ,,,company website
+WEB00295,Antti Rantanen,Chief Financial Officer,Management,Turku HQ,,https://pronet.example/in/antti-rantanen-2588,company website
+WEB00296,Riku Kiviniemi,Sales Coordinator,Sales,Turku HQ,+358 41 788 2016,https://pronet.example/in/riku-kiviniemi-2797,professional network
+WEB00297,Minna Niemikallio,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/minna-niemikallio-1277,professional network
+WEB00298,Marko Salminen,Chief Financial Officer,Management,Turku HQ,,,professional network
+WEB00299,Mikko Pajuaho,Sales Coordinator,Customer service,Turku HQ,,,professional network
+WEB00300,Christer Ojanen,Legal Counsel,Legal,Turku HQ,+358 50 760 3539,https://pronet.example/in/christer-ojanen-6911,professional network
+WEB00301,Amina Hussein,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/amina-hussein-7917,professional network
+WEB00302,Jesse Kalliovuori,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/jesse-kalliovuori-6895,company website
+WEB00303,Pinja Kurkipää,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/pinja-kurkipaa-1704,company website
+WEB00304,Agnes Holmström,Customer Service Agent,Customer service,Turku HQ,+358 44 304 8037,,professional network
+WEB00305,Aino Aro,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/aino-aro-4483,professional network
+WEB00306,Eetu Rautasalo,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/eetu-rautasalo-4155,company website
+WEB00307,Göran Hietajärvi,Accountant,Finance,Turku HQ,+358 44 552 2451,https://pronet.example/in/goran-hietajarvi-5345,professional network
+WEB00308,Britt Sundström,Key Account Manager,Sales,Turku HQ,+358 45 700 3935,https://pronet.example/in/britt-sundstrom-3851,company website
+WEB00309,Maria Henriksson,Sales Coordinator,Sales,Turku HQ,,,professional network
+WEB00310,Toni Kulmala,HR Manager,HR,Turku HQ,,https://pronet.example/in/toni-kulmala-4828,company website
+WEB00311,Wilma Rytkönen,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/wilma-rytkonen-1738,company website
+WEB00312,Henna Pihlajärvi,Accountant,Finance,Turku HQ,,,professional network
+WEB00313,Lasse Ahosalo,Customer Service Agent,Customer service,Turku HQ,,,company website
+WEB00314,Mari Joutsenharju,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/mari-joutsenharju-3429,professional network
+WEB00315,Nea Talvimaa,Sales Coordinator,Finance,Turku HQ,+358 44 123 4685,https://pronet.example/in/nea-talvimaa-6496,company website
+WEB00316,Miro Ruohopää,Sales Coordinator,Sales,Turku HQ,+358 44 507 7231,https://pronet.example/in/miro-ruohopaa-6054,company website
+WEB00317,Santeri Nylund,Operations Manager,Operations planning,Turku HQ,,,company website
+WEB00318,Tuomas Kivistö,Accounts Payable Clerk,Finance,Turku HQ,,https://pronet.example/in/tuomas-kivisto-1737,professional network
+WEB00319,Mikko Kuusijärvi,Sales Coordinator,Finance,Turku HQ,,,professional network
+WEB00320,Santeri Saarinen,Sales Manager,Sales,Turku HQ,+358 45 441 5849,https://pronet.example/in/santeri-saarinen-2145,company website
+WEB00321,Pinja Aaltomaa,Finance Manager,Finance,Turku HQ,,,company website
+WEB00322,Kalle Kalliojärvi,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/kalle-kalliojarvi-4761,company website
+WEB00323,Susanna Haukkakangas,Accountant,Finance,Turku HQ,,https://pronet.example/in/susanna-haukkakangas-5929,professional network
+WEB00324,Seija Niemisuo,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/seija-niemisuo-4602,company website
+WEB00325,Pasi Heino,Team Lead,HR,Turku HQ,+358 41 570 9460,https://pronet.example/in/pasi-heino-5073,professional network
+WEB00326,Anu Turpeinen,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/anu-turpeinen-8770,professional network
+WEB00327,Elias Karjalainen,Sales Manager,Sales,Turku HQ,+358 40 362 3670,,company website
+WEB00328,Lauri Mononen,IT Manager,IT,Turku HQ,,https://pronet.example/in/lauri-mononen-3444,company website
+WEB00329,Rasmus Järvi,Sales Manager,Sales,Turku HQ,+358 50 751 3812,,professional network
+WEB00330,Kati Salminen,Sales Manager,Sales,Turku HQ,,https://pronet.example/in/kati-salminen-2147,company website
+WEB00331,Ritva Salovirta,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/ritva-salovirta-6348,company website
+WEB00332,Tuomas Ilvesluoto,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/tuomas-ilvesluoto-1182,company website
+WEB00333,Roope Niemikallio,Accounts Payable Clerk,Finance,Turku HQ,+358 41 856 3174,,company website
+WEB00334,Sara Ahmadi,Logistics Coordinator,Operations planning,Turku HQ,,,professional network
+WEB00335,Petteri Oravaluoto,Key Account Manager,Sales,Turku HQ,+358 50 842 8693,https://pronet.example/in/petteri-oravaluoto-2449,professional network
+WEB00336,Juho Pakarinen,Head of Sales,Sales,Turku HQ,,https://pronet.example/in/juho-pakarinen-2272,company website
+WEB00337,Minna Kaarnajärvi,Legal Counsel,Legal,Turku HQ,+358 45 925 5687,,company website
+WEB00338,Joni Yläpää,Sales Coordinator,Sales,Turku HQ,+358 50 731 3904,,professional network
+WEB00339,Tero Lammi,Accounts Payable Clerk,Finance,Turku HQ,,,professional network
+WEB00340,Matti Kurkimaa,Operations Manager,Operations planning,Turku HQ,+358 41 728 3039,https://pronet.example/in/matti-kurkimaa-6575,professional network
+WEB00341,Mari Koivusuo,Legal Counsel,Legal,Turku HQ,+358 44 789 2996,https://pronet.example/in/mari-koivusuo-2133,professional network
+WEB00342,Suvi Karhumäki-Hirvikangas,Customer Service Agent,Customer service,Turku HQ,,,professional network
+WEB00343,Teemu Ruohoaho,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/teemu-ruohoaho-2659,professional network
+WEB00344,Stefan Forsström,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/stefan-forsstrom-2169,company website
+WEB00345,Jari Hakala,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/jari-hakala-5850,professional network
+WEB00346,Riikka Lindroos,Team Lead,Operations planning,Turku HQ,,,professional network
+WEB00347,Oona Kivilä,Accountant,Finance,Turku HQ,,,professional network
+WEB00348,Rohan Iyer,Sales Manager,Sales,Turku HQ,+358 50 459 0108,https://pronet.example/in/rohan-iyer-6132,professional network
+WEB00349,Hanna Lappalainen,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/hanna-lappalainen-8139,company website
+WEB00350,Huda Al-Obaidi,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/huda-al-3533,professional network
+WEB00351,Jaana Joutsenharju,Finance Manager,Finance,Turku HQ,,https://pronet.example/in/jaana-joutsenharju-8533,company website
+WEB00352,Siiri Haapaaho,Logistics Coordinator,Operations planning,Turku HQ,+358 46 634 1856,https://pronet.example/in/siiri-haapaaho-8241,company website
+WEB00353,Siiri Leppäjärvi,Customer Service Agent,Customer service,Turku HQ,,https://pronet.example/in/siiri-leppajarvi-6020,professional network
+WEB00354,Mei Wang,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/mei-wang-5082,company website
+WEB00355,Elina Mäkilä,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/elina-makila-6330,company website
+WEB00356,Tuija Mäkikangas,Team Lead,Sales,Turku HQ,+358 40 871 2280,https://pronet.example/in/tuija-makikangas-2378,professional network
+WEB00357,Suvi Lundén,Logistics Coordinator,Operations planning,Turku HQ,+358 50 559 3215,https://pronet.example/in/suvi-lunden-8729,professional network
+WEB00358,Marko Sorsalehto,Head of Sales,Sales,Turku HQ,,,professional network
+WEB00359,Tomi Leinonen,Sales Coordinator,Sales,Turku HQ,,https://pronet.example/in/tomi-leinonen-9710,professional network
+WEB00360,Ari Niemi,Legal Counsel,Legal,Turku HQ,,,professional network
+WEB00361,Inka Alajärvi,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/inka-alajarvi-7607,professional network
+WEB00362,Emma Joutsenlahti,Sales Manager,Sales,Turku HQ,+358 46 357 2784,https://pronet.example/in/emma-joutsenlahti-2276,company website
+WEB00363,Heidi Viitaranta,Customer Service Agent,Customer service,Turku HQ,,,professional network
+WEB00364,Ella Hietalahti,Customer Service Team Lead,Customer service,Turku HQ,+358 50 690 4903,https://pronet.example/in/ella-hietalahti-7599,professional network
+WEB00365,Tommi Mäkiluoto,Customer Service Team Lead,Customer service,Turku HQ,,https://pronet.example/in/tommi-makiluoto-6038,professional network
+WEB00366,Jukka Haapanen,Logistics Coordinator,Operations planning,Turku HQ,,https://pronet.example/in/jukka-haapanen-8911,professional network
+WEB00367,Sami Tervola,Logistics Coordinator,Sales,Turku HQ,,https://pronet.example/in/sami-tervola-5422,company website
+WEB00368,Inka Korpela,IT Manager,IT,Turku HQ,,https://pronet.example/in/inka-korpela-9856,professional network
+WEB00369,Kirsi Kaukokoski,Team Lead,Operations planning,Turku HQ,+358 46 294 6227,,company website
+WEB00370,Nelli Sorsavirta,Sales Coordinator,Sales,Turku HQ,,,professional network
+WEB00371,Marko Saaripää,Team Lead,Sales,Turku HQ,,,professional network
+WEB00372,Jesse Kultasalo,Key Account Manager,Sales,Turku HQ,,https://pronet.example/in/jesse-kultasalo-7392,company website
+WEB00373,Göran Johansson,Head of Sales,Sales,Turku HQ,+358 50 612 7675,https://pronet.example/in/goran-johansson-7938,company website
+WEB00374,Arttu Virtanen,Accounts Payable Clerk,Finance,Turku HQ,,https://pronet.example/in/arttu-virtanen-6476,professional network
+WEB00375,Joni Jauhiainen,Customer Service Team Lead,Customer service,Turku HQ,,,company website
+WEB00376,Riku Koivuvirta,Accountant,Finance,Turku HQ,+358 50 233 8995,https://pronet.example/in/riku-koivuvirta-2351,company website
+WEB00377,Elina Kuronen-Kaskiaho,Operations Manager,Operations planning,Turku HQ,,https://pronet.example/in/elina-kuronen-4177,professional network
+WEB00378,Ville Peltokangas,Route Planner,Sales,Turku HQ,,,professional network
+WEB00379,Hugo Ketola,Route Planner,Sales,Turku HQ,,,professional network
+WEB00380,Elina Pajuharju,Sales Manager,Sales,Turku HQ,,,professional network
+WEB00381,Sara Keskitalo,Sales Manager,Sales,Turku HQ,,,professional network
+WEB00382,Sami Alasalo,Key Account Manager,Sales,Turku HQ,,,professional network
+WEB00383,Aila Tammioja,Operations Manager,Sales,Turku HQ,,,professional network
+WEB00384,Onni Pohjosuo,Key Account Manager,Sales,Turku HQ,,,professional network
+WEB00385,Ksenia Kuznetsova,Logistics Coordinator,Sales,Turku HQ,,,professional network
+WEB00386,Merja Kesäranta,Route Planner,Sales,Turku HQ,,,professional network
+WEB00387,Tellervo Ilveslahti-Leppäranta,Sales Coordinator,Sales,Turku HQ,,,professional network
+WEB00388,Marko Valtonen,Route Planner,Sales,Turku HQ,,,professional network
+WEB00389,Helena Walker,Key Account Manager,Sales,Turku HQ,,,professional network

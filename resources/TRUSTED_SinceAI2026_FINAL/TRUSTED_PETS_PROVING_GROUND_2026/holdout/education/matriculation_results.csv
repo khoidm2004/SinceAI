@@ -1,0 +1,770 @@
+exam_result_id,student_id,exam_session,subject_code,subject_name,raw_points,max_points,grade,grade_points,exam_language
+YO000001,ST2000024,2022S,BB,"Swedish, intermediate",122,299,B,3,fi
+YO000002,ST2000024,2022S,FY,Physics,60,120,C,4,fi
+YO000003,ST2000024,2022S,N,"Mathematics, basic",54,120,B,3,fi
+YO000141,ST2000555,2022S,BB,"Swedish, intermediate",210,299,M,5,fi
+YO000142,ST2000555,2022S,N,"Mathematics, basic",71,120,C,4,fi
+YO000143,ST2000555,2022S,PS,Psychology,76,120,M,5,fi
+YO000186,ST2000666,2022S,BB,"Swedish, intermediate",227,299,E,6,fi
+YO000187,ST2000666,2022S,M,"Mathematics, advanced",80,120,M,5,fi
+YO000222,ST2000863,2022S,BB,"Swedish, intermediate",229,299,E,6,fi
+YO000223,ST2000863,2022S,BI,Biology,85,120,M,5,fi
+YO000224,ST2000863,2022S,M,"Mathematics, advanced",75,120,M,5,fi
+YO000244,ST2000923,2022S,BB,"Swedish, intermediate",102,299,A,2,fi
+YO000245,ST2000923,2022S,M,"Mathematics, advanced",58,120,B,3,fi
+YO000256,ST2000958,2022S,BI,Biology,90,120,E,6,fi
+YO000257,ST2000958,2022S,M,"Mathematics, advanced",67,120,C,4,fi
+YO000305,ST2001138,2022S,BB,"Swedish, intermediate",276,299,L,7,fi
+YO000306,ST2001138,2022S,FY,Physics,74,120,C,4,fi
+YO000307,ST2001138,2022S,M,"Mathematics, advanced",92,120,E,6,fi
+YO000342,ST2001235,2022S,BB,"Swedish, intermediate",128,299,B,3,fi
+YO000343,ST2001235,2022S,N,"Mathematics, basic",39,120,A,2,fi
+YO000447,ST2001668,2022S,BB,"Swedish, intermediate",229,299,E,6,fi
+YO000448,ST2001668,2022S,FY,Physics,58,120,B,3,fi
+YO000449,ST2001668,2022S,N,"Mathematics, basic",76,120,M,5,fi
+YO000467,ST2001766,2022S,BB,"Swedish, intermediate",125,299,B,3,fi
+YO000468,ST2001766,2022S,KE,Chemistry,44,120,A,2,fi
+YO000469,ST2001766,2022S,N,"Mathematics, basic",45,120,A,2,fi
+YO000548,ST2002052,2022S,M,"Mathematics, advanced",113,120,L,7,fi
+YO000549,ST2002052,2022S,TE,Health education,88,120,M,5,fi
+YO000580,ST2002134,2022S,BB,"Swedish, intermediate",184,299,C,4,fi
+YO000581,ST2002134,2022S,ET,Ethics,61,120,C,4,fi
+YO000582,ST2002134,2022S,N,"Mathematics, basic",84,120,M,5,fi
+YO000583,ST2002134,2022S,PS,Psychology,84,120,M,5,fi
+YO000694,ST2002576,2022S,BB,"Swedish, intermediate",199,299,M,5,fi
+YO000695,ST2002576,2022S,N,"Mathematics, basic",60,120,C,4,fi
+YO000752,ST2002811,2022S,BB,"Swedish, intermediate",237,299,E,6,fi
+YO000753,ST2002811,2022S,M,"Mathematics, advanced",90,120,E,6,fi
+YO000813,ST2003039,2022S,M,"Mathematics, advanced",78,120,M,5,fi
+YO000814,ST2003039,2022S,TE,Health education,76,120,M,5,fi
+YO000838,ST2003124,2022S,BB,"Swedish, intermediate",125,299,B,3,fi
+YO000839,ST2003124,2022S,N,"Mathematics, basic",75,120,M,5,fi
+YO000864,ST2003226,2022S,BB,"Swedish, intermediate",190,299,M,5,fi
+YO000865,ST2003226,2022S,N,"Mathematics, basic",65,120,C,4,fi
+YO000866,ST2003226,2022S,YH,Social studies,98,120,E,6,fi
+YO000929,ST2003381,2022S,BB,"Swedish, intermediate",135,299,B,3,fi
+YO000930,ST2003381,2022S,FF,Philosophy,51,120,B,3,fi
+YO000931,ST2003381,2022S,N,"Mathematics, basic",55,120,B,3,fi
+YO001045,ST2003769,2022S,KE,Chemistry,69,120,C,4,fi
+YO001046,ST2003769,2022S,N,"Mathematics, basic",61,120,C,4,fi
+YO001186,ST2004190,2022S,BB,"Swedish, intermediate",135,299,B,3,fi
+YO001187,ST2004190,2022S,N,"Mathematics, basic",51,120,B,3,fi
+YO001206,ST2004259,2022S,BB,"Swedish, intermediate",226,299,E,6,fi
+YO001207,ST2004259,2022S,N,"Mathematics, basic",60,120,B,3,fi
+YO001333,ST2004702,2022S,BB,"Swedish, intermediate",165,299,C,4,fi
+YO001334,ST2004702,2022S,N,"Mathematics, basic",59,120,B,3,fi
+YO001335,ST2004702,2022S,PS,Psychology,62,120,C,4,fi
+YO001374,ST2004837,2022S,BB,"Swedish, intermediate",202,299,M,5,fi
+YO001375,ST2004837,2022S,FF,Philosophy,76,120,M,5,fi
+YO001376,ST2004837,2022S,M,"Mathematics, advanced",87,120,M,5,fi
+YO001382,ST2004873,2022S,GE,Geography,96,120,E,6,fi
+YO001383,ST2004873,2022S,M,"Mathematics, advanced",84,120,M,5,fi
+YO001384,ST2004873,2022S,PS,Psychology,107,120,L,7,fi
+YO001517,ST2005274,2022S,BB,"Swedish, intermediate",182,299,C,4,fi
+YO001518,ST2005274,2022S,GE,Geography,61,120,C,4,fi
+YO001519,ST2005274,2022S,N,"Mathematics, basic",30,120,I,0,fi
+YO001589,ST2005552,2022S,BB,"Swedish, intermediate",178,299,C,4,fi
+YO001590,ST2005552,2022S,FY,Physics,70,120,C,4,fi
+YO001591,ST2005552,2022S,M,"Mathematics, advanced",61,120,C,4,fi
+YO001717,ST2000024,2023K,A,"Finnish, mother tongue and literature",60,120,B,3,fi
+YO001718,ST2000024,2023K,EA,"English, advanced",130,299,B,3,fi
+YO001719,ST2000024,2023K,YH,Social studies,83,120,M,5,fi
+YO001882,ST2000555,2023K,A,"Finnish, mother tongue and literature",64,120,C,4,fi
+YO001883,ST2000555,2023K,BI,Biology,72,120,C,4,fi
+YO001884,ST2000555,2023K,EA,"English, advanced",121,299,B,3,fi
+YO001943,ST2000666,2023K,A,"Finnish, mother tongue and literature",69,120,C,4,fi
+YO001944,ST2000666,2023K,EA,"English, advanced",197,299,M,5,fi
+YO001945,ST2000666,2023K,TE,Health education,90,120,E,6,fi
+YO001983,ST2000863,2023K,A,"Finnish, mother tongue and literature",73,120,C,4,fi
+YO001984,ST2000863,2023K,EA,"English, advanced",247,299,E,6,fi
+YO001985,ST2000863,2023K,FF,Philosophy,79,120,M,5,fi
+YO001986,ST2000863,2023K,YH,Social studies,94,120,E,6,fi
+YO002012,ST2000923,2023K,A,"Finnish, mother tongue and literature",82,120,M,5,fi
+YO002013,ST2000923,2023K,BB,"Swedish, intermediate",138,299,B,3,fi
+YO002014,ST2000923,2023K,EA,"English, advanced",191,299,M,5,fi
+YO002015,ST2000923,2023K,YH,Social studies,85,120,M,5,fi
+YO002028,ST2000958,2023K,A,"Finnish, mother tongue and literature",76,120,M,5,fi
+YO002029,ST2000958,2023K,EA,"English, advanced",177,299,C,4,fi
+YO002030,ST2000958,2023K,TE,Health education,85,120,M,5,fi
+YO002089,ST2001138,2023K,A,"Finnish, mother tongue and literature",81,120,M,5,fi
+YO002090,ST2001138,2023K,EA,"English, advanced",194,299,M,5,fi
+YO002091,ST2001138,2023K,TE,Health education,78,120,M,5,fi
+YO002133,ST2001235,2023K,A,"Finnish, mother tongue and literature",48,120,B,3,fi
+YO002134,ST2001235,2023K,EA,"English, advanced",186,299,M,5,fi
+YO002135,ST2001235,2023K,FF,Philosophy,79,120,M,5,fi
+YO002263,ST2001668,2023K,A,"Finnish, mother tongue and literature",68,120,C,4,fi
+YO002264,ST2001668,2023K,BI,Biology,84,120,M,5,fi
+YO002265,ST2001668,2023K,EA,"English, advanced",126,299,B,3,fi
+YO002266,ST2001668,2023K,UE,"Religion, Evangelical Lutheran",68,120,C,4,fi
+YO002286,ST2001766,2023K,A,"Finnish, mother tongue and literature",49,120,B,3,fi
+YO002287,ST2001766,2023K,EA,"English, advanced",110,299,A,2,fi
+YO002288,ST2001766,2023K,FY,Physics,62,120,C,4,fi
+YO002289,ST2001766,2023K,KE,Chemistry,54,120,B,3,fi
+YO002290,ST2001766,2023K,N,"Mathematics, basic",57,120,B,3,fi
+YO002377,ST2002052,2023K,A,"Finnish, mother tongue and literature",100,120,E,6,fi
+YO002378,ST2002052,2023K,EA,"English, advanced",239,299,E,6,fi
+YO002379,ST2002052,2023K,FY,Physics,93,120,E,6,fi
+YO002416,ST2002134,2023K,A,"Finnish, mother tongue and literature",70,120,C,4,fi
+YO002417,ST2002134,2023K,EA,"English, advanced",205,299,M,5,fi
+YO002418,ST2002134,2023K,HI,History,84,120,M,5,fi
+YO002419,ST2002134,2023K,TE,Health education,62,120,C,4,fi
+YO002557,ST2002576,2023K,A,"Finnish, mother tongue and literature",60,120,B,3,fi
+YO002558,ST2002576,2023K,BI,Biology,80,120,M,5,fi
+YO002559,ST2002576,2023K,EA,"English, advanced",171,299,C,4,fi
+YO002626,ST2002811,2023K,A,"Finnish, mother tongue and literature",105,120,L,7,fi
+YO002627,ST2002811,2023K,EA,"English, advanced",249,299,E,6,fi
+YO002628,ST2002811,2023K,FF,Philosophy,87,120,M,5,fi
+YO002701,ST2003039,2023K,A,"Finnish, mother tongue and literature",73,120,C,4,fi
+YO002702,ST2003039,2023K,EA,"English, advanced",142,299,B,3,fi
+YO002729,ST2003124,2023K,A,"Finnish, mother tongue and literature",60,120,B,3,fi
+YO002730,ST2003124,2023K,EA,"English, advanced",126,299,B,3,fi
+YO002731,ST2003124,2023K,KE,Chemistry,55,120,B,3,fi
+YO002758,ST2003226,2023K,A5,Finnish as a second language,63,120,C,4,fi
+YO002759,ST2003226,2023K,EA,"English, advanced",159,299,C,4,fi
+YO002760,ST2003226,2023K,FF,Philosophy,58,120,B,3,fi
+YO002840,ST2003381,2023K,A,"Finnish, mother tongue and literature",66,120,C,4,fi
+YO002841,ST2003381,2023K,EA,"English, advanced",148,299,B,3,fi
+YO002842,ST2003381,2023K,GE,Geography,38,120,A,2,fi
+YO002843,ST2003381,2023K,UE,"Religion, Evangelical Lutheran",70,120,C,4,fi
+YO002986,ST2003769,2023K,A,"Finnish, mother tongue and literature",56,120,B,3,fi
+YO002987,ST2003769,2023K,EA,"English, advanced",169,299,C,4,fi
+YO002988,ST2003769,2023K,GE,Geography,74,120,C,4,fi
+YO003161,ST2004190,2023K,A,"Finnish, mother tongue and literature",51,120,B,3,fi
+YO003162,ST2004190,2023K,EA,"English, advanced",152,299,C,4,fi
+YO003163,ST2004190,2023K,KE,Chemistry,54,120,B,3,fi
+YO003183,ST2004259,2023K,A,"Finnish, mother tongue and literature",49,120,B,3,fi
+YO003184,ST2004259,2023K,EA,"English, advanced",161,299,C,4,fi
+YO003185,ST2004259,2023K,YH,Social studies,53,120,B,3,fi
+YO003332,ST2004702,2023K,A,"Finnish, mother tongue and literature",83,120,M,5,fi
+YO003333,ST2004702,2023K,BI,Biology,48,120,B,3,fi
+YO003334,ST2004702,2023K,EA,"English, advanced",150,299,C,4,fi
+YO003335,ST2004702,2023K,YH,Social studies,63,120,C,4,fi
+YO003382,ST2004837,2023K,A,"Finnish, mother tongue and literature",75,120,M,5,fi
+YO003383,ST2004837,2023K,EA,"English, advanced",126,299,B,3,fi
+YO003384,ST2004837,2023K,HI,History,77,120,M,5,fi
+YO003391,ST2004873,2023K,A,"Finnish, mother tongue and literature",104,120,L,7,fi
+YO003392,ST2004873,2023K,EA,"English, advanced",215,299,M,5,fi
+YO003393,ST2004873,2023K,KE,Chemistry,107,120,L,7,fi
+YO003559,ST2005274,2023K,A,"Finnish, mother tongue and literature",49,120,B,3,fi
+YO003560,ST2005274,2023K,EA,"English, advanced",144,299,B,3,fi
+YO003561,ST2005274,2023K,FF,Philosophy,62,120,C,4,fi
+YO003646,ST2005552,2023K,A,"Finnish, mother tongue and literature",82,120,M,5,fi
+YO003647,ST2005552,2023K,EA,"English, advanced",146,299,B,3,fi
+YO003648,ST2005552,2023K,HI,History,88,120,M,5,fi
+YO003848,ST2003381,2023S,GE,Geography,49,120,B,3,fi
+YO003933,ST2100160,2023S,KE,Chemistry,62,120,C,4,fi
+YO003934,ST2100160,2023S,N,"Mathematics, basic",63,120,C,4,fi
+YO003978,ST2100282,2023S,BB,"Swedish, intermediate",132,299,B,3,fi
+YO003979,ST2100282,2023S,N,"Mathematics, basic",43,120,A,2,fi
+YO003985,ST2100297,2023S,BB,"Swedish, intermediate",240,299,E,6,fi
+YO003986,ST2100297,2023S,FF,Philosophy,94,120,E,6,fi
+YO003987,ST2100297,2023S,M,"Mathematics, advanced",67,120,C,4,fi
+YO004035,ST2100441,2023S,BB,"Swedish, intermediate",233,299,E,6,fi
+YO004036,ST2100441,2023S,FF,Philosophy,76,120,M,5,fi
+YO004037,ST2100441,2023S,M,"Mathematics, advanced",81,120,M,5,fi
+YO004038,ST2100451,2023S,BB,"Swedish, intermediate",63,299,I,0,fi
+YO004039,ST2100451,2023S,N,"Mathematics, basic",41,120,A,2,fi
+YO004042,ST2100459,2023S,BB,"Swedish, intermediate",105,299,A,2,fi
+YO004043,ST2100459,2023S,BI,Biology,84,120,M,5,fi
+YO004044,ST2100459,2023S,N,"Mathematics, basic",83,120,M,5,fi
+YO004045,ST2100459,2023S,UE,"Religion, Evangelical Lutheran",74,120,C,4,fi
+YO004079,ST2100586,2023S,GE,Geography,91,120,E,6,fi
+YO004080,ST2100586,2023S,KE,Chemistry,54,120,B,3,fi
+YO004081,ST2100586,2023S,M,"Mathematics, advanced",61,120,C,4,fi
+YO004130,ST2100778,2023S,BB,"Swedish, intermediate",219,299,M,5,fi
+YO004131,ST2100778,2023S,N,"Mathematics, basic",77,120,M,5,fi
+YO004132,ST2100778,2023S,UE,"Religion, Evangelical Lutheran",87,120,M,5,fi
+YO004143,ST2100813,2023S,FY,Physics,90,120,E,6,fi
+YO004144,ST2100813,2023S,M,"Mathematics, advanced",95,120,E,6,fi
+YO004198,ST2100962,2023S,BB,"Swedish, intermediate",107,299,A,2,fi
+YO004199,ST2100962,2023S,M,"Mathematics, advanced",70,120,C,4,fi
+YO004200,ST2100962,2023S,TE,Health education,68,120,C,4,fi
+YO004225,ST2101020,2023S,BB,"Swedish, intermediate",171,299,C,4,fi
+YO004226,ST2101020,2023S,M,"Mathematics, advanced",56,120,B,3,fi
+YO004275,ST2101162,2023S,GE,Geography,67,120,C,4,fi
+YO004276,ST2101162,2023S,N,"Mathematics, basic",64,120,C,4,fi
+YO004305,ST2101275,2023S,BB,"Swedish, intermediate",131,299,B,3,fi
+YO004306,ST2101275,2023S,GE,Geography,56,120,B,3,fi
+YO004307,ST2101275,2023S,M,"Mathematics, advanced",57,120,B,3,fi
+YO004371,ST2101468,2023S,FINB,"Finnish, intermediate (Swedish speakers)",143,299,B,3,sv
+YO004372,ST2101468,2023S,M,"Mathematics, advanced",65,120,C,4,sv
+YO004437,ST2101686,2023S,BB,"Swedish, intermediate",189,299,M,5,fi
+YO004438,ST2101686,2023S,N,"Mathematics, basic",86,120,M,5,fi
+YO004497,ST2101880,2023S,BB,"Swedish, intermediate",150,299,C,4,fi
+YO004498,ST2101880,2023S,M,"Mathematics, advanced",70,120,C,4,fi
+YO004499,ST2101880,2023S,PS,Psychology,65,120,C,4,fi
+YO004526,ST2101938,2023S,KE,Chemistry,62,120,C,4,fi
+YO004527,ST2101938,2023S,M,"Mathematics, advanced",74,120,C,4,fi
+YO004542,ST2101960,2023S,BI,Biology,47,120,B,3,sv
+YO004543,ST2101960,2023S,N,"Mathematics, basic",30,120,I,0,sv
+YO004576,ST2102020,2023S,BB,"Swedish, intermediate",219,299,M,5,fi
+YO004577,ST2102020,2023S,N,"Mathematics, basic",65,120,C,4,fi
+YO004578,ST2102020,2023S,TE,Health education,78,120,M,5,fi
+YO004613,ST2102093,2023S,BB,"Swedish, intermediate",181,299,C,4,fi
+YO004614,ST2102093,2023S,N,"Mathematics, basic",84,120,M,5,fi
+YO004615,ST2102093,2023S,YH,Social studies,73,120,C,4,fi
+YO004642,ST2102230,2023S,BB,"Swedish, intermediate",146,299,B,3,fi
+YO004643,ST2102230,2023S,M,"Mathematics, advanced",62,120,C,4,fi
+YO004700,ST2102372,2023S,BB,"Swedish, intermediate",143,299,B,3,fi
+YO004701,ST2102372,2023S,FF,Philosophy,70,120,C,4,fi
+YO004702,ST2102372,2023S,N,"Mathematics, basic",50,120,B,3,fi
+YO004703,ST2102373,2023S,FY,Physics,77,120,M,5,fi
+YO004704,ST2102373,2023S,M,"Mathematics, advanced",48,120,B,3,fi
+YO004793,ST2102626,2023S,BB,"Swedish, intermediate",260,299,L,7,fi
+YO004794,ST2102626,2023S,HI,History,93,120,E,6,fi
+YO004795,ST2102626,2023S,M,"Mathematics, advanced",100,120,E,6,fi
+YO004798,ST2102642,2023S,BB,"Swedish, intermediate",237,299,E,6,fi
+YO004799,ST2102642,2023S,M,"Mathematics, advanced",75,120,M,5,fi
+YO004800,ST2102642,2023S,TE,Health education,95,120,E,6,fi
+YO004832,ST2102720,2023S,BB,"Swedish, intermediate",221,299,E,6,fi
+YO004833,ST2102720,2023S,M,"Mathematics, advanced",93,120,E,6,fi
+YO004852,ST2102766,2023S,BB,"Swedish, intermediate",214,299,M,5,fi
+YO004853,ST2102766,2023S,M,"Mathematics, advanced",96,120,E,6,fi
+YO004862,ST2102800,2023S,BB,"Swedish, intermediate",123,299,B,3,fi
+YO004863,ST2102800,2023S,FF,Philosophy,68,120,C,4,fi
+YO004864,ST2102800,2023S,N,"Mathematics, basic",67,120,C,4,fi
+YO004877,ST2102847,2023S,BB,"Swedish, intermediate",257,299,E,6,fi
+YO004878,ST2102847,2023S,N,"Mathematics, basic",61,120,C,4,fi
+YO004919,ST2102975,2023S,BB,"Swedish, intermediate",123,299,B,3,fi
+YO004920,ST2102975,2023S,N,"Mathematics, basic",91,120,E,6,fi
+YO004921,ST2102975,2023S,PS,Psychology,78,120,M,5,fi
+YO004971,ST2103096,2023S,BB,"Swedish, intermediate",118,299,B,3,fi
+YO004972,ST2103096,2023S,ET,Ethics,23,120,I,0,fi
+YO004973,ST2103096,2023S,FF,Philosophy,44,120,A,2,fi
+YO004974,ST2103096,2023S,N,"Mathematics, basic",38,120,A,2,fi
+YO005011,ST2103167,2023S,HI,History,95,120,E,6,fi
+YO005012,ST2103167,2023S,M,"Mathematics, advanced",87,120,M,5,fi
+YO005026,ST2103220,2023S,BB,"Swedish, intermediate",244,299,E,6,fi
+YO005027,ST2103220,2023S,M,"Mathematics, advanced",74,120,C,4,fi
+YO005028,ST2103220,2023S,PS,Psychology,110,120,L,7,fi
+YO005105,ST2103396,2023S,BB,"Swedish, intermediate",89,299,A,2,fi
+YO005106,ST2103396,2023S,N,"Mathematics, basic",28,120,I,0,fi
+YO005107,ST2103396,2023S,YH,Social studies,43,120,A,2,fi
+YO005288,ST2103819,2023S,KE,Chemistry,68,120,C,4,fi
+YO005289,ST2103819,2023S,N,"Mathematics, basic",44,120,A,2,fi
+YO005319,ST2103989,2023S,BB,"Swedish, intermediate",182,299,C,4,fi
+YO005320,ST2103989,2023S,GE,Geography,75,120,M,5,fi
+YO005321,ST2103989,2023S,N,"Mathematics, basic",81,120,M,5,fi
+YO005325,ST2103995,2023S,BB,"Swedish, intermediate",173,299,C,4,fi
+YO005326,ST2103995,2023S,N,"Mathematics, basic",78,120,M,5,fi
+YO005337,ST2104009,2023S,BB,"Swedish, intermediate",153,299,C,4,fi
+YO005338,ST2104009,2023S,N,"Mathematics, basic",63,120,C,4,fi
+YO005339,ST2104009,2023S,TE,Health education,62,120,C,4,fi
+YO005379,ST2104122,2023S,BB,"Swedish, intermediate",128,299,B,3,fi
+YO005380,ST2104122,2023S,BI,Biology,41,120,A,2,fi
+YO005381,ST2104122,2023S,N,"Mathematics, basic",30,120,I,0,fi
+YO005394,ST2104173,2023S,BB,"Swedish, intermediate",81,299,A,2,fi
+YO005395,ST2104173,2023S,N,"Mathematics, basic",42,120,A,2,fi
+YO005396,ST2104173,2023S,YH,Social studies,34,120,A,2,fi
+YO005468,ST2104375,2023S,M,"Mathematics, advanced",98,120,E,6,fi
+YO005469,ST2104375,2023S,PS,Psychology,103,120,E,6,fi
+YO005591,ST2104678,2023S,BB,"Swedish, intermediate",185,299,C,4,fi
+YO005592,ST2104678,2023S,N,"Mathematics, basic",63,120,C,4,fi
+YO005618,ST2104741,2023S,BB,"Swedish, intermediate",161,299,C,4,fi
+YO005619,ST2104741,2023S,HI,History,59,120,B,3,fi
+YO005620,ST2104741,2023S,N,"Mathematics, basic",81,120,M,5,fi
+YO005633,ST2104786,2023S,FINB,"Finnish, intermediate (Swedish speakers)",137,299,B,3,sv
+YO005634,ST2104786,2023S,N,"Mathematics, basic",48,120,B,3,sv
+YO005694,ST2104981,2023S,BI,Biology,76,120,M,5,sv
+YO005695,ST2104981,2023S,FINB,"Finnish, intermediate (Swedish speakers)",199,299,M,5,sv
+YO005696,ST2104981,2023S,M,"Mathematics, advanced",64,120,C,4,sv
+YO005729,ST2105055,2023S,BB,"Swedish, intermediate",77,299,I,0,fi
+YO005730,ST2105055,2023S,N,"Mathematics, basic",14,120,I,0,fi
+YO005731,ST2105055,2023S,TE,Health education,44,120,A,2,fi
+YO005764,ST2105132,2023S,BB,"Swedish, intermediate",142,299,B,3,fi
+YO005765,ST2105132,2023S,N,"Mathematics, basic",63,120,C,4,fi
+YO005816,ST2105333,2023S,FF,Philosophy,105,120,L,7,fi
+YO005817,ST2105333,2023S,M,"Mathematics, advanced",67,120,C,4,fi
+YO005865,ST2105434,2023S,FY,Physics,68,120,C,4,fi
+YO005866,ST2105434,2023S,GE,Geography,91,120,E,6,fi
+YO005867,ST2105434,2023S,M,"Mathematics, advanced",77,120,M,5,fi
+YO005870,ST2105439,2023S,BB,"Swedish, intermediate",126,299,B,3,fi
+YO005871,ST2105439,2023S,N,"Mathematics, basic",23,120,I,0,fi
+YO005872,ST2105439,2023S,TE,Health education,53,120,B,3,fi
+YO005975,ST2105702,2023S,BB,"Swedish, intermediate",137,299,B,3,fi
+YO005976,ST2105702,2023S,HI,History,57,120,B,3,fi
+YO005977,ST2105702,2023S,N,"Mathematics, basic",41,120,A,2,fi
+YO006013,ST2105780,2023S,BB,"Swedish, intermediate",194,299,M,5,fi
+YO006014,ST2105780,2023S,M,"Mathematics, advanced",97,120,E,6,fi
+YO006130,ST2100160,2024K,A,"Finnish, mother tongue and literature",68,120,C,4,fi
+YO006131,ST2100160,2024K,EA,"English, advanced",165,299,C,4,fi
+YO006132,ST2100160,2024K,TE,Health education,85,120,M,5,fi
+YO006184,ST2100282,2024K,A,"Finnish, mother tongue and literature",58,120,B,3,fi
+YO006185,ST2100282,2024K,EA,"English, advanced",122,299,B,3,fi
+YO006186,ST2100282,2024K,KE,Chemistry,38,120,A,2,fi
+YO006187,ST2100282,2024K,N,"Mathematics, basic",43,120,A,2,fi
+YO006196,ST2100297,2024K,A,"Finnish, mother tongue and literature",88,120,M,5,fi
+YO006197,ST2100297,2024K,EA,"English, advanced",252,299,E,6,fi
+YO006198,ST2100297,2024K,YH,Social studies,97,120,E,6,fi
+YO006258,ST2100441,2024K,A,"Finnish, mother tongue and literature",105,120,L,7,fi
+YO006259,ST2100441,2024K,EA,"English, advanced",254,299,E,6,fi
+YO006260,ST2100441,2024K,GE,Geography,104,120,L,7,fi
+YO006261,ST2100451,2024K,A,"Finnish, mother tongue and literature",27,120,I,0,fi
+YO006262,ST2100451,2024K,BB,"Swedish, intermediate",70,299,I,0,fi
+YO006263,ST2100451,2024K,EA,"English, advanced",48,299,I,0,fi
+YO006264,ST2100451,2024K,HI,History,33,120,A,2,fi
+YO006268,ST2100459,2024K,A,"Finnish, mother tongue and literature",54,120,B,3,fi
+YO006269,ST2100459,2024K,EA,"English, advanced",98,299,A,2,fi
+YO006270,ST2100459,2024K,HI,History,43,120,A,2,fi
+YO006271,ST2100459,2024K,TE,Health education,42,120,A,2,fi
+YO006317,ST2100586,2024K,A,"Finnish, mother tongue and literature",60,120,C,4,fi
+YO006318,ST2100586,2024K,EA,"English, advanced",159,299,C,4,fi
+YO006319,ST2100586,2024K,FF,Philosophy,72,120,C,4,fi
+YO006378,ST2100778,2024K,A,"Finnish, mother tongue and literature",61,120,C,4,fi
+YO006379,ST2100778,2024K,EA,"English, advanced",166,299,C,4,fi
+YO006380,ST2100778,2024K,TE,Health education,99,120,E,6,fi
+YO006396,ST2100813,2024K,A,"Finnish, mother tongue and literature",84,120,M,5,fi
+YO006397,ST2100813,2024K,EA,"English, advanced",182,299,C,4,fi
+YO006464,ST2100962,2024K,A,"Finnish, mother tongue and literature",54,120,B,3,fi
+YO006465,ST2100962,2024K,BB,"Swedish, intermediate",123,299,B,3,fi
+YO006466,ST2100962,2024K,EA,"English, advanced",140,299,B,3,fi
+YO006467,ST2100962,2024K,GE,Geography,62,120,C,4,fi
+YO006468,ST2100962,2024K,PS,Psychology,64,120,C,4,fi
+YO006502,ST2101020,2024K,A,"Finnish, mother tongue and literature",80,120,M,5,fi
+YO006503,ST2101020,2024K,EA,"English, advanced",180,299,C,4,fi
+YO006504,ST2101020,2024K,FF,Philosophy,74,120,C,4,fi
+YO006561,ST2101162,2024K,A,"Finnish, mother tongue and literature",61,120,C,4,fi
+YO006562,ST2101162,2024K,EA,"English, advanced",138,299,B,3,fi
+YO006563,ST2101162,2024K,HI,History,54,120,B,3,fi
+YO006595,ST2101275,2024K,A,"Finnish, mother tongue and literature",75,120,M,5,fi
+YO006596,ST2101275,2024K,EA,"English, advanced",104,299,A,2,fi
+YO006597,ST2101275,2024K,PS,Psychology,60,120,C,4,fi
+YO006677,ST2101468,2024K,EA,"English, advanced",191,299,M,5,sv
+YO006678,ST2101468,2024K,O,"Swedish, mother tongue and literature",70,120,C,4,sv
+YO006679,ST2101468,2024K,PS,Psychology,65,120,C,4,sv
+YO006753,ST2101686,2024K,A,"Finnish, mother tongue and literature",63,120,C,4,fi
+YO006754,ST2101686,2024K,EA,"English, advanced",219,299,M,5,fi
+YO006755,ST2101686,2024K,FF,Philosophy,83,120,M,5,fi
+YO006829,ST2101880,2024K,A,"Finnish, mother tongue and literature",95,120,E,6,fi
+YO006830,ST2101880,2024K,EA,"English, advanced",190,299,M,5,fi
+YO006831,ST2101880,2024K,KE,Chemistry,76,120,M,5,fi
+YO006863,ST2101938,2024K,A,"Finnish, mother tongue and literature",52,120,B,3,fi
+YO006864,ST2101938,2024K,EA,"English, advanced",169,299,C,4,fi
+YO006884,ST2101960,2024K,EA,"English, advanced",112,299,A,2,sv
+YO006885,ST2101960,2024K,KE,Chemistry,39,120,A,2,sv
+YO006886,ST2101960,2024K,O,"Swedish, mother tongue and literature",54,120,B,3,sv
+YO006925,ST2102020,2024K,A,"Finnish, mother tongue and literature",74,120,C,4,fi
+YO006926,ST2102020,2024K,EA,"English, advanced",180,299,C,4,fi
+YO006927,ST2102020,2024K,GE,Geography,85,120,M,5,fi
+YO006928,ST2102020,2024K,PS,Psychology,70,120,C,4,fi
+YO006970,ST2102093,2024K,A,"Finnish, mother tongue and literature",52,120,B,3,fi
+YO006971,ST2102093,2024K,EA,"English, advanced",129,299,B,3,fi
+YO006972,ST2102093,2024K,GE,Geography,72,120,C,4,fi
+YO006999,ST2102230,2024K,A5,Finnish as a second language,69,120,C,4,fi
+YO007000,ST2102230,2024K,EA,"English, advanced",134,299,B,3,fi
+YO007001,ST2102230,2024K,YH,Social studies,81,120,M,5,fi
+YO007070,ST2102372,2024K,A,"Finnish, mother tongue and literature",81,120,M,5,fi
+YO007071,ST2102372,2024K,EA,"English, advanced",85,299,A,2,fi
+YO007072,ST2102372,2024K,YH,Social studies,58,120,B,3,fi
+YO007073,ST2102373,2024K,A,"Finnish, mother tongue and literature",80,120,M,5,fi
+YO007074,ST2102373,2024K,EA,"English, advanced",184,299,C,4,fi
+YO007184,ST2102626,2024K,A,"Finnish, mother tongue and literature",81,120,M,5,fi
+YO007185,ST2102626,2024K,EA,"English, advanced",176,299,C,4,fi
+YO007186,ST2102626,2024K,GE,Geography,84,120,M,5,fi
+YO007190,ST2102642,2024K,A,"Finnish, mother tongue and literature",96,120,E,6,fi
+YO007191,ST2102642,2024K,EA,"English, advanced",243,299,E,6,fi
+YO007192,ST2102642,2024K,HI,History,88,120,M,5,fi
+YO007230,ST2102720,2024K,A,"Finnish, mother tongue and literature",100,120,E,6,fi
+YO007231,ST2102720,2024K,EA,"English, advanced",218,299,M,5,fi
+YO007232,ST2102720,2024K,TE,Health education,81,120,M,5,fi
+YO007255,ST2102766,2024K,A,"Finnish, mother tongue and literature",95,120,E,6,fi
+YO007256,ST2102766,2024K,EA,"English, advanced",200,299,M,5,fi
+YO007257,ST2102766,2024K,KE,Chemistry,87,120,M,5,fi
+YO007266,ST2102800,2024K,A,"Finnish, mother tongue and literature",38,120,A,2,fi
+YO007267,ST2102800,2024K,EA,"English, advanced",118,299,B,3,fi
+YO007268,ST2102800,2024K,FY,Physics,39,120,A,2,fi
+YO007285,ST2102847,2024K,A5,Finnish as a second language,77,120,M,5,fi
+YO007286,ST2102847,2024K,EA,"English, advanced",226,299,E,6,fi
+YO007287,ST2102847,2024K,GE,Geography,84,120,M,5,fi
+YO007329,ST2102975,2024K,A,"Finnish, mother tongue and literature",70,120,C,4,fi
+YO007330,ST2102975,2024K,EA,"English, advanced",171,299,C,4,fi
+YO007331,ST2102975,2024K,FF,Philosophy,48,120,B,3,fi
+YO007332,ST2102975,2024K,KE,Chemistry,81,120,M,5,fi
+YO007392,ST2103096,2024K,A,"Finnish, mother tongue and literature",33,120,A,2,fi
+YO007393,ST2103096,2024K,BI,Biology,42,120,A,2,fi
+YO007394,ST2103096,2024K,EA,"English, advanced",147,299,B,3,fi
+YO007395,ST2103096,2024K,FF,Philosophy,47,120,B,3,fi
+YO007396,ST2103096,2024K,HI,History,54,120,B,3,fi
+YO007397,ST2103096,2024K,N,"Mathematics, basic",42,120,A,2,fi
+YO007438,ST2103167,2024K,A,"Finnish, mother tongue and literature",78,120,M,5,fi
+YO007439,ST2103167,2024K,EA,"English, advanced",250,299,E,6,fi
+YO007440,ST2103167,2024K,FY,Physics,60,120,B,3,fi
+YO007456,ST2103220,2024K,A,"Finnish, mother tongue and literature",116,120,L,7,fi
+YO007457,ST2103220,2024K,EA,"English, advanced",293,299,L,7,fi
+YO007458,ST2103220,2024K,FF,Philosophy,109,120,L,7,fi
+YO007553,ST2103396,2024K,A,"Finnish, mother tongue and literature",48,120,B,3,fi
+YO007554,ST2103396,2024K,BB,"Swedish, intermediate",108,299,A,2,fi
+YO007555,ST2103396,2024K,EA,"English, advanced",133,299,B,3,fi
+YO007556,ST2103396,2024K,TE,Health education,50,120,B,3,fi
+YO007557,ST2103396,2024K,YH,Social studies,57,120,B,3,fi
+YO007792,ST2103819,2024K,A5,Finnish as a second language,50,120,B,3,fi
+YO007793,ST2103819,2024K,EA,"English, advanced",169,299,C,4,fi
+YO007794,ST2103819,2024K,FF,Philosophy,55,120,B,3,fi
+YO007828,ST2103989,2024K,A,"Finnish, mother tongue and literature",67,120,C,4,fi
+YO007829,ST2103989,2024K,EA,"English, advanced",144,299,B,3,fi
+YO007830,ST2103989,2024K,TE,Health education,78,120,M,5,fi
+YO007834,ST2103995,2024K,A,"Finnish, mother tongue and literature",93,120,E,6,fi
+YO007835,ST2103995,2024K,EA,"English, advanced",211,299,M,5,fi
+YO007836,ST2103995,2024K,TE,Health education,59,120,B,3,fi
+YO007848,ST2104009,2024K,A,"Finnish, mother tongue and literature",78,120,M,5,fi
+YO007849,ST2104009,2024K,EA,"English, advanced",141,299,B,3,fi
+YO007850,ST2104009,2024K,HI,History,64,120,C,4,fi
+YO007897,ST2104122,2024K,A,"Finnish, mother tongue and literature",49,120,B,3,fi
+YO007898,ST2104122,2024K,EA,"English, advanced",153,299,C,4,fi
+YO007899,ST2104122,2024K,HI,History,61,120,C,4,fi
+YO007914,ST2104173,2024K,A5,Finnish as a second language,50,120,B,3,fi
+YO007915,ST2104173,2024K,EA,"English, advanced",110,299,A,2,fi
+YO007916,ST2104173,2024K,FY,Physics,29,120,I,0,fi
+YO007917,ST2104173,2024K,KE,Chemistry,23,120,I,0,fi
+YO008002,ST2104375,2024K,A,"Finnish, mother tongue and literature",116,120,L,7,fi
+YO008003,ST2104375,2024K,EA,"English, advanced",298,299,L,7,fi
+YO008004,ST2104375,2024K,UE,"Religion, Evangelical Lutheran",116,120,L,7,fi
+YO008155,ST2104678,2024K,A,"Finnish, mother tongue and literature",74,120,C,4,fi
+YO008156,ST2104678,2024K,EA,"English, advanced",142,299,B,3,fi
+YO008157,ST2104678,2024K,FF,Philosophy,53,120,B,3,fi
+YO008189,ST2104741,2024K,A,"Finnish, mother tongue and literature",63,120,C,4,fi
+YO008190,ST2104741,2024K,EA,"English, advanced",184,299,C,4,fi
+YO008191,ST2104741,2024K,KE,Chemistry,71,120,C,4,fi
+YO008192,ST2104741,2024K,TE,Health education,62,120,C,4,fi
+YO008207,ST2104786,2024K,EA,"English, advanced",148,299,B,3,sv
+YO008208,ST2104786,2024K,KE,Chemistry,49,120,B,3,sv
+YO008209,ST2104786,2024K,O,"Swedish, mother tongue and literature",47,120,B,3,sv
+YO008285,ST2104981,2024K,EA,"English, advanced",157,299,C,4,sv
+YO008286,ST2104981,2024K,FF,Philosophy,78,120,M,5,sv
+YO008287,ST2104981,2024K,O,"Swedish, mother tongue and literature",70,120,C,4,sv
+YO008327,ST2105055,2024K,A,"Finnish, mother tongue and literature",40,120,A,2,fi
+YO008328,ST2105055,2024K,EA,"English, advanced",147,299,B,3,fi
+YO008329,ST2105055,2024K,PS,Psychology,54,120,B,3,fi
+YO008330,ST2105055,2024K,TE,Health education,57,120,B,3,fi
+YO008372,ST2105132,2024K,A,"Finnish, mother tongue and literature",78,120,M,5,fi
+YO008373,ST2105132,2024K,EA,"English, advanced",180,299,C,4,fi
+YO008374,ST2105132,2024K,FY,Physics,58,120,B,3,fi
+YO008437,ST2105333,2024K,A,"Finnish, mother tongue and literature",100,120,E,6,fi
+YO008438,ST2105333,2024K,EA,"English, advanced",245,299,E,6,fi
+YO008439,ST2105333,2024K,YH,Social studies,106,120,L,7,fi
+YO008499,ST2105434,2024K,A,"Finnish, mother tongue and literature",100,120,E,6,fi
+YO008500,ST2105434,2024K,EA,"English, advanced",168,299,C,4,fi
+YO008501,ST2105434,2024K,FF,Philosophy,41,120,A,2,fi
+YO008505,ST2105439,2024K,A,"Finnish, mother tongue and literature",62,120,C,4,fi
+YO008506,ST2105439,2024K,BI,Biology,44,120,A,2,fi
+YO008507,ST2105439,2024K,EA,"English, advanced",130,299,B,3,fi
+YO008508,ST2105439,2024K,N,"Mathematics, basic",28,120,I,0,fi
+YO008509,ST2105439,2024K,UE,"Religion, Evangelical Lutheran",51,120,B,3,fi
+YO008640,ST2105702,2024K,A,"Finnish, mother tongue and literature",69,120,C,4,fi
+YO008641,ST2105702,2024K,EA,"English, advanced",185,299,C,4,fi
+YO008642,ST2105702,2024K,GE,Geography,55,120,B,3,fi
+YO008643,ST2105702,2024K,N,"Mathematics, basic",43,120,A,2,fi
+YO008686,ST2105780,2024K,A,"Finnish, mother tongue and literature",105,120,L,7,fi
+YO008687,ST2105780,2024K,EA,"English, advanced",223,299,E,6,fi
+YO008688,ST2105780,2024K,KE,Chemistry,87,120,M,5,fi
+YO008774,ST2100459,2024S,HI,History,55,120,B,3,fi
+YO008793,ST2101960,2024S,KE,Chemistry,40,120,A,2,sv
+YO008805,ST2102372,2024S,EA,"English, advanced",104,299,A,2,fi
+YO008815,ST2102800,2024S,FY,Physics,47,120,B,3,fi
+YO008819,ST2103096,2024S,A,"Finnish, mother tongue and literature",42,120,A,2,fi
+YO008820,ST2103096,2024S,BI,Biology,51,120,B,3,fi
+YO008844,ST2104173,2024S,FY,Physics,34,120,A,2,fi
+YO008845,ST2104173,2024S,KE,Chemistry,40,120,A,2,fi
+YO008866,ST2105434,2024S,FF,Philosophy,55,120,B,3,fi
+YO008897,ST2200045,2024S,FY,Physics,51,120,B,3,fi
+YO008898,ST2200045,2024S,N,"Mathematics, basic",58,120,B,3,fi
+YO008928,ST2200098,2024S,BB,"Swedish, intermediate",192,299,M,5,fi
+YO008929,ST2200098,2024S,N,"Mathematics, basic",91,120,E,6,fi
+YO008930,ST2200098,2024S,PS,Psychology,76,120,M,5,fi
+YO008953,ST2200142,2024S,KE,Chemistry,71,120,C,4,fi
+YO008954,ST2200142,2024S,N,"Mathematics, basic",50,120,B,3,fi
+YO008955,ST2200142,2024S,TE,Health education,70,120,C,4,fi
+YO009010,ST2200289,2024S,M,"Mathematics, advanced",85,120,M,5,fi
+YO009011,ST2200289,2024S,YH,Social studies,105,120,L,7,fi
+YO009078,ST2200450,2024S,FF,Philosophy,101,120,E,6,fi
+YO009079,ST2200450,2024S,M,"Mathematics, advanced",98,120,E,6,fi
+YO009154,ST2200674,2024S,BB,"Swedish, intermediate",170,299,C,4,fi
+YO009155,ST2200674,2024S,M,"Mathematics, advanced",45,120,A,2,fi
+YO009160,ST2200694,2024S,GE,Geography,119,120,L,7,fi
+YO009161,ST2200694,2024S,M,"Mathematics, advanced",90,120,E,6,fi
+YO009168,ST2200709,2024S,BB,"Swedish, intermediate",206,299,M,5,fi
+YO009169,ST2200709,2024S,FY,Physics,70,120,C,4,fi
+YO009170,ST2200709,2024S,N,"Mathematics, basic",67,120,C,4,fi
+YO009186,ST2200753,2024S,BB,"Swedish, intermediate",129,299,B,3,fi
+YO009187,ST2200753,2024S,KE,Chemistry,70,120,C,4,fi
+YO009188,ST2200753,2024S,N,"Mathematics, basic",76,120,M,5,fi
+YO009285,ST2200977,2024S,BB,"Swedish, intermediate",143,299,B,3,fi
+YO009286,ST2200977,2024S,KE,Chemistry,67,120,C,4,fi
+YO009287,ST2200977,2024S,N,"Mathematics, basic",59,120,B,3,fi
+YO009305,ST2201038,2024S,N,"Mathematics, basic",67,120,C,4,fi
+YO009306,ST2201038,2024S,TE,Health education,46,120,B,3,fi
+YO009323,ST2201068,2024S,BB,"Swedish, intermediate",150,299,C,4,fi
+YO009324,ST2201068,2024S,N,"Mathematics, basic",78,120,M,5,fi
+YO009325,ST2201069,2024S,BB,"Swedish, intermediate",212,299,M,5,fi
+YO009326,ST2201069,2024S,N,"Mathematics, basic",41,120,A,2,fi
+YO009327,ST2201069,2024S,TE,Health education,77,120,M,5,fi
+YO009400,ST2201233,2024S,HI,History,11,120,I,0,fi
+YO009401,ST2201233,2024S,N,"Mathematics, basic",29,120,I,0,fi
+YO009402,ST2201236,2024S,BB,"Swedish, intermediate",112,299,A,2,fi
+YO009403,ST2201236,2024S,BI,Biology,34,120,A,2,fi
+YO009404,ST2201236,2024S,N,"Mathematics, basic",52,120,B,3,fi
+YO009454,ST2201408,2024S,BB,"Swedish, intermediate",195,299,M,5,fi
+YO009455,ST2201408,2024S,GE,Geography,72,120,C,4,fi
+YO009456,ST2201408,2024S,M,"Mathematics, advanced",56,120,B,3,fi
+YO009509,ST2201593,2024S,GE,Geography,81,120,M,5,fi
+YO009510,ST2201593,2024S,M,"Mathematics, advanced",62,120,C,4,fi
+YO009511,ST2201595,2024S,BB,"Swedish, intermediate",206,299,M,5,fi
+YO009512,ST2201595,2024S,M,"Mathematics, advanced",83,120,M,5,fi
+YO009513,ST2201596,2024S,BB,"Swedish, intermediate",154,299,C,4,fi
+YO009514,ST2201596,2024S,N,"Mathematics, basic",87,120,M,5,fi
+YO009515,ST2201596,2024S,TE,Health education,58,120,B,3,fi
+YO009540,ST2201653,2024S,BB,"Swedish, intermediate",228,299,E,6,fi
+YO009541,ST2201653,2024S,N,"Mathematics, basic",66,120,C,4,fi
+YO009567,ST2201736,2024S,BB,"Swedish, intermediate",185,299,M,5,fi
+YO009568,ST2201736,2024S,M,"Mathematics, advanced",44,120,A,2,fi
+YO009569,ST2201736,2024S,PS,Psychology,78,120,M,5,fi
+YO009618,ST2201853,2024S,BB,"Swedish, intermediate",211,299,M,5,fi
+YO009619,ST2201853,2024S,FF,Philosophy,96,120,E,6,fi
+YO009620,ST2201853,2024S,M,"Mathematics, advanced",61,120,C,4,fi
+YO009662,ST2201923,2024S,BB,"Swedish, intermediate",132,299,B,3,fi
+YO009663,ST2201923,2024S,M,"Mathematics, advanced",60,120,C,4,fi
+YO009692,ST2202073,2024S,FF,Philosophy,59,120,B,3,sv
+YO009693,ST2202073,2024S,FINB,"Finnish, intermediate (Swedish speakers)",190,299,M,5,sv
+YO009694,ST2202073,2024S,N,"Mathematics, basic",67,120,C,4,sv
+YO009828,ST2202354,2024S,N,"Mathematics, basic",42,120,A,2,fi
+YO009829,ST2202354,2024S,YH,Social studies,60,120,C,4,fi
+YO009832,ST2202380,2024S,BI,Biology,84,120,M,5,sv
+YO009833,ST2202380,2024S,FINB,"Finnish, intermediate (Swedish speakers)",199,299,M,5,sv
+YO009834,ST2202380,2024S,M,"Mathematics, advanced",96,120,E,6,sv
+YO009838,ST2202385,2024S,BB,"Swedish, intermediate",159,299,C,4,fi
+YO009839,ST2202385,2024S,HI,History,71,120,C,4,fi
+YO009840,ST2202385,2024S,M,"Mathematics, advanced",70,120,C,4,fi
+YO009917,ST2202578,2024S,KE,Chemistry,94,120,E,6,fi
+YO009918,ST2202578,2024S,M,"Mathematics, advanced",60,120,C,4,fi
+YO009981,ST2202796,2024S,BB,"Swedish, intermediate",154,299,C,4,fi
+YO009982,ST2202796,2024S,N,"Mathematics, basic",60,120,C,4,fi
+YO010006,ST2202843,2024S,BB,"Swedish, intermediate",165,299,C,4,fi
+YO010007,ST2202843,2024S,M,"Mathematics, advanced",34,120,A,2,fi
+YO010008,ST2202843,2024S,TE,Health education,75,120,M,5,fi
+YO010105,ST2203089,2024S,BB,"Swedish, intermediate",231,299,E,6,fi
+YO010106,ST2203089,2024S,M,"Mathematics, advanced",70,120,C,4,fi
+YO010148,ST2203184,2024S,FY,Physics,103,120,E,6,fi
+YO010149,ST2203184,2024S,M,"Mathematics, advanced",82,120,M,5,fi
+YO010150,ST2203184,2024S,TE,Health education,95,120,E,6,fi
+YO010170,ST2203214,2024S,BB,"Swedish, intermediate",156,299,C,4,fi
+YO010171,ST2203214,2024S,FF,Philosophy,71,120,C,4,fi
+YO010172,ST2203214,2024S,N,"Mathematics, basic",97,120,E,6,fi
+YO010239,ST2203447,2024S,BB,"Swedish, intermediate",141,299,B,3,fi
+YO010240,ST2203447,2024S,M,"Mathematics, advanced",75,120,M,5,fi
+YO010301,ST2203609,2024S,BB,"Swedish, intermediate",243,299,E,6,fi
+YO010302,ST2203609,2024S,KE,Chemistry,77,120,M,5,fi
+YO010303,ST2203609,2024S,M,"Mathematics, advanced",79,120,M,5,fi
+YO010320,ST2203632,2024S,BB,"Swedish, intermediate",64,299,I,0,fi
+YO010321,ST2203632,2024S,BI,Biology,50,120,B,3,fi
+YO010322,ST2203632,2024S,N,"Mathematics, basic",28,120,I,0,fi
+YO010377,ST2203737,2024S,BB,"Swedish, intermediate",193,299,M,5,fi
+YO010378,ST2203737,2024S,M,"Mathematics, advanced",97,120,E,6,fi
+YO010379,ST2203737,2024S,TE,Health education,109,120,L,7,fi
+YO010416,ST2203810,2024S,N,"Mathematics, basic",59,120,B,3,fi
+YO010417,ST2203810,2024S,YH,Social studies,58,120,B,3,fi
+YO010464,ST2203921,2024S,BB,"Swedish, intermediate",166,299,C,4,fi
+YO010465,ST2203921,2024S,M,"Mathematics, advanced",59,120,B,3,fi
+YO010481,ST2203957,2024S,BB,"Swedish, intermediate",111,299,A,2,fi
+YO010482,ST2203957,2024S,N,"Mathematics, basic",37,120,A,2,fi
+YO010496,ST2203992,2024S,BB,"Swedish, intermediate",195,299,M,5,fi
+YO010497,ST2203992,2024S,FY,Physics,46,120,B,3,fi
+YO010498,ST2203992,2024S,M,"Mathematics, advanced",78,120,M,5,fi
+YO010561,ST2204158,2024S,BB,"Swedish, intermediate",217,299,M,5,fi
+YO010562,ST2204158,2024S,HI,History,95,120,E,6,fi
+YO010563,ST2204158,2024S,M,"Mathematics, advanced",79,120,M,5,fi
+YO010592,ST2204212,2024S,BB,"Swedish, intermediate",145,299,B,3,fi
+YO010593,ST2204212,2024S,KE,Chemistry,73,120,C,4,fi
+YO010594,ST2204212,2024S,M,"Mathematics, advanced",75,120,M,5,fi
+YO010602,ST2204238,2024S,BB,"Swedish, intermediate",251,299,E,6,fi
+YO010603,ST2204238,2024S,HI,History,79,120,M,5,fi
+YO010604,ST2204238,2024S,M,"Mathematics, advanced",90,120,E,6,fi
+YO010695,ST2204527,2024S,BB,"Swedish, intermediate",248,299,E,6,fi
+YO010696,ST2204527,2024S,GE,Geography,71,120,C,4,fi
+YO010697,ST2204527,2024S,M,"Mathematics, advanced",71,120,C,4,fi
+YO010758,ST2204668,2024S,BB,"Swedish, intermediate",149,299,B,3,fi
+YO010759,ST2204668,2024S,BI,Biology,41,120,A,2,fi
+YO010760,ST2204668,2024S,N,"Mathematics, basic",60,120,C,4,fi
+YO010785,ST2204717,2024S,BB,"Swedish, intermediate",176,299,C,4,fi
+YO010786,ST2204717,2024S,FY,Physics,46,120,B,3,fi
+YO010787,ST2204717,2024S,N,"Mathematics, basic",73,120,C,4,fi
+YO010795,ST2204746,2024S,BB,"Swedish, intermediate",195,299,M,5,fi
+YO010796,ST2204746,2024S,M,"Mathematics, advanced",63,120,C,4,fi
+YO011080,ST2205436,2024S,BB,"Swedish, intermediate",179,299,C,4,fi
+YO011081,ST2205436,2024S,FF,Philosophy,62,120,C,4,fi
+YO011082,ST2205436,2024S,N,"Mathematics, basic",51,120,B,3,fi
+YO011152,ST2205708,2024S,BB,"Swedish, intermediate",116,299,B,3,fi
+YO011153,ST2205708,2024S,HI,History,53,120,B,3,fi
+YO011154,ST2205708,2024S,N,"Mathematics, basic",51,120,B,3,fi
+YO011219,ST2205921,2024S,HI,History,98,120,E,6,fi
+YO011220,ST2205921,2024S,M,"Mathematics, advanced",75,120,M,5,fi
+YO011248,ST2205971,2024S,FY,Physics,92,120,E,6,fi
+YO011249,ST2205971,2024S,M,"Mathematics, advanced",87,120,M,5,fi
+YO011277,ST2200045,2025K,A,"Finnish, mother tongue and literature",73,120,C,4,fi
+YO011278,ST2200045,2025K,EA,"English, advanced",172,299,C,4,fi
+YO011279,ST2200045,2025K,GE,Geography,76,120,M,5,fi
+YO011314,ST2200098,2025K,A,"Finnish, mother tongue and literature",108,120,L,7,fi
+YO011315,ST2200098,2025K,EA,"English, advanced",159,299,C,4,fi
+YO011316,ST2200098,2025K,GE,Geography,83,120,M,5,fi
+YO011347,ST2200142,2025K,A,"Finnish, mother tongue and literature",55,120,B,3,fi
+YO011348,ST2200142,2025K,EA,"English, advanced",184,299,C,4,fi
+YO011349,ST2200142,2025K,HI,History,74,120,C,4,fi
+YO011417,ST2200289,2025K,A,"Finnish, mother tongue and literature",87,120,M,5,fi
+YO011418,ST2200289,2025K,EA,"English, advanced",272,299,L,7,fi
+YO011419,ST2200289,2025K,PS,Psychology,110,120,L,7,fi
+YO011493,ST2200450,2025K,A,"Finnish, mother tongue and literature",95,120,E,6,fi
+YO011494,ST2200450,2025K,EA,"English, advanced",218,299,M,5,fi
+YO011495,ST2200450,2025K,YH,Social studies,111,120,L,7,fi
+YO011583,ST2200674,2025K,A,"Finnish, mother tongue and literature",67,120,C,4,fi
+YO011584,ST2200674,2025K,EA,"English, advanced",162,299,C,4,fi
+YO011585,ST2200674,2025K,TE,Health education,82,120,M,5,fi
+YO011593,ST2200694,2025K,A,"Finnish, mother tongue and literature",88,120,M,5,fi
+YO011594,ST2200694,2025K,EA,"English, advanced",244,299,E,6,fi
+YO011595,ST2200694,2025K,FY,Physics,91,120,E,6,fi
+YO011602,ST2200709,2025K,A5,Finnish as a second language,72,120,C,4,fi
+YO011603,ST2200709,2025K,BI,Biology,47,120,B,3,fi
+YO011604,ST2200709,2025K,EA,"English, advanced",162,299,C,4,fi
+YO011623,ST2200753,2025K,A,"Finnish, mother tongue and literature",81,120,M,5,fi
+YO011624,ST2200753,2025K,EA,"English, advanced",151,299,C,4,fi
+YO011625,ST2200753,2025K,YH,Social studies,76,120,M,5,fi
+YO011739,ST2200977,2025K,A,"Finnish, mother tongue and literature",67,120,C,4,fi
+YO011740,ST2200977,2025K,EA,"English, advanced",111,299,A,2,fi
+YO011741,ST2200977,2025K,HI,History,74,120,C,4,fi
+YO011761,ST2201038,2025K,A,"Finnish, mother tongue and literature",58,120,B,3,fi
+YO011762,ST2201038,2025K,EA,"English, advanced",150,299,C,4,fi
+YO011763,ST2201038,2025K,PS,Psychology,79,120,M,5,fi
+YO011781,ST2201068,2025K,A,"Finnish, mother tongue and literature",76,120,M,5,fi
+YO011782,ST2201068,2025K,EA,"English, advanced",106,299,A,2,fi
+YO011783,ST2201068,2025K,KE,Chemistry,73,120,C,4,fi
+YO011784,ST2201069,2025K,A,"Finnish, mother tongue and literature",74,120,C,4,fi
+YO011785,ST2201069,2025K,EA,"English, advanced",139,299,B,3,fi
+YO011786,ST2201069,2025K,FF,Philosophy,67,120,C,4,fi
+YO011787,ST2201069,2025K,FY,Physics,72,120,C,4,fi
+YO011788,ST2201069,2025K,N,"Mathematics, basic",57,120,B,3,fi
+YO011877,ST2201233,2025K,A,"Finnish, mother tongue and literature",35,120,A,2,fi
+YO011878,ST2201233,2025K,EA,"English, advanced",141,299,B,3,fi
+YO011879,ST2201233,2025K,FF,Philosophy,27,120,I,0,fi
+YO011880,ST2201236,2025K,A,"Finnish, mother tongue and literature",58,120,B,3,fi
+YO011881,ST2201236,2025K,EA,"English, advanced",112,299,A,2,fi
+YO011882,ST2201236,2025K,PS,Psychology,55,120,B,3,fi
+YO011943,ST2201408,2025K,A,"Finnish, mother tongue and literature",77,120,M,5,fi
+YO011944,ST2201408,2025K,EA,"English, advanced",207,299,M,5,fi
+YO011945,ST2201408,2025K,KE,Chemistry,67,120,C,4,fi
+YO011946,ST2201408,2025K,PS,Psychology,87,120,M,5,fi
+YO012013,ST2201593,2025K,A,"Finnish, mother tongue and literature",91,120,E,6,fi
+YO012014,ST2201593,2025K,EA,"English, advanced",220,299,M,5,fi
+YO012015,ST2201595,2025K,A,"Finnish, mother tongue and literature",95,120,E,6,fi
+YO012016,ST2201595,2025K,EA,"English, advanced",212,299,M,5,fi
+YO012017,ST2201595,2025K,HI,History,72,120,C,4,fi
+YO012018,ST2201596,2025K,A,"Finnish, mother tongue and literature",57,120,B,3,fi
+YO012019,ST2201596,2025K,EA,"English, advanced",147,299,B,3,fi
+YO012020,ST2201596,2025K,YH,Social studies,83,120,M,5,fi
+YO012047,ST2201653,2025K,A5,Finnish as a second language,64,120,C,4,fi
+YO012048,ST2201653,2025K,EA,"English, advanced",180,299,C,4,fi
+YO012049,ST2201653,2025K,TE,Health education,76,120,M,5,fi
+YO012077,ST2201736,2025K,A,"Finnish, mother tongue and literature",96,120,E,6,fi
+YO012078,ST2201736,2025K,BI,Biology,70,120,C,4,fi
+YO012079,ST2201736,2025K,EA,"English, advanced",171,299,C,4,fi
+YO012080,ST2201736,2025K,UE,"Religion, Evangelical Lutheran",66,120,C,4,fi
+YO012139,ST2201853,2025K,A,"Finnish, mother tongue and literature",83,120,M,5,fi
+YO012140,ST2201853,2025K,BI,Biology,95,120,E,6,fi
+YO012141,ST2201853,2025K,EA,"English, advanced",131,299,B,3,fi
+YO012142,ST2201853,2025K,PS,Psychology,96,120,E,6,fi
+YO012193,ST2201923,2025K,A,"Finnish, mother tongue and literature",49,120,B,3,fi
+YO012194,ST2201923,2025K,EA,"English, advanced",161,299,C,4,fi
+YO012195,ST2201923,2025K,FF,Philosophy,67,120,C,4,fi
+YO012228,ST2202073,2025K,EA,"English, advanced",122,299,B,3,sv
+YO012229,ST2202073,2025K,O,"Swedish, mother tongue and literature",49,120,B,3,sv
+YO012230,ST2202073,2025K,PS,Psychology,44,120,A,2,sv
+YO012402,ST2202354,2025K,A,"Finnish, mother tongue and literature",51,120,B,3,fi
+YO012403,ST2202354,2025K,EA,"English, advanced",133,299,B,3,fi
+YO012404,ST2202354,2025K,PS,Psychology,44,120,A,2,fi
+YO012408,ST2202380,2025K,EA,"English, advanced",228,299,E,6,sv
+YO012409,ST2202380,2025K,KE,Chemistry,88,120,M,5,sv
+YO012410,ST2202380,2025K,O,"Swedish, mother tongue and literature",105,120,L,7,sv
+YO012415,ST2202385,2025K,A,"Finnish, mother tongue and literature",78,120,M,5,fi
+YO012416,ST2202385,2025K,EA,"English, advanced",209,299,M,5,fi
+YO012417,ST2202385,2025K,KE,Chemistry,119,120,L,7,fi
+YO012511,ST2202578,2025K,A,"Finnish, mother tongue and literature",99,120,E,6,fi
+YO012512,ST2202578,2025K,EA,"English, advanced",185,299,C,4,fi
+YO012513,ST2202578,2025K,GE,Geography,88,120,M,5,fi
+YO012588,ST2202796,2025K,A,"Finnish, mother tongue and literature",72,120,C,4,fi
+YO012589,ST2202796,2025K,EA,"English, advanced",192,299,M,5,fi
+YO012590,ST2202796,2025K,FY,Physics,45,120,A,2,fi
+YO012621,ST2202843,2025K,A,"Finnish, mother tongue and literature",69,120,C,4,fi
+YO012622,ST2202843,2025K,EA,"English, advanced",172,299,C,4,fi
+YO012623,ST2202843,2025K,HI,History,75,120,M,5,fi
+YO012624,ST2202843,2025K,M,"Mathematics, advanced",35,120,A,2,fi
+YO012745,ST2203089,2025K,A,"Finnish, mother tongue and literature",100,120,E,6,fi
+YO012746,ST2203089,2025K,EA,"English, advanced",189,299,M,5,fi
+YO012747,ST2203089,2025K,YH,Social studies,102,120,E,6,fi
+YO012796,ST2203184,2025K,A,"Finnish, mother tongue and literature",82,120,M,5,fi
+YO012797,ST2203184,2025K,EA,"English, advanced",247,299,E,6,fi
+YO012798,ST2203184,2025K,KE,Chemistry,90,120,E,6,fi
+YO012823,ST2203214,2025K,A,"Finnish, mother tongue and literature",67,120,C,4,fi
+YO012824,ST2203214,2025K,EA,"English, advanced",187,299,M,5,fi
+YO012825,ST2203214,2025K,PS,Psychology,77,120,M,5,fi
+YO012909,ST2203447,2025K,A,"Finnish, mother tongue and literature",57,120,B,3,fi
+YO012910,ST2203447,2025K,EA,"English, advanced",197,299,M,5,fi
+YO012911,ST2203447,2025K,FF,Philosophy,81,120,M,5,fi
+YO012985,ST2203609,2025K,A,"Finnish, mother tongue and literature",84,120,M,5,fi
+YO012986,ST2203609,2025K,EA,"English, advanced",239,299,E,6,fi
+YO012987,ST2203609,2025K,PS,Psychology,66,120,C,4,fi
+YO013003,ST2203632,2025K,A,"Finnish, mother tongue and literature",29,120,I,0,fi
+YO013004,ST2203632,2025K,BB,"Swedish, intermediate",80,299,I,0,fi
+YO013005,ST2203632,2025K,EA,"English, advanced",86,299,A,2,fi
+YO013006,ST2203632,2025K,N,"Mathematics, basic",41,120,A,2,fi
+YO013007,ST2203632,2025K,PS,Psychology,19,120,I,0,fi
+YO013069,ST2203737,2025K,A,"Finnish, mother tongue and literature",100,120,E,6,fi
+YO013070,ST2203737,2025K,EA,"English, advanced",281,299,L,7,fi
+YO013071,ST2203737,2025K,FF,Philosophy,117,120,L,7,fi
+YO013072,ST2203737,2025K,YH,Social studies,96,120,E,6,fi
+YO013120,ST2203810,2025K,A,"Finnish, mother tongue and literature",77,120,M,5,fi
+YO013121,ST2203810,2025K,EA,"English, advanced",218,299,M,5,fi
+YO013184,ST2203921,2025K,A,"Finnish, mother tongue and literature",73,120,C,4,fi
+YO013185,ST2203921,2025K,EA,"English, advanced",192,299,M,5,fi
+YO013186,ST2203921,2025K,FY,Physics,48,120,B,3,fi
+YO013206,ST2203957,2025K,A,"Finnish, mother tongue and literature",65,120,C,4,fi
+YO013207,ST2203957,2025K,EA,"English, advanced",92,299,A,2,fi
+YO013208,ST2203957,2025K,YH,Social studies,67,120,C,4,fi
+YO013224,ST2203992,2025K,A,"Finnish, mother tongue and literature",54,120,B,3,fi
+YO013225,ST2203992,2025K,EA,"English, advanced",216,299,M,5,fi
+YO013226,ST2203992,2025K,FF,Philosophy,60,120,C,4,fi
+YO013303,ST2204158,2025K,A,"Finnish, mother tongue and literature",107,120,L,7,fi
+YO013304,ST2204158,2025K,EA,"English, advanced",214,299,M,5,fi
+YO013305,ST2204158,2025K,GE,Geography,79,120,M,5,fi
+YO013306,ST2204158,2025K,YH,Social studies,89,120,E,6,fi
+YO013336,ST2204212,2025K,A,"Finnish, mother tongue and literature",65,120,C,4,fi
+YO013337,ST2204212,2025K,EA,"English, advanced",184,299,C,4,fi
+YO013338,ST2204212,2025K,HI,History,65,120,C,4,fi
+YO013344,ST2204238,2025K,A5,Finnish as a second language,63,120,C,4,fi
+YO013345,ST2204238,2025K,EA,"English, advanced",190,299,M,5,fi
+YO013346,ST2204238,2025K,FY,Physics,85,120,M,5,fi
+YO013347,ST2204238,2025K,GE,Geography,84,120,M,5,fi
+YO013464,ST2204527,2025K,A,"Finnish, mother tongue and literature",78,120,M,5,fi
+YO013465,ST2204527,2025K,EA,"English, advanced",156,299,C,4,fi
+YO013466,ST2204527,2025K,FF,Philosophy,74,120,C,4,fi
+YO013467,ST2204527,2025K,YH,Social studies,78,120,M,5,fi
+YO013541,ST2204668,2025K,A,"Finnish, mother tongue and literature",65,120,C,4,fi
+YO013542,ST2204668,2025K,BI,Biology,47,120,B,3,fi
+YO013543,ST2204668,2025K,EA,"English, advanced",119,299,B,3,fi
+YO013544,ST2204668,2025K,ET,Ethics,35,120,A,2,fi
+YO013545,ST2204668,2025K,FF,Philosophy,53,120,B,3,fi
+YO013578,ST2204717,2025K,A,"Finnish, mother tongue and literature",46,120,B,3,fi
+YO013579,ST2204717,2025K,EA,"English, advanced",155,299,C,4,fi
+YO013580,ST2204717,2025K,GE,Geography,81,120,M,5,fi
+YO013581,ST2204717,2025K,PS,Psychology,65,120,C,4,fi
+YO013591,ST2204746,2025K,A,"Finnish, mother tongue and literature",102,120,E,6,fi
+YO013592,ST2204746,2025K,EA,"English, advanced",195,299,M,5,fi
+YO013593,ST2204746,2025K,FY,Physics,74,120,C,4,fi
+YO013955,ST2205436,2025K,A,"Finnish, mother tongue and literature",50,120,B,3,fi
+YO013956,ST2205436,2025K,EA,"English, advanced",111,299,A,2,fi
+YO013957,ST2205436,2025K,HI,History,61,120,C,4,fi
+YO014044,ST2205708,2025K,A,"Finnish, mother tongue and literature",44,120,A,2,fi
+YO014045,ST2205708,2025K,EA,"English, advanced",102,299,A,2,fi
+YO014046,ST2205708,2025K,FF,Philosophy,50,120,B,3,fi
+YO014118,ST2205921,2025K,A,"Finnish, mother tongue and literature",80,120,M,5,fi
+YO014119,ST2205921,2025K,EA,"English, advanced",198,299,M,5,fi
+YO014120,ST2205921,2025K,YH,Social studies,89,120,M,5,fi
+YO014152,ST2205971,2025K,A,"Finnish, mother tongue and literature",105,120,L,7,fi
+YO014153,ST2205971,2025K,EA,"English, advanced",249,299,E,6,fi
+YO014154,ST2205971,2025K,FF,Philosophy,93,120,E,6,fi

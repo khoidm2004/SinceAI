@@ -1,0 +1,535 @@
+{
+  "tool": "pets-eval 1.0.0",
+  "dataset": "finance",
+  "scenario": null,
+  "original": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/data/finance",
+  "protected": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/results/b2k/finance",
+  "tables": {
+    "card_transactions": {
+      "table": "card_transactions",
+      "status": "released",
+      "rows_original": 398408,
+      "rows_protected": 398408,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "ts",
+          "amount_eur",
+          "original_amount",
+          "currency",
+          "merchant_city",
+          "merchant_country",
+          "pos_lat",
+          "pos_lon"
+        ],
+        "n": 398408,
+        "n_classes": 8078,
+        "min_k": 4,
+        "median_k": 861.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.0904
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts",
+          "amount_eur",
+          "original_amount",
+          "currency",
+          "merchant_city",
+          "merchant_country",
+          "pos_lat",
+          "pos_lon"
+        ],
+        "n": 398408,
+        "n_classes": 398401,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "merchant_name",
+        "qis": [
+          "ts",
+          "amount_eur",
+          "original_amount",
+          "currency",
+          "merchant_city",
+          "merchant_country",
+          "pos_lat",
+          "pos_lon"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 0.299,
+        "share_classes_l1": 0.1778,
+        "n_classes": 8078
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "receipt_photos_ocr": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "suffix",
+              "adversary": [
+                "card_masked"
+              ],
+              "protected": [
+                "card_pan"
+              ]
+            },
+            {
+              "kind": "time",
+              "adversary": [
+                "receipt_date",
+                "receipt_time"
+              ],
+              "protected": [
+                "ts"
+              ]
+            },
+            {
+              "kind": "number",
+              "adversary": [
+                "total"
+              ],
+              "protected": [
+                "amount_eur"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 1400,
+          "n_targets_in_data": 1239,
+          "reidentification_rate": 0.0,
+          "claim_precision": 0.0,
+          "n_unique_claims": 494,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 1.0,
+          "attribute_inference": {
+            "sensitive": "merchant_name",
+            "inferred": 1,
+            "base_rate_majority_guess": 0.6546,
+            "advantage_over_base_rate": 0.0,
+            "success_rate": 0.0008
+          },
+          "attack": "A shared photo of a receipt: last four card digits, date, time, merchant, amount.",
+          "baseline_reidentification_rate_original": 1.0,
+          "risk_reduction": 1.0
+        }
+      },
+      "regex_residuals": {
+        "device_id": {
+          "PAYMENT_CARD": 2
+        },
+        "ip_address": {
+          "IP_ADDRESS": 2880
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0,
+        "linkage re-identification": 0.0
+      },
+      "seconds": 26.8
+    },
+    "cards": {
+      "table": "cards",
+      "status": "released",
+      "rows_original": 6969,
+      "rows_protected": 6969,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "issued_date",
+          "expiry"
+        ],
+        "n": 6969,
+        "n_classes": 59,
+        "min_k": 91,
+        "median_k": 119.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.0
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "issued_date",
+          "expiry"
+        ],
+        "n": 6969,
+        "n_classes": 6656,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9112,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9112
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0
+      },
+      "seconds": 0.2
+    },
+    "customers": {
+      "table": "customers",
+      "status": "released",
+      "rows_original": 6315,
+      "rows_protected": 6315,
+      "columns_dropped": [
+        "full_name",
+        "street_address",
+        "email",
+        "phone"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "birth_date",
+          "postcode",
+          "city",
+          "occupation",
+          "employer",
+          "account_open_date",
+          "preferred_language"
+        ],
+        "n": 6315,
+        "n_classes": 496,
+        "min_k": 4,
+        "median_k": 17.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0006,
+          "k<10": 0.276
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "birth_date",
+          "postcode",
+          "city",
+          "occupation",
+          "employer",
+          "account_open_date",
+          "preferred_language"
+        ],
+        "n": 6315,
+        "n_classes": 6315,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "income_band",
+        "qis": [
+          "birth_date",
+          "postcode",
+          "city",
+          "occupation",
+          "employer",
+          "account_open_date",
+          "preferred_language"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 0.0393,
+        "share_classes_l1": 0.0786,
+        "n_classes": 496
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "public_directory": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "postcode",
+              "adversary": [
+                "postcode"
+              ],
+              "protected": [
+                "postcode"
+              ]
+            },
+            {
+              "kind": "exact",
+              "adversary": [
+                "city"
+              ],
+              "protected": [
+                "city"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 3000,
+          "n_targets_in_data": 245,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 846.0,
+          "attribute_inference": {
+            "sensitive": "income_band",
+            "inferred": 0,
+            "base_rate_majority_guess": 0.2898,
+            "advantage_over_base_rate": 0.0,
+            "success_rate": 0.0
+          },
+          "attack": "Directory lookup of bank customers.",
+          "baseline_reidentification_rate_original": 0.902,
+          "risk_reduction": 1.0
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0006,
+        "linkage re-identification": 0.0
+      },
+      "seconds": 1.3
+    },
+    "transfers": {
+      "table": "transfers",
+      "status": "released",
+      "rows_original": 86590,
+      "rows_protected": 86590,
+      "columns_dropped": [
+        "from_name"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "booking_ts",
+          "amount_eur"
+        ],
+        "n": 86590,
+        "n_classes": 2624,
+        "min_k": 5,
+        "median_k": 67.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.0527
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "booking_ts",
+          "amount_eur"
+        ],
+        "n": 86590,
+        "n_classes": 86588,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "to_name",
+        "qis": [
+          "booking_ts",
+          "amount_eur"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 0.0912,
+        "share_classes_l1": 0.0069,
+        "n_classes": 2624
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "free_text": {
+        "message": {
+          "evaluated": true,
+          "leakage_rate": 0.7402,
+          "leakage_rate_chars": 0.4969,
+          "identifying_leakage_rate": 0.7143,
+          "per_label": {
+            "ACCOUNT_NUMBER": {
+              "n": 427,
+              "leaked": 427,
+              "rate": 1.0
+            },
+            "EMAIL": {
+              "n": 466,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "HEALTH": {
+              "n": 421,
+              "leaked": 421,
+              "rate": 1.0
+            },
+            "NATIONAL_ID": {
+              "n": 92,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "PERSON": {
+              "n": 2591,
+              "leaked": 2591,
+              "rate": 1.0
+            },
+            "PHONE": {
+              "n": 649,
+              "leaked": 0,
+              "rate": 0.0
+            }
+          },
+          "n_values": 4646
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0,
+        "free-text identifier leakage": 0.7143
+      },
+      "seconds": 1.6
+    }
+  },
+  "extra_protected_files": [],
+  "utility": [
+    {
+      "id": "FIN-U1",
+      "table": "card_transactions",
+      "kind": "model",
+      "description": "Fraud model: train on protected Jul–Oct, test on original Nov–Dec (PR-AUC ratio)",
+      "required": true,
+      "score": 0.12370264972207672,
+      "metric": "PR-AUC(train protected Jul-Oct, test original Nov-Dec) / PR-AUC(train original)",
+      "detail": {
+        "ap_protected": 0.08299549950151185,
+        "ap_original": 0.6709274190001443,
+        "possible_leakage": false
+      }
+    },
+    {
+      "id": "FIN-U2",
+      "table": "card_transactions",
+      "kind": "aggregate",
+      "description": "Spend by MCC group × merchant city × month",
+      "required": true,
+      "score": 0.0,
+      "metric": "1 - MAPE/0.5 of spend by MCC group × city × month (cells ≥ 1,000 €)",
+      "detail": {
+        "mape": 0.9995673158985887
+      }
+    },
+    {
+      "id": "FIN-U3",
+      "table": "card_transactions",
+      "kind": "relationship",
+      "description": "Payday effect: spend by day of month",
+      "required": true,
+      "score": 0.5787203598802071,
+      "metric": "0.5*corr(spend per day of month) + 0.5*(1 - rel.error of payday uplift (15-17 vs 10-12))",
+      "detail": {
+        "corr": 0.41714205712770985,
+        "uplift_orig": 1.1255576839826145,
+        "uplift_prot": 1.1581651824296397
+      }
+    },
+    {
+      "id": "FIN-U4",
+      "table": "card_transactions",
+      "kind": "distribution",
+      "description": "Card spending-profile segmentation (k=6) agreement",
+      "required": true,
+      "score": 0.2926099258684033,
+      "metric": "cluster agreement of card spending profiles (k=6)",
+      "detail": {
+        "centroid_distance_norm": 3.703225589181469,
+        "size_tvd": 0.4147801482631935
+      }
+    },
+    {
+      "id": "FIN-U5",
+      "table": "transfers",
+      "kind": "detection",
+      "description": "AML rule hits (structuring, rapid pass-through)",
+      "required": true,
+      "score": 0.0,
+      "metric": "1 - mean relative error of flagged-account counts per AML rule (structuring, pass-through)",
+      "detail": {
+        "flags_orig": {
+          "pass_through": 5,
+          "structuring": 4
+        },
+        "flags_prot": {}
+      }
+    },
+    {
+      "id": "FIN-U6",
+      "table": "customers",
+      "kind": "relationship",
+      "description": "Mean monthly card spend by income band × age band",
+      "required": true,
+      "score": 0.0,
+      "metric": "1 - MAPE/0.5 of mean monthly card spend by income band × age band (20 y)",
+      "detail": {
+        "mape": 1.0
+      }
+    }
+  ],
+  "summary": {
+    "privacy": 0.6104,
+    "utility": 0.1658,
+    "composite": 0.2751,
+    "label": "self-assessment, not the official judging score",
+    "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+  },
+  "risk_components": {
+    "card_transactions: direct identifiers retained": 0.0,
+    "card_transactions: records with k<5": 0.0,
+    "card_transactions: linkage re-identification": 0.0,
+    "cards: direct identifiers retained": 0.0,
+    "cards: records with k<5": 0.0,
+    "customers: direct identifiers retained": 0.0,
+    "customers: records with k<5": 0.0006,
+    "customers: linkage re-identification": 0.0,
+    "transfers: direct identifiers retained": 0.0,
+    "transfers: records with k<5": 0.0,
+    "transfers: free-text identifier leakage": 0.7143
+  }
+}

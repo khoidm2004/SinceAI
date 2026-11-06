@@ -1,0 +1,904 @@
+{
+  "tool": "pets-eval 1.0.0",
+  "dataset": "cyber",
+  "scenario": null,
+  "original": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/data/cyber",
+  "protected": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/results/b2k/cyber",
+  "tables": {
+    "dns_logs": {
+      "table": "dns_logs",
+      "status": "released",
+      "rows_original": 75606,
+      "rows_protected": 75606,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "ts_utc",
+          "query"
+        ],
+        "n": 75606,
+        "n_classes": 2380,
+        "min_k": 2,
+        "median_k": 52.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.0441
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts_utc",
+          "query"
+        ],
+        "n": 75606,
+        "n_classes": 75110,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9869,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9869
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {
+        "client_ip": {
+          "IP_ADDRESS": 20000
+        },
+        "answer": {
+          "IP_ADDRESS": 19963
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0
+      },
+      "seconds": 0.9
+    },
+    "edr_alerts": {
+      "table": "edr_alerts",
+      "status": "released",
+      "rows_original": 448,
+      "rows_protected": 448,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "hash_attack": {
+        "sha256": {
+          "evaluated": true,
+          "n_hashes": 331,
+          "n_reversed_distinct": 0,
+          "share_values_reversed": 0.0,
+          "algorithm": null,
+          "candidates_tried": 2116,
+          "examples": []
+        }
+      },
+      "k_anonymity": {
+        "qis": [
+          "ts_utc"
+        ],
+        "n": 448,
+        "n_classes": 36,
+        "min_k": 5,
+        "median_k": 229.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.4442
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts_utc"
+        ],
+        "n": 448,
+        "n_classes": 448,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "free_text": {
+        "command_line": {
+          "evaluated": false,
+          "reason": "no gold spans in package"
+        },
+        "file_path": {
+          "evaluated": false,
+          "reason": "no gold spans in package"
+        }
+      },
+      "regex_residuals": {
+        "device_ip": {
+          "IP_ADDRESS": 448
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "hashed ids reversible": 0.0,
+        "records with k<5": 0.0
+      },
+      "seconds": 0.1
+    },
+    "email_gateway": {
+      "table": "email_gateway",
+      "status": "released",
+      "rows_original": 30254,
+      "rows_protected": 30254,
+      "columns_dropped": [
+        "sender",
+        "sender_display",
+        "recipients"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "ts_utc"
+        ],
+        "n": 30254,
+        "n_classes": 240,
+        "min_k": 47,
+        "median_k": 202.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.0
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts_utc"
+        ],
+        "n": 30254,
+        "n_classes": 29542,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9535,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9535
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "free_text": {
+        "subject": {
+          "evaluated": false,
+          "reason": "no gold spans in package"
+        },
+        "attachment_names": {
+          "evaluated": false,
+          "reason": "no gold spans in package"
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0
+      },
+      "seconds": 0.5
+    },
+    "geoip_ranges": {
+      "table": "geoip_ranges",
+      "status": "released",
+      "rows_original": 16,
+      "rows_protected": 16,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "note": "no catalogued quasi-identifier kept"
+      },
+      "row_alignment": "row map",
+      "regex_residuals": {
+        "network": {
+          "IP_ADDRESS": 16
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0
+      },
+      "seconds": 0.0
+    },
+    "identity": {
+      "table": "identity",
+      "status": "released",
+      "rows_original": 994,
+      "rows_protected": 994,
+      "columns_dropped": [
+        "upn",
+        "display_name",
+        "given_name",
+        "surname",
+        "manager_upn",
+        "mobile_phone"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "department",
+          "job_title",
+          "office",
+          "shift",
+          "last_password_change",
+          "employment_start"
+        ],
+        "n": 994,
+        "n_classes": 82,
+        "min_k": 5,
+        "median_k": 16.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.3531
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "department",
+          "job_title",
+          "office",
+          "shift",
+          "last_password_change",
+          "employment_start"
+        ],
+        "n": 994,
+        "n_classes": 992,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.997,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.997
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "company_website_staff": {
+          "evaluated": true,
+          "qis_used": [],
+          "reidentification_rate": 0.0,
+          "n_targets_in_data": null,
+          "note": "every attacker column this attack needs was removed from the release",
+          "attack": "Staff names from the company website and a professional network; names also hide in UPNs and hostnames.",
+          "baseline_reidentification_rate_original": 0.9706,
+          "risk_reduction": 1.0
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0,
+        "linkage re-identification": 0.0
+      },
+      "seconds": 0.2
+    },
+    "incident_tickets": {
+      "table": "incident_tickets",
+      "status": "released",
+      "rows_original": 315,
+      "rows_protected": 315,
+      "columns_dropped": [
+        "reporter_name"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "created_utc"
+        ],
+        "n": 315,
+        "n_classes": 25,
+        "min_k": 5,
+        "median_k": 177.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.4381
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "created_utc"
+        ],
+        "n": 315,
+        "n_classes": 315,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "free_text": {
+        "description": {
+          "evaluated": true,
+          "leakage_rate": 0.8281,
+          "leakage_rate_chars": 0.7782,
+          "identifying_leakage_rate": 0.8173,
+          "per_label": {
+            "DATE": {
+              "n": 39,
+              "leaked": 39,
+              "rate": 1.0
+            },
+            "DEVICE_ID": {
+              "n": 122,
+              "leaked": 109,
+              "rate": 0.8934
+            },
+            "EMAIL": {
+              "n": 41,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "HEALTH": {
+              "n": 14,
+              "leaked": 14,
+              "rate": 1.0
+            },
+            "IP_ADDRESS": {
+              "n": 55,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "NATIONAL_ID": {
+              "n": 19,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "PERSON": {
+              "n": 295,
+              "leaked": 295,
+              "rate": 1.0
+            },
+            "PHONE": {
+              "n": 192,
+              "leaked": 166,
+              "rate": 0.8646
+            },
+            "SECRET": {
+              "n": 20,
+              "leaked": 20,
+              "rate": 1.0
+            },
+            "USERNAME": {
+              "n": 99,
+              "leaked": 99,
+              "rate": 1.0
+            }
+          },
+          "n_values": 896
+        }
+      },
+      "regex_residuals": {
+        "description": {
+          "PHONE": 41
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0,
+        "free-text identifier leakage": 0.8173
+      },
+      "seconds": 0.1
+    },
+    "proxy_logs": {
+      "table": "proxy_logs",
+      "status": "released",
+      "rows_original": 137024,
+      "rows_protected": 137024,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "ts_utc",
+          "domain"
+        ],
+        "n": 137024,
+        "n_classes": 2039,
+        "min_k": 4,
+        "median_k": 173.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.016
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts_utc",
+          "domain"
+        ],
+        "n": 137024,
+        "n_classes": 134063,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9572,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9572
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "category",
+        "qis": [
+          "ts_utc",
+          "domain"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 1.0,
+        "share_classes_l1": 1.0,
+        "n_classes": 2039
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "free_text": {
+        "url": {
+          "evaluated": false,
+          "reason": "no gold spans in package"
+        }
+      },
+      "regex_residuals": {
+        "src_ip": {
+          "IP_ADDRESS": 20000
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0
+      },
+      "seconds": 1.4
+    },
+    "signin_logs": {
+      "table": "signin_logs",
+      "status": "released",
+      "rows_original": 41252,
+      "rows_protected": 41252,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "ts_utc",
+          "geo_country",
+          "geo_city",
+          "geo_lat",
+          "geo_lon"
+        ],
+        "n": 41252,
+        "n_classes": 739,
+        "min_k": 3,
+        "median_k": 156.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0001,
+          "k<10": 0.016
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts_utc",
+          "geo_country",
+          "geo_city",
+          "geo_lat",
+          "geo_lon"
+        ],
+        "n": 41252,
+        "n_classes": 40420,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9602,
+          "k<5": 0.9999,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9602
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "company_website_staff": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "name",
+              "adversary": [
+                "name"
+              ],
+              "protected": [
+                "upn"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 389,
+          "n_targets_in_data": 340,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 0.0,
+          "attack": "Staff names matched to user principal names in sign-in logs.",
+          "baseline_reidentification_rate_original": 0.7029,
+          "risk_reduction": 1.0
+        }
+      },
+      "regex_residuals": {
+        "src_ip": {
+          "IP_ADDRESS": 20000
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0001,
+        "linkage re-identification": 0.0
+      },
+      "seconds": 4.6
+    },
+    "vpn_logs": {
+      "table": "vpn_logs",
+      "status": "released",
+      "rows_original": 3804,
+      "rows_protected": 3804,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "ts_utc",
+          "geo_country",
+          "geo_city"
+        ],
+        "n": 3804,
+        "n_classes": 214,
+        "min_k": 5,
+        "median_k": 24.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.1123
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts_utc",
+          "geo_country",
+          "geo_city"
+        ],
+        "n": 3804,
+        "n_classes": 3795,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9953,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9953
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {
+        "src_ip": {
+          "IP_ADDRESS": 3804
+        },
+        "assigned_ip": {
+          "IP_ADDRESS": 3804
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0
+      },
+      "seconds": 0.2
+    }
+  },
+  "extra_protected_files": [],
+  "utility": [
+    {
+      "id": "CYBER-U1",
+      "table": "signin_logs",
+      "kind": "detection",
+      "description": "Impossible-travel detection on sign-ins (reference rule, F1 vs labels T1078.004/T1621).",
+      "required": true,
+      "score": 0.76,
+      "metric": "F1 ratio, impossible travel",
+      "detail": {
+        "f1_original": 0.263,
+        "f1_protected": 0.2,
+        "original": {
+          "tp": 10,
+          "fp": 53,
+          "fn": 3,
+          "precision": 0.159,
+          "recall": 0.769
+        },
+        "protected": {
+          "tp": 7,
+          "fp": 50,
+          "fn": 6,
+          "precision": 0.123,
+          "recall": 0.538
+        }
+      }
+    },
+    {
+      "id": "CYBER-U2",
+      "table": "signin_logs",
+      "kind": "detection",
+      "description": "MFA-fatigue detection: >=5 denied pushes in 30 min then approval (labels T1621).",
+      "required": true,
+      "score": 0.8571428571428571,
+      "metric": "F1 ratio, MFA fatigue",
+      "detail": {
+        "f1_original": 1.0,
+        "f1_protected": 0.857,
+        "original": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "protected": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 2,
+          "precision": 1.0,
+          "recall": 0.75
+        }
+      }
+    },
+    {
+      "id": "CYBER-U3",
+      "table": "signin_logs",
+      "kind": "detection",
+      "description": "Password-spray detection: failures from one /24 against >=10 accounts per hour (T1110.003).",
+      "required": true,
+      "score": 1.0,
+      "metric": "F1 ratio, password spray",
+      "detail": {
+        "f1_original": 0.982,
+        "f1_protected": 0.982,
+        "original": {
+          "tp": 1170,
+          "fp": 43,
+          "fn": 0,
+          "precision": 0.965,
+          "recall": 1.0
+        },
+        "protected": {
+          "tp": 1170,
+          "fp": 43,
+          "fn": 0,
+          "precision": 0.965,
+          "recall": 1.0
+        }
+      }
+    },
+    {
+      "id": "CYBER-U4",
+      "table": "proxy_logs",
+      "kind": "detection",
+      "description": "Exfiltration detection: >1 GB uploaded from one source to one domain within 4 h (T1567.002).",
+      "required": true,
+      "score": 1.0,
+      "metric": "F1 ratio, exfiltration volume",
+      "detail": {
+        "f1_original": 0.8,
+        "f1_protected": 0.8,
+        "original": {
+          "tp": 60,
+          "fp": 30,
+          "fn": 0,
+          "precision": 0.667,
+          "recall": 1.0
+        },
+        "protected": {
+          "tp": 60,
+          "fp": 30,
+          "fn": 0,
+          "precision": 0.667,
+          "recall": 1.0
+        }
+      }
+    },
+    {
+      "id": "CYBER-U5",
+      "table": "email_gateway+proxy_logs",
+      "kind": "detection",
+      "description": "Phishing chain: bulk mail from a rare domain followed by recipients' clicks (needs consistent user pseudonyms across e-mail and proxy).",
+      "required": true,
+      "score": null,
+      "metric": "not answerable",
+      "detail": {
+        "missing": [
+          "email_gateway.sender",
+          "email_gateway.recipients"
+        ]
+      }
+    },
+    {
+      "id": "CYBER-U6",
+      "table": "vpn_logs+edr_alerts",
+      "kind": "detection",
+      "description": "Lateral movement: VPN from a never-seen country followed by server alerts within 24 h.",
+      "required": true,
+      "score": 0.0,
+      "metric": "F1 ratio, foreign VPN -> server alerts (lateral movement)",
+      "detail": {
+        "f1_original": 0.095,
+        "f1_protected": 0.0,
+        "original": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 7,
+          "precision": 0.077,
+          "recall": 0.125
+        },
+        "protected": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    {
+      "id": "CYBER-U7",
+      "table": "proxy_logs+edr_alerts",
+      "kind": "detection",
+      "description": "Insider: per-user daily intranet downloads > 4x own median (and >=100) plus removable-media alerts.",
+      "required": true,
+      "score": 1.0,
+      "metric": "F1 ratio, insider bulk download / removable media",
+      "detail": {
+        "f1_original": 0.991,
+        "f1_protected": 0.991,
+        "original": {
+          "tp": 548,
+          "fp": 10,
+          "fn": 0,
+          "precision": 0.982,
+          "recall": 1.0
+        },
+        "protected": {
+          "tp": 548,
+          "fp": 10,
+          "fn": 0,
+          "precision": 0.982,
+          "recall": 1.0
+        }
+      }
+    },
+    {
+      "id": "CYBER-U8",
+      "table": "*",
+      "kind": "aggregate",
+      "description": "Indicators of compromise (attacker IPs, phishing domain, attacker device, tool user agents) kept verbatim for sharing.",
+      "required": true,
+      "score": 0.05,
+      "metric": "share of attacker IoCs kept verbatim",
+      "detail": {
+        "src_ip": "0/16",
+        "domain": "1/1",
+        "device_name": "0/1",
+        "user_agent": "0/2"
+      }
+    },
+    {
+      "id": "CYBER-U9",
+      "table": "*",
+      "kind": "relationship",
+      "description": "Cross-log join consistency of user identifiers (keyed pseudonyms pass, random tokens fail).",
+      "required": true,
+      "score": 1.0,
+      "metric": "same user -> same pseudonym across tables x different users -> different pseudonyms",
+      "detail": {
+        "same_user_same_value": 1.0,
+        "different_users_different_value": 1.0,
+        "tables": [
+          "edr_alerts",
+          "incident_tickets",
+          "proxy_logs",
+          "signin_logs",
+          "vpn_logs"
+        ]
+      }
+    },
+    {
+      "id": "CYBER-U10",
+      "table": "signin_logs",
+      "kind": "distribution",
+      "description": "Sign-in volume by hour (capacity / anomaly baselines).",
+      "required": true,
+      "score": 0.9830701328151585,
+      "metric": "1 - TVD of hourly sign-in volume",
+      "detail": {}
+    },
+    {
+      "id": "CYBER-U11",
+      "table": "edr_alerts",
+      "kind": "distribution",
+      "description": "Alert triage statistics: distribution of rule x verdict x severity.",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - TVD of (rule, verdict, severity) distribution",
+      "detail": {}
+    }
+  ],
+  "summary": {
+    "privacy": 0.5719,
+    "utility": 0.6955,
+    "composite": 0.6221,
+    "label": "self-assessment, not the official judging score",
+    "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+  },
+  "risk_components": {
+    "dns_logs: direct identifiers retained": 0.0,
+    "dns_logs: records with k<5": 0.0,
+    "edr_alerts: direct identifiers retained": 0.0,
+    "edr_alerts: hashed ids reversible": 0.0,
+    "edr_alerts: records with k<5": 0.0,
+    "email_gateway: direct identifiers retained": 0.0,
+    "email_gateway: records with k<5": 0.0,
+    "geoip_ranges: direct identifiers retained": 0.0,
+    "identity: direct identifiers retained": 0.0,
+    "identity: records with k<5": 0.0,
+    "identity: linkage re-identification": 0.0,
+    "incident_tickets: direct identifiers retained": 0.0,
+    "incident_tickets: records with k<5": 0.0,
+    "incident_tickets: free-text identifier leakage": 0.8173,
+    "proxy_logs: direct identifiers retained": 0.0,
+    "proxy_logs: records with k<5": 0.0,
+    "signin_logs: direct identifiers retained": 0.0,
+    "signin_logs: records with k<5": 0.0001,
+    "signin_logs: linkage re-identification": 0.0,
+    "vpn_logs: direct identifiers retained": 0.0,
+    "vpn_logs: records with k<5": 0.0
+  }
+}

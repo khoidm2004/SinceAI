@@ -1,0 +1,387 @@
+adv_row_id,handle,display_name,home_area,post_ts,text,away_from,away_to
+VAC00001,@samitam38,Sami Tammiaho,Turku,2025-12-11 16:37,Off to Levi for the week (11.12.–14.12.)!,2025-12-11,2025-12-14
+VAC00002,@heikki.s,Heikki,Masku,2025-12-24 10:17,Lomalle! Lapland odottaa.,,
+VAC00003,@teemuvii81,Teemu,Mynämäki,2026-02-01 15:39,Off to the Alps for the week (3.2.–6.2.)!,2026-02-03,2026-02-06
+VAC00004,@riikkakau19,Riikka Kaukojärvi,Turku,2026-02-05 15:23,Off to Levi for the week (6.2.–14.2.)!,2026-02-06,2026-02-14
+VAC00005,@markkuhol66,Markku,Turku,2025-12-27 17:15,Off to Levi for the week (29.12.–7.1.)!,2025-12-29,2026-01-07
+VAC00006,@oskaripoh31,Oskari,Turku,2025-12-20 17:05,Off to Gran Canaria for the week (21.12.–29.12.)!,2025-12-21,2025-12-29
+VAC00007,@lauri.pa38,Lauri,Turku,2026-02-14 11:50,Off to Lapland for the week (14.2.–22.2.)!,2026-02-14,2026-02-22
+VAC00008,@juhapol,Juha Pöllänen,Turku,2026-01-10 16:30,Off to Saariselkä for the week (12.1.–18.1.)!,2026-01-12,2026-01-18
+VAC00009,@niinalum80,Niina,Salo,2026-01-16 15:48,Off to Vuokatti for the week (16.1.–20.1.)!,2026-01-16,2026-01-20
+VAC00010,@merjahau91,Merja Haukkakorpi,Somero,2026-02-06 08:00,Off to Saariselkä for the week (7.2.–14.2.)!,2026-02-07,2026-02-14
+VAC00011,@linuskar75,Linus,,2026-02-12 20:01,Off to the Alps for the week (13.2.–19.2.)!,2026-02-13,2026-02-19
+VAC00012,@roosa_pihla,Roosa P.,Turku,2025-12-21 21:01,Lomalle! Tenerife odottaa.,,
+VAC00013,@sofiav,Sofía,Raisio,2025-12-24 14:45,"Hiihtoloma alkaa, kohti Thailanda. Kotiin 28.12..",2025-12-24,2025-12-28
+VAC00014,@leenatam93,Leena Tammimäki,Turku,2026-01-22 20:10,Off to Thailand for the week (22.1.–31.1.)!,2026-01-22,2026-01-31
+VAC00015,@lassejokin9,Lasse J.,Raisio,2025-12-22 15:48,Lomalle! Thailand odottaa.,,
+VAC00016,@mattijok91,Matti Jokela,,2025-12-30 14:58,Off to Tenerife for the week (30.12.–3.1.)!,2025-12-30,2026-01-03
+VAC00017,@annelilep84,Anneli Leppäniemi,Kaarina,2026-02-01 20:10,Off to Gran Canaria for the week (1.2.–6.2.)!,2026-02-01,2026-02-06
+VAC00018,@eeval30,Eeva Leppäharju,Aura,2025-12-22 14:05,Lomalle! Tenerife odottaa.,,
+VAC00019,@hannasar64,Hanna Sarkasuo,Kaarina,2026-02-05 12:31,Off to Gran Canaria for the week (7.2.–14.2.)!,2026-02-07,2026-02-14
+VAC00020,@jaanaruo61,Jaana,,2025-12-15 13:52,Off to Thailand for the week (15.12.–22.12.)!,2025-12-15,2025-12-22
+VAC00021,@emma.leht,Emma,Turku,2025-12-22 19:03,Pakkaamista... Lapland here we come (23.12.-26.12.),2025-12-23,2025-12-26
+VAC00022,@arimak94,Ari Mäkelä,Loimaa,2026-01-30 19:25,Off to Vuokatti for the week (31.1.–8.2.)!,2026-01-31,2026-02-08
+VAC00023,@heikki.s,Heikki Saarikoski,,2025-12-23 13:09,Pakkaamista... Lapland here we come (23.12.-26.12.),2025-12-23,2025-12-26
+VAC00024,@tiinatam37,Tiina,,2025-12-26 17:09,Off to Saariselkä for the week (27.12.–1.1.)!,2025-12-27,2026-01-01
+VAC00025,@pirkkovii93,Pirkko,,2026-01-11 15:42,Off to Gran Canaria for the week (12.1.–17.1.)!,2026-01-12,2026-01-17
+VAC00026,@noora.k,Noora K.,Turku,2025-12-23 19:01,Huomenna Tenerife! Viikko 23.12.–26.12. ⛷️,2025-12-23,2025-12-26
+VAC00027,@dmitri.s,Dmitri Smirnov,Turku,2026-02-13 17:29,Finally holiday: Ruka 15.2.-22.2.,2026-02-15,2026-02-22
+VAC00028,@anna.hie,Anna Hietapää,Turku,2025-12-24 19:55,Nu åker vi till Thailand!,,
+VAC00029,@saratu,Sara,Turku,2026-01-27 21:36,"Mökki on varattu, Tenerife 29.1.–11.2.!",2026-01-29,2026-02-11
+VAC00030,@satusuo62,Satu,Turku,2025-12-05 22:51,Off to Lapland for the week (6.12.–15.12.)!,2025-12-06,2025-12-15
+VAC00031,@helisal96,Heli,Turku,2026-01-02 20:02,Off to Ruka for the week (2.1.–6.1.)!,2026-01-02,2026-01-06
+VAC00032,@matias.orav,Matias O.,Merimasku,2026-02-14 21:15,Huomenna Thailand! Viikko 15.2.–21.2. ⛷️,2026-02-15,2026-02-21
+VAC00033,@jussirant,Jussi Rantavuori,Turku,2025-12-21 22:36,Christmas away this year – Tenerife until 25.12..,2025-12-23,2025-12-25
+VAC00034,@tuulakur22,Tuula Kurkikallio,Loimaa,2026-01-10 15:31,Off to Ylläs for the week (11.1.–14.1.)!,2026-01-11,2026-01-14
+VAC00035,@laura_ruoh,Laura Ruohopää,Yläne,2026-02-14 22:10,"Hiihtoloma alkaa, kohti Rukaa. Kotiin 22.2..",2026-02-15,2026-02-22
+VAC00036,@arilum58,Ari,,2025-12-12 09:08,Off to Levi for the week (12.12.–15.12.)!,2025-12-12,2025-12-15
+VAC00037,@laurihal34,Lauri,,2026-01-03 08:08,Off to Gran Canaria for the week (4.1.–13.1.)!,2026-01-04,2026-01-13
+VAC00038,@iida_koivu,Iida K.,Turku,2026-02-15 13:47,Off to the Alps! Back next week.,,
+VAC00039,@tellervosaa47,Tellervo Saarila,,2026-02-19 19:41,Off to Gran Canaria for the week (19.2.–24.2.)!,2026-02-19,2026-02-24
+VAC00040,@veerakot48,Veera,,2026-01-15 11:06,Off to Gran Canaria for the week (15.1.–22.1.)!,2026-01-15,2026-01-22
+VAC00041,@hannu.kesap7,Hannu Kesäpää,,2025-12-24 11:11,Finally holiday: Tenerife 24.12.-26.12.,2025-12-24,2025-12-26
+VAC00042,@pekkakot22,Pekka,Kaarina,2026-02-13 20:49,Off to Saariselkä for the week (14.2.–17.2.)!,2026-02-14,2026-02-17
+VAC00043,@erkkipih34,Erkki Pihlasalo,,2025-12-23 17:48,Lomalle! the cottage odottaa.,,
+VAC00044,@sepponie45,Seppo Niemilehto,Kaarina,2026-01-07 19:18,Off to Ylläs for the week (9.1.–13.1.)!,2026-01-09,2026-01-13
+VAC00045,@elinaleh48,Elina Lehtinen,,2025-12-21 08:08,"Hiihtoloma alkaa, kohti Thailanda. Kotiin 26.12..",2025-12-23,2025-12-26
+VAC00046,@irmahei20,Irma Heikkilä,Kaarina,2026-01-23 18:25,Off to Thailand for the week (25.1.–3.2.)!,2026-01-25,2026-02-03
+VAC00047,@sarailv87,Sara,,2026-01-29 13:02,Off to Levi for the week (31.1.–7.2.)!,2026-01-31,2026-02-07
+VAC00048,@paivikin,Päivi Kinnunen,Paimio,2025-12-23 22:13,"Jouluksi Thailandiin, palataan 26.12..",2025-12-24,2025-12-26
+VAC00049,@arjakaa54,Arja Kaarnasalo,,2026-01-19 19:43,Off to Gran Canaria for the week (19.1.–26.1.)!,2026-01-19,2026-01-26
+VAC00050,@tommivuor61,Tommi Vuoriluoto,Turku,2025-12-22 17:24,Finally holiday: the cottage 23.12.-26.12.,2025-12-23,2025-12-26
+VAC00051,@veikko.h,Veikko,Kuusisto,2025-12-21 16:45,"Hiihtoloma alkaa, kohti Laplanda. Kotiin 25.12..",2025-12-23,2025-12-25
+VAC00052,@veikkolai84,Veikko,,2025-12-24 14:55,Off to Gran Canaria for the week (26.12.–2.1.)!,2025-12-26,2026-01-02
+VAC00053,@onnika38,Onni Kangasla,Kaarina,2026-02-13 19:29,"Mökki on varattu, Thailand 14.2.–21.2.!",2026-02-14,2026-02-21
+VAC00054,@merlese,Merle S.,,2026-02-12 19:07,Off to Thailand for the week (14.2.–21.2.)!,2026-02-14,2026-02-21
+VAC00055,@otto_tuomi,Otto Tuominiemi,Turku,2025-12-23 13:32,Pakkaamista... the cottage here we come (23.12.-27.12.),2025-12-23,2025-12-27
+VAC00056,@mirosuo57,Miro Suokorpi,Lieto,2025-12-07 12:45,Off to Gran Canaria for the week (7.12.–15.12.)!,2025-12-07,2025-12-15
+VAC00057,@karikur49,Kari Kurkikoski,,2026-02-04 16:08,Off to Levi for the week (4.2.–9.2.)!,2026-02-04,2026-02-09
+VAC00058,@jennajar85,Jenna,Parainen,2025-12-09 17:25,Off to Ylläs for the week (11.12.–17.12.)!,2025-12-11,2025-12-17
+VAC00059,@eerolam88,Eero Lampivirta,Salo,2026-02-03 16:16,Off to Vuokatti for the week (5.2.–13.2.)!,2026-02-05,2026-02-13
+VAC00060,@sanjay_sing,Sanjay Singh,Turku,2025-12-23 20:25,Lomalle! Tenerife odottaa.,,
+VAC00061,@eemelikas82,Eemeli,Turku,2026-02-14 15:21,Finally holiday: Saariselkä 14.2.-22.2.,2026-02-14,2026-02-22
+VAC00062,@linnea_lind95,Linnea Lindroos,Turku,2025-12-23 11:44,Sportlov i Tenerife 24.12.–28.12.!,2025-12-24,2025-12-28
+VAC00063,@ottoleh16,Otto,,2025-12-26 16:25,Off to Thailand for the week (26.12.–3.1.)!,2025-12-26,2026-01-03
+VAC00064,@tomiaho44,Tomi,Turku,2025-12-15 12:52,Off to Tenerife for the week (16.12.–24.12.)!,2025-12-16,2025-12-24
+VAC00065,@villetal94,Ville,Turku,2026-01-15 17:22,Off to Saariselkä for the week (17.1.–20.1.)!,2026-01-17,2026-01-20
+VAC00066,@niinagus45,Niina,Kaarina,2026-01-22 09:43,Off to Lapland for the week (22.1.–31.1.)!,2026-01-22,2026-01-31
+VAC00067,@inka_h,Inka,Turku,2026-02-14 09:31,Lomalle! Vuokatti odottaa.,,
+VAC00068,@valtteriman39,Valtteri,,2025-12-08 11:23,Off to Lapland for the week (10.12.–13.12.)!,2025-12-10,2025-12-13
+VAC00069,@agneslin93,Agnes Lindholm,Parainen,2025-12-27 21:01,Off to Tenerife for the week (27.12.–5.1.)!,2025-12-27,2026-01-05
+VAC00070,@matthewjon77,Matthew Jones,Turku,2025-12-16 10:30,Off to Gran Canaria for the week (17.12.–24.12.)!,2025-12-17,2025-12-24
+VAC00071,@milla.maki,Milla M.,Pöytyä,2025-12-21 13:40,Off to Tenerife! Back next week.,,
+VAC00072,@roosapar36,Roosa,Turku,2025-12-22 19:19,Off to Lapland for the week (24.12.–1.1.)!,2025-12-24,2026-01-01
+VAC00073,@fannisor15,Fanni Sorsala,Salo,2025-12-24 22:19,Off to the Alps for the week (25.12.–31.12.)!,2025-12-25,2025-12-31
+VAC00074,@james.wi39,James Wilson,Turku,2026-02-14 22:37,Off to Gran Canaria! Back next week.,,
+VAC00075,@oskarikor75,Oskari,Raisio,2026-01-22 14:44,Off to the Alps for the week (24.1.–29.1.)!,2026-01-24,2026-01-29
+VAC00076,@emiliakoi52,Emilia,,2026-02-20 19:28,Off to Saariselkä for the week (21.2.–25.2.)!,2026-02-21,2026-02-25
+VAC00077,@alma.lin,Alma,Turku,2025-12-22 08:25,Nu åker vi till the cottage!,,
+VAC00078,@millaala96,Milla,,2025-12-20 11:29,Off to Saariselkä for the week (20.12.–26.12.)!,2025-12-20,2025-12-26
+VAC00079,@topias.ter49,Topias T.,Turku,2025-12-23 13:40,Christmas away this year – Tenerife until 28.12..,2025-12-24,2025-12-28
+VAC00080,@maijakot49,Maija,Turku,2026-01-06 20:05,Off to Lapland for the week (6.1.–9.1.)!,2026-01-06,2026-01-09
+VAC00081,@tiinakul50,Tiina,Salo,2026-02-10 08:59,Off to Vuokatti for the week (10.2.–14.2.)!,2026-02-10,2026-02-14
+VAC00082,@antero_pajun23,Antero,Mynämäki,2026-01-27 16:57,"Hiihtoloma alkaa, kohti Thailanda. Kotiin 12.2..",2026-01-29,2026-02-12
+VAC00083,@villehir77,Ville,Turku,2025-12-31 20:58,Off to Tenerife for the week (2.1.–7.1.)!,2026-01-02,2026-01-07
+VAC00084,@kalle.vir,Kalle V.,Karinainen,2026-02-14 14:35,Finally holiday: Tenerife 14.2.-22.2.,2026-02-14,2026-02-22
+VAC00085,@annikkikan84,Annikki Kangaskallio,,2025-12-28 17:23,Off to the Alps for the week (30.12.–5.1.)!,2025-12-30,2026-01-05
+VAC00086,@juliavol13,Julia,,2026-01-14 14:26,Off to the Alps for the week (16.1.–19.1.)!,2026-01-16,2026-01-19
+VAC00087,@tuomasjar18,Tuomas,,2025-12-30 10:13,Off to Ruka for the week (1.1.–6.1.)!,2026-01-01,2026-01-06
+VAC00088,@jarikoi37,Jari Koivukoski,,2026-01-05 10:25,Off to Lapland for the week (5.1.–10.1.)!,2026-01-05,2026-01-10
+VAC00089,@susanna.rauha5,Susanna R.,Raisio,2025-12-21 08:47,Lomalle! Tenerife odottaa.,,
+VAC00090,@hannavii51,Hanna,,2026-02-11 08:28,Off to Saariselkä for the week (12.2.–19.2.)!,2026-02-12,2026-02-19
+VAC00091,@annekan85,Anne,,2026-02-13 18:41,Off to Gran Canaria for the week (13.2.–16.2.)!,2026-02-13,2026-02-16
+VAC00092,@jennikin85,Jenni Kinnunen,,2026-01-03 13:50,Off to the Alps for the week (3.1.–11.1.)!,2026-01-03,2026-01-11
+VAC00093,@jarkko_alama,Jarkko Alamäki,Turku,2026-02-13 15:59,"Hiihtoloma alkaa, kohti Saariselkäa. Kotiin 22.2..",2026-02-14,2026-02-22
+VAC00094,@paulaa0,Paula Ahoharju,Turku,2025-12-23 14:13,Off to Thailand! Back next week.,,
+VAC00095,@essisir24,Essi Sirviö,,2025-12-06 12:25,Off to Levi for the week (8.12.–15.12.)!,2025-12-08,2025-12-15
+VAC00096,@emma.ma14,Emma M.,Turku,2025-12-22 16:45,Off to the cottage! Back next week.,,
+VAC00097,@mattipoh55,Matti,Turku,2026-02-12 21:24,Off to Thailand for the week (13.2.–19.2.)!,2026-02-13,2026-02-19
+VAC00098,@andreiiva91,Andrei,Turku,2026-02-15 11:00,Off to Ylläs for the week (15.2.–23.2.)!,2026-02-15,2026-02-23
+VAC00099,@mikaran75,Mika,Turku,2026-02-09 21:10,Off to Saariselkä for the week (11.2.–18.2.)!,2026-02-11,2026-02-18
+VAC00100,@eerotoi94,Eero Toivanen,Turku,2026-01-25 21:10,Off to Lapland for the week (27.1.–4.2.)!,2026-01-27,2026-02-04
+VAC00101,@eetuk59,Eetu Karhusuo,Turku,2026-02-13 22:32,Pakkaamista... Saariselkä here we come (14.2.-21.2.),2026-02-14,2026-02-21
+VAC00102,@markopoh16,Marko Pohjooja,Salo,2026-01-16 10:57,Off to Levi for the week (17.1.–21.1.)!,2026-01-17,2026-01-21
+VAC00103,@petteri_kur,Petteri Kurki,,2026-02-15 11:12,Off to Vuokatti for the week (15.2.–22.2.)!,2026-02-15,2026-02-22
+VAC00104,@christersjo85,Christer,Kemiönsaari,2025-12-30 15:24,Off to Levi for the week (1.1.–8.1.)!,2026-01-01,2026-01-08
+VAC00105,@maria_k1,Maria K.,Rusko,2026-02-13 20:53,Lomalle! Saariselkä odottaa.,,
+VAC00106,@mikkolap57,Mikko,Salo,2025-12-08 17:28,Off to Gran Canaria for the week (8.12.–16.12.)!,2025-12-08,2025-12-16
+VAC00107,@samipel83,Sami,Salo,2025-12-10 14:01,Off to Tenerife for the week (11.12.–15.12.)!,2025-12-11,2025-12-15
+VAC00108,@eemeliaho58,Eemeli,Salo,2026-01-09 13:58,Off to Gran Canaria for the week (11.1.–14.1.)!,2026-01-11,2026-01-14
+VAC00109,@mikko.ylaka51,Mikko Y.,Turku,2026-02-13 20:36,Huomenna Saariselkä! Viikko 14.2.–22.2. ⛷️,2026-02-14,2026-02-22
+VAC00110,@akikar83,Aki Karhuoja,,2026-01-22 16:41,Off to Thailand for the week (24.1.–29.1.)!,2026-01-24,2026-01-29
+VAC00111,@leenakaa59,Leena,Mynämäki,2026-01-31 13:37,Off to Ruka for the week (31.1.–6.2.)!,2026-01-31,2026-02-06
+VAC00112,@nataliiashe22,Nataliia,,2026-02-05 16:40,Off to Tenerife for the week (6.2.–11.2.)!,2026-02-06,2026-02-11
+VAC00113,@annelitol83,Anneli,Turku,2026-01-05 16:38,Off to Tenerife for the week (7.1.–11.1.)!,2026-01-07,2026-01-11
+VAC00114,@lauraaho25,Laura Ahovuori,,2026-01-15 15:02,Off to Vuokatti for the week (16.1.–24.1.)!,2026-01-16,2026-01-24
+VAC00115,@siirituo97,Siiri Tuomivirta,,2026-01-04 18:55,Off to Levi for the week (4.1.–7.1.)!,2026-01-04,2026-01-07
+VAC00116,@maarittam53,Maarit Tammioja,Parainen,2026-01-15 20:19,Off to Lapland for the week (17.1.–23.1.)!,2026-01-17,2026-01-23
+VAC00117,@pekka.ranta95,Pekka R.,Turku,2025-12-23 12:14,Christmas away this year – Thailand until 27.12..,2025-12-24,2025-12-27
+VAC00118,@jennijou65,Jenni,Turku,2025-12-07 08:50,Off to Lapland for the week (7.12.–10.12.)!,2025-12-07,2025-12-10
+VAC00119,@tarastka30,Taras,Turku,2026-02-14 22:39,Off to Ylläs for the week (14.2.–23.2.)!,2026-02-14,2026-02-23
+VAC00120,@anteroyla11,Antero Yläjärvi,Laitila,2025-12-28 19:12,Off to the Alps for the week (29.12.–7.1.)!,2025-12-29,2026-01-07
+VAC00121,@helmimoi82,Helmi Moisio,Parainen,2025-12-10 10:56,Off to Tenerife for the week (12.12.–15.12.)!,2025-12-12,2025-12-15
+VAC00122,@pirkkojou33,Pirkko,Kaarina,2025-12-13 08:45,Off to Thailand for the week (13.12.–17.12.)!,2025-12-13,2025-12-17
+VAC00123,@pirkkovii69,Pirkko Viitasuo,,2026-01-14 14:37,Off to Lapland for the week (14.1.–22.1.)!,2026-01-14,2026-01-22
+VAC00124,@merjaora25,Merja Oravakallio,,2026-02-02 12:31,Off to the Alps for the week (4.2.–8.2.)!,2026-02-04,2026-02-08
+VAC00125,@sirkka.pehko86,Sirkka Pehkonen,Turku,2026-02-13 13:07,"Hiihtoloma alkaa, kohti Ylläsa. Kotiin 21.2..",2026-02-14,2026-02-21
+VAC00126,@villenie37,Ville,,2025-12-20 12:02,Off to Ruka for the week (21.12.–24.12.)!,2025-12-21,2025-12-24
+VAC00127,@santeri_kuu61,Santeri Kuusela,Pöytyä,2025-12-23 11:43,Off to Lapland for the week (23.12.–26.12.)!,2025-12-23,2025-12-26
+VAC00128,@riikkail52,Riikka Ilvesjärvi,Preitilä,2026-02-14 20:57,Pakkaamista... Ruka here we come (14.2.-22.2.),2026-02-14,2026-02-22
+VAC00129,@petteripaj36,Petteri,Turku,2026-01-28 22:39,Off to Tenerife for the week (30.1.–8.2.)!,2026-01-30,2026-02-08
+VAC00130,@merjasuo75,Merja Suoharju,,2026-01-27 13:04,Off to Levi for the week (28.1.–4.2.)!,2026-01-28,2026-02-04
+VAC00131,@junzha78,Jun Zhang,Lieto,2025-12-23 13:39,Pakkaamista... the cottage here we come (24.12.-28.12.),2025-12-24,2025-12-28
+VAC00132,@otto_rin17,Otto,Turku,2026-02-14 10:15,Huomenna Gran Canaria! Viikko 14.2.–21.2. ⛷️,2026-02-14,2026-02-21
+VAC00133,@hannakul46,Hanna Kulmala,Turku,2025-12-03 10:20,Off to Gran Canaria for the week (5.12.–14.12.)!,2025-12-05,2025-12-14
+VAC00134,@kristiinakop20,Kristiina,Turku,2026-02-19 13:33,Off to the Alps for the week (19.2.–25.2.)!,2026-02-19,2026-02-25
+VAC00135,@timo_r,Timo R.,,2026-01-15 16:18,Lomalle! Lapland odottaa.,,
+VAC00136,@arjaora61,Arja Oravaoja,,2025-12-15 20:19,Off to Levi for the week (17.12.–23.12.)!,2025-12-17,2025-12-23
+VAC00137,@katihir14,Kati Hirvonen,,2025-12-09 20:22,Off to the Alps for the week (10.12.–15.12.)!,2025-12-10,2025-12-15
+VAC00138,@millahe,Milla,Turku,2025-12-23 14:19,Lomalle! Tenerife odottaa.,,
+VAC00139,@zaidmah53,Zaid Mahmoud,,2025-12-21 12:36,Off to Gran Canaria for the week (21.12.–27.12.)!,2025-12-21,2025-12-27
+VAC00140,@anttijou11,Antti,Masku,2025-12-12 10:47,Off to Lapland for the week (12.12.–19.12.)!,2025-12-12,2025-12-19
+VAC00141,@esakuu88,Esa,Lieto,2025-12-24 19:14,Off to Thailand for the week (25.12.–29.12.)!,2025-12-25,2025-12-29
+VAC00142,@esa.pentt25,Esa Penttinen,,2026-02-14 11:34,Off to Ylläs! Back next week.,,
+VAC00143,@agnesand58,Agnes,Turku,2025-12-23 22:42,Nu åker vi till Lapland!,,
+VAC00144,@jannenie31,Janne Niemijärvi,Lieto,2026-02-21 17:26,Off to Vuokatti for the week (22.2.–26.2.)!,2026-02-22,2026-02-26
+VAC00145,@niina_ny9,Niina,Turku,2025-12-24 19:00,Off to Tenerife! Back next week.,,
+VAC00146,@samikoi23,Sami Koivukoski,,2025-12-09 17:01,Off to Tenerife for the week (10.12.–15.12.)!,2025-12-10,2025-12-15
+VAC00147,@raimokor24,Raimo,,2026-01-02 09:54,Off to Ylläs for the week (3.1.–11.1.)!,2026-01-03,2026-01-11
+VAC00148,@niina_kaa,Niina Kaarnala,,2026-02-15 16:14,Off to Ylläs! Back next week.,,
+VAC00149,@tiinaheikk,Tiina Heikkilä,,2026-02-15 22:48,"Jouluksi Laplandiin, palataan 1.3..",2026-02-16,2026-03-01
+VAC00150,@elinajaa35,Elina,Turku,2026-01-01 19:30,Off to Thailand for the week (1.1.–8.1.)!,2026-01-01,2026-01-08
+VAC00151,@ottopoh35,Otto Pohjomaa,Raisio,2025-12-13 22:07,Off to Levi for the week (15.12.–24.12.)!,2025-12-15,2025-12-24
+VAC00152,@petrinie82,Petri,Loimaa,2026-01-27 11:06,Off to Thailand for the week (28.1.–6.2.)!,2026-01-28,2026-02-06
+VAC00153,@jarkkokas20,Jarkko Kaskikallio,,2026-01-20 08:49,Off to Thailand for the week (22.1.–27.1.)!,2026-01-22,2026-01-27
+VAC00154,@sirkkasal50,Sirkka Salminen,Turku,2025-12-28 14:23,Off to the Alps for the week (29.12.–6.1.)!,2025-12-29,2026-01-06
+VAC00155,@axelsod11,Axel Söderberg,Parainen,2026-02-18 14:07,Off to the Alps for the week (19.2.–22.2.)!,2026-02-19,2026-02-22
+VAC00156,@paulahau26,Paula Haukkakoski,Masku,2026-02-13 21:09,Off to Gran Canaria for the week (13.2.–20.2.)!,2026-02-13,2026-02-20
+VAC00157,@kalle.pa,Kalle Pajuniemi,Naskarla,2025-12-22 22:48,"Hiihtoloma alkaa, kohti Tenerifea. Kotiin 27.12..",2025-12-23,2025-12-27
+VAC00158,@matias_saari,Matias,,2026-02-09 21:54,Finally holiday: Levi 11.2.-23.2.,2026-02-11,2026-02-23
+VAC00159,@essi_hi24,Essi H.,Turku,2026-01-22 12:07,Lomalle! Ruka odottaa.,,
+VAC00160,@terokot60,Tero,Turku,2025-12-16 11:44,Off to the Alps for the week (18.12.–24.12.)!,2025-12-18,2025-12-24
+VAC00161,@emmakoi18,Emma Koivumaa,Turku,2026-01-28 22:47,Off to Saariselkä for the week (30.1.–5.2.)!,2026-01-30,2026-02-05
+VAC00162,@niinalep98,Niina Leppälehto,,2026-02-19 08:27,Off to Thailand for the week (19.2.–23.2.)!,2026-02-19,2026-02-23
+VAC00163,@tommioksan,Tommi Oksanen,,2025-12-22 19:04,"Mökki on varattu, Thailand 23.12.–26.12.!",2025-12-23,2025-12-26
+VAC00164,@tuulavar65,Tuula Varis,Turku,2026-02-10 16:42,Off to Gran Canaria for the week (10.2.–16.2.)!,2026-02-10,2026-02-16
+VAC00165,@annikkival67,Annikki Valkonen,Turku,2026-02-13 09:03,Off to Ruka for the week (15.2.–21.2.)!,2026-02-15,2026-02-21
+VAC00166,@erkki.ojan,Erkki O.,,2026-01-08 22:38,Lomalle! Gran Canaria odottaa.,,
+VAC00167,@pirkkokes45,Pirkko Kesäkorpi,,2026-02-12 09:32,Off to Thailand for the week (13.2.–21.2.)!,2026-02-13,2026-02-21
+VAC00168,@ilkkaaal69,Ilkka,,2026-02-19 10:12,Off to Levi for the week (21.2.–1.3.)!,2026-02-21,2026-03-01
+VAC00169,@helenavuo47,Helena,,2026-01-17 13:23,Off to Thailand for the week (17.1.–20.1.)!,2026-01-17,2026-01-20
+VAC00170,@hanna.a74,Hanna A.,Aura,2026-02-03 22:00,Lomalle! Gran Canaria odottaa.,,
+VAC00171,@inkamae17,Inka,Kaarina,2026-02-16 09:21,Off to Tenerife for the week (18.2.–22.2.)!,2026-02-18,2026-02-22
+VAC00172,@lassetam11,Lasse,,2025-12-24 10:49,Off to Gran Canaria for the week (26.12.–2.1.)!,2025-12-26,2026-01-02
+VAC00173,@kallevii27,Kalle Viitakangas,Mynämäki,2026-02-06 14:38,Off to Saariselkä for the week (7.2.–16.2.)!,2026-02-07,2026-02-16
+VAC00174,@matiasleh29,Matias,Turku,2026-02-21 22:16,Off to Vuokatti for the week (21.2.–25.2.)!,2026-02-21,2026-02-25
+VAC00175,@essi_kes,Essi Kesänen-Karhuniemi,,2026-02-15 22:04,Pakkaamista... Ylläs here we come (15.2.-22.2.),2026-02-15,2026-02-22
+VAC00176,@lasseelo23,Lasse,Salo,2026-01-25 20:57,Off to Tenerife for the week (25.1.–29.1.)!,2026-01-25,2026-01-29
+VAC00177,@mervi.kaarn93,Mervi Kaarnaranta,Lieto,2026-02-03 12:19,"Jouluksi Thailandiin, palataan 13.2..",2026-02-05,2026-02-13
+VAC00178,@lassekaa30,Lasse,,2026-01-22 19:38,Off to Lapland for the week (22.1.–28.1.)!,2026-01-22,2026-01-28
+VAC00179,@hugogra31,Hugo Granqvist,Parainen,2026-01-21 17:02,Off to Lapland for the week (23.1.–28.1.)!,2026-01-23,2026-01-28
+VAC00180,@joelman37,Joel Mäntyniemi,,2025-12-28 08:06,Off to Saariselkä for the week (29.12.–4.1.)!,2025-12-29,2026-01-04
+VAC00181,@aulis.ta,Aulis T.,,2025-12-23 21:01,"Hiihtoloma alkaa, kohti Laplanda. Kotiin 27.12..",2025-12-23,2025-12-27
+VAC00182,@inka.kuja,Inka Kujala,,2025-12-24 16:07,Lomalle! the cottage odottaa.,,
+VAC00183,@jesseryy14,Jesse,Rusko,2025-12-11 08:17,Off to Lapland for the week (13.12.–18.12.)!,2025-12-13,2025-12-18
+VAC00184,@satu.jout98,Satu,Turku,2025-12-22 17:35,Lomalle! Lapland odottaa.,,
+VAC00185,@jaanasar75,Jaana,Salo,2026-02-16 16:47,Off to Vuokatti for the week (16.2.–20.2.)!,2026-02-16,2026-02-20
+VAC00186,@oskarikos41,Oskari Koskinen,,2026-01-08 20:57,Off to Levi for the week (10.1.–17.1.)!,2026-01-10,2026-01-17
+VAC00187,@juhanihie96,Juhani Hietanen,Uusikaupunki,2026-01-24 17:35,Off to Lapland for the week (24.1.–31.1.)!,2026-01-24,2026-01-31
+VAC00188,@venlas64,Venla Sallinen,,2026-01-25 09:24,Finally holiday: Vuokatti 27.1.-3.2.,2026-01-27,2026-02-03
+VAC00189,@marikakesk,Marika,Parainen,2026-01-28 08:19,Lomalle! Ylläs odottaa.,,
+VAC00190,@riikkamart31,Riikka Marttinen,Turku,2026-02-14 15:53,Lomalle! the Alps odottaa.,,
+VAC00191,@ainonie56,Aino,Naantali,2025-12-08 11:49,Off to Ylläs for the week (10.12.–18.12.)!,2025-12-10,2025-12-18
+VAC00192,@kimmo_k31,Kimmo Kaskijärvi,Nousiainen,2025-12-22 09:57,"Hiihtoloma alkaa, kohti the cottagea. Kotiin 25.12..",2025-12-23,2025-12-25
+VAC00193,@nehagup22,Neha,Turku,2026-01-19 17:13,Off to Levi for the week (20.1.–26.1.)!,2026-01-20,2026-01-26
+VAC00194,@roosa_jou,Roosa Joutsenla,,2025-12-21 17:44,Pakkaamista... Thailand here we come (23.12.-26.12.),2025-12-23,2025-12-26
+VAC00195,@onnikiv13,Onni,,2025-12-15 17:46,Off to the Alps for the week (17.12.–22.12.)!,2025-12-17,2025-12-22
+VAC00196,@kaisahal10,Kaisa Hallaluoto,Salo,2025-12-12 13:43,Off to the Alps for the week (13.12.–17.12.)!,2025-12-13,2025-12-17
+VAC00197,@elinakiv68,Elina Kivelä,Turku,2025-12-09 16:28,Off to Ruka for the week (9.12.–13.12.)!,2025-12-09,2025-12-13
+VAC00198,@riikka.sa,Riikka,Turku,2025-12-23 20:48,Pakkaamista... Tenerife here we come (23.12.-25.12.),2025-12-23,2025-12-25
+VAC00199,@linuspe70,Linus,Turku,2026-01-19 16:44,"Vi åker till Levi, hemma igen 28.1..",2026-01-19,2026-01-28
+VAC00200,@tuijarauta92,Tuija Rautamäki,Kaarina,2025-12-23 14:20,Off to Thailand! Back next week.,,
+VAC00201,@lauririnn81,Lauri Rinne,Turku,2025-12-23 17:16,"Jouluksi Thailandiin, palataan 27.12..",2025-12-24,2025-12-27
+VAC00202,@terovuo14,Tero Vuorela,Salo,2025-12-26 14:39,Off to Lapland for the week (26.12.–1.1.)!,2025-12-26,2026-01-01
+VAC00203,@jormailv29,Jorma,,2026-01-12 22:54,Off to Tenerife for the week (14.1.–17.1.)!,2026-01-14,2026-01-17
+VAC00204,@jarmohir76,Jarmo,Turku,2025-12-09 15:44,Off to Gran Canaria for the week (9.12.–12.12.)!,2025-12-09,2025-12-12
+VAC00205,@nea.jar,Nea J.,Turku,2025-12-22 09:38,Lomalle! the cottage odottaa.,,
+VAC00206,@kaisakau86,Kaisa Kaukopää,,2026-01-12 21:17,Off to Levi for the week (13.1.–16.1.)!,2026-01-13,2026-01-16
+VAC00207,@elenasmi57,Elena,,2025-12-29 10:03,Off to Gran Canaria for the week (29.12.–7.1.)!,2025-12-29,2026-01-07
+VAC00208,@sannatuo61,Sanna,,2026-02-17 09:17,Off to the Alps for the week (18.2.–22.2.)!,2026-02-18,2026-02-22
+VAC00209,@topiashir73,Topias,Turku,2026-02-18 10:09,Off to Ylläs for the week (20.2.–1.3.)!,2026-02-20,2026-03-01
+VAC00210,@henriter31,Henri Tervokorpi,,2025-12-19 08:01,Off to Thailand for the week (20.12.–26.12.)!,2025-12-20,2025-12-26
+VAC00211,@satuoks98,Satu,,2025-12-25 08:59,Off to Vuokatti for the week (25.12.–3.1.)!,2025-12-25,2026-01-03
+VAC00212,@hilkkatoi21,Hilkka Toivanen,,2026-01-28 19:56,Off to Lapland for the week (29.1.–1.2.)!,2026-01-29,2026-02-01
+VAC00213,@henri_ki37,Henri,Turku,2025-12-22 18:01,Huomenna Lapland! Viikko 23.12.–25.12. ⛷️,2025-12-23,2025-12-25
+VAC00214,@rikuter35,Riku Tervooja,,2025-12-23 11:09,Off to Thailand for the week (24.12.–30.12.)!,2025-12-24,2025-12-30
+VAC00215,@linusrau62,Linus Rautasuo,Turku,2026-02-21 15:56,Off to Ylläs for the week (21.2.–1.3.)!,2026-02-21,2026-03-01
+VAC00216,@jussi_k,Jussi K.,,2026-01-13 09:31,"Mökki on varattu, Gran Canaria 15.1.–27.1.!",2026-01-15,2026-01-27
+VAC00217,@pirjokoi37,Pirjo Koivukangas,Turku,2025-12-31 17:27,Off to Vuokatti for the week (1.1.–7.1.)!,2026-01-01,2026-01-07
+VAC00218,@marjatta.salo,Marjatta Salo,Turku,2026-02-11 20:01,"Hiihtoloma alkaa, kohti Ylläsa. Kotiin 22.2..",2026-02-12,2026-02-22
+VAC00219,@anneli.h69,Anneli Haukkaoja-Lehikoinen,Mynämäki,2026-01-22 17:59,Off to Levi! Back next week.,,
+VAC00220,@jukkaora44,Jukka,Raisio,2025-12-12 19:22,Off to Lapland for the week (13.12.–20.12.)!,2025-12-13,2025-12-20
+VAC00221,@saratuo51,Sara Tuomimaa,Raisio,2026-01-09 08:26,Off to Vuokatti for the week (9.1.–16.1.)!,2026-01-09,2026-01-16
+VAC00222,@anurau40,Anu,Pöytyä,2026-02-20 12:29,Off to Ruka for the week (22.2.–27.2.)!,2026-02-22,2026-02-27
+VAC00223,@aleksisal41,Aleksi,Turku,2025-12-12 19:22,Off to the Alps for the week (13.12.–21.12.)!,2025-12-13,2025-12-21
+VAC00224,@goranhel48,Göran,Kemiönsaari,2026-01-03 10:50,Off to Vuokatti for the week (4.1.–9.1.)!,2026-01-04,2026-01-09
+VAC00225,@eveliina.h39,Eveliina,Turku,2025-12-23 16:08,"Hiihtoloma alkaa, kohti Thailanda. Kotiin 26.12..",2025-12-23,2025-12-26
+VAC00226,@mariakiv22,Maria Kivisalo,,2026-02-01 17:59,Off to Thailand for the week (3.2.–10.2.)!,2026-02-03,2026-02-10
+VAC00227,@saraheva76,Sarah,Raisio,2026-01-20 20:12,Off to Tenerife for the week (21.1.–25.1.)!,2026-01-21,2026-01-25
+VAC00228,@jarkkohau68,Jarkko,Turku,2026-01-05 14:49,Off to Gran Canaria for the week (5.1.–14.1.)!,2026-01-05,2026-01-14
+VAC00229,@samipoh74,Sami,,2026-02-19 16:17,Off to Ruka for the week (19.2.–24.2.)!,2026-02-19,2026-02-24
+VAC00230,@laurajar65,Laura Järvinen,Turku,2026-02-21 16:27,Off to Ruka for the week (21.2.–26.2.)!,2026-02-21,2026-02-26
+VAC00231,@hennahei32,Henna Heinäkangas,Turku,2025-12-16 14:18,Off to Gran Canaria for the week (16.12.–19.12.)!,2025-12-16,2025-12-19
+VAC00232,@joelpent59,Joel,Turku,2025-12-24 11:26,Off to Tenerife! Back next week.,,
+VAC00233,@riittakes48,Riitta Kesäsuo,,2026-02-01 11:38,Off to the Alps for the week (2.2.–9.2.)!,2026-02-02,2026-02-09
+VAC00234,@kalle_saari,Kalle Saarilahti,Turku,2026-02-14 17:23,Huomenna Lapland! Viikko 14.2.–22.2. ⛷️,2026-02-14,2026-02-22
+VAC00235,@ilkka.ku78,Ilkka Kultaniemi,Raisio,2025-12-24 21:13,Lomalle! Thailand odottaa.,,
+VAC00236,@johannaala41,Johanna,Parainen,2026-02-16 15:45,Off to Thailand for the week (16.2.–24.2.)!,2026-02-16,2026-02-24
+VAC00237,@jennarau39,Jenna,Koski Tl,2026-02-17 13:05,Off to Thailand for the week (19.2.–27.2.)!,2026-02-19,2026-02-27
+VAC00238,@anumar90,Anu Martikainen,Turku,2026-01-26 14:37,Off to Tenerife for the week (28.1.–4.2.)!,2026-01-28,2026-02-04
+VAC00239,@mervivuo87,Mervi,,2025-12-11 19:01,Off to Tenerife for the week (11.12.–16.12.)!,2025-12-11,2025-12-16
+VAC00240,@emma.lei,Emma,,2025-12-22 17:56,"Mökki on varattu, the cottage 24.12.–28.12.!",2025-12-24,2025-12-28
+VAC00241,@marjattasut49,Marjatta Sutinen,Loimaa,2025-12-28 19:24,Off to the Alps for the week (30.12.–7.1.)!,2025-12-30,2026-01-07
+VAC00242,@piialam49,Piia,Loimaa,2025-12-29 16:07,Off to Ylläs for the week (31.12.–9.1.)!,2025-12-31,2026-01-09
+VAC00243,@veikkokan21,Veikko Kangaskallio,Parainen,2026-02-17 19:42,Off to Thailand for the week (17.2.–26.2.)!,2026-02-17,2026-02-26
+VAC00244,@tero.kurki,Tero Kurkioja,,2025-12-22 18:14,Lomalle! Tenerife odottaa.,,
+VAC00245,@marivuo56,Mari Vuoripää,,2026-01-12 18:09,Off to Levi for the week (12.1.–15.1.)!,2026-01-12,2026-01-15
+VAC00246,@marjahei88,Marja,Koski Tl,2026-01-02 13:40,Off to Ylläs for the week (4.1.–13.1.)!,2026-01-04,2026-01-13
+VAC00247,@aarneaho78,Aarne Ahojärvi,Turku,2026-02-03 11:14,Off to Ylläs for the week (5.2.–9.2.)!,2026-02-05,2026-02-09
+VAC00248,@heikkikes80,Heikki,Salo,2025-12-20 19:38,Off to Ruka for the week (20.12.–23.12.)!,2025-12-20,2025-12-23
+VAC00249,@mehdimor83,Mehdi,Turku,2026-02-20 19:48,Off to Tenerife for the week (21.2.–24.2.)!,2026-02-21,2026-02-24
+VAC00250,@mirotuo18,Miro,,2025-12-28 22:52,Off to Levi for the week (28.12.–1.1.)!,2025-12-28,2026-01-01
+VAC00251,@liwan43,Li Wang,,2025-12-10 18:59,Off to Levi for the week (10.12.–17.12.)!,2025-12-10,2025-12-17
+VAC00252,@matiasrau43,Matias,Turku,2025-12-26 09:58,Off to Saariselkä for the week (27.12.–30.12.)!,2025-12-27,2025-12-30
+VAC00253,@saturuo50,Satu,Uusikaupunki,2026-01-06 11:24,Off to the Alps for the week (6.1.–11.1.)!,2026-01-06,2026-01-11
+VAC00254,@valtterikan93,Valtteri,Masku,2026-02-08 08:11,Off to Ylläs for the week (9.2.–15.2.)!,2026-02-09,2026-02-15
+VAC00255,@aripaj90,Ari,,2025-12-25 16:52,Off to Thailand for the week (26.12.–31.12.)!,2025-12-26,2025-12-31
+VAC00256,@jukkaran23,Jukka,Turku,2026-02-09 21:35,Off to Levi for the week (9.2.–16.2.)!,2026-02-09,2026-02-16
+VAC00257,@eskotuo27,Esko,,2025-12-30 10:27,Off to Ylläs for the week (31.12.–4.1.)!,2025-12-31,2026-01-04
+VAC00258,@omarkha73,Omar,Raisio,2025-12-15 16:49,Off to Ruka for the week (15.12.–21.12.)!,2025-12-15,2025-12-21
+VAC00259,@niinahei23,Niina Heino,,2026-01-17 21:21,Off to the Alps for the week (18.1.–27.1.)!,2026-01-18,2026-01-27
+VAC00260,@lauraruo43,Laura,,2026-01-30 20:47,Off to Lapland for the week (31.1.–8.2.)!,2026-01-31,2026-02-08
+VAC00261,@kalletal31,Kalle Talvijärvi,Turku,2026-02-15 12:06,"Jouluksi Vuokattiiin, palataan 21.2..",2026-02-15,2026-02-21
+VAC00262,@mattinyl97,Matti Nylund,Kaarina,2025-12-25 19:30,Off to Tenerife for the week (26.12.–4.1.)!,2025-12-26,2026-01-04
+VAC00263,@marttilam23,Martti Lampivuori,Salo,2026-02-11 10:45,Off to Gran Canaria for the week (11.2.–18.2.)!,2026-02-11,2026-02-18
+VAC00264,@susannaaut44,Susanna Autio,,2026-02-03 11:05,Off to the Alps for the week (4.2.–9.2.)!,2026-02-04,2026-02-09
+VAC00265,@wilmakes94,Wilma Keskitalo,Turku,2025-12-25 20:08,Off to Ruka for the week (27.12.–1.1.)!,2025-12-27,2026-01-01
+VAC00266,@leenapaa97,Leena,Turku,2026-01-17 22:28,Off to Thailand for the week (19.1.–24.1.)!,2026-01-19,2026-01-24
+VAC00267,@nea_ahok79,Nea A.,,2026-02-14 10:51,Lomalle! Gran Canaria odottaa.,,
+VAC00268,@matiashei87,Matias Heikkinen,Loimaa,2026-01-18 21:11,Off to Lapland for the week (20.1.–25.1.)!,2026-01-20,2026-01-25
+VAC00269,@terttuvai38,Terttu,,2026-01-10 13:00,Off to Ylläs for the week (11.1.–17.1.)!,2026-01-11,2026-01-17
+VAC00270,@hudahad66,Huda,Turku,2026-01-08 20:14,Off to Ylläs for the week (9.1.–13.1.)!,2026-01-09,2026-01-13
+VAC00271,@nearau88,Nea Rautasalo,Turku,2026-02-13 19:01,Huomenna Gran Canaria! Viikko 15.2.–22.2. ⛷️,2026-02-15,2026-02-22
+VAC00272,@juliapoh37,Julia Pohjosuo,Turku,2026-01-07 12:39,Off to Tenerife for the week (7.1.–11.1.)!,2026-01-07,2026-01-11
+VAC00273,@saganor22,Saga,,2026-02-16 12:15,Off to Ylläs for the week (16.2.–24.2.)!,2026-02-16,2026-02-24
+VAC00274,@sami.rant,Sami Rantavirta,Lieto,2025-12-22 20:35,Off to the cottage for the week (24.12.–26.12.)!,2025-12-24,2025-12-26
+VAC00275,@riikkaman38,Riikka Mäntyjärvi,,2026-02-08 19:45,Off to Vuokatti for the week (8.2.–15.2.)!,2026-02-08,2026-02-15
+VAC00276,@kirstikas55,Kirsti Kaskisuo,,2026-01-20 21:43,Off to Gran Canaria for the week (22.1.–30.1.)!,2026-01-22,2026-01-30
+VAC00277,@juho.sark66,Juho S.,,2025-12-23 17:42,Pakkaamista... Thailand here we come (23.12.-27.12.),2025-12-23,2025-12-27
+VAC00278,@riittatoi69,Riitta Toivanen-Lampijärvi,Turku,2026-01-27 13:06,Off to Tenerife for the week (29.1.–1.2.)!,2026-01-29,2026-02-01
+VAC00279,@mikkokar79,Mikko,,2026-01-05 13:28,Off to Vuokatti for the week (6.1.–15.1.)!,2026-01-06,2026-01-15
+VAC00280,@sanjaypat74,Sanjay,Laitila,2026-02-09 19:20,Off to Vuokatti for the week (9.2.–14.2.)!,2026-02-09,2026-02-14
+VAC00281,@marisar32,Mari Sarkalehto,Salo,2025-12-09 12:39,Off to the Alps for the week (9.12.–15.12.)!,2025-12-09,2025-12-15
+VAC00282,@aulisnie75,Aulis Niemelä,Turku,2025-12-24 13:29,Off to Thailand for the week (24.12.–29.12.)!,2025-12-24,2025-12-29
+VAC00283,@mikkolep66,Mikko Leppäsuo,,2026-02-15 21:07,"Mökki on varattu, Vuokatti 15.2.–22.2.!",2026-02-15,2026-02-22
+VAC00284,@leenakes94,Leena,Turku,2026-01-26 17:23,Off to Tenerife for the week (27.1.–3.2.)!,2026-01-27,2026-02-03
+VAC00285,@matti_laaks88,Matti L.,Turku,2025-12-22 22:05,"Mökki on varattu, Thailand 24.12.–27.12.!",2025-12-24,2025-12-27
+VAC00286,@katipih82,Kati Pihlasalo,Kaarina,2025-12-20 21:33,Off to Thailand for the week (22.12.–29.12.)!,2025-12-22,2025-12-29
+VAC00287,@joel_pehk,Joel Pehkonen,Mynämäki,2026-02-15 16:34,Huomenna the Alps! Viikko 15.2.–21.2. ⛷️,2026-02-15,2026-02-21
+VAC00288,@mariamhad52,Mariam,Salo,2026-01-08 22:37,Off to Saariselkä for the week (8.1.–16.1.)!,2026-01-08,2026-01-16
+VAC00289,@katiter25,Kati Tervokoski,,2026-01-28 19:01,Off to the Alps for the week (30.1.–6.2.)!,2026-01-30,2026-02-06
+VAC00290,@sinikkailv16,Sinikka Ilveskorpi,Kaarina,2025-12-04 22:38,Off to Lapland for the week (5.12.–8.12.)!,2025-12-05,2025-12-08
+VAC00291,@eetumak47,Eetu,Kaarina,2026-01-25 17:01,Off to Thailand for the week (25.1.–3.2.)!,2026-01-25,2026-02-03
+VAC00292,@tommirau83,Tommi,,2026-01-15 10:58,Off to Thailand for the week (16.1.–19.1.)!,2026-01-16,2026-01-19
+VAC00293,@jennakul89,Jenna Kultavuori,Turku,2026-02-14 20:03,Off to the Alps for the week (14.2.–21.2.)!,2026-02-14,2026-02-21
+VAC00294,@eveliina.harj29,Eveliina H.,,2025-12-21 20:33,Huomenna Lapland! Viikko 23.12.–26.12. ⛷️,2025-12-23,2025-12-26
+VAC00295,@tellervo_pih,Tellervo P.,Turku,2025-12-24 19:08,"Mökki on varattu, Lapland 24.12.–26.12.!",2025-12-24,2025-12-26
+VAC00296,@bengtjoha,Bengt J.,,2025-12-24 10:49,Nu åker vi till Lapland!,,
+VAC00297,@elinasal34,Elina Salonen,Vehmaa,2026-02-20 11:51,Off to Ylläs for the week (22.2.–2.3.)!,2026-02-22,2026-03-02
+VAC00298,@saga_fage35,Saga Fagerström,Nauvo,2025-12-24 11:56,Nu åker vi till Thailand!,,
+VAC00299,@pekkaaal93,Pekka,Laitila,2026-02-07 12:02,Off to Gran Canaria for the week (9.2.–17.2.)!,2026-02-09,2026-02-17
+VAC00300,@aulisvii18,Aulis Viitajärvi,Kaarina,2025-12-20 21:38,Off to Tenerife for the week (21.12.–26.12.)!,2025-12-21,2025-12-26
+VAC00301,@ellaj59,Ella Joutsenkorpi,,2026-02-13 13:47,Lomalle! Vuokatti odottaa.,,
+VAC00302,@iidakur10,Iida,Salo,2026-01-06 19:35,Off to Ylläs for the week (7.1.–10.1.)!,2026-01-07,2026-01-10
+VAC00303,@artjomsmirn,Artjom Smirnov,Raisio,2025-12-22 09:04,Lomalle! the cottage odottaa.,,
+VAC00304,@jennihal33,Jenni Halme,Salo,2026-01-30 17:28,Off to the Alps for the week (1.2.–8.2.)!,2026-02-01,2026-02-08
+VAC00305,@lasseranta40,Lasse Rantala,Nousiainen,2025-12-23 16:56,Finally holiday: Tenerife 23.12.-25.12.,2025-12-23,2025-12-25
+VAC00306,@marja_makij91,Marja M.,,2025-12-24 14:55,Lomalle! Tenerife odottaa.,,
+VAC00307,@eilaleh51,Eila,,2026-01-18 21:16,Off to Ruka for the week (19.1.–28.1.)!,2026-01-19,2026-01-28
+VAC00308,@mikkojou30,Mikko Joutsenmaa,,2026-02-16 09:15,Off to Levi for the week (18.2.–25.2.)!,2026-02-18,2026-02-25
+VAC00309,@tuulahei94,Tuula,Turku,2026-01-24 17:50,Off to the Alps for the week (26.1.–30.1.)!,2026-01-26,2026-01-30
+VAC00310,@tuomassaari27,Tuomas S.,Tarvasjoki,2025-12-24 14:41,Huomenna Thailand! Viikko 24.12.–27.12. ⛷️,2025-12-24,2025-12-27
+VAC00311,@almaeri,Alma Eriksson,Kaarina,2025-12-23 11:05,Nu åker vi till Thailand!,,
+VAC00312,@niina.silve,Niina S.,,2026-02-14 17:37,Pakkaamista... the Alps here we come (15.2.-22.2.),2026-02-15,2026-02-22
+VAC00313,@irmalun35,Irma Lundén,Vehmaa,2026-02-12 21:24,Off to Ylläs for the week (14.2.–17.2.)!,2026-02-14,2026-02-17
+VAC00314,@maryam.rahi22,Maryam Rahimi,Turku,2026-02-14 20:23,"Jouluksi Laplandiin, palataan 21.2..",2026-02-14,2026-02-21
+VAC00315,@oscareng50,Oscar Engblom,Kaarina,2026-01-27 16:13,Off to Thailand for the week (29.1.–2.2.)!,2026-01-29,2026-02-02
+VAC00316,@siimkop13,Siim,,2025-12-10 09:35,Off to Ylläs for the week (11.12.–18.12.)!,2025-12-11,2025-12-18
+VAC00317,@raililaa90,Raili,Kaarina,2026-02-05 17:16,Off to Ylläs for the week (6.2.–15.2.)!,2026-02-06,2026-02-15
+VAC00318,@valtterikas27,Valtteri Kaskijärvi,,2026-02-08 22:26,Off to Lapland for the week (8.2.–13.2.)!,2026-02-08,2026-02-13
+VAC00319,@jennikiu64,Jenni Kiuru,,2026-02-11 14:41,Off to Vuokatti for the week (11.2.–15.2.)!,2026-02-11,2026-02-15
+VAC00320,@janipaj51,Jani Pajukorpi,,2026-01-12 15:00,Off to Tenerife for the week (13.1.–18.1.)!,2026-01-13,2026-01-18
+VAC00321,@miroruo11,Miro,Turku,2025-12-11 13:07,Off to Levi for the week (13.12.–16.12.)!,2025-12-13,2025-12-16
+VAC00322,@jaanajaa32,Jaana Jaakkola,,2025-12-31 17:28,Off to Thailand for the week (31.12.–5.1.)!,2025-12-31,2026-01-05
+VAC00323,@samuell54,Samuel,,2026-02-15 17:46,Off to Tenerife for the week (15.2.–21.2.)!,2026-02-15,2026-02-21
+VAC00324,@elias.l,Elias L.,,2026-02-12 11:04,Lomalle! the Alps odottaa.,,
+VAC00325,@tuulakot57,Tuula,Turku,2026-02-16 13:17,Off to Gran Canaria for the week (16.2.–22.2.)!,2026-02-16,2026-02-22
+VAC00326,@eveliinatam85,Eveliina,Turku,2025-12-06 17:57,Off to Lapland for the week (6.12.–12.12.)!,2025-12-06,2025-12-12
+VAC00327,@lauraman96,Laura,Turku,2026-01-05 18:34,Off to Ruka for the week (7.1.–11.1.)!,2026-01-07,2026-01-11
+VAC00328,@jennitar76,Jenni Tarvainen,Masku,2026-01-22 22:22,Off to Ruka for the week (24.1.–27.1.)!,2026-01-24,2026-01-27
+VAC00329,@juhosun85,Juho Sunen,,2026-02-06 15:31,Off to Gran Canaria for the week (7.2.–14.2.)!,2026-02-07,2026-02-14
+VAC00330,@reijolep45,Reijo,,2025-12-09 14:42,Off to the Alps for the week (10.12.–13.12.)!,2025-12-10,2025-12-13
+VAC00331,@oskariala72,Oskari,Turku,2025-12-12 21:56,Off to Saariselkä for the week (13.12.–18.12.)!,2025-12-13,2025-12-18
+VAC00332,@aram.a49,Aram A.,Turku,2026-01-22 12:43,"Mökki on varattu, the Alps 22.1.–28.1.!",2026-01-22,2026-01-28
+VAC00333,@paulahei80,Paula,Turku,2025-12-09 15:45,Off to Tenerife for the week (9.12.–17.12.)!,2025-12-09,2025-12-17
+VAC00334,@olavi.jous36,Olavi Jousikoski,Turku,2026-02-15 14:53,"Jouluksi Thailandiin, palataan 22.2..",2026-02-17,2026-02-22
+VAC00335,@axellin11,Axel Lindberg,Turku,2026-01-04 10:56,Off to Levi for the week (5.1.–13.1.)!,2026-01-05,2026-01-13
+VAC00336,@aki_sors,Aki Sorsaniemi,Turku,2026-02-13 14:46,"Mökki on varattu, Tenerife 14.2.–21.2.!",2026-02-14,2026-02-21
+VAC00337,@kristinaost87,Kristina,Parainen,2026-01-01 10:51,Off to Gran Canaria for the week (2.1.–5.1.)!,2026-01-02,2026-01-05
+VAC00338,@oonasor82,Oona Sorsakoski,Turku,2026-02-08 19:26,Off to the Alps for the week (9.2.–14.2.)!,2026-02-09,2026-02-14
+VAC00339,@pirkkosor68,Pirkko,Lieto,2026-02-18 16:13,Off to Vuokatti for the week (20.2.–24.2.)!,2026-02-20,2026-02-24
+VAC00340,@noorakan18,Noora Kangasniemi,Loimaa,2025-12-10 22:13,Off to Levi for the week (12.12.–21.12.)!,2025-12-12,2025-12-21
+VAC00341,@emmapoh64,Emma,Mynämäki,2025-12-06 11:25,Off to the Alps for the week (7.12.–16.12.)!,2025-12-07,2025-12-16
+VAC00342,@marikaora22,Marika,Somero,2026-01-22 22:14,Off to Lapland for the week (24.1.–2.2.)!,2026-01-24,2026-02-02
+VAC00343,@valtteri.tal74,Valtteri T.,Turku,2026-02-08 08:33,Pakkaamista... Ylläs here we come (9.2.-23.2.),2026-02-09,2026-02-23
+VAC00344,@markoleh57,Marko,Kaarina,2026-02-19 13:42,Off to Ruka for the week (21.2.–2.3.)!,2026-02-21,2026-03-02
+VAC00345,@keijohar86,Keijo,Turku,2026-01-31 20:29,Off to Lapland for the week (31.1.–6.2.)!,2026-01-31,2026-02-06
+VAC00346,@margareta.bl22,Margareta B.,Parainen,2025-12-23 13:00,Nu åker vi till Lapland!,,
+VAC00347,@arttu_leh10,Arttu L.,,2025-12-22 16:35,Christmas away this year – Lapland until 26.12..,2025-12-23,2025-12-26
+VAC00348,@veeraman75,Veera,,2025-12-03 22:39,Off to Vuokatti for the week (5.12.–9.12.)!,2025-12-05,2025-12-09
+VAC00349,@johannawil65,Johanna,,2026-02-09 17:30,Off to the Alps for the week (10.2.–14.2.)!,2026-02-10,2026-02-14
+VAC00350,@anh_nguye,Anh Nguyen,Turku,2026-02-14 15:30,Lomalle! the Alps odottaa.,,
+VAC00351,@hilkkaleh61,Hilkka,Salo,2025-12-10 16:34,Off to Gran Canaria for the week (12.12.–17.12.)!,2025-12-12,2025-12-17
+VAC00352,@milla.li12,Milla Linna,Masku,2026-02-13 22:08,"Jouluksi Ylläsiin, palataan 22.2..",2026-02-15,2026-02-22
+VAC00353,@jarmo.rinta,Jarmo,,2025-12-23 08:09,"Hiihtoloma alkaa, kohti Thailanda. Kotiin 28.12..",2025-12-24,2025-12-28
+VAC00354,@villesar11,Ville,,2026-01-29 10:13,Off to Ruka for the week (29.1.–7.2.)!,2026-01-29,2026-02-07
+VAC00355,@leenasip85,Leena,Paimio,2025-12-23 22:00,Off to Ruka for the week (23.12.–29.12.)!,2025-12-23,2025-12-29
+VAC00356,@teemu_sorsa79,Teemu S.,Turku,2025-12-22 17:06,Lomalle! Thailand odottaa.,,
+VAC00357,@millakaa54,Milla,,2026-02-09 08:02,Off to Levi for the week (11.2.–19.2.)!,2026-02-11,2026-02-19
+VAC00358,@henrimak82,Henri Mäkiranta,Turku,2025-12-20 19:12,Off to Ruka for the week (20.12.–26.12.)!,2025-12-20,2025-12-26
+VAC00359,@juhamanty56,Juha Mäntyoja,Turku,2026-01-20 14:36,Lomalle! Ylläs odottaa.,,
+VAC00360,@millailv22,Milla,Salo,2025-12-18 17:00,Off to Vuokatti for the week (20.12.–27.12.)!,2025-12-20,2025-12-27
+VAC00361,@joellep42,Joel,Turku,2026-01-04 22:09,Off to Saariselkä for the week (5.1.–14.1.)!,2026-01-05,2026-01-14
+VAC00362,@laurilep89,Lauri,Loimaa,2025-12-15 08:45,Off to Levi for the week (15.12.–21.12.)!,2025-12-15,2025-12-21
+VAC00363,@emmahyv82,Emma Hyvönen,Turku,2025-12-20 11:28,Off to Saariselkä for the week (21.12.–25.12.)!,2025-12-21,2025-12-25
+VAC00364,@marikapih75,Marika,Turku,2025-12-26 17:20,Off to Thailand for the week (28.12.–31.12.)!,2025-12-28,2025-12-31
+VAC00365,@aripoh20,Ari Pohjola,,2025-12-13 10:10,Off to Ruka for the week (15.12.–18.12.)!,2025-12-15,2025-12-18
+VAC00366,@onnilai58,Onni,,2026-02-21 21:40,Off to Ylläs for the week (21.2.–24.2.)!,2026-02-21,2026-02-24
+VAC00367,@seppo_paju35,Seppo Pajumaa,Raisio,2025-12-23 22:21,Lomalle! Thailand odottaa.,,
+VAC00368,@susannahau88,Susanna Haukkamaa,Uusikaupunki,2025-12-10 20:28,Off to the Alps for the week (11.12.–20.12.)!,2025-12-11,2025-12-20
+VAC00369,@tiinahir32,Tiina Hirvikorpi,Turku,2026-02-19 08:35,Off to Tenerife for the week (21.2.–2.3.)!,2026-02-21,2026-03-02
+VAC00370,@amirjaf21,Amir,,2026-02-08 12:57,Off to Ylläs for the week (10.2.–16.2.)!,2026-02-10,2026-02-16
+VAC00371,@rikuni11,Riku N.,Turku,2025-12-22 08:49,Pakkaamista... the cottage here we come (23.12.-25.12.),2025-12-23,2025-12-25
+VAC00372,@tiinamak94,Tiina,Turku,2025-12-19 08:50,Off to Levi for the week (19.12.–22.12.)!,2025-12-19,2025-12-22
+VAC00373,@juhasuo56,Juha Suomäki,,2026-01-04 22:18,Off to Gran Canaria for the week (4.1.–10.1.)!,2026-01-04,2026-01-10
+VAC00374,@venla.sipil8,Venla S.,Naantali,2025-12-22 15:22,"Mökki on varattu, Thailand 24.12.–27.12.!",2025-12-24,2025-12-27
+VAC00375,@artturuu37,Arttu,Turku,2026-01-11 08:01,Off to Levi for the week (13.1.–18.1.)!,2026-01-13,2026-01-18
+VAC00376,@kirstiyla54,Kirsti Ylämäki,,2026-02-10 12:22,Off to the Alps for the week (12.2.–20.2.)!,2026-02-12,2026-02-20
+VAC00377,@jennapaj95,Jenna Pajuaho,Kaarina,2025-12-31 12:17,Off to Lapland for the week (2.1.–5.1.)!,2026-01-02,2026-01-05
+VAC00378,@helihyt63,Heli,,2026-02-16 18:03,Off to the Alps for the week (18.2.–24.2.)!,2026-02-18,2026-02-24
+VAC00379,@stellaost92,Stella Österlund,,2026-01-03 11:50,Off to Gran Canaria for the week (5.1.–13.1.)!,2026-01-05,2026-01-13
+VAC00380,@janiran26,Jani Rantaoja,Aura,2026-01-09 17:03,Off to Saariselkä for the week (10.1.–13.1.)!,2026-01-10,2026-01-13
+VAC00381,@mika_karhu86,Mika Karhuoja,Kaarina,2025-12-21 17:15,Lomalle! the cottage odottaa.,,
+VAC00382,@liisatikka13,Liisa,Lieto,2025-12-23 10:57,"Jouluksi Tenerifeiin, palataan 28.12..",2025-12-24,2025-12-28
+VAC00383,@nikohal40,Niko Hallalahti,Lieto,2025-12-29 21:30,Off to Saariselkä for the week (31.12.–6.1.)!,2025-12-31,2026-01-06
+VAC00384,@olavikuu43,Olavi Kuusimäki,Salo,2026-02-20 13:23,Off to Thailand for the week (21.2.–1.3.)!,2026-02-21,2026-03-01
+VAC00385,@impisal67,Impi,Salo,2026-01-04 13:12,Off to Thailand for the week (6.1.–14.1.)!,2026-01-06,2026-01-14
+VAC00386,@mattiaseng66,Mattias Engblom,,2026-01-02 22:10,Off to Thailand for the week (4.1.–9.1.)!,2026-01-04,2026-01-09

@@ -1,0 +1,608 @@
+{
+  "tool": "pets-eval 1.0.0",
+  "dataset": "education",
+  "scenario": null,
+  "original": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/data/education",
+  "protected": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/results/b0/education",
+  "tables": {
+    "absences": {
+      "table": "absences",
+      "status": "released",
+      "rows_original": 19561,
+      "rows_protected": 19561,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "school_code"
+        ],
+        "n": 19561,
+        "n_classes": 12,
+        "min_k": 326,
+        "median_k": 2991.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.0
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "school_code"
+        ],
+        "n": 19561,
+        "n_classes": 12,
+        "min_k": 326,
+        "median_k": 2991.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.0
+        },
+        "sample_uniqueness": 0.0
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "excused_hours",
+        "qis": [
+          "school_code"
+        ],
+        "min_distinct_l": 28,
+        "min_entropy_l": 15.62,
+        "share_records_l1": 0.0,
+        "share_classes_l1": 0.0,
+        "n_classes": 12
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0
+      },
+      "seconds": 0.3
+    },
+    "counsellor_notes": {
+      "table": "counsellor_notes",
+      "status": "released",
+      "rows_original": 3820,
+      "rows_protected": 3820,
+      "columns_dropped": [
+        "author_name"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "note_date",
+          "language"
+        ],
+        "n": 3820,
+        "n_classes": 742,
+        "min_k": 1,
+        "median_k": 8.0,
+        "share_below": {
+          "k<2": 0.045,
+          "k<5": 0.2618,
+          "k<10": 0.6037
+        },
+        "sample_uniqueness": 0.045
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "note_date",
+          "language"
+        ],
+        "n": 3820,
+        "n_classes": 742,
+        "min_k": 1,
+        "median_k": 8.0,
+        "share_below": {
+          "k<2": 0.045,
+          "k<5": 0.2618,
+          "k<10": 0.6037
+        },
+        "sample_uniqueness": 0.045
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "free_text": {
+        "note_text": {
+          "evaluated": true,
+          "leakage_rate": 1.0,
+          "leakage_rate_chars": 1.0,
+          "identifying_leakage_rate": 1.0,
+          "per_label": {
+            "ADDRESS": {
+              "n": 337,
+              "leaked": 337,
+              "rate": 1.0
+            },
+            "DATE": {
+              "n": 2931,
+              "leaked": 2931,
+              "rate": 1.0
+            },
+            "HEALTH": {
+              "n": 701,
+              "leaked": 701,
+              "rate": 1.0
+            },
+            "NATIONAL_ID": {
+              "n": 96,
+              "leaked": 96,
+              "rate": 1.0
+            },
+            "ORG": {
+              "n": 518,
+              "leaked": 518,
+              "rate": 1.0
+            },
+            "PERSON": {
+              "n": 6763,
+              "leaked": 6763,
+              "rate": 1.0
+            },
+            "PHONE": {
+              "n": 864,
+              "leaked": 864,
+              "rate": 1.0
+            }
+          },
+          "n_values": 12210
+        }
+      },
+      "regex_residuals": {
+        "note_text": {
+          "NATIONAL_ID": 96,
+          "PHONE": 864
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.2618,
+        "free-text identifier leakage": 1.0
+      },
+      "seconds": 0.3
+    },
+    "course_grades": {
+      "table": "course_grades",
+      "status": "released",
+      "rows_original": 152026,
+      "rows_protected": 152026,
+      "columns_dropped": [
+        "teacher_name"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "school_code",
+          "course_code",
+          "course_name",
+          "assessed_date"
+        ],
+        "n": 152026,
+        "n_classes": 49506,
+        "min_k": 1,
+        "median_k": 4.0,
+        "share_below": {
+          "k<2": 0.1152,
+          "k<5": 0.511,
+          "k<10": 0.8406
+        },
+        "sample_uniqueness": 0.1152
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "school_code",
+          "course_code",
+          "course_name",
+          "assessed_date"
+        ],
+        "n": 152026,
+        "n_classes": 49506,
+        "min_k": 1,
+        "median_k": 4.0,
+        "share_below": {
+          "k<2": 0.1152,
+          "k<5": 0.511,
+          "k<10": 0.8406
+        },
+        "sample_uniqueness": 0.1152
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "grade",
+        "qis": [
+          "school_code",
+          "course_code",
+          "course_name",
+          "assessed_date"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 0.1825,
+        "share_classes_l1": 0.4271,
+        "n_classes": 49506
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.511
+      },
+      "seconds": 1.1
+    },
+    "matriculation_results": {
+      "table": "matriculation_results",
+      "status": "released",
+      "rows_original": 12649,
+      "rows_protected": 12649,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "exam_session",
+          "subject_code",
+          "subject_name",
+          "exam_language"
+        ],
+        "n": 12649,
+        "n_classes": 179,
+        "min_k": 1,
+        "median_k": 393.0,
+        "share_below": {
+          "k<2": 0.001,
+          "k<5": 0.0125,
+          "k<10": 0.0198
+        },
+        "sample_uniqueness": 0.001
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "exam_session",
+          "subject_code",
+          "subject_name",
+          "exam_language"
+        ],
+        "n": 12649,
+        "n_classes": 179,
+        "min_k": 1,
+        "median_k": 393.0,
+        "share_below": {
+          "k<2": 0.001,
+          "k<5": 0.0125,
+          "k<10": 0.0198
+        },
+        "sample_uniqueness": 0.001
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "raw_points",
+        "qis": [
+          "exam_session",
+          "subject_code",
+          "subject_name",
+          "exam_language"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 0.001,
+        "share_classes_l1": 0.0726,
+        "n_classes": 179
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0125
+      },
+      "seconds": 0.3
+    },
+    "students": {
+      "table": "students",
+      "status": "released",
+      "rows_original": 5161,
+      "rows_protected": 5161,
+      "columns_dropped": [
+        "learner_id",
+        "hetu",
+        "first_names",
+        "last_name",
+        "street_address",
+        "guardian1_name",
+        "guardian1_phone",
+        "guardian2_name",
+        "guardian2_phone"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "birth_date",
+          "sex",
+          "home_language",
+          "postcode",
+          "municipality",
+          "school_code",
+          "school_name",
+          "programme",
+          "class_group",
+          "start_date",
+          "end_date"
+        ],
+        "n": 5161,
+        "n_classes": 5159,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9992,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9992
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "birth_date",
+          "sex",
+          "home_language",
+          "postcode",
+          "municipality",
+          "school_code",
+          "school_name",
+          "programme",
+          "class_group",
+          "start_date",
+          "end_date"
+        ],
+        "n": 5161,
+        "n_classes": 5159,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9992,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9992
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "special_support",
+        "qis": [
+          "birth_date",
+          "sex",
+          "home_language",
+          "postcode",
+          "municipality",
+          "school_code",
+          "school_name",
+          "programme",
+          "class_group",
+          "start_date",
+          "end_date"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 1.0,
+        "share_classes_l1": 1.0,
+        "n_classes": 5159
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "graduation_lists": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "exact",
+              "adversary": [
+                "school_name"
+              ],
+              "protected": [
+                "school_name"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 2327,
+          "n_targets_in_data": 2091,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 751.0,
+          "attribute_inference": {
+            "sensitive": "special_support",
+            "inferred": 0,
+            "base_rate_majority_guess": 0.8494,
+            "advantage_over_base_rate": 0.0,
+            "success_rate": 0.0
+          },
+          "attack": "Published graduate lists: name and school.",
+          "baseline_reidentification_rate_original": 0.9593,
+          "risk_reduction": 1.0
+        },
+        "sports_club_rosters": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "age",
+              "adversary": [
+                "birth_year"
+              ],
+              "protected": [
+                "birth_date"
+              ]
+            },
+            {
+              "kind": "exact",
+              "adversary": [
+                "home_town"
+              ],
+              "protected": [
+                "municipality"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 809,
+          "n_targets_in_data": 725,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 2089.0,
+          "attribute_inference": {
+            "sensitive": "special_support",
+            "inferred": 2,
+            "base_rate_majority_guess": 0.8221,
+            "advantage_over_base_rate": 0.0,
+            "success_rate": 0.0028
+          },
+          "attack": "Junior team rosters: name, birth year, home town.",
+          "baseline_reidentification_rate_original": 0.9531,
+          "risk_reduction": 1.0
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 1.0,
+        "linkage re-identification": 0.0
+      },
+      "seconds": 2.0
+    }
+  },
+  "extra_protected_files": [],
+  "utility": [
+    {
+      "id": "EDU-U1",
+      "table": "course_grades",
+      "kind": "aggregate",
+      "description": "Mean grade (4-10 scale) by school x subject",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - MAE of mean grade per (school, subject) / 1 grade",
+      "detail": {
+        "groups": 177,
+        "mae": 0.0,
+        "missing_groups": 0
+      }
+    },
+    {
+      "id": "EDU-U2",
+      "table": "students",
+      "kind": "model",
+      "description": "Drop-out prediction AUC: train on protected, test on original hold-out",
+      "required": true,
+      "score": 1.0,
+      "metric": "AUC retention (train protected, test original)",
+      "detail": {
+        "auc_original": 0.898,
+        "auc_protected": 0.898,
+        "features": [
+          "sex",
+          "programme",
+          "special_support",
+          "finnish_as_second_language",
+          "home_language",
+          "school_code",
+          "start_year",
+          "age_at_start",
+          "mean_grade",
+          "n_low_grades",
+          "unexcused_hours",
+          "late_arrivals",
+          "excused_hours"
+        ]
+      }
+    },
+    {
+      "id": "EDU-U3",
+      "table": "course_grades",
+      "kind": "relationship",
+      "description": "Gender gap in maths module grades",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - |gap error| / 0.3 grade (gap = mean F - mean M, maths modules)",
+      "detail": {
+        "gap_original": -0.137,
+        "gap_protected": -0.137
+      }
+    },
+    {
+      "id": "EDU-U4",
+      "table": "absences",
+      "kind": "relationship",
+      "description": "Spearman correlation of unexcused absence hours with mean grade",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - |Spearman r error| / 0.3",
+      "detail": {
+        "r_original": -0.1978,
+        "r_protected": -0.1978,
+        "students_joined": 3014
+      }
+    },
+    {
+      "id": "EDU-U5",
+      "table": "matriculation_results",
+      "kind": "distribution",
+      "description": "Matriculation grade distribution by subject",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - mean TVD of grade distribution per subject / 0.3",
+      "detail": {
+        "subjects": 18,
+        "mean_tvd": 0.0
+      }
+    },
+    {
+      "id": "EDU-U6",
+      "table": "students",
+      "kind": "aggregate",
+      "description": "Drop-out rate by programme",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - mean abs error of drop-out rate per programme / 0.10",
+      "detail": {
+        "programmes": 14,
+        "mae": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "privacy": 0.3839,
+    "utility": 1.0,
+    "composite": 0.5333,
+    "label": "self-assessment, not the official judging score",
+    "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+  },
+  "risk_components": {
+    "absences: direct identifiers retained": 0.0,
+    "absences: records with k<5": 0.0,
+    "counsellor_notes: direct identifiers retained": 0.0,
+    "counsellor_notes: records with k<5": 0.2618,
+    "counsellor_notes: free-text identifier leakage": 1.0,
+    "course_grades: direct identifiers retained": 0.0,
+    "course_grades: records with k<5": 0.511,
+    "matriculation_results: direct identifiers retained": 0.0,
+    "matriculation_results: records with k<5": 0.0125,
+    "students: direct identifiers retained": 0.0,
+    "students: records with k<5": 1.0,
+    "students: linkage re-identification": 0.0
+  }
+}

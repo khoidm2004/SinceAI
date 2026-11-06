@@ -1,0 +1,307 @@
+{
+  "tool": "pets-eval 1.0.0",
+  "dataset": "smart_city",
+  "scenario": null,
+  "original": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/data/smart_city",
+  "protected": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/results/b2/smart_city",
+  "tables": {
+    "anpr_parking": {
+      "table": "anpr_parking",
+      "status": "released",
+      "rows_original": 48676,
+      "rows_protected": 48676,
+      "columns_dropped": [
+        "payer_phone"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "car_park",
+          "entry_ts",
+          "exit_ts"
+        ],
+        "n": 48676,
+        "n_classes": 7378,
+        "min_k": 1,
+        "median_k": 18.0,
+        "share_below": {
+          "k<2": 0.0546,
+          "k<5": 0.1909,
+          "k<10": 0.3477
+        },
+        "sample_uniqueness": 0.0546
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "car_park",
+          "entry_ts",
+          "exit_ts"
+        ],
+        "n": 48676,
+        "n_classes": 48676,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "trajectory_unicity": {
+        "plate": {
+          "evaluated": true,
+          "p": 2,
+          "spatial_m": 500,
+          "temporal": "1h",
+          "n_users_tested": 1000,
+          "unicity": 0.585,
+          "unicity_original": 0.599,
+          "attack": "Unicity of vehicles from 2 known (car park, hour) entries."
+        }
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "plate_sightings": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "exact",
+              "adversary": [
+                "plate"
+              ],
+              "protected": [
+                "plate"
+              ]
+            },
+            {
+              "kind": "time",
+              "adversary": [
+                "seen_time_approx"
+              ],
+              "protected": [
+                "entry_ts"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 1500,
+          "n_targets_in_data": 1327,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 0.0,
+          "attack": "Someone saw a known person's car at a car park at about a given time.",
+          "baseline_reidentification_rate_original": 0.4469,
+          "risk_reduction": 1.0
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.1909,
+        "trajectory unicity (plate)": 0.585,
+        "linkage re-identification": 0.0
+      },
+      "seconds": 7.0
+    },
+    "footfall_15min": {
+      "table": "footfall_15min",
+      "status": "released",
+      "rows_original": 26880,
+      "rows_protected": 26880,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "note": "no catalogued quasi-identifier kept"
+      },
+      "row_alignment": "row map",
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0
+      },
+      "seconds": 0.2
+    },
+    "sensors": {
+      "table": "sensors",
+      "status": "released",
+      "rows_original": 20,
+      "rows_protected": 20,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "note": "no catalogued quasi-identifier kept"
+      },
+      "row_alignment": "row map",
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0
+      },
+      "seconds": 0.0
+    },
+    "wifi_probes": {
+      "table": "wifi_probes",
+      "status": "released",
+      "rows_original": 585525,
+      "rows_protected": 585525,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "sensor_id",
+          "ts",
+          "ssid_probed"
+        ],
+        "n": 585525,
+        "n_classes": 38743,
+        "min_k": 1,
+        "median_k": 139.0,
+        "share_below": {
+          "k<2": 0.039,
+          "k<5": 0.0807,
+          "k<10": 0.0897
+        },
+        "sample_uniqueness": 0.039
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "sensor_id",
+          "ts",
+          "ssid_probed"
+        ],
+        "n": 585525,
+        "n_classes": 570580,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.9497,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 0.9497
+      },
+      "trajectory_unicity": {
+        "mac": {
+          "evaluated": true,
+          "p": 3,
+          "spatial_m": 500,
+          "temporal": "1h",
+          "n_users_tested": 1000,
+          "unicity": 0.903,
+          "unicity_original": 0.904,
+          "attack": "Unicity of devices from 3 known (sensor, hour) sightings."
+        }
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0807,
+        "trajectory unicity (mac)": 0.903
+      },
+      "seconds": 13.2
+    }
+  },
+  "extra_protected_files": [],
+  "utility": [
+    {
+      "id": "CITY-U1",
+      "table": "footfall_15min",
+      "kind": "aggregate",
+      "description": "Footfall by zone x hour x weekday/weekend",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - MAPE/0.5 over zone x hour x day-type footfall (cells >=30)",
+      "detail": {
+        "mape": 0.0
+      }
+    },
+    {
+      "id": "CITY-U2",
+      "table": "wifi_probes",
+      "kind": "distribution",
+      "description": "Dwell-time distribution per device-day",
+      "required": true,
+      "score": 0.0,
+      "metric": "1 - 2*TVD of per-device-day dwell span histogram",
+      "detail": {
+        "tvd": 0.6146995214822131
+      }
+    },
+    {
+      "id": "CITY-U3",
+      "table": "anpr_parking",
+      "kind": "aggregate",
+      "description": "Mean car-park occupancy by hour of day",
+      "required": true,
+      "score": 0.745608565923974,
+      "metric": "1 - MAPE/0.5 of mean occupancy by car park x hour",
+      "detail": {
+        "mape": 0.12719571703801302
+      }
+    },
+    {
+      "id": "CITY-U4",
+      "table": "anpr_parking",
+      "kind": "relationship",
+      "description": "Share of repeat visitors (plates seen on >=2 days)",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - relerr/0.3 of share of plates seen on >=2 days",
+      "detail": {
+        "orig": 0.3858584854059967,
+        "prot": 0.3858584854059967
+      }
+    },
+    {
+      "id": "CITY-U5",
+      "table": "footfall_15min",
+      "kind": "aggregate",
+      "description": "Black Friday uplift vs previous Friday",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - relerr/0.3 of Black Friday / previous Friday footfall ratio",
+      "detail": {
+        "orig": 1.679051626808991,
+        "prot": 1.679051626808991
+      }
+    },
+    {
+      "id": "CITY-U6",
+      "table": "anpr_parking",
+      "kind": "distribution",
+      "description": "Parking duration distribution",
+      "required": true,
+      "score": 0.7035089160982825,
+      "metric": "1 - 2*TVD of parking duration histogram",
+      "detail": {
+        "tvd": 0.14824554195085876
+      }
+    }
+  ],
+  "summary": {
+    "privacy": 0.4507,
+    "utility": 0.7415,
+    "composite": 0.5485,
+    "label": "self-assessment, not the official judging score",
+    "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+  },
+  "risk_components": {
+    "anpr_parking: direct identifiers retained": 0.0,
+    "anpr_parking: records with k<5": 0.1909,
+    "anpr_parking: trajectory unicity (plate)": 0.585,
+    "anpr_parking: linkage re-identification": 0.0,
+    "footfall_15min: direct identifiers retained": 0.0,
+    "sensors: direct identifiers retained": 0.0,
+    "wifi_probes: direct identifiers retained": 0.0,
+    "wifi_probes: records with k<5": 0.0807,
+    "wifi_probes: trajectory unicity (mac)": 0.903
+  }
+}

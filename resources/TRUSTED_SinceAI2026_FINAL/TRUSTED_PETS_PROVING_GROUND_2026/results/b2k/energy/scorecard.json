@@ -1,0 +1,384 @@
+{
+  "tool": "pets-eval 1.0.0",
+  "dataset": "energy",
+  "scenario": null,
+  "original": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/data/energy",
+  "protected": "/home/claude/trusted/dist/TRUSTED_PETS_PROVING_GROUND_2026/results/b2k/energy",
+  "tables": {
+    "customers": {
+      "table": "customers",
+      "status": "released",
+      "rows_original": 757,
+      "rows_protected": 757,
+      "columns_dropped": [
+        "customer_name",
+        "street_address",
+        "email",
+        "phone"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "birth_date",
+          "postcode",
+          "municipality",
+          "heating_type",
+          "floor_area_m2",
+          "ev_charger",
+          "solar_pv_kw",
+          "contract_start"
+        ],
+        "n": 757,
+        "n_classes": 61,
+        "min_k": 4,
+        "median_k": 17.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0053,
+          "k<10": 0.3289
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "birth_date",
+          "postcode",
+          "municipality",
+          "heating_type",
+          "floor_area_m2",
+          "ev_charger",
+          "solar_pv_kw",
+          "contract_start"
+        ],
+        "n": 757,
+        "n_classes": 757,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "late_payment_count",
+        "qis": [
+          "birth_date",
+          "postcode",
+          "municipality",
+          "heating_type",
+          "floor_area_m2",
+          "ev_charger",
+          "solar_pv_kw",
+          "contract_start"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 0.0304,
+        "share_classes_l1": 0.0656,
+        "n_classes": 61
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "public_directory": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "postcode",
+              "adversary": [
+                "postcode"
+              ],
+              "protected": [
+                "postcode"
+              ]
+            },
+            {
+              "kind": "exact",
+              "adversary": [
+                "city"
+              ],
+              "protected": [
+                "municipality"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 3000,
+          "n_targets_in_data": 27,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 185.0,
+          "attribute_inference": {
+            "sensitive": "medical_device_priority",
+            "inferred": 0,
+            "base_rate_majority_guess": 1.0,
+            "advantage_over_base_rate": 0.0,
+            "success_rate": 0.0
+          },
+          "attack": "Directory lookup of electricity customers.",
+          "baseline_reidentification_rate_original": 0.8148,
+          "risk_reduction": 1.0
+        }
+      },
+      "free_text": {
+        "dso_notes": {
+          "evaluated": true,
+          "leakage_rate": 0.6423,
+          "leakage_rate_chars": 0.5902,
+          "identifying_leakage_rate": 0.3889,
+          "per_label": {
+            "ADDRESS": {
+              "n": 6,
+              "leaked": 6,
+              "rate": 1.0
+            },
+            "DATE": {
+              "n": 66,
+              "leaked": 66,
+              "rate": 1.0
+            },
+            "EMAIL": {
+              "n": 14,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "HEALTH": {
+              "n": 36,
+              "leaked": 36,
+              "rate": 1.0
+            },
+            "PERSON": {
+              "n": 50,
+              "leaked": 50,
+              "rate": 1.0
+            },
+            "PHONE": {
+              "n": 65,
+              "leaked": 0,
+              "rate": 0.0
+            },
+            "PROPERTY_ID": {
+              "n": 9,
+              "leaked": 0,
+              "rate": 0.0
+            }
+          },
+          "n_values": 246
+        }
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0053,
+        "linkage re-identification": 0.0,
+        "free-text identifier leakage": 0.3889
+      },
+      "seconds": 0.5
+    },
+    "meter_readings_hourly": {
+      "table": "meter_readings_hourly",
+      "status": "released",
+      "rows_original": 1635120,
+      "rows_protected": 1635120,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "ts"
+        ],
+        "n": 1635120,
+        "n_classes": 2160,
+        "min_k": 757,
+        "median_k": 757.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.0
+        },
+        "sample_uniqueness": 0.0
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "ts"
+        ],
+        "n": 1635120,
+        "n_classes": 2160,
+        "min_k": 757,
+        "median_k": 757.0,
+        "share_below": {
+          "k<2": 0.0,
+          "k<5": 0.0,
+          "k<10": 0.0
+        },
+        "sample_uniqueness": 0.0
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "kwh",
+        "qis": [
+          "ts"
+        ],
+        "min_distinct_l": 488,
+        "min_entropy_l": 393.644,
+        "share_records_l1": 0.0,
+        "share_classes_l1": 0.0,
+        "n_classes": 2160
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "note": "no attack spec targets this table (metadata/attack_specs.json)"
+      },
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.0
+      },
+      "seconds": 5.5
+    },
+    "weather_hourly": {
+      "table": "weather_hourly",
+      "status": "released",
+      "rows_original": 2160,
+      "rows_protected": 2160,
+      "columns_dropped": [],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "note": "no catalogued quasi-identifier kept"
+      },
+      "row_alignment": "row map",
+      "regex_residuals": {},
+      "risks": {
+        "direct identifiers retained": 0.0
+      },
+      "seconds": 0.0
+    }
+  },
+  "extra_protected_files": [],
+  "utility": [
+    {
+      "id": "ENERGY-U1",
+      "table": "meter_readings_hourly",
+      "kind": "aggregate",
+      "description": "Mean load per 3-digit postcode area × hour of day",
+      "required": true,
+      "score": 0.18349316868924914,
+      "metric": "1 - MAPE/0.5 of mean kWh per postcode area x hour",
+      "detail": {
+        "mape": 0.40825341565537543
+      }
+    },
+    {
+      "id": "ENERGY-U2",
+      "table": "meter_readings_hourly",
+      "kind": "aggregate",
+      "description": "System peak hours (top 50) and daily peak hour",
+      "required": true,
+      "score": 1.0,
+      "metric": "0.5*Jaccard(top-50 peak hours) + 0.5*share of days with daily peak hour within ±1 h",
+      "detail": {
+        "jaccard": 1.0,
+        "daily_peak_agreement": 1.0
+      }
+    },
+    {
+      "id": "ENERGY-U3",
+      "table": "meter_readings_hourly",
+      "kind": "relationship",
+      "description": "Temperature sensitivity (kWh/day per °C) by heating type",
+      "required": true,
+      "score": 0.9955069427665219,
+      "metric": "mean over heating types of 1 - rel.error/0.5 of kWh-per-°C slope",
+      "detail": {
+        "slopes_orig": {
+          "air_to_water_heat_pump": -2.689489853363982,
+          "direct_electric": -3.841749045202543,
+          "district": 0.004633652038576015,
+          "ground_source_heat_pump": -1.5095664013651733,
+          "oil_and_electric": -0.590857934783551
+        },
+        "slopes_prot": {
+          "air_to_water_heat_pump": -2.689489853363982,
+          "direct_electric": -3.841749045202543,
+          "district": 0.004633652038576015,
+          "ground_source_heat_pump": -1.5265228219628464,
+          "oil_and_electric": -0.590857934783551
+        }
+      }
+    },
+    {
+      "id": "ENERGY-U4",
+      "table": "meter_readings_hourly",
+      "kind": "model",
+      "description": "Heating-type classifier: train on protected, test on original",
+      "required": true,
+      "score": 1.0,
+      "metric": "min(acc train-protected/test-original, 5-fold CV acc within protected) / 5-fold CV acc on original",
+      "detail": {
+        "acc_tstr": 0.9933949801849405,
+        "acc_cv_protected": 0.9814077025232404,
+        "acc_original_cv": 0.9801849405548216,
+        "note": "meters overlap between protected and original; the CV term guards against memorised labels"
+      }
+    },
+    {
+      "id": "ENERGY-U5",
+      "table": "meter_readings_hourly",
+      "kind": "distribution",
+      "description": "Weekday load-profile clusters (k=5) agreement",
+      "required": true,
+      "score": 0.6687495972985604,
+      "metric": "0.5*(1 - matched centroid distance / centroid spread) + 0.5*(1 - TVD of cluster sizes), k=5",
+      "detail": {
+        "centroid_distance_norm": 0.2899776878335265,
+        "size_tvd": 0.37252311756935275
+      }
+    },
+    {
+      "id": "ENERGY-U6",
+      "table": "meter_readings_hourly",
+      "kind": "model",
+      "description": "Day-ahead forecast of mean load per meter",
+      "required": true,
+      "score": 1.0,
+      "metric": "MAPE(model trained on original) / MAPE(model trained on protected), tested on original 15-28 Feb",
+      "detail": {
+        "mape_original": 0.03791343699179623,
+        "mape_protected": 0.03791343699179623
+      }
+    },
+    {
+      "id": "ENERGY-U7",
+      "table": "customers",
+      "kind": "relationship",
+      "description": "Winter consumption by late-payment group × electric heating",
+      "required": true,
+      "score": 0.9980634386247615,
+      "metric": "1 - MAPE/0.5 of daily kWh by late-payment group x electric heating",
+      "detail": {
+        "mape": 0.0009682806876192534
+      }
+    }
+  ],
+  "summary": {
+    "privacy": 0.7774,
+    "utility": 0.8351,
+    "composite": 0.8026,
+    "label": "self-assessment, not the official judging score",
+    "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+  },
+  "risk_components": {
+    "customers: direct identifiers retained": 0.0,
+    "customers: records with k<5": 0.0053,
+    "customers: linkage re-identification": 0.0,
+    "customers: free-text identifier leakage": 0.3889,
+    "meter_readings_hourly: direct identifiers retained": 0.0,
+    "meter_readings_hourly: records with k<5": 0.0,
+    "weather_hourly: direct identifiers retained": 0.0
+  }
+}

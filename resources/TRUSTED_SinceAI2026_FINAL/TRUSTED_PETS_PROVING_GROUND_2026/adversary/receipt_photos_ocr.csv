@@ -1,0 +1,1401 @@
+adv_row_id,posted_by,merchant_name,receipt_date,receipt_time,total,card_masked,card_brand,context
+RCP00001,@heidi516,Merival0 Pub,23.10.2025,20:45,"26,06 €",************7286,Visa,Myydään: kuitti mukana
+RCP00002,@miguel486,Saari Burger,01.11.2025,12:07,"8,98 €",************4952,Visa,Myydään: kuitti mukana
+RCP00003,@joni169,Ruokatori Hiidenkivi,20.10.2025,10:54,"7,65 €",XXXX XXXX XXXX 6030,Mastercard,Jaetaan lasku
+RCP00004,@marika424,Kivi Pizzeria,05.08.2025,19:32,"11,97 €",XXXX XXXX XXXX 7750,Visa,Takuukuitti talteen
+RCP00005,@tarja623,Kioski Sinikallio,17.10.2025,18:11,"4,77 €",************5927,Mastercard,Jaetaan lasku
+RCP00006,@laura836,Burger Saarni,01.11.2025,06:10,"10,56 €",************3066,Mastercard,Kulukorvaus
+RCP00007,Jenni H.,Sarastus Pikkukauppa,11.09.2025,10:08,"11,17 €",XXXX XXXX XXXX 9498,Mastercard,Takuukuitti talteen
+RCP00008,Stefan Å.,Pilvari Ruokatori,25.09.2025,12:46,"7,56 €",XXXX XXXX XXXX 7761,Visa,Kulukorvaus
+RCP00009,@tuomas716,Burger Puisto,10.11.2025,08:23,"6,42 €",************9533,Visa,Kulukorvaus
+RCP00010,@sanna806,Asema Kotiranta,08.10.2025,17:47,"186,47 €",XXXX XXXX XXXX 8849,Mastercard,Takuukuitti talteen
+RCP00011,@tomi425,Lähikauppa Selkä,15.12.2025,17:47,"13,45 €",************5999,Mastercard,
+RCP00012,@jarkko249,Rauta-Aura Ruokatori,29.09.2025,14:26,"34,94 €",************6237,Visa,Myydään: kuitti mukana
+RCP00013,@tuomas28,Kotiranta Ruokatori,12.10.2025,10:18,"12,94 €",************9860,Mastercard,
+RCP00014,@marika403,Kioski Kuohu,09.07.2025,18:05,"3,30 €",************6752,Visa,Myydään: kuitti mukana
+RCP00015,Wilma P.,Tammi Ruokasatama,01.08.2025,17:39,"31,28 €",XXXX XXXX XXXX 9038,Visa,
+RCP00016,@inka709,Lääkärikeskus Niitty,08.09.2025,07:46,"103,77 €",XXXX XXXX XXXX 4767,Visa,Jaetaan lasku
+RCP00017,Kim Ö.,Kahvila Kehrä,15.08.2025,19:53,"20,27 €",XXXX XXXX XXXX 1374,Visa,Takuukuitti talteen
+RCP00018,@mervi533,Lounari Tietokone,02.07.2025,14:47,"486,57 €",************3562,Visa,Takuukuitti talteen
+RCP00019,@topias471,Viinimy0mälä Kaisla,11.07.2025,15:08,"17,50 €",XXXX XXXX XXXX 5058,Mastercard,Jaetaan lasku
+RCP00020,@heidi335,Market Tähtiväylä,20.12.2025,19:15,"20,51 €",XXXX XXXX XXXX 1978,Mastercard,Takuukuitti talteen
+RCP00021,@juho449,Tähtiväylä Asema,05.12.2025,13:09,"30,35 €",************5584,Visa,Jaetaan lasku
+RCP00022,@johan510,Trattoria Mänty,29.12.2025,11:29,"9,71 €",************1916,Visa,
+RCP00023,@juhani165,Ravintola Kivi,15.10.2025,16:57,"16,53 €",XXXX XXXX XXXX 1776,Visa,Takuukuitti talteen
+RCP00024,@kaisa31,Burger Linna,15.09.2025,19:08,"6,47 €",************2971,Visa,Kulukorvaus
+RCP00025,@tomi501,Pikkukauppa Kirkko,26.12.2025,11:28,"7,99 €",************1072,Visa,Jaetaan lasku
+RCP00026,@olavi489,Bistro Lehto,05.08.2025,17:16,"16,31 €",************3279,Visa,Takuukuitti talteen
+RCP00027,Kalevi H.,Kanerva Olutravintola,22.12.2025,21:02,"9,99 €",************9883,Mastercard,Myydään: kuitti mukana
+RCP00028,Pasi S.,Muoti Lehvä,13.12.2025,14:38,"48,72 €",************1635,Mastercard,Kulukorvaus
+RCP00029,Juho N.,Aura Transit,23.07.2025,15:00,"3,10 €",XXXX XXXX XXXX 0899,Visa,Takuukuitti talteen
+RCP00030,@pinja978,Market Tähtiväylä,21.09.2025,13:42,"30,98 €",XXXX XXXX XXXX 7912,Mastercard,Jaetaan lasku
+RCP00031,Kirsti N.,Market Tammi,09.12.2025,10:47,"6,13 €",************9376,Mastercard,Jaetaan lasku
+RCP00032,@eveliina827,Rauta Ilmarin,10.10.2025,11:07,"29,82 €",XXXX XXXX XXXX 4334,Visa,
+RCP00033,@sami159,AT1 Kivi Turku,07.09.2025,16:15,"50,00 €",XXXX XXXX XXXX 5669,Visa,
+RCP00034,@esa984,ATM Pohjantuuli Kaarina,12.08.2025,12:50,"50,00 €",XXXX XXXX XXXX 3781,Visa,Jaetaan lasku
+RCP00035,Mika R.,Kivaro Apteekki,17.11.2025,17:58,"7,73 €",XXXX XXXX XXXX 0797,Visa,Myydään: kuitti mukana
+RCP00036,@hannu486,Tähtiväylä Ruokasatama,11.11.2025,20:16,"51,96 €",XXXX XXXX XXXX 1531,Visa,Kulukorvaus
+RCP00037,@kaija361,Kirkko Market,22.10.2025,16:30,"23,94 €",XXXX XXXX XXXX 9291,Visa,Takuukuitti talteen
+RCP00038,@lasse416,Mänty Ruokatori,21.12.2025,14:30,"16,33 €",************0609,Visa,Takuukuitti talteen
+RCP00039,@jussi633,Viinimyymälä Kallio,20.10.2025,16:21,"16,49 €",XXXX XXXX XXXX 2595,Mastercard,Myydään: kuitti mukana
+RCP00040,@rasmus393,Asema Ruokatori,26.09.2025,18:44,"21,46 €",************2746,Mastercard,Myydään: kuitti mukana
+RCP00041,Hussein I.,Aura Transit,16.12.2025,20:59,"55,00 €",************2191,Mastercard,Jaetaan lasku
+RCP00042,@riitta74,Polttoaine Jokivarsi,28.09.2025,11:10,"44,32 €",XXXX XXXX XXXX 9920,Visa,Takuukuitti talteen
+RCP00043,@henrik404,Kanerva Burger,08.08.2025,21:01,"41,62 €",XXXX XXXX XXXX 6840,Mastercard,Jaetaan lasku
+RCP00044,Irma L.,Ruokatori Lehvä,05.12.2025,18:35,"13,69 €",XXXX XXXX XXXX 0506,Mastercard,Takuukuitti talteen
+RCP00045,@pasi891,Pikkukauppa Kuohu,06.09.2025,17:49,"10,50 €",************3685,Visa,Jaetaan lasku
+RCP00046,@aleksi750,Ruoka1atama Niitty,30.10.2025,16:28,"30,34 €",************3721,Mastercard,Jaetaan lasku
+RCP00047,Mika L.,Aura Transit,06.08.2025,16:56,"3,10 €",XXXX XXXX XXXX 9600,Mastercard,Kulukorvaus
+RCP00048,@ari650,Lehvä Viinimyymälä,07.08.2025,14:25,"8,72 €",************7094,Visa,Kulukorvaus
+RCP00049,@suvi955,Market Vire,06.12.2025,20:41,"5,72 €",************4750,Visa,Jaetaan lasku
+RCP00050,Hilkka K.,Pikkukauppa Vaskivuori,13.07.2025,12:45,"2,91 €",************2619,Mastercard,Kulukorvaus
+RCP00051,@onni651,Kuohu Kirjakauppa,03.08.2025,14:34,"39,74 €",XXXX XXXX XXXX 9131,Visa,Takuukuitti talteen
+RCP00052,@siiri536,Aurinkokivi Tavaratalo,15.11.2025,19:59,"22,14 €",************9430,Visa,Jaetaan lasku
+RCP00053,@elias317,RuokasatIma Lounari,19.12.2025,20:22,"56,56 €",************6986,Mastercard,Jaetaan lasku
+RCP00054,@ari906,Selkä Kahvila,09.07.2025,12:00,"8,75 €",************0571,Visa,Kulukorvaus
+RCP00055,Leena Y.,Lemmikki As0ma,10.07.2025,15:46,"19,83 €",************6698,Mastercard,Kulukorvaus
+RCP00056,@kimmo247,Apteekki Tähkä,04.11.2025,17:21,"12,23 €",************8014,Visa,Myydään: kuitti mukana
+RCP00057,Emma M.,Kuusi Burger,21.09.2025,19:48,"6,40 €",************9231,Visa,Jaetaan lasku
+RCP00058,Jaakko B.,PolttoainI Hiidenkivi,08.07.2025,09:13,"41,76 €",************5919,Mastercard,Myydään: kuitti mukana
+RCP00059,@kalevi243,Koulu Ruokatori,31.10.2025,16:09,"17,03 €",************0438,Mastercard,Takuukuitti talteen
+RCP00060,@marko409,Ruokasatama Rusko,24.07.2025,12:18,"71,95 €",XXXX XXXX XXXX 9978,Mastercard,
+RCP00061,@rahul345,Aura Transit,12.09.2025,20:29,"3,10 €",************4554,Visa,
+RCP00062,@sami297,Market Ranta,17.12.2025,11:58,"16,41 €",************4476,Visa,Kulukorvaus
+RCP00063,@fredrik824,Kahvila Kuusi,09.10.2025,17:47,"11,81 €",XXXX XXXX XXXX 4361,Visa,Jaetaan lasku
+RCP00064,@nelli461,Vaahtera Muoti,22.12.2025,17:09,"48,26 €",XXXX XXXX XXXX 3545,Visa,Jaetaan lasku
+RCP00065,Tiina K.,Viinimyymälä Hiidenkivi,11.10.2025,11:11,"19,31 €",************2470,Visa,Myydään: kuitti mukana
+RCP00066,@matias550,Tehdas Lähikauppa,30.08.2025,14:15,"10,40 €",XXXX XXXX XXXX 8524,Visa,Jaetaan lasku
+RCP00067,@kim846,Ruokasatama Asema,10.07.2025,12:54,"73,97 €",XXXX XXXX XXXX 4944,Mastercard,Kulukorvaus
+RCP00068,Sara R.,Ruokasatama Sinikallio,07.12.2025,17:10,"45,63 €",************3007,Visa,Jaetaan lasku
+RCP00069,Niko P.,Lumme Viinimyymälä,15.08.2025,16:39,"15,38 €",************7196,Visa,Myydään: kuitti mukana
+RCP00070,@joni591,Rauta Puisto,25.10.2025,12:44,"21,07 €",************3127,Mastercard,
+RCP00071,@wilma130,Aura Transit,31.12.2025,08:20,"3,10 €",************0115,Visa,Kulukorvaus
+RCP00072,Emilia K.,Lääkärikeskus Koivu,26.08.2025,18:54,"63,71 €",************3973,Visa,Takuukuitti talteen
+RCP00073,Aki S.,ATM Tehdas Paimio,25.11.2025,12:27,"40,00 €",************0179,Visa,Kulukorvaus
+RCP00074,@paivi565,Tietokone Harmaja,27.11.2025,09:51,"30,01 €",XXXX XXXX XXXX 9844,Mastercard,
+RCP00075,Petteri K.,Lahjapuoti Vaskivuori,14.12.2025,14:58,"20,63 €",XXXX XXXX XXXX 9259,Mastercard,Myydään: kuitti mukana
+RCP00076,Stefan W.,Ruokatori Tähkä,10.11.2025,11:23,"16,63 €",************2619,Mastercard,
+RCP00077,Kirsti K.,Sushi Vaahtera,08.11.2025,20:51,"7,58 €",XXXX XXXX XXXX 9334,Visa,
+RCP00078,Suvi O.,Asema Vaahtera,08.11.2025,06:18,"28,85 €",XXXX XXXX XXXX 1364,Visa,Takuukuitti talteen
+RCP00079,@jussi239,Pelto Terveysasema Plus,17.12.2025,11:10,"55,95 €",************7046,Mastercard,Jaetaan lasku
+RCP00080,@elina59,Market Vire,18.09.2025,13:43,"7,00 €",************4587,Visa,Jaetaan lasku
+RCP00081,@tuija892,Kajo Ruokasatama,31.10.2025,18:12,"77,65 €",************2156,Mastercard,Kulukorvaus
+RCP00082,@tellervo890,ATM Ilmarin Loimaa,09.09.2025,17:08,"100,00 €",************8612,Mastercard,Myydään: kuitti mukana
+RCP00083,@ville780,Ruovo Ruokatori,29.08.2025,12:40,"59,90 €",XXXX XXXX XXXX 4764,Mastercard,Myydään: kuitti mukana
+RCP00084,Minna J.,Asema BaaIi,20.07.2025,18:41,"12,01 €",************8645,Visa,Kulukorvaus
+RCP00085,@helena207,Burger Linna,18.10.2025,10:11,"10,03 €",************5266,Visa,Myydään: kuitti mukana
+RCP00086,Mikko L.,ATM Aallon Lieto,08.12.2025,16:26,"60,00 €",************8508,Mastercard,Myydään: kuitti mukana
+RCP00087,@sami700,Kallio Sushi,13.08.2025,13:46,"7,93 €",************9817,Mastercard,Jaetaan lasku
+RCP00088,Kadri S.,Klislan Ruokasatama,01.12.2025,18:33,"14,28 €",************6835,Visa,Myydään: kuitti mukana
+RCP00089,Teemu K.,Asema Jokivarsi,26.09.2025,08:49,"20,33 €",************7783,Mastercard,Myydään: kuitti mukana
+RCP00090,@tuomas766,Ruokasatama Niitty,16.12.2025,14:08,"32,69 €",************6019,Visa,Kulukorvaus
+RCP00091,@arttu420,Ruokatori Hiidenkivi,30.11.2025,15:59,"81,87 €",XXXX XXXX XXXX 9962,Visa,Myydään: kuitti mukana
+RCP00092,@niko225,Liikuntakeskus Ruovo,23.08.2025,12:45,"40,35 €",XXXX XXXX XXXX 3229,Mastercard,Myydään: kuitti mukana
+RCP00093,@anna514,Kajo Viinimyymälä,22.11.2025,07:48,"24,76 €",XXXX XXXX XXXX 5199,Mastercard,Jaetaan lasku
+RCP00094,@britt558,Lumme Burger,27.08.2025,13:05,"15,18 €",************8684,Visa,Jaetaan lasku
+RCP00095,@inka775,Kivaro Kioski,21.07.2025,07:57,"3,33 €",XXXX XXXX XXXX 4196,Mastercard,
+RCP00096,Nelli M.,Kaislan Market,01.09.2025,17:45,"21,98 €",************9140,Mastercard,
+RCP00097,@heli975,Pizzeria Aallon,29.10.2025,08:13,"9,84 €",************6634,Mastercard,Kulukorvaus
+RCP00098,@minh499,Mänty Lemmikki,31.12.2025,08:05,"16,00 €",XXXX XXXX XXXX 7499,Visa,Kulukorvaus
+RCP00099,Lasse J.,Ilmarin Bistro,15.10.2025,08:18,"25,61 €",************6962,Mastercard,
+RCP00100,@sanna307,Lehto Ruokatori,27.08.2025,18:01,"18,55 €",************8871,Visa,Jaetaan lasku
+RCP00101,@julia358,Mylly Apteekki,03.12.2025,18:32,"5,86 €",************8251,Mastercard,Jaetaan lasku
+RCP00102,Piia P.,Kahvila Lumme,11.11.2025,20:48,"19,38 €",XXXX XXXX XXXX 0512,Mastercard,Kulukorvaus
+RCP00103,Marika S.,Ruokatori Puisto,05.11.2025,19:00,"57,87 €",XXXX XXXX XXXX 1336,Visa,Kulukorvaus
+RCP00104,Lei L.,Apteekki Kivaro,17.07.2025,17:56,"7,50 €",************5002,Mastercard,Takuukuitti talteen
+RCP00105,Janne K.,Metsä Lähikauppa,29.07.2025,12:19,"4,17 €",************1142,Visa,Kulukorvaus
+RCP00106,@merja701,Viinimyymälä Tähtiväylä,01.08.2025,18:52,"15,10 €",XXXX XXXX XXXX 7190,Mastercard,Kulukorvaus
+RCP00107,@aki538,Asema Baari,07.10.2025,20:08,"13,07 €",************5684,Visa,
+RCP00108,@eveliina665,Ruokatori Rusko,18.10.2025,17:53,"43,17 €",************0772,Visa,Myydään: kuitti mukana
+RCP00109,@sara513,Pelto Terveysasema Plus,28.10.2025,10:19,"89,22 €",XXXX XXXX XXXX 5591,Visa,Takuukuitti talteen
+RCP00110,Miro L.,Tavaratalo IlmIrin,01.07.2025,19:22,"85,22 €",************3324,Mastercard,Myydään: kuitti mukana
+RCP00111,@niko468,Kahvila Pohjlntuuli,28.09.2025,07:11,"7,95 €",************3229,Mastercard,
+RCP00112,Elina T.,Bistro1Lumme,15.09.2025,19:33,"17,87 €",************5488,Visa,
+RCP00113,Iida R.,Bistro Kivaro,20.10.2025,14:44,"10,89 €",XXXX XXXX XXXX 2312,Mastercard,Myydään: kuitti mukana
+RCP00114,@anne789,Haka Taksi,04.09.2025,23:26,"30,61 €",XXXX XXXX XXXX 4440,Visa,
+RCP00115,@riitta499,Kaisla Burger,04.10.2025,12:56,"13,90 €",XXXX XXXX XXXX 5251,Mastercard,Takuukuitti talteen
+RCP00116,@henri489,Ruokasatama Sarastus,25.08.2025,10:08,"4,30 €",XXXX XXXX XXXX 3054,Visa,
+RCP00117,Piia S.,Satama Ruokatori,14.12.2025,12:20,"16,06 €",XXXX XXXX XXXX 6259,Mastercard,Myydään: kuitti mukana
+RCP00118,@tauno860,Lehvä Olutravintola,01.11.2025,17:33,"19,37 €",************5612,Mastercard,
+RCP00119,Piia K.,Lähikauppa Kuusi,26.07.2025,17:15,"10,50 €",************7102,Mastercard,
+RCP00120,@mika529,Ruovo Kioski,18.07.2025,09:07,"3,57 €",XXXX XXXX XXXX 0705,Mastercard,
+RCP00121,Eetu M.,Kahvila Kehrä,18.09.2025,11:36,"18,82 €",XXXX XXXX XXXX 9770,Visa,Myydään: kuitti mukana
+RCP00122,@katja381,Pikkukauppa Ruovo,08.07.2025,14:20,"13,37 €",************1309,Mastercard,
+RCP00123,@vesa427,Muoti Pelto,30.09.2025,13:01,"79,57 €",************4465,Visa,Jaetaan lasku
+RCP00124,Anneli V.,Rautaka0ppa Vire,27.12.2025,19:09,"50,12 €",************1293,Visa,Takuukuitti talteen
+RCP00125,@svetlana672,Lumme Ruokatori,07.07.2025,15:39,"34,57 €",************9821,Mastercard,Myydään: kuitti mukana
+RCP00126,@mari341,Rusko Kahvila,09.11.2025,15:12,"8,38 €",************5902,Visa,Kulukorvaus
+RCP00127,@sami414,Pikkukauppa Ruovo,25.08.2025,10:47,"3,22 €",************6963,Mastercard,Takuukuitti talteen
+RCP00128,@shreya981,Lähikauppa Varpu,31.12.2025,15:25,"11,64 €",************0898,Mastercard,Kulukorvaus
+RCP00129,Annika H.,Ruokasatama Lumora,12.08.2025,16:41,"8,00 €",************2147,Mastercard,
+RCP00130,@tiina33,Puisto Ruokasatama,13.07.2025,10:16,"43,57 €",XXXX XXXX XXXX 6155,Mastercard,Jaetaan lasku
+RCP00131,Riikka L.,Market Koivu,17.08.2025,12:52,"67,00 €",XXXX XXXX XXXX 3705,Visa,Takuukuitti talteen
+RCP00132,@seppo762,Aallon Market,13.12.2025,09:39,"29,62 €",************8749,Mastercard,Kulukorvaus
+RCP00133,@henrik382,Kuntosali Kuusi,08.11.2025,17:13,"29,00 €",************3683,Mastercard,Jaetaan lasku
+RCP00134,@satu926,Lehvä Olutravintola,24.08.2025,21:22,"13,87 €",XXXX XXXX XXXX 5397,Visa,Kulukorvaus
+RCP00135,@wei15,Lehvä Olutravintola,15.08.2025,20:39,"42,03 €",XXXX XXXX XXXX 4448,Mastercard,Kulukorvaus
+RCP00136,Kaisa K.,Kajo Apteekki,21.10.2025,09:00,"67,27 €",************7945,Mastercard,
+RCP00137,Minna K.,Kioski Tammi,02.10.2025,20:57,"12,45 €",XXXX XXXX XXXX 7564,Visa,Jaetaan lasku
+RCP00138,Margus I.,Lahjapuoti Sarastus,26.10.2025,19:39,"29,90 €",************8959,Mastercard,Myydään: kuitti mukana
+RCP00139,@irina566,Apteekki Lehvä,03.11.2025,18:04,"6,48 €",XXXX XXXX XXXX 1300,Mastercard,Myydään: kuitti mukana
+RCP00140,Oleksandr K.,Ruokatori Tammi,15.10.2025,19:55,"37,09 €",************2819,Mastercard,Myydään: kuitti mukana
+RCP00141,@vesa719,Koulu Market,03.07.2025,19:30,"16,60 €",XXXX XXXX XXXX 4465,Visa,Kulukorvaus
+RCP00142,@henna893,Tuohi Viinimyymälä,10.11.2025,16:11,"24,40 €",************3918,Visa,Takuukuitti talteen
+RCP00143,@laura693,Lähikauppa Varpu,12.12.2025,09:53,"71,35 €",XXXX XXXX XXXX 1504,Mastercard,Jaetaan lasku
+RCP00144,@tuula119,Kaislan Ruokasatama,15.12.2025,15:01,"28,78 €",XXXX XXXX XXXX 8457,Visa,
+RCP00145,@leena467,Lääkärikeskus Niitty,09.07.2025,17:44,"315,59 €",XXXX XXXX XXXX 4990,Mastercard,Takuukuitti talteen
+RCP00146,@pekka799,Rautakauppa Koivu,25.10.2025,11:09,"86,45 €",XXXX XXXX XXXX 1455,Mastercard,Jaetaan lasku
+RCP00147,@annikki674,Pohjantuuli Ruokasatama,31.12.2025,10:26,"42,62 €",************1469,Visa,Myydään: kuitti mukana
+RCP00148,@veera854,Lääkärikeskus Koivu,12.08.2025,10:32,"101,85 €",************2419,Mastercard,
+RCP00149,@farah983,Elektroniikka Lumora,10.09.2025,15:09,"53,40 €",************9215,Mastercard,Kulukorvaus
+RCP00150,Santeri K.,Market Kaisla,01.09.2025,12:33,"8,64 €",************6486,Mastercard,Takuukuitti talteen
+RCP00151,@harri241,Pilvari Lähikauppa,23.12.2025,11:01,"50,03 €",************6955,Visa,Myydään: kuitti mukana
+RCP00152,Eveliina T.,Tavaratalo Haka,30.11.2025,12:42,"11,33 €",************7326,Visa,
+RCP00153,@minna816,Viinimyymälä Ilmarin,20.09.2025,14:52,"21,67 €",************1869,Visa,Jaetaan lasku
+RCP00154,Elias H.,Baari Merivalo,21.11.2025,22:24,"20,20 €",XXXX XXXX XXXX 0332,Visa,Jaetaan lasku
+RCP00155,Harri H.,Ruokatori Satama,21.10.2025,20:34,"7,76 €",************8972,Mastercard,Jaetaan lasku
+RCP00156,@julia50,Kahvila Lumme,30.12.2025,14:12,"8,11 €",************9075,Visa,
+RCP00157,Niko K.,Pikkukauppa Koulu,01.10.2025,09:57,"3,72 €",************3526,Visa,Jaetaan lasku
+RCP00158,@noora600,Pizzeria Aallon,28.09.2025,17:05,"19,30 €",XXXX XXXX XXXX 0013,Mastercard,Kulukorvaus
+RCP00159,@juho15,Utu Ruokatori,22.12.2025,16:45,"12,73 €",************9867,Visa,Kulukorvaus
+RCP00160,@leena191,Ruokatori Pelto,04.08.2025,15:42,"28,16 €",XXXX XXXX XXXX 1383,Visa,Takuukuitti talteen
+RCP00161,Teemu R.,Lähikauppa Kuohu,22.12.2025,17:11,"2,99 €",************0765,Visa,Jaetaan lasku
+RCP00162,Hanna K.,Lahjapuoti Sarastus,19.10.2025,11:53,"4,03 €",************4669,Mastercard,Myydään: kuitti mukana
+RCP00163,@tero282,Tavaratalo Hiidenkivi,08.10.2025,16:18,"56,34 €",XXXX XXXX XXXX 4728,Mastercard,Kulukorvaus
+RCP00164,@ella830,Mylly Market,11.10.2025,17:14,"7,07 €",XXXX XXXX XXXX 3759,Visa,Kulukorvaus
+RCP00165,Raili N.,Haka Ruokatori,22.12.2025,12:45,"22,24 €",XXXX XXXX XXXX 5007,Visa,Jaetaan lasku
+RCP00166,Jari O.,Pihlaja Ravintola,25.11.2025,16:06,"85,30 €",XXXX XXXX XXXX 3269,Mastercard,Jaetaan lasku
+RCP00167,@kati822,Autokorjaamo Mylly,01.12.2025,12:59,"114,19 €",XXXX XXXX XXXX 5810,Visa,
+RCP00168,@miro191,Lähikauppa Mylly,30.11.2025,17:54,"2,96 €",************8714,Mastercard,Kulukorvaus
+RCP00169,Rasmus S.,Kuusi Lahjapuoti,31.08.2025,18:39,"6,71 €",************4271,Mastercard,Myydään: kuitti mukana
+RCP00170,@joonas893,Elokuvateatteri Vire,13.11.2025,22:46,"10,59 €",XXXX XXXX XXXX 7664,Mastercard,Jaetaan lasku
+RCP00171,@marika244,Kajo Sisustus,23.08.2025,14:41,"2,58 €",************1061,Mastercard,Kulukorvaus
+RCP00172,Jarmo K.,Ruokatori Kuusi,28.09.2025,16:08,"123,58 €",************4261,Visa,Kulukorvaus
+RCP00173,@tiina761,Market Sarastus,07.12.2025,13:15,"79,25 €",************8269,Visa,Jaetaan lasku
+RCP00174,@margus464,Kotiranta Kioski,21.11.2025,12:08,"2,91 €",************1983,Visa,Myydään: kuitti mukana
+RCP00175,Veera M.,Kahvila Haka,01.07.2025,13:42,"4,98 €",XXXX XXXX XXXX 6700,Visa,Takuukuitti talteen
+RCP00176,Jing L.,Ruokatori Kauppa,15.12.2025,19:21,"42,49 €",************6104,Mastercard,Takuukuitti talteen
+RCP00177,@mikko868,Lehvä Tavaratalo,11.12.2025,14:26,"76,57 €",************3186,Mastercard,Myydään: kuitti mukana
+RCP00178,@heidi426,Koivu Sisustus,28.10.2025,21:33,"4,94 €",XXXX XXXX XXXX 1460,Mastercard,Jaetaan lasku
+RCP00179,@kaisa137,Vaate Tehdas,17.10.2025,18:16,"12,61 €",************1445,Visa,
+RCP00180,@hannele939,StayFinder Global,29.11.2025,12:42,"279,67 €",XXXX XXXX XXXX 0659,Mastercard,Kulukorvaus
+RCP00181,@aulis968,Aura Transit,22.11.2025,15:11,"55,00 €",************3139,Mastercard,Takuukuitti talteen
+RCP00182,@tero917,Kaislan Market,30.07.2025,15:45,"30,24 €",************8095,Visa,
+RCP00183,@eveliina965,Market Sinikallio,11.11.2025,12:09,"7,63 €",************6543,Mastercard,Takuukuitti talteen
+RCP00184,@kalevi249,Sisustus Tuohi,22.11.2025,16:57,"38,17 €",************1623,Visa,
+RCP00185,@wilma413,Market Koulu,16.12.2025,12:56,"25,05 €",XXXX XXXX XXXX 8166,Visa,Jaetaan lasku
+RCP00186,Reza R.,Pub Rauha,05.08.2025,18:51,"36,97 €",XXXX XXXX XXXX 6972,Mastercard,Takuukuitti talteen
+RCP00187,Aleksi H.,Aura Transit,30.07.2025,14:19,"2,00 €",XXXX XXXX XXXX 8030,Mastercard,Jaetaan lasku
+RCP00188,@matias227,Supermarket Las Palmas Old Town,25.07.2025,16:56,"16,94 €",XXXX XXXX XXXX 4812,Mastercard,Takuukuitti talteen
+RCP00189,Vesa H.,Lääkärikeskus Koivu,13.09.2025,11:59,"89,88 €",************6901,Mastercard,Takuukuitti talteen
+RCP00190,Keijo S.,Aura Transit,18.08.2025,13:03,"3,10 €",************6241,Visa,Kulukorvaus
+RCP00191,@henna754,Rauta Kajo,13.12.2025,18:00,"8,11 €",************7245,Visa,Takuukuitti talteen
+RCP00192,@mervi796,Lääkärikeskus Kauppa,26.09.2025,13:16,"66,47 €",XXXX XXXX XXXX 6304,Mastercard,
+RCP00193,@veera780,Ranta Ruokatori,23.11.2025,15:52,"17,34 €",************1808,Mastercard,Kulukorvaus
+RCP00194,Jenni S.,Kuusi Viinimyymälä,13.12.2025,20:18,"12,79 €",************0773,Mastercard,Myydään: kuitti mukana
+RCP00195,@seppo815,Polttoaine Tuohi,03.10.2025,08:12,"88,62 €",XXXX XXXX XXXX 0122,Visa,Jaetaan lasku
+RCP00196,@wilma111,Market Kuohu,13.08.2025,22:34,"68,83 €",XXXX XXXX XXXX 1616,Visa,
+RCP00197,@katja385,Ruokator0 Kallio,21.12.2025,20:35,"32,94 €",XXXX XXXX XXXX 1309,Mastercard,Myydään: kuitti mukana
+RCP00198,Matilda S.,Kirkko Ravintola,31.12.2025,16:57,"33,86 €",************4832,Visa,Takuukuitti talteen
+RCP00199,Paula P.,Lähikauppa Ranta,21.12.2025,12:53,"34,77 €",XXXX XXXX XXXX 3699,Mastercard,Myydään: kuitti mukana
+RCP00200,@maarit880,Kuntosali Kajo,04.08.2025,17:56,"45,30 €",XXXX XXXX XXXX 9721,Visa,
+RCP00201,Juha R.,Pikkukauppa Kuusi,18.12.2025,15:57,"17,52 €",************1391,Mastercard,Takuukuitti talteen
+RCP00202,@eveliina353,Pizzeria Pilvari,18.10.2025,17:52,"9,35 €",************1017,Mastercard,
+RCP00203,@esa221,ATM Haka Uusikaupunki,15.12.2025,12:14,"60,00 €",************0717,Mastercard,Kulukorvaus
+RCP00204,@anu914,Aurinkokivi Tavaratalo,06.09.2025,17:36,"115,43 €",************3828,Mastercard,Takuukuitti talteen
+RCP00205,Tarja K.,Ruokat1ri Selkä,20.12.2025,12:17,"10,30 €",XXXX XXXX XXXX 0324,Visa,Myydään: kuitti mukana
+RCP00206,Hannu S.,Trattoria Vire,23.07.2025,16:32,"50,54 €",************1531,Visa,Myydään: kuitti mukana
+RCP00207,Emilia M.,Lähikauppa Merivalo,07.09.2025,15:14,"14,07 €",XXXX XXXX XXXX 7602,Mastercard,Kulukorvaus
+RCP00208,@hugo109,Market Kotiranta,03.08.2025,11:30,"173,34 €",************9142,Mastercard,Myydään: kuitti mukana
+RCP00209,Rolf B.,Lumora Lähikauppa,29.08.2025,10:12,"25,23 €",************0079,Visa,Myydään: kuitti mukana
+RCP00210,@emilia570,RuokasatamI Kumpu,06.12.2025,16:14,"39,59 €",************7602,Mastercard,Kulukorvaus
+RCP00211,@esa920,Sinikallio Ruokalori,15.12.2025,17:59,"23,73 €",************7686,Visa,Kulukorvaus
+RCP00212,@svetlana148,Ka1ppa Market,20.07.2025,16:22,"18,41 €",************7924,Visa,
+RCP00213,@anu47,Apteekki Kivi,15.08.2025,17:52,"57,96 €",XXXX XXXX XXXX 3391,Visa,Jaetaan lasku
+RCP00214,Jaana L.,Rautakauppa Pihlaja,21.09.2025,14:57,"37,85 €",XXXX XXXX XXXX 1233,Mastercard,Kulukorvaus
+RCP00215,Ville L.,Ruokasatama Tammi,16.09.2025,08:44,"4,19 €",XXXX XXXX XXXX 8795,Visa,Jaetaan lasku
+RCP00216,@margus337,Kajo Apteekki,16.07.2025,19:57,"27,42 €",XXXX XXXX XXXX 8959,Mastercard,
+RCP00217,@andrii319,MuotiISinikallio,28.11.2025,15:46,"69,68 €",************7377,Mastercard,Kulukorvaus
+RCP00218,@anders643,Apteekki Tuohi,28.07.2025,15:02,"19,84 €",XXXX XXXX XXXX 5246,Mastercard,Myydään: kuitti mukana
+RCP00219,@leena689,Pub Rauha,27.08.2025,00:24,"6,61 €",************1451,Mastercard,Jaetaan lasku
+RCP00220,@ronja482,Ruokatori Sarastus,27.10.2025,10:40,"11,33 €",************8939,Visa,Kulukorvaus
+RCP00221,Toni S.,ATM Rauha Turku,18.08.2025,13:39,"40,00 €",************0697,Visa,Takuukuitti talteen
+RCP00222,@ronja943,Tervala Pub,09.12.2025,00:55,"52,72 €",************3693,Visa,
+RCP00223,@anna191,Lähikauppa Pilva1i,24.07.2025,18:55,"73,08 €",************6346,Visa,Kulukorvaus
+RCP00224,@satu169,Aurinkokivi Viinimyymälä,03.11.2025,15:40,"21,36 €",XXXX XXXX XXXX 2513,Visa,
+RCP00225,@lauri446,Tähtiväylä Ruokasatama,16.12.2025,09:20,"160,59 €",************5912,Visa,Jaetaan lasku
+RCP00226,Göran J.,Kioski Varpu,04.11.2025,14:17,"6,60 €",************1615,Visa,
+RCP00227,Eero K.,Lumora Pizzeria,25.09.2025,12:55,"8,75 €",************7517,Visa,
+RCP00228,@axel336,Market Rauta-Aura,14.11.2025,06:01,"60,93 €",************9369,Visa,Takuukuitti talteen
+RCP00229,@pirkko87,Rauha Burger,07.11.2025,21:01,"11,08 €",XXXX XXXX XXXX 1695,Mastercard,Jaetaan lasku
+RCP00230,@pinja466,Harmaja Kirj1kauppa,24.10.2025,16:05,"26,60 €",************1920,Mastercard,Takuukuitti talteen
+RCP00231,@liisa64,Kumpu Ruokatori,04.07.2025,10:43,"12,78 €",XXXX XXXX XXXX 9020,Visa,Kulukorvaus
+RCP00232,@sami711,Tavaratalo Hiidenkivi,10.07.2025,10:18,"228,72 €",************3571,Visa,
+RCP00233,@helena748,Pikkukauppa Varpu,12.07.2025,11:12,"5,39 €",************9585,Visa,Kulukorvaus
+RCP00234,Milla H.,Selkä Muoti,24.07.2025,16:22,"38,73 €",************0683,Mastercard,
+RCP00235,@sahra106,Mylly Apteekki,16.09.2025,19:59,"60,08 €",************3652,Mastercard,Jaetaan lasku
+RCP00236,Inka K.,Kirkko Kioski,13.07.2025,17:07,"9,74 €",************8832,Visa,Kulukorvaus
+RCP00237,@maija830,Olutravintola Harmaja,01.11.2025,21:05,"35,33 €",************3051,Mastercard,Myydään: kuitti mukana
+RCP00238,Eero K.,Ruokasatama Kumpu,06.12.2025,13:41,"43,70 €",XXXX XXXX XXXX 9214,Mastercard,Kulukorvaus
+RCP00239,Anu L.,Ruokatori Hiidenkivi,06.08.2025,13:10,"41,20 €",XXXX XXXX XXXX 8154,Visa,Takuukuitti talteen
+RCP00240,@roope226,Harju Burger,25.08.2025,13:52,"11,53 €",XXXX XXXX XXXX 7354,Mastercard,Kulukorvaus
+RCP00241,@kaija153,Tervala Pub,22.11.2025,22:40,"30,81 €",XXXX XXXX XXXX 3499,Mastercard,Kulukorvaus
+RCP00242,@eemeli398,Hammasklinikka Pelto,27.07.2025,19:55,"127,76 €",************3465,Mastercard,Jaetaan lasku
+RCP00243,@ali260,Ruokatori Puisto,13.12.2025,14:21,"147,48 €",XXXX XXXX XXXX 7095,Visa,Takuukuitti talteen
+RCP00244,@wilma150,Apteekki Kehrä,15.09.2025,18:57,"45,44 €",************9295,Mastercard,Jaetaan lasku
+RCP00245,Eemeli L.,Ruovo Ruokatoli,21.10.2025,09:41,"40,45 €",************6227,Mastercard,
+RCP00246,@niina951,Asema Baari,04.12.2025,20:24,"4,22 €",XXXX XXXX XXXX 4590,Mastercard,Kulukorvaus
+RCP00247,@fanni539,Ruokasatama Pohjantuuli,15.09.2025,20:10,"25,27 €",************1199,Visa,Jaetaan lasku
+RCP00248,@jere439,Pizzeria Tähtiväylä,14.09.2025,12:17,"7,57 €",XXXX XXXX XXXX 1273,Mastercard,Jaetaan lasku
+RCP00249,@mari200,Ruokatori Harmaja,17.08.2025,20:47,"30,44 €",XXXX XXXX XXXX 9001,Mastercard,Myydään: kuitti mukana
+RCP00250,@venla720,Ruokasatama Niitty,12.08.2025,13:05,"35,98 €",************2420,Visa,
+RCP00251,Fanni K.,Viinimyymälä Kaisla,16.12.2025,16:42,"4,00 €",XXXX XXXX XXXX 3564,Visa,Myydään: kuitti mukana
+RCP00252,Harri S.,Mylly Apteekki,01.07.2025,20:20,"46,56 €",XXXX XXXX XXXX 2491,Mastercard,Myydään: kuitti mukana
+RCP00253,Ari O.,Market Harju,25.07.2025,10:50,"3,65 €",XXXX XXXX XXXX 9941,Mastercard,Myydään: kuitti mukana
+RCP00254,@elsa451,Tavaratalo Merivalo,07.12.2025,12:15,"22,37 €",************6513,Visa,
+RCP00255,@joni437,Lähikauppa Selkä,23.12.2025,08:20,"11,93 €",************9662,Visa,Takuukuitti talteen
+RCP00256,@ilkka670,Pizzeria Aallon,22.10.2025,15:41,"21,69 €",XXXX XXXX XXXX 2426,Visa,Myydään: kuitti mukana
+RCP00257,@tiina414,Tuohi Ruokatori,16.11.2025,18:14,"11,77 €",XXXX XXXX XXXX 1177,Visa,Jaetaan lasku
+RCP00258,@kati559,Pihlaja Bistro,07.09.2025,17:12,"92,36 €",************8712,Visa,
+RCP00259,@hassan437,Burger Asema,04.10.2025,13:35,"8,82 €",************3623,Mastercard,
+RCP00260,@joonas976,Ruokasatama Lumora,13.11.2025,11:59,"28,39 €",XXXX XXXX XXXX 1845,Mastercard,Myydään: kuitti mukana
+RCP00261,Teemu K.,Lumora Asema,30.09.2025,08:29,"36,66 €",************9118,Mastercard,Myydään: kuitti mukana
+RCP00262,@minna506,Ruokatori Selkä,19.08.2025,17:39,"34,37 €",************3162,Visa,Takuukuitti talteen
+RCP00263,@hassan783,Rautakauppa Aallon,15.08.2025,07:45,"57,32 €",************3896,Visa,Takuukuitti talteen
+RCP00264,Unto J.,Bistro Ranta,16.11.2025,19:36,"76,86 €",XXXX XXXX XXXX 5055,Mastercard,Jaetaan lasku
+RCP00265,@janne39,Kioski1Saari,26.08.2025,20:53,"8,02 €",XXXX XXXX XXXX 5411,Visa,Takuukuitti talteen
+RCP00266,@leena495,Mylly Market,29.10.2025,09:14,"22,73 €",XXXX XXXX XXXX 6698,Mastercard,Jaetaan lasku
+RCP00267,Iida L.,Market Aallon,02.08.2025,14:47,"29,46 €",************4108,Mastercard,Myydään: kuitti mukana
+RCP00268,Antero S.,BuIger Rusko,29.11.2025,12:04,"11,69 €",XXXX XXXX XXXX 7191,Visa,Takuukuitti talteen
+RCP00269,@fredrik931,Pikkukauppa Niitty,12.07.2025,14:50,"5,31 €",XXXX XXXX XXXX 9783,Visa,Myydään: kuitti mukana
+RCP00270,@tiina291,Asema Kaisla,05.12.2025,12:41,"48,04 €",XXXX XXXX XXXX 4080,Visa,
+RCP00271,Mika K.,Kaislan Bistro,24.12.2025,19:26,"65,69 €",************1724,Mastercard,Kulukorvaus
+RCP00272,Fanni S.,ATM Tähtiväylä Turku,05.12.2025,14:40,"60,00 €",************3792,Mastercard,
+RCP00273,Jani H.,Kaislan Rautakauppa,04.09.2025,19:48,"129,16 €",************0639,Mastercard,Kulukorvaus
+RCP00274,@johanna935,Rauta-Aura Elokuvateatteri,26.07.2025,00:01,"17,11 €",XXXX XXXX XXXX 5871,Mastercard,Jaetaan lasku
+RCP00275,@juha38,Ruokatori Sarastus,22.10.2025,18:01,"22,82 €",XXXX XXXX XXXX 7071,Visa,Myydään: kuitti mukana
+RCP00276,Kalle L.,Merivalo Pub,21.09.2025,20:53,"31,54 €",XXXX XXXX XXXX 6968,Mastercard,Myydään: kuitti mukana
+RCP00277,@henna531,Kioski Selkä,25.09.2025,14:30,"2,31 €",************7245,Visa,Jaetaan lasku
+RCP00278,@mika17,Pelto Vaate,23.12.2025,20:12,"63,06 €",XXXX XXXX XXXX 6913,Mastercard,Takuukuitti talteen
+RCP00279,@pentti465,Rauta Lounari,17.08.2025,19:14,"61,72 €",XXXX XXXX XXXX 6496,Visa,Takuukuitti talteen
+RCP00280,@veeti504,Kaislan Ruokatori,18.12.2025,07:10,"6,70 €",XXXX XXXX XXXX 7372,Visa,Takuukuitti talteen
+RCP00281,Roosa Y.,ATM Tähtiväylä Turku,10.10.2025,10:08,"80,00 €",************0955,Mastercard,Kulukorvaus
+RCP00282,@rahul493,Kioski Tammi,01.07.2025,10:16,"3,29 €",XXXX XXXX XXXX 3480,Mastercard,Kulukorvaus
+RCP00283,@petri573,ATM Selkä Nousiainen,18.10.2025,07:22,"50,00 €",XXXX XXXX XXXX 9859,Visa,
+RCP00284,@oskari568,Lahjapuoti Tehdas,08.09.2025,15:09,"27,84 €",************4114,Mastercard,Takuukuitti talteen
+RCP00285,Matilda F.,Kanerva Klntosali,12.10.2025,13:44,"47,42 €",************5860,Visa,Jaetaan lasku
+RCP00286,@sara235,Aura Transit,18.11.2025,14:40,"3,10 €",************0352,Visa,
+RCP00287,@niko574,Asema Lähikauppa,17.10.2025,09:59,"47,22 €",************5708,Mastercard,Takuukuitti talteen
+RCP00288,@riku472,Market Hiidenkivi,15.08.2025,15:40,"99,45 €",************9060,Visa,Kulukorvaus
+RCP00289,@jarkko483,Ruokasatama Kajo,08.11.2025,14:39,"65,91 €",XXXX XXXX XXXX 0198,Visa,
+RCP00290,@heidi250,Hiidenkivi Elokuvateatteri,28.09.2025,23:41,"12,75 €",XXXX XXXX XXXX 6667,Mastercard,
+RCP00291,@aune949,Merivalo Sushi,08.11.2025,17:18,"18,74 €",************8222,Visa,Jaetaan lasku
+RCP00292,@onni212,Rauta-Aura Elokuvateatteri,13.10.2025,22:28,"16,50 €",XXXX XXXX XXXX 7444,Mastercard,Takuukuitti talteen
+RCP00293,@britt860,Market Kumpu,17.08.2025,19:40,"72,69 €",XXXX XXXX XXXX 5993,Visa,Jaetaan lasku
+RCP00294,@johan25,Kioski Tähtiväylä,29.07.2025,19:02,"13,89 €",************1088,Mastercard,Kulukorvaus
+RCP00295,Miro L.,Aura Transit,11.11.2025,20:38,"3,10 €",XXXX XXXX XXXX 6142,Visa,Takuukuitti talteen
+RCP00296,@siiri379,Market Koulu,30.10.2025,15:48,"4,93 €",************2716,Mastercard,Jaetaan lasku
+RCP00297,Arttu A.,Tammi Market,08.12.2025,14:58,"25,54 €",XXXX XXXX XXXX 9019,Mastercard,Jaetaan lasku
+RCP00298,@jesse407,Kahvila Kehrä,02.07.2025,17:11,"9,57 €",************0165,Visa,Kulukorvaus
+RCP00299,@jenni591,Kotiranta Sushi,19.12.2025,14:10,"4,51 €",XXXX XXXX XXXX 0605,Visa,Kulukorvaus
+RCP00300,@sirkka534,Elektroniikka Koivu,12.12.2025,16:55,"99,28 €",************5779,Visa,
+RCP00301,@henna197,Mänty Pikkukauppa,14.08.2025,19:58,"4,13 €",************0732,Mastercard,Jaetaan lasku
+RCP00302,@unto48,Kauppa Market,25.08.2025,17:15,"16,32 €",************4585,Visa,Kulukorvaus
+RCP00303,Hannu Y.,Lähikauppa Lehto,22.10.2025,21:24,"22,68 €",XXXX XXXX XXXX 8031,Visa,Jaetaan lasku
+RCP00304,@hilkka638,Lähikauppa Kuo1u,24.08.2025,16:36,"20,43 €",XXXX XXXX XXXX 6632,Mastercard,
+RCP00305,@stella135,Ruokatori Saari,02.08.2025,17:13,"59,04 €",XXXX XXXX XXXX 5506,Mastercard,Myydään: kuitti mukana
+RCP00306,@inka283,Ruokatori Pelto,23.12.2025,17:09,"15,96 €",************7141,Visa,Jaetaan lasku
+RCP00307,@mari872,Haka Burger,07.09.2025,13:11,"11,01 €",************7671,Mastercard,
+RCP00308,Markku M.,Ruokatori Tammi,18.11.2025,19:44,"16,03 €",************2326,Mastercard,Jaetaan lasku
+RCP00309,@rasmus978,Lähikauppa Ruovo,28.08.2025,11:38,"127,05 €",************3881,Mastercard,Kulukorvaus
+RCP00310,@elias328,Ruokatori Kanerva,06.08.2025,15:52,"6,34 €",************0349,Mastercard,Takuukuitti talteen
+RCP00311,Hanna L.,Market Kauppa,07.12.2025,10:59,"12,87 €",XXXX XXXX XXXX 3446,Mastercard,Myydään: kuitti mukana
+RCP00312,@noora399,Mänty Lahjaploti,08.12.2025,14:18,"37,45 €",************4456,Mastercard,
+RCP00313,Antti S.,Apteekki Tähkä,25.10.2025,13:19,"14,70 €",************4338,Visa,Myydään: kuitti mukana
+RCP00314,@heidi529,Market Harju,05.07.2025,17:33,"11,15 €",XXXX XXXX XXXX 2087,Visa,
+RCP00315,@joel777,Sisustus Saari,18.09.2025,17:05,"15,79 €",************2487,Visa,Jaetaan lasku
+RCP00316,Antero L.,Lähikauppa Rusko,11.08.2025,19:04,"9,17 €",XXXX XXXX XXXX 5042,Visa,Takuukuitti talteen
+RCP00317,Maria S.,Kirkko Kioski,02.09.2025,12:40,"3,17 €",XXXX XXXX XXXX 4523,Visa,Myydään: kuitti mukana
+RCP00318,@hanna127,Kioski Varpu,02.12.2025,12:48,"13,42 €",************8354,Mastercard,Myydään: kuitti mukana
+RCP00319,@marko384,Tavaratalo Kauppa,29.11.2025,11:16,"75,33 €",XXXX XXXX XXXX 0722,Mastercard,Takuukuitti talteen
+RCP00320,@marko904,Pihlaja Lähikauppa,05.08.2025,11:16,"2,38 €",************5529,Visa,Jaetaan lasku
+RCP00321,@maija481,Kaislan Market,23.11.2025,14:29,"20,04 €",XXXX XXXX XXXX 7986,Mastercard,
+RCP00322,@helena923,ATM Kanerva Salo,16.09.2025,11:44,"40,00 €",XXXX XXXX XXXX 8698,Mastercard,Kulukorvaus
+RCP00323,@niko515,Market Niitty,18.10.2025,12:55,"181,71 €",XXXX XXXX XXXX 0205,Mastercard,Myydään: kuitti mukana
+RCP00324,@miro843,Pilvari Lähikauppa,08.12.2025,20:28,"39,54 €",XXXX XXXX XXXX 3335,Visa,
+RCP00325,@elias716,Lumme Ruokatori,02.10.2025,18:53,"80,00 €",************6986,Mastercard,Kulukorvaus
+RCP00326,Juho H.,Asema Kaisla,04.10.2025,16:41,"44,30 €",************9807,Mastercard,Myydään: kuitti mukana
+RCP00327,@mari151,ATM HiidenkiviIRusko,16.09.2025,13:09,"20,00 €",************5902,Visa,Kulukorvaus
+RCP00328,Kirsi R.,Market Kaisla,22.09.2025,15:11,"13,80 €",XXXX XXXX XXXX 5777,Visa,Jaetaan lasku
+RCP00329,@miro344,Kioski Kanerva,25.08.2025,16:28,"9,45 €",************8704,Visa,Kulukorvaus
+RCP00330,@vesa370,ATM Kaisla Turku,05.11.2025,18:56,"20,00 €",************8980,Mastercard,Myydään: kuitti mukana
+RCP00331,@veikko53,Ravintola Kauppa,28.12.2025,18:39,"62,82 €",************3448,Mastercard,Jaetaan lasku
+RCP00332,Hannu K.,Pizzeria Tähtiväylä,01.07.2025,10:22,"21,43 €",************2530,Visa,Takuukuitti talteen
+RCP00333,@nasrin958,Lähikauppa Kuusi,18.09.2025,19:56,"8,63 €",************9869,Visa,Myydään: kuitti mukana
+RCP00334,Jukka S.,Kumpu Tavaratalo,30.09.2025,16:59,"582,92 €",XXXX XXXX XXXX 6665,Mastercard,Takuukuitti talteen
+RCP00335,@veeti651,Sushi Lounari,24.08.2025,15:47,"13,97 €",XXXX XXXX XXXX 0834,Visa,
+RCP00336,@rahul62,Kanerva Pikkukauppa,18.09.2025,09:45,"13,54 €",XXXX XXXX XXXX 0151,Mastercard,Jaetaan lasku
+RCP00337,Tomi N.,Haka Ruokatori,18.09.2025,12:23,"18,48 €",************1050,Visa,Takuukuitti talteen
+RCP00338,@hanna982,Market Rauha,27.10.2025,11:38,"13,81 €",************2986,Mastercard,
+RCP00339,Pekka T.,ATM Okra Masku,05.12.2025,19:35,"50,00 €",XXXX XXXX XXXX 1421,Mastercard,
+RCP00340,@veera162,Kanerva Burger,12.09.2025,21:12,"15,52 €",XXXX XXXX XXXX 7663,Mastercard,
+RCP00341,@mikko951,M1rket Kajo,12.09.2025,14:35,"26,02 €",************5123,Visa,Myydään: kuitti mukana
+RCP00342,@johanna396,Bistro Lehto,13.08.2025,19:43,"14,22 €",************9293,Mastercard,Takuukuitti talteen
+RCP00343,@risto957,Varpu Trattoria,29.12.2025,20:21,"50,23 €",************7691,Visa,Myydään: kuitti mukana
+RCP00344,Marjo H.,Tavaratalo Lehvä,01.11.2025,15:05,"39,35 €",************3110,Mastercard,Jaetaan lasku
+RCP00345,@pirjo858,Aura Transit,22.10.2025,07:12,"3,10 €",************7490,Mastercard,
+RCP00346,@seppo694,Pilvari Market,04.11.2025,16:01,"9,65 €",************3275,Mastercard,
+RCP00347,@janne345,Aura Transit,14.07.2025,01:34,"3,10 €",XXXX XXXX XXXX 1787,Mastercard,Takuukuitti talteen
+RCP00348,@jani166,Rauta Pihlaja,05.12.2025,15:48,"62,49 €",************5385,Visa,Myydään: kuitti mukana
+RCP00349,Veikko K.,Lähikauppa Pilvari,10.08.2025,20:02,"18,48 €",************2815,Visa,Jaetaan lasku
+RCP00350,Maarit P.,Pilvari Market,02.07.2025,17:48,"32,76 €",************4245,Visa,Takuukuitti talteen
+RCP00351,Marika S.,Metsä Lähikauppa,27.07.2025,18:46,"5,42 €",XXXX XXXX XXXX 4788,Visa,
+RCP00352,@arja320,Asema Ruokatori,12.09.2025,20:51,"12,94 €",************1429,Visa,Takuukuitti talteen
+RCP00353,@minna534,Jokivarsi Tietokone,19.09.2025,16:46,"14,91 €",************1149,Visa,
+RCP00354,@liisa356,Polttoaine Tuohi,12.11.2025,07:08,"44,80 €",XXXX XXXX XXXX 7476,Visa,Takuukuitti talteen
+RCP00355,@arto206,Trattoria Kuusi,14.08.2025,08:29,"37,72 €",XXXX XXXX XXXX 7271,Mastercard,Kulukorvaus
+RCP00356,Kaisa S.,Lähikauppa Puisto,10.09.2025,10:34,"21,03 €",************1346,Mastercard,Jaetaan lasku
+RCP00357,@rasmus214,Aura Transit,29.10.2025,14:08,"3,10 €",************2230,Visa,Takuukuitti talteen
+RCP00358,Roope M.,Pohjantuuli Ruokatori,17.08.2025,18:48,"10,92 €",************9698,Mastercard,Myydään: kuitti mukana
+RCP00359,@sari98,Bistro Lehvä,15.10.2025,08:52,"45,92 €",XXXX XXXX XXXX 8445,Mastercard,
+RCP00360,@lan296,Kaislan Ruokasatama,15.10.2025,16:59,"79,19 €",XXXX XXXX XXXX 3313,Mastercard,Kulukorvaus
+RCP00361,@jaakko197,Aallon Market,22.08.2025,14:40,"91,06 €",************8555,Mastercard,
+RCP00362,Christer B.,Kanerva Burger,09.07.2025,13:10,"8,70 €",************7301,Mastercard,Jaetaan lasku
+RCP00363,@liisa10,Ruokasatama Niitty,03.08.2025,16:43,"65,91 €",XXXX XXXX XXXX 4439,Mastercard,Kulukorvaus
+RCP00364,@piia197,Lahjapuoti Kanerva,21.11.2025,20:54,"16,76 €",************8785,Visa,Kulukorvaus
+RCP00365,@camilla643,Lehvä Baari,05.12.2025,14:53,"13,95 €",************5737,Visa,Kulukorvaus
+RCP00366,Jere M.,Lähikauppa Merivalo,16.07.2025,17:09,"89,39 €",XXXX XXXX XXXX 5377,Mastercard,
+RCP00367,@nea606,Tammi Market,03.11.2025,07:22,"184,36 €",************1671,Visa,Kulukorvaus
+RCP00368,@venla718,Kaislan Apteekki,15.09.2025,17:18,"46,58 €",XXXX XXXX XXXX 0594,Visa,Myydään: kuitti mukana
+RCP00369,@maarit142,Market Sinikallio,24.07.2025,14:42,"52,57 €",XXXX XXXX XXXX 0765,Mastercard,Takuukuitti talteen
+RCP00370,Harri H.,Kioski Varpu,14.08.2025,14:08,"3,18 €",************6879,Visa,Takuukuitti talteen
+RCP00371,Matti L.,Ruovo Sushi,23.10.2025,16:41,"11,61 €",XXXX XXXX XXXX 1852,Visa,Kulukorvaus
+RCP00372,@milla15,Saari Ruokatori,10.08.2025,17:21,"18,82 €",XXXX XXXX XXXX 2792,Mastercard,Jaetaan lasku
+RCP00373,@suvi818,Kioski Vaahtera,22.12.2025,12:50,"4,95 €",XXXX XXXX XXXX 3942,Visa,Myydään: kuitti mukana
+RCP00374,@anne957,ATM Rauha Turku,05.10.2025,19:48,"40,00 €",XXXX XXXX XXXX 4440,Visa,Takuukuitti talteen
+RCP00375,@jenni978,Puisto Muoti,17.10.2025,11:48,"92,21 €",************2526,Visa,Jaetaan lasku
+RCP00376,Keijo S.,Lahjapuoti Sarastus,08.11.2025,15:00,"35,40 €",XXXX XXXX XXXX 0795,Mastercard,Jaetaan lasku
+RCP00377,@anneli787,Kioski Kuohu,08.12.2025,16:06,"7,77 €",XXXX XXXX XXXX 3516,Mastercard,Myydään: kuitti mukana
+RCP00378,@risto32,Kahvila Tähkä,04.08.2025,23:12,"13,60 €",************9416,Mastercard,Kulukorvaus
+RCP00379,@emilia405,Market Hlidenkivi,18.12.2025,12:30,"35,52 €",XXXX XXXX XXXX 9037,Visa,Kulukorvaus
+RCP00380,@nelli69,Lahjapuoti Rauta-Aura,17.12.2025,17:26,"41,25 €",************3740,Visa,
+RCP00381,@matias458,Linna Ruokatori,23.11.2025,13:04,"21,36 €",************0413,Visa,
+RCP00382,Heidi L.,Muoti Puisto,19.11.2025,18:48,"58,91 €",************0221,Visa,Myydään: kuitti mukana
+RCP00383,@susanna88,Kahvila Varpu,03.07.2025,12:35,"18,78 €",XXXX XXXX XXXX 7859,Mastercard,Kulukorvaus
+RCP00384,Reza M.,ATM Aurinkokivi 0urku,06.12.2025,13:06,"20,00 €",************2888,Visa,
+RCP00385,@niko664,Rautakauppa Pohja1tuuli,17.07.2025,13:05,"23,70 €",************5389,Mastercard,Kulukorvaus
+RCP00386,@janne88,Sarastus Pikkukauppa,19.11.2025,17:07,"10,83 €",************6779,Visa,Kulukorvaus
+RCP00387,@timo725,Kioski Tervala,20.10.2025,20:09,"4,89 €",XXXX XXXX XXXX 5092,Mastercard,Takuukuitti talteen
+RCP00388,@onni148,Ruokatori Kaisla,10.08.2025,12:50,"14,06 €",XXXX XXXX XXXX 7849,Mastercard,Kulukorvaus
+RCP00389,@anneli760,Kuusi Sushi,24.12.2025,12:53,"7,89 €",************1526,Mastercard,Takuukuitti talteen
+RCP00390,@milla53,Tavaratalo Lehvä,21.09.2025,19:53,"245,36 €",XXXX XXXX XXXX 3649,Mastercard,Jaetaan lasku
+RCP00391,@kati699,Tavaratalo Hiidenkivi,18.10.2025,21:53,"16,53 €",************0279,Mastercard,Kulukorvaus
+RCP00392,Kalevi O.,Kaislan Ruokasatama,09.11.2025,21:29,"26,46 €",************7845,Mastercard,Kulukorvaus
+RCP00393,Leena K.,BuIger Puisto,29.08.2025,15:49,"21,72 €",************4296,Visa,
+RCP00394,@aleksi333,Sisustus Harmaja,29.11.2025,12:43,"20,58 €",************4865,Mastercard,Myydään: kuitti mukana
+RCP00395,@bengt497,Utu Ruokatori,25.10.2025,12:01,"12,14 €",XXXX XXXX XXXX 6661,Mastercard,
+RCP00396,Martta J.,Vire Tavaratalo,25.07.2025,21:32,"46,55 €",XXXX XXXX XXXX 7323,Visa,Jaetaan lasku
+RCP00397,Miro H.,Ka0lio Tavaratalo,17.09.2025,13:42,"433,90 €",************8714,Mastercard,Takuukuitti talteen
+RCP00398,@heidi72,Market Harju,31.08.2025,15:58,"27,75 €",************2087,Visa,Kulukorvaus
+RCP00399,Sari A.,Kioski Kallio,21.09.2025,12:15,"8,71 €",XXXX XXXX XXXX 7625,Visa,Jaetaan lasku
+RCP00400,@arto627,Lehvä Polttoaine,08.09.2025,08:13,"61,68 €",************0672,Mastercard,Myydään: kuitti mukana
+RCP00401,@toni31,Ruokasatama Ruovo,20.09.2025,10:12,"28,54 €",************3531,Visa,Takuukuitti talteen
+RCP00402,Keijo T.,Niitty Bistro,30.07.2025,16:54,"20,94 €",************8364,Visa,Kulukorvaus
+RCP00403,Hanna R.,ATM Aurinkokivi Turku,27.07.2025,15:33,"200,00 €",XXXX XXXX XXXX 5758,Mastercard,
+RCP00404,@ville439,Ruokatori Utu,17.08.2025,10:51,"9,73 €",XXXX XXXX XXXX 9165,Mastercard,
+RCP00405,@laura569,Viinimyymälä Saarni,15.11.2025,11:32,"46,65 €",************7445,Mastercard,Jaetaan lasku
+RCP00406,Joni S.,Pizzeria Pilvari,28.11.2025,13:38,"30,34 €",XXXX XXXX XXXX 8209,Mastercard,
+RCP00407,Aki N.,Lähikauppa Lehto,12.10.2025,18:45,"12,54 €",************7025,Mastercard,Takuukuitti talteen
+RCP00408,@zhilwan771,Kallio Tavaratalo,31.10.2025,16:25,"40,21 €",************3035,Visa,Takuukuitti talteen
+RCP00409,@annikki628,Ruokatori Lehvä,25.08.2025,19:10,"15,63 €",************4046,Visa,Myydään: kuitti mukana
+RCP00410,@piia729,Tuohi Asema,24.07.2025,09:47,"76,19 €",************7929,Mastercard,Kulukorvaus
+RCP00411,@anna897,Lu0ora Asema,06.12.2025,08:25,"40,57 €",XXXX XXXX XXXX 7541,Visa,Jaetaan lasku
+RCP00412,@janne99,Koulu Asema,04.09.2025,14:05,"57,45 €",************5860,Mastercard,Kulukorvaus
+RCP00413,Joonas A.,Apteekki Rauha,02.08.2025,15:53,"25,12 €",************4942,Mastercard,Myydään: kuitti mukana
+RCP00414,@veera360,Ruokatori Rusko,18.09.2025,19:43,"11,62 €",************2467,Visa,Jaetaan lasku
+RCP00415,Raili S.,Sarastus Pikkukauppa,19.09.2025,12:05,"14,42 €",************6008,Mastercard,Takuukuitti talteen
+RCP00416,Milla P.,Pikkukauppa Varpu,27.07.2025,10:15,"1,86 €",************0135,Mastercard,
+RCP00417,@jesse545,Market Asema,11.11.2025,15:13,"3,84 €",************1067,Visa,Myydään: kuitti mukana
+RCP00418,Viljo H.,Market Saarni,24.10.2025,18:48,"13,64 €",************4071,Mastercard,Kulukorvaus
+RCP00419,@xin747,Kioski Asema,07.11.2025,17:21,"9,49 €",************9215,Mastercard,
+RCP00420,@huong715,Tähtiväylä Ruokasatama,30.12.2025,16:20,"20,54 €",XXXX XXXX XXXX 7362,Mastercard,Takuukuitti talteen
+RCP00421,Jussi R.,Sinikallio Lemmikki,17.08.2025,10:54,"10,56 €",************3177,Visa,
+RCP00422,Kalevi R.,Niitty Bistro,18.12.2025,17:40,"29,87 €",************0438,Mastercard,Kulukorvaus
+RCP00423,@onni758,Muoti Harju,27.10.2025,11:28,"15,54 €",************1728,Visa,
+RCP00424,@tauno66,Jokivarsi Pikkukauppa,09.09.2025,15:41,"6,29 €",************5612,Mastercard,Myydään: kuitti mukana
+RCP00425,Ari R.,Lähikauppa Hiidenkivi,08.07.2025,17:38,"27,26 €",************4877,Visa,Takuukuitti talteen
+RCP00426,Mai L.,Market Rauha,02.11.2025,18:17,"115,59 €",************5244,Visa,Kulukorvaus
+RCP00427,@matti928,Market Asema,25.07.2025,11:42,"48,55 €",************4835,Visa,Jaetaan lasku
+RCP00428,@jaana759,Pub Asema,07.11.2025,18:06,"4,15 €",XXXX XXXX XXXX 0993,Mastercard,
+RCP00429,@sanna886,Market Tähtiväylä,12.12.2025,20:30,"2,76 €",************7060,Visa,
+RCP00430,@veikko209,Ruokatori Satama,08.11.2025,11:31,"31,51 €",XXXX XXXX XXXX 6823,Mastercard,Myydään: kuitti mukana
+RCP00431,@eero909,Ruokatori Hiidenkivi,23.12.2025,12:46,"88,88 €",************1998,Visa,Takuukuitti talteen
+RCP00432,@noora670,Apteekki Rauha,25.09.2025,15:09,"90,17 €",XXXX XXXX XXXX 5266,Visa,Myydään: kuitti mukana
+RCP00433,@anneli194,Harmaja Baari,09.08.2025,17:50,"51,42 €",XXXX XXXX XXXX 1238,Mastercard,Myydään: kuitti mukana
+RCP00434,Mikko H.,Ruokatori Hiidenkivi,06.10.2025,08:34,"16,09 €",************9838,Mastercard,
+RCP00435,@mari892,Pihlaja Ravintola,22.09.2025,09:37,"29,92 €",XXXX XXXX XXXX 3982,Visa,Takuukuitti talteen
+RCP00436,@marika898,Hamma0klinikka Pelto,14.08.2025,17:54,"262,67 €",************9661,Mastercard,Myydään: kuitti mukana
+RCP00437,Elsa K.,Elektroniikka Koivu,23.12.2025,14:35,"36,83 €",XXXX XXXX XXXX 9039,Mastercard,Kulukorvaus
+RCP00438,@piia162,Lähikauppa Vaahtera,24.12.2025,12:00,"7,95 €",XXXX XXXX XXXX 6311,Visa,Myydään: kuitti mukana
+RCP00439,@matti510,Ruokasatama Vaahtera,14.08.2025,14:37,"5,34 €",************1815,Mastercard,Kulukorvaus
+RCP00440,Anu K.,Asema Sushi,31.08.2025,12:31,"14,46 €",************2248,Visa,Myydään: kuitti mukana
+RCP00441,@joni612,BurgeI Saarni,02.09.2025,13:42,"11,62 €",************6818,Visa,
+RCP00442,@marika518,ATM Harju Naantali,03.10.2025,20:30,"100,00 €",************6461,Mastercard,Myydään: kuitti mukana
+RCP00443,@zhilwan523,Lähikauppa Varpu,06.11.2025,22:13,"34,73 €",XXXX XXXX XXXX 3035,Visa,Jaetaan lasku
+RCP00444,Laura S.,Market Kaisla,23.10.2025,12:24,"48,40 €",************0647,Visa,Jaetaan lasku
+RCP00445,@eeva166,Kirkko Lahjapuoti,23.12.2025,17:46,"52,01 €",************7930,Visa,Jaetaan lasku
+RCP00446,Kari H.,H0ka Ruokatori,13.12.2025,14:03,"11,85 €",************6006,Mastercard,Takuukuitti talteen
+RCP00447,@britt686,Sinikallio Market,01.10.2025,09:07,"52,00 €",************6302,Mastercard,Myydään: kuitti mukana
+RCP00448,@matti776,Niitty Lähikauppa,23.11.2025,17:05,"6,12 €",XXXX XXXX XXXX 1852,Visa,
+RCP00449,@hussein798,Kioski Tammi,23.10.2025,20:39,"12,14 €",XXXX XXXX XXXX 2191,Mastercard,Kulukorvaus
+RCP00450,Aleksi R.,Ranta Ruokatori,24.09.2025,16:54,"17,59 €",XXXX XXXX XXXX 2658,Visa,
+RCP00451,@mikko777,Kirkko Market,19.12.2025,18:32,"38,37 €",XXXX XXXX XXXX 2336,Visa,Jaetaan lasku
+RCP00452,@keijo272,Sushi Asema,30.08.2025,10:44,"1,82 €",XXXX XXXX XXXX 1296,Visa,Kulukorvaus
+RCP00453,@keijo211,Kauppa Ruokasatama,27.12.2025,17:19,"20,46 €",************1756,Visa,
+RCP00454,@juho829,Lääkärikeskus Jokivarsi,24.07.2025,14:18,"42,33 €",************6035,Mastercard,Kulukorvaus
+RCP00455,@layla404,Vaahtera Iistro,23.11.2025,11:56,"37,61 €",************0138,Mastercard,Takuukuitti talteen
+RCP00456,@essi434,Kahvila Kumpu,02.08.2025,18:24,"6,25 €",************4136,Mastercard,Kulukorvaus
+RCP00457,Vladimir S.,Pikkukauppa Lehto,15.12.2025,10:45,"1,80 €",************9887,Visa,Myydään: kuitti mukana
+RCP00458,@aram978,Hiidenkivi Sisustus,02.09.2025,18:27,"27,03 €",************8067,Mastercard,Takuukuitti talteen
+RCP00459,@marika677,ATM Saarni Koski Tl,11.10.2025,12:47,"20,00 €",XXXX XXXX XXXX 1095,Visa,Kulukorvaus
+RCP00460,@anastasia374,Aura Transit,28.07.2025,14:59,"3,10 €",************8129,Visa,Myydään: kuitti mukana
+RCP00461,Anna Y.,Elektroniikka Lumora,18.10.2025,14:12,"87,79 €",XXXX XXXX XXXX 2781,Mastercard,Jaetaan lasku
+RCP00462,Aki L.,Burger Asema,07.08.2025,11:01,"8,48 €",XXXX XXXX XXXX 0546,Mastercard,Takuukuitti talteen
+RCP00463,@marko846,Kaisla Ruokatori,15.07.2025,11:25,"15,62 €",************0816,Visa,Jaetaan lasku
+RCP00464,@hannah952,Sarastus Baari,31.12.2025,18:24,"73,31 €",XXXX XXXX XXXX 5333,Visa,
+RCP00465,@maija883,Koivu Market,10.12.2025,16:19,"26,67 €",************3051,Mastercard,
+RCP00466,@satu684,Kauppa Market,02.09.2025,09:18,"17,86 €",XXXX XXXX XXXX 7060,Visa,Myydään: kuitti mukana
+RCP00467,@jouko780,Koulu Ruokatori,20.08.2025,09:03,"19,93 €",************0310,Mastercard,Kulukorvaus
+RCP00468,@minh367,Harmaja Market,06.07.2025,16:29,"30,21 €",XXXX XXXX XXXX 7499,Visa,Takuukuitti talteen
+RCP00469,@mari426,Mänty Pikkukauppa,05.11.2025,12:16,"3,54 €",************0037,Visa,Jaetaan lasku
+RCP00470,Emilia R.,Ranta Rulkatori,18.12.2025,14:28,"17,43 €",XXXX XXXX XXXX 3160,Visa,Takuukuitti talteen
+RCP00471,@mika311,Asema Lähikauppa,22.11.2025,22:14,"9,63 €",************3425,Visa,Jaetaan lasku
+RCP00472,Mikko L.,Lehvä Kahvila,02.12.2025,16:52,"10,70 €",************8508,Mastercard,
+RCP00473,@kalevi403,Kahvila Varpu,08.09.2025,17:49,"7,03 €",XXXX XXXX XXXX 1688,Visa,Jaetaan lasku
+RCP00474,@riikka969,Vaate Metsä,07.08.2025,11:01,"57,55 €",************1058,Mastercard,Myydään: kuitti mukana
+RCP00475,Santeri K.,Ruokasatama Pilvari,11.12.2025,20:37,"15,82 €",XXXX XXXX XXXX 7395,Visa,Takuukuitti talteen
+RCP00476,Narin A.,Ruokasatama Kumpu,04.10.2025,16:11,"4,49 €",************4995,Visa,
+RCP00477,@minna185,Pikkukauppa Kuusi,28.12.2025,21:25,"5,78 €",XXXX XXXX XXXX 9197,Mastercard,Jaetaan lasku
+RCP00478,@ari927,Lähikauppa Vaskivuori,04.09.2025,08:35,"46,10 €",************1019,Visa,Takuukuitti talteen
+RCP00479,@joni475,Elokuvateatteri Vire,19.10.2025,17:32,"12,53 €",************4807,Mastercard,Kulukorvaus
+RCP00480,@antti517,Kumpu Pub,01.10.2025,21:20,"14,91 €",XXXX XXXX XXXX 2951,Visa,Kulukorvaus
+RCP00481,@susanna720,Asema Sushi,14.07.2025,20:04,"21,20 €",XXXX XXXX XXXX 3423,Mastercard,Jaetaan lasku
+RCP00482,@jenna951,Apteekki Vaahtera,24.10.2025,10:24,"15,95 €",XXXX XXXX XXXX 8697,Visa,Kulukorvaus
+RCP00483,@laura594,Lähikauppa Merivalo,30.10.2025,20:07,"20,34 €",XXXX XXXX XXXX 9991,Visa,
+RCP00484,@riikka801,Lehvä Tavaratalo,22.09.2025,16:17,"144,48 €",************1058,Mastercard,Myydään: kuitti mukana
+RCP00485,@ville582,Pelto Vaate,16.08.2025,15:07,"138,95 €",************9165,Mastercard,Kulukorvaus
+RCP00486,@ella517,Lähikauppa Lehvä,02.11.2025,12:29,"24,71 €",************6177,Mastercard,Myydään: kuitti mukana
+RCP00487,@nils929,Ruokasatama Merivalo,28.11.2025,16:28,"29,68 €",************3721,Mastercard,
+RCP00488,@paavo459,Lehvä Kahvila,12.08.2025,14:30,"8,33 €",XXXX XXXX XXXX 8975,Mastercard,Myydään: kuitti mukana
+RCP00489,Eeva R.,Ruokatori Pelto,17.11.2025,19:57,"39,94 €",XXXX XXXX XXXX 3656,Visa,Myydään: kuitti mukana
+RCP00490,Aila Y.,Rauta Puisto,20.12.2025,15:02,"50,42 €",XXXX XXXX XXXX 3577,Mastercard,Takuukuitti talteen
+RCP00491,@piia105,Trattoria Vire,01.07.2025,11:01,"21,82 €",************6559,Mastercard,Myydään: kuitti mukana
+RCP00492,@niina299,Markel Saarni,03.12.2025,13:41,"15,85 €",************6828,Mastercard,Kulukorvaus
+RCP00493,@marko343,Bistro Lumme,19.09.2025,18:35,"53,31 €",************7534,Mastercard,Kulukorvaus
+RCP00494,@topias570,Pilvari Hammasklinikka,10.11.2025,11:50,"167,61 €",************9280,Mastercard,Kulukorvaus
+RCP00495,@kirsti787,Ruokasatama Kanerva,30.09.2025,12:37,"17,07 €",************3909,Visa,
+RCP00496,@nataliia306,Tavaratalo Ilmarin,11.09.2025,15:06,"59,53 €",XXXX XXXX XXXX 6516,Visa,Kulukorvaus
+RCP00497,@ellen880,Baari Merivalo,18.11.2025,22:08,"6,11 €",************6206,Visa,Jaetaan lasku
+RCP00498,@sari232,Aura Transit,30.11.2025,19:41,"3,10 €",************6669,Visa,
+RCP00499,@jesse204,Trattoria Tuohi,26.07.2025,08:41,"48,09 €",************8961,Visa,Jaetaan lasku
+RCP00500,@jere822,Tavaratalo Lumora,07.09.2025,17:40,"13,14 €",XXXX XXXX XXXX 4016,Mastercard,Kulukorvaus
+RCP00501,@elias477,Kaislan Tavaratalo,02.09.2025,16:13,"41,37 €",************7798,Visa,Takuukuitti talteen
+RCP00502,@matti365,Puisto Ruokasatama,10.12.2025,15:17,"37,70 €",XXXX XXXX XXXX 0718,Visa,Jaetaan lasku
+RCP00503,@kateryna880,Lahjapuoti Tehdas,11.09.2025,11:11,"20,90 €",************0575,Visa,Jaetaan lasku
+RCP00504,@riikka590,Market Rauta-Aura,15.09.2025,19:57,"118,62 €",************6166,Mastercard,Kulukorvaus
+RCP00505,Pirjo P.,Market1Kivi,07.09.2025,20:31,"14,78 €",XXXX XXXX XXXX 3245,Visa,Myydään: kuitti mukana
+RCP00506,@miro173,Lemmikki Puisto,10.07.2025,18:12,"15,24 €",XXXX XXXX XXXX 0657,Visa,Myydään: kuitti mukana
+RCP00507,@veikko735,Polttoaine Asema,17.11.2025,12:28,"59,72 €",************7462,Mastercard,Myydään: kuitti mukana
+RCP00508,@minna548,Asema Sushi,12.09.2025,08:58,"10,18 €",************0127,Visa,Jaetaan lasku
+RCP00509,Kirsi T.,Apteekki Kivi,30.10.2025,15:08,"38,51 €",************4955,Mastercard,Takuukuitti talteen
+RCP00510,Susanna S.,Utu Pizzeria,13.07.2025,17:45,"7,48 €",XXXX XXXX XXXX 3688,Mastercard,Takuukuitti talteen
+RCP00511,Onni K.,Kahvila Lumme,11.09.2025,18:44,"4,03 €",************0275,Mastercard,
+RCP00512,@jussi447,Pub Kumpu,20.07.2025,21:43,"63,07 €",************0959,Visa,Takuukuitti talteen
+RCP00513,@jarkko612,Rauta Pohjantuuli,07.12.2025,17:58,"26,49 €",XXXX XXXX XXXX 2097,Mastercard,Myydään: kuitti mukana
+RCP00514,@inka881,Pilvari Market,18.11.2025,14:47,"4,12 €",************2709,Visa,Myydään: kuitti mukana
+RCP00515,@onni411,Viinimyymälä Lumme,20.12.2025,20:55,"20,20 €",************8683,Mastercard,Myydään: kuitti mukana
+RCP00516,@hannele60,Sisustus Niitty,29.08.2025,12:39,"18,53 €",************0538,Mastercard,
+RCP00517,@olavi200,ATM Rauha Turku,11.12.2025,09:38,"40,00 €",XXXX XXXX XXXX 1505,Mastercard,
+RCP00518,@kerttu874,Pihlaja Lähikauppa,31.07.2025,08:05,"8,93 €",************0240,Visa,
+RCP00519,@sofiia608,Burger Sarastus,08.11.2025,21:14,"6,05 €",************8698,Mastercard,
+RCP00520,@jorma594,Autokorjaamo Tammi,03.09.2025,05:54,"454,56 €",XXXX XXXX XXXX 6181,Visa,Myydään: kuitti mukana
+RCP00521,@elin607,Bistro Lehto,23.10.2025,09:09,"24,16 €",XXXX XXXX XXXX 5232,Mastercard,Jaetaan lasku
+RCP00522,@jere665,Koulu Market,09.12.2025,08:30,"77,32 €",XXXX XXXX XXXX 8283,Visa,Myydään: kuitti mukana
+RCP00523,@andrei759,Burger Saarni,15.08.2025,12:17,"3,84 €",XXXX XXXX XXXX 0001,Visa,Kulukorvaus
+RCP00524,Aune K.,Aura Transit,24.12.2025,16:42,"2,00 €",XXXX XXXX XXXX 4994,Mastercard,
+RCP00525,Matias S.,Market Ruovo,23.07.2025,10:26,"19,03 €",************9012,Visa,Kulukorvaus
+RCP00526,@marika851,Asema Sushi,02.08.2025,12:05,"18,39 €",************5266,Visa,
+RCP00527,@rasmus672,Kahvila Haka,26.09.2025,09:47,"16,52 €",XXXX XXXX XXXX 4401,Mastercard,Takuukuitti talteen
+RCP00528,@anna919,Pikkukauppa Okra,05.07.2025,12:04,"5,75 €",XXXX XXXX XXXX 7541,Visa,Myydään: kuitti mukana
+RCP00529,Veeti K.,Market Sinikallio,06.12.2025,08:19,"4,64 €",************1413,Mastercard,Kulukorvaus
+RCP00530,@anni250,Tähtiväylä Pizzeria,28.10.2025,12:05,"7,55 €",************7120,Visa,Takuukuitti talteen
+RCP00531,@sari834,Pikkukauppa Kuohu,17.08.2025,13:50,"7,39 €",XXXX XXXX XXXX 0848,Mastercard,Kulukorvaus
+RCP00532,Eemeli O.,Pelto Ruokasatama,16.07.2025,18:04,"61,15 €",************4219,Visa,Kulukorvaus
+RCP00533,Tomi T.,Sisustul Tervala,28.12.2025,15:09,"44,70 €",************5548,Mastercard,Takuukuitti talteen
+RCP00534,@henri596,Sarastus Lähikauppa,11.10.2025,17:36,"11,93 €",************4541,Visa,Myydään: kuitti mukana
+RCP00535,Anu V.,Harmaja Baari,27.07.2025,21:44,"8,45 €",************6768,Mastercard,Myydään: kuitti mukana
+RCP00536,Hanna H.,Ruokatori Lehvä,01.11.2025,13:37,"49,14 €",XXXX XXXX XXXX 3375,Mastercard,Kulukorvaus
+RCP00537,@yousef381,Market Ranta,24.12.2025,09:01,"36,51 €",************3363,Visa,Jaetaan lasku
+RCP00538,@maarit665,Sushi Kanerva,15.10.2025,18:30,"12,97 €",************0000,Visa,Takuukuitti talteen
+RCP00539,Hannu Y.,ATM Pihlaja Turku,20.12.2025,10:19,"60,00 €",XXXX XXXX XXXX 8031,Visa,Jaetaan lasku
+RCP00540,@satu699,Tavaratalo Sinikallio,21.12.2025,13:50,"259,39 €",************6530,Mastercard,Takuukuitti talteen
+RCP00541,@kalle824,StayFinder Global,24.08.2025,22:08,"125,22 €",************4263,Visa,Kulukorvaus
+RCP00542,@roope95,Aura Transit,18.09.2025,11:32,"55,00 €",XXXX XXXX XXXX 9698,Mastercard,Takuukuitti talteen
+RCP00543,Göran N.,Bistro Kivaro,17.09.2025,10:59,"34,69 €",XXXX XXXX XXXX 7273,Mastercard,Myydään: kuitti mukana
+RCP00544,@mari21,Market Kumpu,18.08.2025,11:03,"25,65 €",************3817,Mastercard,Jaetaan lasku
+RCP00545,Tiina J.,Aura Transit,25.08.2025,10:19,"55,00 €",************6881,Visa,Jaetaan lasku
+RCP00546,@riikka76,Bistro Tähkä,10.08.2025,12:07,"27,04 €",************9308,Visa,Myydään: kuitti mukana
+RCP00547,Eeva P.,Kivaro Elokuvateatteri,28.12.2025,20:35,"19,57 €",************9176,Visa,
+RCP00548,@petri475,Market Kuusi,18.12.2025,11:59,"21,51 €",************1159,Visa,Takuukuitti talteen
+RCP00549,@antero337,Kajo Ruokatori,01.08.2025,10:43,"7,34 €",************1495,Visa,Kulukorvaus
+RCP00550,Emma L.,Tavaralalo Lehto,26.07.2025,15:27,"144,61 €",XXXX XXXX XXXX 2961,Visa,Jaetaan lasku
+RCP00551,@wilma142,Kotiranta Sushi,19.10.2025,13:51,"8,79 €",************6804,Visa,Myydään: kuitti mukana
+RCP00552,Veera S.,Lähikauppa Lumora,17.08.2025,15:29,"45,53 €",************0200,Mastercard,
+RCP00553,@hugo909,Pizzeria Mylly,15.11.2025,09:43,"7,14 €",XXXX XXXX XXXX 6228,Visa,
+RCP00554,@aune373,Bistro Koulu,17.08.2025,11:43,"26,26 €",************1926,Mastercard,Jaetaan lasku
+RCP00555,@tomi378,Kaislan Market,29.07.2025,17:11,"28,85 €",************0818,Visa,
+RCP00556,@pirjo830,Muoti Kanerva,19.11.2025,13:12,"36,73 €",************4700,Visa,
+RCP00557,Marja K.,ATM Kanerva Mynämäki,14.12.2025,08:54,"100,00 €",XXXX XXXX XXXX 6684,Mastercard,
+RCP00558,@laura24,Kotiranta Market,03.07.2025,12:07,"5,30 €",XXXX XXXX XXXX 7542,Visa,
+RCP00559,@elina565,Pihlaja Pizzeria,11.09.2025,20:13,"9,07 €",************1451,Mastercard,
+RCP00560,Raimo V.,Market Ruovo,08.08.2025,16:47,"2,72 €",************9292,Mastercard,Kulukorvaus
+RCP00561,@valtteri692,Burger Selkä,16.12.2025,12:15,"5,17 €",XXXX XXXX XXXX 2152,Visa,Kulukorvaus
+RCP00562,@mikko726,Aurinkokivi Viinimyymälä,09.07.2025,11:06,"29,51 €",************3167,Visa,
+RCP00563,Veeti R.,Pizzeria Pihlaja,21.11.2025,15:06,"4,96 €",XXXX XXXX XXXX 5702,Mastercard,Myydään: kuitti mukana
+RCP00564,@johanna887,Ruokasatama Rauta-Aura,05.11.2025,21:51,"5,18 €",XXXX XXXX XXXX 3864,Visa,Takuukuitti talteen
+RCP00565,@mervi663,Haka Burger,30.11.2025,17:57,"9,58 €",************6304,Mastercard,
+RCP00566,Jani R.,Kumpu Tavaratalo,01.08.2025,19:09,"26,59 €",************6799,Visa,Myydään: kuitti mukana
+RCP00567,@eemeli870,Rautakauppa Pohjantuuli,03.07.2025,11:02,"47,12 €",XXXX XXXX XXXX 5188,Visa,Jaetaan lasku
+RCP00568,@kalle951,Varpu Tavaratalo,20.09.2025,20:50,"74,62 €",************9987,Mastercard,
+RCP00569,@oskari85,Lähikauppa Kivaro,26.09.2025,10:51,"30,59 €",XXXX XXXX XXXX 4430,Mastercard,Takuukuitti talteen
+RCP00570,@marko123,Lehvä Olutravintola,25.10.2025,18:06,"23,22 €",XXXX XXXX XXXX 1661,Visa,
+RCP00571,Emilia L.,Market Kuusi,23.07.2025,15:57,"19,76 €",************9557,Mastercard,Myydään: kuitti mukana
+RCP00572,@maarit582,Tammi Market,30.11.2025,22:50,"15,25 €",XXXX XXXX XXXX 0765,Mastercard,Kulukorvaus
+RCP00573,@hanna601,Saarni Vaate,06.12.2025,15:49,"22,95 €",XXXX XXXX XXXX 9536,Mastercard,Kulukorvaus
+RCP00574,Antero H.,Ruovo Rautakauppa,04.10.2025,17:28,"19,68 €",************7611,Visa,Kulukorvaus
+RCP00575,@risto185,Ruokasatama Niitty,27.07.2025,10:29,"91,83 €",************9021,Visa,Myydään: kuitti mukana
+RCP00576,@nelli935,Apteekki Tähtiväylä,11.07.2025,15:11,"54,86 €",************0335,Mastercard,Myydään: kuitti mukana
+RCP00577,@sami753,Burger Rauta-Aura,30.11.2025,14:47,"8,65 €",************3133,Mastercard,Kulukorvaus
+RCP00578,@jesse334,Niitty Bistro,19.07.2025,18:16,"126,27 €",************9885,Visa,Jaetaan lasku
+RCP00579,@johanna512,Rusko Bistro,26.08.2025,20:01,"32,79 €",XXXX XXXX XXXX 1343,Mastercard,Myydään: kuitti mukana
+RCP00580,@arttu499,Sinikallio Lemmikki,15.11.2025,18:15,"108,29 €",XXXX XXXX XXXX 9480,Visa,
+RCP00581,@yang118,Taksi Vaskivuori,08.09.2025,15:09,"7,07 €",XXXX XXXX XXXX 8074,Mastercard,Takuukuitti talteen
+RCP00582,@oleksandr854,Koivu Sisustus,22.07.2025,18:35,"19,44 €",XXXX XXXX XXXX 4906,Visa,
+RCP00583,@ari10,Pizzeria Ranta,07.11.2025,20:05,"7,81 €",************2821,Visa,Takuukuitti talteen
+RCP00584,@sara277,Bistro Metsä,21.10.2025,13:28,"29,93 €",XXXX XXXX XXXX 4615,Visa,Myydään: kuitti mukana
+RCP00585,@arttu804,Ruokasatama Rauta-Aura,19.09.2025,20:13,"16,48 €",XXXX XXXX XXXX 0528,Mastercard,Takuukuitti talteen
+RCP00586,@pekka42,Ruokatori Kaisla,08.12.2025,09:37,"56,62 €",************2850,Mastercard,Jaetaan lasku
+RCP00587,Miro V.,Rautakauppa Pihlaja,15.11.2025,08:16,"18,92 €",XXXX XXXX XXXX 3526,Mastercard,Takuukuitti talteen
+RCP00588,Henri R.,Varpu Trattoria,16.09.2025,08:28,"42,55 €",************9549,Mastercard,Takuukuitti talteen
+RCP00589,@aleksi706,Kioski Tähtiväylä,22.09.2025,11:39,"2,69 €",************8030,Mastercard,Takuukuitti talteen
+RCP00590,Kaarina P.,Sushi Tehdas,22.09.2025,15:44,"12,05 €",************8389,Visa,Jaetaan lasku
+RCP00591,@milla349,Kuusi Burger,23.08.2025,17:04,"11,63 €",************2792,Mastercard,Takuukuitti talteen
+RCP00592,@divya379,Ruokasatama SiIikallio,04.10.2025,15:58,"24,24 €",************3148,Mastercard,Jaetaan lasku
+RCP00593,Anna R.,Ruokatori Kuusi,16.12.2025,14:45,"36,75 €",XXXX XXXX XXXX 9058,Mastercard,Myydään: kuitti mukana
+RCP00594,Katja A.,Ruovo Ruokatori,10.09.2025,15:04,"314,45 €",XXXX XXXX XXXX 9073,Mastercard,Kulukorvaus
+RCP00595,@william283,ATM Tähtiväylä Turku,17.08.2025,14:50,"20,00 €",************1089,Visa,Kulukorvaus
+RCP00596,Helena N.,Kumpu Pub,01.08.2025,19:29,"40,97 €",************1473,Visa,Myydään: kuitti mukana
+RCP00597,@mika17,Vaskivuori Apteekki,28.11.2025,18:47,"20,12 €",************7119,Visa,Myydään: kuitti mukana
+RCP00598,@fanni279,ATM Lumme Raisio,23.10.2025,16:31,"100,00 €",XXXX XXXX XXXX 3564,Visa,Takuukuitti talteen
+RCP00599,Antti L.,Rauha Burger,11.11.2025,12:41,"7,75 €",************0623,Visa,Jaetaan lasku
+RCP00600,Nelli K.,Ruokatori Utu,27.09.2025,21:42,"7,26 €",************1774,Visa,Myydään: kuitti mukana
+RCP00601,Paula K.,Muoti Harju,30.11.2025,17:41,"50,67 €",XXXX XXXX XXXX 0151,Visa,Takuukuitti talteen
+RCP00602,@henna795,Lääkärikeskus Kauppa,19.11.2025,17:23,"117,06 €",XXXX XXXX XXXX 3918,Visa,
+RCP00603,Marika H.,Lemmikki Puisto,09.08.2025,15:09,"80,08 €",************4869,Mastercard,Takuukuitti talteen
+RCP00604,@mikael184,Apteekki Tuohi,31.07.2025,14:26,"19,50 €",XXXX XXXX XXXX 8496,Mastercard,
+RCP00605,@hannu777,Kioski Lumora,07.07.2025,09:14,"9,42 €",************0047,Mastercard,Jaetaan lasku
+RCP00606,@paula553,Market Okra,26.11.2025,16:53,"23,83 €",************2328,Mastercard,Kulukorvaus
+RCP00607,Elina S.,ATM Aallon Lieto,11.12.2025,14:25,"80,00 €",************1459,Visa,Takuukuitti talteen
+RCP00608,@pasi248,Viinimyymälä Kivaro,09.07.2025,13:14,"35,96 €",XXXX XXXX XXXX 1635,Mastercard,
+RCP00609,@jenni178,Ruokasatama Vaskivuori,25.11.2025,09:49,"24,48 €",XXXX XXXX XXXX 1204,Mastercard,Takuukuitti talteen
+RCP00610,@marika993,Lumme Ruokatori,08.10.2025,17:19,"19,62 €",************0638,Visa,
+RCP00611,Päivi L.,Ruokatori Saari,07.11.2025,19:52,"18,76 €",XXXX XXXX XXXX 1874,Mastercard,Myydään: kuitti mukana
+RCP00612,@oona680,Aallon Market,21.09.2025,14:07,"45,33 €",XXXX XXXX XXXX 7067,Visa,Kulukorvaus
+RCP00613,@mervi131,Kallio Market,18.12.2025,10:27,"10,55 €",************1898,Mastercard,Jaetaan lasku
+RCP00614,@marko926,Tavaratalo Lehto,29.10.2025,19:42,"68,60 €",************1661,Visa,Kulukorvaus
+RCP00615,@jarkko569,ATM Lehvä Parainen,26.12.2025,17:36,"20,00 €",************0887,Mastercard,Kulukorvaus
+RCP00616,Matti M.,Kivaro Kioski,18.07.2025,12:03,"8,90 €",************7841,Visa,Jaetaan lasku
+RCP00617,Paula J.,Mänty Lahjapuoti,11.07.2025,17:44,"38,13 €",************6904,Mastercard,
+RCP00618,@santeri282,Lähikauppa Vaskivuori,21.10.2025,15:32,"15,28 €",************1621,Visa,Jaetaan lasku
+RCP00619,@hassan523,Kuntosali Kuusi,07.11.2025,13:35,"39,07 €",************7576,Mastercard,Jaetaan lasku
+RCP00620,@niko619,Hiidenkivi Burger,15.08.2025,12:21,"38,38 €",XXXX XXXX XXXX 2805,Visa,Takuukuitti talteen
+RCP00621,Lasse T.,Mänty Trattoria,01.12.2025,17:27,"10,39 €",XXXX XXXX XXXX 4705,Mastercard,Kulukorvaus
+RCP00622,@marko485,Kumpu Ruokatori,03.11.2025,12:02,"12,36 €",XXXX XXXX XXXX 8370,Visa,Takuukuitti talteen
+RCP00623,@antti779,Kaisla Ruokatori,12.10.2025,11:13,"127,28 €",************4567,Visa,
+RCP00624,@kim366,Market Asema,21.11.2025,14:00,"110,59 €",************3346,Mastercard,Takuukuitti talteen
+RCP00625,@pinja385,Kanerva Olutravintola,16.11.2025,00:58,"9,34 €",************6881,Mastercard,Kulukorvaus
+RCP00626,@keijo22,Ruokatori Kauppa,26.11.2025,11:14,"242,44 €",************9033,Visa,Takuukuitti talteen
+RCP00627,@pekka268,Kioski Selkä,02.08.2025,15:29,"3,09 €",************1776,Visa,Takuukuitti talteen
+RCP00628,@anu802,Ravintola Kivi,08.11.2025,21:09,"42,96 €",************2498,Visa,Jaetaan lasku
+RCP00629,@otto392,Vire Burger,17.09.2025,18:43,"5,39 €",XXXX XXXX XXXX 9458,Mastercard,Kulukorvaus
+RCP00630,Rasmus Y.,Tammi Market,15.11.2025,16:33,"32,03 €",************4602,Mastercard,Myydään: kuitti mukana
+RCP00631,Onni K.,Kioski Tehdas,29.08.2025,17:01,"20,56 €",************0275,Mastercard,Kulukorvaus
+RCP00632,Daryna B.,Ruokatori Kallio,14.11.2025,20:20,"10,75 €",XXXX XXXX XXXX 2504,Mastercard,Takuukuitti talteen
+RCP00633,@satu902,Aura Transit,01.07.2025,08:47,"2,00 €",XXXX XXXX XXXX 2513,Visa,Kulukorvaus
+RCP00634,Jarkko H.,Rautakauppa Pohjantuuli,10.08.2025,16:21,"14,27 €",************4955,Visa,Myydään: kuitti mukana
+RCP00635,@minna728,Ruokasatama Rusko,17.11.2025,17:01,"9,77 €",************6360,Mastercard,Kulukorvaus
+RCP00636,@eeva411,Mänty Trattoria,28.12.2025,11:42,"48,63 €",************4886,Visa,
+RCP00637,Hanna R.,Market Koivu,01.08.2025,17:16,"75,98 €",************8375,Mastercard,Jaetaan lasku
+RCP00638,@marja64,Ruokasatama Pelto,20.12.2025,14:44,"57,25 €",XXXX XXXX XXXX 4331,Mastercard,Jaetaan lasku
+RCP00639,@lauri331,Lähikauppa Varpu,19.08.2025,17:45,"32,89 €",XXXX XXXX XXXX 3015,Mastercard,Myydään: kuitti mukana
+RCP00640,@hannu439,Aurinkokivi Viinimyymälä,22.11.2025,14:06,"22,58 €",************8031,Visa,
+RCP00641,@hilkka585,Pizzeria Ranta,24.11.2025,18:18,"11,15 €",XXXX XXXX XXXX 1690,Mastercard,Myydään: kuitti mukana
+RCP00642,@risto874,Asema Haka,27.12.2025,14:18,"119,83 €",************5287,Visa,
+RCP00643,@jani28,Pikkukauppa Kuohu,06.11.2025,12:32,"12,30 €",XXXX XXXX XXXX 0708,Visa,Myydään: kuitti mukana
+RCP00644,@matti979,Tavaratalo Ilmarin,27.11.2025,17:22,"12,15 €",XXXX XXXX XXXX 6877,Visa,Kulukorvaus
+RCP00645,Karin L.,Viinimyymälä Pilvari,12.12.2025,17:57,"17,50 €",************1725,Visa,Takuukuitti talteen
+RCP00646,Roope L.,Kotiranta Pizzeria,06.10.2025,08:22,"33,62 €",************8487,Mastercard,Jaetaan lasku
+RCP00647,@toni142,Ruokatori Kaisla,08.11.2025,12:55,"25,86 €",************7348,Mastercard,Jaetaan lasku
+RCP00648,Sami H.,Pilvari Trattoria,14.12.2025,13:11,"52,81 €",************1338,Mastercard,
+RCP00649,@jenna308,Ranta Market,23.12.2025,16:53,"7,17 €",************6216,Mastercard,Myydään: kuitti mukana
+RCP00650,@santeri207,Pikkukaupp0 Metsä,25.11.2025,17:09,"2,45 €",XXXX XXXX XXXX 5563,Mastercard,Myydään: kuitti mukana
+RCP00651,@harri911,Ruokatori Mänty,08.09.2025,11:42,"46,60 €",XXXX XXXX XXXX 8972,Mastercard,Takuukuitti talteen
+RCP00652,@susanna670,Rauta Lumora,11.10.2025,18:08,"36,87 €",************8220,Visa,Takuukuitti talteen
+RCP00653,@vaino927,Satama Ruokatori,27.11.2025,14:23,"9,98 €",XXXX XXXX XXXX 3744,Mastercard,Myydään: kuitti mukana
+RCP00654,@oliver124,Vaahtera Kioski,06.10.2025,16:10,"5,05 €",XXXX XXXX XXXX 9281,Mastercard,Jaetaan lasku
+RCP00655,@jaakko573,Kajo Rautakauppa,28.12.2025,08:40,"18,37 €",************5085,Mastercard,Takuukuitti talteen
+RCP00656,Eero K.,Ruokatori Mänty,12.07.2025,19:59,"223,30 €",************6958,Mastercard,Kulukorvaus
+RCP00657,@sirkka84,Ruokasatama Sarastus,07.08.2025,16:57,"24,47 €",XXXX XXXX XXXX 5779,Visa,Kulukorvaus
+RCP00658,@aram312,Polttoaine Tuohi,10.08.2025,12:03,"64,74 €",XXXX XXXX XXXX 4797,Mastercard,Kulukorvaus
+RCP00659,@reijo43,Ruokatori Utu,19.12.2025,09:49,"43,99 €",************7052,Mastercard,Takuukuitti talteen
+RCP00660,@eetu929,Kaislan Bistro,04.12.2025,18:03,"24,81 €",************2175,Visa,Takuukuitti talteen
+RCP00661,@samuel305,Kaisla Polttoaine,01.07.2025,15:04,"34,79 €",************7530,Mastercard,
+RCP00662,@aleksi1,Sisustus Pelto,22.12.2025,21:10,"158,43 €",************2657,Visa,Kulukorvaus
+RCP00663,Alvar B.,Bistro Sarastus,15.09.2025,15:13,"55,80 €",************6163,Visa,Jaetaan lasku
+RCP00664,Suvi S.,Elokuvateatteri Vire,15.11.2025,00:55,"10,62 €",XXXX XXXX XXXX 4980,Visa,Myydään: kuitti mukana
+RCP00665,Noora S.,Pub Kumlu,29.12.2025,23:09,"42,10 €",XXXX XXXX XXXX 3296,Visa,Takuukuitti talteen
+RCP00666,@jaana817,Tavaratalo Okra,17.08.2025,14:30,"58,18 €",************1233,Mastercard,Jaetaan lasku
+RCP00667,@marko160,Ruokalatama Kehrä,29.07.2025,16:54,"28,55 €",XXXX XXXX XXXX 0722,Mastercard,Takuukuitti talteen
+RCP00668,@susanna976,Kioski Asema,07.08.2025,12:28,"3,51 €",************8520,Mastercard,Jaetaan lasku
+RCP00669,Jenna L.,Market Kuohu,29.12.2025,17:30,"18,87 €",************9508,Visa,Myydään: kuitti mukana
+RCP00670,Maija J.,Hiidenkivi Trattoria,30.07.2025,13:48,"15,74 €",************9128,Mastercard,Jaetaan lasku
+RCP00671,@toni548,Ruokatori Rusko,30.12.2025,18:49,"35,73 €",************3008,Mastercard,Takuukuitti talteen
+RCP00672,@seija151,Ruokatori Tervala,15.07.2025,19:30,"98,74 €",************7579,Mastercard,Takuukuitti talteen
+RCP00673,@aino267,Pohjantuuli Kalvila,19.09.2025,17:33,"13,84 €",************4761,Visa,Jaetaan lasku
+RCP00674,Anneli S.,Pihlaja Ravintola,06.09.2025,11:30,"34,91 €",XXXX XXXX XXXX 9833,Visa,Myydään: kuitti mukana
+RCP00675,Ella K.,Bistro Lehvä,02.07.2025,19:16,"44,82 €",************5504,Mastercard,
+RCP00676,@venla512,Sinikallio Market,13.12.2025,15:48,"104,37 €",XXXX XXXX XXXX 3474,Mastercard,
+RCP00677,@maarit910,Ranta Ruokatori,22.10.2025,12:01,"47,34 €",************4245,Visa,
+RCP00678,Fadumo M.,Kahvila Aallon,03.08.2025,07:12,"6,39 €",************8361,Visa,Jaetaan lasku
+RCP00679,@ville286,Kanerva Pikkukauppa,29.09.2025,15:40,"15,09 €",************7491,Mastercard,Kulukorvaus
+RCP00680,Kari T.,Kuntosali Kuusi,08.08.2025,13:40,"40,35 €",************5425,Visa,Jaetaan lasku
+RCP00681,@taras54,Lehvä Kahvila,11.09.2025,17:29,"15,38 €",************4865,Mastercard,
+RCP00682,Juho K.,Pub Rauha,03.08.2025,19:51,"25,55 €",************7781,Visa,Myydään: kuitti mukana
+RCP00683,@milla447,Aura Transit,17.10.2025,18:51,"3,10 €",************3882,Visa,Myydään: kuitti mukana
+RCP00684,@jere103,Ruokatori Rusko,26.10.2025,16:14,"29,49 €",XXXX XXXX XXXX 2150,Mastercard,
+RCP00685,@sara779,Aura Transit,07.07.2025,00:13,"3,10 €",************2613,Mastercard,Myydään: kuitti mukana
+RCP00686,@juha647,Lehto Lähikauppa,20.12.2025,19:23,"98,51 €",XXXX XXXX XXXX 5794,Visa,Jaetaan lasku
+RCP00687,Arttu V.,Kehrä Burger,09.12.2025,18:35,"9,15 €",XXXX XXXX XXXX 5798,Visa,Myydään: kuitti mukana
+RCP00688,@rasmus866,Market SaIastus,19.12.2025,15:31,"11,65 €",XXXX XXXX XXXX 2746,Mastercard,Jaetaan lasku
+RCP00689,@pirkko549,Kaislan Pikkukauppa,31.07.2025,20:47,"13,90 €",************5535,Visa,Myydään: kuitti mukana
+RCP00690,@kati793,Lähikauppa Varpu,29.12.2025,18:36,"18,68 €",************8712,Visa,Takuukuitti talteen
+RCP00691,@katja609,Pelto Terveysasema Plus,29.07.2025,12:28,"209,94 €",************1965,Visa,Jaetaan lasku
+RCP00692,Elina M.,Ruokasatama Tervala,09.09.2025,15:08,"11,66 €",************0703,Mastercard,
+RCP00693,@sami244,Apteekki Rauha,01.11.2025,14:36,"29,96 €",************3053,Visa,Takuukuitti talteen
+RCP00694,Sara K.,Merivalo Pub,13.12.2025,00:25,"5,92 €",************9949,Mastercard,Kulukorvaus
+RCP00695,Tiina O.,Lehvä Apteekki,14.10.2025,17:38,"14,62 €",************1752,Mastercard,Kulukorvaus
+RCP00696,@henri53,Sarastus Lähikauppa,16.10.2025,17:20,"11,48 €",************9549,Mastercard,Myydään: kuitti mukana
+RCP00697,@ronja661,Aurinkokivi Elokuvateatteri,12.10.2025,19:27,"10,93 €",XXXX XXXX XXXX 7979,Mastercard,Takuukuitti talteen
+RCP00698,Fanni K.,Sarastus Lähikauppa,06.09.2025,12:44,"16,40 €",XXXX XXXX XXXX 0162,Visa,
+RCP00699,@susanna717,Lahjapuoti Kallio,11.09.2025,08:44,"10,42 €",************2725,Mastercard,
+RCP00700,@arttu111,Ruokasatama Lounari,02.10.2025,16:24,"5,70 €",************9373,Mastercard,Takuukuitti talteen
+RCP00701,@tellervo548,Kanerva Trattoria,15.09.2025,18:47,"41,66 €",************9448,Mastercard,Myydään: kuitti mukana
+RCP00702,@joel609,Apteekki Vaahtera,20.10.2025,13:05,"35,46 €",************1724,Visa,Takuukuitti talteen
+RCP00703,@marjatta218,Lähikauppa Pihlaja,15.11.2025,12:49,"11,43 €",************0033,Visa,Myydään: kuitti mukana
+RCP00704,Lasse K.,Pilvari Market,26.07.2025,20:28,"16,30 €",************0769,Mastercard,Jaetaan lasku
+RCP00705,@minna728,Viinimyymälä Pilvari,12.08.2025,20:04,"20,81 €",************9058,Visa,
+RCP00706,@oskari309,Ruokasatama Koulu,09.07.2025,15:20,"5,32 €",************9327,Visa,Jaetaan lasku
+RCP00707,@henri586,Lähikauppa Ruovo,20.12.2025,18:17,"3,86 €",************4541,Visa,Takuukuitti talteen
+RCP00708,@satu452,Tähtiväylä Sisustus,13.11.2025,11:00,"25,19 €",************8326,Visa,Myydään: kuitti mukana
+RCP00709,@sami211,Merivalo Pub,13.11.2025,22:57,"11,67 €",************2415,Mastercard,
+RCP00710,@maria857,Hiidenkivi Burger,06.11.2025,20:31,"36,52 €",************8735,Visa,Jaetaan lasku
+RCP00711,@eemeli25,Mänty Apteekki,22.07.2025,09:11,"30,35 €",XXXX XXXX XXXX 5188,Visa,Takuukuitti talteen
+RCP00712,Esa K.,LIhto Ruokatori,09.12.2025,16:35,"4,35 €",************3781,Visa,Jaetaan lasku
+RCP00713,@aulis546,Kaislan Apteekki,09.12.2025,13:35,"3,07 €",XXXX XXXX XXXX 5097,Visa,Takuukuitti talteen
+RCP00714,@sanna782,Aura Transit,31.12.2025,06:54,"3,10 €",XXXX XXXX XXXX 1255,Mastercard,Jaetaan lasku
+RCP00715,@elina68,Tavaratalo Merivalo,04.09.2025,17:28,"27,46 €",************1459,Visa,Myydään: kuitti mukana
+RCP00716,@lasse235,Pub Kirkko,17.07.2025,20:22,"10,24 €",************6961,Visa,
+RCP00717,Ari L.,Market Kajo,23.11.2025,18:33,"8,87 €",XXXX XXXX XXXX 2222,Visa,Takuukuitti talteen
+RCP00718,@aki861,Trattoria Saari,21.11.2025,18:16,"33,60 €",************0179,Visa,Takuukuitti talteen
+RCP00719,@jaakko949,Kauppa Bistro,14.08.2025,20:08,"42,71 €",XXXX XXXX XXXX 7914,Visa,Takuukuitti talteen
+RCP00720,Pekka L.,StayFinder Global,25.10.2025,12:02,"123,71 €",XXXX XXXX XXXX 7513,Mastercard,
+RCP00721,Siiri K.,Varpu Sushi,18.12.2025,11:23,"14,32 €",************7760,Mastercard,Kulukorvaus
+RCP00722,Seija H.,Pikkukauppa Pilvari,19.08.2025,19:29,"5,14 €",XXXX XXXX XXXX 4960,Mastercard,Myydään: kuitti mukana
+RCP00723,@riitta820,Haka Ruokatori,03.09.2025,10:25,"174,81 €",XXXX XXXX XXXX 9604,Visa,Kulukorvaus
+RCP00724,Satu R.,Apteekki Lehvä,21.12.2025,13:12,"22,87 €",XXXX XXXX XXXX 8638,Visa,Kulukorvaus
+RCP00725,Tellervo A.,Market Tammi,17.11.2025,12:55,"22,03 €",************3635,Visa,Takuukuitti talteen
+RCP00726,@toni484,Aura Transit,06.12.2025,15:35,"2,00 €",************0217,Mastercard,Kulukorvaus
+RCP00727,@risto518,Aura Transit,26.11.2025,17:42,"3,10 €",************2870,Visa,Jaetaan lasku
+RCP00728,@marko30,Lähikauppa Merivalo,06.07.2025,10:02,"11,37 €",XXXX XXXX XXXX 7675,Visa,Kulukorvaus
+RCP00729,Charlotte E.,Pizzeria Pilvari,06.09.2025,12:00,"11,63 €",************6600,Visa,
+RCP00730,Aleksi S.,Kaisla Burger,08.10.2025,10:20,"10,69 €",XXXX XXXX XXXX 7658,Mastercard,Myydään: kuitti mukana
+RCP00731,@emma962,Merivalo Pub,24.08.2025,20:18,"31,40 €",************0904,Mastercard,
+RCP00732,Camilla B.,Ruokasatama Ielto,18.12.2025,17:42,"14,88 €",XXXX XXXX XXXX 5696,Mastercard,Kulukorvaus
+RCP00733,@elina220,Pohjantuuli Kahvila,10.08.2025,16:43,"13,60 €",************6349,Mastercard,Takuukuitti talteen
+RCP00734,@onni732,Lääkärikeskus Koivu,30.10.2025,09:38,"55,51 €",XXXX XXXX XXXX 7444,Mastercard,Myydään: kuitti mukana
+RCP00735,@unto699,Ruokatori Saari,04.10.2025,18:03,"63,68 €",XXXX XXXX XXXX 9254,Visa,Jaetaan lasku
+RCP00736,@eero808,Elektroniikka Lumora,26.09.2025,19:29,"121,83 €",XXXX XXXX XXXX 6958,Mastercard,Myydään: kuitti mukana
+RCP00737,@tero725,Ravintola Pihlaja,30.08.2025,11:15,"20,98 €",************4965,Mastercard,Jaetaan lasku
+RCP00738,Margareta S.,Mylly Ruokasatama,11.07.2025,17:28,"386,51 €",************8257,Visa,Kulukorvaus
+RCP00739,Essi P.,Ruokasatama Asema,03.08.2025,14:02,"156,02 €",************0728,Visa,Kulukorvaus
+RCP00740,Aila J.,Olutraviltola Tammi,18.11.2025,19:37,"7,65 €",************3553,Visa,
+RCP00741,@eemeli630,ATM Kanerva Mynämäki,08.07.2025,11:14,"40,00 €",XXXX XXXX XXXX 3636,Mastercard,Jaetaan lasku
+RCP00742,@vesa361,Mylly Market,18.07.2025,15:11,"6,62 €",************3234,Visa,
+RCP00743,Markku M.,Ruokatori Tammi,21.12.2025,15:41,"14,98 €",XXXX XXXX XXXX 2326,Mastercard,Jaetaan lasku
+RCP00744,@aki70,Ruokasatama Pelto,20.10.2025,15:39,"27,19 €",XXXX XXXX XXXX 0793,Visa,Takuukuitti talteen
+RCP00745,@toni566,Kioski Tammi,15.12.2025,13:41,"4,39 €",************6318,Visa,Myydään: kuitti mukana
+RCP00746,@harri462,Lahjapuoti Sarastus,16.11.2025,09:51,"29,57 €",************6879,Visa,Jaetaan lasku
+RCP00747,@margus168,Pikkukauppa Kajo,08.10.2025,18:24,"4,53 €",************3594,Mastercard,Kulukorvaus
+RCP00748,@rebecca20,Harju Lääkärikeskus,10.12.2025,13:28,"137,65 €",************7118,Visa,Takuukuitti talteen
+RCP00749,@tommi450,Koivu Viinimyymälä,23.10.2025,17:27,"31,90 €",XXXX XXXX XXXX 1542,Mastercard,Takuukuitti talteen
+RCP00750,Alvar B.,Pihlaja Bistro,24.07.2025,17:23,"33,53 €",************6163,Visa,Myydään: kuitti mukana
+RCP00751,Aino H.,Vaskivuori Apteekki,18.11.2025,17:10,"19,58 €",XXXX XXXX XXXX 7382,Visa,Kulukorvaus
+RCP00752,@oona781,Ruokatori Varpu,29.11.2025,18:14,"23,90 €",XXXX XXXX XXXX 8092,Mastercard,
+RCP00753,@laura444,Mänty Taksi,12.08.2025,22:23,"15,09 €",XXXX XXXX XXXX 0470,Mastercard,Kulukorvaus
+RCP00754,@tommi158,Tähkä Lähikauppa,03.07.2025,19:28,"26,81 €",************3512,Mastercard,
+RCP00755,Emma L.,Viinimyymälä Kallio,20.12.2025,17:24,"86,01 €",************2961,Visa,Jaetaan lasku
+RCP00756,Raimo V.,Mylly Market,23.10.2025,18:45,"39,90 €",************9292,Mastercard,Kulukorvaus
+RCP00757,Riku A.,Lemmikki Asema,26.11.2025,14:17,"28,54 €",XXXX XXXX XXXX 5133,Visa,Takuukuitti talteen
+RCP00758,Jarkko S.,Puisto Muoti,08.07.2025,19:11,"29,17 €",XXXX XXXX XXXX 2387,Visa,Kulukorvaus
+RCP00759,@raili889,Kuntosali Lounari,01.09.2025,16:10,"32,42 €",************7269,Visa,Myydään: kuitti mukana
+RCP00760,@mattias114,Ruokasatama Tammi,30.08.2025,11:14,"40,70 €",************1143,Mastercard,
+RCP00761,@minna370,Ruokatori Kallio,05.10.2025,19:20,"21,98 €",************6341,Mastercard,Kulukorvaus
+RCP00762,@mervi689,ATM Pilvari Turku,15.11.2025,19:45,"100,00 €",************7552,Visa,Kulukorvaus
+RCP00763,@outi799,Trattoria Saari,15.10.2025,17:02,"24,90 €",************0796,Visa,Jaetaan lasku
+RCP00764,@taras958,Kioski Kuohu,13.11.2025,22:38,"5,85 €",XXXX XXXX XXXX 9311,Mastercard,Jaetaan lasku
+RCP00765,Markku R.,KotirantalSushi,14.09.2025,20:51,"8,55 €",************6352,Visa,Kulukorvaus
+RCP00766,@jarkko897,Lähikauppa Pilvari,15.08.2025,13:12,"11,38 €",************9484,Mastercard,Myydään: kuitti mukana
+RCP00767,@helena876,Tavaratalo Haka,01.12.2025,19:01,"64,38 €",************2816,Mastercard,Jaetaan lasku
+RCP00768,Teemu K.,Kuusi Sushi,14.08.2025,17:58,"15,84 €",************5285,Mastercard,Myydään: kuitti mukana
+RCP00769,Leena P.,Rauta Ranta,21.10.2025,15:09,"28,50 €",************0235,Visa,Jaetaan lasku
+RCP00770,Eero R.,Lounari Trattoria,24.07.2025,17:34,"34,13 €",************8787,Mastercard,Jaetaan lasku
+RCP00771,@eveliina56,Kehrä Trattoria,08.07.2025,16:05,"40,13 €",XXXX XXXX XXXX 9883,Visa,Kulukorvaus
+RCP00772,@santeri342,Bistro Kuohu,09.11.2025,19:27,"58,00 €",XXXX XXXX XXXX 5510,Visa,Takuukuitti talteen
+RCP00773,@noora351,Pilvari Ravintola,12.11.2025,19:12,"47,74 €",************3648,Mastercard,
+RCP00774,@essi252,Mänty Pizzeria,15.08.2025,17:11,"14,90 €",XXXX XXXX XXXX 8348,Visa,Takuukuitti talteen
+RCP00775,Susanna P.,Ruokatori Selkä,19.08.2025,20:25,"19,29 €",************3423,Mastercard,Myydään: kuitti mukana
+RCP00776,@tarja163,Asema Lähikauppa,30.07.2025,21:50,"24,49 €",XXXX XXXX XXXX 6670,Visa,Myydään: kuitti mukana
+RCP00777,@eeva806,Ruokatori Pelto,28.09.2025,16:46,"8,18 €",************3656,Visa,
+RCP00778,@hanna284,Ruokatori Harmaja,13.10.2025,12:41,"41,45 €",************8559,Visa,Jaetaan lasku
+RCP00779,@michael950,Ruokatori Saari,03.11.2025,18:22,"37,91 €",************9912,Mastercard,Takuukuitti talteen
+RCP00780,@kalevi608,Pikkukauppa Harmaja,11.08.2025,10:08,"7,14 €",************6469,Mastercard,Takuukuitti talteen
+RCP00781,Jarkko H.,Ruokatori Metsä,26.12.2025,14:52,"40,96 €",XXXX XXXX XXXX 4955,Visa,Takuukuitti talteen
+RCP00782,@minna369,Tähtiväylä Ruokasatama,17.07.2025,14:48,"4,07 €",************7070,Visa,
+RCP00783,Markku M.,Asema Kaisla,06.11.2025,09:03,"82,26 €",************2326,Mastercard,
+RCP00784,@jesse856,Mylly Ruokasatama,12.10.2025,19:24,"54,74 €",XXXX XXXX XXXX 6063,Mastercard,Jaetaan lasku
+RCP00785,Harri H.,Lemmikki Rauha,25.07.2025,10:51,"208,09 €",************6879,Visa,Myydään: kuitti mukana
+RCP00786,Sanna H.,Koulu Ruokatori,14.09.2025,16:38,"42,74 €",************9444,Mastercard,Myydään: kuitti mukana
+RCP00787,@zainab648,Ruokatori Satama,03.07.2025,14:01,"54,93 €",************6405,Visa,Takuukuitti talteen
+RCP00788,@sami896,Burger Pelto,05.10.2025,08:38,"19,35 €",************4938,Visa,Myydään: kuitti mukana
+RCP00789,@iida627,Sushi Kanerva,01.11.2025,13:48,"12,27 €",************8840,Visa,Jaetaan lasku
+RCP00790,@joni943,Lemmikki Puisto,20.12.2025,10:06,"130,87 €",************3127,Mastercard,Takuukuitti talteen
+RCP00791,@seija317,Metsä Bistro,10.10.2025,16:42,"30,35 €",************8869,Mastercard,Kulukorvaus
+RCP00792,Piia L.,Lähikauppa Merivalo,24.12.2025,09:33,"21,18 €",************6022,Visa,Kulukorvaus
+RCP00793,Matias K.,Bistro Asema,09.09.2025,11:50,"61,50 €",************3087,Mastercard,Jaetaan lasku
+RCP00794,@minna86,ATM Pohjantuuli Kaarina,01.11.2025,15:55,"50,00 €",************9333,Mastercard,
+RCP00795,@veera63,Ruokasatama Sarastus,13.12.2025,08:20,"30,92 €",************2467,Visa,Jaetaan lasku
+RCP00796,Niko J.,Lääkärikeskus Koivu,13.11.2025,08:17,"169,44 €",************5743,Mastercard,Jaetaan lasku
+RCP00797,@matti571,ATM Ranta Turku,02.10.2025,10:36,"50,00 €",************6666,Mastercard,Myydään: kuitti mukana
+RCP00798,@elina595,Tähkä Kahvila,27.08.2025,18:34,"9,56 €",XXXX XXXX XXXX 0354,Visa,
+RCP00799,@laura486,Tähtiväylä Ruokasatama,16.12.2025,14:01,"19,75 €",************7445,Mastercard,Takuukuitti talteen
+RCP00800,@antero181,ATM Pihlaja Turku,17.10.2025,20:01,"40,00 €",XXXX XXXX XXXX 7895,Mastercard,
+RCP00801,@eino323,Haka Taksi,04.08.2025,01:44,"40,70 €",************1284,Visa,Kulukorvaus
+RCP00802,Roope S.,Kajo Apteekki,03.09.2025,21:05,"26,08 €",XXXX XXXX XXXX 8692,Visa,
+RCP00803,@andrii446,Market Kuusi,05.10.2025,21:59,"29,31 €",XXXX XXXX XXXX 6688,Mastercard,Takuukuitti talteen
+RCP00804,@merja838,Lähikauppa Lounari,24.11.2025,19:04,"116,61 €",************2052,Mastercard,
+RCP00805,Kaisa H.,Kallio Market,15.09.2025,06:57,"57,73 €",XXXX XXXX XXXX 4085,Visa,Jaetaan lasku
+RCP00806,@pasi845,V0inimyymälä Hiidenkivi,16.09.2025,08:35,"83,59 €",************4773,Visa,Myydään: kuitti mukana
+RCP00807,@alvar964,Kotiranta Kioski,28.09.2025,06:23,"16,01 €",XXXX XXXX XXXX 6163,Visa,
+RCP00808,@kaisa942,Vire Tavaratalo,15.10.2025,17:26,"60,46 €",XXXX XXXX XXXX 7413,Visa,
+RCP00809,@lauri833,Hammasklinikka Pelto,08.12.2025,14:39,"88,20 €",XXXX XXXX XXXX 5317,Visa,Kulukorvaus
+RCP00810,@aram765,Kahvila Pohjantuuli,29.11.2025,22:56,"9,30 €",************8067,Mastercard,Takuukuitti talteen
+RCP00811,@tiina741,Ruokatori Kauppa,09.07.2025,08:46,"15,84 €",XXXX XXXX XXXX 6881,Visa,Jaetaan lasku
+RCP00812,Jaakko L.,Hammasklinikka Pelto,02.07.2025,11:26,"61,18 €",XXXX XXXX XXXX 4452,Mastercard,Kulukorvaus
+RCP00813,Lasse M.,Kajo Rautakauppa,09.08.2025,08:27,"62,53 €",XXXX XXXX XXXX 4328,Visa,Myydään: kuitti mukana
+RCP00814,@janne397,Apteekki Ranta,25.11.2025,11:06,"7,98 €",************0044,Visa,
+RCP00815,Sara J.,Ranta Ruokatori,24.12.2025,17:41,"122,26 €",XXXX XXXX XXXX 0978,Mastercard,
+RCP00816,@maria665,Koulu Market,21.12.2025,15:38,"13,17 €",************4811,Visa,Jaetaan lasku
+RCP00817,@erkki462,Kivaro Apteekki,10.09.2025,17:15,"32,01 €",************9656,Visa,Jaetaan lasku
+RCP00818,@kirsti835,U0u Pizzeria,14.08.2025,11:39,"7,14 €",************2558,Visa,Myydään: kuitti mukana
+RCP00819,@riikka355,Sinikallio Market,24.12.2025,10:33,"16,54 €",XXXX XXXX XXXX 7944,Visa,Myydään: kuitti mukana
+RCP00820,Maarit I.,Lemmikki Asema,01.12.2025,19:40,"48,88 €",************0157,Visa,Kulukorvaus
+RCP00821,@matti717,Ruokatori Hiidenkivi,30.12.2025,16:17,"190,44 €",************7141,Mastercard,Takuukuitti talteen
+RCP00822,Ella J.,ATM Kotiranta Salo,08.11.2025,20:46,"50,00 €",************3064,Visa,Kulukorvaus
+RCP00823,Ville T.,Tavaratalo Lehto,15.12.2025,22:48,"64,03 €",************3276,Visa,Jaetaan lasku
+RCP00824,@tiina576,Ruokatori Puisto,24.07.2025,12:52,"22,36 €",XXXX XXXX XXXX 6063,Visa,
+RCP00825,Sara J.,Market Rauha,14.12.2025,19:13,"14,82 €",XXXX XXXX XXXX 0978,Mastercard,Jaetaan lasku
+RCP00826,@iida294,Asema Baari,06.08.2025,00:22,"25,43 €",************2451,Visa,
+RCP00827,@marko466,Jokivarsi Pikkukauppa,04.10.2025,16:53,"28,60 €",************9017,Visa,Kulukorvaus
+RCP00828,@aili385,Tavaratalo Sinikallio,18.09.2025,18:57,"66,03 €",************2573,Mastercard,Jaetaan lasku
+RCP00829,@aulis772,Varpu Sisustus,15.12.2025,10:48,"23,23 €",************3749,Mastercard,Kulukorvaus
+RCP00830,Henri S.,Ruokatori Lehvä,22.08.2025,17:02,"12,25 €",************4698,Visa,
+RCP00831,@maksim569,Market Lehvä,03.09.2025,12:22,"75,99 €",XXXX XXXX XXXX 9135,Visa,Jaetaan lasku
+RCP00832,Jere K.,ATM Harju Naantali,16.12.2025,11:16,"40,00 €",************3179,Visa,Takuukuitti talteen
+RCP00833,@ville941,Lounari Tietokone,07.11.2025,19:26,"163,68 €",************6020,Mastercard,Myydään: kuitti mukana
+RCP00834,@kalle988,Lähikauppa Hiidenkivi,17.08.2025,15:30,"26,93 €",************1088,Mastercard,Jaetaan lasku
+RCP00835,@mikko5,Pelto Ruokasatama,29.11.2025,19:58,"41,37 €",************4824,Visa,Myydään: kuitti mukana
+RCP00836,@satu624,Market Harju,04.10.2025,16:45,"20,49 €",XXXX XXXX XXXX 0287,Visa,Kulukorvaus
+RCP00837,@venla182,Kaislan Olutravintola,06.11.2025,22:19,"29,61 €",************8511,Visa,Takuukuitti talteen
+RCP00838,Janne K.,Aura Transit,12.08.2025,06:22,"3,10 €",XXXX XXXX XXXX 6527,Mastercard,Kulukorvaus
+RCP00839,@jani914,Ruokasatama Vaahtera,09.12.2025,15:53,"18,55 €",XXXX XXXX XXXX 4462,Visa,Kulukorvaus
+RCP00840,@mikko229,Tavaratalo Tervala,21.12.2025,18:54,"130,83 €",XXXX XXXX XXXX 5822,Visa,Jaetaan lasku
+RCP00841,@elina469,Bistro Kallio,16.10.2025,18:46,"27,72 €",************7683,Mastercard,Takuukuitti talteen
+RCP00842,@julia45,Puisto Ruokatori,04.10.2025,20:03,"40,99 €",************6304,Visa,
+RCP00843,Aleksi R.,Kanerva Olutravintola,17.10.2025,21:23,"9,27 €",************5003,Visa,Jaetaan lasku
+RCP00844,@minna1,Aura Transit,15.07.2025,16:54,"3,10 €",XXXX XXXX XXXX 7564,Visa,Jaetaan lasku
+RCP00845,@aila567,Lähikauppa Selkä,14.11.2025,19:22,"11,05 €",XXXX XXXX XXXX 9948,Visa,Kulukorvaus
+RCP00846,@siiri124,Vaahtera Muoti,21.07.2025,19:40,"60,14 €",************0202,Mastercard,Takuukuitti talteen
+RCP00847,@markku176,Burger Kivaro,17.08.2025,14:07,"24,04 €",************2326,Mastercard,Takuukuitti talteen
+RCP00848,@marjo745,Ruokatori Lehvä,19.12.2025,19:58,"40,15 €",************3023,Mastercard,Takuukuitti talteen
+RCP00849,@tomi748,Rauta1Aura Ruokatori,17.12.2025,13:18,"26,45 €",************2163,Visa,Jaetaan lasku
+RCP00850,@sara12,Tavaratalo Satama,03.11.2025,16:02,"64,40 €",************2245,Visa,Kulukorvaus
+RCP00851,@aila667,Tavaratalo Puisto,17.12.2025,13:30,"14,32 €",XXXX XXXX XXXX 2449,Visa,Jaetaan lasku
+RCP00852,@jaana73,Pikkukauppa Lehto,07.09.2025,15:00,"7,80 €",XXXX XXXX XXXX 0993,Mastercard,Takuukuitti talteen
+RCP00853,@tiina581,Kotiranta Ruokatori,23.09.2025,20:42,"2,78 €",XXXX XXXX XXXX 6338,Mastercard,Kulukorvaus
+RCP00854,@suvi496,Saarni Vaate,03.07.2025,17:02,"53,97 €",************2423,Mastercard,Jaetaan lasku
+RCP00855,@toni665,Olutravintola Vire,02.08.2025,22:24,"10,53 €",************8063,Mastercard,Takuukuitti talteen
+RCP00856,@julia145,Bistro Rauha,02.10.2025,18:29,"40,27 €",XXXX XXXX XXXX 9522,Visa,Kulukorvaus
+RCP00857,Fadumo A.,Ruokatori Saari,21.10.2025,21:34,"35,63 €",************8241,Visa,Kulukorvaus
+RCP00858,@heli184,RuokItori Metsä,13.08.2025,09:56,"36,50 €",************3483,Mastercard,Kulukorvaus
+RCP00859,Jaakko J.,Lähikauppa Selkä,10.10.2025,18:12,"78,11 €",************0609,Mastercard,Takuukuitti talteen
+RCP00860,@riikka974,As1ma Kumpu,25.10.2025,17:19,"36,01 €",XXXX XXXX XXXX 7659,Visa,Takuukuitti talteen
+RCP00861,@paula407,Market Kuohu,04.07.2025,13:15,"85,53 €",************6665,Mastercard,Takuukuitti talteen
+RCP00862,Veeti L.,Muoti Puisto,12.09.2025,13:03,"116,96 €",************8678,Visa,Myydään: kuitti mukana
+RCP00863,@onni979,Kahvila Hiidenkivi,27.07.2025,18:24,"10,15 €",************0306,Mastercard,
+RCP00864,@antti667,Pelto Vaate,12.08.2025,12:23,"33,54 €",XXXX XXXX XXXX 8521,Mastercard,Myydään: kuitti mukana
+RCP00865,@mykola293,Lääkärikeskus Niitty,13.08.2025,09:55,"79,91 €",************2743,Visa,Jaetaan lasku
+RCP00866,@heli854,Sisustus Lehto,09.11.2025,18:55,"12,59 €",************4447,Mastercard,Takuukuitti talteen
+RCP00867,@samuel876,Jokivarsi Pikkukauppa,18.11.2025,08:11,"7,71 €",************9337,Visa,Myydään: kuitti mukana
+RCP00868,@lasse61,ATM Pihlaja Turku,17.10.2025,09:29,"40,00 €",XXXX XXXX XXXX 6961,Visa,Takuukuitti talteen
+RCP00869,Shirin K.,Elektroniikka Lumora,13.10.2025,21:09,"59,67 €",************7352,Mastercard,Myydään: kuitti mukana
+RCP00870,@hannele849,Market Asema,30.08.2025,18:00,"42,08 €",************9998,Mastercard,Takuukuitti talteen
+RCP00871,Hanna A.,Trattoria Tuohi,04.10.2025,18:44,"45,94 €",XXXX XXXX XXXX 9536,Mastercard,Kulukorvaus
+RCP00872,@miro561,Tuohi Ruokatori,21.07.2025,18:13,"42,58 €",************8704,Visa,Myydään: kuitti mukana
+RCP00873,@juhani571,Tähtiväylä Pizzeria,19.09.2025,17:12,"4,38 €",XXXX XXXX XXXX 3245,Mastercard,Myydään: kuitti mukana
+RCP00874,@anna267,Tavaratalo Okra,08.11.2025,13:40,"101,97 €",XXXX XXXX XXXX 6396,Mastercard,Jaetaan lasku
+RCP00875,@aleksi674,Kuohu Kirjakauppa,17.12.2025,13:24,"16,54 €",************3721,Mastercard,Kulukorvaus
+RCP00876,@teemu873,Lounari Ruokasatama,18.08.2025,14:05,"17,95 €",XXXX XXXX XXXX 6492,Visa,Jaetaan lasku
+RCP00877,@mari626,Autokorjaamo Tammi,15.07.2025,17:23,"130,66 €",************5902,Visa,Jaetaan lasku
+RCP00878,Susanna T.,Lumme Market,16.09.2025,21:38,"43,52 €",************8775,Mastercard,Jaetaan lasku
+RCP00879,Hugo N.,Lähikauppa Kotiranta,20.10.2025,14:14,"30,13 €",************1853,Mastercard,Jaetaan lasku
+RCP00880,@ronja961,Market RauIa,11.07.2025,16:57,"27,10 €",************0208,Visa,Jaetaan lasku
+RCP00881,@mari51,Market Saarni,09.11.2025,07:22,"8,18 €",************4840,Mastercard,Jaetaan lasku
+RCP00882,@mustafa243,Ruokasatama Koulu,20.12.2025,12:51,"23,93 €",************9510,Visa,Jaetaan lasku
+RCP00883,Niko S.,Asema Baari,27.07.2025,21:38,"14,59 €",XXXX XXXX XXXX 5389,Mastercard,Takuukuitti talteen
+RCP00884,@vesa386,Kioski Sinikallio,21.09.2025,17:57,"5,40 €",************4425,Mastercard,Takuukuitti talteen
+RCP00885,@aki304,Ruokatori Tammi,06.09.2025,15:13,"54,79 €",XXXX XXXX XXXX 7025,Mastercard,Takuukuitti talteen
+RCP00886,Matilda S.,Trattoria Mänty,13.10.2025,17:13,"83,29 €",************5757,Visa,Kulukorvaus
+RCP00887,@ritva412,Harju Market,09.11.2025,16:04,"10,37 €",************7803,Mastercard,
+RCP00888,@ida940,Lähikauppa Ilmarin,24.08.2025,12:47,"12,31 €",XXXX XXXX XXXX 1484,Visa,
+RCP00889,@niina386,Kanerva Olutravintola,09.08.2025,15:22,"33,24 €",************7758,Visa,Takuukuitti talteen
+RCP00890,@rojin236,Olutravintola Vaskivuori,12.12.2025,00:59,"16,82 €",XXXX XXXX XXXX 1917,Visa,
+RCP00891,Piia H.,Vaate Utu,05.12.2025,18:07,"156,28 €",XXXX XXXX XXXX 6219,Visa,Jaetaan lasku
+RCP00892,@eila537,Pohjantuuli Market,07.12.2025,18:17,"19,60 €",************5608,Visa,Myydään: kuitti mukana
+RCP00893,@lan877,Ruokasatama Niitty,03.10.2025,12:10,"19,81 €",XXXX XXXX XXXX 5802,Visa,Myydään: kuitti mukana
+RCP00894,Merja Y.,Viinimyymälä Lehto,22.08.2025,20:29,"17,35 €",XXXX XXXX XXXX 4206,Visa,Myydään: kuitti mukana
+RCP00895,@valtteri468,Bistro Ranta,06.08.2025,08:25,"30,67 €",************8566,Mastercard,Kulukorvaus
+RCP00896,@tiina874,Saari Pizzeria,10.11.2025,16:02,"7,94 €",XXXX XXXX XXXX 5618,Mastercard,Jaetaan lasku
+RCP00897,Wilma K.,Pub Okra,17.11.2025,17:48,"19,91 €",************6002,Mastercard,Jaetaan lasku
+RCP00898,Roosa T.,Lounari Ruokasatama,17.08.2025,15:47,"35,78 €",************1249,Visa,Kulukorvaus
+RCP00899,@hannu525,Pikkukauppa Kaislan,27.12.2025,15:01,"9,17 €",XXXX XXXX XXXX 5748,Mastercard,Takuukuitti talteen
+RCP00900,@suvi677,Kuusi Viinimyymälä,03.10.2025,08:51,"43,64 €",XXXX XXXX XXXX 9406,Visa,Kulukorvaus
+RCP00901,@alvar151,Aura Transit,17.09.2025,06:27,"3,10 €",************4475,Visa,Jaetaan lasku
+RCP00902,@ville509,Pikkukauppa Okra,13.12.2025,09:35,"3,36 €",************5446,Visa,Jaetaan lasku
+RCP00903,@pablo136,Hammasklinikka Kauppa,09.10.2025,12:22,"64,44 €",XXXX XXXX XXXX 4344,Mastercard,Myydään: kuitti mukana
+RCP00904,Agnes H.,Kaislan Bistro,02.09.2025,17:33,"37,75 €",************0603,Mastercard,Jaetaan lasku
+RCP00905,@ronja39,Kaislan Market,10.10.2025,08:03,"25,83 €",************1862,Mastercard,Myydään: kuitti mukana
+RCP00906,@jari745,Autokorjaamo Kuohu,27.08.2025,17:36,"57,51 €",XXXX XXXX XXXX 8100,Mastercard,Takuukuitti talteen
+RCP00907,Mika J.,Lääkärikeskus Niitty,18.12.2025,17:25,"112,61 €",************5155,Visa,Takuukuitti talteen
+RCP00908,@emilia334,Kioski Sinikallio,28.11.2025,19:58,"5,73 €",************9557,Mastercard,Takuukuitti talteen
+RCP00909,@milla104,Baari Metsä,16.10.2025,21:44,"8,44 €",************9788,Mastercard,
+RCP00910,Mikko K.,Ruokatori Satama,10.12.2025,17:14,"21,38 €",************2903,Visa,Takuukuitti talteen
+RCP00911,@oskari423,Ruokasatama Pelto,23.08.2025,18:35,"18,61 €",************1519,Mastercard,Myydään: kuitti mukana
+RCP00912,@pekka502,Tavaratalo Puisto,01.08.2025,20:32,"29,02 €",************4751,Mastercard,
+RCP00913,@aino989,Lähikauppa Merivalo,08.12.2025,15:09,"7,82 €",************8191,Mastercard,Takuukuitti talteen
+RCP00914,@aditya111,Market Rauta-Aura,24.09.2025,14:53,"20,64 €",XXXX XXXX XXXX 0527,Mastercard,
+RCP00915,@jussi701,Lahjapuoti Tehdas,17.10.2025,18:03,"4,57 €",************5054,Visa,Myydään: kuitti mukana
+RCP00916,@niina635,Rauta-Aura Elokuvateatteri,21.12.2025,01:52,"20,57 €",XXXX XXXX XXXX 7889,Mastercard,Jaetaan lasku
+RCP00917,Ilkka N.,Market Vire,20.12.2025,17:32,"96,81 €",XXXX XXXX XXXX 9504,Mastercard,Jaetaan lasku
+RCP00918,@mattias753,Lumora Lähikauppa,27.07.2025,20:40,"45,02 €",************1143,Mastercard,
+RCP00919,Emilia I.,Sisustus Selkä,15.09.2025,19:19,"22,31 €",XXXX XXXX XXXX 5275,Visa,Kulukorvaus
+RCP00920,Kaarina R.,Koulu Market,02.11.2025,21:45,"63,33 €",XXXX XXXX XXXX 0201,Mastercard,Myydään: kuitti mukana
+RCP00921,Katja L.,Harmaja Market,05.12.2025,07:19,"7,18 €",************0583,Mastercard,Jaetaan lasku
+RCP00922,@raimo205,Ruokasatama Pilvari,07.07.2025,17:08,"14,91 €",************9603,Mastercard,Jaetaan lasku
+RCP00923,Veeti R.,Pizzeria Tähtiväylä,02.09.2025,17:58,"11,14 €",************5702,Mastercard,Takuukuitti talteen
+RCP00924,Teemu A.,Pohjantuuli Market,11.10.2025,14:10,"40,25 €",************8168,Visa,
+RCP00925,@julia328,Lähikauppa Kuohu,07.12.2025,19:39,"20,19 €",************4446,Mastercard,Takuukuitti talteen
+RCP00926,@erik744,L0mme Burger,15.10.2025,16:38,"7,09 €",XXXX XXXX XXXX 4153,Visa,Takuukuitti talteen
+RCP00927,Kalevi H.,Market Kuusi,21.11.2025,15:07,"31,83 €",XXXX XXXX XXXX 2345,Mastercard,Myydään: kuitti mukana
+RCP00928,Timo H.,Kajo Tavaratalo,14.09.2025,14:36,"7,20 €",************5562,Mastercard,
+RCP00929,@elina708,Pikkukauppa Ruovo,15.08.2025,16:15,"20,53 €",XXXX XXXX XXXX 1926,Mastercard,Takuukuitti talteen
+RCP00930,@aila930,Kajo Viinimyymälä,13.11.2025,19:24,"15,32 €",************3475,Visa,Myydään: kuitti mukana
+RCP00931,@pirkko915,Utu Pizzeria,08.12.2025,20:13,"13,93 €",************1695,Mastercard,Takuukuitti talteen
+RCP00932,Anni K.,Rauha Lähikauppa,21.12.2025,12:47,"30,37 €",************5543,Visa,Myydään: kuitti mukana
+RCP00933,Leena R.,Fashion Málaga Central,29.08.2025,13:43,"347,33 €",************9074,Mastercard,
+RCP00934,@roosa735,Tavaratalo Sin0kallio,11.12.2025,16:16,"65,36 €",************8305,Mastercard,Takuukuitti talteen
+RCP00935,@jarmo129,Tähkä Ruokasatama,16.09.2025,13:33,"28,52 €",************9834,Mastercard,Jaetaan lasku
+RCP00936,Ella K.,Merivalo Rautakauppa,16.11.2025,20:08,"172,27 €",XXXX XXXX XXXX 5504,Mastercard,Jaetaan lasku
+RCP00937,Aino K.,Tavaratalo Rusko,30.08.2025,18:41,"88,82 €",************9572,Visa,Jaetaan lasku
+RCP00938,@satu885,Pub Kirkko,22.08.2025,21:29,"18,92 €",XXXX XXXX XXXX 0818,Visa,
+RCP00939,@veera330,Pikkukauppa Kajo,20.11.2025,11:02,"15,70 €",************3660,Mastercard,Jaetaan lasku
+RCP00940,@elina455,Vaate Pilvari,20.07.2025,09:48,"36,47 €",************8480,Mastercard,Myydään: kuitti mukana
+RCP00941,@johanna245,Bistro Ruovo,19.09.2025,17:26,"43,68 €",************9700,Mastercard,Myydään: kuitti mukana
+RCP00942,Pasi S.,Ruovo Ruokatori,13.08.2025,16:19,"5,31 €",************9383,Visa,
+RCP00943,@roope200,Market Kotiranta,10.08.2025,10:37,"20,15 €",************0682,Visa,Jaetaan lasku
+RCP00944,@sanna897,Tuohi Viinimyymälä,22.08.2025,15:12,"64,57 €",************5607,Visa,Jaetaan lasku
+RCP00945,@jere326,Kioski Sinikallio,14.08.2025,19:23,"6,01 €",************9414,Visa,Takuukuitti talteen
+RCP00946,Marika K.,Kir0akauppa Kanerva,13.08.2025,17:41,"53,77 €",XXXX XXXX XXXX 6752,Visa,
+RCP00947,@sara514,Bistro Lehvä,25.09.2025,13:35,"28,51 €",************3731,Visa,Takuukuitti talteen
+RCP00948,Ari P.,Sushi Ranta,28.07.2025,20:56,"14,17 €",************0571,Visa,Kulukorvaus
+RCP00949,@wilma507,Pilvari Lähikauppa,16.10.2025,22:10,"35,77 €",************3997,Mastercard,Myydään: kuitti mukana
+RCP00950,@jukka579,Market Lehvä,04.12.2025,17:42,"33,08 €",************7069,Mastercard,Kulukorvaus
+RCP00951,@elina376,Niitty Ruokasatama,22.08.2025,18:11,"13,02 €",************5488,Visa,Kulukorvaus
+RCP00952,@aki853,Lehvä Viinimyymälä,01.07.2025,12:05,"35,32 €",************2198,Mastercard,Kulukorvaus
+RCP00953,Artjom L.,Kivaro Elokuvateatteri,06.11.2025,20:02,"20,02 €",************1102,Mastercard,Jaetaan lasku
+RCP00954,@jarkko243,Lemmikki Asema,17.11.2025,11:58,"161,90 €",************9192,Mastercard,
+RCP00955,@susanna450,Pizzeria Mylly,05.12.2025,17:00,"9,87 €",XXXX XXXX XXXX 4139,Visa,
+RCP00956,@nea565,Saari Pizzeria,03.11.2025,18:12,"15,83 €",************1391,Visa,
+RCP00957,@johanna32,Market Koulu,30.07.2025,16:36,"73,92 €",************1839,Visa,
+RCP00958,@veikko809,Rauha Ravintola,08.07.2025,18:59,"60,31 €",************2164,Visa,Jaetaan lasku
+RCP00959,@samuel612,Ruokasatama Kajo,21.08.2025,18:48,"18,28 €",XXXX XXXX XXXX 1154,Visa,Takuukuitti talteen
+RCP00960,Sara A.,LahjapIoti Kivi,20.10.2025,13:35,"26,47 €",************2567,Mastercard,Takuukuitti talteen
+RCP00961,@aleksi722,Aura Transit,06.09.2025,08:14,"2,00 €",XXXX XXXX XXXX 2657,Visa,Kulukorvaus
+RCP00962,@riikka633,Kioski Asema,22.12.2025,19:02,"4,48 €",XXXX XXXX XXXX 6159,Visa,Takuukuitti talteen
+RCP00963,@martta1,ATM Täh0iväylä Turku,28.10.2025,19:02,"200,00 €",************8855,Visa,Takuukuitti talteen
+RCP00964,@valtteri455,Sisustus Lehto,24.12.2025,15:07,"7,81 €",XXXX XXXX XXXX 2614,Mastercard,
+RCP00965,@minna180,Market Koivu,14.12.2025,19:25,"5,40 €",************2921,Visa,Jaetaan lasku
+RCP00966,Mari K.,Ruokasatama Rauta-Aura,09.09.2025,19:29,"25,10 €",************3734,Mastercard,Jaetaan lasku
+RCP00967,@martti643,Metsä Lähikauppa,24.11.2025,17:22,"9,71 €",XXXX XXXX XXXX 7787,Mastercard,
+RCP00968,@kaisa133,Ruokatori Kaisla,13.07.2025,12:30,"36,19 €",************9090,Mastercard,Jaetaan lasku
+RCP00969,@marjatta578,Susli Koivu,13.08.2025,11:55,"4,74 €",************4213,Visa,Kulukorvaus
+RCP00970,Niko K.,Mänty Tavaratalo,31.08.2025,16:51,"39,73 €",XXXX XXXX XXXX 3526,Visa,Takuukuitti talteen
+RCP00971,@lasse884,Baari Tehdas,27.07.2025,16:15,"30,15 €",************0769,Mastercard,Myydään: kuitti mukana
+RCP00972,@toni868,Ruokasatama Kumpu,11.11.2025,15:04,"40,78 €",XXXX XXXX XXXX 8536,Visa,Takuukuitti talteen
+RCP00973,Matias A.,Lumme Viinimyymälä,26.09.2025,08:20,"15,16 €",************2023,Visa,Takuukuitti talteen
+RCP00974,Henrik G.,Pohjantuuli Market,22.09.2025,18:02,"25,90 €",XXXX XXXX XXXX 6840,Mastercard,Myydään: kuitti mukana
+RCP00975,Kaarina S.,Lumme Viinimyymälä,01.08.2025,17:34,"43,68 €",************5992,Mastercard,Myydään: kuitti mukana
+RCP00976,@omar888,Ruokatori Tähkä,05.10.2025,09:16,"42,66 €",************4454,Visa,Kulukorvaus
+RCP00977,@laura139,Kioski Kanerva,30.09.2025,17:22,"14,59 €",************7445,Mastercard,Myydään: kuitti mukana
+RCP00978,Jenni S.,Burger Rauta-Aura,17.08.2025,13:36,"8,67 €",************1511,Visa,Jaetaan lasku
+RCP00979,@rohan768,Market Saarni,11.11.2025,13:17,"26,96 €",************2640,Mastercard,Jaetaan lasku
+RCP00980,@otto922,Aura Transit,21.08.2025,19:47,"3,10 €",************2915,Mastercard,
+RCP00981,@mika691,Kehrä Burger,08.11.2025,17:47,"6,68 €",************5981,Mastercard,Myydään: kuitti mukana
+RCP00982,@anu7,Kahvila0Harju,29.12.2025,15:13,"12,29 €",************5480,Mastercard,
+RCP00983,@antti534,Market Kumpu,31.08.2025,20:45,"21,89 €",************9518,Visa,Kulukorvaus
+RCP00984,@tomi264,Pikkukauppa Vire,27.10.2025,15:10,"11,98 €",XXXX XXXX XXXX 2943,Visa,Jaetaan lasku
+RCP00985,@kalevi2,Ranta Ruokatori,27.08.2025,09:21,"101,73 €",************9927,Visa,Myydään: kuitti mukana
+RCP00986,@eemeli175,Ruokatori Lehvä,12.08.2025,16:47,"12,78 €",XXXX XXXX XXXX 9184,Visa,Myydään: kuitti mukana
+RCP00987,@minna426,Lääkärikeskus Niitty,30.12.2025,09:53,"81,95 €",XXXX XXXX XXXX 6197,Mastercard,
+RCP00988,@britt83,Baari Merivalo,24.12.2025,19:11,"16,08 €",************0302,Mastercard,Kulukorvaus
+RCP00989,Jenna V.,Pikkukauppa Kaislan,26.10.2025,15:34,"2,46 €",XXXX XXXX XXXX 7148,Mastercard,
+RCP00990,@ronja934,Aura Transit,31.12.2025,08:03,"3,10 €",************1238,Mastercard,Kulukorvaus
+RCP00991,Joni P.,Haka Lahjapuoti,16.08.2025,08:45,"21,89 €",************2894,Mastercard,
+RCP00992,Eveliina O.,Kuusi Sushi,13.12.2025,15:57,"5,97 €",XXXX XXXX XXXX 2674,Visa,Myydään: kuitti mukana
+RCP00993,Kati K.,Vii1imyymälä Ilmarin,21.11.2025,12:10,"48,40 €",XXXX XXXX XXXX 8023,Visa,Takuukuitti talteen
+RCP00994,@nea249,Ruokatori Tervala,30.11.2025,16:37,"10,71 €",XXXX XXXX XXXX 7789,Mastercard,Kulukorvaus
+RCP00995,Ksenia S.,Asema Sarastus,30.08.2025,15:46,"71,46 €",************4234,Mastercard,Myydään: kuitti mukana
+RCP00996,@minna735,Market Saarni,18.08.2025,16:28,"8,72 €",************8645,Visa,Jaetaan lasku
+RCP00997,Sara T.,Lähikauppa Puisto,25.07.2025,16:32,"12,94 €",************8231,Visa,Takuukuitti talteen
+RCP00998,Marika H.,Kaislan Olutravintola,31.10.2025,18:36,"34,26 €",XXXX XXXX XXXX 1469,Visa,
+RCP00999,Anni P.,Pilvari Market,11.07.2025,12:39,"17,41 €",XXXX XXXX XXXX 7163,Mastercard,Takuukuitti talteen
+RCP01000,Paula A.,Pub Okra,28.09.2025,18:32,"18,41 €",************7261,Mastercard,
+RCP01001,@nea646,Kahvila Lumme,27.10.2025,12:26,"10,38 €",************1363,Visa,Takuukuitti talteen
+RCP01002,@juhani486,Pikkukauppa Kaislan,23.12.2025,17:14,"17,60 €",************3663,Mastercard,Myydään: kuitti mukana
+RCP01003,@tapani988,Vaate Kirkko,25.09.2025,16:40,"18,73 €",************1222,Mastercard,
+RCP01004,@venla153,Rautakauppa Koivu,13.11.2025,08:45,"37,46 €",************3444,Mastercard,Takuukuitti talteen
+RCP01005,Veera L.,Pikkukauppa Kajo,28.12.2025,14:07,"7,43 €",************1808,Mastercard,Takuukuitti talteen
+RCP01006,@anders768,Pizzeria Mylly,25.07.2025,11:29,"19,73 €",XXXX XXXX XXXX 9095,Mastercard,Takuukuitti talteen
+RCP01007,@toni309,Pilvari Market,25.07.2025,18:50,"25,98 €",************8063,Mastercard,Takuukuitti talteen
+RCP01008,@emma77,Kajo Kioski,06.11.2025,13:00,"24,58 €",************5431,Mastercard,Kulukorvaus
+RCP01009,Satu T.,Ruokatori Rusko,29.07.2025,10:32,"6,18 €",XXXX XXXX XXXX 8326,Visa,
+RCP01010,Pirkko R.,Asema Kotiranta,22.12.2025,09:03,"19,58 €",************0617,Mastercard,
+RCP01011,@hanna581,Vire Tavaratalo,03.12.2025,10:36,"136,68 €",XXXX XXXX XXXX 9536,Mastercard,Myydään: kuitti mukana
+RCP01012,@jani51,Rusko Market,05.10.2025,15:11,"43,14 €",************5205,Mastercard,
+RCP01013,@leena666,Pikkukauppa Ruovo,29.10.2025,13:01,"8,88 €",XXXX XXXX XXXX 8536,Visa,Jaetaan lasku
+RCP01014,Satu V.,Kioski Tammi,08.07.2025,16:05,"4,76 €",************6809,Mastercard,Kulukorvaus
+RCP01015,@riitta420,Pizzeria Rauha,04.08.2025,20:22,"7,53 €",************5729,Visa,Jaetaan lasku
+RCP01016,@jani605,Market Satama,24.11.2025,17:41,"6,80 €",XXXX XXXX XXXX 6273,Mastercard,Myydään: kuitti mukana
+RCP01017,@riku931,Pub Kirkko,05.11.2025,19:03,"32,54 €",XXXX XXXX XXXX 9412,Mastercard,Myydään: kuitti mukana
+RCP01018,@kaisa864,Ruokasatama Mänty,01.12.2025,16:25,"28,28 €",************0993,Visa,Myydään: kuitti mukana
+RCP01019,@kari936,Kaisla Burger,13.08.2025,19:59,"7,26 €",************6916,Mastercard,Takuukuitti talteen
+RCP01020,@ilkka495,Tammi Market,07.12.2025,15:28,"11,79 €",************0708,Mastercard,
+RCP01021,@santeri820,Tehdas Lähikauppa,04.10.2025,10:44,"7,05 €",************5828,Visa,Takuukuitti talteen
+RCP01022,@emma667,Ruokatori Tervala,12.10.2025,07:49,"26,79 €",XXXX XXXX XXXX 5641,Mastercard,Myydään: kuitti mukana
+RCP01023,@andrei477,Kallio Tavaratalo,21.07.2025,12:16,"45,63 €",************3333,Mastercard,
+RCP01024,@markku974,ATM Pihlaja Kaarina,14.11.2025,16:28,"40,00 €",XXXX XXXX XXXX 0282,Mastercard,
+RCP01025,Pirkko M.,Muoti Pelto,16.11.2025,17:43,"60,44 €",XXXX XXXX XXXX 8076,Visa,Takuukuitti talteen
+RCP01026,@britt59,Ruokasatama Merivalo,17.08.2025,13:42,"49,10 €",XXXX XXXX XXXX 0302,Mastercard,Kulukorvaus
+RCP01027,@hannu300,Tietokone Koulu,25.11.2025,15:47,"293,85 €",************8031,Visa,
+RCP01028,@sari486,Market Kuusi,01.07.2025,19:02,"20,50 €",************0256,Mastercard,Kulukorvaus
+RCP01029,Maarit I.,Ruokasatama Pohjantuuli,17.10.2025,12:46,"139,18 €",************0157,Visa,Takuukuitti talteen
+RCP01030,@annikki45,Market Sinikallio,04.08.2025,18:48,"23,71 €",************1881,Mastercard,Kulukorvaus
+RCP01031,Veeti K.,Ruokatori Metsä,23.08.2025,14:07,"24,34 €",XXXX XXXX XXXX 1413,Mastercard,Takuukuitti talteen
+RCP01032,@lasse490,Tavaratalo Tervala,02.10.2025,21:37,"39,54 €",************4716,Mastercard,Jaetaan lasku
+RCP01033,@pirjo778,Mänty Taksi,06.08.2025,17:52,"23,22 €",************4242,Mastercard,Takuukuitti talteen
+RCP01034,@ilkka499,Pohjantuuli Ruokatori,15.09.2025,16:50,"41,30 €",XXXX XXXX XXXX 7818,Visa,Takuukuitti talteen
+RCP01035,@jenna712,Pub Pelto,17.08.2025,20:26,"8,11 €",************5210,Mastercard,Myydään: kuitti mukana
+RCP01036,Ville L.,Market Rauha,23.11.2025,12:49,"41,71 €",XXXX XXXX XXXX 6179,Mastercard,Myydään: kuitti mukana
+RCP01037,@ritva560,Aurinkokivi Elokuvateatteri,16.08.2025,21:58,"12,08 €",************3920,Visa,Kulukorvaus
+RCP01038,@antero239,Ravintol1 Lounari,30.12.2025,16:36,"33,30 €",************8375,Visa,
+RCP01039,@margareta672,Kanerva Trattoria,31.10.2025,17:23,"71,86 €",XXXX XXXX XXXX 4228,Visa,
+RCP01040,@liisa233,Ruokasatama Niitty,11.07.2025,17:06,"37,11 €",************8157,Visa,Myydään: kuitti mukana
+RCP01041,@eila166,Pelto Terveysasema Plus,07.12.2025,20:51,"163,62 €",************6115,Visa,Myydään: kuitti mukana
+RCP01042,@veera820,Ruokatori Kaisla,02.09.2025,12:16,"14,76 €",************6590,Visa,
+RCP01043,@liis862,Market Ranta,04.12.2025,13:25,"54,73 €",XXXX XXXX XXXX 9622,Mastercard,Kulukorvaus
+RCP01044,@anne266,Ruovo Ruokatori,02.11.2025,14:14,"26,50 €",************1769,Visa,Jaetaan lasku
+RCP01045,@anu300,Ruokatori Sarastus,12.07.2025,19:54,"18,56 €",XXXX XXXX XXXX 0325,Mastercard,Kulukorvaus
+RCP01046,@sirkka960,Rauha Lähi1auppa,28.10.2025,18:41,"12,11 €",************5904,Mastercard,Kulukorvaus
+RCP01047,@jere510,Ravintola Pihlaja,13.12.2025,09:37,"27,11 €",************1273,Mastercard,
+RCP01048,@nelli942,Kajo Lahjapuoti,01.11.2025,16:22,"29,30 €",************8265,Mastercard,Myydään: kuitti mukana
+RCP01049,Tuomas S.,Tavaratalo Ilmarin,04.07.2025,09:48,"40,76 €",XXXX XXXX XXXX 3850,Mastercard,Kulukorvaus
+RCP01050,@jaakko137,Lahjapuoti Lumora,04.09.2025,16:46,"23,12 €",************9303,Mastercard,Kulukorvaus
+RCP01051,Aino P.,Kanerva Trattoria,01.08.2025,12:46,"32,03 €",XXXX XXXX XXXX 1807,Mastercard,Takuukuitti talteen
+RCP01052,Jere A.,Kioski Tervala,26.07.2025,13:26,"6,45 €",XXXX XXXX XXXX 7293,Mastercard,
+RCP01053,Susanna H.,Hiidenkivi Elokuvateatteri,02.12.2025,20:49,"32,11 €",************6549,Mastercard,Jaetaan lasku
+RCP01054,@maria252,Lehvä Kahvila,18.09.2025,14:57,"13,73 €",XXXX XXXX XXXX 6302,Visa,Takuukuitti talteen
+RCP01055,@julia103,ATM Pilvari Turku,09.09.2025,01:14,"50,00 €",************2902,Visa,Jaetaan lasku
+RCP01056,@ronja6,Lumme Kioski,14.12.2025,12:06,"6,83 €",XXXX XXXX XXXX 5574,Visa,Jaetaan lasku
+RCP01057,@johan572,Trattoria Mänty,26.10.2025,19:13,"124,06 €",************8853,Visa,
+RCP01058,@elias421,Ruokasatama Merivalo,21.07.2025,20:12,"6,36 €",XXXX XXXX XXXX 0455,Mastercard,Jaetaan lasku
+RCP01059,@timo704,Burger Rauta-Aura,25.11.2025,11:50,"8,03 €",XXXX XXXX XXXX 6891,Visa,
+RCP01060,@sami852,Sarastus Ruokasatama,30.08.2025,18:24,"28,18 €",XXXX XXXX XXXX 1091,Visa,
+RCP01061,Alvar B.,Haka Muoti,14.11.2025,12:54,"162,81 €",XXXX XXXX XXXX 6163,Visa,Takuukuitti talteen
+RCP01062,@tuomas919,Ruokatori Puisto,07.08.2025,12:26,"51,54 €",************2299,Visa,Myydään: kuitti mukana
+RCP01063,@sami399,Koulu Muoti,04.09.2025,08:03,"77,40 €",XXXX XXXX XXXX 1540,Mastercard,
+RCP01064,Joonas L.,Olutravintola Tammi,05.10.2025,23:00,"7,48 €",************0205,Mastercard,
+RCP01065,@riikka818,Kivaro Ruokatori,25.11.2025,14:40,"17,02 €",************8482,Mastercard,Takuukuitti talteen
+RCP01066,Teemu J.,Lähikauppa Mylly,20.09.2025,07:39,"26,86 €",XXXX XXXX XXXX 7646,Mastercard,Kulukorvaus
+RCP01067,@anne204,Pelto Burger,08.11.2025,15:37,"6,86 €",************2431,Mastercard,Takuukuitti talteen
+RCP01068,@risto482,Harju Ruokatori,24.09.2025,14:46,"21,56 €",************5287,Visa,
+RCP01069,@harri155,ATM Pihlaja Kaarina,26.10.2025,09:07,"40,00 €",XXXX XXXX XXXX 6879,Visa,Kulukorvaus
+RCP01070,@eetu532,Market Kuusi,19.12.2025,08:27,"173,71 €",************4240,Visa,Jaetaan lasku
+RCP01071,@inka16,Pub Kumpu,17.09.2025,14:50,"25,08 €",************5585,Mastercard,
+RCP01072,@kaisa510,Ruokasatama Tammi,08.12.2025,15:42,"6,99 €",************4754,Mastercard,Jaetaan lasku
+RCP01073,@julia611,Tervala Bistro,27.08.2025,12:07,"50,97 €",************9075,Visa,Kulukorvaus
+RCP01074,@maija659,Market Varpu,19.12.2025,10:36,"4,93 €",************0001,Mastercard,
+RCP01075,@harri103,Taksi Vaskivuori,31.08.2025,22:30,"51,89 €",XXXX XXXX XXXX 5110,Visa,Takuukuitti talteen
+RCP01076,@onni141,Kioski Asema,30.09.2025,16:29,"4,09 €",XXXX XXXX XXXX 6863,Visa,
+RCP01077,Eemeli V.,Pikkukauppa Kuohu,05.12.2025,17:12,"2,68 €",************8953,Mastercard,Takuukuitti talteen
+RCP01078,@eero725,Kioski Linna,27.08.2025,07:28,"10,08 €",************7517,Visa,Kulukorvaus
+RCP01079,@tiina935,Kotiranta Kioski,17.10.2025,17:28,"9,22 €",************4132,Mastercard,Takuukuitti talteen
+RCP01080,Suvi L.,Kuusi Burger,06.11.2025,12:03,"7,03 €",************1359,Visa,Kulukorvaus
+RCP01081,Tiina P.,Market Asema,04.12.2025,14:04,"21,40 €",************1177,Visa,Takuukuitti talteen
+RCP01082,@jouko942,Market Ranta,27.08.2025,20:14,"35,98 €",XXXX XXXX XXXX 6515,Mastercard,Myydään: kuitti mukana
+RCP01083,@tuula9,Trattoria Kuusi,31.12.2025,17:04,"24,46 €",************3077,Visa,Myydään: kuitti mukana
+RCP01084,@janne380,Ruokasatama Vaahtera,07.11.2025,17:10,"30,59 €",XXXX XXXX XXXX 1787,Mastercard,
+RCP01085,@viktor315,Asema Ranta,27.08.2025,14:55,"84,23 €",XXXX XXXX XXXX 1361,Mastercard,Jaetaan lasku
+RCP01086,Ritva A.,Market Rauta-Aura,28.10.2025,19:27,"40,23 €",************3920,Visa,Takuukuitti talteen
+RCP01087,@johanna542,Pizzeria Rauha,20.12.2025,13:02,"8,24 €",XXXX XXXX XXXX 6892,Visa,Takuukuitti talteen
+RCP01088,@pinja686,Koulu Market,24.07.2025,21:26,"11,12 €",************1426,Mastercard,Jaetaan lasku
+RCP01089,@marjatta24,Market Hiidenkivi,13.07.2025,13:26,"42,46 €",XXXX XXXX XXXX 9736,Visa,
+RCP01090,@hilkka372,Harju Burger,02.07.2025,20:17,"26,21 €",XXXX XXXX XXXX 1605,Visa,Jaetaan lasku
+RCP01091,Sari L.,Trattoria Kauppa,09.12.2025,11:18,"44,59 €",************8976,Visa,Myydään: kuitti mukana
+RCP01092,Mikko H.,Ruokatori Mänty,19.09.2025,16:31,"7,27 €",************5136,Visa,Takuukuitti talteen
+RCP01093,Aune L.,Metsä Lähikauppa,11.10.2025,20:08,"12,09 €",XXXX XXXX XXXX 1926,Mastercard,Takuukuitti talteen
+RCP01094,@tiina32,Lehvä Tavaratalo,28.11.2025,19:16,"192,03 €",************3205,Mastercard,Myydään: kuitti mukana
+RCP01095,@kirsi697,Harmaja Baari,25.10.2025,18:18,"11,38 €",XXXX XXXX XXXX 5640,Visa,Jaetaan lasku
+RCP01096,@maarit904,ATM Kanerva Mynämäki,20.09.2025,13:56,"100,00 €",************0157,Visa,Takuukuitti talteen
+RCP01097,@joel75,Bistro Metsä,10.10.2025,19:40,"39,15 €",XXXX XXXX XXXX 9931,Visa,Kulukorvaus
+RCP01098,@juho471,Kahvila Aallon,01.08.2025,11:46,"11,24 €",************0530,Visa,
+RCP01099,Tellervo K.,Trattoria Ruovo,12.10.2025,16:06,"31,63 €",XXXX XXXX XXXX 9093,Mastercard,Myydään: kuitti mukana
+RCP01100,Aila L.,Varpu Tavaratalo,09.11.2025,18:38,"88,19 €",XXXX XXXX XXXX 0364,Mastercard,Myydään: kuitti mukana
+RCP01101,@roope347,Autokorjaamo Tammi,17.08.2025,09:52,"80,23 €",************9512,Visa,Kulukorvaus
+RCP01102,@emilia108,Sinikallio Pizzeria,31.12.2025,17:54,"9,03 €",************6168,Mastercard,
+RCP01103,Sirkka S.,Harju Lääkärikeskus,14.07.2025,11:50,"88,47 €",************8485,Mastercard,Jaetaan lasku
+RCP01104,Jarkko L.,Aura Transit,10.12.2025,15:09,"3,10 €",XXXX XXXX XXXX 7087,Visa,Myydään: kuitti mukana
+RCP01105,@anne30,Bistro Kivi,03.09.2025,11:43,"44,70 €",XXXX XXXX XXXX 2008,Visa,Jaetaan lasku
+RCP01106,@hanna453,Pikkukauppa Vaahtera,14.09.2025,18:19,"3,87 €",XXXX XXXX XXXX 5052,Visa,Jaetaan lasku
+RCP01107,@tarja741,Ruokasatama Ruovo,29.10.2025,18:45,"20,01 €",************9032,Visa,
+RCP01108,Eero M.,Kioski Kuohu,21.08.2025,13:05,"18,86 €",************2731,Visa,Takuukuitti talteen
+RCP01109,@jere524,Lähikauppa Lehto,09.09.2025,14:28,"18,05 €",************4016,Mastercard,Jaetaan lasku
+RCP01110,@teemu279,Trattoria Vire,09.11.2025,12:47,"32,26 €",************3982,Visa,
+RCP01111,@anna969,ATM Rauha Turku,23.11.2025,12:43,"20,00 €",************2522,Mastercard,Jaetaan lasku
+RCP01112,@tarja688,Ruokasatama Lumora,21.09.2025,17:06,"70,28 €",XXXX XXXX XXXX 1081,Mastercard,
+RCP01113,@anni683,Kuusi Viinimyymälä,16.08.2025,12:34,"51,90 €",************5824,Mastercard,Takuukuitti talteen
+RCP01114,Mikko M.,Pihlaja Bistro,24.07.2025,09:38,"28,55 €",XXXX XXXX XXXX 0800,Mastercard,Myydään: kuitti mukana
+RCP01115,Marika K.,Puisto Ravintola,13.09.2025,13:10,"48,31 €",************4763,Mastercard,
+RCP01116,@ari674,Market Asema,17.08.2025,13:23,"81,17 €",XXXX XXXX XXXX 4715,Visa,Takuukuitti talteen
+RCP01117,@miro438,Lemmikki Asema,24.07.2025,18:11,"84,17 €",************6989,Mastercard,Jaetaan lasku
+RCP01118,Sara M.,Aura Transit,14.08.2025,16:35,"2,00 €",************5591,Visa,Jaetaan lasku
+RCP01119,@laura131,Lähikauppa Lehto,15.11.2025,14:59,"20,81 €",XXXX XXXX XXXX 8404,Mastercard,Myydään: kuitti mukana
+RCP01120,Jenni K.,Lähikauppa Mylly,22.11.2025,15:33,"19,04 €",XXXX XXXX XXXX 0396,Visa,Myydään: kuitti mukana
+RCP01121,@jouko161,Viinimyymälä Kaisla,27.12.2025,12:49,"27,23 €",************5619,Mastercard,
+RCP01122,@veera106,Kallio Ruokasatama,13.12.2025,17:21,"13,36 €",XXXX XXXX XXXX 0200,Mastercard,Myydään: kuitti mukana
+RCP01123,@jesse550,Market Sinikallio,25.10.2025,18:12,"29,87 €",XXXX XXXX XXXX 8530,Visa,
+RCP01124,@suvi626,PubIKirkko,23.07.2025,19:39,"13,15 €",XXXX XXXX XXXX 6065,Mastercard,Takuukuitti talteen
+RCP01125,@riitta812,Kuntosali Lounari,04.07.2025,09:00,"48,27 €",************8871,Mastercard,
+RCP01126,@kaisa507,Kehrä Lähikauppa,15.08.2025,11:04,"8,79 €",************9090,Mastercard,
+RCP01127,Kaisa M.,Market Harju,30.08.2025,18:47,"13,48 €",************6624,Mastercard,Takuukuitti talteen
+RCP01128,Samuel L.,Burger Rauta-Au1a,31.12.2025,16:47,"8,91 €",************7530,Mastercard,Myydään: kuitti mukana
+RCP01129,@katja349,Pohjantuul0 Ruokatori,05.08.2025,14:32,"95,23 €",************9495,Mastercard,Myydään: kuitti mukana
+RCP01130,Aki S.,Rauta-Aura Ruokatori,13.12.2025,15:13,"80,20 €",XXXX XXXX XXXX 8882,Mastercard,Jaetaan lasku
+RCP01131,Sara P.,Kuntosali Lounari,27.08.2025,19:44,"60,84 €",************6521,Visa,Kulukorvaus
+RCP01132,Päivi P.,Pizzeria Rauha,21.12.2025,11:28,"8,13 €",XXXX XXXX XXXX 1349,Mastercard,Kulukorvaus
+RCP01133,@pentti841,Asema Rusko,27.10.2025,11:28,"45,48 €",************5250,Visa,Jaetaan lasku
+RCP01134,@katja14,Lääkärikeskus Koivu,22.09.2025,15:42,"149,24 €",XXXX XXXX XXXX 5292,Mastercard,Jaetaan lasku
+RCP01135,Tuija K.,Ravintola Ruovo,03.09.2025,15:18,"24,11 €",************1897,Visa,
+RCP01136,Minh L.,Pikkukauppa Mänty,19.08.2025,13:38,"8,08 €",XXXX XXXX XXXX 7676,Mastercard,Myydään: kuitti mukana
+RCP01137,@kristina609,Aura Transit,10.11.2025,14:52,"55,00 €",************8453,Visa,Takuukuitti talteen
+RCP01138,Nelli K.,Lähikauppa Puisto,18.10.2025,12:48,"10,22 €",************6732,Mastercard,
+RCP01139,@essi799,Pikkukauppa Ruovo,14.07.2025,11:55,"6,66 €",XXXX XXXX XXXX 5472,Mastercard,
+RCP01140,@maria880,Kehrä Burger,09.08.2025,12:41,"5,72 €",XXXX XXXX XXXX 5222,Mastercard,Jaetaan lasku
+RCP01141,@aleksei381,Pilvari Lähikauppa,30.11.2025,17:20,"6,76 €",XXXX XXXX XXXX 3057,Mastercard,Kulukorvaus
+RCP01142,@eveliina751,Harmaja Lähikauppa,14.12.2025,13:45,"29,64 €",************8380,Mastercard,
+RCP01143,Arttu E.,Niitty Ruokasatama,19.09.2025,18:59,"46,70 €",************0528,Mastercard,Myydään: kuitti mukana
+RCP01144,@jarkko290,Lähikauppa Saarni,13.11.2025,15:04,"13,73 €",************0198,Visa,Kulukorvaus
+RCP01145,Hassan A.,ATM Kanerva Salo,26.08.2025,17:15,"60,00 €",************3896,Visa,
+RCP01146,@sanna873,Te1vala Pub,20.08.2025,19:51,"14,80 €",************3365,Mastercard,Jaetaan lasku
+RCP01147,@aleksi22,Lahjapuoti Kallio,17.12.2025,19:14,"9,66 €",XXXX XXXX XXXX 2864,Visa,Jaetaan lasku
+RCP01148,@minna530,ATM Lumme Raisio,20.11.2025,00:19,"20,00 €",************3800,Visa,
+RCP01149,@leena887,Pelto Burger,04.11.2025,19:15,"8,50 €",XXXX XXXX XXXX 3023,Visa,Kulukorvaus
+RCP01150,Tuomas K.,Rauta Kajo,17.07.2025,20:08,"30,66 €",XXXX XXXX XXXX 2274,Visa,Takuukuitti talteen
+RCP01151,@kaarina263,Kahvila Haka,15.10.2025,17:50,"18,63 €",XXXX XXXX XXXX 5986,Visa,Myydään: kuitti mukana
+RCP01152,Janne P.,Koivu Sisustus,31.12.2025,17:39,"41,03 €",************2625,Visa,Kulukorvaus
+RCP01153,@ronja903,Kuntosali Lounari,15.07.2025,16:54,"21,45 €",XXXX XXXX XXXX 5574,Visa,
+RCP01154,@rohan62,Aura Transit,14.11.2025,11:28,"3,10 €",XXXX XXXX XXXX 2640,Mastercard,Kulukorvaus
+RCP01155,@aulis846,Ruovo Sushi,05.11.2025,18:43,"7,92 €",************8704,Mastercard,Jaetaan lasku
+RCP01156,@susanna325,Kajo Tavaratalo,25.08.2025,17:49,"25,56 €",XXXX XXXX XXXX 7226,Mastercard,
+RCP01157,@topias239,Sinikallio Market,21.09.2025,16:22,"11,97 €",************7177,Visa,Jaetaan lasku
+RCP01158,@raili113,Vaskivuori Apteekki,23.09.2025,20:27,"8,05 €",XXXX XXXX XXXX 6763,Mastercard,Kulukorvaus
+RCP01159,@tero173,Kaisla Ruokatori,15.08.2025,14:06,"52,02 €",************8079,Visa,
+RCP01160,@toni49,Lähikauppa Vaskivuori,21.12.2025,15:24,"61,87 €",************8063,Mastercard,
+RCP01161,Maksim F.,Market Kuohu,08.08.2025,08:31,"8,90 €",XXXX XXXX XXXX 5083,Visa,Takuukuitti talteen
+RCP01162,@piia550,Olutravintola Koulu,29.08.2025,22:15,"54,77 €",************0988,Mastercard,Kulukorvaus
+RCP01163,@nelli531,Olutravintola Kirkko,31.12.2025,21:21,"7,52 €",************0962,Mastercard,
+RCP01164,@aino176,Ranta Ruokatori,19.09.2025,14:29,"65,90 €",************3073,Mastercard,Myydään: kuitti mukana
+RCP01165,@kaija840,Va0kivuori Lähikauppa,23.10.2025,18:39,"13,76 €",************3994,Mastercard,Jaetaan lasku
+RCP01166,@mika347,Tuohi Vaate,07.09.2025,15:09,"13,87 €",************8360,Mastercard,
+RCP01167,@marika586,Kuohu Trattoria,18.12.2025,12:04,"51,51 €",************3835,Visa,Jaetaan lasku
+RCP01168,@kaisa95,Kahvila Aurinkokivi,03.09.2025,19:14,"26,45 €",************5519,Mastercard,
+RCP01169,@goran863,Lähikauppa Ilmarin,13.11.2025,17:20,"16,32 €",************6943,Mastercard,
+RCP01170,Inka K.,Bistro Tähkä,16.10.2025,11:50,"119,33 €",************1906,Visa,
+RCP01171,@hassan799,Rauha Ravintola,25.11.2025,17:17,"35,69 €",XXXX XXXX XXXX 1022,Mastercard,Takuukuitti talteen
+RCP01172,Sami K.,Kotiranta Pizzeria,11.08.2025,17:26,"12,99 €",XXXX XXXX XXXX 9629,Mastercard,Kulukorvaus
+RCP01173,@maarit853,Pohjantuuli Pikkukauppa,04.10.2025,19:06,"6,27 €",XXXX XXXX XXXX 5057,Mastercard,Jaetaan lasku
+RCP01174,Mervi A.,Polttoaine Tammi,01.11.2025,16:36,"130,44 €",************3197,Mastercard,Jaetaan lasku
+RCP01175,@roosa288,Muoti Puisto,16.12.2025,15:55,"36,61 €",XXXX XXXX XXXX 1249,Visa,Myydään: kuitti mukana
+RCP01176,@ville78,Kioski Vaahtera,11.11.2025,14:51,"6,44 €",************0860,Visa,Takuukuitti talteen
+RCP01177,@suvi7,Pizzeria Aallon,03.10.2025,22:36,"11,06 €",XXXX XXXX XXXX 4343,Visa,Jaetaan lasku
+RCP01178,@susanna121,Lehto Ruokatori,27.09.2025,19:13,"16,96 €",************0652,Mastercard,Kulukorvaus
+RCP01179,@katja490,Kuohu Kirjakauppa,08.10.2025,08:18,"35,09 €",************1703,Visa,Myydään: kuitti mukana
+RCP01180,@maria199,Olutravintola Koulu,24.12.2025,01:00,"64,09 €",************4523,Visa,Jaetaan lasku
+RCP01181,Kati H.,Hiidenkivi Sisustus,10.08.2025,13:34,"9,68 €",************6180,Visa,Myydään: kuitti mukana
+RCP01182,Tellervo L.,MaIket Asema,12.07.2025,17:10,"18,22 €",************9448,Mastercard,Myydään: kuitti mukana
+RCP01183,Marika K.,Kanerva Pikkukauppa,05.07.2025,18:59,"7,59 €",************4168,Visa,Myydään: kuitti mukana
+RCP01184,Samuel L.,ATM Pohjantuuli Kaarina,25.08.2025,12:58,"100,00 €",************8712,Mastercard,Jaetaan lasku
+RCP01185,Kalevi K.,Jokivarsi Asema,15.12.2025,15:23,"64,18 €",************4824,Visa,Takuukuitti talteen
+RCP01186,@nelli7,Baari Tehdas,12.08.2025,18:15,"13,12 €",XXXX XXXX XXXX 2908,Mastercard,Takuukuitti talteen
+RCP01187,@arttu722,Viinimyymälä Kuohu,08.11.2025,15:51,"26,19 €",************9164,Visa,Takuukuitti talteen
+RCP01188,@riku569,Pilvari Trattoria,19.10.2025,11:48,"18,07 €",************7151,Mastercard,
+RCP01189,@timo511,Mänty Apteekki,07.12.2025,18:38,"13,56 €",************4442,Mastercard,Takuukuitti talteen
+RCP01190,@juho312,Harmaja Market,03.11.2025,11:06,"34,37 €",XXXX XXXX XXXX 0523,Visa,
+RCP01191,@nelli391,Viinimyymälä Kaisla,01.07.2025,16:34,"9,50 €",************5195,Visa,Takuukuitti talteen
+RCP01192,@marjo643,Haka Apteekki,16.08.2025,18:03,"38,09 €",************9648,Visa,Takuukuitti talteen
+RCP01193,Inka H.,PuIsto Apteekki,15.11.2025,17:47,"15,08 €",XXXX XXXX XXXX 7790,Visa,Jaetaan lasku
+RCP01194,Marko S.,Viinimyymälä Kaisla,25.07.2025,12:52,"43,05 €",************7534,Mastercard,Kulukorvaus
+RCP01195,@pentti105,Pub Kirkko,12.07.2025,22:34,"22,57 €",************0787,Mastercard,Myydään: kuitti mukana
+RCP01196,@katja643,Baari Tehdas,28.09.2025,21:35,"24,65 €",XXXX XXXX XXXX 0583,Mastercard,Jaetaan lasku
+RCP01197,@juha356,Sinikallio Market,15.11.2025,14:31,"32,64 €",XXXX XXXX XXXX 3132,Visa,Kulukorvaus
+RCP01198,@pinja154,Ruokatori Puisto,27.12.2025,13:05,"77,85 €",************1920,Mastercard,Jaetaan lasku
+RCP01199,Minna R.,Kajo Ruokasatama,23.12.2025,13:10,"8,60 €",XXXX XXXX XXXX 9058,Visa,Takuukuitti talteen
+RCP01200,@minna87,Kivi Asema,18.08.2025,11:57,"114,05 €",XXXX XXXX XXXX 1209,Mastercard,Jaetaan lasku
+RCP01201,Valtteri J.,Ruokatori Kauppa,06.07.2025,18:07,"58,32 €",************5343,Mastercard,
+RCP01202,Oleksandr K.,ATM Pihlaja Turku,21.07.2025,15:58,"150,00 €",************2819,Mastercard,Myydään: kuitti mukana
+RCP01203,Juho M.,Ruokasatama Tammi,15.08.2025,12:35,"66,69 €",************1114,Mastercard,Myydään: kuitti mukana
+RCP01204,@keijo342,Lähikauppa Saarni,04.12.2025,14:41,"33,10 €",************9838,Mastercard,Jaetaan lasku
+RCP01205,@jarmo388,Lumme Burger,18.09.2025,13:42,"11,58 €",XXXX XXXX XXXX 9822,Visa,Takuukuitti talteen
+RCP01206,Jaakko L.,Apteekki Kivi,21.11.2025,10:41,"9,83 €",XXXX XXXX XXXX 8883,Visa,Myydään: kuitti mukana
+RCP01207,@rebin568,Pizzeria Pilvari,27.10.2025,20:46,"6,66 €",************3708,Mastercard,Myydään: kuitti mukana
+RCP01208,Jaakko H.,Tavaratalo Rusko,29.11.2025,20:40,"216,84 €",************9784,Mastercard,Kulukorvaus
+RCP01209,@matti74,Sarastus Lähikauppa,08.09.2025,20:18,"24,70 €",XXXX XXXX XXXX 3942,Mastercard,Kulukorvaus
+RCP01210,@elin372,Liikuntakeskus Hiidenkivi,23.08.2025,18:40,"19,48 €",XXXX XXXX XXXX 9920,Mastercard,
+RCP01211,@tomi657,Kahvila Aallon,04.09.2025,17:12,"14,76 €",XXXX XXXX XXXX 4757,Visa,Takuukuitti talteen
+RCP01212,@kavya303,Talaratalo Rusko,26.12.2025,08:25,"83,21 €",************3759,Visa,
+RCP01213,@chloe463,Ruokasatama Rusko,09.09.2025,08:48,"9,81 €",************7415,Visa,Takuukuitti talteen
+RCP01214,Marika S.,Tuohi Vaate,24.12.2025,17:42,"42,48 €",************1095,Visa,Takuukuitti talteen
+RCP01215,Roope S.,Aura Transit,22.08.2025,09:03,"3,10 €",************5018,Mastercard,
+RCP01216,@sara952,Trattoria Pihlaja,03.07.2025,19:22,"14,67 €",************4428,Mastercard,Kulukorvaus
+RCP01217,@ronja168,Ruokatori Tähkä,05.12.2025,11:10,"10,04 €",************7193,Mastercard,Myydään: kuitti mukana
+RCP01218,Marjatta J.,Kahvila Hiidenkivi,14.09.2025,12:09,"15,63 €",XXXX XXXX XXXX 1768,Visa,Kulukorvaus
+RCP01219,Paavo R.,Kirkko Kioski,23.09.2025,12:46,"6,35 €",************8975,Mastercard,Myydään: kuitti mukana
+RCP01220,Henna K.,Mylly Apteekki,22.08.2025,15:32,"16,46 €",XXXX XXXX XXXX 3918,Visa,Myydään: kuitti mukana
+RCP01221,@veera273,Pikkukauppa Kajo,08.11.2025,15:17,"11,61 €",XXXX XXXX XXXX 5600,Mastercard,Takuukuitti talteen
+RCP01222,Anu K.,Ruokatori Mänty,01.09.2025,17:40,"16,23 €",************4220,Mastercard,Jaetaan lasku
+RCP01223,Juho S.,Kotiranta Viinimyymälä,28.11.2025,16:32,"17,31 €",************2752,Mastercard,
+RCP01224,@tiina28,Trattoria Mänty,30.07.2025,17:21,"40,52 €",************3641,Mastercard,Kulukorvaus
+RCP01225,@johanna590,Aura Transit,15.10.2025,09:44,"3,10 €",XXXX XXXX XXXX 3108,Visa,Kulukorvaus
+RCP01226,Elina R.,Kanerva Kuntosali,25.09.2025,12:37,"31,19 €",XXXX XXXX XXXX 2612,Mastercard,Takuukuitti talteen
+RCP01227,@laura386,Tähtiväylä Ruokasatama,15.11.2025,17:29,"13,81 €",************5704,Mastercard,Myydään: kuitti mukana
+RCP01228,Roope Y.,Market Asema,02.09.2025,18:35,"5,30 €",************7454,Visa,Kulukorvaus
+RCP01229,@britt322,Linna Ruokatori,09.12.2025,15:10,"22,26 €",XXXX XXXX XXXX 6302,Mastercard,Takuukuitti talteen
+RCP01230,@ari137,Rautakauppa Mylly,21.12.2025,06:13,"78,71 €",************8264,Mastercard,Jaetaan lasku
+RCP01231,@heli411,Pikkukauppa Lehto,06.07.2025,09:33,"10,57 €",************3483,Mastercard,Takuukuitti talteen
+RCP01232,Arto K.,Lumora Asema,20.08.2025,06:59,"58,16 €",************2936,Visa,Kulukorvaus
+RCP01233,Anna A.,Market Tervala,13.12.2025,10:43,"57,97 €",************5039,Mastercard,Jaetaan lasku
+RCP01234,@wilma675,Ruokatori Puisto,25.11.2025,21:04,"75,14 €",************0182,Visa,Myydään: kuitti mukana
+RCP01235,Kirsti L.,Sushi Vaahtera,20.11.2025,13:11,"13,75 €",XXXX XXXX XXXX 3451,Mastercard,Takuukuitti talteen
+RCP01236,@miro925,Harju Ravintola,02.08.2025,16:31,"11,27 €",************6989,Mastercard,Myydään: kuitti mukana
+RCP01237,@marko391,Saari Ruokatori,01.12.2025,20:10,"31,69 €",XXXX XXXX XXXX 0087,Mastercard,Myydään: kuitti mukana
+RCP01238,Marja H.,Kahvila Kumpu,22.12.2025,11:37,"28,02 €",************6430,Mastercard,Jaetaan lasku
+RCP01239,@outi24,Kioski Saari,22.07.2025,18:21,"8,73 €",************6914,Visa,Myydään: kuitti mukana
+RCP01240,@taras959,Kaislan Tavaratalo,31.12.2025,14:45,"44,53 €",************9311,Mastercard,Takuukuitti talteen
+RCP01241,@andrii417,Lehvä Tavaratalo,17.11.2025,11:42,"21,04 €",************7377,Mastercard,Kulukorvaus
+RCP01242,@riitta659,Market Ranta,25.12.2025,09:59,"50,78 €",************2972,Mastercard,Myydään: kuitti mukana
+RCP01243,@stefan218,Sarastus Lähikauppa,18.12.2025,10:07,"34,54 €",************2619,Mastercard,Takuukuitti talteen
+RCP01244,@sara30,Market Kotiranta,27.12.2025,14:45,"5,76 €",************3765,Mastercard,Jaetaan lasku
+RCP01245,Marjatta K.,ATM Lumme Raisio,21.12.2025,23:08,"100,00 €",************9834,Mastercard,Takuukuitti talteen
+RCP01246,Susanna M.,Lääkärikeskus Jokivarsi,04.09.2025,18:17,"36,32 €",XXXX XXXX XXXX 0988,Visa,Kulukorvaus
+RCP01247,Lan D.,Kahvila Pohjantuuli,03.11.2025,11:30,"7,44 €",************5802,Visa,Kulukorvaus
+RCP01248,@julia378,Satama Ruokatori,16.08.2025,11:10,"26,22 €",XXXX XXXX XXXX 8758,Mastercard,Jaetaan lasku
+RCP01249,Samuel K.,Rusko Lähikauppa,05.10.2025,16:14,"13,60 €",XXXX XXXX XXXX 2864,Mastercard,
+RCP01250,@anu85,Market Vire,03.11.2025,18:06,"36,48 €",XXXX XXXX XXXX 7921,Visa,Takuukuitti talteen
+RCP01251,@kaarina58,Ruokasatama Pelto,05.08.2025,09:22,"18,05 €",************7667,Mastercard,Myydään: kuitti mukana
+RCP01252,@siiri895,Ranta Ruokatori,15.12.2025,21:15,"18,43 €",************9662,Mastercard,Kulukorvaus
+RCP01253,@marjatta537,Market Tammi,20.12.2025,19:12,"26,32 €",XXXX XXXX XXXX 0033,Visa,
+RCP01254,@ella81,BIrger Puisto,09.07.2025,09:04,"9,26 €",************2554,Mastercard,
+RCP01255,@anastasia133,Puisto Ruokatori,14.12.2025,11:28,"7,80 €",************8218,Mastercard,Takuukuitti talteen
+RCP01256,@joni166,Viinimyymälä Lehto,11.10.2025,18:37,"46,10 €",XXXX XXXX XXXX 6818,Visa,Myydään: kuitti mukana
+RCP01257,@aleksei199,Trattoria Kumpu,11.10.2025,17:48,"16,27 €",************3057,Mastercard,Takuukuitti talteen
+RCP01258,@riitta679,Tavaratalo Okra,03.12.2025,19:20,"171,68 €",************2529,Mastercard,
+RCP01259,@jere628,Harju Ruokatori,16.12.2025,18:25,"13,87 €",************4016,Mastercard,Myydään: kuitti mukana
+RCP01260,Sami L.,Tähtiväylä Pizzeria,26.08.2025,11:18,"20,38 €",XXXX XXXX XXXX 8741,Visa,Jaetaan lasku
+RCP01261,@sinikka410,Haka Taksi,09.09.2025,23:36,"70,53 €",************2427,Visa,
+RCP01262,@vesa569,Ruokasatama Kuohu,31.12.2025,16:48,"14,26 €",************3454,Visa,
+RCP01263,Otto K.,Trattoria Kotiranta,07.11.2025,18:05,"19,41 €",************9874,Mastercard,Myydään: kuitti mukana
+RCP01264,@noora150,Muoti Kanerva,01.08.2025,14:58,"58,87 €",************4007,Mastercard,
+RCP01265,@elina165,Kahvila Lumme,07.09.2025,12:06,"10,40 €",************8925,Visa,Jaetaan lasku
+RCP01266,@veera927,Polttoaine Tammi,11.10.2025,17:18,"75,19 €",************9074,Mastercard,Myydään: kuitti mukana
+RCP01267,@veera846,Kaislan Apteekki,27.11.2025,18:43,"13,62 €",XXXX XXXX XXXX 8467,Mastercard,Kulukorvaus
+RCP01268,Helena H.,Mänty Trattoria,09.08.2025,12:04,"14,34 €",XXXX XXXX XXXX 8478,Visa,Takuukuitti talteen
+RCP01269,Teemu K.,Market Sarastus,24.07.2025,15:13,"28,52 €",XXXX XXXX XXXX 9118,Mastercard,Jaetaan lasku
+RCP01270,@timo9,Viinimyymälä Asema,20.12.2025,09:41,"47,89 €",XXXX XXXX XXXX 8515,Visa,Takuukuitti talteen
+RCP01271,Inka H.,Kauppa Market,06.08.2025,18:11,"32,71 €",XXXX XXXX XXXX 1141,Visa,Kulukorvaus
+RCP01272,@reijo772,Sinikallio Lemmikki,15.11.2025,07:32,"20,21 €",XXXX XXXX XXXX 0148,Visa,
+RCP01273,@noora823,Koulu Asema,04.09.2025,09:35,"21,97 €",XXXX XXXX XXXX 0775,Mastercard,Jaetaan lasku
+RCP01274,@eero640,Burger Kivaro,06.10.2025,22:16,"7,68 €",************4420,Visa,
+RCP01275,@elin332,Lahjapuoti Kivi,25.09.2025,21:06,"35,96 €",XXXX XXXX XXXX 9811,Mastercard,Myydään: kuitti mukana
+RCP01276,@lasse475,Kumpu Iub,16.08.2025,22:31,"14,63 €",XXXX XXXX XXXX 2229,Mastercard,Jaetaan lasku
+RCP01277,@aune15,Rusko Sisustus,16.10.2025,18:47,"13,54 €",************6134,Mastercard,Takuukuitti talteen
+RCP01278,@jussi555,Kioski Sinikallio,05.10.2025,16:54,"4,63 €",XXXX XXXX XXXX 1990,Mastercard,Takuukuitti talteen
+RCP01279,@hanna871,Haka Sushi,30.12.2025,06:36,"15,64 €",************5865,Mastercard,
+RCP01280,@santeri208,Kanerva Olutravintola,23.11.2025,19:29,"10,03 €",XXXX XXXX XXXX 9776,Mastercard,
+RCP01281,@ville165,Apteekki Lehvä,26.09.2025,18:52,"19,14 €",XXXX XXXX XXXX 6158,Mastercard,Takuukuitti talteen
+RCP01282,@aulis11,Tehdas Lähikauppa,21.12.2025,17:18,"5,78 €",XXXX XXXX XXXX 9987,Visa,Myydään: kuitti mukana
+RCP01283,@alma962,Ranta Market,13.12.2025,17:26,"13,16 €",XXXX XXXX XXXX 6277,Visa,Myydään: kuitti mukana
+RCP01284,@lauri454,Kahvila Kauppa,30.10.2025,12:27,"7,24 €",************8310,Visa,Kulukorvaus
+RCP01285,@nea636,Tuohi Ruokatori,15.10.2025,20:19,"77,71 €",************0865,Mastercard,Myydään: kuitti mukana
+RCP01286,Tiina M.,Kumpu Pub,18.10.2025,14:06,"26,61 €",************9727,Mastercard,Jaetaan lasku
+RCP01287,@viljo301,Taksi Vaskivuori,06.07.2025,22:46,"16,02 €",************5139,Visa,Jaetaan lasku
+RCP01288,Anders Å.,Harmajl Baari,07.11.2025,01:19,"27,05 €",XXXX XXXX XXXX 2463,Mastercard,Takuukuitti talteen
+RCP01289,@emma410,Baari Merivalo,20.07.2025,20:43,"68,33 €",************0922,Visa,Takuukuitti talteen
+RCP01290,William M.,Kahvila Pohjantuuli,05.08.2025,06:00,"10,51 €",XXXX XXXX XXXX 1089,Visa,Takuukuitti talteen
+RCP01291,@marko892,Ruokasatama Lounari,24.07.2025,13:14,"30,91 €",XXXX XXXX XXXX 7077,Visa,Myydään: kuitti mukana
+RCP01292,Joonas H.,Mänty Ruokatori,04.07.2025,13:16,"6,39 €",************5084,Mastercard,Jaetaan lasku
+RCP01293,@maria447,Aura Transit,02.07.2025,19:52,"3,10 €",************5414,Mastercard,Myydään: kuitti mukana
+RCP01294,@camilla293,Pizzeria Mylly,02.08.2025,15:49,"22,05 €",XXXX XXXX XXXX 0366,Mastercard,
+RCP01295,@santeri201,Lähikauppa Kuohu,14.12.2025,20:48,"59,65 €",XXXX XXXX XXXX 5828,Visa,Jaetaan lasku
+RCP01296,Maija H.,Olutravintola Harmaja,14.12.2025,19:18,"7,69 €",************3051,Mastercard,Kulukorvaus
+RCP01297,@essi630,Vaate Metsä,29.11.2025,11:22,"138,47 €",XXXX XXXX XXXX 2686,Mastercard,Takuukuitti talteen
+RCP01298,@petteri773,Kioski Niitty,27.09.2025,17:39,"7,80 €",************0844,Mastercard,
+RCP01299,@henna94,Lähikauppa Saari,24.07.2025,17:02,"21,74 €",************7245,Visa,Jaetaan lasku
+RCP01300,@henrik116,Pikkukauppa Varpu,13.07.2025,13:05,"6,31 €",************0519,Visa,
+RCP01301,@paula494,Vaate Lounari,13.09.2025,11:48,"31,69 €",************6904,Mastercard,
+RCP01302,Oskari N.,Sisustus Tervala,29.07.2025,15:24,"19,27 €",XXXX XXXX XXXX 6739,Mastercard,
+RCP01303,@kaisa195,Kauppa Ruokasatama,27.11.2025,10:31,"23,91 €",XXXX XXXX XXXX 3193,Visa,Kulukorvaus
+RCP01304,@marika812,Viinimyymälä Lehto,21.10.2025,20:10,"63,75 €",XXXX XXXX XXXX 9771,Mastercard,Jaetaan lasku
+RCP01305,@ville746,Tavaratalo Merivalo,30.12.2025,20:17,"63,47 €",************4250,Visa,
+RCP01306,@laura109,RuIkatori Metsä,26.10.2025,21:22,"10,13 €",XXXX XXXX XXXX 1494,Mastercard,Kulukorvaus
+RCP01307,@kaarina825,Vaate Pilvari,11.10.2025,16:02,"89,51 €",XXXX XXXX XXXX 8378,Visa,Myydään: kuitti mukana
+RCP01308,@pinja328,Aura Transit,12.08.2025,19:53,"3,10 €",XXXX XXXX XXXX 6877,Mastercard,
+RCP01309,Kaarina P.,Mänty Ruokatori,09.12.2025,08:52,"48,39 €",************1254,Mastercard,
+RCP01310,@veera842,Rautakauppa Aallon,15.09.2025,10:40,"41,52 €",************0200,Mastercard,Kulukorvaus
+RCP01311,@isak605,Baari Lehvä,21.12.2025,01:48,"27,56 €",XXXX XXXX XXXX 3763,Visa,Takuukuitti talteen
+RCP01312,Mari O.,Lumora LähiIauppa,09.12.2025,19:31,"3,43 €",************3817,Mastercard,Jaetaan lasku
+RCP01313,@maarit657,Ruokatori Se0kä,15.10.2025,17:53,"46,05 €",************8471,Mastercard,Myydään: kuitti mukana
+RCP01314,Hanna L.,Lehvä Asema,05.10.2025,12:17,"34,73 €",************2955,Mastercard,
+RCP01315,Raimo K.,Market Lehvä,15.08.2025,19:26,"8,71 €",************3448,Mastercard,Takuukuitti talteen
+RCP01316,@veeti39,Burger Kivaro,21.07.2025,13:14,"17,17 €",************0834,Visa,Kulukorvaus
+RCP01317,@roope306,Pihlaja Bistro,20.12.2025,18:19,"42,09 €",************9698,Mastercard,Kulukorvaus
+RCP01318,Johanna Å.,ATM Rauha Turku,26.12.2025,15:23,"50,00 €",************1116,Mastercard,Takuukuitti talteen
+RCP01319,@pinja357,Taksi Kaislan,14.07.2025,19:12,"102,42 €",XXXX XXXX XXXX 6881,Mastercard,Kulukorvaus
+RCP01320,@henna935,Market KuoIu,09.12.2025,16:02,"28,26 €",************7911,Visa,Takuukuitti talteen
+RCP01321,@timo11,Puisto Apteekki,15.07.2025,17:21,"15,60 €",************5681,Visa,Kulukorvaus
+RCP01322,Mattias L.,Market Kumpu,25.07.2025,12:30,"94,33 €",************1143,Mastercard,Jaetaan lasku
+RCP01323,@katja762,Market Aallon,08.09.2025,12:08,"5,06 €",XXXX XXXX XXXX 1309,Mastercard,Kulukorvaus
+RCP01324,@mari265,Ruokatori Kallio,15.12.2025,11:52,"18,74 €",************1851,Visa,
+RCP01325,Grace H.,Tavaratalo Okra,30.08.2025,11:42,"50,68 €",************9737,Visa,
+RCP01326,@henri876,Ruokasatama AseIa,28.11.2025,17:44,"130,93 €",************9106,Visa,
+RCP01327,@eveliina990,LäIkärikeskus Kauppa,29.10.2025,14:26,"72,54 €",XXXX XXXX XXXX 6446,Mastercard,
+RCP01328,@satu264,Varpu Sisustus,17.10.2025,16:21,"24,49 €",XXXX XXXX XXXX 0287,Visa,Jaetaan lasku
+RCP01329,Unto O.,Aura Transit,14.08.2025,08:59,"3,10 €",XXXX XXXX XXXX 8490,Visa,Myydään: kuitti mukana
+RCP01330,@aki980,Market Kaisla,22.08.2025,15:53,"14,82 €",************4467,Mastercard,Myydään: kuitti mukana
+RCP01331,@vesa749,Kioski Tammi,28.10.2025,09:20,"6,66 €",************4675,Visa,
+RCP01332,Leena R.,Rauta Kajo,08.12.2025,14:42,"75,12 €",XXXX XXXX XXXX 8367,Visa,Kulukorvaus
+RCP01333,@olavi693,Asema Kahvila,17.11.2025,20:46,"6,72 €",************7756,Mastercard,Myydään: kuitti mukana
+RCP01334,@aila402,Market Hiidenkivi,09.08.2025,11:00,"40,40 €",XXXX XXXX XXXX 4060,Mastercard,
+RCP01335,@satu525,Lähikauppa Rauta-Aura,12.11.2025,18:01,"14,55 €",XXXX XXXX XXXX 1000,Visa,Kulukorvaus
+RCP01336,Joel K.,Kajo Rautakauppa,26.10.2025,12:09,"26,39 €",XXXX XXXX XXXX 5075,Visa,
+RCP01337,@teemu131,Baari Lumora,23.12.2025,17:39,"49,81 €",XXXX XXXX XXXX 5416,Mastercard,
+RCP01338,Tero O.,ATM Lumme Raisio,03.12.2025,13:43,"20,00 €",************6141,Mastercard,Takuukuitti talteen
+RCP01339,@siiri333,Ranta Ruokatori,09.07.2025,17:43,"42,31 €",XXXX XXXX XXXX 9430,Visa,Myydään: kuitti mukana
+RCP01340,@dalia30,Ruokatori Rauha,30.11.2025,11:46,"85,03 €",XXXX XXXX XXXX 6629,Mastercard,Kulukorvaus
+RCP01341,Henri L.,Rautakauppa MyIly,10.08.2025,13:28,"6,78 €",XXXX XXXX XXXX 3405,Mastercard,Kulukorvaus
+RCP01342,@arja750,Kotiranta Viinimyymälä,13.10.2025,17:01,"34,65 €",XXXX XXXX XXXX 8197,Visa,Kulukorvaus
+RCP01343,Emma K.,Asema Sushi,28.10.2025,18:57,"8,73 €",XXXX XXXX XXXX 8695,Mastercard,Kulukorvaus
+RCP01344,@risto553,Aura Transit,07.11.2025,18:49,"55,00 €",XXXX XXXX XXXX 9416,Mastercard,Kulukorvaus
+RCP01345,@jaana630,Aallon Baari,13.09.2025,19:34,"15,40 €",************0727,Visa,Myydään: kuitti mukana
+RCP01346,@tomi683,Market Vire,21.10.2025,13:27,"23,65 €",************3533,Mastercard,
+RCP01347,@pirjo667,Ravintola Ruovo,30.12.2025,11:45,"17,54 €",************5238,Visa,
+RCP01348,Esa K.,Ruokasatama Pohjantuuli,29.09.2025,19:29,"23,04 €",************9991,Mastercard,Jaetaan lasku
+RCP01349,@ella244,Lähikauppa Hiidenkivi,15.11.2025,18:29,"5,77 €",************2173,Mastercard,Myydään: kuitti mukana
+RCP01350,@jari675,Lääkärikeskus Niitty,15.12.2025,18:34,"165,82 €",XXXX XXXX XXXX 6681,Mastercard,Jaetaan lasku
+RCP01351,Tuula H.,Kehrä Trattoria,28.10.2025,21:52,"56,03 €",XXXX XXXX XXXX 7562,Mastercard,Kulukorvaus
+RCP01352,@yusuf420,L1mora Lähikauppa,28.10.2025,17:02,"53,01 €",XXXX XXXX XXXX 6164,Visa,Jaetaan lasku
+RCP01353,Ilkka N.,Market Talmi,29.09.2025,12:05,"13,26 €",************5011,Mastercard,Kulukorvaus
+RCP01354,@matti429,Lääkärikeskus Niitty,21.07.2025,13:50,"130,53 €",************4835,Visa,Takuukuitti talteen
+RCP01355,Tuija K.,Autokorjaamo Tammi,09.12.2025,17:55,"399,87 €",************2156,Mastercard,Jaetaan lasku
+RCP01356,@juhani687,Pelto Ruokasatama,21.12.2025,16:55,"34,63 €",************1776,Visa,Takuukuitti talteen
+RCP01357,@sami431,Merivalo Sushi,23.12.2025,13:00,"15,02 €",XXXX XXXX XXXX 4638,Visa,Kulukorvaus
+RCP01358,@jenni383,Market Sinikallio,09.10.2025,12:36,"21,93 €",XXXX XXXX XXXX 2833,Mastercard,
+RCP01359,@tiina771,Burger Puisto,16.07.2025,11:46,"7,28 €",************9302,Mastercard,
+RCP01360,Aino V.,Pub Kirkko,26.10.2025,21:51,"19,36 €",************4068,Visa,
+RCP01361,Roosa H.,Kajo Rulkasatama,20.09.2025,12:32,"46,12 €",XXXX XXXX XXXX 1600,Mastercard,Kulukorvaus
+RCP01362,@tuija139,Market Kuohu,19.12.2025,14:51,"55,21 €",************8321,Visa,
+RCP01363,@johanna413,Sinikallio Market,25.07.2025,15:24,"57,15 €",************6119,Visa,Jaetaan lasku
+RCP01364,@emma94,Utu Market,20.07.2025,21:47,"43,53 €",XXXX XXXX XXXX 5888,Visa,Jaetaan lasku
+RCP01365,Britt N.,Baari Tehdas,26.07.2025,14:14,"30,56 €",************0598,Visa,Jaetaan lasku
+RCP01366,@joel406,Baari Tehdas,13.10.2025,21:37,"10,41 €",************5265,Visa,Myydään: kuitti mukana
+RCP01367,@kari947,Mänty Ruokatori,01.10.2025,18:32,"7,20 €",************0796,Mastercard,Myydään: kuitti mukana
+RCP01368,@impi179,Ruokasatama Niitty,02.08.2025,15:30,"10,14 €",************4097,Mastercard,Myydään: kuitti mukana
+RCP01369,@veikko420,Market Sarastus,19.12.2025,17:01,"107,74 €",XXXX XXXX XXXX 7655,Mastercard,Kulukorvaus
+RCP01370,@tuomas144,Lähikauppa Lehto,28.12.2025,20:22,"14,39 €",************7221,Visa,Jaetaan lasku
+RCP01371,Anu M.,Varpu Tavaratalo,14.10.2025,16:35,"48,37 €",XXXX XXXX XXXX 8485,Visa,Jaetaan lasku
+RCP01372,@johanna673,Market Lehvä,29.12.2025,09:39,"25,11 €",XXXX XXXX XXXX 3757,Mastercard,Jaetaan lasku
+RCP01373,@hanna615,Market Lehvä,13.09.2025,17:59,"29,17 €",************9620,Visa,Takuukuitti talteen
+RCP01374,@paula502,Burger Ranta,30.12.2025,17:45,"5,93 €",************0811,Visa,Myydään: kuitti mukana
+RCP01375,@laura232,Ruokasatama lelto,21.11.2025,17:14,"55,53 €",************4308,Visa,Kulukorvaus
+RCP01376,@veera40,Autokorjaamo Tammi,21.10.2025,10:53,"45,22 €",************2467,Visa,Myydään: kuitti mukana
+RCP01377,@helena795,Tervala Pub,08.12.2025,10:51,"28,06 €",************3672,Mastercard,Kulukorvaus
+RCP01378,Jari H.,Ruovo Ruokatori,06.09.2025,20:21,"293,14 €",************4627,Visa,Takuukuitti talteen
+RCP01379,@marjo169,Kuohu Trattoria,22.07.2025,12:29,"30,78 €",************3110,Mastercard,Jaetaan lasku
+RCP01380,@aila782,Aura Transit,05.08.2025,19:24,"3,10 €",************0814,Visa,Kulukorvaus
+RCP01381,Aino V.,Niitty Bistro,09.11.2025,15:30,"36,29 €",XXXX XXXX XXXX 5828,Visa,Myydään: kuitti mukana
+RCP01382,@hassan56,Klmpu Sisustus,25.10.2025,20:02,"34,95 €",************7576,Mastercard,Kulukorvaus
+RCP01383,@matti960,Market Vire,29.12.2025,14:41,"37,95 €",************9278,Mastercard,Jaetaan lasku
+RCP01384,@tero795,Muoti Kivaro,10.09.2025,19:22,"63,26 €",************4948,Mastercard,Takuukuitti talteen
+RCP01385,Antero V.,Ruokasatama Koivu,14.12.2025,15:54,"11,89 €",XXXX XXXX XXXX 7895,Mastercard,Jaetaan lasku
+RCP01386,@jani355,Muoti Metsä,30.07.2025,16:00,"127,62 €",************5411,Visa,
+RCP01387,@riku48,Linna Ruokatori,02.08.2025,12:28,"8,04 €",XXXX XXXX XXXX 1900,Visa,Kulukorvaus
+RCP01388,@marika370,Rautakauppa Mänty,01.09.2025,17:34,"48,57 €",************2676,Visa,
+RCP01389,Jenni K.,Kanerva Kuntosa0i,02.12.2025,09:07,"50,74 €",************8929,Mastercard,Jaetaan lasku
+RCP01390,@maija840,Kioski Sinikallio,26.09.2025,14:23,"3,75 €",XXXX XXXX XXXX 5326,Visa,Kulukorvaus
+RCP01391,@jenni569,Aura Transit,19.09.2025,19:20,"2,00 €",XXXX XXXX XXXX 9875,Mastercard,Kulukorvaus
+RCP01392,Tuula K.,Ruokasatama Kumpu,04.07.2025,15:34,"57,24 €",XXXX XXXX XXXX 8457,Visa,Jaetaan lasku
+RCP01393,@andrii388,Merivalo Pub,12.10.2025,17:23,"40,21 €",************4221,Visa,Jaetaan lasku
+RCP01394,@pinja139,Aura Transit,03.12.2025,14:33,"3,10 €",************8991,Visa,Takuukuitti talteen
+RCP01395,@maija15,ATM Ranta Turku,30.07.2025,21:21,"20,00 €",************2524,Mastercard,Jaetaan lasku
+RCP01396,@riitta912,Tuohi Polttoaine,10.10.2025,14:39,"61,24 €",************2923,Mastercard,
+RCP01397,@valtteri780,Metsä Lähikauppa,26.10.2025,08:45,"179,01 €",************9717,Visa,Kulukorvaus
+RCP01398,@sami303,Kaislan Market,12.11.2025,14:11,"7,51 €",************1248,Mastercard,Myydään: kuitti mukana
+RCP01399,@antero118,Lounari Tietokone,25.09.2025,19:29,"108,63 €",XXXX XXXX XXXX 8348,Visa,Kulukorvaus
+RCP01400,@ritva408,Market Asema,12.10.2025,21:48,"18,49 €",XXXX XXXX XXXX 5363,Mastercard,
