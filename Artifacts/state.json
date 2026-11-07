@@ -1,21 +1,52 @@
 {
   "task": "Attack-first demo/INSTRUCTION.md + FIN-S2 transform-not-drop (no LLM/Groq files; no resources/ edits)",
-  "branch": "task/attack-first-instruction-fin-s2",
-  "status": "coding",
-  "current_agent": "coder",
-  "plan": "See Artifacts/PLAN.md — 10 steps: gitignore agent_proposals; TOKENISE FIN-S2 glue; reorder run_release.sh; re-narrate run_demo.py; INSTRUCTION.md; stub DEMO/USAGE; update README/STEPS/CLAUDE. Do not touch agent_graph/agent_runtime/resources/normalize.",
+  "branch": "main",
+  "status": "merged",
+  "current_agent": "none",
+  "plan": "Artifacts/PLAN.md",
   "attempt": 1,
   "consecutive_failures": 0,
   "bugs": [],
-  "files_changed": [],
+  "files_changed": [
+    ".gitignore",
+    "app/pet_pipeline.py",
+    "app/run_demo.py",
+    "scripts/final/run_release.sh",
+    "scripts/final/STEPS.md",
+    "INSTRUCTION.md",
+    "DEMO.md",
+    "USAGE.md",
+    "README.md",
+    "CLAUDE.md",
+    "Artifacts/TASK.md",
+    "Artifacts/PLAN.md",
+    "Artifacts/dev-diary.md",
+    "Artifacts/state.json"
+  ],
+  "commit": "48049ae",
+  "merged_at": "2026-11-07T09:42:28Z",
   "history": [
     {
       "time": "2026-11-07T09:27:46Z",
       "agent": "planner",
       "attempt": 1,
       "result": "ok",
-      "summary": "10 steps; FIN-S2 HMAC tokenise; attack-first release; INSTRUCTION.md; leave Groq agent files alone"
+      "summary": "10 steps; FIN-S2 HMAC tokenise; attack-first release; INSTRUCTION.md"
+    },
+    {
+      "time": "2026-11-07T09:40:00Z",
+      "agent": "coder",
+      "attempt": 1,
+      "result": "ok",
+      "summary": "Implemented steps 1–10; all verification exit 0"
+    },
+    {
+      "time": "2026-11-07T09:42:28Z",
+      "agent": "coordinator",
+      "attempt": 1,
+      "result": "ok",
+      "summary": "Verified + merged 48049ae into main"
     }
   ],
-  "updated_at": "2026-11-07T09:35:00Z"
+  "updated_at": "2026-11-07T09:42:28Z"
 }
