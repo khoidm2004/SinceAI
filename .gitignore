@@ -10,6 +10,10 @@ CLAUDE.md
 # Python
 __pycache__/
 *.pyc
+.venv/
+
+# Editable-install metadata (pip install -e ./toolkit side effect)
+resources/**/pets_eval.egg-info/
 
 # Too large for GitHub; keep locally — see resources/NOTE.md
 resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026 (1).zip

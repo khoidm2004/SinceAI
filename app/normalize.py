@@ -1,8 +1,8 @@
 """R2 identifier normalisation for SinceAI.
 
 Pure functions, no I/O, no side effects. Shared by:
-  - scripts/measure_baseline.py  (P0 baseline positive control)
-  - scripts/mosaic_check.py      (P3 cross-release gate) -- import, do not copy
+  - app/measure_baseline.py  (P0 baseline positive control)
+  - app/mosaic_check.py      (P3 cross-release gate) -- import, do not copy
 
 The recipe is locked by findings/MVP_Plan.md section 3 (R2): it must reproduce
 HETU 1622 / phone 1484 on the unprotected pack data/. Changing it is a

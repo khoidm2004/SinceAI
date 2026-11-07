@@ -1,11 +1,8 @@
-#!/usr/bin/env python3
-"""P0 baseline: re-measure Attack A health ∩ finance on unprotected pack data.
-
-Locks MVP_Plan.md §6 expectations (1622 HETU / 1484 normalised phone).
-OPS-1: read-only under pack data/; stdlib only.
-"""
 from __future__ import annotations
 
+from python_version import require_python
+
+require_python()
 import argparse
 import csv
 import json
