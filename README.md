@@ -12,20 +12,44 @@ bash scripts/final/run_release.sh    # or run_demo.sh for the narrated path
 
 ## Scenario (MVP)
 
+**Threat story.** Pack scenarios (HEALTH-S1, FIN-S2 in `metadata/scenarios.json`) define two *separate* outward releases for different recipients. A **linkage attacker** who obtains *both* extracts — e.g. via leak, resale, or a black-market dump — can join on shared identifiers (HETU / phone) to rebuild a richer profile (health + finance) and abuse it (phishing, fraud, scams). They need not hack either controller live: the harm is in **combining** releases that still share joinable glue.
+
+**SinceAI** role-plays that attacker on unprotected pack `data/` (baseline joins), then protects so the same join fails on `clean_data/`.
+
+```text
+Controller(s)
+   │
+   ├── HEALTH-S1 extract ──► University research group
+   │                              │
+   └── FIN-S2 extract ─────► AI vendor (processor)
+                                  │
+                                  ▼
+                    Linkage attacker (holds both extracts)
+                                  │
+                                  ▼
+                    HETU / phone join  →  mosaic profile
+                    (raw data/: 1622 / 1484 people)
+                                  │
+                    SinceAI protect (per-release HMAC)
+                                  │
+                                  ▼
+                    same join on clean_data/  →  0 / 0
+```
+
 Exactly **two** pack scenarios / tables — the pair Attack A joins on:
 
-| Scenario | Table | Trust | Recipient / purpose | Protect choice |
+| Scenario | Table | Trust | Recipient (pack intent) | Protect choice |
 |---|---|---|---|---|
 | **HEALTH-S1** | `data/health/ed_visits.csv` | `controlled_research` | University research: LOS, revisits, diagnosis mix | Tokenise `patient_hetu` (stable pseudonym required); do **not** tokenise health `phone` |
 | **FIN-S2** | `data/finance/customers.csv` | `contractual` | AI vendor (processor): fraud / spending model | Drop `full_name` / `street_address`; keyed-tokenise `hetu` / `phone` / `iban` / `email` (**17 → 15** cols) |
 
-Same person must get a **different** HMAC token in each release, so health ∩ finance cannot re-link. Other pack datasets / scenarios are out of MVP scope. Plan detail: [`findings/MVP_Plan.md`](findings/MVP_Plan.md) §4.
+Scenarios answer *who may receive each release and why*. The attacker story answers *what goes wrong if both extracts still share joinable glue*. Same person must get a **different** HMAC token in each release so health ∩ finance cannot re-link. Other pack datasets / scenarios are out of MVP scope. Plan detail: [`findings/MVP_Plan.md`](findings/MVP_Plan.md) §4; attack account: [`findings/IDEA.md`](findings/IDEA.md).
 
 ## Metrics outputs (short)
 
 | Signal | Where | What “good” looks like |
 |---|---|---|
-| **Attack A joins** | `measure_baseline` / `attack_sim` / mosaic PASS-2 | Raw: HETU **1622**, phone **1484** (baseline still works) |
+| **Attack A joins** | `measure_baseline` / `attack_sim` / mosaic PASS-2 | Raw: HETU (Finnish personal identity code) **1622**, phone **1484** (baseline still works) |
 | **Mosaic gate** | `clean_data/mosaic_check.json` | PASS-1: joins on `clean_data/` are **0 / 0**; PASS-2: baseline reproduced; `verdict: PASS` |
 | **pets-eval scorecard** | `clean_data/<dataset>__<SID>/scorecard.json` | **Privacy** / **utility** / **composite** per [`docs/EVALUATION.md`](resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/docs/EVALUATION.md) — self-assessment, not official judging |
 | **Analyze HTML** | `analyze/index.html` via `run_analyze.sh` | One demo row raw↔protected, joins before/after, scorecards side by side |
