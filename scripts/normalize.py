@@ -1,32 +1,42 @@
-"""R2 normalisation helpers for P0 baseline and P3 mosaic_check."""
+"""R2 identifier normalisation for SinceAI.
 
+Pure functions, no I/O, no side effects. Shared by:
+  - scripts/measure_baseline.py  (P0 baseline positive control)
+  - scripts/mosaic_check.py      (P3 cross-release gate) -- import, do not copy
+
+The recipe is locked by findings/MVP_Plan.md section 3 (R2): it must reproduce
+HETU 1622 / phone 1484 on the unprotected pack data/. Changing it is a
+behaviour change, not a cleanup.
+"""
 from __future__ import annotations
 
 import re
-from typing import Callable, Iterable, Optional
+from typing import Callable, Iterable
+
+PHONE_RECIPE = "strip non-[0-9+]; ^\\+358→0; ^00358→0"
+HETU_RECIPE = "strip; string as-is"
 
 _PHONE_STRIP_RE = re.compile(r"[^0-9+]")
 
-
-def normalize_phone(raw: Optional[str]) -> str:
-    if raw is None:
+def normalize_phone(value: str | None) -> str:
+    if value is None:
         return ""
-    s = _PHONE_STRIP_RE.sub("", str(raw))
-    if s.startswith("+358"):
-        s = "0" + s[4:]
-    elif s.startswith("00358"):
-        s = "0" + s[5:]
-    return s
+    digits = _PHONE_STRIP_RE.sub("", value)
+    if digits.startswith("+358"):
+        return "0" + digits[4:]
+    if digits.startswith("00358"):
+        return "0" + digits[5:]
+    return digits
 
-
-def normalize_hetu(raw: Optional[str]) -> str:
-    if raw is None:
+def normalize_hetu(value: str | None) -> str:
+    if value is None:
         return ""
-    return str(raw).strip()
+    return value.strip()
 
-
-def unique_nonempty(
-    values: Iterable[Optional[str]],
-    normalizer: Callable[[Optional[str]], str],
-) -> set[str]:
-    return {n for n in (normalizer(v) for v in values) if n}
+def unique_nonempty(values: Iterable[str | None], normalizer: Callable[[str | None], str]) -> set[str]:
+    out: set[str] = set()
+    for value in values:
+        normalized = normalizer(value)
+        if normalized:
+            out.add(normalized)
+    return out

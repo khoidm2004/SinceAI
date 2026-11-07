@@ -1,5 +1,9 @@
-"""P0, Attack A health∩finance baseline lock."""
+#!/usr/bin/env python3
+"""P0 baseline: re-measure Attack A health ∩ finance on unprotected pack data.
 
+Locks MVP_Plan.md §6 expectations (1622 HETU / 1484 normalised phone).
+OPS-1: read-only under pack data/; stdlib only.
+"""
 from __future__ import annotations
 
 import argparse
@@ -7,19 +11,27 @@ import csv
 import json
 import sys
 from pathlib import Path
-from typing import Optional, Sequence
+from typing import Any, Sequence
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from normalize import normalize_hetu, normalize_phone, unique_nonempty  # reused by mosaic_check.py (P3)
+from normalize import (  # noqa: E402
+    HETU_RECIPE,
+    PHONE_RECIPE,
+    normalize_hetu,
+    normalize_phone,
+    unique_nonempty,
+)
 
 EXPECTED_HETU = 1622
-EXPECTED_PHONE = 1484
+EXPECTED_PHONE = 1484  # NEVER retune these
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_PACK_ROOT = (
     REPO_ROOT / "resources" / "TRUSTED_SinceAI2026_FINAL" / "TRUSTED_PETS_PROVING_GROUND_2026"
 )
 DEFAULT_OUT = REPO_ROOT / "findings" / "baseline_overlap.json"
+
+RESOURCES_ROOT = REPO_ROOT / "resources"
 
 HEALTH_REL = Path("data") / "health" / "ed_visits.csv"
 FINANCE_REL = Path("data") / "finance" / "customers.csv"
@@ -29,44 +41,174 @@ HEALTH_PHONE_COL = "phone"
 FINANCE_HETU_COL = "hetu"
 FINANCE_PHONE_COL = "phone"
 
-NORMALISATION_PHONE = r"strip non-[0-9+]; ^\+358→0; ^00358→0"
-NORMALISATION_HETU = "strip; string as-is"
+REFERENCE_HEALTH_ROWS = 46398
+REFERENCE_FINANCE_ROWS = 6315
 
 DEMO_HETU = "021280-9730"
 
+EXIT_PASS = 0
+EXIT_FAIL = 1
+EXIT_ERROR = 2
 
-def load_table(
-    csv_path: Path,
-    hetu_col: str,
-    phone_col: str,
-) -> tuple[set[str], set[str], int]:
-    with open(csv_path, encoding="utf-8-sig", newline="", mode="r") as f:
+# Future PASS-2 joins (energy/customer_service, etc.) are out of MVP scope;
+# mosaic_check.py will add them later. P0 requires only health ∩ finance.
+
+
+def read_csv_columns(path: Path, columns: Sequence[str]) -> dict[str, list[str | None]]:
+    with open(path, encoding="utf-8-sig", newline="", mode="r") as f:
         reader = csv.DictReader(f)
         if reader.fieldnames is None:
-            print(f"error: no header in {csv_path}", file=sys.stderr)
-            sys.exit(2)
+            raise ValueError(f"no header in {path}")
         fieldnames = set(reader.fieldnames)
-        for col in (hetu_col, phone_col):
-            if col not in fieldnames:
-                print(f"error: missing column {col!r} in {csv_path}", file=sys.stderr)
-                sys.exit(2)
-        hetu_values: list[Optional[str]] = []
-        phone_values: list[Optional[str]] = []
-        row_count = 0
+        missing = [c for c in columns if c not in fieldnames]
+        if missing:
+            raise ValueError(f"missing column(s) {missing!r} in {path}")
+        out: dict[str, list[str | None]] = {col: [] for col in columns}
         for row in reader:
-            row_count += 1
-            hetu_values.append(row.get(hetu_col))
-            phone_values.append(row.get(phone_col))
-        hetu_set = unique_nonempty(hetu_values, normalize_hetu)
-        phone_set = unique_nonempty(phone_values, normalize_phone)
-        return hetu_set, phone_set, row_count
+            for column in columns:
+                out[column].append(row.get(column))
+        return out
 
 
-def _find_demo_rows(pack_root: Path) -> None:
+def load_pack(pack_root: Path) -> tuple[dict[str, list[str | None]], dict[str, list[str | None]]]:
+    pack_root = pack_root.resolve()
+    if not pack_root.is_dir():
+        raise FileNotFoundError(f"pack root not found: {pack_root}")
     health_path = pack_root / HEALTH_REL
     finance_path = pack_root / FINANCE_REL
+    if not health_path.is_file():
+        raise FileNotFoundError(f"missing {health_path}")
+    if not finance_path.is_file():
+        raise FileNotFoundError(f"missing {finance_path}")
+    health = read_csv_columns(health_path, [HEALTH_HETU_COL, HEALTH_PHONE_COL])
+    finance = read_csv_columns(finance_path, [FINANCE_HETU_COL, FINANCE_PHONE_COL])
+    return health, finance
+
+
+def build_report(
+    pack_root: Path,
+    health: dict[str, list[str | None]],
+    finance: dict[str, list[str | None]],
+) -> dict[str, Any]:
+    health_hetus = unique_nonempty(health[HEALTH_HETU_COL], normalize_hetu)
+    health_phones = unique_nonempty(health[HEALTH_PHONE_COL], normalize_phone)
+    finance_hetus = unique_nonempty(finance[FINANCE_HETU_COL], normalize_hetu)
+    finance_phones = unique_nonempty(finance[FINANCE_PHONE_COL], normalize_phone)
+
+    hetu_overlap = len(health_hetus & finance_hetus)
+    phone_overlap = len(health_phones & finance_phones)
+
+    hetu_pass = hetu_overlap == EXPECTED_HETU
+    phone_pass = phone_overlap == EXPECTED_PHONE
+    verdict = "PASS" if hetu_pass and phone_pass else "FAIL"
+
+    health_rows = len(health[HEALTH_HETU_COL])
+    finance_rows = len(finance[FINANCE_HETU_COL])
+
+    return {
+        "pack_root": str(pack_root.resolve()),
+        "joins": {
+            "hetu_health_finance": {
+                "observed": hetu_overlap,
+                "expected": EXPECTED_HETU,
+                "pass": hetu_pass,
+            },
+            "phone_health_finance": {
+                "observed": phone_overlap,
+                "expected": EXPECTED_PHONE,
+                "pass": phone_pass,
+            },
+        },
+        "normalisation": {
+            "phone": PHONE_RECIPE,
+            "hetu": HETU_RECIPE,
+        },
+        "counts": {
+            "health": {
+                "rows": health_rows,
+                "distinct_hetu": len(health_hetus),
+                "distinct_phone_norm": len(health_phones),
+            },
+            "finance": {
+                "rows": finance_rows,
+                "distinct_hetu": len(finance_hetus),
+                "distinct_phone_norm": len(finance_phones),
+            },
+        },
+        "verdict": verdict,
+    }
+
+
+def print_summary(report: dict[str, Any]) -> None:
+    counts = report["counts"]
+    joins = report["joins"]
+    print("SinceAI P0 — Attack A baseline (health ∩ finance), unprotected data")
+    print(f"pack root: {report['pack_root']}")
+    print()
+    print(
+        f"  health  {HEALTH_REL}      {counts['health']['rows']:>6} rows   "
+        f"{counts['health']['distinct_hetu']:>6} distinct HETU   "
+        f"{counts['health']['distinct_phone_norm']:>6} distinct phone(norm)"
+    )
+    print(
+        f"  finance {FINANCE_REL}     {counts['finance']['rows']:>6} rows   "
+        f"{counts['finance']['distinct_hetu']:>6} distinct HETU   "
+        f"{counts['finance']['distinct_phone_norm']:>6} distinct phone(norm)"
+    )
+    print(
+        f"  (reference row counts: health {REFERENCE_HEALTH_ROWS}, "
+        f"finance {REFERENCE_FINANCE_ROWS})"
+    )
+    print()
+    print(f"  normalisation  phone: {PHONE_RECIPE}")
+    print(f"                 hetu:  {HETU_RECIPE}")
+    print()
+    print("  join                        observed   expected   result")
+    hetu = joins["hetu_health_finance"]
+    phone = joins["phone_health_finance"]
+    print(
+        f"  hetu  health ∩ finance      {hetu['observed']:>10}   "
+        f"{hetu['expected']:>10}   {'PASS' if hetu['pass'] else 'FAIL'}"
+    )
+    print(
+        f"  phone health ∩ finance      {phone['observed']:>10}   "
+        f"{phone['expected']:>10}   {'PASS' if phone['pass'] else 'FAIL'}"
+    )
+    print()
+    verdict = report["verdict"]
+    if verdict == "PASS":
+        print(f"VERDICT: {verdict}  (baseline locked at {EXPECTED_HETU} / {EXPECTED_PHONE})")
+    else:
+        print(f"VERDICT: {verdict}")
+
+
+def _phone_for_hetu(
+    pack_root: Path,
+    hetu: str,
+) -> tuple[str | None, str | None]:
+    """Return (health_phone_raw, finance_phone_raw) for hetu in data/ CSVs."""
+    health_phone: str | None = None
+    finance_phone: str | None = None
+    health_path = pack_root / HEALTH_REL
+    with open(health_path, encoding="utf-8-sig", newline="", mode="r") as f:
+        for row in csv.DictReader(f):
+            if normalize_hetu(row.get(HEALTH_HETU_COL)) == hetu:
+                health_phone = row.get(HEALTH_PHONE_COL)
+                break
+    finance_path = pack_root / FINANCE_REL
+    with open(finance_path, encoding="utf-8-sig", newline="", mode="r") as f:
+        for row in csv.DictReader(f):
+            if normalize_hetu(row.get(FINANCE_HETU_COL)) == hetu:
+                finance_phone = row.get(FINANCE_PHONE_COL)
+                break
+    return health_phone, finance_phone
+
+
+def print_demo_row(pack_root: Path) -> None:
     print()
     print(f"  demo-row (P013174) — HETU {DEMO_HETU}")
+    health_path = pack_root / HEALTH_REL
+    finance_path = pack_root / FINANCE_REL
     with open(health_path, encoding="utf-8-sig", newline="", mode="r") as f:
         for row in csv.DictReader(f):
             if normalize_hetu(row.get(HEALTH_HETU_COL)) == DEMO_HETU:
@@ -87,104 +229,61 @@ def _find_demo_rows(pack_root: Path) -> None:
                 break
         else:
             print(f"    finance (no row with HETU {DEMO_HETU})")
+    h_raw, f_raw = _phone_for_hetu(pack_root, DEMO_HETU)
+    if h_raw is not None and f_raw is not None:
+        print(
+            f"    normalised phone: health={normalize_phone(h_raw)!r} "
+            f"finance={normalize_phone(f_raw)!r}"
+        )
 
 
-def main(argv: Optional[Sequence[str]] = None) -> int:
-    parser = argparse.ArgumentParser(description="P0 Attack A baseline lock")
+def write_report(report: dict[str, Any], out_path: Path) -> None:
+    out_path = out_path.resolve()
+    if out_path.is_relative_to(RESOURCES_ROOT.resolve()):
+        raise ValueError(f"refusing to write under resources/: {out_path}")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as out_f:
+        json.dump(report, out_f, indent=2, ensure_ascii=False)
+        out_f.write("\n")
+
+
+def parse_args(argv: Sequence[str] | None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="P0 Attack A baseline lock (health ∩ finance)"
+    )
     parser.add_argument("--pack-root", type=Path, default=DEFAULT_PACK_ROOT)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
-    parser.add_argument("--no-json", action="store_true")
-    parser.add_argument("--demo-row", action="store_true")
-    args = parser.parse_args(argv)
+    parser.add_argument("--no-out", action="store_true", help="Skip JSON report")
+    parser.add_argument("--demo-row", action="store_true", help="Print P013174 demo row")
+    return parser.parse_args(argv)
 
-    pack_root = args.pack_root.resolve()
-    health_path = pack_root / HEALTH_REL
-    finance_path = pack_root / FINANCE_REL
 
-    missing = False
-    if not health_path.is_file():
-        print(f"error: missing {health_path}", file=sys.stderr)
-        missing = True
-    if not finance_path.is_file():
-        print(f"error: missing {finance_path}", file=sys.stderr)
-        missing = True
-    if missing:
-        return 2
+def main(argv: Sequence[str] | None = None) -> int:
+    args = parse_args(argv)
+    pack_root = args.pack_root
 
-    health_hetus, health_phones, health_rows = load_table(
-        health_path, HEALTH_HETU_COL, HEALTH_PHONE_COL
-    )
-    finance_hetus, finance_phones, finance_rows = load_table(
-        finance_path, FINANCE_HETU_COL, FINANCE_PHONE_COL
-    )
+    try:
+        health, finance = load_pack(pack_root)
+    except (FileNotFoundError, ValueError) as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return EXIT_ERROR
 
-    hetu_overlap = len(health_hetus & finance_hetus)
-    phone_overlap = len(health_phones & finance_phones)
-
-    hetu_pass = hetu_overlap == EXPECTED_HETU
-    phone_pass = phone_overlap == EXPECTED_PHONE
-    verdict = "PASS" if (hetu_pass and phone_pass) else "FAIL"
-
-    print("SinceAI P0 — Attack A baseline (health ∩ finance), unprotected data")
-    print(f"pack root: {pack_root}")
-    print()
-    print(
-        f"  health  {HEALTH_REL}      {health_rows:>6} rows   "
-        f"{len(health_hetus):>6} distinct HETU   {len(health_phones):>6} distinct phone(norm)"
-    )
-    print(
-        f"  finance {FINANCE_REL}     {finance_rows:>6} rows   "
-        f"{len(finance_hetus):>6} distinct HETU   {len(finance_phones):>6} distinct phone(norm)"
-    )
-    print()
-    print("  normalisation  phone: strip non-[0-9+]; ^+358→0; ^00358→0")
-    print("                 hetu:  strip; string as-is")
-    print()
-    print("  join                        observed   expected   result")
-    print(
-        f"  hetu  health ∩ finance      {hetu_overlap:>10}   "
-        f"{EXPECTED_HETU:>10}   {'PASS' if hetu_pass else 'FAIL'}"
-    )
-    print(
-        f"  phone health ∩ finance      {phone_overlap:>10}   "
-        f"{EXPECTED_PHONE:>10}   {'PASS' if phone_pass else 'FAIL'}"
-    )
-    print()
-    if verdict == "PASS":
-        print(f"VERDICT: {verdict}  (baseline locked at {EXPECTED_HETU} / {EXPECTED_PHONE})")
-    else:
-        print(f"VERDICT: {verdict}")
+    report = build_report(pack_root, health, finance)
+    print_summary(report)
 
     if args.demo_row:
-        _find_demo_rows(pack_root)
+        print_demo_row(pack_root.resolve())
 
-    if not args.no_json:
-        report = {
-            "pack_root": str(pack_root),
-            "joins": {
-                "hetu_health_finance": {
-                    "observed": hetu_overlap,
-                    "expected": EXPECTED_HETU,
-                    "pass": hetu_pass,
-                },
-                "phone_health_finance": {
-                    "observed": phone_overlap,
-                    "expected": EXPECTED_PHONE,
-                    "pass": phone_pass,
-                },
-            },
-            "normalisation": {
-                "phone": NORMALISATION_PHONE,
-                "hetu": NORMALISATION_HETU,
-            },
-            "verdict": verdict,
-        }
-        args.out.parent.mkdir(parents=True, exist_ok=True)
-        with open(args.out, "w", encoding="utf-8") as out_f:
-            json.dump(report, out_f, indent=2)
-            out_f.write("\n")
+    if not args.no_out:
+        try:
+            write_report(report, args.out)
+        except (OSError, ValueError) as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return EXIT_ERROR
 
-    return 0 if (hetu_pass and phone_pass) else 1
+    if report["verdict"] == "PASS":
+        return EXIT_PASS
+    return EXIT_FAIL
 
 
 if __name__ == "__main__":
