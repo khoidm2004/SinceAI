@@ -182,10 +182,11 @@ The official gate record remains `clean_data/mosaic_check.json`.
 
 ## One command for all of it
 
-**Full release pipeline** (attack raw → protect → re-attack → gate, wrapped in OPS-1):
+**Full release pipeline** (attack raw → protect → re-attack → gate → analyze HTML, wrapped in OPS-1):
 
 ```bash
 bash scripts/final/run_release.sh
+# then open analyze/no_AI/index.html
 ```
 
 **Narrated jury demo** (raw attack story → defend → zeros → metrics):

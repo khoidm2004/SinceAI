@@ -26,7 +26,7 @@ technical plan: `findings/MVP_Plan.md`.
 - Protect (P1): `bash scripts/final/run_protect.sh --init-key`
 - Attack-sim (P2 shadow): `bash scripts/final/run_attack_sim.sh --mode shadow`
 - Scorecard (P3, needs the toolkit installed: `pip install -e resources/.../toolkit`): `bash scripts/final/run_scorecard.sh` (exits 4, not an error, if the toolkit isn't installed yet)
-- Release pipeline (P6): `bash scripts/final/run_release.sh` (OPS-1 verify → attack raw → protect → re-attack → mosaic gate → OPS-1 verify)
+- Release pipeline (P6): `bash scripts/final/run_release.sh` (OPS-1 verify → attack raw → protect → re-attack → mosaic gate → analyze HTML under `analyze/no_AI/` → OPS-1 verify)
 - Demo (P7): `bash scripts/final/run_demo.sh`
 - Agents (P8, A2 — advisory, off by default): `bash scripts/final/run_agents.sh --agents auto --mode shadow` (reduces to deterministic `attack_sim` when `GROQ_API_KEY` is unset); offline graph run: `--agents on --llm-stub`
 - Agent AR-4 contract self-test (no key, no network): `bash scripts/final/run_agents.sh --selftest`

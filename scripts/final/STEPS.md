@@ -46,7 +46,7 @@ runbook and [`../../README.md`](../../README.md) for behaviour / agent overview.
 | P3b | `run_scorecard.sh` | pets-eval per-scenario scorecard + check (needs the toolkit installed) |
 | P4 | `make_benchmark.sh` | B1 mosaic-join chart; B2 score chart once scorecards exist (run P3b first) |
 | P5 | `ops1_manifest.sh` | OPS-1 pack integrity — `build \| verify \| selftest` against committed `manifests/pack_data_sha256.json` |
-| P6 | `run_release.sh` | Full release pipeline: OPS-1 verify → attack raw → protect → re-attack protected → mosaic gate → OPS-1 verify |
+| P6 | `run_release.sh` | Full release pipeline: OPS-1 verify → attack raw → protect → re-attack protected → mosaic gate → analyze HTML (`analyze/no_AI/`) → OPS-1 verify |
 | P7 | `run_demo.sh` | Narrated before/after Attack A walkthrough, wrapped in OPS-1 verify on both sides |
 | P8 | `run_agents.sh` | Advisory multi-agent pass (Groq). Off unless `GROQ_API_KEY` is set or `--llm-stub` is passed; never gates a release and never writes `clean_data/` |
 | Analyze | `run_analyze.sh` | Build `analyze/index.html`: demo-row raw↔protected, Attack A joins before/after protect, pets-eval scorecards (EVALUATION.md framing) |
@@ -88,7 +88,8 @@ bash scripts/final/run_attack_sim.sh --mode shadow
   on `clean_data/`, `mosaic_check.sh`, `run_scorecard.sh`, and `make_benchmark.sh`.
 - `make_benchmark.sh` reads `clean_data/mosaic_check.json`, so run
   `mosaic_check.sh` (or `run_release.sh`) before it.
-- `run_release.sh` runs raw attack → protect → protected attack → mosaic gate itself;
+- `run_release.sh` runs raw attack → protect → protected attack → mosaic gate →
+  analyze HTML (`analyze/no_AI/`) itself;
   you do not need a prior manual protect unless you are running the demo with
   `--skip-protect`.
 - `run_demo.sh --skip-protect` assumes `clean_data/` already exists; drop the

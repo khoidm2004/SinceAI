@@ -66,7 +66,7 @@ Scenarios answer *who may receive each release and why*. The attacker story answ
 
 Wrappers:
 
-- `run_release.sh` — OPS-1 verify → attack raw → protect → re-attack → gate → verify
+- `run_release.sh` — OPS-1 verify → attack raw → protect → re-attack → gate → analyze (`analyze/no_AI/`) → verify
 - `run_demo.sh` — narrated attack → defend → measure (OPS-1 wrapped)
 
 Agents are **not** wired into those wrappers. Beside the gate when needed:
