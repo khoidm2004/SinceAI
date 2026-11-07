@@ -16,10 +16,12 @@ pins `3.13.15` via pyenv). Technical plan: [`findings/MVP_Plan.md`](findings/MVP
 | `app/` | Protect, attack-sim, mosaic gate, demo, OPS-1 |
 | `scripts/final/` | User-facing shell entry points |
 | `resources/` | Read-only TrustED pack (**never edit**) |
-| `clean_data/` | Protected releases (gitignored; created by protect) |
+| `clean_data/` | Protected releases (created by protect) |
 | `keys/` | HMAC master key (gitignored; `--init-key` creates it) |
+| `.env` | Local Groq secrets (`GROQ_API_KEY`, `GROQ_MODEL`) — **gitignored** |
 
-`scripts/material/common.sh` picks a qualifying Python interpreter automatically.
+`scripts/material/common.sh` picks a qualifying Python interpreter automatically and
+loads repo-root `.env` if present (does not override vars already set in your shell).
 
 ## 0. Verify the pack is intact (OPS-1)
 
@@ -97,30 +99,84 @@ Artifacts:
 - `bash scripts/final/make_benchmark.sh` — B1 mosaic-join chart (`benchmarks/B1_mosaic_joins.png`)
   and B2 once scorecards exist
 
-## 5. Multi-agent layer (P8 — optional, advisory)
+## 5. Multi-agent layer (P8 — advisory; plan §5.3)
 
-The Groq layer is **advisory only** — it cannot pass a release or change gate
-artefacts. With no API key it reduces to the deterministic `attack_sim` path.
+Design authority: [`findings/MVP_Plan.md`](findings/MVP_Plan.md) §5 Part 3.
+Pin for env vars: [`findings/agent_groq.md`](findings/agent_groq.md).
+
+### How agents fit the workflow
+
+Per the plan: **validate before test, not instead of test.** Agents sit *after*
+protect and *before / beside* the deterministic gate. They can **delay** a release
+with proposals; they **cannot** PASS one, write `clean_data/`, or change mosaic /
+pets-eval exit codes.
+
+| Node | LLM? | Job |
+|---|---|---|
+| `attack_sim` | **No** | Deterministic HETU/phone join (same instrument as P2) |
+| `supervisor` | Groq | Route which specialists run for this release |
+| `classify_assist` | Groq | Propose roles for *uncatalogued* columns only |
+| `minim_assist` | Groq | Propose dropping tokenised columns unused by utility targets |
+| `brief_writer` | Groq | Plain-English brief from **JSON numbers only** |
+| `human_review` | No | Fail-closed HITL (shadow mode only logs) |
+| `redact_assist` / `discover_assist` | Groq (A3) | Stubs today — no free text is sent yet |
+
+### Configure Groq (key + model only)
+
+API base is **not required** — the client defaults to Groq’s OpenAI-compatible
+endpoint. Put secrets in a **gitignored** `.env` at the repo root:
 
 ```bash
-# Kill switch — same as attack_sim on clean_data/
-bash scripts/final/run_agents.sh --agents off --mode shadow
-
-# Offline full graph (canned LLM responses)
-bash scripts/final/run_agents.sh --agents on --llm-stub --mode shadow
-
-# Auto: specialists run only when GROQ_API_KEY is set
-bash scripts/final/run_agents.sh --agents auto --mode shadow
+cp .env.example .env
+# edit .env:
+#   GROQ_API_KEY=gsk_…
+#   GROQ_MODEL=openai/gpt-oss-120b
 ```
 
-Environment variables and AR-4 rules: [`findings/agent_groq.md`](findings/agent_groq.md).
-Proposals land under gitignored `findings/agent_proposals/` (`*.agents.json`).
-
-Contract self-test (no key, no network):
+Or export in the shell (overrides `.env`):
 
 ```bash
+export GROQ_API_KEY='gsk_…'
+export GROQ_MODEL='openai/gpt-oss-120b'
+```
+
+Never commit `.env` or paste keys into git-tracked docs.
+
+### Run the agent pass
+
+Prerequisites: `clean_data/` already built (`run_protect.sh --init-key`), then:
+
+```bash
+# Contract self-test (no network)
 bash scripts/final/run_agents.sh --selftest
+
+# Live specialists (reads .env / GROQ_*)
+bash scripts/final/run_agents.sh --agents on --mode shadow
+
+# Auto: on iff key is present, else deterministic only
+bash scripts/final/run_agents.sh --agents auto --mode shadow
+
+# Kill switch / offline canned graph
+bash scripts/final/run_agents.sh --agents off --mode shadow
+bash scripts/final/run_agents.sh --agents on --llm-stub --mode shadow
 ```
+
+Suggested place in the full story (after §3 re-attack, before trusting ship):
+
+```bash
+bash scripts/final/run_protect.sh --init-key
+bash scripts/final/run_agents.sh --agents on --mode shadow
+bash scripts/final/mosaic_check.sh          # gate still decides PASS/FAIL
+```
+
+Outputs: `findings/agent_proposals/<thread_id>.agents.json` (proposal log).
+The official gate record remains `clean_data/mosaic_check.json`.
+
+### What agents must never do (plan AR-4 / governing rules)
+
+- Send raw `hetu` / `phone` / `iban` / `email`, `truth/`, `rowmap_*.csv`, or `keys/`
+- Write under `clean_data/` or flip the mosaic / scorecard exit code
+- Replace the JSON report with the brief (brief is beside the numbers, not instead)
 
 ## One command for all of it
 

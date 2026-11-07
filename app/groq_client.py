@@ -7,6 +7,7 @@ import time
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 
 from agent_contracts import PROMPT_VERSION, assert_clean
@@ -16,6 +17,43 @@ DEFAULT_MODEL = "openai/gpt-oss-120b"
 DEFAULT_TEMPERATURE = 0.1
 DEFAULT_MAX_TOKENS = 800
 DEFAULT_TIMEOUT = 20.0
+
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+_DOTENV_LOADED = False
+
+
+def _load_dotenv_file() -> None:
+    """Load repo-root `.env` into os.environ without overriding existing keys.
+
+    Only KEY=VALUE lines; `#` comments and blank lines ignored. `.env` is
+    gitignored — API base is optional (DEFAULT_API_BASE applies).
+    """
+    global _DOTENV_LOADED
+    if _DOTENV_LOADED:
+        return
+    _DOTENV_LOADED = True
+    path = _REPO_ROOT / ".env"
+    if not path.is_file():
+        return
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        key = key.strip()
+        val = val.strip()
+        if not key or not key.replace("_", "").isalnum():
+            continue
+        if (val.startswith('"') and val.endswith('"')) or (
+            val.startswith("'") and val.endswith("'")
+        ):
+            val = val[1:-1]
+        if key not in os.environ or not (os.environ.get(key) or "").strip():
+            os.environ[key] = val
 
 _STUBS = {
     "supervisor": (
@@ -71,7 +109,9 @@ class GroqConfig:
 
     @classmethod
     def from_env(cls, *, stub: bool = False) -> GroqConfig:
+        _load_dotenv_file()
         key = (os.environ.get("GROQ_API_KEY") or "").strip() or None
+        # API base is optional — built-in Groq OpenAI-compatible default.
         base = (os.environ.get("GROQ_API_BASE") or DEFAULT_API_BASE).strip()
         model = (os.environ.get("GROQ_MODEL") or DEFAULT_MODEL).strip()
         return cls(

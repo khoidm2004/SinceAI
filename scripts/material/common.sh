@@ -14,6 +14,37 @@
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 export ROOT
 
+# _load_dotenv — export KEY=VALUE from repo-root `.env` without overriding
+# variables already set in the shell. Supports optional single/double quotes.
+# Missing `.env` is fine (offline / CI). Never commit `.env` (gitignored).
+_load_dotenv() {
+  local env_file="$ROOT/.env" line key val
+  [ -f "$env_file" ] || return 0
+  while IFS= read -r line || [ -n "$line" ]; do
+    line="${line#"${line%%[![:space:]]*}"}"
+    line="${line%"${line##*[![:space:]]}"}"
+    case "$line" in
+      ""|\#*) continue ;;
+    esac
+    [[ "$line" == *=* ]] || continue
+    key="${line%%=*}"
+    val="${line#*=}"
+    key="${key%"${key##*[![:space:]]}"}"
+    key="${key#"${key%%[![:space:]]*}"}"
+    [[ "$key" =~ ^[A-Za-z_][A-Za-z0-9_]*$ ]] || continue
+    # strip matching quotes
+    if [[ "$val" == \"*\" ]]; then
+      val="${val:1:${#val}-2}"
+    elif [[ "$val" == \'*\' ]]; then
+      val="${val:1:${#val}-2}"
+    fi
+    if [ -z "${!key+x}" ] || [ -z "${!key}" ]; then
+      export "$key=$val"
+    fi
+  done < "$env_file"
+}
+_load_dotenv
+
 # _pick_python — find a Python >=3.10 without assuming the caller's shell
 # has pyenv's shims on PATH (e.g. non-interactive shells, CI, some agent
 # sandboxes: pyenv itself may be reachable while its shims are not).

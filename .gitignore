@@ -16,5 +16,9 @@ resources/**/pets_eval.egg-info/
 resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026 (1).zip
 resources/TRUSTED_SinceAI2026_FINAL/2026.11_SinceAI_TrustEDpresentation.mp4
 
-# Secrets — never commit (HMAC master key)
+# Secrets — never commit
 keys/
+.env
+.env.local
+
+agent_proposals/

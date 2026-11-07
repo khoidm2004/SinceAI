@@ -2,11 +2,17 @@
 
 ## Environment variables
 
+**You only need key + model.** Put them in a gitignored repo-root `.env`
+(`cp .env.example .env`) or export them in your shell. `scripts/material/common.sh`
+and `app/groq_client.py` load `.env` automatically. **Do not set `GROQ_API_BASE`
+unless you are pointing at a non-default host** — the client already defaults to
+`https://api.groq.com/openai/v1`.
+
 | Variable | Role |
 |---|---|
-| `GROQ_API_KEY` | Required for live Groq calls; never commit; no default in repo |
-| `GROQ_API_BASE` | Default `https://api.groq.com/openai/v1` |
+| `GROQ_API_KEY` | Required for live Groq calls; never commit; use `.env` |
 | `GROQ_MODEL` | Default `openai/gpt-oss-120b` |
+| `GROQ_API_BASE` | Optional; default `https://api.groq.com/openai/v1` |
 | `GROQ_TEMPERATURE` | Default `0.1` |
 | `GROQ_MAX_TOKENS` | Default `800` |
 | `GROQ_TIMEOUT` | Default `20` (seconds) |
