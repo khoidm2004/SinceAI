@@ -1,0 +1,26 @@
+{
+  "thread_id": "verify-shadow2",
+  "mode": "shadow",
+  "decision": "shadow_logged",
+  "paths": {
+    "health_csv": "/Users/dominhkhoi/Project/SinceAI/clean_data/health__HEALTH-S1/ed_visits.csv",
+    "finance_csv": "/Users/dominhkhoi/Project/SinceAI/clean_data/finance__FIN-S2/customers.csv"
+  },
+  "timestamp": "2026-11-07T02:05:21.305240+00:00",
+  "report": {
+    "hetu_join": 0,
+    "phone_join": 0,
+    "samples": [],
+    "proposals": [],
+    "columns_used": {
+      "health_hetu_col": "patient_hetu",
+      "finance_hetu_col": "hetu",
+      "health_phone_col": "phone",
+      "finance_phone_col": "phone",
+      "health_hetu_present": true,
+      "finance_hetu_present": false,
+      "health_phone_present": false,
+      "finance_phone_present": false
+    }
+  }
+}

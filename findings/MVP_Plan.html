@@ -1,0 +1,514 @@
+<title>Mosaic Defense Plan</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --paper: #eef1f3;
+    --surface: #ffffff;
+    --surface-2: #e4e8eb;
+    --ink: #121820;
+    --muted: #596270;
+    --line: #d2d9dd;
+    --accent: #15685f;
+    --accent-soft: #dcecea;
+    --risk: #9c3a26;
+    --risk-soft: #f3e2dd;
+    --plain: #93650d;
+    --plain-soft: #f1e6d1;
+    --focus: #1a6b63;
+    --radius: 6px;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper: #0d1114; --surface: #11161b; --surface-2: #171d23;
+      --ink: #e7eaec; --muted: #93a0ab; --line: #273139;
+      --accent: #45c2b3; --accent-soft: #15302d;
+      --risk: #e07a5f; --risk-soft: #35201b;
+      --plain: #e3b253; --plain-soft: #332a16;
+      --focus: #45c2b3;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper: #0d1114; --surface: #11161b; --surface-2: #171d23;
+    --ink: #e7eaec; --muted: #93a0ab; --line: #273139;
+    --accent: #45c2b3; --accent-soft: #15302d;
+    --risk: #e07a5f; --risk-soft: #35201b;
+    --plain: #e3b253; --plain-soft: #332a16;
+    --focus: #45c2b3;
+  }
+
+  *{ box-sizing: border-box; }
+  body{
+    background: var(--paper); color: var(--ink);
+    font-family: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+    font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  a{ color: inherit; }
+  code, .mono{ font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+  :focus-visible{ outline: 2px solid var(--focus); outline-offset: 2px; }
+
+  .shell{ max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  /* ---- header ---- */
+  header{ padding: 48px 0 28px; border-bottom: 1px solid var(--line); }
+  .eyebrow{
+    font-family: "IBM Plex Mono", monospace; font-size: 12.5px; letter-spacing: .09em;
+    text-transform: uppercase; color: var(--muted);
+    display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+  }
+  .eyebrow .dot{ color: var(--line); }
+  h1{
+    font-family: "Archivo", sans-serif; font-weight: 800;
+    font-size: clamp(26px, 4vw, 38px); line-height: 1.14; letter-spacing: -0.01em;
+    text-wrap: balance; margin: 14px 0 14px; max-width: 760px;
+  }
+  .lede{ color: var(--muted); font-size: 16px; max-width: 70ch; margin: 0 0 22px; }
+  .lede code{ font-size: .92em; }
+
+  .skip-note{
+    display: flex; gap: 18px; flex-wrap: wrap;
+    border: 1px dashed var(--line); border-radius: var(--radius);
+    background: var(--surface); padding: 12px 16px; margin: 0 0 22px;
+    font-size: 13.5px; color: var(--muted);
+  }
+  .skip-note strong{ color: var(--ink); }
+
+  .stat-row{ display: flex; gap: 14px; flex-wrap: wrap; margin: 0 0 22px; }
+  .stat{
+    flex: 1; min-width: 160px;
+    background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--risk);
+    border-radius: 0 var(--radius) var(--radius) 0; padding: 12px 16px;
+  }
+  .stat .arrow{
+    font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 22px;
+    display: flex; align-items: baseline; gap: 10px; font-variant-numeric: tabular-nums;
+  }
+  .stat .arrow .to{ color: var(--accent); }
+  .stat .arrow svg{ width: 16px; height: 16px; color: var(--muted); flex: none; }
+  .stat .label{ color: var(--muted); font-size: 12.5px; margin-top: 4px; }
+
+  nav.pills{
+    display: flex; gap: 6px; flex-wrap: wrap; padding: 16px 0 0; margin-bottom: -1px;
+  }
+  nav.pills a{
+    font-family: "IBM Plex Mono", monospace; font-size: 11.5px; text-decoration: none;
+    color: var(--muted); border: 1px solid var(--line); border-radius: 999px;
+    padding: 5px 11px; white-space: nowrap;
+  }
+  nav.pills a:hover{ color: var(--ink); border-color: var(--accent); }
+  nav.pills a.active{ color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+
+  /* ---- article ---- */
+  article{ padding: 30px 0 90px; }
+  section.sec{ margin: 0 0 40px; scroll-margin-top: 16px; }
+  h2{
+    font-family: "Archivo", sans-serif; font-weight: 800;
+    font-size: clamp(19px, 2.2vw, 23px); letter-spacing: -0.005em; text-wrap: balance;
+    display: flex; align-items: baseline; gap: 12px;
+    margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
+  }
+  h2 .num{
+    font-family: "IBM Plex Mono", monospace; font-weight: 500; font-size: 13px;
+    color: var(--accent); border: 1px solid var(--accent); border-radius: 999px;
+    width: 26px; height: 26px; display: inline-flex; align-items: center; justify-content: center;
+    flex: none;
+  }
+  h3{ font-family: "Archivo", sans-serif; font-weight: 700; font-size: 16.5px; margin: 24px 0 10px; }
+  p, li{ max-width: 74ch; margin: 0 0 14px; }
+  ul{ margin: 0 0 14px; padding-left: 20px; }
+  li{ margin-bottom: 7px; }
+  strong{ font-weight: 700; }
+  em{ font-style: italic; }
+  code{
+    background: var(--surface-2); border: 1px solid var(--line); border-radius: 4px;
+    padding: .1em .4em; font-size: .88em; word-break: break-word;
+  }
+  blockquote{
+    margin: 16px 0 18px; padding: 14px 18px; border-left: 3px solid var(--accent);
+    background: var(--accent-soft); border-radius: 0 var(--radius) var(--radius) 0;
+    color: var(--ink); max-width: 70ch;
+  }
+  blockquote p{ margin-bottom: 0; font-size: 15.5px; }
+  hr{ border: none; border-top: 1px solid var(--line); margin: 0 0 40px; }
+
+  .table-wrap{
+    overflow-x: auto; margin: 4px 0 18px; border: 1px solid var(--line);
+    border-radius: var(--radius); background: var(--surface);
+  }
+  table{ border-collapse: collapse; width: 100%; min-width: 480px; font-size: 14px; }
+  th, td{ text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th{
+    font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .05em;
+    text-transform: uppercase; color: var(--muted); background: var(--surface-2); white-space: nowrap;
+  }
+  tr:last-child td{ border-bottom: none; }
+  td.num{ font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .badge{
+    display: inline-flex; align-items: center; justify-content: center;
+    font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 12px;
+    padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+  }
+  .badge--req{ background: var(--accent-soft); color: var(--accent); }
+  .badge--risk{ background: var(--risk-soft); color: var(--risk); }
+  .badge--m{ background: var(--surface-2); color: var(--ink); border: 1px solid var(--line); }
+
+  .diagram-wrap{
+    overflow-x: auto; margin: 10px 0 14px; border-radius: var(--radius);
+    border: 1px solid var(--line); background: var(--surface-2);
+  }
+  pre.diagram{
+    margin: 0; padding: 18px 20px; font-family: "IBM Plex Mono", monospace;
+    font-size: 11.8px; line-height: 1.5; color: var(--ink); white-space: pre;
+  }
+
+  .part{ border-left: 3px solid var(--line); padding-left: 16px; margin-bottom: 30px; }
+  .part--plain{
+    border-left-color: var(--plain); background: var(--plain-soft);
+    padding: 16px 18px; border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .part--plain h3{ margin-top: 0; }
+  .part-tag{
+    font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .07em;
+    text-transform: uppercase; display: block; margin-bottom: 4px;
+  }
+  .part--tech .part-tag{ color: var(--accent); }
+  .part--plain .part-tag{ color: var(--plain); }
+  .part--plain pre.diagram{ background: var(--surface); border-color: var(--line); }
+  .part--plain .diagram-wrap{ border-color: var(--line); background: var(--surface); }
+
+  .footnote{
+    margin-top: 50px; padding-top: 18px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 13px;
+  }
+  .footnote code{ font-size: .9em; }
+
+  @media print{ #progress{ display: none !important; } }
+</style>
+
+<div class="shell">
+  <header>
+    <p class="eyebrow">TrustED PETs 2026 <span class="dot">·</span> Attack A <span class="dot">·</span> compact v2</p>
+    <h1>MVP plan — defend by simulating the attack first</h1>
+    <p class="lede">Replaces a 646-line predecessor, kept unabridged at <code>findings/MVP_Plan_original.md</code>. Nothing here is new analysis — this is a compression of that file plus <code>findings/IDEA.md</code>. If a detail is missing, it's in the original (§10).</p>
+
+    <div class="skip-note">
+      <span><strong>In a hurry?</strong> Read §1 and Part 2 of §5 — two minutes.</span>
+      <span><strong>Implementing?</strong> Read §3, Part 1 of §5, and §6.</span>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat">
+        <div class="arrow">1622 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16m-6-6l6 6-6 6"/></svg> <span class="to">0</span></div>
+        <div class="label">HETU join, health ∩ finance — before → after</div>
+      </div>
+      <div class="stat">
+        <div class="arrow">1484 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16m-6-6l6 6-6 6"/></svg> <span class="to">0</span></div>
+        <div class="label">Phone join, health ∩ finance — before → after</div>
+      </div>
+    </div>
+
+    <nav class="pills" id="pills">
+      <a href="#core">1 Core idea</a>
+      <a href="#attack">2 Attack</a>
+      <a href="#requirements">3 Requirements</a>
+      <a href="#scenario">4 Scenario</a>
+      <a href="#design">5 Design</a>
+      <a href="#scope">6 Scope</a>
+      <a href="#stack">7 Stack</a>
+      <a href="#risk">8 Risk</a>
+      <a href="#enhancements">9 Enhancements</a>
+      <a href="#references">10 References</a>
+    </nav>
+  </header>
+
+  <article>
+
+    <section class="sec" id="core">
+      <h2><span class="num">1</span> Core idea</h2>
+      <p><strong>We defend the system by simulating the attack first.</strong> We measure the real attack's yield against the unprotected data before building anything, and then we re-run that same attack against each candidate protected release before it ships — the attack is both our baseline and our test instrument. Testing your own locks before a burglar does.</p>
+    </section>
+
+    <section class="sec" id="attack">
+      <h2><span class="num">2</span> The attack <span style="font-weight:400;font-size:.6em;color:var(--muted);">— <code>findings/IDEA.md</code> is the canonical account</span></h2>
+      <p>A <strong>linkage attacker, not an intruder</strong> (<code>IDEA.md:19</code>): a curious analyst, broker or journalist holding several legitimately-obtained extracts from <em>different</em> controllers. They know every schema and published method; they do <strong>not</strong> know our keys.</p>
+      <p><strong>Three join keys</strong> (<code>IDEA.md:39-43</code>): <strong>HETU</strong> (exact match), <strong>phone</strong> (normalise <code>+35844&hellip;</code> → <code>044&hellip;</code> then match), <strong>IBAN</strong> (strip spaces, uppercase, match). The single precondition (<code>IDEA.md:71</code>): several releases still carry at least one of these <em>or a reversible hash of one</em>. Dropping <code>patient_name</code> does nothing.</p>
+      <p><strong>Headline measured overlap: HETU health ∩ finance = 1622 people</strong> (<code>IDEA.md:51</code>; re-verified for this plan). Ground truth says 1623 people are genuinely co-present, so the HETU join recovers <strong>99.9&nbsp;%</strong> of them — a near-perfect key, not a heuristic. The other six measured joins (phone health∩finance 1484, phone health∩CS 2296, phone health∩energy 195, HETU health∩energy 194, IBAN energy∩finance 15, IBAN finance∩CS 150) are at <code>IDEA.md:49-58</code>.</p>
+      <p><strong>Worked example, person <code>P013174</code></strong> (<code>IDEA.md:60-64</code>): ED patient <em>Lehto Riku Viljami</em>, diagnosis <strong>N20.0</strong>; the same HETU appears in finance as <em>Riku Viljami Lehto</em> with <code>income_band 15-30k</code>. Note the <strong>name order is reversed</strong> between the two files — name matching would have failed on this person, and the HETU still succeeds.</p>
+      <p><strong>Why the pack's own scorer cannot see this:</strong> <code>pets-eval scorecard</code> takes one <code>--original</code> and one <code>--protected</code>, and <code>run_scorecard</code> fixes <code>domain = original_dir.name</code> (<code>scorecard.py:290</code>). Every entry in <code>attack_specs.json</code> and <code>scenarios.json</code> has a <strong>scalar</strong> <code>"dataset"</code>. One domain per invocation, by signature — so no pack tool can express, let alone measure, a join between two of <em>our own</em> releases. The pack names the mosaic effect in prose (<code>docs/THREAT_MODEL.md:9</code>) but never operationalises it. That gap is what this MVP fills. Full derivation: <code>MVP_Plan_original.md</code> §1.</p>
+    </section>
+
+    <section class="sec" id="requirements">
+      <h2><span class="num">3</span> Requirements</h2>
+      <p>Each requirement exists only because of a named attacker capability. The five load-bearing ones first.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>ID</th><th>From</th><th>Requirement</th></tr></thead>
+          <tbody>
+            <tr><td class="id"><span class="badge badge--req">R3</span></td><td>A3+A4 — exact-matches the keys <em>across controllers</em> (<code>IDEA.md:75-76</code>)</td><td><strong>No two outward releases may share a reversible identifier token for the same person.</strong> Satisfied by per-recipient keyed <strong>HMAC-SHA-256</strong> with a distinct key domain per <code>(dataset, scenario_id)</code>. This is the one requirement that closes the 1622 join.</td></tr>
+            <tr><td class="id"><span class="badge badge--req">R4</span></td><td>The precondition's "<em>or reversible hashes of them</em>" (<code>IDEA.md:71</code>)</td><td><strong>No unsalted or unkeyed digest of HETU, phone, IBAN or e-mail may ever leave the controller.</strong> <code>sha256(hetu)</code> is enumerable over a tiny domain; the pack ships <code>enumerate_hetu</code> and <code>hash_dictionary_attack</code> to prove it. A keyed HMAC with a secret key is the only acceptable form.</td></tr>
+            <tr><td class="id"><span class="badge badge--req">R2</span></td><td>A2 — attacker normalises before matching (<code>IDEA.md:74</code>)</td><td>Our checker must normalise with the <strong>same</strong> recipe. Correctness test: it must reproduce <strong>1622</strong> and <strong>1484</strong> on raw <code>data/</code>. A checker that normalises differently under-counts and passes a vulnerable release.</td></tr>
+            <tr><td class="id"><span class="badge badge--req">R8</span></td><td>A6 — confirms matches via <code>adversary/public_directory.csv</code> (<code>IDEA.md:82</code>)</td><td>Every release must still pass <code>pets-eval scorecard --scenario &lt;ID&gt;</code>. Mosaic defence is <strong>additive to</strong>, never a substitute for, the pack's own checks.</td></tr>
+            <tr><td class="id"><span class="badge badge--req">R9</span></td><td>A7 — success is the <em>combination</em> across releases (<code>IDEA.md:83</code>)</td><td>A per-release green scorecard is not evidence of safety. We need a <strong>cross-release</strong> gate with a stated pass criterion <strong>and a positive control</strong> (§5, Part 1, component 6).</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>The remaining six, one line:</strong> read/write every key column as a <strong>string</strong>, never numeric-coerced (<strong>R1</strong>); where the scenario needs no stable person key, <strong>drop</strong> the identifier rather than tokenise it (<strong>R5</strong>); redact free text for the <strong>glue types</strong>, not only names (<strong>R6</strong>); apply each token domain <strong>consistently across every table</strong> (<strong>R7</strong>); keep keys outside the repo, gitignored, rotatable (<strong>R10</strong>); the key domain is <code>(dataset, scenario_id)</code>, <strong>not</strong> <code>dataset</code> (<strong>R11</strong>). Full justifications: <code>MVP_Plan_original.md</code> §2.</p>
+    </section>
+
+    <section class="sec" id="scenario">
+      <h2><span class="num">4</span> MVP scenario: health + finance</h2>
+      <h3>4.1 The two releases</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Release</th><th>Table</th><th>Trust</th><th>Recipient / purpose</th><th>Key decision</th></tr></thead>
+          <tbody>
+            <tr><td><span class="badge badge--m">HEALTH-S1</span></td><td><code>data/health/ed_visits.csv</code></td><td><code>controlled_research</code></td><td>University research group; ED crowding &amp; revisits</td><td>Targets <strong>mandate</strong> a stable patient key — HETU is <strong>tokenised</strong> (R3)</td></tr>
+            <tr><td><span class="badge badge--m">FIN-S2</span></td><td><code>data/finance/customers.csv</code></td><td><code>contractual</code></td><td>AI vendor (processor); fraud / spending model</td><td>No stable-key requirement — <code>hetu</code>/<code>phone</code>/<code>iban</code>/<code>email</code> <strong>dropped</strong> (R5)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Exactly these two tables. The attack-simulation agent needs no third table: the 1622-person join is <code>ed_visits.patient_hetu</code> ⋈ <code>customers.hetu</code>. <code>truth/*</code> is used for <strong>private verification only</strong> and never ships.</p>
+
+      <h3>4.2 Before and after</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Measurement</th><th>Unprotected</th><th>Protected</th></tr></thead>
+          <tbody>
+            <tr><td>HETU join, health ∩ finance</td><td class="num"><strong>1622</strong></td><td class="num"><strong>0</strong></td></tr>
+            <tr><td>Phone join, health ∩ finance</td><td class="num"><strong>1484</strong></td><td class="num"><strong>0</strong></td></tr>
+            <tr><td>Person P013174 recoverable as <em>N20.0 + 15-30k</em></td><td><strong>yes</strong></td><td><strong>no</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Non-goals:</strong> the other seven datasets (no measured overlap); <strong>FIN-S1</strong> (its shared consortium key is a deliberate anti-pattern for fraud pooling); differential privacy / synthetic data; any edit under <code>resources/</code> (vendored, read-only — §7, OPS-1).</p>
+
+      <h3>4.3 Extending to a new scenario</h3>
+      <p>Energy (<strong>ENERGY-S3</strong>) + customer_service (<strong>CS-S1</strong>) are the natural next pair — ENERGY-S3 carries the <code>medical_device_priority</code> payload, CS-S1 the widest glue (2296, the largest overlap). Re-pointing the system takes five steps, no new architecture:</p>
+      <ul>
+        <li><strong>Measure first</strong> — baseline join count on raw data before protecting anything.</li>
+        <li><strong>Derive the requirement</strong> — add a row to §3: attack step → requirement → ID.</li>
+        <li><strong>Extend, don't fork</strong> — add the pair to <code>mosaic_check.py</code>; record in project-owned files; <code>resources/</code> never edited.</li>
+        <li><strong>Re-point the same two gates</strong> — PASS-1 still demands 0, PASS-2 the new baseline.</li>
+        <li><strong>Record the result</strong>, including failures — a check that found nothing means nothing unless its positive control passed.</li>
+      </ul>
+      <p><strong>Caveat:</strong> widening scope revives a risk absent from health+finance — glue surviving free-text redaction (<code>turns.text</code>: 5120 NATIONAL_ID, 4217 PHONE, 1473 IBAN gold spans; <code>clinical_notes.note_text</code>: 1637, 4877 — see §8).</p>
+    </section>
+
+    <section class="sec" id="design">
+      <h2><span class="num">5</span> System design</h2>
+
+      <div class="part part--tech">
+        <span class="part-tag">Part 1 · technical</span>
+        <h3>Architecture graph</h3>
+        <div class="diagram-wrap">
+<pre class="diagram"> resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/  [VENDORED, READ-ONLY]
+   data/health/ed_visits.csv   data/finance/customers.csv
+   metadata/{scenarios.json, field_catalog.csv}   toolkit/pets_eval   truth/* (verify only)
+           |                          |                         |
+           | read, dtype=str (R1)     | read                    | import / invoke
+           v                          v                         |
+ +--------------------------+  +---------------------------+    |
+ | [1] scenario_loader      |  | [2] field_classifier      |    |
+ |  SID -&gt; recipient, trust |  |  catalog -&gt; role+subtype  |    |
+ |  utility, privacy target |  |  + the GLUE-KEY INDEX     |    |
+ +------------+-------------+  +------------+--------------+    |
+              |                             |                   |
+ keys/master.key  [GITIGNORED]              |                   | reuse
+              v                             v                   | check.PATTERNS
+ +--------------------------+  +---------------------------+    | hetu_ok iban_ok
+ | [3] pseudonym_service    |  | [4] pet_pipeline          |&lt;---+
+ |  HMAC-SHA-256; key domain|-&gt;|  suppress | tokenise      |
+ |  = (dataset, scenario_id)|  |  generalise | bin | round |
+ |  NORMALISE then HMAC     |  |  R2 R3 R4 R5 R7 R10 R11   |
+ +--------------------------+  +------------+--------------+
+                                            v
+                               +---------------------------+
+                               | [5] release_writer        |
+                               |  clean_data/&lt;ds&gt;__&lt;SID&gt;/  |
+                               |   &lt;table&gt;.csv             |
+                               |  + rowmap_&lt;table&gt;.csv     |
+                               |    [PRIVATE, NEVER SHIPS] |
+                               +------------+--------------+
+                                            v
+                     STAGED CANDIDATE RELEASE -- local only, not handed to anyone
+                                            v
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+   [A] attack_sim  -- THE ONE AGENT  (LangGraph StateGraph)
+       Re-runs Attack A's HETU/phone join (IDEA.md:75) against the staged candidate.
+       THIS IS "SIMULATE THE ATTACK FIRST", REUSED AS THE PRE-TEST MECHANISM.
+       Reads the candidate only. No write access to clean_data/. Cannot set an exit code.
+       Emits: join count per key, any recovered pair, a diff-shaped proposal list.
+                                            |
+                                            v
+            human_review  &lt;-- interrupt()   |  ONE human checkpoint. Resumed with
+            state persisted by checkpointer |  Command(resume=...).
+            accept -&gt; re-run [2][4][5] with the proposal as an INPUT, never as an
+                      edit to the output; produces a NEW candidate, re-enters above
+            reject / no reply / timeout -&gt; FAIL CLOSED; candidate untouched
+       Rollout: runs in shadow (log-only) first; flips to advisory once it has a clean
+       track record against known-good releases. It can delay a release, never pass one.
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+                                            v
+ +---------------------------------------------------------------------------------+
+ | THE DETERMINISTIC GATE -- no model anywhere inside this box                     |
+ | [6] scripts/mosaic_check.py   PASS-1: every cross-release join count == 0       |
+ |                               PASS-2: the SAME code on raw data/ reproduces     |
+ |                                       1622 and 1484 (positive control)          |
+ | [7] pets-eval scorecard --original data/&lt;ds&gt; --protected clean_data/&lt;ds&gt;__&lt;SID&gt; |
+ |                         --scenario &lt;SID&gt;        (ONE dataset per call)          |
+ |     pets-eval check clean_data/&lt;ds&gt;__&lt;SID&gt;                                      |
+ +---------------------------------+-----------------------------------------------+
+                                   v
+   exit 0   -&gt; benchmarks/ B1 + B2 -&gt; release handed to the recipient (irreversible)
+   exit !=0 -&gt; STOP. Nothing ships.</pre>
+        </div>
+        <p>PASS-2 is not optional decoration: <strong>a checker that can find nothing always reports zero</strong>, so without the positive control, PASS-1 passes identically for a working defence and for a broken instrument.</p>
+      </div>
+
+      <div class="part part--plain">
+        <span class="part-tag">Part 2 · safe to read with no technical background</span>
+        <h3>Data flow, in plain language</h3>
+        <p style="margin-top:-4px;"><em>Follow the arrows. No background needed.</em></p>
+        <div class="diagram-wrap">
+<pre class="diagram">[1] We take a copy of the hospital's visit records and the bank's customer list. We never
+    work on the originals, and we check at the end that the originals are untouched.
+ -&gt; [2] We delete the things that point straight at one person: names, home addresses,
+    e-mail addresses, telephone numbers.
+ -&gt; [3] The hospital's researchers still need to tell that two visits were the same
+    patient, so we cannot simply delete the patient's ID number there. Instead we scramble
+    it -- and we use a DIFFERENT scrambling recipe for the hospital's copy than for the
+    bank's copy. The same person therefore comes out as two completely unrelated codes in
+    the two files, so holding both files up side by side proves nothing. The bank's copy
+    does not need a patient code at all, so there we delete the ID number outright.
+ -&gt; [4] We blur what is left: details that mean nothing alone but identify someone when
+    combined. An exact birth date becomes an age range. An exact postcode becomes a wider
+    area. A rare job title gets grouped with similar ones.
+ -&gt; [5] The two protected files go into a holding area. Nothing has been sent to anyone.
+ -&gt; [6] A robot now plays the burglar. It takes the two files out of the holding area and
+    tries exactly what a real snooper would try: find the people who appear in both, and
+    build one record showing a person's medical problem next to their income. This is
+    testing your own locks before a burglar does.
+ -&gt; [7] The robot writes down whatever it managed to find, and then stops. It cannot change
+    the files and it cannot approve anything.
+ -&gt; [8] A person reads the robot's report and decides. If the robot got through, we go back
+    to step 2 with tighter settings and start again. If nobody reads the report, the answer
+    is automatically no -- we never let an unread report count as approval.
+ -&gt; [9] Two fixed automatic tests run. They are the same every time and involve no robot
+    and no judgement. The first counts how many people can be matched across the two
+    protected files; the answer has to be none. The second runs that exact same count
+    against the untouched originals, where it has to find the 1,622 people we already know
+    are there -- because a broken counter would also say "none", and that is how we tell a
+    real defence apart from a test that simply cannot see anything.
+ -&gt; [10] Only if both tests come out right do the two protected files leave the building.
+    Handing them over is the one step that cannot be undone.</pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="scope">
+      <h2><span class="num">6</span> Scope: a 15-17 hour build</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Phase</th><th>What gets built</th><th>Hours</th></tr></thead>
+          <tbody>
+            <tr><td><span class="badge badge--m">P0</span></td><td>Re-measure the baseline attack yield; lock 1622 / 1484 as the "before" numbers</td><td class="num">1</td></tr>
+            <tr><td><span class="badge badge--m">P1</span></td><td>Deterministic PET pipeline — components [1]-[5]</td><td class="num">4-5</td></tr>
+            <tr><td><span class="badge badge--m">P2</span></td><td>The one <code>attack_sim</code> agent + <code>human_review</code> checkpoint, shadow mode</td><td class="num">2-3</td></tr>
+            <tr><td><span class="badge badge--m">P3</span></td><td>Wire the deterministic gate: <code>mosaic_check.py</code> + <code>pets-eval scorecard</code>/<code>check</code></td><td class="num">2</td></tr>
+            <tr><td><span class="badge badge--m">P4</span></td><td>Two benchmark charts, <strong>B1</strong> and <strong>B2</strong> (§7)</td><td class="num">2</td></tr>
+            <tr><td><span class="badge badge--m">P5</span></td><td>OPS-1 SHA-256 manifest safeguard, with its own positive control</td><td class="num">1</td></tr>
+            <tr><td><span class="badge badge--m">P6</span></td><td>End-to-end wiring of the two shell scripts</td><td class="num">2</td></tr>
+            <tr><td><span class="badge badge--m">P7</span></td><td>Demo buffer</td><td class="num">1</td></tr>
+            <tr><td><strong>Total</strong></td><td></td><td class="num"><strong>15-17</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Workflow, one line each:</strong> a human supplies the config (dataset/scenario pairs, PET parameters, agent mode — keys stay in gitignored <code>keys/</code>); <code>run_release.sh</code> runs [1]-[5], the agent pass, then the gate, whose exit code <strong>is</strong> the script's; output lands in <code>clean_data/&lt;dataset&gt;__&lt;SID&gt;/</code> plus the never-published <code>rowmap_&lt;table&gt;.csv</code>; <code>make_benchmark.sh</code> renders B1/B2 into <code>benchmarks/</code>.</p>
+    </section>
+
+    <section class="sec" id="stack">
+      <h2><span class="num">7</span> Tech stack</h2>
+      <p><strong>Python</strong>, continuing the vendored scorer's own stack (<code>pets-eval</code> requires ≥3.10) — every net-new component reuses it directly: <code>hmac</code>/<code>hashlib</code> for the pseudonym service, pandas with <code>dtype=str</code> for R1, <code>pets_eval.check</code>'s patterns and validators imported as a library, stdlib <code>csv</code>/<code>re</code> for the mosaic check.</p>
+      <p><strong><code>matplotlib</code> + <code>seaborn</code></strong> for the two kept figures — <strong>B1</strong>, a paired bar of the join count before vs after (1622, 1484 → 0), and <strong>B2</strong>, privacy/utility/composite score per release, proving the fix didn't buy privacy by destroying utility. Both read every number from <code>mosaic_check.json</code>/<code>scorecard.json</code>; none typed by hand. Chosen over plotly because the output is static, non-interactive images — matplotlib's headless <code>Agg</code> backend needs no browser; plotly would need <code>kaleido</code> for the same result with nothing gained.</p>
+      <p><strong>OPS-1:</strong> both scripts verify a committed SHA-256 manifest of the original <code>data/</code> tree immediately before and after every run; any difference is a hard non-zero-exit failure, never a warning.</p>
+    </section>
+
+    <section class="sec" id="risk">
+      <h2><span class="num">8</span> Residual risk</h2>
+      <p>What the MVP does <strong>not</strong> close, stated plainly — a green mosaic check is a narrow claim.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>ID</th><th>Residual risk</th><th>Next step</th></tr></thead>
+          <tbody>
+            <tr><td><span class="badge badge--risk">R-1</span></td><td><strong>Cross-release quasi-identifier mosaic.</strong> Keyed tokens break identifier joins but leave probabilistic matching on birth date / postcode / employer. The k targets are <em>within-release</em> only.</td><td>Post-MVP: cross-release k-equivalence check</td></tr>
+            <tr><td><span class="badge badge--risk">R-5</span></td><td><strong>Key compromise.</strong> A leaked <code>keys/master.key</code> restores linkability retroactively. Local gitignored keyfile, not a KMS, no rotation.</td><td>Post-MVP: KMS + rotation schedule</td></tr>
+            <tr><td><span class="badge badge--risk">R-6</span></td><td><strong>The pack's blind spot persists.</strong> A green <code>mosaic_check.json</code> means "these two releases don't join on the keys tested" — not "no cross-domain attack works".</td><td>Ongoing: extend per §4.3's loop</td></tr>
+            <tr><td><span class="badge badge--risk">R-9</span></td><td><strong>Minimisation is not audited.</strong> Nothing flags a column tokenised when it could have been dropped — and a tokenised key is join surface that outlives the key only as long as it stays secret.</td><td>Post-MVP: a minimisation linter</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:14px;color:var(--muted);"><strong>Deliberately absent: R-2</strong> (free-text leakage). Measured, not assumed: <code>finance/customers.csv</code> has no free-text column, and <code>ed_visits</code>'s only one (<code>chief_complaint</code>) has zero glue-type gold spans in its 503 annotations. R-2 returns the moment energy/CS join scope (§4.3); R-9 took its place here because it's unmitigated and compounds R-5. R-2, R-3, R-4, R-7, R-8 are all in <code>MVP_Plan_original.md</code> §7.</p>
+      <h3>The MVP's honest claim</h3>
+      <blockquote><p>Against an attacker with our two protected releases, no public adversary file, and no access to our keys, the measured cross-release join count on HETU, phone and IBAN is <strong>0</strong>, down from a baseline of <strong>1622</strong> on the unprotected data — while each release still passes <code>pets-eval scorecard</code> for its own scenario.</p></blockquote>
+      <p>Everything in the table above sits outside that sentence. That is the point of stating it so narrowly.</p>
+    </section>
+
+    <section class="sec" id="enhancements">
+      <h2><span class="num">9</span> Enhancements worth making next</h2>
+      <ul>
+        <li>A one-paragraph "what you can skip" note under the title — <em>done in this page's header.</em></li>
+        <li>Promote the before/after numbers into the header block — <em>done, see the stat row above.</em></li>
+        <li>Visually separate Part 1 and Part 2 of §5, labelling Part 2 "safe to read with no technical background" — <em>done above.</em></li>
+        <li>Mark every residual risk with the step that would close it, so §8 reads as a backlog rather than a disclaimer list — <em>done, see "Next step" column.</em></li>
+        <li>Keep a short changelog at the bottom naming what moved to <code>MVP_Plan_original.md</code>, so the next compression pass doesn't re-derive this one's reasoning — see the footer below.</li>
+      </ul>
+    </section>
+
+    <section class="sec" id="references">
+      <h2><span class="num">10</span> References</h2>
+      <p><strong><code>findings/IDEA.md</code></strong> — the attack narrative. Source for §1 (core idea), §2 (keys, the 1622 overlap and the other six numbers, the P013174 example, why the scorer misses it), §4.2's before/after numbers, and step [6] of §5 Part 2.</p>
+      <p><strong><code>findings/MVP_Plan_original.md</code></strong> — <strong>the complete, unabridged prior version (646 lines)</strong>, kept on disk so any compressed or cut detail can be recovered. Source for everything else:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Original section</th><th>Disposition</th><th>Lands in</th></tr></thead>
+          <tbody>
+            <tr><td>§1 Attacker view (93 lines)</td><td>Cut to a ~15-line summary citing <code>IDEA.md</code> instead of re-deriving it</td><td>§2</td></tr>
+            <tr><td>§2 Requirements R1-R11</td><td>One line per row; R3/R4/R2/R8/R9 keep a half-line each</td><td>§3</td></tr>
+            <tr><td>§3 Scope (4 datasets, 9 non-goals)</td><td>Narrowed to 2 datasets; ENERGY-S3 + CS-S1 relocated, not cut</td><td>§4</td></tr>
+            <tr><td>§4 Architecture (8 components + diagram)</td><td>Merged into one unified diagram with the agent</td><td>§5 Part 1</td></tr>
+            <tr><td>§4.2a "Plain English" panel</td><td>Superseded by the arrow-by-arrow data flow</td><td>§5 Part 2</td></tr>
+            <tr><td>§5 Novel-attack process (~65 lines)</td><td>Compressed to five bullets</td><td>§4.3</td></tr>
+            <tr><td>§6 Milestones M0-M6</td><td>Replaced by an hour-budget phase table</td><td>§6</td></tr>
+            <tr><td>§7 Residual risk + honest claim</td><td>Top four only — R-2 replaced by R-9; claim kept near-verbatim</td><td>§8</td></tr>
+            <tr><td>§8 Agentic layer (6 nodes, A0-A4)</td><td>Collapsed to one agent inside the diagram</td><td>§5 Part 1</td></tr>
+            <tr><td>§9 Tech stack (5 figures)</td><td>B1 + B2 kept, B3-B5 deferred</td><td>§7, §6</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Nothing was deleted without a trace.</p>
+    </section>
+
+    <p class="footnote"><strong>Changelog:</strong> v2 (this page) — compact refactor, 2 datasets, 1 agent. v1 — full 9-section detail, 4 datasets, 6-agent LangGraph layer; archived at <code>findings/MVP_Plan_original.md</code>.</p>
+  </article>
+</div>
+
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('nav.pills a'));
+  var sections = links.map(function(a){ return document.getElementById(a.getAttribute('href').slice(1)); }).filter(Boolean);
+  if ('IntersectionObserver' in window && sections.length){
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        var link = links.find(function(a){ return a.getAttribute('href') === '#' + entry.target.id; });
+        if (!link) return;
+        if (entry.isIntersecting){
+          links.forEach(function(a){ a.classList.remove('active'); });
+          link.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    sections.forEach(function(s){ obs.observe(s); });
+  }
+})();
+</script>

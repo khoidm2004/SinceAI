@@ -1,8 +1,5 @@
 .claude/
 .cursor/
-Artifacts/
-findings/
-CLAUDE.md
 
 # OS clutter
 .DS_Store
@@ -23,6 +20,3 @@ resources/TRUSTED_SinceAI2026_FINAL/2026.11_SinceAI_TrustEDpresentation.mp4
 keys/
 clean_data/
 
-# P4 generated benchmark artifacts (regenerate via scripts/make_benchmark.sh)
-benchmarks/*.png
-benchmarks/B2_UNAVAILABLE.txt

@@ -1,0 +1,32 @@
+{
+  "pack_root": "/Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026",
+  "joins": {
+    "hetu_health_finance": {
+      "observed": 1622,
+      "expected": 1622,
+      "pass": true
+    },
+    "phone_health_finance": {
+      "observed": 1484,
+      "expected": 1484,
+      "pass": true
+    }
+  },
+  "normalisation": {
+    "phone": "strip non-[0-9+]; ^\\+358→0; ^00358→0",
+    "hetu": "strip; string as-is"
+  },
+  "counts": {
+    "health": {
+      "rows": 46398,
+      "distinct_hetu": 25955,
+      "distinct_phone_norm": 20694
+    },
+    "finance": {
+      "rows": 6315,
+      "distinct_hetu": 6315,
+      "distinct_phone_norm": 6093
+    }
+  },
+  "verdict": "PASS"
+}

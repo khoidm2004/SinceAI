@@ -1,0 +1,13 @@
+{
+  "task": "Build P0 baseline script to re-measure Attack A health∩finance join yield on raw pack data with R2 normalisation, locking 1622 (HETU) and 1484 (phone) as a runnable positive control. Deliver scripts/r2_normalize.py, scripts/measure_baseline.py, and update CLAUDE.md Commands.",
+  "branch": "task/p0-baseline-measure",
+  "status": "planning",
+  "current_agent": "planner",
+  "plan": null,
+  "attempt": 1,
+  "consecutive_failures": 0,
+  "bugs": [],
+  "files_changed": [],
+  "history": [],
+  "updated_at": "2026-11-07T01:23:04Z"
+}
