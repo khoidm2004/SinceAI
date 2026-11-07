@@ -4,7 +4,7 @@ These are the user-facing shell entry points. Each one is a thin wrapper around
 a module in `app/`, and each sources `../material/common.sh` for the repo-root
 resolution and the shared OPS-1 guard. Implementation lives in `app/`; see
 [`../../INSTRUCTION.md`](../../INSTRUCTION.md) for the attack → defend → measure
-runbook, [`../../USAGE.md`](../../USAGE.md) for a short command index.
+runbook and [`../../README.md`](../../README.md) for behaviour / agent overview.
 
 ## Prerequisites
 
@@ -49,6 +49,7 @@ runbook, [`../../USAGE.md`](../../USAGE.md) for a short command index.
 | P6 | `run_release.sh` | Full release pipeline: OPS-1 verify → attack raw → protect → re-attack protected → mosaic gate → OPS-1 verify |
 | P7 | `run_demo.sh` | Narrated before/after Attack A walkthrough, wrapped in OPS-1 verify on both sides |
 | P8 | `run_agents.sh` | Advisory multi-agent pass (Groq). Off unless `GROQ_API_KEY` is set or `--llm-stub` is passed; never gates a release and never writes `clean_data/` |
+| Analyze | `run_analyze.sh` | Build `analyze/index.html`: demo-row raw↔protected, Attack A joins before/after protect, pets-eval scorecards (EVALUATION.md framing) |
 
 ## First run from a clean checkout
 

@@ -98,6 +98,8 @@ Artifacts:
   toolkit: `pip install -e resources/.../toolkit`; exits **4** if unavailable)
 - `bash scripts/final/make_benchmark.sh` — B1 mosaic-join chart (`benchmarks/B1_mosaic_joins.png`)
   and B2 once scorecards exist
+- `bash scripts/final/run_analyze.sh` — HTML report at `analyze/index.html`
+  (demo-row raw↔protected, joins before/after, scorecards vs `docs/EVALUATION.md`)
 
 ## 5. Multi-agent layer (P8 — advisory; plan §5.3)
 
