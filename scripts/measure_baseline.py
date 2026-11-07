@@ -253,7 +253,9 @@ def parse_args(argv: Sequence[str] | None) -> argparse.Namespace:
     )
     parser.add_argument("--pack-root", type=Path, default=DEFAULT_PACK_ROOT)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
-    parser.add_argument("--no-out", action="store_true", help="Skip JSON report")
+    parser.add_argument(
+        "--no-out", "--no-json", dest="no_out", action="store_true", help="Skip JSON report"
+    )
     parser.add_argument("--demo-row", action="store_true", help="Print P013174 demo row")
     return parser.parse_args(argv)
 

@@ -33,6 +33,15 @@ def normalize_hetu(value: str | None) -> str:
         return ""
     return value.strip()
 
+IBAN_RECIPE = "strip whitespace; uppercase"
+_IBAN_STRIP_RE = re.compile(r"\s+")
+
+
+def normalize_iban(value: str | None) -> str:
+    if value is None:
+        return ""
+    return _IBAN_STRIP_RE.sub("", value).upper()
+
 def unique_nonempty(values: Iterable[str | None], normalizer: Callable[[str | None], str]) -> set[str]:
     out: set[str] = set()
     for value in values:
