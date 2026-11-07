@@ -32,6 +32,8 @@ Always run from the **repo root**. Python **≥3.10** required.
 | Narrated demo | `bash scripts/final/run_demo.sh` / `--skip-protect` |
 | Benchmarks (B1) | `pip install -r requirements-benchmark.txt` then `bash scripts/final/make_benchmark.sh` |
 | pets-eval scorecard | `bash scripts/final/run_scorecard.sh` |
+| Agent pass (advisory, A2) | `bash scripts/final/run_agents.sh --agents auto --mode shadow` |
+| Agent contract self-test | `bash scripts/final/run_agents.sh --selftest` |
 
 Pass-through args go to the Python CLI, e.g. `bash scripts/final/run_protect.sh --init-key --out-root clean_data`.
 

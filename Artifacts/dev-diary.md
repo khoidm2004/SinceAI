@@ -549,3 +549,20 @@ Artifacts/{TASK,PLAN,state,dev-diary}.md
 **Test result:**
 ops1 0; baseline 1622/1484; protect FIN-S2 17→15 tokenise four glue;
 mosaic PASS 0/0+1622/1484; release STEP1 1622/1484 STEP3 0/0; demo PASS.
+
+## 2026-11-07 — P8: multi-agent Groq layer (A2)
+
+**Task:** Implement P8 multi-agent advisory layer with Groq adapter,
+kill switch, AR-4 contracts; offline-safe without API key.
+
+**What was done:**
+- agent_contracts (AR-4 selftest), groq_client (urllib + stub),
+  agent_nodes (supervisor/classify/minim/brief + A3 stubs),
+  run_agents CLI + scripts/final/run_agents.sh, findings/agent_groq.md
+- agent_graph linear chain when agents_enabled
+- Docs: CLAUDE, INSTRUCTION, USAGE, STEPS
+
+**Test result:**
+ops1 0; baseline 0; --selftest PASS; --agents off/auto 0;
+--agents on → exit 2 without key; --llm-stub 0; mosaic byte-identical;
+attack_sim untouched 0.

@@ -1,77 +1,63 @@
 # Task
 
-Fix the **demo / instruction narrative** so it matches real defence practice
-(**attack first → defend from the attack → show metrics**), and stop teaching
-users that FIN-S2 “protection” means blank dropping of glue columns when the
-goal is to **transform data into a safe form while retaining usable fields**.
+Implement **P8** from `findings/MVP_Plan.md` §5.3 / §6: the **multi-agent
+layer on Groq**, without moving the deterministic gate and without breaking
+offline P0–P7 demos when no API key is present.
 
-## Problem (coordinator notes)
+## Goals
 
-1. `bash scripts/final/run_release.sh` currently does protect → shadow
-   attack-sim on `clean_data/` → mosaic gate. Shadow on already-protected
-   releases correctly reports **0 joins**, which feels like “no attack found”
-   rather than “attack succeeded on raw, then defence closed it”.
-2. `DEMO.md` / `USAGE.md` still lead with protect-first and split the story
-   across two files. Gather them into one **`INSTRUCTION.md`** that walks:
-   attacker trigger on raw → defence → metrics / scorecard comparing
-   original vs `clean_data/`.
-3. FIN-S2 currently **drops** `hetu` / `phone` / `iban` / `email`. That is
-   the wrong product story for “retain safe information”. Prefer transforms
-   (keyed tokenise / generalise / redact) that keep columns present in a
-   non-joinable form — **without inventing LLM calls**.
-4. **Do not modify `resources/`.** Read pack docs (PET playbook, FIN-S2
-   scenario, threat model) for evidence only.
-5. **Groq / LLM agent integration is incoming from a teammate.** Do **not**
-   touch LLM-provider wiring or agent files that exist only to host that
-   integration. Keep `app/agent_graph.py`, `app/agent_runtime.py`, and any
-   Groq-related stubs untouched unless a one-line import path break forces
-   a mechanical fix. If a proposed FIN-S2 change **requires** an LLM to
-   rewrite free text / decide drops, **document it in INSTRUCTION.md /
-   findings and leave the code for the teammate** — do not invent a fake
-   LLM path.
+1. **Groq provider adapter** in `app/` — single chat interface; config from
+   env (`GROQ_API_KEY`, `GROQ_MODEL`, optional `GROQ_API_BASE`). Model/API
+   may stay defaulted placeholders; never commit secrets.
+2. **Multi-agent graph** extending today’s `attack_sim` → `human_review`:
+   - Keep `attack_sim` **deterministic** (no LLM).
+   - Add specialist nodes: `supervisor`, `classify_assist`, `minim_assist`,
+     `brief_writer` at minimum (A2 scope). Optionally stub
+     `redact_assist` / `discover_assist` behind the same adapter for A3
+     readiness, but they may no-op or run only when explicitly enabled.
+   - `human_review` stays fail-closed; shadow mode logs only.
+3. **Kill switch**: if `GROQ_API_KEY` missing or `--agents off`, graph
+   reduces to deterministic `attack_sim` (+ human_review as today). Release
+   path and mosaic gate must still PASS with agents disabled.
+4. **Input contracts (AR-4)**: never send raw `hetu`/`phone`/`iban`/`email`,
+   keys, `truth/`, or `rowmap_*.csv` to Groq. Specialist prompts get schema
+   names, aggregates, mosaic/scorecard JSON numbers, or free text only via
+   `redact_assist` when enabled (treat as untrusted data).
+5. **CLI / shell**: wire a usable entry (extend `run_attack_sim.py` and/or
+   add `app/run_agents.py` + `scripts/final/run_agents.sh`) with
+   `--mode shadow|advisory`, `--agents on|off|auto`.
+6. **Docs**: update `INSTRUCTION.md`, `CLAUDE.md` Commands, and a short
+   `findings/agent_groq.md` pin for env vars. Do not modify `resources/`.
 
-## Deliverables
+## Non-goals
 
-1. **`INSTRUCTION.md`** at repo root — single runbook replacing the user-
-   facing role of `DEMO.md` + `USAGE.md` (update those two to short
-   pointers to `INSTRUCTION.md`, or delete content duplication). Flow must
-   be explicit:
-   - OPS-1 verify
-   - **Attack on raw** (baseline / attack-sim `--raw-pack` or equivalent)
-     showing 1622 / 1484 and the worked-example dossier
-   - **Defend** (`run_protect`) driven by that attack (keyed tokens / safe
-     transforms — not “drop everything”)
-   - **Re-attack / gate** on `clean_data/` (0 / 0) + mosaic PASS
-   - **Metrics** — mosaic before/after + pets-eval scorecard pointers /
-     B1–B2 charts for easy compare
-2. **Demo / release UX** — reorder or re-narrate so the first attack the
-   user sees is on **unprotected** data. Prefer changing
-   `app/run_demo.py` and/or `scripts/final/run_release.sh` +
-   `scripts/final/STEPS.md` so P2 shadow is not the only story and is
-   clearly “after defence”. Keep exit codes and OPS-1 guards intact.
-3. **FIN-S2 protection without blank drop** — investigate pack FIN-S2
-   requirements. If non-LLM transforms suffice (HMAC tokenise of glue
-   instead of drop, keep utility columns, generalise QIDs), implement in
-   `app/pet_pipeline.py` / `app/run_protect.py` and update CLAUDE.md’s
-   “never tokenise FIN-S2” rule to match the new policy. If only an LLM
-   can safely “retain meaning”, **do not fake it** — document the gap and
-   leave pipeline drop behaviour with an honest TODO pointing at the
-   teammate Groq agent.
-4. **Docs sync** — `README.md`, `CLAUDE.md` Commands, `scripts/final/STEPS.md`
-   point at `INSTRUCTION.md` and the attack→defend→measure order.
-5. Verification commands (coder + coordinator):
-   - `bash scripts/final/ops1_manifest.sh verify`
-   - `bash scripts/final/measure_baseline.sh` → 1622 / 1484
-   - Demo path that shows raw attack **before** protected zeros
-   - `bash scripts/final/mosaic_check.sh` still PASS (0/0 + 1622/1484)
-   - If FIN-S2 now tokenises: confirm columns still present but joins are 0;
-     re-run protect if needed (new key behaviour)
-   - Nothing under `resources/` modified
+- Do not replace `mosaic_check` / protect / scorecard with LLM logic.
+- Do not write under `clean_data/` from agents.
+- Do not require a live Groq key for verification to pass — offline path is
+  mandatory for CI/demo.
+- Do not invent join counts in `discover_assist`.
+
+## Verification
+
+```bash
+bash scripts/final/ops1_manifest.sh verify
+bash scripts/final/measure_baseline.sh
+# agents off / no key — still works:
+bash scripts/final/run_attack_sim.sh --mode shadow
+# if run_agents exists:
+bash scripts/final/run_agents.sh --agents off --mode shadow || true
+bash scripts/final/mosaic_check.sh
+# nothing under resources/ dirty
+```
+
+With a key (optional, not required for PASS): shadow run logs a proposal
+JSON under `findings/agent_proposals/` without changing gate results.
 
 # Notes
 
-- Trunk is `main`. Work on `task/<slug>`, then coordinator merges.
-- Conventional Commits.
-- Never commit `keys/` or `clean_data/`.
-- Do not retune 1622 / 1484.
-- Pass-1 alone is not release-safe without Pass-2.
+- Trunk `main`. Work on `task/p8-multi-agent-groq`.
+- Prefer stdlib + `urllib` for the Groq OpenAI-compatible HTTP client so we
+  do not force a heavy SDK; optional dependency ok if documented.
+- Keep `app/agent_runtime.py` as the orchestrator shim unless swapping to
+  real LangGraph is trivial and pinned — do not break existing attack_sim.
+- Conventional Commits. Never commit `keys/`, `clean_data/`, or API keys.

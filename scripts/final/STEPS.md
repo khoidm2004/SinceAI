@@ -48,6 +48,7 @@ runbook, [`../../USAGE.md`](../../USAGE.md) for a short command index.
 | P5 | `ops1_manifest.sh` | OPS-1 pack integrity — `build \| verify \| selftest` against committed `manifests/pack_data_sha256.json` |
 | P6 | `run_release.sh` | Full release pipeline: OPS-1 verify → attack raw → protect → re-attack protected → mosaic gate → OPS-1 verify |
 | P7 | `run_demo.sh` | Narrated before/after Attack A walkthrough, wrapped in OPS-1 verify on both sides |
+| P8 | `run_agents.sh` | Advisory multi-agent pass (Groq). Off unless `GROQ_API_KEY` is set or `--llm-stub` is passed; never gates a release and never writes `clean_data/` |
 
 ## First run from a clean checkout
 
@@ -109,6 +110,9 @@ bash scripts/final/run_attack_sim.sh --mode shadow
   `benchmarks/B2_scores.png` once `run_scorecard.sh` has produced both
   releases' `scorecard.json` (if it hasn't run yet, B2 is skipped with a
   clear message instead of failing).
+- `run_agents.sh --selftest`: `SELFTEST: PASS` (exit 0); `--agents off` and
+  `--agents on --llm-stub` both exit 0 and leave `clean_data/mosaic_check.json`
+  unchanged.
 
 ## Exit codes
 

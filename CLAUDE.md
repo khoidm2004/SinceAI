@@ -28,6 +28,9 @@ technical plan: `findings/MVP_Plan.md`.
 - Scorecard (P3, needs the toolkit installed: `pip install -e resources/.../toolkit`): `bash scripts/final/run_scorecard.sh` (exits 4, not an error, if the toolkit isn't installed yet)
 - Release pipeline (P6): `bash scripts/final/run_release.sh` (OPS-1 verify → attack raw → protect → re-attack → mosaic gate → OPS-1 verify)
 - Demo (P7): `bash scripts/final/run_demo.sh`
+- Agents (P8, A2 — advisory, off by default): `bash scripts/final/run_agents.sh --agents auto --mode shadow` (reduces to deterministic `attack_sim` when `GROQ_API_KEY` is unset); offline graph run: `--agents on --llm-stub`
+- Agent AR-4 contract self-test (no key, no network): `bash scripts/final/run_agents.sh --selftest`
+- Groq env vars: `findings/agent_groq.md`
 - Benchmarks (P4): `pip install -r requirements-benchmark.txt` then `bash scripts/final/make_benchmark.sh`
 - OPS-1 manifest (P5): `bash scripts/final/ops1_manifest.sh build|verify|selftest` (committed `manifests/pack_data_sha256.json`)
 - Usage doc: `INSTRUCTION.md`
@@ -57,6 +60,10 @@ technical plan: `findings/MVP_Plan.md`.
   - treat PASS-1 alone as release-safe without PASS-2 (or use `--skip-pass2` in production)
   - write `samples` / `proposals` into `mosaic_check.json` (gate uses `sample_limit=0`)
   - lower `app/python_version.py`'s floor back below 3.10 to work around a stale interpreter
+  - send raw `hetu`/`patient_hetu`/`phone`/`iban`/`email`, attack-sim `samples`, `rowmap_*.csv`, `truth/*` or `keys/master.key` to Groq (AR-4 — `app/agent_contracts.py` is the chokepoint; never catch `ContractViolation`)
+  - commit a `GROQ_API_KEY` or any API key, or put one in `findings/agent_groq.md`
+  - wire `run_agents.sh` into `run_release.sh` / `run_demo.sh`, or let an agent node change a gate exit code or write `clean_data/`
+  - implement free-text egress in `redact_assist`/`discover_assist` — they are A3-scope stubs (AR-1)
 
 ---
 

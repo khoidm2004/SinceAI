@@ -1,52 +1,13 @@
 {
-  "task": "Attack-first demo/INSTRUCTION.md + FIN-S2 transform-not-drop (no LLM/Groq files; no resources/ edits)",
-  "branch": "main",
-  "status": "merged",
-  "current_agent": "none",
-  "plan": "Artifacts/PLAN.md",
+  "task": "P8 multi-agent layer on Groq (adapter, specialists, kill switch, offline-safe)",
+  "branch": "task/p8-multi-agent-groq",
+  "status": "planning",
+  "current_agent": "planner",
+  "plan": null,
   "attempt": 1,
   "consecutive_failures": 0,
   "bugs": [],
-  "files_changed": [
-    ".gitignore",
-    "app/pet_pipeline.py",
-    "app/run_demo.py",
-    "scripts/final/run_release.sh",
-    "scripts/final/STEPS.md",
-    "INSTRUCTION.md",
-    "DEMO.md",
-    "USAGE.md",
-    "README.md",
-    "CLAUDE.md",
-    "Artifacts/TASK.md",
-    "Artifacts/PLAN.md",
-    "Artifacts/dev-diary.md",
-    "Artifacts/state.json"
-  ],
-  "commit": "48049ae",
-  "merged_at": "2026-11-07T09:42:28Z",
-  "history": [
-    {
-      "time": "2026-11-07T09:27:46Z",
-      "agent": "planner",
-      "attempt": 1,
-      "result": "ok",
-      "summary": "10 steps; FIN-S2 HMAC tokenise; attack-first release; INSTRUCTION.md"
-    },
-    {
-      "time": "2026-11-07T09:40:00Z",
-      "agent": "coder",
-      "attempt": 1,
-      "result": "ok",
-      "summary": "Implemented steps 1–10; all verification exit 0"
-    },
-    {
-      "time": "2026-11-07T09:42:28Z",
-      "agent": "coordinator",
-      "attempt": 1,
-      "result": "ok",
-      "summary": "Verified + merged 48049ae into main"
-    }
-  ],
-  "updated_at": "2026-11-07T09:42:28Z"
+  "files_changed": [],
+  "history": [],
+  "updated_at": "2026-11-07T10:18:04Z"
 }

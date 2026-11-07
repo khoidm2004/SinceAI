@@ -97,6 +97,31 @@ Artifacts:
 - `bash scripts/final/make_benchmark.sh` — B1 mosaic-join chart (`benchmarks/B1_mosaic_joins.png`)
   and B2 once scorecards exist
 
+## 5. Multi-agent layer (P8 — optional, advisory)
+
+The Groq layer is **advisory only** — it cannot pass a release or change gate
+artefacts. With no API key it reduces to the deterministic `attack_sim` path.
+
+```bash
+# Kill switch — same as attack_sim on clean_data/
+bash scripts/final/run_agents.sh --agents off --mode shadow
+
+# Offline full graph (canned LLM responses)
+bash scripts/final/run_agents.sh --agents on --llm-stub --mode shadow
+
+# Auto: specialists run only when GROQ_API_KEY is set
+bash scripts/final/run_agents.sh --agents auto --mode shadow
+```
+
+Environment variables and AR-4 rules: [`findings/agent_groq.md`](findings/agent_groq.md).
+Proposals land under gitignored `findings/agent_proposals/` (`*.agents.json`).
+
+Contract self-test (no key, no network):
+
+```bash
+bash scripts/final/run_agents.sh --selftest
+```
+
 ## One command for all of it
 
 **Full release pipeline** (attack raw → protect → re-attack → gate, wrapped in OPS-1):
@@ -124,13 +149,14 @@ Step-by-step script reference: [`scripts/final/STEPS.md`](scripts/final/STEPS.md
   is not installed.
 - **truth/ person_ids** — the public walkthrough uses pack `data/` rows only.
 
-## Known gap — free text is not redacted (owned by the Groq agent)
+## Known gap — free text is not redacted
 
 Deterministic transforms cover catalogued columns (drop / tokenise / generalise). **Free
 text** such as HEALTH-S1 `chief_complaint` is **not** safely rewritten by this
-pipeline. Safe retention or redaction of narrative fields is planned for the incoming
-**Groq / LLM agent** integration (`app/agent_graph.py`, `app/agent_runtime.py`) — do
-not expect this repo to fake LLM redaction.
+pipeline. The Groq multi-agent layer ships at **A2** (`supervisor`, `classify_assist`,
+`minim_assist`, `brief_writer` in shadow/advisory mode). `redact_assist` and
+`discover_assist` are **A3 stubs that send no free text** — narrative fields are still
+not redacted here; do not expect this repo to fake LLM redaction.
 
 ## Troubleshooting
 
