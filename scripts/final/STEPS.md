@@ -3,8 +3,8 @@
 These are the user-facing shell entry points. Each one is a thin wrapper around
 a module in `app/`, and each sources `../material/common.sh` for the repo-root
 resolution and the shared OPS-1 guard. Implementation lives in `app/`; see
-[`../../USAGE.md`](../../USAGE.md) for the full command table and
-[`../../DEMO.md`](../../DEMO.md) for the five-minute jury walkthrough.
+[`../../INSTRUCTION.md`](../../INSTRUCTION.md) for the attack → defend → measure
+runbook, [`../../USAGE.md`](../../USAGE.md) for a short command index.
 
 ## Prerequisites
 
@@ -41,12 +41,12 @@ resolution and the shared OPS-1 guard. Implementation lives in `app/`; see
 |---|---|---|
 | P0 | `measure_baseline.sh` | Measure Attack A on the raw pack `data/` and lock the baseline at 1622 (HETU) / 1484 (normalised phone) |
 | P1 | `run_protect.sh` | Build the protected releases under `clean_data/`; `--init-key` creates `keys/master.key` if missing |
-| P2 | `run_attack_sim.sh` | Re-run Attack A against `clean_data/` (`--mode shadow`) |
+| P2 | `run_attack_sim.sh` | Attack-sim shadow mode: `--raw-pack` on pack `data/` (baseline joins) or default on `clean_data/` (expects 0/0) |
 | P3a | `mosaic_check.sh` | Deterministic mosaic gate: PASS-1 (cross-release joins 0) + PASS-2 (baseline still reproduces 1622 / 1484 on raw `data/`) |
 | P3b | `run_scorecard.sh` | pets-eval per-scenario scorecard + check (needs the toolkit installed) |
 | P4 | `make_benchmark.sh` | B1 mosaic-join chart; B2 score chart once scorecards exist (run P3b first) |
 | P5 | `ops1_manifest.sh` | OPS-1 pack integrity — `build \| verify \| selftest` against committed `manifests/pack_data_sha256.json` |
-| P6 | `run_release.sh` | Full release pipeline: OPS-1 verify → protect → shadow attack-sim → mosaic gate → OPS-1 verify |
+| P6 | `run_release.sh` | Full release pipeline: OPS-1 verify → attack raw → protect → re-attack protected → mosaic gate → OPS-1 verify |
 | P7 | `run_demo.sh` | Narrated before/after Attack A walkthrough, wrapped in OPS-1 verify on both sides |
 
 ## First run from a clean checkout
@@ -55,15 +55,21 @@ resolution and the shared OPS-1 guard. Implementation lives in `app/`; see
 # 1. OPS-1 — confirm the vendored pack is intact. Always first.
 bash scripts/final/ops1_manifest.sh verify
 
-# 2. Protect — once. Skip this if clean_data/ already exists.
+# 2. See the attack succeed on raw data (1622 / 1484).
+bash scripts/final/measure_baseline.sh
+bash scripts/final/run_attack_sim.sh --mode shadow --raw-pack
+
+# 3. Defend — once (or again after pipeline changes).
 bash scripts/final/run_protect.sh --init-key
 
-# 3. Then whichever you actually need:
+# 4. Then whichever you actually need:
 bash scripts/final/run_demo.sh --skip-protect   # narrated demo (jury path)
-bash scripts/final/run_release.sh               # full release pipeline
-bash scripts/final/measure_baseline.sh          # P0 baseline lock only
+bash scripts/final/run_release.sh               # full release pipeline (steps 2–4 automated)
 bash scripts/final/mosaic_check.sh              # P3 gate only
 ```
+
+See [`../../INSTRUCTION.md`](../../INSTRUCTION.md) for FIN-S2 expected columns (17→15,
+drop names/addresses, tokenise glue).
 
 Pass-through arguments go straight to the Python CLI:
 
@@ -75,14 +81,14 @@ bash scripts/final/run_attack_sim.sh --mode shadow
 
 ## Dependencies between phases
 
-- `run_protect.sh` must have run (or `clean_data/` must already exist) before
-  `run_attack_sim.sh`, `mosaic_check.sh`, `run_scorecard.sh` or
-  `make_benchmark.sh` can do anything meaningful.
+- `run_attack_sim.sh --raw-pack` needs only the vendored pack under `resources/`.
+- Protected-path tools need `clean_data/`: run `run_protect.sh` first for shadow attack
+  on `clean_data/`, `mosaic_check.sh`, `run_scorecard.sh`, and `make_benchmark.sh`.
 - `make_benchmark.sh` reads `clean_data/mosaic_check.json`, so run
   `mosaic_check.sh` (or `run_release.sh`) before it.
-- `run_release.sh` already wraps protect → shadow attack-sim → mosaic gate
-  itself, so running it standalone does **not** need a prior manual
-  `run_protect.sh`.
+- `run_release.sh` runs raw attack → protect → protected attack → mosaic gate itself;
+  you do not need a prior manual protect unless you are running the demo with
+  `--skip-protect`.
 - `run_demo.sh --skip-protect` assumes `clean_data/` already exists; drop the
   flag to let the demo build it.
 - `ops1_manifest.sh verify` runs automatically before and after
@@ -91,9 +97,12 @@ bash scripts/final/run_attack_sim.sh --mode shadow
 
 ## Expected outcomes
 
-- Baseline / PASS-2: HETU join **1622**, phone join **1484** —
-  `VERDICT: PASS  (baseline locked at 1622 / 1484)`
-- After protect / PASS-1: both joins **0**
+- **STEP 1 / raw attack** (`measure_baseline.sh` or `run_attack_sim.sh --raw-pack`):
+  HETU join **1622**, phone join **1484**
+- Baseline / PASS-2: same **1622 / 1484** on raw `data/` inside the mosaic gate
+- **STEP 3 / protected attack** and PASS-1: both joins **0**
+- FIN-S2 protect summary: **17→15** columns; dropped `full_name`, `street_address`;
+  tokenised `email`, `hetu`, `iban`, `phone`
 - Mosaic gate and demo: `VERDICT: PASS` (exit 0)
 - OPS-1 verify: `verify OK (50 files)` (exit 0)
 - `make_benchmark.sh`: writes `benchmarks/B1_mosaic_joins.png` always, plus

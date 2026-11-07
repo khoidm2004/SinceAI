@@ -1,13 +1,21 @@
 {
-  "task": "Build P0 baseline script to re-measure Attack A health∩finance join yield on raw pack data with R2 normalisation, locking 1622 (HETU) and 1484 (phone) as a runnable positive control. Deliver scripts/r2_normalize.py, scripts/measure_baseline.py, and update CLAUDE.md Commands.",
-  "branch": "task/p0-baseline-measure",
-  "status": "planning",
-  "current_agent": "planner",
-  "plan": null,
+  "task": "Attack-first demo/INSTRUCTION.md + FIN-S2 transform-not-drop (no LLM/Groq files; no resources/ edits)",
+  "branch": "task/attack-first-instruction-fin-s2",
+  "status": "coding",
+  "current_agent": "coder",
+  "plan": "See Artifacts/PLAN.md — 10 steps: gitignore agent_proposals; TOKENISE FIN-S2 glue; reorder run_release.sh; re-narrate run_demo.py; INSTRUCTION.md; stub DEMO/USAGE; update README/STEPS/CLAUDE. Do not touch agent_graph/agent_runtime/resources/normalize.",
   "attempt": 1,
   "consecutive_failures": 0,
   "bugs": [],
   "files_changed": [],
-  "history": [],
-  "updated_at": "2026-11-07T01:23:04Z"
+  "history": [
+    {
+      "time": "2026-11-07T09:27:46Z",
+      "agent": "planner",
+      "attempt": 1,
+      "result": "ok",
+      "summary": "10 steps; FIN-S2 HMAC tokenise; attack-first release; INSTRUCTION.md; leave Groq agent files alone"
+    }
+  ],
+  "updated_at": "2026-11-07T09:35:00Z"
 }

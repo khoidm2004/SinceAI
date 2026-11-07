@@ -1,164 +1,77 @@
 # Task
 
-Build **P0** from `findings/MVP_Plan.md` §6: a baseline-measurement script
-that re-measures Attack A's health∩finance join yield on the unprotected
-raw pack data, using the **R2 normalisation** recipe, and **locks** the
-two "before" numbers **1622** (HETU) and **1484** (phone) as a runnable
-positive control. This is the first real project-owned code; there is
-currently no `scripts/` directory.
+Fix the **demo / instruction narrative** so it matches real defence practice
+(**attack first → defend from the attack → show metrics**), and stop teaching
+users that FIN-S2 “protection” means blank dropping of glue columns when the
+goal is to **transform data into a safe form while retaining usable fields**.
 
-## 0. Analysis (done by the coordinator — do not re-derive the scoping)
+## Problem (coordinator notes)
 
-**What P0 is.** Compact plan §6 phase P0 (1 hour): *"Re-measure the
-baseline attack yield on raw `data/` with the R2 normalisation; lock
-1622 / 1484 as the 'before' numbers."* It is **not** yet the full
-`scripts/mosaic_check.py` (that is P3: PASS-1 against `clean_data/` +
-PASS-2). P0 only needs the measurement + the positive-control assertion
-that later becomes PASS-2's health∩finance rows.
+1. `bash scripts/final/run_release.sh` currently does protect → shadow
+   attack-sim on `clean_data/` → mosaic gate. Shadow on already-protected
+   releases correctly reports **0 joins**, which feels like “no attack found”
+   rather than “attack succeeded on raw, then defence closed it”.
+2. `DEMO.md` / `USAGE.md` still lead with protect-first and split the story
+   across two files. Gather them into one **`INSTRUCTION.md`** that walks:
+   attacker trigger on raw → defence → metrics / scorecard comparing
+   original vs `clean_data/`.
+3. FIN-S2 currently **drops** `hetu` / `phone` / `iban` / `email`. That is
+   the wrong product story for “retain safe information”. Prefer transforms
+   (keyed tokenise / generalise / redact) that keep columns present in a
+   non-joinable form — **without inventing LLM calls**.
+4. **Do not modify `resources/`.** Read pack docs (PET playbook, FIN-S2
+   scenario, threat model) for evidence only.
+5. **Groq / LLM agent integration is incoming from a teammate.** Do **not**
+   touch LLM-provider wiring or agent files that exist only to host that
+   integration. Keep `app/agent_graph.py`, `app/agent_runtime.py`, and any
+   Groq-related stubs untouched unless a one-line import path break forces
+   a mechanical fix. If a proposed FIN-S2 change **requires** an LLM to
+   rewrite free text / decide drops, **document it in INSTRUCTION.md /
+   findings and leave the code for the teammate** — do not invent a fake
+   LLM path.
 
-**Why this exists.** Core idea of the plan: defend by simulating the
-attack first. Without a locked baseline, a later checker that reports
-"0 joins on the protected release" is meaningless — a broken normaliser
-also reports 0. PASS-2 / this script is the broken-instrument detector.
+## Deliverables
 
-**Coordinator re-measurement (just now, stdlib `csv` + `re`, no pandas):**
-
-| Join | With R2 | Without phone norm | Locked target |
-|---|---|---|---|
-| HETU health ∩ finance (distinct non-empty keys) | **1622** | n/a (exact string) | **1622** |
-| Phone health ∩ finance (distinct non-empty keys) | **1484** | **383** | **1484** |
-
-The 383-without-norm figure is the load-bearing proof that R2 is not
-optional: a script that skips normalisation under-counts by ~4× and
-would later green-light a vulnerable release.
-
-**Worked example still present** (for optional demo print, not a pass
-criterion): person `P013174` — health `ED25-022833` /
-`patient_hetu=021280-9730` / name `Lehto Riku Viljami` / phone
-`0508000433` / `icd10_primary=N20.0`; finance `SB88296612` /
-`hetu=021280-9730` / name `Riku Viljami Lehto` (order reversed) / phone
-`+358508000433` / `income_band=15-30k`. Same HETU; phones only match
-after R2.
-
-**Column map (from `MVP_Plan_original.md` §1.3 / field catalog):**
-
-| Table | Path under pack `data/` | HETU col | Phone col |
-|---|---|---|---|
-| health ED visits | `health/ed_visits.csv` | `patient_hetu` | `phone` |
-| finance customers | `finance/customers.csv` | `hetu` | `phone` |
-
-Pack root (vendored, **read-only** — OPS-1):
-`resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/`
-
-**R2 recipe** (must match plan §3 R2 / original §1.4 exactly):
-
-- Phone: strip characters outside `[0-9+]`; then `^\+358` → `0`; then
-  `^00358` → `0`. Discard empty results.
-- HETU: keep as string, strip surrounding whitespace only; discard empties.
-  Do **not** validate checksum for the join count (the attacker joins on
-  whatever string is present).
-- Load every identifier column as a **string** (stdlib `csv` is fine;
-  never let a numeric coerce drop leading zeros / century signs).
-- Overlap = size of the **set intersection of distinct keys**, not a
-  row-count of an inner join (one person can appear in many ED visits).
-
-## 1. Deliverables
-
-1. **`scripts/measure_baseline.py`** — a runnable CLI that:
-   - Resolves the pack root relative to the repo root (do not hard-code
-     an absolute `/Users/...` path).
-   - Reads the two CSVs above with string columns.
-   - Applies R2, computes the two distinct-key intersections.
-   - Prints a clear human-readable report that includes at least:
-     `hetu_health_finance=<n>` and `phone_health_finance=<n>`.
-   - **Exit code 0** iff both counts equal the locked targets
-     (1622 and 1484); **non-zero** otherwise, with the expected vs
-     observed values on stderr/stdout so a broken recipe is obvious.
-   - Opens pack files read-only; writes nothing under `resources/`.
-   - Uses **stdlib only** (`csv`, `re`, `argparse`/`sys`, `pathlib`) —
-     no pandas, no pets-eval import required for P0. (pandas is not
-     installed in the ambient environment the coordinator just checked.)
-   - Optional but useful: a `--show-example` flag that prints the
-     P013174 HETU/phone pair above (read from the two data files by
-     HETU `021280-9730`, not from `truth/` — truth stays private).
-
-2. **`scripts/r2_normalize.py`** — a tiny shared module exporting
-   `normalize_phone(value: str) -> str` and (if useful)
-   `normalize_hetu(value: str) -> str`, so P3's future
-   `mosaic_check.py` can import the **same** recipe instead of
-   re-implementing it. `measure_baseline.py` must import from here —
-   one source of truth for R2.
-
-3. **Update `CLAUDE.md` Commands** — replace the `<fill in>` placeholders
-   that this phase makes real:
-   - Dev / run baseline: `python3 scripts/measure_baseline.py`
-   - Test (P0): same command; exit 0 is the check
-   - Note under Folder structure that `scripts/` holds project-owned
-     tooling and that `resources/` is vendored read-only
-   - Under "Things Claude must never do": edit anything under
-     `resources/TRUSTED_SinceAI2026_FINAL/...` in place; invent a second
-     phone-normalisation recipe that disagrees with R2
-
-Do **not** create `scripts/mosaic_check.py`, `clean_data/`, `keys/`,
-benchmark charts, agents, or shell wrappers — those are later phases.
-
-## 2. Verification (coder runs these; coordinator re-runs)
-
-```bash
-python3 scripts/measure_baseline.py
-echo exit:$?
-# expect: prints both locked counts, exit 0
-
-python3 -c "from scripts.r2_normalize import normalize_phone; \
-  assert normalize_phone('+358508000433') == '0508000433'; \
-  assert normalize_phone('050 800 0433') == '0508000433'; \
-  assert normalize_phone('00358508000433') == '0508000433'; \
-  print('norm-ok')"
-
-# OPS-1 smoke: script must not create/modify anything under resources/
-# (coder: note mtime of pack data dir before/after, or simply confirm
-# the script has no write path into resources/)
-```
-
-PASS only if: exit 0, both printed counts are exactly 1622 and 1484,
-`normalize_phone` unit asserts pass, and nothing under `resources/` was
-written.
-
-## 3. What this task does NOT do
-
-- Does not implement PASS-1 / protected-release checking.
-- Does not measure the other five Attack A joins (energy/CS) — out of
-  MVP scope per compact plan §4; may be noted as a future extension in
-  a one-line comment, not implemented.
-- Does not read or depend on `truth/` for the pass/fail decision
-  (`truth/` is verify-only and never ships; the locked numbers are the
-  public positive control).
-- Does not edit `findings/*`, `resources/*`, or invent new normalisation
-  variants.
-- Does not add third-party dependencies or a `requirements.txt` for P0.
-
-## 4. Research before writing
-
-- Read `findings/MVP_Plan.md` §2 (R2), §4.1–4.2 (tables + before/after
-  numbers), §6 P0 row, and Part 1's PASS-2 note (~lines 187–201).
-- Read `findings/IDEA.md` §Measured overlap and §How to attack steps
-  A1–A3.
-- Confirm the two CSV paths exist under the pack root and that the
-  column names match the table above (do not assume — open the header
-  line).
-- Re-measure 1622/1484 yourself once with the planned R2 functions
-  before declaring the script done; the coordinator's table above is
-  the expected answer, not a substitute for the script working.
+1. **`INSTRUCTION.md`** at repo root — single runbook replacing the user-
+   facing role of `DEMO.md` + `USAGE.md` (update those two to short
+   pointers to `INSTRUCTION.md`, or delete content duplication). Flow must
+   be explicit:
+   - OPS-1 verify
+   - **Attack on raw** (baseline / attack-sim `--raw-pack` or equivalent)
+     showing 1622 / 1484 and the worked-example dossier
+   - **Defend** (`run_protect`) driven by that attack (keyed tokens / safe
+     transforms — not “drop everything”)
+   - **Re-attack / gate** on `clean_data/` (0 / 0) + mosaic PASS
+   - **Metrics** — mosaic before/after + pets-eval scorecard pointers /
+     B1–B2 charts for easy compare
+2. **Demo / release UX** — reorder or re-narrate so the first attack the
+   user sees is on **unprotected** data. Prefer changing
+   `app/run_demo.py` and/or `scripts/final/run_release.sh` +
+   `scripts/final/STEPS.md` so P2 shadow is not the only story and is
+   clearly “after defence”. Keep exit codes and OPS-1 guards intact.
+3. **FIN-S2 protection without blank drop** — investigate pack FIN-S2
+   requirements. If non-LLM transforms suffice (HMAC tokenise of glue
+   instead of drop, keep utility columns, generalise QIDs), implement in
+   `app/pet_pipeline.py` / `app/run_protect.py` and update CLAUDE.md’s
+   “never tokenise FIN-S2” rule to match the new policy. If only an LLM
+   can safely “retain meaning”, **do not fake it** — document the gap and
+   leave pipeline drop behaviour with an honest TODO pointing at the
+   teammate Groq agent.
+4. **Docs sync** — `README.md`, `CLAUDE.md` Commands, `scripts/final/STEPS.md`
+   point at `INSTRUCTION.md` and the attack→defend→measure order.
+5. Verification commands (coder + coordinator):
+   - `bash scripts/final/ops1_manifest.sh verify`
+   - `bash scripts/final/measure_baseline.sh` → 1622 / 1484
+   - Demo path that shows raw attack **before** protected zeros
+   - `bash scripts/final/mosaic_check.sh` still PASS (0/0 + 1622/1484)
+   - If FIN-S2 now tokenises: confirm columns still present but joins are 0;
+     re-run protect if needed (new key behaviour)
+   - Nothing under `resources/` modified
 
 # Notes
 
-- `CLAUDE.md` currently has unfilled command placeholders — updating
-  them is in scope for this task (see deliverable 3). After that update,
-  the verification command above *is* the project's Test entry for P0.
-- Prefer a small, boring script a cheaper model can maintain. No classes
-  unless they clearly help; functions + `main()` is enough.
-- Repo trunk is `main`. Findings/Artifacts are gitignored; `scripts/`
-  and the `CLAUDE.md` update are what must land as real tracked files
-  (`CLAUDE.md` is listed in `.gitignore` today — if it still is, the
-  coder should still update the working-tree file so agents read the
-  new commands; do **not** fight `.gitignore` in this task).
+- Trunk is `main`. Work on `task/<slug>`, then coordinator merges.
+- Conventional Commits.
+- Never commit `keys/` or `clean_data/`.
+- Do not retune 1622 / 1484.
+- Pass-1 alone is not release-safe without Pass-2.

@@ -1,69 +1,38 @@
 # How to use SinceAI
 
-Layout:
+**Start here:** [`INSTRUCTION.md`](INSTRUCTION.md) — attack on raw data, defend,
+re-attack, metrics, and troubleshooting.
+
+This file is a short index. Step-by-step script phases: [`scripts/final/STEPS.md`](scripts/final/STEPS.md).
+
+## Layout
 
 | Path | Role |
 |---|---|
 | `app/` | All Python (protect, attack, gate, demo, OPS-1, …) |
-| `scripts/final/` | Shell entry points only — call these from the terminal (step-by-step guide: `scripts/final/STEPS.md`) |
-| `scripts/material/` | Shared bash helpers sourced by `scripts/final/` (`common.sh`) — never run directly |
+| `scripts/final/` | Shell entry points — call these from the terminal |
+| `scripts/material/` | Shared bash helpers (`common.sh`) — sourced, not run |
 | `resources/` | Read-only TrustED pack (never edit) |
-| `clean_data/` | Protected releases (gitignored; created by protect) |
+| `clean_data/` | Protected releases (gitignored) |
 | `keys/` | HMAC master key (gitignored) |
 
-Always run commands from the **repo root**. Requires **Python >=3.10**
-(`.python-version` pins `3.13.15` via pyenv) — every entry point except
-`run_scorecard.sh` enforces this itself and fails fast with a clear
-message on an older interpreter. You don't need to activate this
-yourself: `scripts/material/common.sh` auto-picks a qualifying
-interpreter even if pyenv's shims aren't on `PATH` — see
-`scripts/final/STEPS.md` for exactly how.
+Always run from the **repo root**. Python **≥3.10** required.
 
-## Quick start (jury / demo)
-
-```bash
-bash scripts/final/ops1_manifest.sh verify
-bash scripts/final/run_protect.sh --init-key          # once, if clean_data/ is empty
-bash scripts/final/run_demo.sh --skip-protect         # narrated Attack A before → after
-```
-
-Or open [`DEMO.md`](DEMO.md) for the five-minute walkthrough.
-
-## Everyday commands
+## Command index
 
 | Goal | Command |
 |---|---|
-| Verify pack integrity (OPS-1) | `bash scripts/final/ops1_manifest.sh verify` |
-| Lock baseline 1622 / 1484 | `bash scripts/final/measure_baseline.sh` |
+| Verify pack (OPS-1) | `bash scripts/final/ops1_manifest.sh verify` |
+| Baseline lock 1622 / 1484 | `bash scripts/final/measure_baseline.sh` |
+| Attack raw pack | `bash scripts/final/run_attack_sim.sh --mode shadow --raw-pack` |
 | Build protected releases | `bash scripts/final/run_protect.sh --init-key` |
-| Shadow attack-sim on `clean_data/` | `bash scripts/final/run_attack_sim.sh --mode shadow` |
-| Mosaic gate (PASS-1 + PASS-2) | `bash scripts/final/mosaic_check.sh` |
+| Shadow attack on `clean_data/` | `bash scripts/final/run_attack_sim.sh --mode shadow` |
+| Mosaic gate | `bash scripts/final/mosaic_check.sh` |
 | Full release pipeline | `bash scripts/final/run_release.sh` |
 | Narrated demo | `bash scripts/final/run_demo.sh` / `--skip-protect` |
-| Benchmarks (B1 chart) | `pip install -r requirements-benchmark.txt` then `bash scripts/final/make_benchmark.sh` |
-| pets-eval scorecard | `bash scripts/final/run_scorecard.sh` (needs the toolkit installed: `pip install -e resources/.../toolkit`) |
+| Benchmarks (B1) | `pip install -r requirements-benchmark.txt` then `bash scripts/final/make_benchmark.sh` |
+| pets-eval scorecard | `bash scripts/final/run_scorecard.sh` |
 
-Pass-through args go to the Python CLI, e.g.:
+Pass-through args go to the Python CLI, e.g. `bash scripts/final/run_protect.sh --init-key --out-root clean_data`.
 
-```bash
-bash scripts/final/run_protect.sh --init-key --out-root clean_data
-bash scripts/final/ops1_manifest.sh build|verify|selftest
-```
-
-## Calling Python directly
-
-Shell wrappers are preferred. If you need the module itself:
-
-```bash
-python3 app/run_demo.py --skip-protect
-python3 app/mosaic_check.py
-```
-
-Do not put new Python under `scripts/` — keep that directory shell-only.
-
-## Expected outcomes
-
-- Baseline / PASS-2: HETU join **1622**, phone join **1484**
-- After protect / PASS-1: both joins **0**
-- Mosaic gate and demo: `VERDICT: PASS` (exit 0)
-- OPS-1 verify: `verify OK` (exit 0)
+Do not add Python under `scripts/` — keep that directory shell-only.

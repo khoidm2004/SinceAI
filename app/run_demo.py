@@ -38,6 +38,7 @@ from mosaic_check import (  # noqa: E402
     RAW_HEALTH_REL,
 )
 from normalize import normalize_hetu, normalize_phone  # noqa: E402
+from pet_pipeline import TOKENISE_IDENTIFIERS  # noqa: E402
 
 EXIT_PASS = 0
 EXIT_FAIL = 1
@@ -57,8 +58,9 @@ RESIDUAL_RISKS = (
      "linkability retroactively."),
     ("R-6", "Pack blind spot: pets-eval may miss mosaic risk; our mosaic_check is additive, "
      "not a substitute for the organisers' private attacker set."),
-    ("R-9", "Minimisation not audited: FIN-S2 glue should be dropped, HEALTH-S1 HETU "
-     "tokenised — nothing flags tokenisation where drop would suffice."),
+    ("R-9", "Free text is not redacted: HEALTH-S1 chief_complaint and similar narrative "
+     "fields can still carry identifiers — safe retention/redaction for free text is "
+     "owned by the incoming Groq agent, not this deterministic pipeline."),
 )
 
 B1_PATH = REPO_ROOT / "benchmarks" / "B1_mosaic_joins.png"
@@ -73,6 +75,20 @@ def _banner(title: str) -> None:
 def _fail(msg: str) -> int:
     print(f"ASSERTION FAILED: {msg}", file=sys.stderr)
     return EXIT_FAIL
+
+
+def _find_row_by_col(
+    path: Path,
+    col: str,
+    value: str,
+) -> Optional[dict[str, str]]:
+    if not value:
+        return None
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            if (row.get(col) or "") == value:
+                return dict(row)
+    return None
 
 
 def _find_row_by_hetu(
@@ -103,7 +119,7 @@ def _print_step1_extracts(pack_root: Path, hetu: str) -> tuple[dict[str, str], d
         print(f"error: no matching rows for HETU {hetu!r} in both raw releases", file=sys.stderr)
         return _fail(f"worked-example HETU {hetu!r} missing from raw health and/or finance")
 
-    _banner("Step 1 — Safe-looking extracts (raw pack data/)")
+    _banner("Step 1 — Two safe-looking extracts (raw pack data/)")
     print(f"  HETU (glue): {hetu}")
     print()
     print("  health (ed_visits):")
@@ -134,7 +150,7 @@ def _print_attack_raw(pack_root: Path, hetu: str, health: dict[str, str], financ
     hetu_obs = int(result["hetu_join"])
     phone_obs = int(result["phone_join"])
 
-    _banner("Step 2 — Attack A on unprotected data (re-measure)")
+    _banner("Step 2 — ATTACK the unprotected data: the join SUCCEEDS")
     print(f"  observed hetu_join:  {hetu_obs}  (baseline lock expects {EXPECTED_HETU})")
     print(f"  observed phone_join: {phone_obs}  (baseline lock expects {EXPECTED_PHONE})")
     if hetu_obs != EXPECTED_HETU or phone_obs != EXPECTED_PHONE:
@@ -195,19 +211,23 @@ def _ensure_clean_data(pack_root: Path, clean_root: Path, skip_protect: bool) ->
     return EXIT_PASS
 
 
-def _column_diff(raw_fields: list[str], prot_fields: list[str]) -> tuple[list[str], list[str]]:
+def _column_diff(
+    raw_fields: list[str],
+    prot_fields: list[str],
+    tokenised: set[str],
+) -> tuple[list[str], list[str]]:
     raw_set = set(raw_fields)
     prot_set = set(prot_fields)
     dropped = sorted(raw_set - prot_set)
-    # Columns present in both but changed role: tokenised HETU on health only
-    kept = sorted(raw_set & prot_set)
-    tokenised_hint = [c for c in kept if c in ("patient_hetu",)]
-    return dropped, tokenised_hint
+    kept_tokenised = sorted((raw_set & prot_set) & tokenised)
+    return dropped, kept_tokenised
 
 
 def _print_step3_defence(
     pack_root: Path,
     clean_root: Path,
+    health: dict[str, str],
+    finance: dict[str, str],
 ) -> int:
     health_prot = clean_root / DEFAULT_HEALTH_REL
     finance_prot = clean_root / DEFAULT_FINANCE_REL
@@ -223,7 +243,7 @@ def _print_step3_defence(
     hetu_obs = int(result["hetu_join"])
     phone_obs = int(result["phone_join"])
 
-    _banner("Step 3 — Same attack on protected releases + mosaic gate")
+    _banner("Step 3 — DEFEND, then re-run the SAME attack: the join is closed")
     print(f"  observed hetu_join (protected):  {hetu_obs}")
     print(f"  observed phone_join (protected): {phone_obs}")
     if hetu_obs != 0 or phone_obs != 0:
@@ -240,12 +260,31 @@ def _print_step3_defence(
     with open(finance_prot, encoding="utf-8-sig", newline="") as f:
         prot_finance_cols = list(csv.DictReader(f).fieldnames or [])
 
-    h_drop, h_tok = _column_diff(raw_health_cols, prot_health_cols)
-    f_drop, _ = _column_diff(raw_finance_cols, prot_finance_cols)
+    health_tok = TOKENISE_IDENTIFIERS.get(("health", "HEALTH-S1"), set())
+    finance_tok = TOKENISE_IDENTIFIERS.get(("finance", "FIN-S2"), set())
+    h_drop, h_tok = _column_diff(raw_health_cols, prot_health_cols, health_tok)
+    f_drop, f_tok = _column_diff(raw_finance_cols, prot_finance_cols, finance_tok)
     print()
-    print("  HEALTH-S1: dropped columns include", ", ".join(h_drop) or "(none)")
+    print("  HEALTH-S1: dropped:", ", ".join(h_drop) or "(none)")
     print("  HEALTH-S1: tokenised:", ", ".join(h_tok) or "(none)")
-    print("  FIN-S2: dropped glue/identifiers include", ", ".join(f_drop) or "(none)")
+    print("  FIN-S2: dropped:", ", ".join(f_drop) or "(none)")
+    print("  FIN-S2: tokenised:", ", ".join(f_tok) or "(none)")
+
+    visit_id = health.get("visit_id") or ""
+    customer_id = finance.get("customer_id") or ""
+    prot_health_row = _find_row_by_col(health_prot, "visit_id", visit_id)
+    prot_finance_row = _find_row_by_col(finance_prot, "customer_id", customer_id)
+    if prot_health_row or prot_finance_row:
+        print()
+        print("  Step-1 dossier row after defence (keyed tokens):")
+        if prot_health_row:
+            for col in sorted(health_tok):
+                if col in prot_health_row:
+                    print(f"    health {col}={prot_health_row.get(col)}")
+        if prot_finance_row:
+            for col in sorted(finance_tok):
+                if col in prot_finance_row:
+                    print(f"    finance {col}={prot_finance_row.get(col)}")
 
     mosaic_out = clean_root / "mosaic_check.json"
     cmd = [
@@ -278,27 +317,39 @@ def _print_step3_defence(
     return EXIT_PASS
 
 
-def _print_step4_claim() -> None:
-    _banner("Step 4 — Honest claim and residual risk")
+def _print_step4_claim(clean_root: Path) -> None:
+    _banner("Step 4 — Metrics, honest claim and residual risk")
+    mosaic_out = clean_root / "mosaic_check.json"
+    print("Metrics (attack → defend → gate):")
+    print(f"  baseline joins (raw data/):     hetu={EXPECTED_HETU}  phone={EXPECTED_PHONE}")
+    print("  protected joins (clean_data/):  hetu=0  phone=0")
+    if mosaic_out.is_file():
+        with open(mosaic_out, encoding="utf-8") as f:
+            report: dict[str, Any] = json.load(f)
+        print(f"  mosaic gate report: {mosaic_out}")
+        print(f"  mosaic verdict: {report.get('verdict')}")
+    else:
+        print(f"  mosaic gate report: {mosaic_out} (not written yet)")
+    if B1_PATH.is_file():
+        print(f"  B1 utility-of-attack chart: {B1_PATH}")
+    else:
+        print(
+            f"  B1 utility-of-attack chart: {B1_PATH} (not present — "
+            "run: bash scripts/final/make_benchmark.sh)"
+        )
+    ver = f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}"
+    print(
+        f"  pets-eval scorecard: needs Python ≥3.10 + toolkit install "
+        f"(this interpreter is {ver}); run: bash scripts/final/run_scorecard.sh"
+    )
+    print("  Full command walkthrough: INSTRUCTION.md")
+    print()
     print("HONEST_CLAIM:")
     print(HONEST_CLAIM)
     print()
-    print("Residual risks (MVP_Plan §8):")
+    print("Residual risks (MVP_Plan §8; see INSTRUCTION.md):")
     for rid, text in RESIDUAL_RISKS:
         print(f"  {rid}: {text}")
-    print()
-    ver = f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}"
-    print(
-        f"pets-eval scorecard: needs Python ≥3.10 and toolkit install; "
-        f"this interpreter is {ver} — run_scorecard.py exits 4 (unavailable)."
-    )
-    if B1_PATH.is_file():
-        print(f"B1 utility-of-attack figure: {B1_PATH}")
-    else:
-        print(
-            f"B1 utility-of-attack figure: {B1_PATH} (not present — "
-            "generate with: bash scripts/final/make_benchmark.sh)"
-        )
 
 
 def parse_args(argv: Sequence[str] | None) -> argparse.Namespace:
@@ -337,11 +388,11 @@ def main(argv: Sequence[str] | None = None) -> int:
     if rc != EXIT_PASS:
         return rc
 
-    rc = _print_step3_defence(pack_root, clean_root)
+    rc = _print_step3_defence(pack_root, clean_root, health, finance)
     if rc != EXIT_PASS:
         return rc
 
-    _print_step4_claim()
+    _print_step4_claim(clean_root)
     print()
     print("VERDICT: PASS")
     return EXIT_PASS

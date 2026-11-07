@@ -26,11 +26,11 @@ technical plan: `findings/MVP_Plan.md`.
 - Protect (P1): `bash scripts/final/run_protect.sh --init-key`
 - Attack-sim (P2 shadow): `bash scripts/final/run_attack_sim.sh --mode shadow`
 - Scorecard (P3, needs the toolkit installed: `pip install -e resources/.../toolkit`): `bash scripts/final/run_scorecard.sh` (exits 4, not an error, if the toolkit isn't installed yet)
-- Release pipeline (P6): `bash scripts/final/run_release.sh` (OPS-1 verify → protect → shadow → mosaic gate → OPS-1 verify)
+- Release pipeline (P6): `bash scripts/final/run_release.sh` (OPS-1 verify → attack raw → protect → re-attack → mosaic gate → OPS-1 verify)
 - Demo (P7): `bash scripts/final/run_demo.sh`
 - Benchmarks (P4): `pip install -r requirements-benchmark.txt` then `bash scripts/final/make_benchmark.sh`
 - OPS-1 manifest (P5): `bash scripts/final/ops1_manifest.sh build|verify|selftest` (committed `manifests/pack_data_sha256.json`)
-- Usage doc: `USAGE.md`
+- Usage doc: `INSTRUCTION.md`
 - Lint / type-check: `<fill in>`
 - Build: `<fill in>`
 
@@ -48,7 +48,10 @@ technical plan: `findings/MVP_Plan.md`.
 - Things Claude must never do:
   - edit `resources/…` in place or write outputs under `resources/`
   - commit `keys/` or `clean_data/`
-  - tokenise FIN-S2 glue keys (`hetu`/`phone`/`iban`/`email`) instead of dropping
+  - drop FIN-S2 glue keys (`hetu`/`phone`/`iban`/`email`) instead of tokenising them
+  - add `phone` to HEALTH-S1 `TOKENISE_IDENTIFIERS` (phone must not be tokenised on health)
+  - tokenise FIN-S2 direct name/address columns (`full_name`/`street_address`) — drop those instead
+  - commit `findings/agent_proposals/` or `findings/agent_checkpoints/` (raw-pack attack evidence)
   - let the agent write `clean_data/` or set a release PASS
   - invent a second phone-norm recipe or retune 1622/1484 to pass checks
   - treat PASS-1 alone as release-safe without PASS-2 (or use `--skip-pass2` in production)

@@ -9,9 +9,14 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pseudonym import tokenise  # noqa: E402
 
+# Per-(dataset, scenario) key domains: the same person gets a different token
+# in each release, so the columns stay usable inside a release but cannot be
+# joined across releases (PET_PLAYBOOK "Joins across datasets").
+# HEALTH-S1 must NOT list `phone`: normalize_phone() strips the hex letters out
+# of a token, and the digits that survive can collide across releases.
 TOKENISE_IDENTIFIERS: dict[tuple[str, str], set[str]] = {
     ("health", "HEALTH-S1"): {"patient_hetu"},
-    ("finance", "FIN-S2"): set(),
+    ("finance", "FIN-S2"): {"hetu", "phone", "iban", "email"},
 }
 
 KIND_BY_SUBTYPE: dict[str, str] = {

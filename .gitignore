@@ -20,3 +20,8 @@ resources/TRUSTED_SinceAI2026_FINAL/2026.11_SinceAI_TrustEDpresentation.mp4
 keys/
 clean_data/
 
+# Attack + baseline evidence: raw-pack attack-sim writes real pack HETUs here
+findings/agent_proposals/
+findings/agent_checkpoints/
+findings/baseline_overlap.json
+

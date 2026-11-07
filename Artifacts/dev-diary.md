@@ -528,3 +528,24 @@ resolve it.
 pushed. PR #1 now reports `mergeStateStatus: CLEAN`,
 `mergeable: MERGEABLE`. `main` still untouched — merging it remains the
 user's call.
+
+## 2026-11-07 — Attack-first runbook + FIN-S2 tokenise
+
+**Task:** Attack-first demo/release narrative; consolidate DEMO+USAGE into
+INSTRUCTION.md; FIN-S2 transform (HMAC tokenise) instead of blank-dropping
+glue; leave Groq agent files alone.
+
+**What was done:**
+- FIN-S2 TOKENISE_IDENTIFIERS = hetu/phone/iban/email; names/addresses still dropped.
+- run_release.sh: raw attack (1622/1484) → protect → re-attack (0/0) → gate.
+- run_demo.py re-narrated; INSTRUCTION.md added; DEMO/USAGE stubs.
+- Documented free-text chief_complaint gap for teammate Groq agent.
+
+**Files changed:**
+.gitignore, app/pet_pipeline.py, app/run_demo.py, scripts/final/run_release.sh,
+scripts/final/STEPS.md, INSTRUCTION.md, DEMO.md, USAGE.md, README.md, CLAUDE.md,
+Artifacts/{TASK,PLAN,state,dev-diary}.md
+
+**Test result:**
+ops1 0; baseline 1622/1484; protect FIN-S2 17→15 tokenise four glue;
+mosaic PASS 0/0+1622/1484; release STEP1 1622/1484 STEP3 0/0; demo PASS.
