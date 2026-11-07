@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SinceAI · protect analysis</title>
+<style>
+  :root {
+    --bg: #f3efe6;
+    --ink: #1c1914;
+    --muted: #5c564c;
+    --card: #fffdf8;
+    --line: #d7d0c2;
+    --accent: #0f6a5a;
+    --accent-2: #b44a1f;
+    --drop: #8b2e2e;
+    --token: #1f4d8c;
+    --gen: #6b4f1d;
+    --ok: #0f6a5a;
+    --warn: #8a5a00;
+    --mono: "IBM Plex Mono", "SF Mono", ui-monospace, monospace;
+    --sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+    --display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background:
+      radial-gradient(1200px 500px at 10% -10%, #e7f2ee 0%, transparent 55%),
+      radial-gradient(900px 400px at 100% 0%, #f7e6dc 0%, transparent 50%),
+      var(--bg);
+    font-family: var(--sans);
+    line-height: 1.45;
+  }
+  header {
+    padding: 2.5rem 1.5rem 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  header h1 {
+    font-family: var(--display);
+    font-weight: 560;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    margin: 0 0 0.4rem;
+    letter-spacing: -0.02em;
+  }
+  header p { margin: 0.25rem 0; color: var(--muted); max-width: 48rem; }
+  .verdict {
+    display: inline-block;
+    margin-top: 0.9rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+    display: grid;
+    gap: 1.25rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 1.1rem 1.2rem 1.3rem;
+    box-shadow: 0 1px 0 rgba(28,25,20,0.04);
+  }
+  h2, h3, h4 { font-family: var(--display); font-weight: 560; margin: 0 0 0.6rem; }
+  h2 { font-size: 1.35rem; }
+  h3 { font-size: 1.15rem; }
+  h4 { font-size: 1rem; margin-top: 1rem; }
+  .meta { color: var(--muted); font-size: 0.92rem; margin: 0 0 0.8rem; }
+  .method, .gloss, .hint { color: var(--muted); font-size: 0.86rem; }
+  .hint { font-weight: 400; }
+  .warn { color: var(--warn); }
+  .mono, code { font-family: var(--mono); font-size: 0.86em; }
+  .cmp {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+  .cmp th, .cmp td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.45rem 0.5rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .cmp th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+  .row-dropped td { background: #f8ecea; }
+  .row-tokenised td { background: #eaf1f8; }
+  .row-generalised td { background: #f7f1e3; }
+  .badge {
+    display: inline-block;
+    padding: 0.12rem 0.45rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .badge-dropped { background: #f0d4d1; color: var(--drop); }
+  .badge-tokenised { background: #d7e5f5; color: var(--token); }
+  .badge-generalised { background: #efe2c4; color: var(--gen); }
+  .badge-unchanged { background: #e4eee9; color: var(--ok); }
+  .join-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  @media (max-width: 800px) { .join-grid { grid-template-columns: 1fr; } }
+  .bar {
+    position: relative;
+    height: 1.6rem;
+    background: #ebe5da;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0.35rem 0 0.7rem;
+  }
+  .bar-fill { height: 100%; }
+  .bar-fill.before { background: var(--accent-2); }
+  .bar-fill.after { background: var(--accent); }
+  .bar-label {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 0.55rem;
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    color: var(--ink);
+  }
+  .score-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin: 0.6rem 0 0.8rem;
+  }
+  .score {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.7rem;
+    text-align: center;
+  }
+  .score-n {
+    display: block;
+    font-family: var(--display);
+    font-size: 1.55rem;
+    color: var(--accent);
+  }
+  footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem 2.5rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>SinceAI protect analysis</h1>
+  <p>
+    Side-by-side original vs protected releases for worked-example person
+    <strong>P013174</strong>
+    (HETU <code>021280-9730</code>), mosaic joins before/after
+    protect, and pets-eval scorecards framed by
+    <code>docs/EVALUATION.md</code>.
+  </p>
+  <p class="meta">Generated 2026-11-07T14:41:22.124903+00:00</p>
+  <div class="verdict">Mosaic gate · PASS</div>
+</header>
+<main>
+  <section class="card">
+    <h2>1 · Example row transform</h2>
+    <p class="meta">
+      One aligned record from each release (via <code>rowmap_*.csv</code>).
+      Highlighted rows show what protect changed.
+    </p>
+    <section class="card release"><h3>HEALTH-S1 · ed_visits</h3><p class="meta">Columns <strong>29</strong> → <strong>25</strong> · dropped: patient_name, phone, home_address, attending_physician_name · tokenised: patient_hetu</p><p class="meta">Demo row · raw index 20594 · protected index 20594 · id ED25-022833</p><table class="cmp"><thead><tr><th>Column</th><th>Original</th><th>Protected</th><th>Action</th></tr></thead><tbody><tr class="row-unchanged"><td><code>visit_id</code></td><td class="mono">ED25-022833</td><td class="mono">ED25-022833</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-tokenised"><td><code>patient_hetu</code></td><td class="mono">021280-9730</td><td class="mono">faea3cea97a83785</td><td><span class="badge badge-tokenised">tokenised</span></td></tr><tr class="row-dropped"><td><code>patient_name</code></td><td class="mono">Lehto Riku Viljami</td><td class="mono">—</td><td><span class="badge badge-dropped">dropped</span></td></tr><tr class="row-unchanged"><td><code>date_of_birth</code></td><td class="mono"></td><td class="mono"></td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>sex</code></td><td class="mono">M</td><td class="mono">M</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-dropped"><td><code>phone</code></td><td class="mono">0508000433</td><td class="mono">—</td><td><span class="badge badge-dropped">dropped</span></td></tr><tr class="row-dropped"><td><code>home_address</code></td><td class="mono">Riihitie 15</td><td class="mono">—</td><td><span class="badge badge-dropped">dropped</span></td></tr><tr class="row-generalised"><td><code>postcode</code></td><td class="mono">20900</td><td class="mono">209**</td><td><span class="badge badge-generalised">generalised</span></td></tr><tr class="row-unchanged"><td><code>municipality</code></td><td class="mono">Turku</td><td class="mono">Turku</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-generalised"><td><code>arrival_ts</code></td><td class="mono">2025-06-10 09:41:00</td><td class="mono">2025-W24</td><td><span class="badge badge-generalised">generalised</span></td></tr><tr class="row-unchanged"><td><code>arrival_mode</code></td><td class="mono">walk-in</td><td class="mono">walk-in</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>ambulance_unit</code></td><td class="mono"></td><td class="mono"></td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>triage</code></td><td class="mono">E</td><td class="mono">E</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>chief_complaint</code></td><td class="mono">Kova kylkikipu vasemmalla</td><td class="mono">Kova kylkikipu vasemmalla</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>icd10_primary</code></td><td class="mono">N20.0</td><td class="mono">N20.0</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>icd10_secondary</code></td><td class="mono"></td><td class="mono"></td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>systolic_bp</code></td><td class="mono"></td><td class="mono"></td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>diastolic_bp</code></td><td class="mono"></td><td class="mono"></td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>heart_rate</code></td><td class="mono">81</td><td class="mono">81</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>resp_rate</code></td><td class="mono"></td><td class="mono"></td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>temp_c</code></td><td class="mono">36.9</td><td class="mono">36.9</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>spo2</code></td><td class="mono">98</td><td class="mono">98</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>pain_nrs</code></td><td class="mono">4</td><td class="mono">4</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-generalised"><td><code>attending_physician_id</code></td><td class="mono">STAFF-29980</td><td class="mono">032a5cf872590d4b</td><td><span class="badge badge-generalised">generalised</span></td></tr><tr class="row-dropped"><td><code>attending_physician_name</code></td><td class="mono">Matti Mäkilä</td><td class="mono">—</td><td><span class="badge badge-dropped">dropped</span></td></tr><tr class="row-generalised"><td><code>discharge_ts</code></td><td class="mono">2025-06-10 14:46:00</td><td class="mono">2025-W24</td><td><span class="badge badge-generalised">generalised</span></td></tr><tr class="row-unchanged"><td><code>los_minutes</code></td><td class="mono">305</td><td class="mono">305</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>disposition</code></td><td class="mono">home</td><td class="mono">home</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>readmit_30d</code></td><td class="mono">0</td><td class="mono">0</td><td><span class="badge badge-unchanged">unchanged</span></td></tr></tbody></table></section><section class="card release"><h3>FIN-S2 · customers</h3><p class="meta">Columns <strong>17</strong> → <strong>13</strong> · dropped: full_name, street_address, email, phone · tokenised: hetu, iban</p><p class="meta">Demo row · raw index 806 · protected index 806 · id SB88296612</p><table class="cmp"><thead><tr><th>Column</th><th>Original</th><th>Protected</th><th>Action</th></tr></thead><tbody><tr class="row-unchanged"><td><code>customer_id</code></td><td class="mono">SB88296612</td><td class="mono">SB88296612</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-tokenised"><td><code>hetu</code></td><td class="mono">021280-9730</td><td class="mono">e4ac08fadcdd35a1</td><td><span class="badge badge-tokenised">tokenised</span></td></tr><tr class="row-dropped"><td><code>full_name</code></td><td class="mono">Riku Viljami Lehto</td><td class="mono">—</td><td><span class="badge badge-dropped">dropped</span></td></tr><tr class="row-generalised"><td><code>birth_date</code></td><td class="mono">1980-12-02</td><td class="mono">1980</td><td><span class="badge badge-generalised">generalised</span></td></tr><tr class="row-dropped"><td><code>street_address</code></td><td class="mono">Riihitie 15</td><td class="mono">—</td><td><span class="badge badge-dropped">dropped</span></td></tr><tr class="row-generalised"><td><code>postcode</code></td><td class="mono">20900</td><td class="mono">209**</td><td><span class="badge badge-generalised">generalised</span></td></tr><tr class="row-unchanged"><td><code>city</code></td><td class="mono">Turku</td><td class="mono">Turku</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-dropped"><td><code>email</code></td><td class="mono">riku.lehto@mailbox.example</td><td class="mono">—</td><td><span class="badge badge-dropped">dropped</span></td></tr><tr class="row-dropped"><td><code>phone</code></td><td class="mono">+358508000433</td><td class="mono">—</td><td><span class="badge badge-dropped">dropped</span></td></tr><tr class="row-tokenised"><td><code>iban</code></td><td class="mono">FI0290468950852327</td><td class="mono">5817aa2a7b1d4466</td><td><span class="badge badge-tokenised">tokenised</span></td></tr><tr class="row-unchanged"><td><code>income_band</code></td><td class="mono">15-30k</td><td class="mono">15-30k</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>occupation</code></td><td class="mono">On parental leave</td><td class="mono">On parental leave</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>employer</code></td><td class="mono"></td><td class="mono"></td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>pep_flag</code></td><td class="mono">False</td><td class="mono">False</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-unchanged"><td><code>kyc_risk</code></td><td class="mono">low</td><td class="mono">low</td><td><span class="badge badge-unchanged">unchanged</span></td></tr><tr class="row-generalised"><td><code>account_open_date</code></td><td class="mono">2019-08-28</td><td class="mono">2019-08</td><td><span class="badge badge-generalised">generalised</span></td></tr><tr class="row-unchanged"><td><code>preferred_language</code></td><td class="mono">fi</td><td class="mono">fi</td><td><span class="badge badge-unchanged">unchanged</span></td></tr></tbody></table></section>
+  </section>
+
+  <section class="card">
+    <h2>2 · Cross-release joins (Attack A)</h2>
+    <p class="meta">
+      Same instrument as the mosaic gate. Baseline lock on raw data:
+      HETU <strong>1622</strong> / phone <strong>1484</strong>.
+      After protect both joins must be <strong>0</strong>.
+    </p>
+    <div class="join-grid">
+      <div>
+        <h3>Before protect</h3>
+        <p class="meta">Unprotected pack data/</p>
+        <div>HETU ∩</div>
+        <div class="bar"><div class="bar-fill before" style="width:100%"></div><span class="bar-label">1622</span></div>
+        <div>Phone ∩</div>
+        <div class="bar"><div class="bar-fill before" style="width:91%"></div><span class="bar-label">1484</span></div>
+      </div>
+      <div>
+        <h3>After protect</h3>
+        <p class="meta">Protected clean_data/</p>
+        <div>HETU ∩</div>
+        <div class="bar"><div class="bar-fill after" style="width:0%"></div><span class="bar-label">0</span></div>
+        <div>Phone ∩</div>
+        <div class="bar"><div class="bar-fill after" style="width:0%"></div><span class="bar-label">0</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>3 · pets-eval scorecards</h2>
+    <p class="meta">pets-eval scorecard is a self-assessment tool; official judging follows the Since AI evaluation process (EVALUATION.md).</p>
+    <ul class="meta">
+      <li>privacy = 1 − (0.5 × worst risk + 0.5 × mean risk)</li>
+      <li>utility = mean of scenario task scores (required but unanswerable → 0)</li>
+      <li>composite = weighted harmonic mean (privacy weight 30, utility weight 25)</li>
+    </ul>
+    <section class="card scorecard"><h3>HEALTH-S1 · health</h3><p class="meta">pets-eval 1.0.0 — self-assessment, not the official judging score</p><div class="score-grid"><div class="score"><span class="score-n">37.9%</span><span>Privacy</span></div><div class="score"><span class="score-n">59.3%</span><span>Utility</span></div><div class="score"><span class="score-n">45.3%</span><span>Composite</span></div></div><p class="method">privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)</p><h4>Privacy risk components <span class="hint">0 = no risk, 1 = maximal</span></h4><table class="cmp"><thead><tr><th>Component</th><th>Risk</th><th>EVALUATION.md</th></tr></thead><tbody><tr><td>ed_visits: direct identifiers retained</td><td class="mono">0.0</td><td class="gloss">Share of catalogued direct-identifier values that still appear verbatim.</td></tr><tr><td>ed_visits: records with k&lt;5</td><td class="mono">0.9885</td><td class="gloss">Share of rows in equivalence classes smaller than 5 on kept quasi-identifiers.</td></tr><tr><td>ed_visits: linkage re-identification</td><td class="mono">0.025</td><td class="gloss">Worst re-identification or attribute-inference rate over metadata/attack_specs.json attacks.</td></tr><tr><td>ed_visits: free-text identifier leakage</td><td class="mono">0.0</td><td class="gloss">Share of gold PII spans whose value survives in released free text.</td></tr></tbody></table><h4>Utility tasks</h4><table class="cmp"><thead><tr><th>ID</th><th>Task</th><th>Score</th><th>Metric</th></tr></thead><tbody><tr class="row-unchanged"><td><code>H-U2</code></td><td>Median length of stay by triage level</td><td class="mono">1.000</td><td class="gloss">mean relative error of median LOS by triage</td></tr><tr class="row-unchanged"><td><code>H-U4</code></td><td>Diagnosis-group mix in the eight largest municipalities</td><td class="mono">1.000</td><td class="gloss">1 - mean TVD/0.15 of diagnosis-group mix in top-8 municipalities</td></tr><tr class="row-unchanged"><td><code>H-U6</code></td><td>30-day revisit rate by age band (needs readmit_30d or a consistent patient pseudonym)</td><td class="mono">0.964</td><td class="gloss">mean |revisit rate diff| by age band / overall rate</td></tr><tr class="row-dropped"><td><code>H-U7</code></td><td>CRP vs temperature relationship and CRP by diagnosis group (needs visit join)</td><td class="mono">n/a</td><td class="gloss">not answerable</td></tr><tr class="row-dropped"><td><code>H-U8</code></td><td>Hour-of-day arrival curve</td><td class="mono">n/a</td><td class="gloss">not answerable</td></tr></tbody></table></section><section class="card scorecard"><h3>FIN-S2 · finance</h3><p class="meta">pets-eval 1.0.0 — self-assessment, not the official judging score</p><div class="score-grid"><div class="score"><span class="score-n">33.8%</span><span>Privacy</span></div><div class="score"><span class="score-n">0.0%</span><span>Utility</span></div><div class="score"><span class="score-n">0.0%</span><span>Composite</span></div></div><p class="method">privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)</p><h4>Privacy risk components <span class="hint">0 = no risk, 1 = maximal</span></h4><table class="cmp"><thead><tr><th>Component</th><th>Risk</th><th>EVALUATION.md</th></tr></thead><tbody><tr><td>customers: direct identifiers retained</td><td class="mono">0.0</td><td class="gloss">Share of catalogued direct-identifier values that still appear verbatim.</td></tr><tr><td>customers: records with k&lt;5</td><td class="mono">0.9938</td><td class="gloss">Share of rows in equivalence classes smaller than 5 on kept quasi-identifiers.</td></tr><tr><td>customers: linkage re-identification</td><td class="mono">0.0</td><td class="gloss">Worst re-identification or attribute-inference rate over metadata/attack_specs.json attacks.</td></tr></tbody></table><h4>Utility tasks</h4><table class="cmp"><thead><tr><th>ID</th><th>Task</th><th>Score</th><th>Metric</th></tr></thead><tbody><tr class="row-dropped"><td><code>FIN-U1</code></td><td>Fraud model: train on protected Jul–Oct, test on original Nov–Dec (PR-AUC ratio)</td><td class="mono">n/a</td><td class="gloss">not answerable</td></tr><tr class="row-dropped"><td><code>FIN-U4</code></td><td>Card spending-profile segmentation (k=6) agreement</td><td class="mono">n/a</td><td class="gloss">not answerable</td></tr><tr class="row-dropped"><td><code>FIN-U6</code></td><td>Mean monthly card spend by income band × age band</td><td class="mono">n/a</td><td class="gloss">not answerable</td></tr></tbody></table></section>
+  </section>
+</main>
+<footer>
+  Source pack /Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026<br/>
+  Protected /Users/dominhkhoi/Project/SinceAI/clean_data<br/>
+  Reference resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/docs/EVALUATION.md<br/>
+  Re-run with <code>bash scripts/final/run_analyze.sh</code>
+</footer>
+</body>
+</html>

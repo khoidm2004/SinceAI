@@ -1,0 +1,637 @@
+{
+  "generated_at": "2026-11-07T15:44:37.287559+00:00",
+  "demo_person": "P013174",
+  "demo_hetu": "021280-9730",
+  "pack_root": "/Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026",
+  "clean_root": "/Users/dominhkhoi/Project/SinceAI/clean_data",
+  "evaluation_ref": "resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/docs/EVALUATION.md",
+  "releases": [
+    {
+      "label": "HEALTH-S1 · ed_visits",
+      "scenario_id": "HEALTH-S1",
+      "dataset": "health",
+      "raw_path": "/Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/data/health/ed_visits.csv",
+      "clean_path": "/Users/dominhkhoi/Project/SinceAI/clean_data/health__HEALTH-S1/ed_visits.csv",
+      "raw_columns": [
+        "visit_id",
+        "patient_hetu",
+        "patient_name",
+        "date_of_birth",
+        "sex",
+        "phone",
+        "home_address",
+        "postcode",
+        "municipality",
+        "arrival_ts",
+        "arrival_mode",
+        "ambulance_unit",
+        "triage",
+        "chief_complaint",
+        "icd10_primary",
+        "icd10_secondary",
+        "systolic_bp",
+        "diastolic_bp",
+        "heart_rate",
+        "resp_rate",
+        "temp_c",
+        "spo2",
+        "pain_nrs",
+        "attending_physician_id",
+        "attending_physician_name",
+        "discharge_ts",
+        "los_minutes",
+        "disposition",
+        "readmit_30d"
+      ],
+      "protected_columns": [
+        "visit_id",
+        "patient_hetu",
+        "date_of_birth",
+        "sex",
+        "postcode",
+        "municipality",
+        "arrival_ts",
+        "arrival_mode",
+        "ambulance_unit",
+        "triage",
+        "chief_complaint",
+        "icd10_primary",
+        "icd10_secondary",
+        "systolic_bp",
+        "diastolic_bp",
+        "heart_rate",
+        "resp_rate",
+        "temp_c",
+        "spo2",
+        "pain_nrs",
+        "attending_physician_id",
+        "discharge_ts",
+        "los_minutes",
+        "disposition",
+        "readmit_30d"
+      ],
+      "raw_column_count": 29,
+      "protected_column_count": 25,
+      "dropped_columns": [
+        "patient_name",
+        "phone",
+        "home_address",
+        "attending_physician_name"
+      ],
+      "tokenise_columns": [
+        "patient_hetu"
+      ],
+      "demo_hetu": "021280-9730",
+      "raw_row_index": 20594,
+      "protected_row_index": 20594,
+      "record_id": "ED25-022833",
+      "fields": [
+        {
+          "column": "visit_id",
+          "raw": "ED25-022833",
+          "protected": "ED25-022833",
+          "action": "unchanged"
+        },
+        {
+          "column": "patient_hetu",
+          "raw": "021280-9730",
+          "protected": "faea3cea97a83785",
+          "action": "tokenised"
+        },
+        {
+          "column": "patient_name",
+          "raw": "Lehto Riku Viljami",
+          "protected": null,
+          "action": "dropped"
+        },
+        {
+          "column": "date_of_birth",
+          "raw": "",
+          "protected": "",
+          "action": "unchanged"
+        },
+        {
+          "column": "sex",
+          "raw": "M",
+          "protected": "M",
+          "action": "unchanged"
+        },
+        {
+          "column": "phone",
+          "raw": "0508000433",
+          "protected": null,
+          "action": "dropped"
+        },
+        {
+          "column": "home_address",
+          "raw": "Riihitie 15",
+          "protected": null,
+          "action": "dropped"
+        },
+        {
+          "column": "postcode",
+          "raw": "20900",
+          "protected": "209**",
+          "action": "generalised"
+        },
+        {
+          "column": "municipality",
+          "raw": "Turku",
+          "protected": "Turku",
+          "action": "unchanged"
+        },
+        {
+          "column": "arrival_ts",
+          "raw": "2025-06-10 09:41:00",
+          "protected": "2025-W24",
+          "action": "generalised"
+        },
+        {
+          "column": "arrival_mode",
+          "raw": "walk-in",
+          "protected": "walk-in",
+          "action": "unchanged"
+        },
+        {
+          "column": "ambulance_unit",
+          "raw": "",
+          "protected": "",
+          "action": "unchanged"
+        },
+        {
+          "column": "triage",
+          "raw": "E",
+          "protected": "E",
+          "action": "unchanged"
+        },
+        {
+          "column": "chief_complaint",
+          "raw": "Kova kylkikipu vasemmalla",
+          "protected": "Kova kylkikipu vasemmalla",
+          "action": "unchanged"
+        },
+        {
+          "column": "icd10_primary",
+          "raw": "N20.0",
+          "protected": "N20.0",
+          "action": "unchanged"
+        },
+        {
+          "column": "icd10_secondary",
+          "raw": "",
+          "protected": "",
+          "action": "unchanged"
+        },
+        {
+          "column": "systolic_bp",
+          "raw": "",
+          "protected": "",
+          "action": "unchanged"
+        },
+        {
+          "column": "diastolic_bp",
+          "raw": "",
+          "protected": "",
+          "action": "unchanged"
+        },
+        {
+          "column": "heart_rate",
+          "raw": "81",
+          "protected": "81",
+          "action": "unchanged"
+        },
+        {
+          "column": "resp_rate",
+          "raw": "",
+          "protected": "",
+          "action": "unchanged"
+        },
+        {
+          "column": "temp_c",
+          "raw": "36.9",
+          "protected": "36.9",
+          "action": "unchanged"
+        },
+        {
+          "column": "spo2",
+          "raw": "98",
+          "protected": "98",
+          "action": "unchanged"
+        },
+        {
+          "column": "pain_nrs",
+          "raw": "4",
+          "protected": "4",
+          "action": "unchanged"
+        },
+        {
+          "column": "attending_physician_id",
+          "raw": "STAFF-29980",
+          "protected": "032a5cf872590d4b",
+          "action": "generalised"
+        },
+        {
+          "column": "attending_physician_name",
+          "raw": "Matti Mäkilä",
+          "protected": null,
+          "action": "dropped"
+        },
+        {
+          "column": "discharge_ts",
+          "raw": "2025-06-10 14:46:00",
+          "protected": "2025-W24",
+          "action": "generalised"
+        },
+        {
+          "column": "los_minutes",
+          "raw": "305",
+          "protected": "305",
+          "action": "unchanged"
+        },
+        {
+          "column": "disposition",
+          "raw": "home",
+          "protected": "home",
+          "action": "unchanged"
+        },
+        {
+          "column": "readmit_30d",
+          "raw": "0",
+          "protected": "0",
+          "action": "unchanged"
+        }
+      ],
+      "found": true
+    },
+    {
+      "label": "FIN-S2 · customers",
+      "scenario_id": "FIN-S2",
+      "dataset": "finance",
+      "raw_path": "/Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/data/finance/customers.csv",
+      "clean_path": "/Users/dominhkhoi/Project/SinceAI/clean_data/finance__FIN-S2/customers.csv",
+      "raw_columns": [
+        "customer_id",
+        "hetu",
+        "full_name",
+        "birth_date",
+        "street_address",
+        "postcode",
+        "city",
+        "email",
+        "phone",
+        "iban",
+        "income_band",
+        "occupation",
+        "employer",
+        "pep_flag",
+        "kyc_risk",
+        "account_open_date",
+        "preferred_language"
+      ],
+      "protected_columns": [
+        "customer_id",
+        "hetu",
+        "birth_date",
+        "postcode",
+        "city",
+        "email",
+        "phone",
+        "iban",
+        "income_band",
+        "occupation",
+        "employer",
+        "pep_flag",
+        "kyc_risk",
+        "account_open_date",
+        "preferred_language"
+      ],
+      "raw_column_count": 17,
+      "protected_column_count": 15,
+      "dropped_columns": [
+        "full_name",
+        "street_address"
+      ],
+      "tokenise_columns": [
+        "email",
+        "hetu",
+        "iban",
+        "phone"
+      ],
+      "demo_hetu": "021280-9730",
+      "raw_row_index": 806,
+      "protected_row_index": 806,
+      "record_id": "SB88296612",
+      "fields": [
+        {
+          "column": "customer_id",
+          "raw": "SB88296612",
+          "protected": "SB88296612",
+          "action": "unchanged"
+        },
+        {
+          "column": "hetu",
+          "raw": "021280-9730",
+          "protected": "e4ac08fadcdd35a1",
+          "action": "tokenised"
+        },
+        {
+          "column": "full_name",
+          "raw": "Riku Viljami Lehto",
+          "protected": null,
+          "action": "dropped"
+        },
+        {
+          "column": "birth_date",
+          "raw": "1980-12-02",
+          "protected": "1980",
+          "action": "generalised"
+        },
+        {
+          "column": "street_address",
+          "raw": "Riihitie 15",
+          "protected": null,
+          "action": "dropped"
+        },
+        {
+          "column": "postcode",
+          "raw": "20900",
+          "protected": "209**",
+          "action": "generalised"
+        },
+        {
+          "column": "city",
+          "raw": "Turku",
+          "protected": "Turku",
+          "action": "unchanged"
+        },
+        {
+          "column": "email",
+          "raw": "riku.lehto@mailbox.example",
+          "protected": "8201d83c5c837195",
+          "action": "tokenised"
+        },
+        {
+          "column": "phone",
+          "raw": "+358508000433",
+          "protected": "0ff7893c1f65348b",
+          "action": "tokenised"
+        },
+        {
+          "column": "iban",
+          "raw": "FI0290468950852327",
+          "protected": "5817aa2a7b1d4466",
+          "action": "tokenised"
+        },
+        {
+          "column": "income_band",
+          "raw": "15-30k",
+          "protected": "15-30k",
+          "action": "unchanged"
+        },
+        {
+          "column": "occupation",
+          "raw": "On parental leave",
+          "protected": "On parental leave",
+          "action": "unchanged"
+        },
+        {
+          "column": "employer",
+          "raw": "",
+          "protected": "",
+          "action": "unchanged"
+        },
+        {
+          "column": "pep_flag",
+          "raw": "False",
+          "protected": "False",
+          "action": "unchanged"
+        },
+        {
+          "column": "kyc_risk",
+          "raw": "low",
+          "protected": "low",
+          "action": "unchanged"
+        },
+        {
+          "column": "account_open_date",
+          "raw": "2019-08-28",
+          "protected": "2019-08",
+          "action": "generalised"
+        },
+        {
+          "column": "preferred_language",
+          "raw": "fi",
+          "protected": "fi",
+          "action": "unchanged"
+        }
+      ],
+      "found": true
+    }
+  ],
+  "joins": {
+    "before_protect": {
+      "hetu_join": 1622,
+      "phone_join": 1484,
+      "label": "Unprotected pack data/"
+    },
+    "after_protect": {
+      "hetu_join": 0,
+      "phone_join": 0,
+      "label": "Protected clean_data/"
+    },
+    "baseline_lock": {
+      "hetu": 1622,
+      "phone": 1484
+    },
+    "mosaic_check": {
+      "pack_root": "/Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026",
+      "clean_root": "/Users/dominhkhoi/Project/SinceAI/clean_data",
+      "normalisation": {
+        "phone": "strip non-[0-9+]; ^\\+358→0; ^00358→0",
+        "hetu": "strip; string as-is"
+      },
+      "pass1": {
+        "hetu_health_finance": {
+          "observed": 0,
+          "expected": 0,
+          "pass": true
+        },
+        "phone_health_finance": {
+          "observed": 0,
+          "expected": 0,
+          "pass": true
+        }
+      },
+      "pass2": {
+        "hetu_health_finance": {
+          "observed": 1622,
+          "expected": 1622,
+          "pass": true
+        },
+        "phone_health_finance": {
+          "observed": 1484,
+          "expected": 1484,
+          "pass": true
+        }
+      },
+      "positive_control": {
+        "skipped": false,
+        "hetu_health_finance": {
+          "observed": 1622,
+          "expected": 1622,
+          "pass": true
+        },
+        "phone_health_finance": {
+          "observed": 1484,
+          "expected": 1484,
+          "pass": true
+        },
+        "pass": true
+      },
+      "verdict": "PASS"
+    }
+  },
+  "scorecards": [
+    {
+      "scenario_id": "HEALTH-S1",
+      "path": "/Users/dominhkhoi/Project/SinceAI/clean_data/health__HEALTH-S1/scorecard.json",
+      "available": true,
+      "dataset": "health",
+      "tool": "pets-eval 1.0.0",
+      "summary": {
+        "privacy": 0.3791,
+        "utility": 0.5928,
+        "composite": 0.4534,
+        "label": "self-assessment, not the official judging score",
+        "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+      },
+      "risk_components": [
+        {
+          "name": "ed_visits: direct identifiers retained",
+          "value": 0.0,
+          "glossary": "Share of catalogued direct-identifier values that still appear verbatim."
+        },
+        {
+          "name": "ed_visits: records with k<5",
+          "value": 0.9885,
+          "glossary": "Share of rows in equivalence classes smaller than 5 on kept quasi-identifiers."
+        },
+        {
+          "name": "ed_visits: linkage re-identification",
+          "value": 0.025,
+          "glossary": "Worst re-identification or attribute-inference rate over metadata/attack_specs.json attacks."
+        },
+        {
+          "name": "ed_visits: free-text identifier leakage",
+          "value": 0.0,
+          "glossary": "Share of gold PII spans whose value survives in released free text."
+        }
+      ],
+      "utility_tasks": [
+        {
+          "id": "H-U2",
+          "description": "Median length of stay by triage level",
+          "required": true,
+          "score": 1.0,
+          "metric": "mean relative error of median LOS by triage",
+          "answerable": true
+        },
+        {
+          "id": "H-U4",
+          "description": "Diagnosis-group mix in the eight largest municipalities",
+          "required": true,
+          "score": 1.0,
+          "metric": "1 - mean TVD/0.15 of diagnosis-group mix in top-8 municipalities",
+          "answerable": true
+        },
+        {
+          "id": "H-U6",
+          "description": "30-day revisit rate by age band (needs readmit_30d or a consistent patient pseudonym)",
+          "required": true,
+          "score": 0.9638925850779434,
+          "metric": "mean |revisit rate diff| by age band / overall rate",
+          "answerable": true
+        },
+        {
+          "id": "H-U7",
+          "description": "CRP vs temperature relationship and CRP by diagnosis group (needs visit join)",
+          "required": true,
+          "score": null,
+          "metric": "not answerable",
+          "answerable": false
+        },
+        {
+          "id": "H-U8",
+          "description": "Hour-of-day arrival curve",
+          "required": true,
+          "score": null,
+          "metric": "not answerable",
+          "answerable": false
+        }
+      ]
+    },
+    {
+      "scenario_id": "FIN-S2",
+      "path": "/Users/dominhkhoi/Project/SinceAI/clean_data/finance__FIN-S2/scorecard.json",
+      "available": true,
+      "dataset": "finance",
+      "tool": "pets-eval 1.0.0",
+      "summary": {
+        "privacy": 0.3375,
+        "utility": 0.0,
+        "composite": 0.0,
+        "label": "self-assessment, not the official judging score",
+        "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+      },
+      "risk_components": [
+        {
+          "name": "customers: direct identifiers retained",
+          "value": 0.0,
+          "glossary": "Share of catalogued direct-identifier values that still appear verbatim."
+        },
+        {
+          "name": "customers: records with k<5",
+          "value": 0.9938,
+          "glossary": "Share of rows in equivalence classes smaller than 5 on kept quasi-identifiers."
+        },
+        {
+          "name": "customers: linkage re-identification",
+          "value": 0.0,
+          "glossary": "Worst re-identification or attribute-inference rate over metadata/attack_specs.json attacks."
+        }
+      ],
+      "utility_tasks": [
+        {
+          "id": "FIN-U1",
+          "description": "Fraud model: train on protected Jul–Oct, test on original Nov–Dec (PR-AUC ratio)",
+          "required": true,
+          "score": null,
+          "metric": "not answerable",
+          "answerable": false
+        },
+        {
+          "id": "FIN-U4",
+          "description": "Card spending-profile segmentation (k=6) agreement",
+          "required": true,
+          "score": null,
+          "metric": "not answerable",
+          "answerable": false
+        },
+        {
+          "id": "FIN-U6",
+          "description": "Mean monthly card spend by income band × age band",
+          "required": true,
+          "score": null,
+          "metric": "not answerable",
+          "answerable": false
+        }
+      ]
+    }
+  ],
+  "evaluation_notes": {
+    "privacy_formula": "privacy = 1 − (0.5 × worst risk + 0.5 × mean risk)",
+    "utility_formula": "utility = mean of scenario task scores (required but unanswerable → 0)",
+    "composite_formula": "composite = weighted harmonic mean (privacy weight 30, utility weight 25)",
+    "disclaimer": "pets-eval scorecard is a self-assessment tool; official judging follows the Since AI evaluation process (EVALUATION.md)."
+  }
+}

@@ -23,6 +23,3 @@ keys/
 
 agent_proposals/
 
-# Generated analysis HTML / snapshot (rebuild with run_analyze.sh)
-analyze/*
-!analyze/Analyze.md

@@ -1,0 +1,10 @@
+AI workflow refresh
+=================
+1. run_agents.sh --agents on --mode shadow
+   proposal: findings/agent_proposals/20261107T144056Z.agents.json
+2. Applied minim_assist candidates: drop email, phone (FIN-S2)
+   TOKENISE left: hetu, iban
+3. run_protect.sh → clean_data
+4. run_scorecard.sh (if available)
+5. run_analyze.sh --out-dir analyze/AI
+Default TOKENISE was restored after this report; clean_data re-protected to defaults.
