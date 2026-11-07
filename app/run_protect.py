@@ -1,7 +1,8 @@
-#!/usr/bin/env python3
-"""P1 CLI: protect HEALTH-S1 and FIN-S2 releases into clean_data/."""
 from __future__ import annotations
 
+from python_version import require_python
+
+require_python()
 import argparse
 import csv
 import sys
