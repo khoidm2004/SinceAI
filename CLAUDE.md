@@ -31,7 +31,7 @@ technical plan: `findings/MVP_Plan.md`.
 - Agents (P8, A2 — advisory, off by default): `bash scripts/final/run_agents.sh --agents auto --mode shadow` (reduces to deterministic `attack_sim` when `GROQ_API_KEY` is unset); offline graph run: `--agents on --llm-stub`
 - Agent AR-4 contract self-test (no key, no network): `bash scripts/final/run_agents.sh --selftest`
 - Groq env vars: `findings/agent_groq.md`
-- Analyze HTML (raw vs protected + joins + scorecards): `bash scripts/final/run_analyze.sh` → `analyze/index.html`
+- Analyze HTML (raw vs protected + joins + scorecards): `bash scripts/final/run_analyze.sh` (default `analyze/`; release writes `analyze/no_AI/`)
 - Benchmarks (P4): `pip install -r requirements-benchmark.txt` then `bash scripts/final/make_benchmark.sh`
 - OPS-1 manifest (P5): `bash scripts/final/ops1_manifest.sh build|verify|selftest` (committed `manifests/pack_data_sha256.json`)
 - Usage doc: `INSTRUCTION.md`

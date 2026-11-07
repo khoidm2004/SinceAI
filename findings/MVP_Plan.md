@@ -117,7 +117,7 @@ five steps and no new architecture:
   on the raw data before protecting anything.
 - **Derive the requirement.** Add a row to §3: attack step → requirement → ID. If a step
   produces no requirement, say so and why.
-- **Extend, don't fork.** Add the dataset pair to `scripts/mosaic_check.py` and record it
+- **Extend, don't fork.** Add the dataset pair to `app/mosaic_check.py` and record it
   in project-owned `findings/custom_attacks.md` + `custom_metadata/attack_specs.custom.json`.
   Nothing under `resources/` is ever edited.
 - **Re-point the same two gates.** The agent re-runs the join on the new pair; PASS-1 still

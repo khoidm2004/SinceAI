@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build analyze/index.html — raw vs protected row, joins, pets-eval scorecards.
+# Build analyze HTML (default: analyze/). Release pipeline writes analyze/no_AI/.
 set -euo pipefail
 source "$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)/../material/common.sh"
 cd "$ROOT"

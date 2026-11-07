@@ -21,3 +21,9 @@
       Note: FIN-S2 utility can be **0** here because FIN-U1/U4/U6 need `cards` / `card_transactions` (withheld); only `customers.csv` is released — mosaic join defence can still be fine.
     - **Composite** (0–1): privacy and utility together — weighted harmonic mean (privacy ×30, utility ×25).
       If either side is 0, composite is **0** (cannot look good by releasing nothing or everything).
+
+- **OPS-1** — pack integrity safeguard (not a privacy PET, not Attack A).
+    - Committed SHA-256 manifest of vendored pack `data/` files: `manifests/pack_data_sha256.json`.
+    - Before and after `run_release.sh` / demo / benchmark: verify hashes still match → pack was not silently edited.
+    - Fails the run if someone tampers with proving-ground inputs (so baselines like 1622/1484 stay honest).
+    - Command: `bash scripts/final/ops1_manifest.sh verify` (expect `verify OK`).

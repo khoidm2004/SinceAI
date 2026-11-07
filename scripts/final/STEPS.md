@@ -49,7 +49,7 @@ runbook and [`../../README.md`](../../README.md) for behaviour / agent overview.
 | P6 | `run_release.sh` | Full release pipeline: OPS-1 verify → attack raw → protect → re-attack protected → mosaic gate → analyze HTML (`analyze/no_AI/`) → OPS-1 verify |
 | P7 | `run_demo.sh` | Narrated before/after Attack A walkthrough, wrapped in OPS-1 verify on both sides |
 | P8 | `run_agents.sh` | Advisory multi-agent pass (Groq). Off unless `GROQ_API_KEY` is set or `--llm-stub` is passed; never gates a release and never writes `clean_data/` |
-| Analyze | `run_analyze.sh` | Build `analyze/index.html`: demo-row raw↔protected, Attack A joins before/after protect, pets-eval scorecards (EVALUATION.md framing) |
+| Analyze | `run_analyze.sh` | Build analyze HTML (demo-row raw↔protected, joins, scorecards). Default `--out-dir analyze/`; `run_release.sh` writes `analyze/no_AI/`. Compare notes: `analyze/Analyze.md` |
 
 ## First run from a clean checkout
 
