@@ -1,0 +1,3 @@
+# P4 benchmark figures (app/make_benchmark.py). Project now requires Python
+# >=3.10 (see app/python_version.py) — no upper bound needed on matplotlib.
+matplotlib>=3.7
