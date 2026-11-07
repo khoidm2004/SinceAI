@@ -18,3 +18,7 @@ resources/TRUSTED_SinceAI2026_FINAL/2026.11_SinceAI_TrustEDpresentation.mp4
 # P1+ outputs and secrets — never commit
 keys/
 clean_data/
+
+# P4 generated benchmark artifacts (regenerate via scripts/make_benchmark.sh)
+benchmarks/*.png
+benchmarks/B2_UNAVAILABLE.txt

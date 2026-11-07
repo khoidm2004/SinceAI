@@ -1,0 +1,2 @@
+# P4 benchmark figures (scripts/make_benchmark.py). Ambient Python is 3.9.6:
+matplotlib>=3.7,<3.10
