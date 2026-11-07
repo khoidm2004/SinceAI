@@ -1,0 +1,47 @@
+{
+  "pack_root": "/Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026",
+  "clean_root": "/Users/dominhkhoi/Project/SinceAI/clean_data",
+  "normalisation": {
+    "phone": "strip non-[0-9+]; ^\\+358→0; ^00358→0",
+    "hetu": "strip; string as-is"
+  },
+  "pass1": {
+    "hetu_health_finance": {
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    "phone_health_finance": {
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    }
+  },
+  "pass2": {
+    "hetu_health_finance": {
+      "observed": 1622,
+      "expected": 1622,
+      "pass": true
+    },
+    "phone_health_finance": {
+      "observed": 1484,
+      "expected": 1484,
+      "pass": true
+    }
+  },
+  "positive_control": {
+    "skipped": false,
+    "hetu_health_finance": {
+      "observed": 1622,
+      "expected": 1622,
+      "pass": true
+    },
+    "phone_health_finance": {
+      "observed": 1484,
+      "expected": 1484,
+      "pass": true
+    },
+    "pass": true
+  },
+  "verdict": "PASS"
+}

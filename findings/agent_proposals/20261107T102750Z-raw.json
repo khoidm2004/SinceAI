@@ -1,0 +1,63 @@
+{
+  "thread_id": "20261107T102750Z-raw",
+  "mode": "shadow",
+  "decision": "shadow_logged",
+  "paths": {
+    "health_csv": "/Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/data/health/ed_visits.csv",
+    "finance_csv": "/Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/data/finance/customers.csv"
+  },
+  "timestamp": "2026-11-07T10:27:51.021368+00:00",
+  "report": {
+    "hetu_join": 1622,
+    "phone_join": 1484,
+    "samples": [
+      {
+        "hetu": "010137-922R",
+        "health_row_id": "ED25-018889",
+        "finance_row_id": "SB90230792"
+      },
+      {
+        "hetu": "010159-963R",
+        "health_row_id": "ED25-005079",
+        "finance_row_id": "SB87970591"
+      },
+      {
+        "hetu": "010256-997V",
+        "health_row_id": "ED25-014704",
+        "finance_row_id": "SB10666715"
+      }
+    ],
+    "proposals": [
+      {
+        "action": "drop",
+        "column": "patient_hetu",
+        "reason": "HETU cross-release join is 1622; drop glue column on health release"
+      },
+      {
+        "action": "drop",
+        "column": "hetu",
+        "reason": "HETU cross-release join is 1622; drop glue column on finance release"
+      },
+      {
+        "action": "re-tokenise",
+        "column": "phone",
+        "reason": "phone cross-release join is 1484; re-tokenise with distinct key domain"
+      },
+      {
+        "action": "re-tokenise",
+        "column": "phone",
+        "reason": "phone cross-release join is 1484; re-tokenise with distinct key domain"
+      }
+    ],
+    "columns_used": {
+      "health_hetu_col": "patient_hetu",
+      "finance_hetu_col": "hetu",
+      "health_phone_col": "phone",
+      "finance_phone_col": "phone",
+      "health_hetu_present": true,
+      "finance_hetu_present": true,
+      "health_phone_present": true,
+      "finance_phone_present": true
+    }
+  }
+}

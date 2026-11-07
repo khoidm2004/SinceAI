@@ -1,0 +1,411 @@
+{
+  "tool": "pets-eval 1.0.0",
+  "dataset": "health",
+  "scenario": {
+    "id": "HEALTH-S1",
+    "dataset": "health",
+    "title": "Secondary-use research in a controlled environment",
+    "recipient": "University research group studying ED crowding and revisits",
+    "purpose": "Analyse length of stay, revisits and diagnosis patterns",
+    "trust_level": "controlled_research",
+    "threat_model": "Researcher with access to public_directory, news_clips_health and social_posts_health; may try record linkage on QIs (age, sex, municipality, arrival time).",
+    "legal_context": "Pseudonymised data remains personal data (GDPR Recital 26); health data is Art. 9 special category. Comparable to a permit-based secure processing environment.",
+    "utility_requirements": [
+      "H-U2",
+      "H-U4",
+      "H-U6",
+      "H-U7",
+      "H-U8"
+    ],
+    "suggested_privacy_targets": "No direct identifiers; consistent pseudonymous patient key; QIs generalised so that k>=5 on (age band, sex, municipality, arrival week); free text redacted (recall >=0.95 on PERSON/PHONE/ADDRESS/NATIONAL_ID).",
+    "notes": "Revisit analysis needs a stable patient pseudonym and joinable visit/lab keys."
+  },
+  "original": "/Users/dominhkhoi/Project/SinceAI/resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026/data/health",
+  "protected": "/Users/dominhkhoi/Project/SinceAI/clean_data/health__HEALTH-S1",
+  "tables": {
+    "clinical_notes": {
+      "table": "clinical_notes",
+      "status": "withheld",
+      "rows_original": 30103
+    },
+    "ed_visits": {
+      "table": "ed_visits",
+      "status": "released",
+      "rows_original": 46398,
+      "rows_protected": 46398,
+      "columns_dropped": [
+        "patient_name",
+        "phone",
+        "home_address",
+        "attending_physician_name"
+      ],
+      "columns_added": [],
+      "direct_identifiers_retained": {},
+      "k_anonymity": {
+        "qis": [
+          "date_of_birth",
+          "sex",
+          "postcode",
+          "municipality",
+          "arrival_ts",
+          "arrival_mode",
+          "ambulance_unit",
+          "discharge_ts"
+        ],
+        "n": 46398,
+        "n_classes": 42782,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 0.8617,
+          "k<5": 0.9885,
+          "k<10": 0.9983
+        },
+        "sample_uniqueness": 0.8617
+      },
+      "k_anonymity_original": {
+        "qis": [
+          "date_of_birth",
+          "sex",
+          "postcode",
+          "municipality",
+          "arrival_ts",
+          "arrival_mode",
+          "ambulance_unit",
+          "discharge_ts"
+        ],
+        "n": 46398,
+        "n_classes": 46398,
+        "min_k": 1,
+        "median_k": 1.0,
+        "share_below": {
+          "k<2": 1.0,
+          "k<5": 1.0,
+          "k<10": 1.0
+        },
+        "sample_uniqueness": 1.0
+      },
+      "l_diversity": {
+        "evaluated": true,
+        "sensitive": "triage",
+        "qis": [
+          "date_of_birth",
+          "sex",
+          "postcode",
+          "municipality",
+          "arrival_ts",
+          "arrival_mode",
+          "ambulance_unit",
+          "discharge_ts"
+        ],
+        "min_distinct_l": 1,
+        "min_entropy_l": 1.0,
+        "share_records_l1": 0.899,
+        "share_classes_l1": 0.9543,
+        "n_classes": 42782
+      },
+      "row_alignment": "row map",
+      "linkage": {
+        "news_clips_health": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "time",
+              "adversary": [
+                "event_date",
+                "published_date"
+              ],
+              "protected": [
+                "arrival_ts"
+              ]
+            },
+            {
+              "kind": "exact",
+              "adversary": [
+                "place"
+              ],
+              "protected": [
+                "municipality"
+              ]
+            },
+            {
+              "kind": "age",
+              "adversary": [
+                "age_mentioned"
+              ],
+              "protected": [
+                "date_of_birth"
+              ]
+            },
+            {
+              "kind": "sex",
+              "adversary": [
+                "sex_mentioned"
+              ],
+              "protected": [
+                "sex"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 220,
+          "n_targets_in_data": 200,
+          "reidentification_rate": 0.025,
+          "claim_precision": 0.625,
+          "n_unique_claims": 8,
+          "share_targets_in_candidate_set_le5": 0.3,
+          "median_candidate_set": 8.0,
+          "attribute_inference": {
+            "sensitive": "icd10_primary",
+            "inferred": 6,
+            "base_rate_majority_guess": 0.19,
+            "advantage_over_base_rate": 0.0,
+            "success_rate": 0.025
+          },
+          "attack": "Local news: date and place of an accident, approximate age, sex, sometimes a name.",
+          "baseline_reidentification_rate_original": 0.185,
+          "risk_reduction": 0.8649
+        },
+        "social_posts_health": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "time",
+              "adversary": [
+                "posted_ts"
+              ],
+              "protected": [
+                "arrival_ts"
+              ]
+            },
+            {
+              "kind": "exact",
+              "adversary": [
+                "profile_city"
+              ],
+              "protected": [
+                "municipality"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 948,
+          "n_targets_in_data": 850,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0035,
+          "median_candidate_set": 402.0,
+          "attribute_inference": {
+            "sensitive": "icd10_primary",
+            "inferred": 0,
+            "base_rate_majority_guess": 0.1106,
+            "advantage_over_base_rate": 0.0,
+            "success_rate": 0.0
+          },
+          "attack": "Someone posts from the ED: time, first name, home city.",
+          "baseline_reidentification_rate_original": 0.5424,
+          "risk_reduction": 1.0
+        },
+        "public_directory": {
+          "evaluated": true,
+          "qis_used": [
+            {
+              "kind": "postcode",
+              "adversary": [
+                "postcode"
+              ],
+              "protected": [
+                "postcode"
+              ]
+            },
+            {
+              "kind": "exact",
+              "adversary": [
+                "city"
+              ],
+              "protected": [
+                "municipality"
+              ]
+            }
+          ],
+          "n_adversary_rows_tested": 3000,
+          "n_targets_in_data": 739,
+          "reidentification_rate": 0.0,
+          "claim_precision": null,
+          "n_unique_claims": 0,
+          "share_targets_in_candidate_set_le5": 0.0,
+          "median_candidate_set": 1613.0,
+          "attribute_inference": {
+            "sensitive": "icd10_primary",
+            "inferred": 0,
+            "base_rate_majority_guess": 0.1597,
+            "advantage_over_base_rate": 0.0,
+            "success_rate": 0.0
+          },
+          "attack": "Public address directory: name, street address, postcode, city.",
+          "baseline_reidentification_rate_original": 0.5697,
+          "risk_reduction": 1.0
+        }
+      },
+      "free_text": {
+        "chief_complaint": {
+          "evaluated": true,
+          "leakage_rate": 1.0,
+          "leakage_rate_chars": 1.0,
+          "identifying_leakage_rate": 0.0,
+          "per_label": {
+            "LOCATION": {
+              "n": 313,
+              "leaked": 313,
+              "rate": 1.0
+            },
+            "ORG": {
+              "n": 190,
+              "leaked": 190,
+              "rate": 1.0
+            }
+          },
+          "n_values": 503
+        }
+      },
+      "regex_residuals": {
+        "patient_hetu": {
+          "PHONE": 4
+        }
+      },
+      "risks": {
+        "direct identifiers retained": 0.0,
+        "records with k<5": 0.9885,
+        "linkage re-identification": 0.025,
+        "free-text identifier leakage": 0.0
+      },
+      "seconds": 4.1
+    },
+    "lab_results": {
+      "table": "lab_results",
+      "status": "withheld",
+      "rows_original": 130341
+    },
+    "published_weekly_stats": {
+      "table": "published_weekly_stats",
+      "status": "withheld",
+      "rows_original": 30169
+    }
+  },
+  "extra_protected_files": [],
+  "utility": [
+    {
+      "id": "H-U2",
+      "table": "ed_visits",
+      "kind": "aggregate",
+      "description": "Median length of stay by triage level",
+      "required": true,
+      "score": 1.0,
+      "metric": "mean relative error of median LOS by triage",
+      "detail": {
+        "rel_error": 0.0,
+        "orig": {
+          "A": 302.0,
+          "B": 348.0,
+          "C": 315.0,
+          "D": 221.0,
+          "E": 157.0
+        },
+        "prot": {
+          "A": 302.0,
+          "B": 348.0,
+          "C": 315.0,
+          "D": 221.0,
+          "E": 157.0
+        }
+      }
+    },
+    {
+      "id": "H-U4",
+      "table": "ed_visits",
+      "kind": "distribution",
+      "description": "Diagnosis-group mix in the eight largest municipalities",
+      "required": true,
+      "score": 1.0,
+      "metric": "1 - mean TVD/0.15 of diagnosis-group mix in top-8 municipalities",
+      "detail": {
+        "mean_tvd": 0.0
+      }
+    },
+    {
+      "id": "H-U6",
+      "table": "ed_visits",
+      "kind": "relationship",
+      "description": "30-day revisit rate by age band (needs readmit_30d or a consistent patient pseudonym)",
+      "required": true,
+      "score": 0.9638925850779434,
+      "metric": "mean |revisit rate diff| by age band / overall rate",
+      "detail": {
+        "rel_error": 0.0181,
+        "orig": {
+          "0-9": 0.2408,
+          "10-19": 0.0877,
+          "20-29": 0.0983,
+          "30-39": 0.081,
+          "40-49": 0.0881,
+          "50-59": 0.0856,
+          "60-69": 0.1616,
+          "70-79": 0.194,
+          "80+": 0.2934
+        },
+        "prot": {
+          "0-9": 0.2441,
+          "10-19": 0.0843,
+          "20-29": 0.0994,
+          "30-39": 0.0796,
+          "40-49": 0.0895,
+          "50-59": 0.0848,
+          "60-69": 0.1554,
+          "70-79": 0.1864,
+          "80+": 0.2952
+        }
+      }
+    },
+    {
+      "id": "H-U7",
+      "table": "lab_results",
+      "kind": "relationship",
+      "description": "CRP vs temperature relationship and CRP by diagnosis group (needs visit join)",
+      "required": true,
+      "score": null,
+      "metric": "not answerable",
+      "detail": {
+        "missing": [
+          "lab_results joinable to ed_visits via visit_id",
+          "temp_c"
+        ]
+      }
+    },
+    {
+      "id": "H-U8",
+      "table": "ed_visits",
+      "kind": "distribution",
+      "description": "Hour-of-day arrival curve",
+      "required": true,
+      "score": null,
+      "metric": "not answerable",
+      "detail": {
+        "missing": [
+          "arrival time of day"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "privacy": 0.3791,
+    "utility": 0.5928,
+    "composite": 0.4534,
+    "label": "self-assessment, not the official judging score",
+    "method": "privacy = 1 - (0.5*worst + 0.5*mean risk); utility = mean task score (required unanswerable = 0); composite = weighted harmonic mean (privacy 30, utility 25)"
+  },
+  "risk_components": {
+    "ed_visits: direct identifiers retained": 0.0,
+    "ed_visits: records with k<5": 0.9885,
+    "ed_visits: linkage re-identification": 0.025,
+    "ed_visits: free-text identifier leakage": 0.0
+  }
+}

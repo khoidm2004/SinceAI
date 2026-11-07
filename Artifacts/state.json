@@ -1,13 +1,37 @@
 {
   "task": "P8 multi-agent layer on Groq (adapter, specialists, kill switch, offline-safe)",
-  "branch": "task/p8-multi-agent-groq",
-  "status": "planning",
-  "current_agent": "planner",
-  "plan": null,
+  "branch": "main",
+  "status": "merged",
+  "current_agent": "none",
+  "plan": "Artifacts/PLAN.md",
   "attempt": 1,
   "consecutive_failures": 0,
   "bugs": [],
-  "files_changed": [],
-  "history": [],
-  "updated_at": "2026-11-07T10:18:04Z"
+  "files_changed": [
+    "app/agent_contracts.py",
+    "app/groq_client.py",
+    "app/agent_nodes.py",
+    "app/run_agents.py",
+    "app/agent_graph.py",
+    "scripts/final/run_agents.sh",
+    "findings/agent_groq.md",
+    "CLAUDE.md",
+    "INSTRUCTION.md",
+    "USAGE.md",
+    "scripts/final/STEPS.md"
+  ],
+  "commit": "223f563",
+  "merged_at": "2026-11-07T10:28:29Z",
+  "verification": {
+    "ops1": 0,
+    "baseline": 0,
+    "selftest": 0,
+    "agents_off": 0,
+    "agents_auto_no_key": 0,
+    "agents_on_no_key": 2,
+    "llm_stub": 0,
+    "mosaic_byte_identical": true,
+    "attack_sim": 0
+  },
+  "updated_at": "2026-11-07T10:28:29Z"
 }

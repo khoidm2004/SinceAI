@@ -16,12 +16,5 @@ resources/**/pets_eval.egg-info/
 resources/TRUSTED_SinceAI2026_FINAL/TRUSTED_PETS_PROVING_GROUND_2026 (1).zip
 resources/TRUSTED_SinceAI2026_FINAL/2026.11_SinceAI_TrustEDpresentation.mp4
 
-# P1+ outputs and secrets — never commit
+# Secrets — never commit (HMAC master key)
 keys/
-clean_data/
-
-# Attack + baseline evidence: raw-pack attack-sim writes real pack HETUs here
-findings/agent_proposals/
-findings/agent_checkpoints/
-findings/baseline_overlap.json
-

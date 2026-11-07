@@ -1,0 +1,128 @@
+{
+  "thread_id": "20261107T102746Z",
+  "mode": "shadow",
+  "agents": "on (stub — no network)",
+  "agents_enabled": true,
+  "provider": {
+    "provider": "groq",
+    "api_base": "https://api.groq.com/openai/v1",
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0.1,
+    "max_tokens": 800,
+    "timeout": 20.0,
+    "key_present": false,
+    "stub": true,
+    "prompt_version": "p8-a2-1"
+  },
+  "prompt_version": "p8-a2-1",
+  "candidate_hash": "44794d3d5b1def08329d45317cc2ab2e8063c93539b5e0513e77dd50e8efe66a",
+  "timestamp": "2026-11-07T10:27:47.370159+00:00",
+  "paths": {
+    "health_csv": "/Users/dominhkhoi/Project/SinceAI/clean_data/health__HEALTH-S1/ed_visits.csv",
+    "finance_csv": "/Users/dominhkhoi/Project/SinceAI/clean_data/finance__FIN-S2/customers.csv"
+  },
+  "decision": "shadow_logged",
+  "report": {
+    "hetu_join": 0,
+    "phone_join": 0,
+    "samples": [],
+    "proposals": [],
+    "columns_used": {
+      "health_hetu_col": "patient_hetu",
+      "finance_hetu_col": "hetu",
+      "health_phone_col": "phone",
+      "finance_phone_col": "phone",
+      "health_hetu_present": true,
+      "finance_hetu_present": true,
+      "health_phone_present": false,
+      "finance_phone_present": true
+    }
+  },
+  "agent_log": {
+    "supervisor": {
+      "status": "ok",
+      "output": {
+        "specialists": [
+          "classify_assist",
+          "minim_assist",
+          "brief_writer"
+        ],
+        "why": "stub"
+      },
+      "error": null,
+      "dropped": 0,
+      "latency_ms": 0,
+      "prompt_version": "p8-a2-1"
+    },
+    "classify_assist": {
+      "status": "no_input",
+      "output": {
+        "uncatalogued": [
+          {
+            "scenario_id": "HEALTH-S1",
+            "dataset": "health",
+            "table": "ed_visits",
+            "uncatalogued": []
+          },
+          {
+            "scenario_id": "FIN-S2",
+            "dataset": "finance",
+            "table": "customers",
+            "uncatalogued": []
+          }
+        ]
+      },
+      "error": null,
+      "dropped": 0,
+      "latency_ms": null,
+      "prompt_version": "p8-a2-1"
+    },
+    "minim_assist": {
+      "status": "ok",
+      "output": {
+        "candidates": []
+      },
+      "error": null,
+      "dropped": 0,
+      "latency_ms": 0,
+      "prompt_version": "p8-a2-1"
+    },
+    "redact_assist": {
+      "status": "stub_not_implemented",
+      "output": {
+        "note": "enable_a3 set, but A3 is out of P8/A2 scope — no free text is sent to any provider"
+      },
+      "error": null,
+      "dropped": 0,
+      "latency_ms": null,
+      "prompt_version": "p8-a2-1"
+    },
+    "discover_assist": {
+      "status": "stub_not_implemented",
+      "output": {
+        "note": "enable_a3 set, but A3 is out of P8/A2 scope — no free text is sent to any provider"
+      },
+      "error": null,
+      "dropped": 0,
+      "latency_ms": null,
+      "prompt_version": "p8-a2-1"
+    },
+    "brief_writer": {
+      "status": "ok",
+      "output": {
+        "brief": "Stub brief: cross-release identifier joins are 0 on the protected releases; the positive control still reproduces the baseline on raw data. The JSON report remains the record.",
+        "unknown_numbers": []
+      },
+      "error": null,
+      "dropped": 0,
+      "latency_ms": 0,
+      "prompt_version": "p8-a2-1"
+    }
+  },
+  "brief": "Stub brief: cross-release identifier joins are 0 on the protected releases; the positive control still reproduces the baseline on raw data. The JSON report remains the record.",
+  "selected_specialists": [
+    "classify_assist",
+    "minim_assist",
+    "brief_writer"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "thread_id": "20261107T102733Z",
+  "mode": "shadow",
+  "agents": "off (no GROQ_API_KEY)",
+  "agents_enabled": false,
+  "provider": null,
+  "prompt_version": "p8-a2-1",
+  "candidate_hash": "44794d3d5b1def08329d45317cc2ab2e8063c93539b5e0513e77dd50e8efe66a",
+  "timestamp": "2026-11-07T10:27:33.248791+00:00",
+  "paths": {
+    "health_csv": "/Users/dominhkhoi/Project/SinceAI/clean_data/health__HEALTH-S1/ed_visits.csv",
+    "finance_csv": "/Users/dominhkhoi/Project/SinceAI/clean_data/finance__FIN-S2/customers.csv"
+  },
+  "decision": "shadow_logged",
+  "report": {
+    "hetu_join": 0,
+    "phone_join": 0,
+    "samples": [],
+    "proposals": [],
+    "columns_used": {
+      "health_hetu_col": "patient_hetu",
+      "finance_hetu_col": "hetu",
+      "health_phone_col": "phone",
+      "finance_phone_col": "phone",
+      "health_hetu_present": true,
+      "finance_hetu_present": true,
+      "health_phone_present": false,
+      "finance_phone_present": true
+    }
+  },
+  "agent_log": {},
+  "brief": null,
+  "selected_specialists": []
+}
