@@ -1,5 +1,10 @@
 .claude/
 .cursor/
+opencode.jsonc
+.vscode
+.sinceai-local
+.*
+test_data/generated/
 
 # OS clutter
 .DS_Store
@@ -23,3 +28,9 @@ keys/
 
 agent_proposals/
 
+analyze/AI/index.html
+analyze/no_AI/index.html
+demo_bash.txt
+presentation.md
+SETUP.md
+!docs/SETUP.md
