@@ -165,7 +165,7 @@ def build_report(
 
 
 def print_summary(report: dict[str, Any], *, skip_pass2: bool) -> None:
-    print("SinceAI P3 — mosaic gate (health ∩ finance)")
+    print("Mosaic P3 — mosaic gate (health ∩ finance)")
     print(f"  pack:  {report['pack_root']}")
     print(f"  clean: {report['clean_root']}")
     print()

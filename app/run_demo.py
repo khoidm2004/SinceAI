@@ -371,7 +371,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     clean_root = args.clean_root.resolve()
     hetu = args.hetu
 
-    print("SinceAI P7 — Attack A demo (health ∩ finance, no LangGraph)")
+    print("Mosaic P7 — Attack A demo (health ∩ finance, no LangGraph)")
     print(f"  pack:  {pack_root}")
     print(f"  clean: {clean_root}")
 

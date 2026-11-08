@@ -104,7 +104,7 @@ def _run_selftest() -> int:
         print(f"{mark} {name} — {detail}")
         all_ok = all_ok and ok
 
-    ckpt_dir = Path(tempfile.mkdtemp(prefix="sinceai-agent-selftest-"))
+    ckpt_dir = Path(tempfile.mkdtemp(prefix="mosaic-agent-selftest-"))
     checkpointer = FileCheckpointer(ckpt_dir)
     compiled = build_graph(checkpointer, agents_enabled=True)
     inner = compiled._graph
@@ -138,7 +138,7 @@ def _run_selftest() -> int:
 
 def _print_summary(payload: dict[str, Any], agent_log: dict[str, Any]) -> None:
     report = payload["report"]
-    print("SinceAI P8 — multi-agent layer")
+    print("Mosaic P8 — multi-agent layer")
     print(f"  agents:    {payload.get('agents', '')}")
     print(f"  mode:      {payload['mode']}")
     print(f"  decision:  {payload['decision']}")
@@ -224,7 +224,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     else:
         provider_line = "(disabled)"
 
-    print("SinceAI P8 — multi-agent layer")
+    print("Mosaic P8 — multi-agent layer")
     print(f"  agents:   {label}")
     print(f"  provider: {provider_line}")
 

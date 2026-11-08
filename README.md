@@ -1,4 +1,4 @@
-# SinceAI
+# Mosaic
 
 Cross-release **mosaic defence** for the TrustED PETs proving ground: unprotected pack releases in → protected releases out that no longer join across controllers on HETU or normalised phone.
 
@@ -14,7 +14,7 @@ bash scripts/final/run_release.sh    # or run_demo.sh for the narrated path
 
 **Threat story.** Pack scenarios (HEALTH-S1, FIN-S2 in `metadata/scenarios.json`) define two *separate* outward releases for different recipients. A **linkage attacker** who obtains *both* extracts — e.g. via leak, resale, or a black-market dump — can join on shared identifiers (HETU / phone) to rebuild a richer profile (health + finance) and abuse it (phishing, fraud, scams). They need not hack either controller live: the harm is in **combining** releases that still share joinable glue.
 
-**SinceAI** role-plays that attacker on unprotected pack `data/` (baseline joins), then protects so the same join fails on `clean_data/`.
+**Mosaic** role-plays that attacker on unprotected pack `data/` (baseline joins), then protects so the same join fails on `clean_data/`.
 
 ```text
 Controller(s)
@@ -30,7 +30,7 @@ Controller(s)
                     HETU / phone join  →  mosaic profile
                     (raw data/: 1622 / 1484 people)
                                   │
-                    SinceAI protect (per-release HMAC)
+                    Mosaic protect (per-release HMAC)
                                   │
                                   ▼
                     same join on clean_data/  →  0 / 0

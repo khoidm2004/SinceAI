@@ -86,7 +86,7 @@ def _write_report(payload: dict[str, Any], out_path: Path) -> None:
 
 def _print_summary(payload: dict[str, Any]) -> None:
     report = payload["report"]
-    print("SinceAI P2 — attack_sim agent")
+    print("Mosaic P2 — attack_sim agent")
     print(f"  mode:      {payload['mode']}")
     print(f"  decision:  {payload['decision']}")
     print(f"  thread_id: {payload['thread_id']}")

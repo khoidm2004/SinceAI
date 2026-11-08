@@ -521,7 +521,7 @@ def render_html(payload: dict[str, Any]) -> str:
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SinceAI · protect analysis</title>
+<title>Mosaic · protect analysis</title>
 <style>
   :root {{
     --bg: #f3efe6;
@@ -682,7 +682,7 @@ def render_html(payload: dict[str, Any]) -> str:
 </head>
 <body>
 <header>
-  <h1>SinceAI protect analysis</h1>
+  <h1>Mosaic protect analysis</h1>
   <p>
     Side-by-side original vs protected releases for worked-example person
     <strong>{_e(payload["demo_person"])}</strong>
@@ -789,7 +789,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     joins = payload["joins"]
-    print("SinceAI analyze report")
+    print("Mosaic analyze report")
     print(f"  demo:     {payload['demo_person']} / {payload['demo_hetu']}")
     print(
         f"  joins:    before HETU={joins['before_protect']['hetu_join']} "

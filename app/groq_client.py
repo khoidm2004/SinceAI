@@ -168,7 +168,7 @@ class GroqClient:
             headers={
                 "Content-Type": "application/json",
                 "Authorization": f"Bearer {self.config.api_key}",
-                "User-Agent": "SinceAI-P8/1",
+                "User-Agent": "Mosaic-P8/1",
             },
             method="POST",
         )

@@ -226,7 +226,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     verdict = "PASS" if (validation_ok and raw_ok and policies_present and every_hetu_pass and no_measured_phone_gt0) else "FAIL"
 
     report = {
-        "schema": "sinceai.testdata_gate.v1",
+        "schema": "mosaic.testdata_gate.v1",
         "run": run_dir.name,
         "pack_root": str(pack_root),
         "protected_root": str(protected_root),
@@ -239,7 +239,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     }
 
     # print mosaic_check-style table
-    print("SinceAI test-pack gate — health ∩ finance")
+    print("Mosaic test-pack gate — health ∩ finance")
     print(f"  run:        {run_dir.name}")
     print(f"  pack:       {pack_root}")
     print(f"  protected:  {protected_root}")

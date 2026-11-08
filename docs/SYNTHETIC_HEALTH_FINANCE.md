@@ -1,6 +1,6 @@
 # Synthetic Health + Finance test pack — methodology
 
-This document explains the independent, fully synthetic Health + Finance dataset that SinceAI uses to test its
+This document explains the independent, fully synthetic Health + Finance dataset that Mosaic uses to test its
 own protection pipeline, cross-domain attack and `pets-eval` evaluation, without touching the official TrustED
 challenge data. Every run also writes a run-specific `reports/index.html`, `reports/report.json` and
 `reports/methodology.md` with the measured numbers.
@@ -11,7 +11,7 @@ The official pack (`resources/TRUSTED_SinceAI2026_FINAL/…`) is the source of t
 scenarios and attacks, but it is a single fixed draw: one population, one set of overlaps (Attack A: 1622 HETU /
 1484 phone joins). A generator lets the team:
 
-- test the actual SinceAI code on data with **known ground truth** (who is who, who is in both domains);
+- test the actual Mosaic code on data with **known ground truth** (who is who, who is in both domains);
 - vary population size, overlap and missing-identifier rates and see the effect;
 - run the full pipeline — protect → attack → `pets-eval` — repeatedly and reproducibly;
 - demo the mosaic attack without exposing even synthetic official rows in slides.

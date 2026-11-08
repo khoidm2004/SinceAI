@@ -139,7 +139,7 @@ def build_report(
 def print_summary(report: dict[str, Any]) -> None:
     counts = report["counts"]
     joins = report["joins"]
-    print("SinceAI P0 — Attack A baseline (health ∩ finance), unprotected data")
+    print("Mosaic P0 — Attack A baseline (health ∩ finance), unprotected data")
     print(f"pack root: {report['pack_root']}")
     print()
     print(

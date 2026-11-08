@@ -1,6 +1,6 @@
-# SinceAI — project environment setup (uv)
+# Mosaic — project environment setup (uv)
 
-This guide sets up the Python environment for the SinceAI application under
+This guide sets up the Python environment for the Mosaic application under
 `app/` and its shell entry points under `scripts/final/`. (The root `SETUP.md`
 documents the separate OpenCode agent pack and is unrelated to this guide.)
 
@@ -155,7 +155,7 @@ uv run pytest                 # project tests in tests/ (provider mocked; no net
 Live provider check (sends one tiny synthetic payload; needs `API_KEY`):
 
 ```bash
-SINCEAI_LIVE_LLM=1 uv run pytest -s tests/test_llm_live.py
+MOSAIC_LIVE_LLM=1 uv run pytest -s tests/test_llm_live.py
 ```
 
 **Vendored pack tests.** Don't run them in place: `tests/test_toolkit.py` starts a
@@ -251,7 +251,7 @@ The `test_manifest_checksums` and `test_spans_match_text` pack tests fail the
 same way. To get a byte-exact checkout, clone with LF endings:
 
 ```bash
-git -c core.autocrlf=false clone https://github.com/khoidm2004/SinceAI.git
+git -c core.autocrlf=false clone https://github.com/khoidm2004/Mosaic.git
 ```
 
 Or use WSL, where `autocrlf` is normally off. Don't "fix" an existing checkout by

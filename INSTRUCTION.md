@@ -1,6 +1,6 @@
-# SinceAI — attack, defend, measure
+# Mosaic — attack, defend, measure
 
-SinceAI is a cross-release mosaic defence for the TrustED PETs proving ground:
+Mosaic is a cross-release mosaic defence for the TrustED PETs proving ground:
 unprotected pack releases in, protected releases out that no longer join on HETU or
 normalised phone across health and finance. **Always run commands from the repo
 root.**

@@ -1,4 +1,4 @@
-"""R2 identifier normalisation for SinceAI.
+"""R2 identifier normalisation for Mosaic.
 
 Pure functions, no I/O, no side effects. Shared by:
   - app/measure_baseline.py  (P0 baseline positive control)

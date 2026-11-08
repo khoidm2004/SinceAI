@@ -1,10 +1,10 @@
-# SinceAI
+# Mosaic
 
 ## Project
 <!-- One paragraph: what this project is, input -> output. Point at the doc
      that holds the full technical plan (if one exists) instead of
      duplicating it here. -->
-SinceAI builds a cross-release mosaic defence for the TrustED PETs proving
+Mosaic builds a cross-release mosaic defence for the TrustED PETs proving
 ground: unprotected pack releases in -> protected releases out that no longer
 join across controllers. The first check re-measures Attack A's health ∩
 finance baseline and locks it at 1622 (HETU) / 1484 (normalised phone). Full

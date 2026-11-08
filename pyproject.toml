@@ -1,4 +1,4 @@
-# SinceAI — uv-managed project environment.
+# Mosaic — uv-managed project environment.
 #
 # The application under app/ is a set of standalone CLI scripts (not an
 # installable package) and uses only the Python standard library, so the core
@@ -14,7 +14,7 @@
 # See docs/SETUP.md for the full guide.
 
 [project]
-name = "sinceai"
+name = "mosaic"
 version = "0.1.0"
 description = "Cross-release mosaic defence for the TrustED PETs Proving Ground 2026."
 readme = "README.md"
@@ -43,5 +43,5 @@ package = false
 testpaths = ["tests"]
 pythonpath = ["app"]
 markers = [
-    "live: calls the real LLM provider; skipped unless SINCEAI_LIVE_LLM=1",
+    "live: calls the real LLM provider; skipped unless MOSAIC_LIVE_LLM=1",
 ]

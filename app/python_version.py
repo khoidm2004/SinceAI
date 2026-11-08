@@ -18,7 +18,7 @@ def require_python() -> None:
         have = ".".join(str(part) for part in sys.version_info[:3])
         need = ".".join(str(part) for part in _MIN)
         print(
-            f"SinceAI requires Python >={need} (this interpreter is {have}). "
+            f"Mosaic requires Python >={need} (this interpreter is {have}). "
             "See scripts/final/STEPS.md for how to switch.",
             file=sys.stderr,
         )

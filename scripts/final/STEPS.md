@@ -1,4 +1,4 @@
-# SinceAI — step-by-step run guide
+# Mosaic — step-by-step run guide
 
 These are the user-facing shell entry points. Each one is a thin wrapper around
 a module in `app/`, and each sources `../material/common.sh` for the repo-root

@@ -367,7 +367,7 @@ def render(rep: Dict[str, Any]) -> str:
                    ("transforms", "PET actions"), ("scorecards", "Scorecards"), ("composite", "Score formulas"), ("performance", "Performance"), ("tests", "Tests"),
                    ("limitations", "Limitations"), ("repro", "Reproduce")))
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Synthetic H+F test pack</title>'
-            f"<style>{CSS}</style></head><body><header><button class='theme' id='theme' type='button'>Light / dark</button><h1>SinceAI synthetic Health + Finance test pack</h1>"
+            f"<style>{CSS}</style></head><body><header><button class='theme' id='theme' type='button'>Light / dark</button><h1>Mosaic synthetic Health + Finance test pack</h1>"
             f"<div class='sub'>Run {E(rep['run_id'])} &middot; {E(rep['generator'])} &middot; seed {rep['seed']} &middot; fully synthetic, aggregates only</div><nav>{nav}</nav></header>"
             f"<main>{''.join(out)}</main><script>document.getElementById('theme').onclick=function(){{var r=document.documentElement,d=r.getAttribute('data-theme')==='dark'||"
             "(!r.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme: dark)').matches);r.setAttribute('data-theme',d?'light':'dark')}</script></body></html>")

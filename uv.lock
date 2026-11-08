@@ -1125,7 +1125,7 @@ wheels = [
 ]
 
 [[package]]
-name = "sinceai"
+name = "mosaic"
 version = "0.1.0"
 source = { virtual = "." }
 

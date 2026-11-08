@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Multi-table protection of a synthetic test pack with SinceAI's EXISTING PET implementation.
+"""Multi-table protection of a synthetic test pack with Mosaic's EXISTING PET implementation.
 
 The official P1 runner (app/run_protect.py) protects one table per scenario
 (HEALTH-S1 -> ed_visits, FIN-S2 -> customers) and writes to clean_data/. The scenario utility tasks
@@ -48,7 +48,7 @@ from synth_common import (  # noqa: E402
 )
 
 POLICIES = {
-    "current": "Current SinceAI PET pipeline applied per table, no overrides (app/pet_pipeline.protect_table as-is).",
+    "current": "Current Mosaic PET pipeline applied per table, no overrides (app/pet_pipeline.protect_table as-is).",
     "relational": "Current pipeline + documented classifier override: release-internal join-key columns are treated as "
                   "technical_identifier so all of them are tokenised with the same release subkey (joins survive inside the "
                   "release, not across releases); card_pan tokenised per FIN-S2 'tokenised card'.",
@@ -202,7 +202,7 @@ def protect_release(pack: Path, out_root: Path, rowmap_root: Path, master: bytes
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
     utf8_stdout()
-    p = argparse.ArgumentParser(description="Protect a synthetic test pack with SinceAI's PET pipeline (all scenario tables)")
+    p = argparse.ArgumentParser(description="Protect a synthetic test pack with Mosaic's PET pipeline (all scenario tables)")
     p.add_argument("--run-dir", type=Path, required=True, help="run directory created by generate_test_data.py")
     p.add_argument("--policy", choices=["current", "relational", "both"], default="both")
     p.add_argument("--key-file", type=Path, default=None, help="default: <run>/private/master.key (temporary, per run)")

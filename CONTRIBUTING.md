@@ -1,4 +1,4 @@
-# Contributing to SinceAI
+# Contributing to Mosaic
 
 ## Commit convention
 
