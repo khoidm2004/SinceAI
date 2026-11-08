@@ -106,4 +106,5 @@ Agents run **after** protect on already-built releases. They do **not** choose w
 | [`findings/MVP_Plan.md`](findings/MVP_Plan.md) | Technical plan |
 | Pack `docs/EVALUATION.md` / `docs/SCENARIOS.md` | pets-eval metrics and scenario text |
 |Slides|https://canva.link/1dutfazmfhmyrgb|
+|[Demo Video](https://youtu.be/upakRzSFs90)||
 
